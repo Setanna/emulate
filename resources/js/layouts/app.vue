@@ -8,20 +8,13 @@
                 <router-link :to="{ name: 'home' }" class="no-text-link navbar-title">
                     Emulate:
                 </router-link>
-                <!--
-                <select class="select navbar-title title" :class="{'select-closed': intro, 'select-opened': !intro}"
-                        name="genre-select" v-model="genre" v-on:change="changeGenre(genre)">
-                    <option v-for="genre in genres" :value="genre.name">{{ genre.name }}</option>
-                </select>
-                -->
             </div>
 
             <!-- Navbar Menu -->
             <div class="navbar-menu">
                 <!-- Search Input -->
                 <input class="search sub-title" placeholder="Search" v-model="search_text" @input="search(this.text)"
-                       @focusin="this.searchFocus = true" @focusout="this.searchFocus = false"
-                       :class="{'search-closed': intro, 'search-opened': !intro}">
+                       @focusin="this.searchFocus = true" @focusout="this.searchFocus = false">
             </div>
         </div>
 
@@ -57,7 +50,6 @@
 
 <script>
 import axios from "axios";
-import router from "../router.js";
 
 export default {
     data() {
