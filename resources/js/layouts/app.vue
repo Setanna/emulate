@@ -14,7 +14,8 @@
             <div class="navbar-menu">
                 <!-- Search Input -->
                 <input class="search sub-title" placeholder="Search" v-model="search_text" @input="search(this.text)"
-                       @focusin="this.searchFocus = true" @focusout="this.searchFocus = false">
+                       @focusin="this.searchFocus = true" @focusout="this.searchFocus = false"
+                       :class="{'search-closed': !search_state, 'search-opened': search_state}">
             </div>
         </div>
 
@@ -61,6 +62,7 @@ export default {
             genre: null,
             search_text: '',
             /* booleans */
+            search_state: false,
             searchFocus: false
         }
     },
@@ -80,6 +82,11 @@ export default {
                         console.log("Error: " + error)
                     })
             }
+        }
+    },
+    watch: {
+        '$route'() {
+            this.search_state = this.$route.name !== "home";
         }
     },
 }
