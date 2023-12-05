@@ -44,6 +44,14 @@ class GenreController extends Controller
     }
 
     /**
+     * Display the specified resource.
+     */
+    public function showName($name)
+    {
+        return new GenreResource(Genre::where('name', 'like', $name)->first());
+    }
+
+    /**
      * Show the form for editing the specified resource.
      */
     public function edit(Genre $genre)

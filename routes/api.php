@@ -28,13 +28,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Search
-Route::get('search/{search}', [SearchController::class, 'search'])->name('search');
-
-// Authentication
-Route::get('auth/login', [AuthController::class, 'login'])->name('login');
-Route::get('auth/register', [AuthController::class, 'register'])->name('register');
-
 /* Group to hold all protected routes */
 Route::group(['middleware' => ['auth:sanctum']], function () {
     /* Get current user */
@@ -57,5 +50,17 @@ Route::group(['middleware' => ['auth:sanctum']], function () {
     Route::apiResource('/user', UserController::class);
 });
 
+/* Unprotected Routes */
 
+// Search
+Route::get('search/{search}', [SearchController::class, 'search'])->name('search');
+
+// Authentication
+Route::get('auth/login', [AuthController::class, 'login'])->name('login');
+Route::get('auth/register', [AuthController::class, 'register'])->name('register');
+
+// Basic CRUD API
 Route::apiResource('/genre', GenreController::class);
+
+// Custom Functions
+Route::get('/genre/name/{name}', [GenreController::class, 'showName'])->name('showName');
