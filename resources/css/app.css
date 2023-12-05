@@ -154,9 +154,8 @@ h1, h2, h3, h4, h5, h6, p, a {
     text-decoration: none;
     border: none;
     box-sizing: border-box;
-    transition: all 1s;
-    transition-delay: 3s;
     padding: 0 5px;
+    height: 34px;
 }
 
 .search:hover {
@@ -169,18 +168,6 @@ h1, h2, h3, h4, h5, h6, p, a {
     text-decoration: none;
     border: none;
     outline: none;
-}
-
-.search-closed {
-    height: 0;
-    transition: all 1s;
-    transition-delay: 3s;
-}
-
-.search-opened {
-    height: 34px;
-    transition: all 1s;
-    transition-delay: 3s;
 }
 
 .search-results {
