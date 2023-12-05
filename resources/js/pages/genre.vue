@@ -16,12 +16,12 @@ export default {
             genre: null
         }
     },
-    // is necessary when changing to the same route but with different parameters
+    // watch for route parameter id change
     watch: {
         '$route.params.id': {
             handler(id) {
                 console.log(id)
-                // fetch new channel content when a query param is changed.
+                // fetch new genre when parameter id is changed
                 if(id !== undefined){
                     axios.get('/api/genre/' + id).then(response => {
                         this.genre = response.data
@@ -29,6 +29,8 @@ export default {
                         .catch(error => {
                             console.log("Watch error: " + error)
                         })
+                }else{
+                    this.genre = null;
                 }
             },
             immediate: true,
