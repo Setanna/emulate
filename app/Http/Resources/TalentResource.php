@@ -24,6 +24,7 @@ class TalentResource extends JsonResource
             'description'           => $this->description,
             'system'                => $this->system,
             'book'                  => $this->book->name,
+            'genre'                 => $this->book->genre->name,
             'talent_categories'     => $this->talent_categories->pluck('name'),
             'required_talents'      => $this->required_talent->pluck('name'),
             'requirements'          => $this->talent_requirements->pluck('name'),

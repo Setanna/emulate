@@ -70,4 +70,15 @@ class TalentController extends Controller
 
         return response()->json(["Talent deleted"]);
     }
+
+    /* Custom Functions */
+
+    /**
+     * Display talents by genre.
+     */
+    public function showGenre($genre)
+    {
+        $talents = $this->index();
+        return $talents->collect(['genre' => $genre]);
+    }
 }

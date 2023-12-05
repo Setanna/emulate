@@ -38,7 +38,6 @@ Route::group(['middleware' => ['auth:sanctum']], function () {
     // Basic CRUD API
     Route::apiResource('/genre', GenreController::class);
     Route::apiResource('/book', BookController::class);
-    Route::apiResource('/talent', TalentController::class);
     Route::apiResource('/talent_requirement', TalentRequirementController::class);
     Route::apiResource('/requirement', RequirementController::class);
     Route::apiResource('/category', CategoryController::class);
@@ -61,6 +60,8 @@ Route::get('auth/register', [AuthController::class, 'register'])->name('register
 
 // Basic CRUD API
 Route::apiResource('/genre', GenreController::class);
+Route::apiResource('/talent', TalentController::class);
 
 // Custom Functions
 Route::get('/genre/name/{name}', [GenreController::class, 'showName'])->name('showName');
+Route::get('/talent/genre/{genre}', [TalentController::class, 'showGenre'])->name('showGenre');
