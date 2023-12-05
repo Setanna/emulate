@@ -10,7 +10,7 @@ const router = createRouter({
         },
         {
             name: 'genres',
-            path: '/:id',
+            path: '/:name',
             component: () => import('./pages/genre.vue')
         },
         {
