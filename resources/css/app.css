@@ -1,0 +1,262 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: "Montserrat", serif;
+    color: var(--dark-text-color);
+}
+
+:root {
+    /* Root Variables */
+    --reverse-text-color: #000000;
+    --shadow-color: rgba(0, 0, 0, 0.2);
+    --dark-text-color: #eeeeee;
+    --text-color: #ffffff;
+    --primary-color: #806cd8;
+    --secondary-color: #4a37a0;
+    --tertiary-color: #2a2d63;
+
+    /* VueForm variables */
+    /* Tag */
+    --ms-tag-bg: var(--primary-color);
+    --ms-tag-color: var(--text-color);
+
+    /* Dropdown */
+    --ms-dropdown-bg: var(--secondary-color);
+    --ms-dropdown-border-color: none;
+    --ms-dropdown-radius: 2px;
+
+    /* Select */
+    --ms-bg: var(--secondary-color);
+    --ms-bg-disabled: var(--tertiary-color);
+    --ms-border-color: none;
+    --ms-ring-color: none;
+    --ms-placeholder-color: var(--dark-text-color);
+    --ms-spinner-color: none;
+    --ms-radius: 2px;
+
+    /* Options */
+    --ms-option-bg-pointed: var(--primary-color);
+    --ms-option-color-pointed: var(--reverse-text-color);
+    --ms-option-bg-selected: var(--primary-color);
+    --ms-option-color-selected: var(--reverse-text-color);
+    --ms-option-bg-selected-pointed: var(--primary-color);
+    --ms-option-color-selected-pointed: var(--reverse-text-color);
+    --ms-empty-color: var(--dark-text-color);
+}
+
+.page {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Text & Titles */
+.title {
+    color: var(--dark-text-color);
+    font-family: "Montserrat", serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.sub-title {
+    color: var(--dark-text-color);
+    font-family: "Montserrat", serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Component */
+.component {
+    overflow: hidden;
+    max-width: 80%;
+    min-width: 60%;
+    height: 100%;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    flex-direction: column;
+    min-width: 15%;
+    max-width: 20%;
+    align-items: start;
+    z-index: 5;
+}
+
+.navbar-header {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    height: 49px;
+    transition: height 1s;
+}
+
+.navbar-header-expanded {
+    height: 93px;
+}
+
+.navbar-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.navbar-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Elements */
+.select {
+    background-color: var(--tertiary-color);
+    border: none;
+    text-align: center;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    transition: height 1s;
+    transition-delay: 2s;
+}
+
+.select-closed {
+    transition: all 1s;
+    transition-delay: 2s;
+    padding: 0;
+    height: 0;
+}
+
+.select-opened {
+    transition: all 1s;
+    transition-delay: 2s;
+    height: 100%;
+    padding: 0 0 5px;
+}
+
+.search {
+    background-color: var(--primary-color);
+    width: 100%;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+    transition: all 1s;
+    transition-delay: 3s;
+    padding: 0 5px;
+}
+
+.search:hover {
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+.search:focus {
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+.search-closed {
+    height: 0;
+    transition: all 1s;
+    transition-delay: 3s;
+}
+
+.search-opened {
+    height: 34px;
+    transition: all 1s;
+    transition-delay: 3s;
+}
+
+.search-results {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: width 1s;
+    width: 0;
+}
+
+.search-results-opened {
+    min-width: 10%;
+    max-width: 20%;
+    transition: width 1s;
+}
+
+/* Background Colors */
+.background-primary {
+    background-color: var(--primary-color);
+}
+
+.background-secondary {
+    background-color: var(--secondary-color);
+}
+
+.background-tertiary {
+    background-color: var(--tertiary-color);
+}
+
+/* Router Link */
+.no-text-link {
+    text-decoration: none;
+    text-underline: none;
+}
+
+/* Deck & Cards */
+.deck {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.card {
+    height: fit-content;
+    margin: 5px;
+    flex: 1;
+    border-radius: 5px;
+}
+
+.card-body {
+    padding: 5px;
+}
+
+.card-image {
+    max-width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+
+}
+
+.card-text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+/* Genre */
+.genre {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}

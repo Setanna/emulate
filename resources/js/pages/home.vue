@@ -1,0 +1,4 @@
+<!-- home.vue -->
+<template>
+
+</template>
