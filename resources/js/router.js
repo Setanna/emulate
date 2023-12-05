@@ -14,6 +14,11 @@ const router = createRouter({
             component: () => import('./pages/genre.vue')
         },
         {
+            name: 'talents',
+            path: '/:name/talents',
+            component: () => import('./pages/talents.vue')
+        },
+        {
             name: 'login',
             path: '/login',
             component: () => import('./pages/login.vue')
