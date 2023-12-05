@@ -44,14 +44,6 @@ class GenreController extends Controller
     }
 
     /**
-     * Display the specified resource.
-     */
-    public function showName($name)
-    {
-        return new GenreResource(Genre::where('name', 'like', $name)->first());
-    }
-
-    /**
      * Show the form for editing the specified resource.
      */
     public function edit(Genre $genre)
@@ -77,5 +69,15 @@ class GenreController extends Controller
         $genre->delete();
 
         return response()->json(["Genre deleted"]);
+    }
+
+    /* Custom Functions */
+
+    /**
+     * Display the specified resource by name.
+     */
+    public function showName($name)
+    {
+        return new GenreResource(Genre::where('name', 'like', $name)->first());
     }
 }
