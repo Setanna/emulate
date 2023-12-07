@@ -4,10 +4,11 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Laravel\Scout\Searchable;
 
 class TalentTrait extends Model
 {
-    use HasFactory;
+    use Searchable, HasFactory;
 
     protected $fillable = [
         'talent_id',
