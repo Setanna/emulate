@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Auth;
 
+
 class AuthController extends Controller
 {
     public function register(Request $request){
@@ -29,7 +30,7 @@ class AuthController extends Controller
         $expirationsDate = Carbon::now()->addHour();
 
         // create a token
-        $token = $user->createToken('authToken', ['*'], $expirationsDate)->plainTextToken;
+        $token = $user->createToken('authToken', ['change password', 'change email', 'password reset', 'read'], $expirationsDate)->plainTextToken;
 
         return response()->json([
             'access_token' => $token,
@@ -50,7 +51,7 @@ class AuthController extends Controller
         $expirationsDate = Carbon::now()->addHour();
 
         // create a token
-        $token = $user->createToken('authToken', ['*'], $expirationsDate)->plainTextToken;
+        $token = $user->createToken('authToken', ['change password', 'change email', 'password reset', 'read'], $expirationsDate)->plainTextToken;
 
         return response()->json([
             'access_token' => $token,

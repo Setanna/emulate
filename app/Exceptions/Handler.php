@@ -2,6 +2,7 @@
 
 namespace App\Exceptions;
 
+use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Database\QueryException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
@@ -54,6 +55,12 @@ class Handler extends ExceptionHandler
 
             // else return laravel error message
             return response()->json($e);
+        }
+
+        if ($e instanceof AuthorizationException) {
+            return response()->json([
+                'message' => 'Unauthorized'
+            ],401);
         }
 
         return parent::render($request, $e);

@@ -28,14 +28,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-/* Group to hold all protected routes */
-Route::group(['middleware' => ['auth:sanctum']], function () {
-    /* Get current user */
-    Route::get('/user', function (Request $request) {
-        return $request->user();
-    });
+/* Get current user */
+Route::get('/user', function (Request $request) {
+    return $request->user();
+});
 
-    // Basic CRUD API
+/* CRUD group */
+Route::group(['middleware' => ['auth:sanctum', 'abilities:create,read,update,destroy']], function () {
     Route::apiResource('/genre', GenreController::class);
     Route::apiResource('/book', BookController::class);
     Route::apiResource('/talent_requirement', TalentRequirementController::class);
@@ -51,16 +50,34 @@ Route::group(['middleware' => ['auth:sanctum']], function () {
 
 /* Unprotected Routes */
 
+/* Read - Get */
+Route::get('/genre', [GenreController::class, 'index']);
+Route::get('/genre/{id}', [GenreController::class, 'show']);
+Route::get('/book', [BookController::class, 'index']);
+Route::get('/book/{id}', [BookController::class, 'show']);
+Route::get('/talent_requirement', [TalentCategoryController::class, 'index']);
+Route::get('/talent_requirement/{id}', [TalentRequirementController::class, 'show']);
+Route::get('/requirement', [RequirementController::class, 'index']);
+Route::get('/requirement/{id}', [RequirementController::class, 'show']);
+Route::get('/category', [CategoryController::class, 'index']);
+Route::get('/category/{id}', [CategoryController::class, 'show']);
+Route::get('/talent_category', [TalentCategoryController::class, 'index']);
+Route::get('/talent_category/{id}', [TalentCategoryController::class, 'show']);
+Route::get('/trait', [TraitController::class, 'index']);
+Route::get('/trait/{id}', [TraitController::class, 'show']);
+Route::get('/talent_trait', [TalentTraitController::class, 'index']);
+Route::get('/talent_trait/{id}', [TalentTraitController::class, 'show']);
+Route::get('/required_talent', [RequiredTalentController::class, 'index']);
+Route::get('/required_talent/{id}', [RequiredTalentController::class, 'show']);
+Route::get('/rule', [RuleController::class, 'index']);
+Route::get('/rule/{id}', [RuleController::class, 'show']);
+
 // Search
 Route::get('search/{search}', [SearchController::class, 'search'])->name('search');
 
 // Authentication
 Route::get('auth/login', [AuthController::class, 'login'])->name('login');
 Route::get('auth/register', [AuthController::class, 'register'])->name('register');
-
-// Basic CRUD API
-Route::apiResource('/genre', GenreController::class);
-Route::apiResource('/talent', TalentController::class);
 
 // Custom Functions
 Route::get('/genre/name/{name}', [GenreController::class, 'showName'])->name('showName');
