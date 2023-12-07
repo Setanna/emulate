@@ -20,19 +20,9 @@
         </div>
 
         <!-- Search Results -->
-        <div class="background-secondary search-results" v-show="search_results"
-             :class="{'search-results-opened': search_results.error || search_results.talents || search_results.traits}">
-            <!-- No Search Results -->
-            <div v-show="search_results.error">
-                <a>{{ search_results.error }}</a>
-            </div>
-            <!-- Talents -->
-            <div v-for="talents in search_results.talents">
-                <a>{{ talents.name }}</a>
-            </div>
-            <!-- traits -->
-            <div v-for="traits in search_results.traits">
-                <a>{{ traits.name }}</a>
+        <div class="background-secondary search-results" v-if="search_results.length" :class="{'search-results-opened': search_results.error || search_results !== {}}">
+            <div v-for="search_result in search_results">
+                <a>{{ search_result.name }}</a>
             </div>
         </div>
 
@@ -76,6 +66,7 @@ export default {
                 axios.get('/api/search/' + Search).then(response => {
                     if (this.search_text !== "") {
                         this.search_results = response.data
+                        console.log(response.data);
                     }
                 })
                     .catch(error => {
