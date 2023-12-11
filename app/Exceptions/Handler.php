@@ -6,6 +6,7 @@ use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Database\QueryException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use Laravel\Sanctum\Exceptions\MissingAbilityException;
 use Throwable;
 
 class Handler extends ExceptionHandler
@@ -55,6 +56,12 @@ class Handler extends ExceptionHandler
 
             // else return laravel error message
             return response()->json($e);
+        }
+
+        if($e instanceof MissingAbilityException) {
+            $ability = $e->abilities()[0];
+            error_log($e);
+            return response(['error' => 'You are not authorized to ' . $ability], 401);
         }
 
         if ($e instanceof AuthorizationException) {
