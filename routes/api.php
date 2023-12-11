@@ -40,6 +40,7 @@ Route::group(['middleware' => ['auth:sanctum', 'abilities:create,read,update,des
     Route::apiResource('/talent_requirement', TalentRequirementController::class);
     Route::apiResource('/requirement', RequirementController::class);
     Route::apiResource('/category', CategoryController::class);
+    Route::apiResource('/talent', TalentController::class);
     Route::apiResource('/talent_category', TalentCategoryController::class);
     Route::apiResource('/trait', TraitController::class);
     Route::apiResource('/talent_trait', TalentTraitController::class);
