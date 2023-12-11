@@ -62,6 +62,8 @@ Route::get('/requirement', [RequirementController::class, 'index']);
 Route::get('/requirement/{id}', [RequirementController::class, 'show']);
 Route::get('/category', [CategoryController::class, 'index']);
 Route::get('/category/{id}', [CategoryController::class, 'show']);
+Route::get('/talent', [TalentController::class, 'index']);
+Route::get('/talent/{id}', [TalentController::class, 'show']);
 Route::get('/talent_category', [TalentCategoryController::class, 'index']);
 Route::get('/talent_category/{id}', [TalentCategoryController::class, 'show']);
 Route::get('/trait', [TraitController::class, 'index']);
