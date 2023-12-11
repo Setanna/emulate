@@ -78,6 +78,8 @@ export default {
     watch: {
         '$route'() {
             this.search_state = this.$route.name !== "home";
+            this.search_text = '';
+            this.search_results = {};
         }
     },
 }
