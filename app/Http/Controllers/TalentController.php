@@ -8,8 +8,10 @@ use App\Models\Book;
 use App\Models\Genre;
 use App\Http\Resources\GenreResource;
 use App\Models\Talent;
+use http\Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Validation\ValidationException;
 use function Clue\StreamFilter\remove;
 
 class TalentController extends Controller
@@ -81,12 +83,16 @@ class TalentController extends Controller
     /**
      * Display talents by genre.
      */
-    public function showGenre($genre)
+    public function showGenre($genre_input)
     {
-
         try {
             // get the genre by comparing lowercase to lowercase
-            $genre = DB::table('genres')->where('name', 'LIKE', '%' . $genre . '%')->get();
+            $genre = DB::table('genres')->where('name', 'LIKE', '%' . $genre_input . '%')->get();
+
+            // If the genre is not a lowercase match throw exception (LIKE allows fantas to get fantasy genre, but is needed for lowercase DB query without using RAW)
+            if(strtolower($genre[0]->name) !== strtolower($genre_input)){
+                throw ValidationException::withMessages(['message' => 'could not find genre']);
+            }
 
             // get all books with the given genre id
             $book_ids = Book::all()->where('genre_id', $genre[0]->id)->pluck('id');
