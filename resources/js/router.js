@@ -29,6 +29,10 @@ const router = createRouter({
             component: () => import('./pages/register.vue')
         },
         {
+            path: '/:pathMatch(.*)',
+            redirect: "/not_found"
+        },
+        {
             name: 'not_found',
             path: '/not_found',
             component: () => import('./pages/not_found.vue')
