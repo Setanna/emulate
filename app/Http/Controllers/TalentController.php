@@ -10,7 +10,6 @@ use App\Http\Resources\GenreResource;
 use App\Models\Talent;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use mysql_xdevapi\Collection;
 use function Clue\StreamFilter\remove;
 
 class TalentController extends Controller
@@ -98,7 +97,7 @@ class TalentController extends Controller
             // return the array with the talent resource
             return TalentResource::collection($talents);
         } catch (\Exception $e) {
-            return response()->json(["Could not find genre"]);
+            return response()->json(["Could not find genre"],404);
         }
     }
 }

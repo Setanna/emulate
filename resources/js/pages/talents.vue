@@ -29,14 +29,17 @@ export default {
         '$route.params.name': {
             handler(genre) {
                 // fetch new genre when parameter id is changed
-                if(genre !== undefined){
+                if (genre !== undefined) {
                     axios.get('/api/talent/genre/' + genre).then(response => {
                         this.talents = response.data.data
                     })
                         .catch(error => {
-                            console.log("Watch error: " + error)
+                            console.log(error)
+                            if (error.response.status === 404) {
+                                this.$router.push({path: '/not_found'})
+                            }
                         })
-                }else{
+                } else {
                     this.genre = null;
                 }
             },
