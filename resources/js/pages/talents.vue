@@ -28,7 +28,6 @@ export default {
     watch: {
         '$route.params.name': {
             handler(genre) {
-                console.log(genre)
                 // fetch new genre when parameter id is changed
                 if(genre !== undefined){
                     axios.get('/api/talent/genre/' + genre).then(response => {

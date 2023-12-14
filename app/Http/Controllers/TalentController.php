@@ -84,6 +84,7 @@ class TalentController extends Controller
      */
     public function showGenre($genre)
     {
+
         try {
             // get the genre by comparing lowercase to lowercase
             $genre = DB::table('genres')->where('name', 'LIKE', '%' . $genre . '%')->get();
@@ -91,17 +92,11 @@ class TalentController extends Controller
             // get all books with the given genre id
             $book_ids = Book::all()->where('genre_id', $genre[0]->id)->pluck('id');
 
-            // get all talents from the books with the given genre id into an array
-            $talents = DB::table('talent')->whereIn('book_id', $book_ids)->get()->toArray();
-
-            // create a new talent model instance
-            $talentsModel = new Talent();
-
-            // fill the talent model instance with the talents array
-            $talentsModels = $talentsModel->fill($talents)->get();
+            // get all talents from the books with the given genre id
+            $talents = Talent::all()->whereIn('book_id', $book_ids);
 
             // return the array with the talent resource
-            return TalentResource::collection($talentsModels);
+            return TalentResource::collection($talents);
         } catch (\Exception $e) {
             return response()->json(["Could not find genre"]);
         }
