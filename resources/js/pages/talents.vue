@@ -32,8 +32,7 @@ export default {
                 // fetch new genre when parameter id is changed
                 if(genre !== undefined){
                     axios.get('/api/talent/genre/' + genre).then(response => {
-                        this.talents = response.data
-                        console.log(response.data);
+                        this.talents = response.data.data
                     })
                         .catch(error => {
                             console.log("Watch error: " + error)

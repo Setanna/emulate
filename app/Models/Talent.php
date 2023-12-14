@@ -11,6 +11,7 @@ class Talent extends Model
     use Searchable, HasFactory;
 
     protected $fillable = [
+        'id',
         'name',
         'rank',
         'description',

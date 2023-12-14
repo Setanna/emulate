@@ -4,8 +4,14 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\TalentRequest;
 use App\Http\Resources\TalentResource;
+use App\Models\Book;
+use App\Models\Genre;
+use App\Http\Resources\GenreResource;
 use App\Models\Talent;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use mysql_xdevapi\Collection;
+use function Clue\StreamFilter\remove;
 
 class TalentController extends Controller
 {
@@ -78,7 +84,26 @@ class TalentController extends Controller
      */
     public function showGenre($genre)
     {
-        $talents = $this->index();
-        return $talents->collect(['genre' => $genre]);
+        try {
+            // get the genre by comparing lowercase to lowercase
+            $genre = DB::table('genres')->where('name', 'LIKE', '%' . $genre . '%')->get();
+
+            // get all books with the given genre id
+            $book_ids = Book::all()->where('genre_id', $genre[0]->id)->pluck('id');
+
+            // get all talents from the books with the given genre id into an array
+            $talents = DB::table('talent')->whereIn('book_id', $book_ids)->get()->toArray();
+
+            // create a new talent model instance
+            $talentsModel = new Talent();
+
+            // fill the talent model instance with the talents array
+            $talentsModels = $talentsModel->fill($talents)->get();
+
+            // return the array with the talent resource
+            return TalentResource::collection($talentsModels);
+        } catch (\Exception $e) {
+            return response()->json(["Could not find genre"]);
+        }
     }
 }

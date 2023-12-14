@@ -53,7 +53,10 @@ class DatabaseSeeder extends Seeder
             $Model->save();
         }
         Book("Core Rulebook", "The core rulebook for a generic fantasy system", 1,"2023/11/10");
+        Book("The Draconic Expansion", "A book for a generic fantasy system filled with draconic options", 1,"2023/11/10");
         Book("Core Rulebook", "The core rulebook for a generic sci-fi system", 2, "2023/11/10");
+        Book("Core Rulebook", "The core rulebook for a generic apocalypse system", 3, "2023/11/10");
+        Book("Core Rulebook", "The core rulebook for a generic superhero system", 4, "2023/11/10");
 
         function Talent($name, $rank, $description, $system, $book_id){
             $Model = new \App\Models\Talent();
@@ -65,11 +68,12 @@ class DatabaseSeeder extends Seeder
             $Model->save();
         }
         Talent("Armor Training", 1, "You gain training in light armor", "system", 1);
-        Talent("Armor Training", 2, "You gain training in medium armor", "system", 1);
         Talent("Weapon Training", 1, "You gain training in simple weapons", "system", 1);
-        Talent("Weapon Training", 2, "You gain training in martial weapons", "system", 1);
         Talent("Rallying Charge", 1, "You rally your allies and charge forward", "system", 1);
-        Talent("Rallying Charge", 2, "You rally your allies and charge forward", "system", 1);
+        Talent("Dragon's Breath", 1, "You breathe the elements like the dragons of old", "system", 2);
+        Talent("Draconic Scales", 1, "Scales that protect from both the elements and physical blows", "system", 2);
+        Talent("Xenophobic", 1, "You're xenophobic'", "system", 3);
+        Talent("Xenophobic", 2, "You take xenophobia to a new level", "system", 3);
 
         function RequiredTalent($talent_id, $required_talent_id){
             $Model = new \App\Models\RequiredTalent();
