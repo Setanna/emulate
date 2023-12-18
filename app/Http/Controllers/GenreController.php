@@ -4,7 +4,10 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\GenreRequest;
 use App\Http\Resources\GenreResource;
+use App\Models\Book;
 use App\Models\Genre;
+use App\Models\Race;
+use App\Models\Talent;
 use Illuminate\Http\Request;
 
 class GenreController extends Controller
@@ -69,5 +72,34 @@ class GenreController extends Controller
         $genre->delete();
 
         return response()->json(["Genre deleted"]);
+    }
+
+    /* Custom Functions */
+    /**
+     * Get the options from the genre
+     */
+    public function showOptions(Genre $genre)
+    {
+        $options = [];
+
+        // get all books with the given genre id
+        $book_ids = Book::all()->where('genre_id', $genre->id)->pluck('id');
+
+        // get all talents from the books with the given genre id
+        $talents = Talent::all()->whereIn('book_id', $book_ids)->first();
+
+        // get all races from the books with the given genre id
+        $races = Race::all()->whereIn('book_id', $book_ids)->first();
+
+        // Check if the books have any content in the given category
+        if(!empty($talents)){
+            array_push($options, "talents");
+        }
+
+        if(!empty($races)){
+            array_push($options, "races");
+        }
+
+        return $options;
     }
 }
