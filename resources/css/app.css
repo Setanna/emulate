@@ -89,6 +89,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 .navbar {
     display: flex;
     flex-direction: column;
+    height: 100%;
     min-width: 15%;
     max-width: 20%;
     align-items: start;
@@ -118,6 +119,16 @@ h1, h2, h3, h4, h5, h6, p, a {
 .navbar-menu {
     display: flex;
     flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar-options {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
 }
 
 /* Elements */
@@ -257,4 +268,21 @@ h1, h2, h3, h4, h5, h6, p, a {
     position: absolute;
     height: 100%;
     width: 100%;
+}
+
+/* Transitions */
+
+.slide-enter-active,
+.slide-leave-active {
+    transition: all 0.5s;
+}
+
+.slide-enter-from,
+.slide-leave-to {
+    transform: translateY(-100%);
+}
+
+.slide-enter-to,
+.slide-leave-from {
+    transform: translateY(0%);
 }
