@@ -70,14 +70,4 @@ class GenreController extends Controller
 
         return response()->json(["Genre deleted"]);
     }
-
-    /* Custom Functions */
-
-    /**
-     * Display the specified resource by name.
-     */
-    public function showName($name)
-    {
-        return new GenreResource(Genre::where('name', 'like', $name)->first());
-    }
 }
