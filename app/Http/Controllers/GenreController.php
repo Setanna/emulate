@@ -9,6 +9,8 @@ use App\Models\Genre;
 use App\Models\Race;
 use App\Models\Talent;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Validation\ValidationException;
 
 class GenreController extends Controller
 {
@@ -76,30 +78,50 @@ class GenreController extends Controller
 
     /* Custom Functions */
     /**
+     * Display the specified resource by name.
+     */
+    public function showName($name)
+    {
+        return new GenreResource(Genre::where('name', 'like', $name)->first());
+    }
+
+    /**
      * Get the options from the genre
      */
-    public function showOptions(Genre $genre)
+    public function showOptions($genre_input)
     {
         $options = [];
 
-        // get all books with the given genre id
-        $book_ids = Book::all()->where('genre_id', $genre->id)->pluck('id');
+        try {
+            // get the genre by comparing lowercase to lowercase
+            $genre = DB::table('genres')->where('name', 'LIKE', '%' . $genre_input . '%')->get();
 
-        // get all talents from the books with the given genre id
-        $talents = Talent::all()->whereIn('book_id', $book_ids)->first();
+            // If the genre is not a lowercase match throw exception (LIKE allows fantas to get fantasy genre, but is needed for lowercase DB query without using RAW)
+            if (strtolower($genre[0]->name) !== strtolower($genre_input)) {
+                throw ValidationException::withMessages(['message' => 'could not find genre']);
+            }
 
-        // get all races from the books with the given genre id
-        $races = Race::all()->whereIn('book_id', $book_ids)->first();
+            // get all books with the given genre id
+            $book_ids = Book::all()->where('genre_id', $genre[0]->id)->pluck('id');
 
-        // Check if the books have any content in the given category
-        if(!empty($talents)){
-            array_push($options, "talents");
+            // get all talents from the books with the given genre id
+            $talents = Talent::all()->whereIn('book_id', $book_ids)->first();
+
+            // get all races from the books with the given genre id
+            $races = Race::all()->whereIn('book_id', $book_ids)->first();
+
+            // Check if the books have any content in the given category
+            if (!empty($talents)) {
+                array_push($options, "talents");
+            }
+
+            if (!empty($races)) {
+                array_push($options, "races");
+            }
+
+            return $options;
+        } catch (\Exception $e) {
+            return response()->json(["Could not find genre"], 404);
         }
-
-        if(!empty($races)){
-            array_push($options, "races");
-        }
-
-        return $options;
     }
 }

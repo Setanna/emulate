@@ -132,5 +132,6 @@ Route::get('auth/register', [AuthController::class, 'register'])->name('register
 
 // Custom Functions
 Route::get('/talent/genre/{genre}', [TalentController::class, 'showGenre'])->name('showGenre');
+Route::get('/genre/name/{name}', [GenreController::class, 'showName'])->name('showName');
 Route::get('/showOptions/{genre}', [GenreController::class, 'showOptions'])->name('showOptions');
 

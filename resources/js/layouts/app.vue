@@ -18,13 +18,12 @@
                        :class="{'search-closed': !search_state, 'search-opened': search_state}">
 
                 <!-- Navbar Options -->
-                <transition name="slide" mode="in-out">
-                    <div class="navbar-options" v-if="genre">
-                        <router-link :to="{ path: '/' + genre + '/talents' }" class="no-text-link navbar-title" style="align-self: flex-start">
-                            Talents
-                        </router-link>
-                    </div>
-                </transition>
+                <transition-group name="slide" mode="in-out" tag="div" class="navbar-options" v-if="options">
+                    <router-link v-for="option in options" :to="{ path: '/' + genre + '/' + option }"
+                                 class="no-text-link navbar-title" style="align-self: flex-start">
+                        {{ option }}
+                    </router-link>
+                </transition-group>
             </div>
         </div>
 
@@ -58,6 +57,7 @@ export default {
             /* arrays */
             genres: {},
             search_results: {},
+            options: {},
             /* variables */
             genre: null,
             search_text: '',
@@ -67,6 +67,16 @@ export default {
         }
     },
     methods: {
+        getOptions: function (genre) {
+            if (genre) {
+                axios.get('/api/showOptions/' + genre).then(response => {
+                    this.options = response.data
+                })
+                    .catch(error => {
+                        console.log("Error: " + error);
+                    })
+            }
+        },
         search: function () {
             let Search = this.search_text.toLowerCase();
 
@@ -76,7 +86,6 @@ export default {
                 axios.get('/api/search/' + Search).then(response => {
                     if (this.search_text !== "") {
                         this.search_results = response.data
-                        console.log(response.data);
                     }
                 })
                     .catch(error => {
@@ -87,15 +96,19 @@ export default {
     },
     watch: {
         '$route'() {
-            console.log(this.$route.params.name)
-            if (this.$route.params.name !== null) {
-                this.genre = this.$route.params.name
-            } else {
-                this.genre = null;
-            }
-            this.search_state = this.$route.name !== "home";
+            // Reset variables on route change
             this.search_text = '';
             this.search_results = {};
+            this.options = {};
+
+            // Remove search bar if path isn't home
+            this.search_state = this.$route.name !== "home";
+
+            // Get genre
+            this.genre = this.$route.params.name
+
+            // Get options
+            this.getOptions(this.genre);
         }
     },
 }
