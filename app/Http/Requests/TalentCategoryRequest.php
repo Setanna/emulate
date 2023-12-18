@@ -23,7 +23,7 @@ class TalentCategoryRequest extends FormRequest
     {
         return [
             'talent_id' => 'required|max:20|integer|exists:talent,id',
-            'category_id' => 'required|max:20|integer|exists:category,id'
+            'category_id' => 'required|max:20|integer|exists:categories,id'
         ];
     }
 
