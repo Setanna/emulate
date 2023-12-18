@@ -22,7 +22,7 @@ class GenreRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'name' => 'required|max:250',
+            'name' => 'required|unique:genres|max:250',
             'description' => 'required|max:65535'
         ];
     }
@@ -35,6 +35,7 @@ class GenreRequest extends FormRequest
     public function messages()
     {
         return [
+            'name.unique'   => 'Genre already exists',
             'name.required' => 'Please enter a name',
             'description.required' => 'Please enter a description'
         ];
