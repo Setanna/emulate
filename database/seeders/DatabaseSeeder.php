@@ -188,5 +188,17 @@ class DatabaseSeeder extends Seeder
         Sense("Low-Light Vision", "Works like vision except you can also see in dim light", "system");
         Sense("Night Vision", "Works like Low-Light Vision except you can also see in the dark", "system");
         Sense("Echolocation", "you can see using sound", "system");
+
+        function Race($name, $description, $experience_cost, $hit_points, $book_id){
+            $Model = new \App\Models\Race();
+            $Model->name = $name;
+            $Model->description = $description;
+            $Model->experience_cost = $experience_cost;
+            $Model->hit_points = $hit_points;
+            $Model->book_id = $book_id;
+            $Model->save();
+        }
+        Race("Human", "basic boi", 69, 5, 1);
+        Race("Dragonkin", "basic boi but with draconic spice", 420, 10, 2);
     }
 }
