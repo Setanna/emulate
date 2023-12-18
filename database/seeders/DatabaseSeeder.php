@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use App\Http\Controllers\TalentCategoryController;
+use App\Models\RaceSense;
 use App\Models\RequiredTalent;
 use App\Models\Requirement;
 use App\Models\TalentCategory;
@@ -200,5 +201,14 @@ class DatabaseSeeder extends Seeder
         }
         Race("Human", "basic boi", 69, 5, 1);
         Race("Dragonkin", "basic boi but with draconic spice", 420, 10, 2);
+
+        function RaceSense($race_id, $sense_id){
+            $Model = new \App\Models\RaceSense();
+            $Model->race_id = $race_id;
+            $Model->sense_id = $sense_id;
+            $Model->save();
+        }
+        RaceSense(1,1);
+        RaceSense(2,2);
     }
 }

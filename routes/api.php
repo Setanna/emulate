@@ -5,6 +5,7 @@ use App\Http\Controllers\BookController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\GenreController;
 use App\Http\Controllers\RaceController;
+use App\Http\Controllers\RaceSenseController;
 use App\Http\Controllers\RequiredTalentController;
 use App\Http\Controllers\RequirementController;
 use App\Http\Controllers\RuleController;
@@ -50,6 +51,7 @@ Route::group(['middleware' => ['auth:sanctum', 'ability:create']], function () {
     Route::post('/trait', [TraitController::class, 'store']);
     Route::post('/sense', [SenseController::class, 'store']);
     Route::post('/race', [RaceController::class, 'store']);
+    Route::post('/race_sense', [RaceSenseController::class, 'store']);
 });
 
 /* Update */
@@ -67,6 +69,7 @@ Route::group(['middleware' => ['auth:sanctum', 'ability:update']], function () {
     Route::put('/trait/{trait}', [TraitController::class, 'update']);
     Route::put('/sense/{sense}', [SenseController::class, 'update']);
     Route::put('/race/{race}', [RaceController::class, 'update']);
+    Route::put('/race_sense/{race_sense}', [RaceSenseController::class, 'update']);
 });
 
 /* Destroy */
@@ -84,6 +87,7 @@ Route::group(['middleware' => ['auth:sanctum', 'ability:destroy']], function () 
     Route::delete('/trait/{trait}', [TraitController::class, 'destroy']);
     Route::delete('/sense/{sense}', [SenseController::class, 'destroy']);
     Route::delete('/race/{race}', [RaceController::class, 'destroy']);
+    Route::delete('/race_sense/{race_sense}', [RaceSenseController::class, 'destroy']);
 });
 
 /* Unprotected Routes */
@@ -115,6 +119,8 @@ Route::get('/sense', [SenseController::class, 'index']);
 Route::get('/sense/{sense}', [SenseController::class, 'show']);
 Route::get('/race', [RaceController::class, 'index']);
 Route::get('/race/{race}', [RaceController::class, 'show']);
+Route::get('/race_sense', [RaceSenseController::class, 'index']);
+Route::get('/race_sense/{race_sense}', [RaceSenseController::class, 'show']);
 
 
 // Search
