@@ -8,6 +8,7 @@ use App\Http\Controllers\RequiredTalentController;
 use App\Http\Controllers\RequirementController;
 use App\Http\Controllers\RuleController;
 use App\Http\Controllers\SearchController;
+use App\Http\Controllers\SenseController;
 use App\Http\Controllers\TalentCategoryController;
 use App\Http\Controllers\TalentController;
 use App\Http\Controllers\TalentRequirementController;
@@ -46,6 +47,7 @@ Route::group(['middleware' => ['auth:sanctum', 'ability:create']], function () {
     Route::post('/requirement', [RequirementController::class, 'store']);
     Route::post('/category', [CategoryController::class, 'store']);
     Route::post('/trait', [TraitController::class, 'store']);
+    Route::post('/sense', [SenseController::class, 'store']);
 });
 
 /* Update */
@@ -61,6 +63,7 @@ Route::group(['middleware' => ['auth:sanctum', 'ability:update']], function () {
     Route::put('/requirement/{requirement}', [RequirementController::class, 'update']);
     Route::put('/category/{category}', [CategoryController::class, 'update']);
     Route::put('/trait/{trait}', [TraitController::class, 'update']);
+    Route::put('/sense/{sense}', [SenseController::class, 'update']);
 });
 
 /* Destroy */
@@ -76,6 +79,7 @@ Route::group(['middleware' => ['auth:sanctum', 'ability:destroy']], function () 
     Route::delete('/requirement/{requirement}', [RequirementController::class, 'destroy']);
     Route::delete('/category/{category}', [CategoryController::class, 'destroy']);
     Route::delete('/trait/{trait}', [TraitController::class, 'destroy']);
+    Route::delete('/sense/{sense}', [SenseController::class, 'destroy']);
 });
 
 /* Unprotected Routes */
@@ -103,6 +107,8 @@ Route::get('/required_talent', [RequiredTalentController::class, 'index']);
 Route::get('/required_talent/{required_talent}', [RequiredTalentController::class, 'show']);
 Route::get('/rule', [RuleController::class, 'index']);
 Route::get('/rule/{rule}', [RuleController::class, 'show']);
+Route::get('/sense', [SenseController::class, 'index']);
+Route::get('/sense/{sense}', [SenseController::class, 'show']);
 
 
 // Search

@@ -19,6 +19,19 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
+        /* Make Admin User */
+        function AdminUser($username, $email, $password): void
+        {
+            $Model = new \App\Models\User();
+            $Model->username = $username;
+            $Model->email = $email;
+            $Model->email_verified_at = now();
+            $Model->remember_token = Str::random(10);
+            $Model->password = Hash::make($password);
+            $Model->save();
+            error_log($Model->createToken('authToken', ['change password', 'change email', 'password reset','create', 'read', 'update', 'destroy'])->plainTextToken);
+        }
+        AdminUser("admin", "admin@gmail.com", 'password');
 
         function User($username, $email, $password): void
         {
@@ -163,5 +176,17 @@ class DatabaseSeeder extends Seeder
             $Model->save();
         }
         Rule("Damage Reduction", "Reduction is applied after division. Damage Reduction can reduce damage to 0 but not below.", 1);
+
+        function Sense($name, $description, $system){
+            $Model = new \App\Models\Sense();
+            $Model->name = $name;
+            $Model->description = $description;
+            $Model->system = $system;
+            $Model->save();
+        }
+        Sense("Vision", "you can see in bright light using eyes or a similar organ that detects light", "system");
+        Sense("Low-Light Vision", "Works like vision except you can also see in dim light", "system");
+        Sense("Night Vision", "Works like Low-Light Vision except you can also see in the dark", "system");
+        Sense("Echolocation", "you can see using sound", "system");
     }
 }
