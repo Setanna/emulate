@@ -18,11 +18,11 @@ export default {
     },
     // watch for route parameter id change
     watch: {
-        '$route.params.name': {
-            handler(name) {
+        '$route.params.genre': {
+            handler(genre) {
                 // fetch new genre when parameter id is changed
-                if(name !== undefined){
-                    axios.get('/api/genre/name/' + name).then(response => {
+                if(genre !== undefined){
+                    axios.get('/api/genre/name/' + genre).then(response => {
                         this.genre = response.data
                     })
                         .catch(error => {

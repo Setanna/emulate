@@ -26,7 +26,7 @@ export default {
         }
     },// watch for route parameter id change
     watch: {
-        '$route.params.name': {
+        '$route.params.genre': {
             handler(genre) {
                 // fetch new genre when parameter id is changed
                 if (genre !== undefined) {

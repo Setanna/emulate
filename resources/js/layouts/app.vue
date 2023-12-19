@@ -18,12 +18,14 @@
                        :class="{'search-closed': !search_state, 'search-opened': search_state}">
 
                 <!-- Navbar Options -->
-                <transition-group name="slide" mode="in-out" tag="div" class="navbar-options" v-if="options">
-                    <router-link v-for="option in options" :to="{ path: '/' + genre + '/' + option }"
-                                 class="no-text-link navbar-title" style="align-self: flex-start">
-                        {{ option }}
-                    </router-link>
-                </transition-group>
+                <transition name="slide" mode="in-out">
+                    <div class="navbar-options" v-if="options.length">
+                        <router-link v-for="option in options" :to="{ path: '/' + genre + '/' + option }"
+                                     class="no-text-link navbar-title">
+                            {{ option }}
+                        </router-link>
+                    </div>
+                </transition>
             </div>
         </div>
 
@@ -95,21 +97,35 @@ export default {
         }
     },
     watch: {
-        '$route'() {
-            // Reset variables on route change
-            this.search_text = '';
-            this.search_results = {};
-            this.options = {};
+        '$route.params.genre': {
+            handler(genre) {
+                // On parameter genre changing
 
-            // Remove search bar if path isn't home
-            this.search_state = this.$route.name !== "home";
+                // Set genre
+                this.genre = genre
 
-            // Get genre
-            this.genre = this.$route.params.name
+                // Remove old options
+                this.options = {};
 
-            // Get options
-            this.getOptions(this.genre);
-        }
+                // Get new options
+                this.getOptions(genre);
+            },
+            immediate: true
+        },
+        '$route.name': {
+            handler(name) {
+                console.log(name);
+                // On route name changing
+
+                // Reset variables on route change
+                this.search_text = '';
+                this.search_results = {};
+
+                // Add search bar if path isn't home or not_found
+                this.search_state = name !== "home" && name !== "not_found";
+            },
+            immediate: true
+        },
     },
 }
 </script>

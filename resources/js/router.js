@@ -10,12 +10,12 @@ const router = createRouter({
         },
         {
             name: 'genres',
-            path: '/:name',
+            path: '/:genre',
             component: () => import('./pages/genre.vue')
         },
         {
             name: 'talents',
-            path: '/:name/talents',
+            path: '/:genre/talents',
             component: () => import('./pages/talents.vue')
         },
         {
