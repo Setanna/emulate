@@ -80,8 +80,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 /* Component */
 .component {
     overflow: hidden;
-    max-width: 80%;
-    min-width: 60%;
+    width: 100%;
     height: 100%;
 }
 

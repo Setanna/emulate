@@ -114,7 +114,6 @@ export default {
         },
         '$route.name': {
             handler(name) {
-                console.log(name);
                 // On route name changing
 
                 // Reset variables on route change
