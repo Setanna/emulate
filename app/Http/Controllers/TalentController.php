@@ -83,7 +83,7 @@ class TalentController extends Controller
     /**
      * Display talents by genre.
      */
-    public function showGenre($genre_input)
+    public function getTalentsByGenre($genre_input)
     {
         try {
             // get the genre by comparing lowercase to lowercase

@@ -4,8 +4,11 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\RaceRequest;
 use App\Http\Resources\RaceResource;
+use App\Models\Book;
 use App\Models\Race;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Validation\ValidationException;
 
 class RaceController extends Controller
 {
@@ -69,5 +72,34 @@ class RaceController extends Controller
         $race->delete();
 
         return response()->json(["Race deleted"]);
+    }
+
+    /* Custom Functions */
+
+    /**
+     * Display talents by genre.
+     */
+    public function getRacesByGenre($genre_input)
+    {
+        try {
+            // get the genre by comparing lowercase to lowercase
+            $genre = DB::table('genres')->where('name', 'LIKE', '%' . $genre_input . '%')->get();
+
+            // If the genre is not a lowercase match throw exception (LIKE allows fantas to get fantasy genre, but is needed for lowercase DB query without using RAW)
+            if(strtolower($genre[0]->name) !== strtolower($genre_input)){
+                throw ValidationException::withMessages(['message' => 'could not find genre']);
+            }
+
+            // get all books with the given genre id
+            $book_ids = Book::all()->where('genre_id', $genre[0]->id)->pluck('id');
+
+            // get all talents from the books with the given genre id
+            $races = Race::all()->whereIn('book_id', $book_ids);
+
+            // return the array with the talent resource
+            return RaceResource::collection($races);
+        } catch (\Exception $e) {
+            return response()->json(["Could not find genre"],404);
+        }
     }
 }
