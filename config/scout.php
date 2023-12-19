@@ -2,9 +2,11 @@
 
 use App\Models\Book;
 use App\Models\Category;
+use App\Models\Race;
 use App\Models\RequiredTalent;
 use App\Models\Requirement;
 use App\Models\Rule;
+use App\Models\Sense;
 use App\Models\Talent;
 use App\Models\TalentCategory;
 use App\Models\TalentRequirement;
@@ -154,6 +156,14 @@ return [
             Talent::class => [
                 'filterableAttributes'=> ['name', 'rank', 'description', 'book'],
                 'sortableAttributes' => ['name', 'rank', 'book']
+            ],
+            Race::class => [
+                'filterableAttributes'=> ['name', 'description', 'experience_cost', 'hit_points','book'],
+                'sortableAttributes' => ['name', 'experience_cost', 'hit_points', 'book']
+            ],
+            Sense::class => [
+                'filterableAttributes'=> ['name', 'description', 'system'],
+                'sortableAttributes' => ['name']
             ],
             RequiredTalent::class => [
                 'filterableAttributes'=> ['talent', 'required_talent'],
