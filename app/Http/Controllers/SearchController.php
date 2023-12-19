@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Book;
 use App\Models\Category;
+use App\Models\Race;
 use App\Models\RequiredTalent;
 use App\Models\Requirement;
 use App\Models\Rule;
@@ -31,6 +32,7 @@ class SearchController extends Controller
         $search_results = $search_results->merge(TalentCategory::search($query)->take(10)->get());
         $search_results = $search_results->merge(Category::search($query)->take(10)->get());
         $search_results = $search_results->merge(TraitModel::search($query)->take(10)->get());
+        $search_results = $search_results->merge(Race::search($query)->take(10)->get());
         return $search_results;
 
     }

@@ -116,12 +116,15 @@ export default {
             handler(name) {
                 // On route name changing
 
-                // Reset variables on route change
-                this.search_text = '';
-                this.search_results = {};
-
                 // Add search bar if path isn't home or not_found
                 this.search_state = name !== "home" && name !== "not_found";
+
+                // If there is not a search bar
+                if(!this.search_state){
+                    // Reset search variables on route change
+                    this.search_text = '';
+                    this.search_results = {};
+                }
             },
             immediate: true
         },
