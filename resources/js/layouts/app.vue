@@ -13,12 +13,13 @@
             <!-- Navbar Menu -->
             <div class="navbar-menu">
                 <!-- Search Input -->
-                <input class="search sub-title" placeholder="Search" v-model="search_text" @input="search(this.text)"
+                <input class="search sub-title" placeholder="Search" v-model="search_text"
+                       @input="search(this.text)"
                        @focusin="this.searchFocus = true" @focusout="this.searchFocus = false"
                        :class="{'search-closed': !search_state, 'search-opened': search_state}">
 
                 <!-- Navbar Options -->
-                <transition name="slide" mode="in-out">
+                <transition name="fall" mode="in-out">
                     <div class="navbar-options" v-if="options.length">
                         <router-link v-for="option in options" :to="{ path: '/' + genre + '/' + option }"
                                      class="no-text-link navbar-title">
@@ -30,12 +31,14 @@
         </div>
 
         <!-- Search Results -->
-        <div class="background-secondary search-results" v-if="search_results.length"
-             :class="{'search-results-opened': search_results.error || search_results !== {}}">
-            <div v-for="search_result in search_results">
-                <a>{{ search_result.name }}</a>
+        <transition name="slide" mode="in-out">
+            <div class="background-secondary search-results" v-if="search_results.length"
+                 :class="{'search-results-opened': search_results.error || search_results !== {}}">
+                <div v-for="search_result in search_results">
+                    <a>{{ search_result.name }}</a>
+                </div>
             </div>
-        </div>
+        </transition>
 
         <!-- Component -->
         <router-view v-slot="{ Component }">
@@ -120,7 +123,7 @@ export default {
                 this.search_state = name !== "home" && name !== "not_found";
 
                 // If there is not a search bar
-                if(!this.search_state){
+                if (!this.search_state) {
                     // Reset search variables on route change
                     this.search_text = '';
                     this.search_results = {};

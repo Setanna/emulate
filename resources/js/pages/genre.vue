@@ -20,6 +20,9 @@ export default {
     watch: {
         '$route.params.genre': {
             handler(genre) {
+                // Remove the old genre
+                this.genre = null;
+
                 // fetch new genre when parameter id is changed
                 if(genre !== undefined){
                     axios.get('/api/genre/name/' + genre).then(response => {
