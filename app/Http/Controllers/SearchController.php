@@ -23,16 +23,15 @@ class SearchController extends Controller
     public function search($query)
     {
         $search_results = new \Illuminate\Database\Eloquent\Collection; //Create empty collection
-        $search_results = $search_results->merge(Book::search($query)->take(10)->get());
-        $search_results = $search_results->merge(Rule::search($query)->take(10)->get());
-        $search_results = $search_results->merge(Talent::search($query)->take(10)->get());
-        $search_results = $search_results->merge(RequiredTalent::search($query)->take(10)->get());
-        $search_results = $search_results->merge(TalentRequirement::search($query)->take(10)->get());
-        $search_results = $search_results->merge(Requirement::search($query)->take(10)->get());
-        $search_results = $search_results->merge(TalentCategory::search($query)->take(10)->get());
-        $search_results = $search_results->merge(Category::search($query)->take(10)->get());
-        $search_results = $search_results->merge(TraitModel::search($query)->take(10)->get());
-        $search_results = $search_results->merge(Race::search($query)->take(10)->get());
+        $search_results = [
+            'books' => Book::search($query)->take(10)->get(),
+            'rules' => Rule::search($query)->take(10)->get(),
+            'races' => Race::search($query)->take(10)->get(),
+            'talents' => Talent::search($query)->take(10)->get(),
+            'requirements' => Requirement::search($query)->take(10)->get(),
+            'categories' => Category::search($query)->take(10)->get(),
+            'traits' => TraitModel::search($query)->take(10)->get()
+        ];
         return $search_results;
 
     }
