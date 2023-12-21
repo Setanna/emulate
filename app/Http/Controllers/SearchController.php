@@ -20,11 +20,10 @@ class SearchController extends Controller
      * Display the specified resource.
      *
      */
-    public function search($query)
+    public function quickSearch($query)
     {
         $search_results = new \Illuminate\Database\Eloquent\Collection; //Create empty collection
         $search_results = [
-            'books' => Book::search($query)->take(10)->get(),
             'rules' => Rule::search($query)->take(10)->get(),
             'races' => Race::search($query)->take(10)->get(),
             'talents' => Talent::search($query)->take(10)->get(),

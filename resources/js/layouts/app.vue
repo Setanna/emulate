@@ -32,10 +32,43 @@
 
         <!-- Search Results -->
         <transition name="slide" mode="in-out">
-            <div class="background-secondary search-results" v-if="search_results.length"
-                 :class="{'search-results-opened': search_results.error || search_results !== {}}">
-                <div v-for="search_result in search_results">
-                    <a>{{ search_result.name }}</a>
+            <div class="background-secondary search-results"
+                 :class="{'search-results-opened':
+                 search_results.rules.length ||
+                 search_results.races.length ||
+                 search_results.talents.length ||
+                 search_results.requirements.length ||
+                 search_results.categories.length ||
+                 search_results.traits.length}">
+
+                <div v-if="search_results.rules.length" class="search-category">
+                    <b>Rules</b>
+                    <a v-for="search_result in search_results.rules">{{ search_result.name }}</a>
+                </div>
+
+                <div v-if="search_results.races.length" class="search-category">
+                    <b>Races</b>
+                    <a v-for="search_result in search_results.races">{{ search_result.name }}</a>
+                </div>
+
+                <div v-if="search_results.talents.length" class="search-category">
+                    <b>Talents</b>
+                    <a v-for="search_result in search_results.talents">{{ search_result.name }}</a>
+                </div>
+
+                <div v-if="search_results.requirements.length" class="search-category">
+                    <b>Requirements</b>
+                    <a v-for="search_result in search_results.requirements">{{ search_result.name }}</a>
+                </div>
+
+                <div v-if="search_results.categories.length" class="search-category">
+                    <b>Categories</b>
+                    <a v-for="search_result in search_results.categories">{{ search_result.name }}</a>
+                </div>
+
+                <div v-if="search_results.traits.length" class="search-category">
+                    <b>Traits</b>
+                    <a v-for="search_result in search_results.traits">{{ search_result.name }}</a>
                 </div>
             </div>
         </transition>
@@ -61,7 +94,14 @@ export default {
         return {
             /* arrays */
             genres: {},
-            search_results: {},
+            search_results: {
+                "rules": [],
+                "races": [],
+                "talents": [],
+                "requirements": [],
+                "categories": [],
+                "traits": []
+            },
             options: {},
             /* variables */
             genre: null,
@@ -86,11 +126,18 @@ export default {
             let Search = this.search_text.toLowerCase();
 
             if (Search === "") {
-                this.search_results = {};
+                this.search_results = {
+                    "rules": [],
+                    "races": [],
+                    "talents": [],
+                    "requirements": [],
+                    "categories": [],
+                    "traits": []
+                };
             } else {
                 axios.get('/api/search/' + Search).then(response => {
                     if (this.search_text !== "") {
-                        this.search_results = response.data
+                        this.search_results = response.data;
                     }
                 })
                     .catch(error => {
@@ -126,7 +173,14 @@ export default {
                 if (!this.search_state) {
                     // Reset search variables on route change
                     this.search_text = '';
-                    this.search_results = {};
+                    this.search_results = {
+                        "rules": [],
+                        "races": [],
+                        "talents": [],
+                        "requirements": [],
+                        "categories": [],
+                        "traits": []
+                    };
                 }
             },
             immediate: true

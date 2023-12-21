@@ -124,7 +124,7 @@ Route::get('/race_sense/{race_sense}', [RaceSenseController::class, 'show']);
 
 
 // Search
-Route::get('search/{search}', [SearchController::class, 'search'])->name('search');
+Route::get('search/{search}', [SearchController::class, 'quickSearch'])->name('quickSearch');
 
 // Authentication
 Route::get('auth/login', [AuthController::class, 'login'])->name('login');

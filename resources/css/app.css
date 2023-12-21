@@ -10,7 +10,7 @@ html, body {
     src: url("../fonts/Montserrat-VariableFont_wght.ttf");
 }
 
-h1, h2, h3, h4, h5, h6, p, a {
+h1, h2, h3, h4, h5, h6, p, a, b {
     font-family: "Montserrat", serif;
     color: var(--dark-text-color);
 }
@@ -210,6 +210,12 @@ h1, h2, h3, h4, h5, h6, p, a {
     min-width: 10%;
     max-width: 20%;
     transition: width 1s;
+}
+
+.search-category {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 /* Background Colors */
