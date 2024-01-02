@@ -82,7 +82,11 @@ class GenreController extends Controller
      */
     public function showName($name)
     {
-        return new GenreResource(Genre::where('name', 'like', $name)->first());
+        $genre = Genre::where('name', 'like', $name);
+        if($genre->exists()){
+            return new GenreResource($genre->first());
+        }
+        return response()->json(["Could not find genre"], 404);
     }
 
     /**
