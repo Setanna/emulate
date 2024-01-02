@@ -30,6 +30,9 @@ export default {
                     })
                         .catch(error => {
                             console.log("Watch error: " + error)
+                            if (error.response.status === 404) {
+                                this.$router.push({name: 'not_found'})
+                            }
                         })
                 }else{
                     this.genre = null;
