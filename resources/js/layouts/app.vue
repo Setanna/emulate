@@ -166,8 +166,8 @@ export default {
             handler(name) {
                 // On route name changing
 
-                // Add search bar if path isn't home or not_found
-                this.search_state = name !== "home" && name !== "not_found";
+                // Add search bar if path isn't home or not_found.
+                this.search_state = name !== "home" && name !== "not_found" && name !== "account";
 
                 // If there is not a search bar
                 if (!this.search_state) {
