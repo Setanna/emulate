@@ -1,4 +1,0 @@
-<!-- register.vue -->
-<template>
-
-</template>

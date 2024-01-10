@@ -283,6 +283,15 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     width: 100%;
 }
 
+/* Account */
+.account {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Transitions */
 
 .fall-enter-active,

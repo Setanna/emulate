@@ -124,11 +124,7 @@ Route::get('/race_sense/{race_sense}', [RaceSenseController::class, 'show']);
 
 
 // Search
-Route::get('search/{search}', [SearchController::class, 'quickSearch'])->name('quickSearch');
-
-// Authentication
-Route::get('auth/login', [AuthController::class, 'login'])->name('login');
-Route::get('auth/register', [AuthController::class, 'register'])->name('register');
+Route::get('/search/{search}', [SearchController::class, 'quickSearch'])->name('quickSearch');
 
 // Custom Functions
 Route::get('/talent/genre/{genre}', [TalentController::class, 'getTalentsByGenre'])->name('getTalentsByGenre');
@@ -136,3 +132,9 @@ Route::get('/race/genre/{genre}', [RaceController::class, 'getRacesByGenre'])->n
 Route::get('/genre/name/{name}', [GenreController::class, 'showName'])->name('showName');
 Route::get('/showOptions/{genre}', [GenreController::class, 'showOptions'])->name('showOptions');
 
+Route::group(['middleware' => ['web']], function () {
+    // Authentication
+    Route::post('/auth/login', [AuthController::class, 'login'])->name('login');
+    Route::post('/auth/logout', [AuthController::class, 'logout'])->name('logout');
+    Route::post('/auth/register', [AuthController::class, 'register'])->name('register');
+});

@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\UserRequest;
 use App\Models\User;
 use Carbon\Carbon;
+use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Auth;
@@ -11,31 +13,15 @@ use Illuminate\Support\Facades\Auth;
 
 class AuthController extends Controller
 {
-    public function register(Request $request){
-
-        $post_data = $request->validate([
-            'username'=>'required|unique:users|string',
-            'email'=>'required|unique:users|string',
-            'password'=>'required|string'
-        ]);
-
+    public function register(UserRequest $request){
         $user = User::create([
-            'username' => $post_data['username'],
-            'email'    => $post_data['email'],
-            'password' => Hash::make($post_data['password']),
+            'username' => $request->input('username'),
+            'email' => $request->input('email'),
+            'password' => Hash::make($request->input('password'))
         ]);
 
-
-        // get current time and add an hour
-        $expirationsDate = Carbon::now()->addHour();
-
-        // create a token
-        $token = $user->createToken('authToken', ['change password', 'change email', 'password reset', 'read'], $expirationsDate)->plainTextToken;
-
-        return response()->json([
-            'access_token' => $token,
-            'token_type' => 'Bearer',
-        ]);
+        // login (If token and session is created within register, the session fails in being created, so call login instead)
+        return $this->login($request);
     }
 
     public function login(Request $request){
@@ -45,6 +31,7 @@ class AuthController extends Controller
             ], 401);
         }
 
+        // get user
         $user = User::where('username', $request['username'])->firstOrFail();
 
         // get current time and add an hour
@@ -53,10 +40,20 @@ class AuthController extends Controller
         // create a token
         $token = $user->createToken('authToken', ['change password', 'change email', 'password reset', 'read'], $expirationsDate)->plainTextToken;
 
+        // create session
+        $request->session()->regenerate();
+
         return response()->json([
             'access_token' => $token,
             'token_type' => 'Bearer',
         ]);
     }
 
+    public function logout(Request $request){
+        $request->session()->invalidate();
+
+        return $request->wantsJson()
+            ? new JsonResponse([], 204)
+            : redirect('/');
+    }
 }

@@ -24,14 +24,9 @@ const router = createRouter({
             component: () => import('./pages/races.vue')
         },
         {
-            name: 'login',
-            path: '/login',
-            component: () => import('./pages/login.vue')
-        },
-        {
-            name: 'register',
-            path: '/register',
-            component: () => import('./pages/register.vue')
+            name: 'account',
+            path: '/account',
+            component: () => import('./pages/account.vue')
         },
         {
             path: '/:pathMatch(.*)',

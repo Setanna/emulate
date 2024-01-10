@@ -1,4 +1,0 @@
-<!-- login.vue -->
-<template>
-
-</template>
