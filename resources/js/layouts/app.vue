@@ -36,11 +36,9 @@
                               :class="{'search-results-opened':
                  search_results.rules.length ||
                  search_results.races.length ||
-                 search_results.talents.length ||
-                 search_results.requirements.length ||
-                 search_results.categories.length ||
-                 search_results.traits.length}">
+                 search_results.talents.length}">
 
+                <!-- Categories -->
                 <div v-if="search_results.rules.length" class="search-category">
                     <b>Rules</b>
                     <a v-for="search_result in search_results.rules">{{ search_result.name }}</a>
@@ -54,21 +52,6 @@
                 <div v-if="search_results.talents.length" class="search-category">
                     <b>Talents</b>
                     <a v-for="search_result in search_results.talents">{{ search_result.name }}</a>
-                </div>
-
-                <div v-if="search_results.requirements.length" class="search-category">
-                    <b>Requirements</b>
-                    <a v-for="search_result in search_results.requirements">{{ search_result.name }}</a>
-                </div>
-
-                <div v-if="search_results.categories.length" class="search-category">
-                    <b>Categories</b>
-                    <a v-for="search_result in search_results.categories">{{ search_result.name }}</a>
-                </div>
-
-                <div v-if="search_results.traits.length" class="search-category">
-                    <b>Traits</b>
-                    <a v-for="search_result in search_results.traits">{{ search_result.name }}</a>
                 </div>
             </div>
         </transition>
@@ -97,10 +80,7 @@ export default {
             search_results: {
                 "rules": [],
                 "races": [],
-                "talents": [],
-                "requirements": [],
-                "categories": [],
-                "traits": []
+                "talents": []
             },
             options: {},
             /* variables */
@@ -125,7 +105,7 @@ export default {
         search: function () {
             let Search = this.search_text.toLowerCase();
 
-            if (Search === "") {
+            if (Search === "" || this.genre === null) {
                 this.search_results = {
                     "rules": [],
                     "races": [],
@@ -135,7 +115,7 @@ export default {
                     "traits": []
                 };
             } else {
-                axios.get('/api/search/' + Search).then(response => {
+                axios.get('/api/search/' + this.genre + '/' + Search).then(response => {
                     if (this.search_text !== "") {
                         this.search_results = response.data;
                     }

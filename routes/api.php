@@ -125,6 +125,7 @@ Route::get('/race_sense/{race_sense}', [RaceSenseController::class, 'show']);
 
 // Search
 Route::get('/search/{search}', [SearchController::class, 'quickSearch'])->name('quickSearch');
+Route::get('/search/{genre}/{search}', [SearchController::class, 'genreSearch'])->name('genreSearch');
 
 // Custom Functions
 Route::get('/talent/genre/{genre}', [TalentController::class, 'getTalentsByGenre'])->name('getTalentsByGenre');
