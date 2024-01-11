@@ -84,9 +84,9 @@ class GenreController extends Controller
     {
         $genre = Genre::where('name', 'like', $name);
         if($genre->exists()){
-            return new GenreResource($genre->first());
+            return response()->json(new GenreResource($genre->first()));
         }
-        return response()->json(["Could not find genre"], 404);
+        return response()->json(['message' => 'could not find genre'], 404);
     }
 
     /**

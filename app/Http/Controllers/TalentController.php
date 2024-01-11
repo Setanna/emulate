@@ -85,25 +85,24 @@ class TalentController extends Controller
      */
     public function getTalentsByGenre($genre_input)
     {
-        try {
-            // get the genre by comparing lowercase to lowercase
-            $genre = DB::table('genres')->where('name', 'LIKE', '%' . $genre_input . '%')->get();
+        // Make new genre controller
+        $genre_controller = new GenreController;
 
-            // If the genre is not a lowercase match throw exception (LIKE allows fantas to get fantasy genre, but is needed for lowercase DB query without using RAW)
-            if(strtolower($genre[0]->name) !== strtolower($genre_input)){
-                throw ValidationException::withMessages(['message' => 'could not find genre']);
-            }
+        // Get genres using genre controller function showName
+        $genre = $genre_controller->showName($genre_input);
 
-            // get all books with the given genre id
-            $book_ids = Book::all()->where('genre_id', $genre[0]->id)->pluck('id');
-
-            // get all talents from the books with the given genre id
-            $talents = Talent::all()->whereIn('book_id', $book_ids);
-
-            // return the array with the talent resource
-            return TalentResource::collection($talents);
-        } catch (\Exception $e) {
-            return response()->json(["Could not find genre"],404);
+        // Check if there is no error, else return genre.
+        if($genre->getStatusCode() !== 200){
+            return $genre;
         }
+
+        // get all books with the given genre id
+        $book_ids = Book::all()->where('genre_id', $genre->getData()->id)->pluck('id');
+
+        // get all talents from the books with the given genre id
+        $talents = Talent::all()->whereIn('book_id', $book_ids);
+
+        // return the array with the talent resource
+        return TalentResource::collection($talents);
     }
 }
