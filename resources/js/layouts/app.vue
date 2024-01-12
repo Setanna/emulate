@@ -109,10 +109,7 @@ export default {
                 this.search_results = {
                     "rules": [],
                     "races": [],
-                    "talents": [],
-                    "requirements": [],
-                    "categories": [],
-                    "traits": []
+                    "talents": []
                 };
             } else {
                 axios.get('/api/search/' + this.genre + '/' + Search).then(response => {
@@ -156,10 +153,7 @@ export default {
                     this.search_results = {
                         "rules": [],
                         "races": [],
-                        "talents": [],
-                        "requirements": [],
-                        "categories": [],
-                        "traits": []
+                        "talents": []
                     };
                 }
             },
