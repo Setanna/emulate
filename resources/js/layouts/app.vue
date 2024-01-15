@@ -31,30 +31,28 @@
         </div>
 
         <!-- Search Results -->
-        <transition name="slide" mode="in-out">
-            <div class="background-secondary search-results"
-                 :class="{'search-results-opened':
+        <div class="background-secondary search-results"
+             :class="{'search-results-opened':
                  search_results.rules.length ||
                  search_results.races.length ||
                  search_results.talents.length}">
 
-                <!-- Categories -->
-                <div v-if="search_results.rules.length" class="search-category">
-                    <b>Rules</b>
-                    <a v-for="search_result in search_results.rules">{{ search_result.name }}</a>
-                </div>
-
-                <div v-if="search_results.races.length" class="search-category">
-                    <b>Races</b>
-                    <a v-for="search_result in search_results.races">{{ search_result.name }}</a>
-                </div>
-
-                <div v-if="search_results.talents.length" class="search-category">
-                    <b>Talents</b>
-                    <a v-for="search_result in search_results.talents">{{ search_result.name }}</a>
-                </div>
+            <!-- Categories -->
+            <div v-if="search_results.rules.length" class="search-category">
+                <b>Rules</b>
+                <a v-for="search_result in search_results.rules">{{ search_result.name }}</a>
             </div>
-        </transition>
+
+            <div v-if="search_results.races.length" class="search-category">
+                <b>Races</b>
+                <a v-for="search_result in search_results.races">{{ search_result.name }}</a>
+            </div>
+
+            <div v-if="search_results.talents.length" class="search-category">
+                <b>Talents</b>
+                <a v-for="search_result in search_results.talents">{{ search_result.name }}</a>
+            </div>
+        </div>
 
         <!-- Component -->
         <router-view v-slot="{ Component }">
