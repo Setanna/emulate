@@ -204,6 +204,7 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     height: 100%;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
     transition: width 0.5s;
     width: 0;
 }
@@ -217,6 +218,7 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     display: flex;
     flex-direction: column;
     width: 100%;
+    white-space: nowrap;
 }
 
 /* Background Colors */

@@ -33,7 +33,7 @@
         <!-- Search Results -->
         <transition name="slide" mode="in-out">
             <div class="background-secondary search-results"
-                              :class="{'search-results-opened':
+                 :class="{'search-results-opened':
                  search_results.rules.length ||
                  search_results.races.length ||
                  search_results.talents.length}">
