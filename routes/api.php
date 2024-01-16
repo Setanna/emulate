@@ -132,6 +132,7 @@ Route::get('/talent/genre/{genre}', [TalentController::class, 'getTalentsByGenre
 Route::get('/race/genre/{genre}', [RaceController::class, 'getRacesByGenre'])->name('getRacesByGenre');
 Route::get('/genre/name/{name}', [GenreController::class, 'showName'])->name('showName');
 Route::get('/showOptions/{genre}', [GenreController::class, 'showOptions'])->name('showOptions');
+Route::get('/{genre}/books', [GenreController::class, 'showBooks'])->name('showBooks');
 
 Route::group(['middleware' => ['web']], function () {
     // Authentication

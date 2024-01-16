@@ -37,6 +37,12 @@
                  search_results.races.length ||
                  search_results.talents.length}">
 
+            <!-- Filter & Sort -->
+            <div class="search-buttons">
+                <button @click="showFilter = true" class="search-button">Filter</button>
+                <button @click="showSort = true" class="search-button">Sort</button>
+            </div>
+
             <!-- Categories -->
             <div v-if="search_results.rules.length" class="search-category">
                 <b>Rules</b>
@@ -62,18 +68,25 @@
                 </keep-alive>
             </div>
         </router-view>
+
+        <!-- Filter & Sort Modals -->
+        <Teleport to="body" v-if="books">
+            <filter-modal :showFilter="showFilter" :books="books" @close="showFilter = false"/>
+            <sort-modal :showSort="showSort" @close="showSort = false"/>
+        </Teleport>
     </div>
 </template>
 
-<style src="vue-multiselect/dist/vue-multiselect.css"></style>
-
 <script>
+import filterModal from '../modals/filter.vue'
+import sortModal from '../modals/sort.vue'
 import axios from "axios";
 
 export default {
     data() {
         return {
             /* arrays */
+            books: {},
             genres: {},
             search_results: {
                 "rules": [],
@@ -85,11 +98,27 @@ export default {
             genre: null,
             search_text: '',
             /* booleans */
+            showFilter: false,
+            showSort: false,
             search_state: false,
             searchFocus: false
         }
     },
+    components: {
+        filterModal,
+        sortModal
+    },
     methods: {
+        getBooks: function (genre) {
+            if (genre) {
+                axios.get('/api/' + genre + '/books').then(response => {
+                    this.books = response.data
+                })
+                    .catch(error => {
+                        console.log("Error: " + error);
+                    })
+            }
+        },
         getOptions: function (genre) {
             if (genre) {
                 axios.get('/api/showOptions/' + genre).then(response => {
@@ -129,11 +158,13 @@ export default {
                 // Set genre
                 this.genre = genre
 
-                // Remove old options
+                // Remove old options & books
                 this.options = {};
+                this.books = {}
 
-                // Get new options
+                // Get new options & books
                 this.getOptions(genre);
+                this.getBooks(genre);
             },
             immediate: true
         },

@@ -97,16 +97,19 @@ class GenreController extends Controller
         $options = [];
 
         try {
-            // get the genre by comparing lowercase to lowercase
-            $genre = DB::table('genres')->where('name', 'LIKE', '%' . $genre_input . '%')->get();
+            // Make new genre controller
+            $genre_controller = new GenreController;
 
-            // If the genre is not a lowercase match throw exception (LIKE allows fantas to get fantasy genre, but is needed for lowercase DB query without using RAW)
-            if (strtolower($genre[0]->name) !== strtolower($genre_input)) {
-                throw ValidationException::withMessages(['message' => 'could not find genre']);
+            // Get genres using genre controller function showName
+            $genre = $genre_controller->showName($genre_input);
+
+            // Check if there is no error, else return genre response.
+            if($genre->getStatusCode() !== 200){
+                return $genre;
             }
 
             // get all books with the given genre id
-            $book_ids = Book::all()->where('genre_id', $genre[0]->id)->pluck('id');
+            $book_ids = Book::all()->where('genre_id', $genre->getData()->id)->pluck('id');
 
             // get all talents from the books with the given genre id
             $talents = Talent::all()->whereIn('book_id', $book_ids)->first();
@@ -125,7 +128,35 @@ class GenreController extends Controller
 
             return $options;
         } catch (\Exception $e) {
-            return response()->json(["Could not find genre"], 404);
+            return $e;
+        }
+    }
+
+    /**
+     * Get the books from the genre
+     */
+    public function showBooks($genre_input)
+    {
+        $books = [];
+
+        try {
+            // Make new genre controller
+            $genre_controller = new GenreController;
+
+            // Get genres using genre controller function showName
+            $genre = $genre_controller->showName($genre_input);
+
+            // Check if there is no error, else return genre response.
+            if($genre->getStatusCode() !== 200){
+                return $genre;
+            }
+
+            // get all books with the given genre id
+            $books = Book::all()->where('genre_id', $genre->getData()->id);
+
+            return $books;
+        } catch (\Exception $e) {
+            return $e;
         }
     }
 }

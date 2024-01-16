@@ -15,6 +15,7 @@ use App\Models\TraitModel;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Validation\ValidationException;
+use Meilisearch\Endpoints\Indexes;
 
 class SearchController extends Controller
 {

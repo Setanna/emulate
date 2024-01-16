@@ -91,7 +91,7 @@ class TalentController extends Controller
         // Get genres using genre controller function showName
         $genre = $genre_controller->showName($genre_input);
 
-        // Check if there is no error, else return genre.
+        // Check if there is no error, else return genre response.
         if($genre->getStatusCode() !== 200){
             return $genre;
         }
