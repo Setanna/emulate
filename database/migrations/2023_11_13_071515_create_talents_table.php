@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('talent', function (Blueprint $table) {
             $table->id();
             $table->string("name");
-            $table->tinyInteger("rank");
+            $table->tinyInteger("experience_cost");
             $table->string("description");
             $table->string("system");
             $table->foreignId('book_id')->constrained('books');

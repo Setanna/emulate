@@ -4,7 +4,7 @@
         <!-- Navbar -->
         <div class="background-secondary navbar">
             <!-- Navbar Header -->
-            <div class="navbar-header background-tertiary">
+            <div class="navbar-header background-secondary">
                 <router-link :to="{ name: 'home' }" class="no-text-link navbar-title">
                     Emulate:
                 </router-link>
@@ -12,15 +12,13 @@
 
             <!-- Navbar Menu -->
             <div class="navbar-menu">
-                <!-- Search Input -->
-                <input class="search sub-title" placeholder="Search" v-model="search_text"
-                       @input="search(this.text)"
-                       @focusin="this.searchFocus = true" @focusout="this.searchFocus = false"
-                       :class="{'search-closed': !search_state, 'search-opened': search_state}">
-
                 <!-- Navbar Options -->
                 <transition name="fall" mode="in-out">
                     <div class="navbar-options" v-if="options.length">
+                        <!-- Search -->
+                        <a class="no-text-link navbar-title" @click="search_state = !search_state">Search</a>
+
+                        <!-- Genre options -->
                         <router-link v-for="option in options" :to="{ path: '/' + genre + '/' + option }"
                                      class="no-text-link navbar-title">
                             {{ option }}
@@ -31,37 +29,45 @@
         </div>
 
         <!-- Search Results -->
-        <div class="background-secondary search-results"
-             :class="{'search-results-opened':
-                 search_results.rules.length ||
-                 search_results.races.length ||
-                 search_results.talents.length}">
+        <div class="background-tertiary search-results" :class="{'search-results-opened': search_state}">
+            <!-- Margin -->
+            <div style="margin: 0 5px">
+                <!-- Search Input -->
+                <input class="search" placeholder="Search" v-model="search_text"
+                       @input="search(this.text)"
+                       @focusin="this.searchFocus = true" @focusout="this.searchFocus = false">
 
-            <!-- Filter & Sort -->
-            <div class="search-buttons">
-                <button @click="showFilter = true" class="search-button">Filter</button>
-                <button @click="showSort = true" class="search-button">Sort</button>
-            </div>
+                <!-- Categories -->
+                <div v-if="search_results.rules.length" class="search-category">
+                    <b class="search-category-title">Rules</b>
+                    <!--
+                    <router-link v-for="search_result in search_results.rules" :to="{ name: 'home', params: { genre: genre.name.toLowerCase(), rule: search_result.name.toLowerCase() } }" class="no-text-link navbar-title">
+                        {{ search_result.name }}
+                    </router-link>
+                    -->
+                </div>
 
-            <!-- Categories -->
-            <div v-if="search_results.rules.length" class="search-category">
-                <b>Rules</b>
-                <a v-for="search_result in search_results.rules">{{ search_result.name }}</a>
-            </div>
+                <div v-if="search_results.races.length" class="search-category">
+                    <b class="search-category-title">Races</b>
+                    <!--
+                    <router-link v-for="search_result in search_results.races" :to="{ name: 'home', params: { genre: genre.name.toLowerCase(), race: search_result.name.toLowerCase() } }" class="no-text-link navbar-title">
+                        {{ search_result.name }}
+                    </router-link>
+                    -->
+                </div>
 
-            <div v-if="search_results.races.length" class="search-category">
-                <b>Races</b>
-                <a v-for="search_result in search_results.races">{{ search_result.name }}</a>
-            </div>
-
-            <div v-if="search_results.talents.length" class="search-category">
-                <b>Talents</b>
-                <a v-for="search_result in search_results.talents">{{ search_result.name }}</a>
+                <div v-if="search_results.talents.length" class="search-category">
+                    <b class="search-category-title">Talents</b>
+                    <router-link v-for="search_result in search_results.talents"
+                                 :to="{ name: 'talent', params: { id: search_result.id } }">
+                        {{ search_result.name }}
+                    </router-link>
+                </div>
             </div>
         </div>
 
         <!-- Component -->
-        <router-view v-slot="{ Component }">
+        <router-view v-slot="{ Component }" v-if="genre" :genre="genre">
             <div class="component">
                 <keep-alive>
                     <component :is="Component"></component>
@@ -148,7 +154,7 @@ export default {
                         console.log("Error: " + error)
                     })
             }
-        }
+        },
     },
     watch: {
         '$route.params.genre': {
@@ -173,17 +179,8 @@ export default {
                 // On route name changing
 
                 // Add search bar if path isn't home or not_found.
-                this.search_state = name !== "home" && name !== "not_found" && name !== "account";
-
-                // If there is not a search bar
-                if (!this.search_state) {
-                    // Reset search variables on route change
-                    this.search_text = '';
-                    this.search_results = {
-                        "rules": [],
-                        "races": [],
-                        "talents": []
-                    };
+                if(name === "home" || name ==="not_found" || name === "account"){
+                    this.search_state = false;
                 }
             },
             immediate: true

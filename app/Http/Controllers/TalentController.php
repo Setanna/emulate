@@ -81,7 +81,7 @@ class TalentController extends Controller
     /* Custom Functions */
 
     /**
-     * Display talents by genre.
+     * Display talents by genre name.
      */
     public function getTalentsByGenre($genre_input)
     {
@@ -92,7 +92,7 @@ class TalentController extends Controller
         $genre = $genre_controller->showName($genre_input);
 
         // Check if there is no error, else return genre response.
-        if($genre->getStatusCode() !== 200){
+        if ($genre->getStatusCode() !== 200) {
             return $genre;
         }
 
@@ -104,5 +104,33 @@ class TalentController extends Controller
 
         // return the array with the talent resource
         return TalentResource::collection($talents);
+    }
+
+    /**
+     * Display talent by genre name and talent id.
+     */
+    public function getTalentByGenre($genre_input, Talent $talent)
+    {
+        // Make new genre controller
+        $genre_controller = new GenreController;
+
+        // Get genres using genre controller function showName
+        $genre = $genre_controller->showName($genre_input);
+
+        // Check if there is no error, else return genre response.
+        if ($genre->getStatusCode() !== 200) {
+            return $genre;
+        }
+
+        // Get the book id the talent is in
+        $book_id = [ $talent->book_id ];
+
+        // Get the genre_id of the book
+        $genre_id = Book::whereIn('id', $book_id)->get()->pluck('genre_id');
+
+        if($genre_id[0] === $genre->getData()->id){
+            return new TalentResource($talent);
+        }
+        return response()->json(['message' => 'could not find talent in given genre'], 404);
     }
 }

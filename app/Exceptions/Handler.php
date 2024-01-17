@@ -44,14 +44,14 @@ class Handler extends ExceptionHandler
     {
         // If model not found
         if ($e instanceof ModelNotFoundException) {
-            return response(['error' => 'Data not found.']);
+            return response(['error' => 'Data not found.'], 404);
         }
 
         // If there is a query exception
         if ($e instanceof QueryException){
             // If the data already exists return custom error message
             if($e->getCode() === "23000"){
-                return response(['error' => 'Data already exists.']);
+                return response(['error' => 'Data already exists.'], 400);
             }
 
             // else return laravel error message

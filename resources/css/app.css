@@ -168,40 +168,34 @@ h1, h2, h3, h4, h5, h6, p, a, b {
 }
 
 .search {
-    background-color: var(--primary-color);
+    color: var(--dark-text-color);
+    font-family: "Montserrat", serif;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: var(--tertiary-color);
     width: 100%;
     text-decoration: none;
     border: none;
     box-sizing: border-box;
-    transition: all 1s;
-    padding: 0 5px;
-    height: 34px;
-    z-index: 2;
+    height: 40px;
+    border-bottom: 2px solid var(--primary-color);
 }
 
 .search:hover {
     text-decoration: none;
-    border: none;
     outline: none;
 }
 
 .search:focus {
     text-decoration: none;
-    border: none;
     outline: none;
 }
 
-.search-closed {
-    height: 0;
-    transition: all 1s;
-}
-
-.search-opened {
-    height: 34px;
-    transition: all 1s;
-}
-
 .search-results {
+    color: var(--dark-text-color);
+    font-family: "Montserrat", serif;
+    font-size: 16px;
+    font-weight: 500;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -236,6 +230,11 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     flex-direction: column;
     width: 100%;
     white-space: nowrap;
+}
+
+.search-category-title {
+    padding-top: 10px;
+    border-bottom: 1px solid var(--primary-color);
 }
 
 /* Background Colors */
@@ -298,6 +297,14 @@ h1, h2, h3, h4, h5, h6, p, a, b {
 /* Genre */
 .genre {
     position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+/* Talent */
+.talent {
+    position: absolute;
+    margin: 5px;
     height: 100%;
     width: 100%;
 }

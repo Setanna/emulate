@@ -19,6 +19,11 @@ const router = createRouter({
             component: () => import('./pages/talents.vue')
         },
         {
+            name: 'talent',
+            path: '/:genre/talents/:id',
+            component: () => import('./pages/talent.vue')
+        },
+        {
             name: 'races',
             path: '/:genre/races',
             component: () => import('./pages/races.vue')

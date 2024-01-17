@@ -128,6 +128,7 @@ Route::get('/search/{search}', [SearchController::class, 'quickSearch'])->name('
 Route::get('/search/{genre}/{search}', [SearchController::class, 'genreSearch'])->name('genreSearch');
 
 // Custom Functions
+Route::get('/{genre}/talents/{talent}', [TalentController::class, 'getTalentByGenre'])->name('getTalentByGenre');
 Route::get('/talent/genre/{genre}', [TalentController::class, 'getTalentsByGenre'])->name('getTalentsByGenre');
 Route::get('/race/genre/{genre}', [RaceController::class, 'getRacesByGenre'])->name('getRacesByGenre');
 Route::get('/genre/name/{name}', [GenreController::class, 'showName'])->name('showName');

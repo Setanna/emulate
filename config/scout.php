@@ -154,8 +154,8 @@ return [
                 'sortableAttributes' => ['name', 'book']
             ],
             Talent::class => [
-                'filterableAttributes'=> ['name', 'rank', 'description', 'book'],
-                'sortableAttributes' => ['name', 'rank', 'book']
+                'filterableAttributes'=> ['name', 'experience_cost', 'description', 'book'],
+                'sortableAttributes' => ['name', 'experience_cost', 'book']
             ],
             Race::class => [
                 'filterableAttributes'=> ['name', 'description', 'experience_cost', 'hit_points','book'],

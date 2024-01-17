@@ -72,18 +72,18 @@ class DatabaseSeeder extends Seeder
         Book("Core Rulebook", "The core rulebook for a generic apocalypse system", 3, "2023/11/10");
         Book("Core Rulebook", "The core rulebook for a generic superhero system", 4, "2023/11/10");
 
-        function Talent($name, $rank, $description, $system, $book_id){
+        function Talent($name, $experience_cost, $description, $system, $book_id){
             $Model = new \App\Models\Talent();
             $Model->name = $name;
-            $Model->rank = $rank;
+            $Model->experience_cost = $experience_cost;
             $Model->description = $description;
             $Model->system = $system;
             $Model->book_id = $book_id;
             $Model->save();
         }
-        Talent("Armor Training", 1, "You gain training in light armor", "system", 1);
-        Talent("Weapon Training", 1, "You gain training in simple weapons", "system", 1);
-        Talent("Rallying Charge", 1, "You rally your allies and charge forward", "system", 1);
+        Talent("Armor Training", 1, "You gain training in light armor", "You become trained with light armor.", 1);
+        Talent("Weapon Training", 1, "You gain training in simple weapons", "You become trained with simple weapons.", 1);
+        Talent("Rallying Charge", 1, "You rally your allies and charge forward", "You spend 3 actions to make a call to arms. You and all allies who can hear you can move up to their speed and make a single attack.", 1);
         Talent("Dragon's Breath", 1, "You breathe the elements like the dragons of old", "system", 2);
         Talent("Draconic Scales", 1, "Scales that protect from both the elements and physical blows", "system", 2);
         Talent("Xenophobic", 1, "You're xenophobic'", "system", 3);
@@ -160,6 +160,7 @@ class DatabaseSeeder extends Seeder
         TraitModel("Fire", "Controls, manipulates or creates heat and fire", "system");
         TraitModel("Sturdy", "Hard to damage", "system");
         TraitModel("Verbal", "Must be spoken or otherwise make sound such as yelling or instruments", "system");
+        TraitModel("Diverse", "description", "Talents with the Diverse trait can be taken any number of times, but any option chosen from the talent can only be chosen once.");
 
         function TalentTrait($talent_id, $trait_id){
             $Model = new \App\Models\TalentTrait();
