@@ -23,7 +23,7 @@ class TalentRequest extends FormRequest
     {
         return [
             'name' => 'required|max:255|unique:talent',
-            'experience_cost' => 'required|max:2|integer',
+            'experience_cost' => 'required|max:3|integer',
             'description' => 'required|max:65535',
             'system' => 'required|max:65535',
             'book_id' => 'required|max:20|integer|exists:books,id'
@@ -40,7 +40,7 @@ class TalentRequest extends FormRequest
         return [
             'name.required' => 'Please enter a name',
             'rank.required' => 'Please enter a rank',
-            'experience_cost.integer' => 'Please enter a number for experienc cost',
+            'experience_cost.integer' => 'Please enter a number for experience cost',
             'description.required' => 'Please enter a description',
             'system.required' => 'Please enter a system explanation',
             'book_id.required' => 'Please enter a book id',

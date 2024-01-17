@@ -86,8 +86,7 @@ class DatabaseSeeder extends Seeder
         Talent("Rallying Charge", 1, "You rally your allies and charge forward", "You spend 3 actions to make a call to arms. You and all allies who can hear you can move up to their speed and make a single attack.", 1);
         Talent("Dragon's Breath", 1, "You breathe the elements like the dragons of old", "system", 2);
         Talent("Draconic Scales", 1, "Scales that protect from both the elements and physical blows", "system", 2);
-        Talent("Xenophobic", 1, "You're xenophobic'", "system", 3);
-        Talent("Xenophobic", 2, "You take xenophobia to a new level", "system", 3);
+        Talent("Xenophobic", -1, "You're xenophobic'", "system", 3);
 
         function RequiredTalent($talent_id, $required_talent_id){
             $Model = new \App\Models\RequiredTalent();

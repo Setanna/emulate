@@ -20,7 +20,7 @@ class TalentResource extends JsonResource
         return [
             'id'                    => $this->id,
             'name'                  => $this->name,
-            'rank'                  => $this->rank,
+            'experience_cost'       => $this->experience_cost,
             'description'           => $this->description,
             'system'                => $this->system,
             'book'                  => $this->book->name,
