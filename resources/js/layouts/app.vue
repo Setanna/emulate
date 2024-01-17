@@ -67,7 +67,7 @@
         </div>
 
         <!-- Component -->
-        <router-view v-slot="{ Component }" v-if="genre" :genre="genre">
+        <router-view v-slot="{ Component }" :genre="genre">
             <div class="component">
                 <keep-alive>
                     <component :is="Component"></component>
