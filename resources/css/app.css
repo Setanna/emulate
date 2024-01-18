@@ -85,6 +85,7 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     height: 100%;
     width: 100%;
     transition: width 0.5s;
+    margin: 10px;
 }
 
 /* Navbar */
@@ -304,7 +305,6 @@ h1, h2, h3, h4, h5, h6, p, a, b {
 /* Talent */
 .talent {
     position: absolute;
-    margin: 5px;
     height: 100%;
     width: 100%;
 }
