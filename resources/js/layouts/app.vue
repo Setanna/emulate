@@ -2,9 +2,9 @@
     <!-- Page -->
     <div class="page background-primary">
         <!-- Navbar -->
-        <div class="background-secondary navbar">
+        <div class="background-tertiary navbar">
             <!-- Navbar Header -->
-            <div class="navbar-header background-secondary">
+            <div class="navbar-header background-tertiary">
                 <router-link :to="{ name: 'home' }" class="no-text-link navbar-title">
                     Emulate:
                 </router-link>
@@ -16,11 +16,12 @@
                 <transition name="fall" mode="in-out">
                     <div class="navbar-options" v-if="options.length">
                         <!-- Search -->
-                        <a class="no-text-link navbar-title" @click="search_state = !search_state">Search</a>
+                        <router-link to="" class="no-text-link navbar-title" @click="search_state = !search_state">
+                            Search
+                        </router-link>
 
                         <!-- Genre options -->
-                        <router-link v-for="option in options" :to="{ path: '/' + genre + '/' + option }"
-                                     class="no-text-link navbar-title">
+                        <router-link v-for="option in options" :to="{ path: '/' + genre + '/' + option }" class="no-text-link navbar-title">
                             {{ option }}
                         </router-link>
                     </div>
@@ -29,7 +30,7 @@
         </div>
 
         <!-- Search Results -->
-        <div class="background-tertiary search-results" :class="{'search-results-opened': search_state}">
+        <div class="background-secondary search-results" :class="{'search-results-opened': search_state}">
             <!-- Margin -->
             <div style="margin: 0 5px">
                 <!-- Search Input -->

@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     font-family: "Montserrat", serif;
     font-size: 22px;
     font-weight: bold;
-    background-color: var(--tertiary-color);
+    background-color: var(--secondary-color);
     width: 100%;
     text-decoration: none;
     border: none;
@@ -409,6 +409,5 @@ h1, h2, h3, h4, h5, h6, p, a, b {
 
 .modal-enter-from .modal-container,
 .modal-leave-to .modal-container {
-    -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
