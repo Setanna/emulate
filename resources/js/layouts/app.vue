@@ -34,33 +34,34 @@
             <!-- Margin -->
             <div style="margin: 0 5px">
                 <!-- Search Input -->
-                <input class="search" placeholder="Search" v-model="search_text"
+                <div class="search">
+                <input class="search-input" placeholder="Search" v-model="search_text"
                        @input="search(this.text)"
                        @focusin="this.searchFocus = true" @focusout="this.searchFocus = false">
+                    <img class="icon-32" style="justify-self: center" src="../../assets/icons/settings.svg" alt="" @click="showFilter = true">
+                </div>
 
-                <!-- Categories -->
+                <!-- Result Categories -->
                 <div v-if="search_results.rules.length" class="search-category">
                     <b class="search-category-title">Rules</b>
-                    <!--
-                    <router-link v-for="search_result in search_results.rules" :to="{ name: 'home', params: { genre: genre.name.toLowerCase(), rule: search_result.name.toLowerCase() } }" class="no-text-link navbar-title">
+                    <router-link v-for="search_result in search_results.rules"
+                                 to="" class="no-text-link">
                         {{ search_result.name }}
                     </router-link>
-                    -->
                 </div>
 
                 <div v-if="search_results.races.length" class="search-category">
                     <b class="search-category-title">Races</b>
-                    <!--
-                    <router-link v-for="search_result in search_results.races" :to="{ name: 'home', params: { genre: genre.name.toLowerCase(), race: search_result.name.toLowerCase() } }" class="no-text-link navbar-title">
+                    <router-link v-for="search_result in search_results.races"
+                                 to="" class="no-text-link">
                         {{ search_result.name }}
                     </router-link>
-                    -->
                 </div>
 
                 <div v-if="search_results.talents.length" class="search-category">
                     <b class="search-category-title">Talents</b>
                     <router-link v-for="search_result in search_results.talents"
-                                 :to="{ name: 'talent', params: { id: search_result.id } }">
+                                 :to="{ name: 'talent', params: { id: search_result.id } }" class="no-text-link">
                         {{ search_result.name }}
                     </router-link>
                 </div>
@@ -76,17 +77,15 @@
             </div>
         </router-view>
 
-        <!-- Filter & Sort Modals -->
+        <!-- Filter Modal -->
         <Teleport to="body" v-if="books">
             <filter-modal :showFilter="showFilter" :books="books" @close="showFilter = false"/>
-            <sort-modal :showSort="showSort" @close="showSort = false"/>
         </Teleport>
     </div>
 </template>
 
 <script>
 import filterModal from '../modals/filter.vue'
-import sortModal from '../modals/sort.vue'
 import axios from "axios";
 
 export default {
@@ -112,8 +111,7 @@ export default {
         }
     },
     components: {
-        filterModal,
-        sortModal
+        filterModal
     },
     methods: {
         getBooks: function (genre) {

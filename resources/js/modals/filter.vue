@@ -3,7 +3,7 @@
         <div v-if="showFilter" class="modal-mask">
             <div class="modal-container">
                 <div class="modal-header">
-                    <slot name="header"> Filter</slot>
+                    <slot name="header"> Filter & Sort</slot>
                 </div>
 
                 <div class="modal-body">
@@ -31,8 +31,6 @@
 
 
 <script>
-import axios from "axios";
-
 export default {
     props: {
         showFilter: Boolean,
