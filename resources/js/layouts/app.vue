@@ -1,6 +1,6 @@
 <template>
     <!-- Page -->
-    <div class="page background-primary">
+    <div class="page background-primary" >
         <!-- Navbar -->
         <div class="background-tertiary navbar">
             <!-- Navbar Header -->
@@ -38,30 +38,27 @@
                 <input class="search-input" placeholder="Search" v-model="search_text"
                        @input="search(this.text)"
                        @focusin="this.searchFocus = true" @focusout="this.searchFocus = false">
-                    <img class="icon-32" style="justify-self: center" src="../../assets/icons/settings.svg" alt="" @click="showFilter = true">
+                    <img class="icon-32 clickable" style="justify-self: center" src="../../assets/icons/settings.svg" alt="" @click="showFilter = true">
                 </div>
 
                 <!-- Result Categories -->
                 <div v-if="search_results.rules.length" class="search-category">
                     <b class="search-category-title">Rules</b>
-                    <router-link v-for="search_result in search_results.rules"
-                                 to="" class="no-text-link">
+                    <router-link v-for="search_result in search_results.rules" to="" class="no-text-link">
                         {{ search_result.name }}
                     </router-link>
                 </div>
 
                 <div v-if="search_results.races.length" class="search-category">
                     <b class="search-category-title">Races</b>
-                    <router-link v-for="search_result in search_results.races"
-                                 to="" class="no-text-link">
+                    <router-link v-for="search_result in search_results.races" to="" class="no-text-link">
                         {{ search_result.name }}
                     </router-link>
                 </div>
 
                 <div v-if="search_results.talents.length" class="search-category">
                     <b class="search-category-title">Talents</b>
-                    <router-link v-for="search_result in search_results.talents"
-                                 :to="{ name: 'talent', params: { id: search_result.id } }" class="no-text-link">
+                    <router-link v-for="search_result in search_results.talents" :to="{ name: 'talent', params: { id: search_result.id, genre: this.genre } }" class="no-text-link">
                         {{ search_result.name }}
                     </router-link>
                 </div>
@@ -77,7 +74,7 @@
             </div>
         </router-view>
 
-        <!-- Filter Modal -->
+        <!-- Modal -->
         <Teleport to="body" v-if="books">
             <filter-modal :showFilter="showFilter" :books="books" @close="showFilter = false"/>
         </Teleport>
@@ -163,9 +160,15 @@ export default {
                 // Set genre
                 this.genre = genre
 
-                // Remove old options & books
+                // Remove search_results, search text, old options & books
                 this.options = {};
-                this.books = {}
+                this.books = {};
+                this.search_text = '';
+                this.search_results = {
+                    "rules": [],
+                    "races": [],
+                    "talents": []
+                };
 
                 // Get new options & books
                 this.getOptions(genre);

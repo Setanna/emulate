@@ -27,7 +27,7 @@ export default {
                 this.talent = {};
 
                 // fetch new genre when parameter id is changed
-                if (id !== undefined) {
+                if (id !== undefined && this.genre !== undefined) {
                     axios.get('/api/' + this.genre + '/talents/' + id).then(response => {
                         this.talent = response.data
                     })
@@ -50,7 +50,7 @@ export default {
                 this.talent = {};
 
                 // fetch new genre when parameter id is changed
-                if (genre !== undefined) {
+                if (genre !== undefined && this.$route.params.id !== undefined) {
                     axios.get('/api/' + genre + '/talents/' + this.$route.params.id).then(response => {
                         this.talent = response.data
                     })
