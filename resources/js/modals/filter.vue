@@ -2,27 +2,24 @@
     <Transition name="modal">
         <div v-if="showFilter" class="modal-mask">
             <div class="modal-container">
-                <div class="modal-header">
-                    <slot name="header"> Filter & Sort</slot>
-                </div>
-
+                <!-- Body -->
                 <div class="modal-body">
-                    <slot name="body">
-                        <a>Book</a>
-                        <select name="filterBook">
-                            <option v-for="book in books" value="{{ book.id }}"> {{ book.name }} </option>
-                        </select>
-                    </slot>
+                    <div>
+                        <a>Books</a>
+
+                        <ul class="checkbox-ul">
+                            <li class="checkbox-li" v-for="book in books">
+                                <input class="checkbox" type="checkbox" :value="book.id" :name="book.id" :id="book.name + book.id" hidden checked>
+                                <label class="checkbox-label" :for="book.name + book.id"> {{ book.name }} </label>
+                            </li>
+                        </ul>
+
+                    </div>
                 </div>
 
+                <!-- Footer -->
                 <div class="modal-footer">
-                    <slot name="footer">
-                        <button
-                            class="modal-default-button"
-                            @click="$emit('close')"
-                        >OK
-                        </button>
-                    </slot>
+                    <button class="modal-default-button" @click="$emit('close')"> OK</button>
                 </div>
             </div>
         </div>
