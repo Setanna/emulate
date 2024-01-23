@@ -381,7 +381,7 @@ h1, h2, h3, h4, h5, h6, p, a, b {
 }
 
 .modal-container {
-    width: 300px;
+    width: 900px;
     margin: auto;
     padding: 20px 30px;
     background-color: var(--secondary-color);

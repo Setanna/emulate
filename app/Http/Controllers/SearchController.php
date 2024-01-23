@@ -42,8 +42,13 @@ class SearchController extends Controller
      * Display the first 10 of each relevant category in given genre.
      *
      */
-    public function genreSearch($genre_input, $query)
+    public function genreSearch($genre_input, $query, Request $request)
     {
+        // Validate the request
+        $request->validate([
+            'filters.books'=>'array'
+        ]);
+
         // Make new genre controller
         $genre_controller = new GenreController;
 
@@ -58,11 +63,25 @@ class SearchController extends Controller
         // get all books with the given genre id
         $book_ids = Book::all()->where('genre_id', $genre->getData()->id)->pluck('id');
 
+        // Check if there is any filters
+        if($request->filled('filters')){
+            $filters = $request['filters'];
+
+            // Check if filter has any books.
+            if(isset($filters['books'])) {
+                if(count($filters['books']) > 0){
+                    // overwrite book ids with filtered books.
+                    $book_ids = $filters['books'];
+                }
+            }
+        }
+
         $search_results = new \Illuminate\Database\Eloquent\Collection; //Create empty collection
+        // Make sure to add values() to rearrange everything properly
         $search_results = [
-            'rules' => Rule::search($query)->take(10)->get()->whereIn('book_id', $book_ids),
-            'races' => Race::search($query)->take(10)->get()->whereIn('book_id', $book_ids),
-            'talents' => Talent::search($query)->take(10)->get()->whereIn('book_id', $book_ids)
+            'rules' => Rule::search($query)->take(10)->get()->whereIn('book_id', $book_ids)->values(),
+            'races' => Race::search($query)->take(10)->get()->whereIn('book_id', $book_ids)->values(),
+            'talents' => Talent::search($query)->take(10)->get()->whereIn('book_id', $book_ids)->values()
         ];
         return $search_results;
 

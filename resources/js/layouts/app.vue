@@ -36,7 +36,7 @@
                 <!-- Search Input -->
                 <div class="search">
                 <input class="search-input" placeholder="Search" v-model="search_text"
-                       @input="search(this.text)"
+                       @input="search(search_filters)"
                        @focusin="this.searchFocus = true" @focusout="this.searchFocus = false">
                     <img class="icon-32 clickable" style="justify-self: center" src="../../assets/icons/settings.svg" alt="" @click="showFilter = true">
                 </div>
@@ -76,7 +76,7 @@
 
         <!-- Modal -->
         <Teleport to="body" v-if="books">
-            <filter-modal :showFilter="showFilter" :books="books" @close="showFilter = false"/>
+            <filter-modal :showFilter="showFilter" :books="books" v-model:search_filters="search_filters" @save="closeFilterModel(true, $event)" @cancel="closeFilterModel(false)"/>
         </Teleport>
     </div>
 </template>
@@ -88,13 +88,16 @@ import axios from "axios";
 export default {
     data() {
         return {
-            /* arrays */
+            /* arrays & objects */
             books: {},
             genres: {},
             search_results: {
                 "rules": [],
                 "races": [],
                 "talents": []
+            },
+            search_filters: {
+                "books": []
             },
             options: {},
             /* variables */
@@ -131,7 +134,7 @@ export default {
                     })
             }
         },
-        search: function () {
+        search: function (filters) {
             let Search = this.search_text.toLowerCase();
 
             if (Search === "" || this.genre === null) {
@@ -141,7 +144,7 @@ export default {
                     "talents": []
                 };
             } else {
-                axios.get('/api/search/' + this.genre + '/' + Search).then(response => {
+                axios.post('/api/search/' + this.genre + '/' + Search, {filters: filters}).then(response => {
                     if (this.search_text !== "") {
                         this.search_results = response.data;
                     }
@@ -151,6 +154,16 @@ export default {
                     })
             }
         },
+        closeFilterModel: function (save, filters) {
+            // close the modal
+            this.showFilter = false;
+
+            // If save is true, save the filters from the modal as search filters and then search with new filters
+            if(save){
+                this.search_filters = filters;
+                this.search(filters);
+            }
+        }
     },
     watch: {
         '$route.params.genre': {
@@ -186,7 +199,7 @@ export default {
                 }
             },
             immediate: true
-        },
+        }
     },
 }
 </script>
