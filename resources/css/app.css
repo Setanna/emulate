@@ -398,6 +398,34 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     flex-direction: column;
 }
 
+.modal-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-save {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    user-select: none;
+    padding: 5px;
+    font-family: "Montserrat", serif;
+    color: var(--dark-text-color);
+}
+
+.modal-cancel {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: var(--tertiary-color);
+    user-select: none;
+    padding: 5px;
+    margin: 10px;
+    font-family: "Montserrat", serif;
+    color: var(--dark-text-color);
+}
+
 .modal-enter-from {
     opacity: 0;
 }

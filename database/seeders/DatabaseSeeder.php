@@ -73,6 +73,7 @@ class DatabaseSeeder extends Seeder
         Book("Core Rulebook", "The core rulebook for a generic sci-fi system", 2, "2023/11/10");
         Book("Core Rulebook", "The core rulebook for a generic apocalypse system", 3, "2023/11/10");
         Book("Core Rulebook", "The core rulebook for a generic superhero system", 4, "2023/11/10");
+        Book("The Shadows of Death", "A book for a generic fantasy system filled with undead minions and necrotic spells", 1, "2023/11/10");
 
         function Talent($name, $experience_cost, $description, $system, $book_id){
             $Model = new \App\Models\Talent();

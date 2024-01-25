@@ -1,6 +1,6 @@
 <template>
     <!-- Page -->
-    <div class="page background-primary" >
+    <div class="page background-primary">
         <!-- Navbar -->
         <div class="background-tertiary navbar">
             <!-- Navbar Header -->
@@ -21,7 +21,8 @@
                         </router-link>
 
                         <!-- Genre options -->
-                        <router-link v-for="option in options" :to="{ path: '/' + genre + '/' + option }" class="no-text-link navbar-title">
+                        <router-link v-for="option in options" :to="{ path: '/' + genre + '/' + option }"
+                                     class="no-text-link navbar-title">
                             {{ option }}
                         </router-link>
                     </div>
@@ -35,10 +36,11 @@
             <div style="margin: 0 5px">
                 <!-- Search Input -->
                 <div class="search">
-                <input class="search-input" placeholder="Search" v-model="search_text"
-                       @input="search(search_filters)"
-                       @focusin="this.searchFocus = true" @focusout="this.searchFocus = false">
-                    <img class="icon-32 clickable" style="justify-self: center" src="../../assets/icons/settings.svg" alt="" @click="showFilter = true">
+                    <input class="search-input" placeholder="Search" v-model="search_text"
+                           @input="search(search_filters)"
+                           @focusin="this.searchFocus = true" @focusout="this.searchFocus = false">
+                    <img class="icon-32 clickable" style="justify-self: center" src="../../assets/icons/settings.svg"
+                         alt="" @click="showFilter = true">
                 </div>
 
                 <!-- Result Categories -->
@@ -58,7 +60,9 @@
 
                 <div v-if="search_results.talents.length" class="search-category">
                     <b class="search-category-title">Talents</b>
-                    <router-link v-for="search_result in search_results.talents" :to="{ name: 'talent', params: { id: search_result.id, genre: this.genre } }" class="no-text-link">
+                    <router-link v-for="search_result in search_results.talents"
+                                 :to="{ name: 'talent', params: { id: search_result.id, genre: this.genre } }"
+                                 class="no-text-link">
                         {{ search_result.name }}
                     </router-link>
                 </div>
@@ -75,8 +79,8 @@
         </router-view>
 
         <!-- Modal -->
-        <Teleport to="body" v-if="books">
-            <filter-modal :showFilter="showFilter" :books="books" v-model:search_filters="search_filters" @save="closeFilterModel(true, $event)" @cancel="closeFilterModel(false)"/>
+        <Teleport to="body">
+            <filter-modal v-model:showFilter="showFilter" v-model:search_filters="search_filters" :genre="genre" @close="search(search_filters)"/>
         </Teleport>
     </div>
 </template>
@@ -89,7 +93,6 @@ export default {
     data() {
         return {
             /* arrays & objects */
-            books: {},
             genres: {},
             search_results: {
                 "rules": [],
@@ -114,16 +117,6 @@ export default {
         filterModal
     },
     methods: {
-        getBooks: function (genre) {
-            if (genre) {
-                axios.get('/api/' + genre + '/books').then(response => {
-                    this.books = response.data
-                })
-                    .catch(error => {
-                        console.log("Error: " + error);
-                    })
-            }
-        },
         getOptions: function (genre) {
             if (genre) {
                 axios.get('/api/showOptions/' + genre).then(response => {
@@ -154,16 +147,6 @@ export default {
                     })
             }
         },
-        closeFilterModel: function (save, filters) {
-            // close the modal
-            this.showFilter = false;
-
-            // If save is true, save the filters from the modal as search filters and then search with new filters
-            if(save){
-                this.search_filters = filters;
-                this.search(filters);
-            }
-        }
     },
     watch: {
         '$route.params.genre': {
@@ -173,9 +156,8 @@ export default {
                 // Set genre
                 this.genre = genre
 
-                // Remove search_results, search text, old options & books
+                // Remove search_results, search text & old options
                 this.options = {};
-                this.books = {};
                 this.search_text = '';
                 this.search_results = {
                     "rules": [],
@@ -183,9 +165,8 @@ export default {
                     "talents": []
                 };
 
-                // Get new options & books
+                // Get new options
                 this.getOptions(genre);
-                this.getBooks(genre);
             },
             immediate: true
         },
@@ -194,7 +175,7 @@ export default {
                 // On route name changing
 
                 // Add search bar if path isn't home or not_found.
-                if(name === "home" || name ==="not_found" || name === "account"){
+                if (name === "home" || name === "not_found" || name === "account") {
                     this.search_state = false;
                 }
             },
