@@ -40,7 +40,7 @@ export default {
         }
     },
     props: ['search_filters', 'showFilter', 'genre'],
-    emits: ['update:search_filters', 'update:showFilter', 'close'],
+    emits: ['update:showFilter', 'close'],
     methods: {
         getBooks: function (genre) {
             if (genre) {
@@ -53,6 +53,7 @@ export default {
                     $.each(response.data, function (key, value) {
                         book_ids.push(value.id);
                     });
+
                     this.search_filters.books = book_ids;
                 })
                     .catch(error => {
