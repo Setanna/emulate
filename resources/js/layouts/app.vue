@@ -10,6 +10,12 @@
                 </router-link>
             </div>
 
+            <!-- Theme Picker -->
+            <select v-model="theme" class="select title">
+                <option value="light"> Light </option>
+                <option value="dark"> Dark </option>
+            </select>
+
             <!-- Navbar Menu -->
             <div class="navbar-menu">
                 <!-- Navbar Options -->
@@ -104,6 +110,7 @@ export default {
             },
             options: {},
             /* variables */
+            theme: localStorage.getItem('theme'),
             genre: null,
             search_text: '',
             /* booleans */
@@ -178,6 +185,13 @@ export default {
                 if (name === "home" || name === "not_found" || name === "account") {
                     this.search_state = false;
                 }
+            },
+            immediate: true
+        },
+        theme: {
+            handler(theme) {
+                document.documentElement.setAttribute('data-theme', theme);
+                localStorage.setItem('theme', theme);
             },
             immediate: true
         }

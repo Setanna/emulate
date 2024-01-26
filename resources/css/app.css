@@ -16,16 +16,6 @@ h1, h2, h3, h4, h5, h6, p, a, b {
 }
 
 :root {
-    /* Root Variables */
-    --reverse-text-color: #000000;
-    --shadow-color: rgba(0, 0, 0, 0.2);
-    --dark-text-color: #eeeeee;
-    --text-color: #ffffff;
-    --primary-color: #806cd8;
-    --secondary-color: #4a37a0;
-    --tertiary-color: #2a2d63;
-    --accent-color: #2a2d63;
-
     /* VueForm variables */
     /* Tag */
     --ms-tag-bg: var(--primary-color);
@@ -53,6 +43,38 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     --ms-option-bg-selected-pointed: var(--primary-color);
     --ms-option-color-selected-pointed: var(--reverse-text-color);
     --ms-empty-color: var(--dark-text-color);
+}
+
+[data-theme="light"] {
+    /* Main Colors */
+    --primary-color: #806cd8;
+    --secondary-color: #4a37a0;
+    --tertiary-color: #2a2d63;
+    --accent-color: #2a2d63;
+
+    /* Text colors */
+    --reverse-text-color: #000000;
+    --dark-text-color: #eeeeee;
+    --text-color: #ffffff;
+
+    /* Other */
+    --shadow-color: rgba(0, 0, 0, 0.2);
+}
+
+[data-theme="dark"] {
+    /* Main Colors */
+    --primary-color: #2a2d63;
+    --secondary-color: #4a37a0;
+    --tertiary-color: #806cd8;
+    --accent-color: #806cd8;
+
+    /* Text colors */
+    --reverse-text-color: #000000;
+    --dark-text-color: #eeeeee;
+    --text-color: #ffffff;
+
+    /* Other */
+    --shadow-color: rgba(0, 0, 0, 0.2);
 }
 
 .page {
@@ -84,7 +106,7 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     overflow: hidden;
     height: 100%;
     width: 100%;
-    transition: width 0.5s;
+    transition: all 0.5s;
     margin: 10px;
 }
 
@@ -96,7 +118,7 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     align-items: start;
     z-index: 5;
     width: 20%;
-    transition: width 0.5s;
+    transition: all 0.5s;
 }
 
 .navbar-header {
@@ -105,7 +127,7 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     align-items: start;
     width: 100%;
     height: 49px;
-    transition: height 1s;
+    transition: all 0.5s;
     z-index: 5;
 }
 
@@ -145,27 +167,10 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     background-color: var(--tertiary-color);
     border: none;
     text-align: center;
-
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-
-    transition: height 1s;
-    transition-delay: 2s;
-}
-
-.select-closed {
-    transition: all 1s;
-    transition-delay: 2s;
-    padding: 0;
-    height: 0;
-}
-
-.select-opened {
-    transition: all 1s;
-    transition-delay: 2s;
-    height: 100%;
-    padding: 0 0 5px;
+    transition: all 0.5s;
 }
 
 /* Icons */
@@ -184,6 +189,7 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     height: 40px;
     border-bottom: 2px solid var(--primary-color);
     align-items: center;
+    transition: all 0.5s;
 }
 
 .search-input {
