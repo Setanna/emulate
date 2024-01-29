@@ -45,8 +45,9 @@
                     <input class="search-input" placeholder="Search" v-model="search_text"
                            @input="search(search_filters)"
                            @focusin="this.searchFocus = true" @focusout="this.searchFocus = false">
-                    <img class="icon-32 clickable" style="justify-self: center" src="../../assets/icons/settings.svg"
-                         alt="" @click="showFilter = true">
+                    <div class="clickable" @click="showFilter = true">
+                        <settings-icon></settings-icon>
+                    </div>
                 </div>
 
                 <!-- Result Categories -->
@@ -92,7 +93,8 @@
 </template>
 
 <script>
-import filterModal from '../modals/filter.vue'
+import filterModal from '../modals/filter.vue';
+import settingsIcon from '../components/settings.vue';
 import axios from "axios";
 
 export default {
@@ -121,7 +123,8 @@ export default {
         }
     },
     components: {
-        filterModal
+        filterModal,
+        settingsIcon
     },
     methods: {
         getOptions: function (genre) {
