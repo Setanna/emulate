@@ -66,14 +66,14 @@ class DatabaseSeeder extends Seeder
             $Model->publication_date = $publication_date;
             $Model->save();
         }
+        /* Fantasy */
         Book("Core Rulebook", "The core rulebook for a generic fantasy system", 1,"2023/11/10");
         Book("The Draconic Expansion", "A book for a generic fantasy system filled with draconic options", 1,"2023/11/10");
         Book("The Infernal Realms", "A book for a generic fantasy system filled with fiendish options and devil deals", 1,"2023/11/10");
         Book("The Empyrean Realms", "A book for a generic fantasy system filled with angelic options and divine boons", 1,"2023/11/10");
-        Book("Core Rulebook", "The core rulebook for a generic sci-fi system", 2, "2023/11/10");
-        Book("Core Rulebook", "The core rulebook for a generic apocalypse system", 3, "2023/11/10");
-        Book("Core Rulebook", "The core rulebook for a generic superhero system", 4, "2023/11/10");
         Book("The Shadows of Death", "A book for a generic fantasy system filled with undead minions and necrotic spells", 1, "2023/11/10");
+        /* Sci-fi */
+        Book("Core Rulebook", "The core rulebook for a generic sci-fi system", 2, "2023/11/10");
 
         function Talent($name, $experience_cost, $description, $system, $book_id){
             $Model = new \App\Models\Talent();
@@ -84,6 +84,7 @@ class DatabaseSeeder extends Seeder
             $Model->book_id = $book_id;
             $Model->save();
         }
+        /* Fantasy */
         Talent("Armor Training", 1, "You gain training in light armor", "You become trained with light armor.", 1);
         Talent("Weapon Training", 1, "You gain training in simple weapons", "You become trained with simple weapons.", 1);
         Talent("Rallying Charge", 1, "You rally your allies and charge forward", "You spend 3 actions to make a call to arms. You and all allies who can hear you can move up to their speed and make a single attack.", 1);
@@ -92,7 +93,12 @@ class DatabaseSeeder extends Seeder
         Talent("Draconic Scales", 1, "Scales that protect from both the elements and physical blows", "system", 2);
         Talent("Devil Contract", 0, "You make a contract with a Devil for fiendish powers.", "system", 3);
         Talent("Divine Boon", 0, "Your actions have not gone unnoticed, and the heaven's above grant you their blessing.", "system", 4);
-        Talent("Xenophobic", -1, "You're xenophobic'", "system", 5);
+        Talent("Animate Dead", 1, "You reanimate the dead ot do your bidding", "Spend XP up to half the targets XP. The creature reanimates as undead with only the given amount of XP available for the talents it had in life. When the minion dies, you regain the amount of XP spent, this XP can only be used on Animate Dead. Pay additional XP depending on size.", 5);
+        Talent("Mass Animate Dead", 3, "Reanimate an army at the snap of your fingers", "As Animate Dead, but any number of targets", 5);
+        Talent("Undead Militia", 5, "Your undead are stronger and more versatile", "All undead created by you, using animate dead, gain an additional 3 XP",5);
+        /* Sci-fi */
+        Talent("Xenophobic", -1, "You're xenophobic'", "system", 6);
+
 
         function RequiredTalent($talent_id, $required_talent_id){
             $Model = new \App\Models\RequiredTalent();
@@ -102,6 +108,7 @@ class DatabaseSeeder extends Seeder
         }
         RequiredTalent(5, 4);
         RequiredTalent(6,4);
+        RequiredTalent(10, 9);
 
         function Requirement($name, $description){
             $Model = new \App\Models\Requirement();
@@ -109,7 +116,9 @@ class DatabaseSeeder extends Seeder
             $Model->description = $description;
             $Model->save();
         }
-        Requirement("Speech", "description");
+        Requirement("Verbal", "A talent with this requirement needs words or sound spoken or played on an instrument.");
+        Requirement("Somatic", "A talent with this requirement needs both hands free, or wielding the specified equipment");
+
 
         function TalentRequirement($talent_id, $requirement_id){
             $Model = new \App\Models\TalentRequirement();
@@ -126,14 +135,14 @@ class DatabaseSeeder extends Seeder
             $Model->system = $system;
             $Model->save();
         }
-        Category("Offense", "A talent in this category, deals damage or increases damage dealt.", "Rulings");
-        Category("Defense", "A talent in this category, reduces damage taken.", "Rulings");
-        Category("Movement", "A talent in this category, increases movement or moves something or someone.", "Rulings");
-        Category("Utility", "A talent in this category, has a solution to a problem.", "Rulings");
-        Category("Buff", "A talent in this category, increases another category's effects, such as buffing offense.", "Rulings");
-        Category("Debuff", "A talent in this category, decreases another category's effects, such as debuffing defense.", "Rulings");
-        Category("Social", "A talent in this category, has social effects, such as higher sell rates or owning a platoon of soldiers.", "Rulings");
-        Category("Flaw", "A talent in this category, is a detriment to a character.", "Rulings");
+        Category("Combat", "A talent that deals or reduces damage.", "system");
+        Category("Movement", "A talent that includes movement or that moves another target", "system");
+        Category("Change", "A talent that alters another talent, either buffing, debuffing or changing how it works", "system");
+        Category("Utility", "A talent that typically is non-combat, which interacts with environment, or offers other solutions to problems", "system");
+        Category("Minion", "A talent that grants control over a minion, such as a pet or undead, or involves a minion", "system");
+        Category("Social", "A talent that increases ones sociability, connections, or standing in a faction", "system");
+        Category("Flaw", "A talent that is a detriment to a character, but grants other advantages", "system");
+        Category("Heritage", "A talent that grants benefits depending on your heritage, or gives you a heritage", "system");
 
         function TalentCategory($talent_id, $category_id){
             $Model = new \App\Models\TalentCategory();
@@ -141,17 +150,26 @@ class DatabaseSeeder extends Seeder
             $Model->category_id = $category_id;
             $Model->save();
         }
-        TalentCategory(1,2);
+        TalentCategory(1,1);
         TalentCategory(2,1);
         TalentCategory(3,1);
+        TalentCategory(3,2);
         TalentCategory(3,3);
-        TalentCategory(3,5);
-        TalentCategory(4,2);
+        TalentCategory(4,1);
+        TalentCategory(4,8);
         TalentCategory(5,1);
-        TalentCategory(6,2);
-        TalentCategory(7,5);
-        TalentCategory(8,5);
-        TalentCategory(9,8);
+        TalentCategory(5,8);
+        TalentCategory(6,1);
+        TalentCategory(6,8);
+        TalentCategory(7,7);
+        TalentCategory(7,4);
+        TalentCategory(8,4);
+        TalentCategory(9,5);
+        TalentCategory(10,5);
+        TalentCategory(10,3);
+        TalentCategory(11, 5);
+        TalentCategory(11, 3);
+        TalentCategory(12, 7);
 
         function TraitModel($name, $description, $system){
             $Model = new \App\Models\TraitModel();
@@ -160,9 +178,7 @@ class DatabaseSeeder extends Seeder
             $Model->system = $system;
             $Model->save();
         }
-        TraitModel("Fire", "Controls, manipulates or creates heat and fire", "system");
-        TraitModel("Sturdy", "Hard to damage", "system");
-        TraitModel("Verbal", "Must be spoken or otherwise make sound such as yelling or instruments", "system");
+        TraitModel("Magic", "A talent that involves the use of magic", "system");
         TraitModel("Diverse", "description", "Talents with the Diverse trait can be taken any number of times, but any option chosen from the talent can only be chosen once.");
 
         function TalentTrait($talent_id, $trait_id){
@@ -171,9 +187,11 @@ class DatabaseSeeder extends Seeder
             $Model->trait_id = $trait_id;
             $Model->save();
         }
-        TalentTrait(3,3);
-        TalentTrait(7,4);
-        TalentTrait(8,4);
+        TalentTrait(9, 1);
+        TalentTrait(10, 1);
+        TalentTrait(11, 1);
+        TalentTrait(7,2);
+        TalentTrait(8,2);
 
         function Rule($name, $text, $book_id){
             $Model = new \App\Models\Rule();
