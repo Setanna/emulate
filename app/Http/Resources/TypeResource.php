@@ -5,7 +5,7 @@ namespace App\Http\Resources;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
 
-class RaceResource extends JsonResource
+class TypeResource extends JsonResource
 {
     public static $wrap = null;
 
@@ -19,12 +19,7 @@ class RaceResource extends JsonResource
         return [
             'id'                    => $this->id,
             'name'                  => $this->name,
-            'description'           => $this->description,
-            'experience_cost'       => $this->experience_cost,
-            'hit_points'            => $this->hit_points,
-            'types'                  => $this->types->pluck('name'),
-            'senses'                => $this->senses->pluck('name'),
-            'book'                  => $this->book->name
+            'description'           => $this->description
         ];
     }
 }

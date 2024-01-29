@@ -34,6 +34,21 @@ class Race extends Model
     }
 
     /**
+     * Get the types that the race has through race_senses
+     */
+    public function types()
+    {
+        return $this->hasManyThrough(
+            'App\Models\Type',
+            'App\Models\RaceType',
+            'race_id',
+            'id',
+            'id',
+            'Type_id'
+        );
+    }
+
+    /**
      * Get the book the race belongs to
      */
     public function book()

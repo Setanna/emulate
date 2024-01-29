@@ -11,13 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('talent', function (Blueprint $table) {
+        Schema::create('race_types', function (Blueprint $table) {
             $table->id();
-            $table->string("name");
-            $table->float("experience_cost", 3,0);
-            $table->string("description");
-            $table->longText("system");
-            $table->foreignId('book_id')->constrained('books');
+            $table->foreignId('race_id')->constrained('races')->onDelete("cascade");
+            $table->foreignId('type_id')->constrained('types')->onDelete("cascade");
+            $table->unique(['race_id', 'type_id']);
             $table->timestamps();
         });
     }
@@ -27,6 +25,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('talent');
+        Schema::dropIfExists('race_types');
     }
 };
