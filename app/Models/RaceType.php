@@ -12,7 +12,7 @@ class RaceType extends Model
 
     protected $fillable = [
         'race_id',
-        'sense_id'
+        'type_id'
     ];
 
     /**
