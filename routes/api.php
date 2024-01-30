@@ -6,6 +6,7 @@ use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\GenreController;
 use App\Http\Controllers\RaceController;
 use App\Http\Controllers\RaceSenseController;
+use App\Http\Controllers\RaceTypeController;
 use App\Http\Controllers\RequiredTalentController;
 use App\Http\Controllers\RequirementController;
 use App\Http\Controllers\RuleController;
@@ -16,6 +17,7 @@ use App\Http\Controllers\TalentController;
 use App\Http\Controllers\TalentRequirementController;
 use App\Http\Controllers\TalentTraitController;
 use App\Http\Controllers\TraitController;
+use App\Http\Controllers\TypeController;
 use App\Http\Controllers\UserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -52,6 +54,8 @@ Route::group(['middleware' => ['auth:sanctum', 'ability:create']], function () {
     Route::post('/sense', [SenseController::class, 'store']);
     Route::post('/race', [RaceController::class, 'store']);
     Route::post('/race_sense', [RaceSenseController::class, 'store']);
+    Route::post('/race_type', [RaceTypeController::class, 'store']);
+    Route::post('/type', [TypeController::class, 'store']);
 });
 
 /* Update */
@@ -70,6 +74,8 @@ Route::group(['middleware' => ['auth:sanctum', 'ability:update']], function () {
     Route::put('/sense/{sense}', [SenseController::class, 'update']);
     Route::put('/race/{race}', [RaceController::class, 'update']);
     Route::put('/race_sense/{race_sense}', [RaceSenseController::class, 'update']);
+    Route::put('/race_type/{race_type}', [RaceTypeController::class, 'update']);
+    Route::put('/type/{type}', [TypeController::class, 'update']);
 });
 
 /* Destroy */
@@ -88,6 +94,8 @@ Route::group(['middleware' => ['auth:sanctum', 'ability:destroy']], function () 
     Route::delete('/sense/{sense}', [SenseController::class, 'destroy']);
     Route::delete('/race/{race}', [RaceController::class, 'destroy']);
     Route::delete('/race_sense/{race_sense}', [RaceSenseController::class, 'destroy']);
+    Route::delete('/race_type/{race_type}', [RaceTypeController::class, 'destroy']);
+    Route::delete('/type/{type}', [TypeController::class, 'destroy']);
 });
 
 /* Unprotected Routes */
@@ -121,6 +129,10 @@ Route::get('/race', [RaceController::class, 'index']);
 Route::get('/race/{race}', [RaceController::class, 'show']);
 Route::get('/race_sense', [RaceSenseController::class, 'index']);
 Route::get('/race_sense/{race_sense}', [RaceSenseController::class, 'show']);
+Route::get('/race_type', [RaceTypeController::class, 'index']);
+Route::get('/race_type/{race_type}', [RaceTypeController::class, 'show']);
+Route::get('/type', [TypeController::class, 'index']);
+Route::get('/type/{type}', [TypeController::class, 'show']);
 
 
 // Search
