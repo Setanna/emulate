@@ -162,15 +162,19 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     margin: 0;
 }
 
-/* Elements */
+/* Select */
 .select {
-    background-color: var(--tertiary-color);
+    background-color: var(--secondary-color);
     border: none;
     text-align: center;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
     transition: all 0.5s;
+}
+
+.option {
+    color: var(--dark-text-color);
+    font-family: "Montserrat", serif;
+    font-size: 32px;
+    font-weight: 700;
 }
 
 /* Icons */
@@ -415,7 +419,6 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     border: 1px solid black;
     border-radius: 5px;
     background-color: var(--primary-color);
-    user-select: none;
     padding: 5px;
     font-family: "Montserrat", serif;
     color: var(--dark-text-color);
@@ -425,7 +428,6 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     border: 1px solid black;
     border-radius: 5px;
     background-color: var(--tertiary-color);
-    user-select: none;
     padding: 5px;
     margin: 10px;
     font-family: "Montserrat", serif;
@@ -480,11 +482,22 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     border: 1px solid black;
     border-radius: 5px;
     background-color: var(--tertiary-color);
-    user-select: none;
     padding: 5px;
     margin-bottom: 10px;
 }
 
 .checkbox[type="checkbox"]:checked + label {
     background-color: var(--primary-color);
+}
+
+/* Theme */
+.theme {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    bottom: 0;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-color: var(--tertiary-color);
+    background-color: var(--secondary-color);
 }

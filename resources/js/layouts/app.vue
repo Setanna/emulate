@@ -10,12 +10,6 @@
                 </router-link>
             </div>
 
-            <!-- Theme Picker -->
-            <select v-model="theme" class="select title">
-                <option value="light"> Light </option>
-                <option value="dark"> Dark </option>
-            </select>
-
             <!-- Navbar Menu -->
             <div class="navbar-menu">
                 <!-- Navbar Options -->
@@ -85,16 +79,24 @@
             </div>
         </router-view>
 
-        <!-- Modal -->
+        <!-- Theme Modal Button -->
+        <div class="theme clickable" @click="showTheme = true">
+            <menu-icon></menu-icon>
+        </div>
+
+        <!-- Modals -->
         <Teleport to="body">
             <filter-modal v-model:showFilter="showFilter" v-model:search_filters="search_filters" :genre="genre" @close="search(search_filters)"/>
+            <theme-modal v-model:showTheme="showTheme" v-model:theme="theme"/>
         </Teleport>
     </div>
 </template>
 
 <script>
 import filterModal from '../modals/filter.vue';
-import settingsIcon from '../components/settings.vue';
+import themeModal from '../modals/theme.vue';
+import settingsIcon from '../icons/settings.vue';
+import menuIcon from '../icons/menu.vue';
 import axios from "axios";
 
 export default {
@@ -112,10 +114,11 @@ export default {
             },
             options: {},
             /* variables */
-            theme: localStorage.getItem('theme'),
+            theme: localStorage.getItem('theme') !== null ?  localStorage.getItem('theme') : 'light',
             genre: null,
             search_text: '',
             /* booleans */
+            showTheme: false,
             showFilter: false,
             showSort: false,
             search_state: false,
@@ -123,8 +126,10 @@ export default {
         }
     },
     components: {
+        themeModal,
         filterModal,
-        settingsIcon
+        settingsIcon,
+        menuIcon
     },
     methods: {
         getOptions: function (genre) {
@@ -195,8 +200,10 @@ export default {
             handler(theme) {
                 document.documentElement.setAttribute('data-theme', theme);
                 localStorage.setItem('theme', theme);
+                console.log(theme);
             },
-            immediate: true
+            immediate: true,
+            deep: true
         }
     },
 }
