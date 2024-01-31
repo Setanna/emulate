@@ -149,15 +149,12 @@ class DatabaseSeeder extends Seeder
             $Model->system = $system;
             $Model->save();
         }
-
         Category("Combat", "A talent that deals or reduces damage.", "system");
         Category("Movement", "A talent that includes movement or that moves another target", "system");
-        Category("Change", "A talent that alters another talent, either buffing, debuffing or changing how it works", "system");
+        Category("Augment", "A talent that alters another talent, either buffing, debuffing or changing how it works", "system");
         Category("Utility", "A talent that typically is non-combat, which interacts with environment, or offers other solutions to problems", "system");
-        Category("Minion", "A talent that grants control over a minion, such as a pet or undead, or involves a minion", "system");
         Category("Social", "A talent that increases ones sociability, connections, or standing in a faction", "system");
         Category("Flaw", "A talent that is a detriment to a character, but grants other advantages", "system");
-        Category("Heritage", "A talent that grants benefits depending on your heritage, or gives you a heritage", "system");
 
         function TalentCategory($talent_id, $category_id)
         {
@@ -171,22 +168,17 @@ class DatabaseSeeder extends Seeder
         TalentCategory(2, 1);
         TalentCategory(3, 1);
         TalentCategory(3, 2);
-        TalentCategory(3, 3);
         TalentCategory(4, 1);
-        TalentCategory(4, 8);
         TalentCategory(5, 1);
-        TalentCategory(5, 8);
         TalentCategory(6, 1);
-        TalentCategory(6, 8);
-        TalentCategory(7, 7);
         TalentCategory(7, 4);
         TalentCategory(8, 4);
-        TalentCategory(9, 5);
-        TalentCategory(10, 5);
+        TalentCategory(9, 4);
+        TalentCategory(10, 4);
         TalentCategory(10, 3);
-        TalentCategory(11, 5);
+        TalentCategory(11, 4);
         TalentCategory(11, 3);
-        TalentCategory(12, 7);
+        TalentCategory(12, 6);
 
         function TraitModel($name, $description, $system)
         {
@@ -197,8 +189,11 @@ class DatabaseSeeder extends Seeder
             $Model->save();
         }
 
-        TraitModel("Magic", "A talent that involves the use of magic", "system");
-        TraitModel("Diverse", "description", "Talents with the Diverse trait can be taken any number of times, but any option chosen from the talent can only be chosen once.");
+        TraitModel("Magic", "A talent that involves the use of magic.", "system");
+        TraitModel("Diverse", "A talent with a wide array of options to choose from.", "Talents with the Diverse trait can be taken any number of times, but any option chosen from the talent can only be chosen once.");
+        TraitModel("Heritage", "A talent that gives you power through your bloodline. ","system");
+        TraitModel("Minion", "A talent that grants control over a minion, such as a pet or undead, or involves a minion", "system");
+
 
         function TalentTrait($talent_id, $trait_id)
         {
@@ -211,8 +206,14 @@ class DatabaseSeeder extends Seeder
         TalentTrait(9, 1);
         TalentTrait(10, 1);
         TalentTrait(11, 1);
+        TalentTrait(9, 4);
+        TalentTrait(10, 4);
+        TalentTrait(11, 4);
         TalentTrait(7, 2);
         TalentTrait(8, 2);
+        TalentTrait(4, 3);
+        TalentTrait(5, 3);
+        TalentTrait(6, 3);
 
         function Rule($name, $text, $book_id)
         {
