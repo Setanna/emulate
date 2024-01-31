@@ -104,7 +104,7 @@ class DatabaseSeeder extends Seeder
         Talent("Mass Animate Dead", 3, "Reanimate an army at the snap of your fingers", "As Animate Dead, but any number of targets", 5);
         Talent("Undead Militia", 5, "Your undead are stronger and more versatile", "All undead created by you, using animate dead, gain an additional 3 XP", 5);
         /* Sci-fi */
-        Talent("Xenophobic", -1, "You're xenophobic'", "system", 6);
+        Talent("Xenophobic", -1, "You're xenophobic", "system", 6);
 
 
         function RequiredTalent($talent_id, $required_talent_id)
@@ -285,6 +285,7 @@ class DatabaseSeeder extends Seeder
             $Model->type_id = $type_id;
             $Model->save();
         }
+
         RaceType(1, 1);
         RaceType(2, 4);
     }
