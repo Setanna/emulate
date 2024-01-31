@@ -85,18 +85,18 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     --shadow-color: rgba(0, 0, 0, 0.2);
 }
 
-[data-theme=""] {
+[data-theme="charcoal"] {
     /* Main Colors */
-    --primary-color: #f2f2f2;
-    --secondary-color: #d9b38c;
-    --tertiary-color: #bf8040;
-    --accent-color: #996633;
-    --border-color: #996633;
+    --primary-color: #808080;
+    --secondary-color: #4d4d4d;
+    --tertiary-color: #262626;
+    --accent-color: #1a1a1a;
+    --border-color: #1a1a1a;
 
     /* Text colors */
     --reverse-text-color: #000000;
-    --dark-text-color: #333333;
-    --text-color: #ffffff;
+    --dark-text-color: #f2f2f2;
+    --text-color: #eeeeee;
 
     /* Other */
     --shadow-color: rgba(0, 0, 0, 0.2);

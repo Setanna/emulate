@@ -13,6 +13,7 @@
                             <select v-model="theme" class="select title">
                                 <option class="option" value="obsidian"> Obsidian </option>
                                 <option class="option" value="office"> Office </option>
+                                <option class="option" value="charcoal"> Charcoal </option>
                             </select>
                         </fieldset>
                     </div>
