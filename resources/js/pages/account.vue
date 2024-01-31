@@ -6,31 +6,31 @@
             <form @submit.prevent="authorize" class="d-flex flex-column">
                 <input type="hidden" name="_token" :value="csrf">
                 <div>
-                    <a>Username</a> <br>
-                    <input name="username" type="text" v-model="username" autocomplete="username" placeholder="username"
+                    <a class="sub-title">Username</a> <br>
+                    <input name="username" class="text-input" type="text" v-model="username" autocomplete="username" placeholder="Username"
                            max="255" required/>
                 </div>
                 <br>
                 <div v-if="register">
-                    <a>Email</a> <br>
-                    <input name="email" type="email" v-model="email" placeholder="email" max="255" required/>
+                    <a class="sub-title">Email</a> <br>
+                    <input name="email" class="text-input" type="email" v-model="email" placeholder="Email" max="255" required/>
                 </div>
                 <br>
                 <div>
-                    <a>Password:</a><br>
-                    <input name="password" type="password" v-model="password" autocomplete="password"
-                           placeholder="password" max="255" required/>
+                    <a class="sub-title">Password:</a><br>
+                    <input name="password" class="text-input" type="password" v-model="password" autocomplete="password"
+                           placeholder="Password" max="255" required/>
                 </div>
                 <br>
                 <div v-if="register">
-                    <a>Confirm Password:</a><br>
-                    <input name="confirmPassword" type="password" v-model="confirmPassword"
-                           placeholder="confirm password" max="255" required/>
+                    <a class="sub-title">Confirm Password:</a><br>
+                    <input name="confirmPassword" class="text-input" type="password" v-model="confirmPassword"
+                           placeholder="Confirm password" max="255" required/>
                 </div>
                 <br>
                 <button type="submit" class="button m-4"> {{ register ? "Sign Up" : "Login" }}</button>
             </form>
-            <button @click="register = !register">
+            <button class="button" @click="register = !register">
                 {{ register ? "Already have an account? Login!" : "Don't have an account? Sign up!" }}
             </button>
             <br>
