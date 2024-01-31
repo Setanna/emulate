@@ -126,13 +126,31 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     font-weight: 650;
 }
 
+.title-card {
+    display: flex;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.categories {
+    display: flex;
+}
+
+.category-card {
+    margin: 4px 4px 4px 0;
+    display: flex;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    padding: 5px;
+}
+
 /* Component */
 .component {
     overflow: hidden;
     height: 100%;
     width: 100%;
     transition: all 0.5s;
-    margin: 10px;
 }
 
 .component * {
@@ -187,7 +205,6 @@ h1, h2, h3, h4, h5, h6, p, a, b {
 }
 
 .navbar-options > a, p {
-    z-index: -1;
     margin: 0;
 }
 
@@ -384,9 +401,7 @@ h1, h2, h3, h4, h5, h6, p, a, b {
 
 /* Talent */
 .talent {
-    position: absolute;
-    height: 100%;
-    width: 100%;
+    margin: 10px;
 }
 
 /* Account */

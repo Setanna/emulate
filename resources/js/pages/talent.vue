@@ -1,8 +1,44 @@
 <!-- genre.vue -->
 <template>
-    <div class="talent">
-        <h1 v-if="talent"> {{ talent.name }} </h1>
-        <p v-if="talent"> {{ talent.system }}</p>
+    <div v-if="talent" class="talent">
+
+        <!-- Name & Cost -->
+        <div v-if="talent.name" class="title-card title">
+            <p style="padding-left: 5px;"> {{ talent.name }} </p>
+
+            <p style="margin-left:auto; margin-right:0; padding-right: 5px;"> {{ talent["experience_cost"]}} </p>
+        </div>
+
+        <!-- Categories -->
+        <div v-if="talent.categories" class="categories sub-title">
+            <p class="category-card" v-for="category in talent.categories"> {{ category }} </p>
+        </div>
+
+        <!-- Required Talents -->
+        <div v-if="talent['required_talents']" style="display:flex;">
+            <p v-if="talent['required_talents'].length" style="font-weight: bold">Required talents: </p>
+            <p v-if="talent['required_talents'].length" v-for="required_talent in talent['required_talents']"> {{ required_talent }} </p>
+        </div>
+
+        <!-- Requirements -->
+        <div v-if="talent['requirements']"  style="display:flex">
+            <p v-if="talent['requirements'].length" style="font-weight: bold">Requirements: </p>
+            <p v-if="talent['requirements'].length" v-for="requirement in talent['requirements']"> {{ requirement }} </p>
+        </div>
+
+        <!-- description -->
+        <div v-if="talent.description">
+            <hr>
+            <p style="font-weight: bold">Description:</p>
+            <p> {{ talent.description }}</p>
+        </div>
+
+        <!-- System -->
+        <div v-if="talent.system">
+            <hr>
+            <p style="font-weight: bold">System:</p>
+            <p> {{ talent.system }}</p>
+        </div>
     </div>
 </template>
 
