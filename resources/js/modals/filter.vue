@@ -5,8 +5,8 @@
                 <!-- Body -->
                 <div class="modal-body">
                     <div>
-                        <fieldset>
-                            <legend>
+                        <fieldset class="fieldset">
+                            <legend class="legend">
                                 Books
                             </legend>
                             <ul class="checkbox-ul">

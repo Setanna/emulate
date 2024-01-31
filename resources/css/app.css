@@ -12,21 +12,23 @@ html, body {
 
 h1, h2, h3, h4, h5, h6, p, a, b {
     font-family: "Montserrat", serif;
-    color: var(--dark-text-color);
+    color: var(--text-color);
 }
 
 :root {
-    /* VueForm variables */
-    /* Tag */
+    /* VueForm variables  */
+    /* Tag
     --ms-tag-bg: var(--primary-color);
     --ms-tag-color: var(--text-color);
+    */
 
-    /* Dropdown */
+    /* Dropdown
     --ms-dropdown-bg: var(--secondary-color);
     --ms-dropdown-border-color: none;
     --ms-dropdown-radius: 2px;
+    */
 
-    /* Select */
+    /* Select
     --ms-bg: var(--secondary-color);
     --ms-bg-disabled: var(--tertiary-color);
     --ms-border-color: none;
@@ -34,8 +36,9 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     --ms-placeholder-color: var(--dark-text-color);
     --ms-spinner-color: none;
     --ms-radius: 2px;
+    */
 
-    /* Options */
+    /* Options
     --ms-option-bg-pointed: var(--primary-color);
     --ms-option-color-pointed: var(--reverse-text-color);
     --ms-option-bg-selected: var(--primary-color);
@@ -43,14 +46,18 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     --ms-option-bg-selected-pointed: var(--primary-color);
     --ms-option-color-selected-pointed: var(--reverse-text-color);
     --ms-empty-color: var(--dark-text-color);
+    */
 }
 
-[data-theme="light"] {
+/* Themes */
+
+[data-theme="obsidian"] {
     /* Main Colors */
     --primary-color: #806cd8;
     --secondary-color: #4a37a0;
     --tertiary-color: #2a2d63;
-    --accent-color: #2a2d63;
+    --accent-color: #1f2147;
+    --border-color: #eeeeee;
 
     /* Text colors */
     --reverse-text-color: #000000;
@@ -61,16 +68,34 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     --shadow-color: rgba(0, 0, 0, 0.2);
 }
 
-[data-theme="dark"] {
+[data-theme="office"] {
     /* Main Colors */
-    --primary-color: #2a2d63;
-    --secondary-color: #4a37a0;
-    --tertiary-color: #806cd8;
-    --accent-color: #806cd8;
+    --primary-color: #f2f2f2;
+    --secondary-color: #d9b38c;
+    --tertiary-color: #bf8040;
+    --accent-color: #996633;
+    --border-color: #996633;
 
     /* Text colors */
     --reverse-text-color: #000000;
-    --dark-text-color: #eeeeee;
+    --dark-text-color: #333333;
+    --text-color: #ffffff;
+
+    /* Other */
+    --shadow-color: rgba(0, 0, 0, 0.2);
+}
+
+[data-theme=""] {
+    /* Main Colors */
+    --primary-color: #f2f2f2;
+    --secondary-color: #d9b38c;
+    --tertiary-color: #bf8040;
+    --accent-color: #996633;
+    --border-color: #996633;
+
+    /* Text colors */
+    --reverse-text-color: #000000;
+    --dark-text-color: #333333;
     --text-color: #ffffff;
 
     /* Other */
@@ -88,14 +113,14 @@ h1, h2, h3, h4, h5, h6, p, a, b {
 
 /* Text & Titles */
 .title {
-    color: var(--dark-text-color);
+    color: var(--text-color);
     font-family: "Montserrat", serif;
     font-size: 32px;
     font-weight: 700;
 }
 
 .sub-title {
-    color: var(--dark-text-color);
+    color: var(--text-color);
     font-family: "Montserrat", serif;
     font-size: 20px;
     font-weight: 500;
@@ -108,6 +133,10 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     width: 100%;
     transition: all 0.5s;
     margin: 10px;
+}
+
+.component * {
+    color: var(--dark-text-color);
 }
 
 /* Navbar */
@@ -171,7 +200,7 @@ h1, h2, h3, h4, h5, h6, p, a, b {
 }
 
 .option {
-    color: var(--dark-text-color);
+    color: var(--text-color);
     font-family: "Montserrat", serif;
     font-size: 32px;
     font-weight: 700;
@@ -197,7 +226,7 @@ h1, h2, h3, h4, h5, h6, p, a, b {
 }
 
 .search-input {
-    color: var(--dark-text-color);
+    color: var(--text-color);
     font-family: "Montserrat", serif;
     font-size: 22px;
     font-weight: bold;
@@ -220,7 +249,7 @@ h1, h2, h3, h4, h5, h6, p, a, b {
 }
 
 .search-results {
-    color: var(--dark-text-color);
+    color: var(--text-color);
     font-family: "Montserrat", serif;
     font-size: 16px;
     font-weight: 500;
@@ -313,13 +342,13 @@ h1, h2, h3, h4, h5, h6, p, a, b {
 .card-title {
     margin-top: 0;
     margin-bottom: 10px;
-
+    color: var(--text-color);
 }
 
 .card-text {
     margin-top: 10px;
     margin-bottom: 10px;
-
+    color: var(--text-color);
 }
 
 /* Genre */
@@ -399,7 +428,7 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
     transition: all 0.3s ease;
     font-family: "Montserrat", serif;
-    color: var(--dark-text-color);
+    color: var(--text-color);
 }
 
 .modal-body {
@@ -418,20 +447,20 @@ h1, h2, h3, h4, h5, h6, p, a, b {
 .modal-save {
     border: 1px solid black;
     border-radius: 5px;
-    background-color: var(--primary-color);
+    background-color: var(--accent-color);
     padding: 5px;
     font-family: "Montserrat", serif;
-    color: var(--dark-text-color);
+    color: var(--text-color);
 }
 
 .modal-cancel {
     border: 1px solid black;
     border-radius: 5px;
-    background-color: var(--tertiary-color);
+    background-color: var(--accent-color);
     padding: 5px;
     margin: 10px;
     font-family: "Montserrat", serif;
-    color: var(--dark-text-color);
+    color: var(--text-color);
 }
 
 .modal-enter-from {
@@ -482,12 +511,27 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     border: 1px solid black;
     border-radius: 5px;
     background-color: var(--tertiary-color);
+    color: var(--dark-text-color);
     padding: 5px;
     margin-bottom: 10px;
+    user-select: none;
 }
 
 .checkbox[type="checkbox"]:checked + label {
     background-color: var(--primary-color);
+    color: var(--dark-text-color);
+}
+
+/* Fieldset */
+
+.fieldset {
+    border-color: var(--border-color);
+}
+
+.legend {
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 500;
 }
 
 /* Theme */
@@ -496,7 +540,7 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     z-index: 10;
     right: 0;
     bottom: 0;
-    padding: 5px;
+    padding: 5px 5px 0 5px;
     border-top-left-radius: 5px;
     border-color: var(--tertiary-color);
     background-color: var(--secondary-color);

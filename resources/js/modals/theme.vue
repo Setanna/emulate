@@ -5,14 +5,14 @@
                 <!-- Body -->
                 <div class="modal-body">
                     <div>
-                        <fieldset>
-                            <legend>
+                        <fieldset class="fieldset">
+                            <legend class="legend">
                                 Theme
                             </legend>
                             <!-- Theme Picker -->
                             <select v-model="theme" class="select title">
-                                <option class="option" value="light"> Light </option>
-                                <option class="option" value="dark"> Dark </option>
+                                <option class="option" value="obsidian"> Obsidian </option>
+                                <option class="option" value="office"> Office </option>
                             </select>
                         </fieldset>
                     </div>
