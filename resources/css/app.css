@@ -244,6 +244,7 @@ h1, h2, h3, h4, h5, h6, p, a, b {
 
 .text-input::placeholder {
     color: var(--dark-text-color);
+    font-family: "Montserrat", serif;
 }
 
 /* Button */
