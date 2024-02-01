@@ -22,7 +22,7 @@
 
                         <!-- Genre options -->
                         <router-link v-for="option in options" :to="{ path: '/' + genre + '/' + option }"
-                                     class="no-text-link navbar-title">
+                                     class="no-text-link navbar-title capitalize">
                             {{ option }}
                         </router-link>
                     </div>
