@@ -399,15 +399,8 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     color: var(--text-color);
 }
 
-/* Genre */
-.genre {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-}
-
-/* Talent */
-.talent {
+/* Margin */
+.m-10 {
     margin: 10px;
 }
 

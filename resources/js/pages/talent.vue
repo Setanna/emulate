@@ -1,6 +1,6 @@
 <!-- genre.vue -->
 <template>
-    <div v-if="talent" class="talent">
+    <div v-if="talent" class="m-10">
 
         <!-- Name & Cost -->
         <div v-if="talent.name" class="title-card title">

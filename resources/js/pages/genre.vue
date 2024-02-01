@@ -1,6 +1,6 @@
 <!-- genre.vue -->
 <template>
-    <div class="genre">
+    <div class="m-10">
         <h1 v-if="genre"> {{ genre.name }} </h1>
         <p v-if="genre"> {{ genre.description }}</p>
     </div>
