@@ -36,7 +36,7 @@
             <div style="margin: 0 5px">
                 <!-- Search Input -->
                 <div class="search">
-                    <input class="search-input" placeholder="Search" v-model="search_text"
+                    <input class="clean-input" placeholder="Search" v-model="search_text"
                            @input="search(search_filters)"
                            @focusin="this.searchFocus = true" @focusout="this.searchFocus = false">
                     <div class="clickable" @click="showFilter = true">

@@ -247,6 +247,33 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     font-family: "Montserrat", serif;
 }
 
+.clean-input {
+    color: var(--text-color);
+    font-family: "Montserrat", serif;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: var(--secondary-color);
+    width: 100%;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+    height: 40px;
+}
+
+.clean-input:hover {
+    text-decoration: none;
+    outline: none;
+}
+
+.clean-input:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+.clean-input::placeholder {
+    font-family: "Montserrat", serif;
+}
+
 /* Button */
 .button {
     width: 100%;
@@ -277,29 +304,6 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     border-bottom: 2px solid var(--primary-color);
     align-items: center;
     transition: all 0.5s;
-}
-
-.search-input {
-    color: var(--text-color);
-    font-family: "Montserrat", serif;
-    font-size: 22px;
-    font-weight: bold;
-    background-color: var(--secondary-color);
-    width: 100%;
-    text-decoration: none;
-    border: none;
-    box-sizing: border-box;
-    height: 40px;
-}
-
-.search-input:hover {
-    text-decoration: none;
-    outline: none;
-}
-
-.search-input:focus {
-    text-decoration: none;
-    outline: none;
 }
 
 .search-results {
