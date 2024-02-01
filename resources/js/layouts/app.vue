@@ -114,7 +114,7 @@ export default {
             },
             options: {},
             /* variables */
-            theme: localStorage.getItem('theme') !== null ?  localStorage.getItem('theme') : 'light',
+            theme: localStorage.getItem('theme') !== null ?  localStorage.getItem('theme') : 'obsidian',
             genre: null,
             search_text: '',
             /* booleans */
