@@ -145,6 +145,11 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     padding: 5px;
 }
 
+/* Table */
+.trait-table {
+    width: 100%;
+}
+
 /* Component */
 .component {
     overflow: hidden;
@@ -352,6 +357,8 @@ h1, h2, h3, h4, h5, h6, p, a, b {
 .no-text-link {
     text-decoration: none;
     text-underline: none;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 /* Deck & Cards */
@@ -583,4 +590,9 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     border-top-left-radius: 5px;
     border-color: var(--tertiary-color);
     background-color: var(--secondary-color);
+}
+
+/* Transform */
+.capitalize {
+    text-transform: capitalize;
 }

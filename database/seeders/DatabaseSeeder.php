@@ -100,9 +100,10 @@ class DatabaseSeeder extends Seeder
         Talent("Draconic Scales", 1, "Scales that protect from both the elements and physical blows", "system", 2);
         Talent("Devil Contract", 0, "You make a contract with a Devil for fiendish powers.", "system", 3);
         Talent("Divine Boon", 0, "Your actions have not gone unnoticed, and the heaven's above grant you their blessing.", "system", 4);
-        Talent("Animate Dead", 1, "You reanimate the dead ot do your bidding", "Spend XP up to half the targets XP. The creature reanimates as undead with only the given amount of XP available for the talents it had in life. When the minion dies, you regain the amount of XP spent, this XP can only be used on Animate Dead. Pay additional XP depending on size.", 5);
+        Talent("Animate Dead", 1, "You reanimate the dead to do your bidding", "Spend XP up to half the targets XP. The creature reanimates as undead with only the given amount of XP available for the talents it had in life. When the minion dies, you regain the amount of XP spent, this XP can only be used on Animate Dead. Pay additional XP depending on size.", 5);
         Talent("Mass Animate Dead", 3, "Reanimate an army at the snap of your fingers", "As Animate Dead, but any number of targets", 5);
-        Talent("Undead Militia", 5, "Your undead are stronger and more versatile", "All undead created by you, using animate dead, gain an additional 3 XP", 5);
+        Talent("Undead Militia", 5, "Your undead are stronger and more versatile", "All undead created by you, using animate dead, gain Armor Training (All) and Weapon Training (All)", 5);
+        Talent("Condescending Teamwork", 5, "Your belief that you're better than everyone else allows you to pull others to your level.", "Your allies count as minion for talents with the minion trait.", 1);
         /* Sci-fi */
         Talent("Xenophobic", -1, "You're xenophobic", "system", 6);
 
@@ -118,6 +119,7 @@ class DatabaseSeeder extends Seeder
         RequiredTalent(5, 4);
         RequiredTalent(6, 4);
         RequiredTalent(10, 9);
+        RequiredTalent(11, 10);
 
         function Requirement($name, $description)
         {
@@ -129,6 +131,7 @@ class DatabaseSeeder extends Seeder
 
         Requirement("Verbal", "A talent with this requirement needs words or sound spoken or played on an instrument.");
         Requirement("Somatic", "A talent with this requirement needs both hands free, or wielding the specified equipment");
+        Requirement("Material", "A talent with this requirement needs some sort of material to be used. The material is consumed only if the talent states so");
 
 
         function TalentRequirement($talent_id, $requirement_id)
@@ -140,6 +143,9 @@ class DatabaseSeeder extends Seeder
         }
 
         TalentRequirement(3, 1);
+        TalentRequirement(9, 1);
+        TalentRequirement(9, 2);
+        TalentRequirement(9, 3);
 
         function Category($name, $description, $system)
         {
@@ -155,6 +161,7 @@ class DatabaseSeeder extends Seeder
         Category("Utility", "A talent that typically is non-combat, which interacts with environment, or offers other solutions to problems", "system");
         Category("Social", "A talent that increases ones sociability, connections, or standing in a faction", "system");
         Category("Flaw", "A talent that is a detriment to a character, but grants other advantages", "system");
+        Category("Teamwork", "A talent that only works together with allies that share the same talent", "system");
 
         function TalentCategory($talent_id, $category_id)
         {
@@ -178,7 +185,9 @@ class DatabaseSeeder extends Seeder
         TalentCategory(10, 3);
         TalentCategory(11, 4);
         TalentCategory(11, 3);
-        TalentCategory(12, 6);
+        TalentCategory(12, 3);
+        TalentCategory(12, 5);
+        TalentCategory(13, 6);
 
         function TraitModel($name, $description, $system)
         {
@@ -189,10 +198,10 @@ class DatabaseSeeder extends Seeder
             $Model->save();
         }
 
-        TraitModel("Magic", "A talent that involves the use of magic.", "system");
+        TraitModel("Magic", "A talent that involves the use of magic.", "Talents with the magic trait don't work in no magic zones");
         TraitModel("Diverse", "A talent with a wide array of options to choose from.", "Talents with the Diverse trait can be taken any number of times, but any option chosen from the talent can only be chosen once.");
         TraitModel("Heritage", "A talent that gives you power through your bloodline. ","system");
-        TraitModel("Minion", "A talent that grants control over a minion, such as a pet or undead, or involves a minion", "system");
+        TraitModel("Minion", "A talent that grants control over a minion, such as a pet or undead, or involves a minion", "Talents with the minion trait only work on minions or create minions");
 
 
         function TalentTrait($talent_id, $trait_id)
@@ -214,6 +223,7 @@ class DatabaseSeeder extends Seeder
         TalentTrait(4, 3);
         TalentTrait(5, 3);
         TalentTrait(6, 3);
+        TalentTrait(12, 4);
 
         function Rule($name, $text, $book_id)
         {

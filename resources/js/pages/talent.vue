@@ -14,16 +14,24 @@
             <p class="category-card" v-for="category in talent.categories"> {{ category }} </p>
         </div>
 
-        <!-- Required Talents -->
-        <div v-if="talent['required_talents']" style="display:flex;">
-            <p v-if="talent['required_talents'].length" style="font-weight: bold">Required talents: </p>
-            <p v-if="talent['required_talents'].length" v-for="required_talent in talent['required_talents']"> {{ required_talent }} </p>
-        </div>
-
         <!-- Requirements -->
         <div v-if="talent['requirements']"  style="display:flex">
             <p v-if="talent['requirements'].length" style="font-weight: bold">Requirements: </p>
-            <p v-if="talent['requirements'].length" v-for="requirement in talent['requirements']"> {{ requirement }} </p>
+            <template v-if="talent['requirements'].length" v-for="(requirement, index) in talent['requirements']">
+                <template v-if="index < 1">&nbsp;</template>
+                <template v-if="index > 0">, &nbsp;</template>
+                <p> {{ requirement }} </p>
+            </template>
+        </div>
+
+        <!-- Required Talents -->
+        <div v-if="talent['required_talents']" style="display:flex;">
+            <p v-if="talent['required_talents'].length" style="font-weight: bold">Required talents: </p>
+            <template v-if="talent['required_talents'].length" v-for="(required_talent, index) in talent['required_talents']">
+                <template v-if="index < 1">&nbsp;</template>
+                <template v-if="index > 0">, &nbsp;</template>
+                <p> {{ required_talent }} </p>
+            </template>
         </div>
 
         <!-- description -->
@@ -38,6 +46,22 @@
             <hr>
             <p style="font-weight: bold">System:</p>
             <p> {{ talent.system }}</p>
+        </div>
+
+        <!-- Traits -->
+        <div v-if="talent['traits']" style="padding-top: 6px">
+            <div v-if="talent['traits'].length" class="title-card sub-title">
+                <p style="padding-left: 5px;"> Traits </p>
+            </div>
+
+            <table v-if="talent['traits'].length" class="trait-table">
+                <tbody>
+                    <tr v-for="trait in talent['traits']">
+                        <td style="width: 20%; font-weight: bold; padding: 5px;"> {{ trait.name }} </td>
+                        <td style="width: 80%;"> {{ trait.system }} </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 </template>
