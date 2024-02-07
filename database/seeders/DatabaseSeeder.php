@@ -20,6 +20,15 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
+        function Role($name) {
+            $Model = new \App\Models\Role();
+            $Model->name = $name;
+            $Model->save();
+        }
+        Role("user");
+        Role("moderator");
+        Role("admin");
+
         /* Make Admin User */
         function AdminUser($username, $email, $password): void
         {
@@ -28,11 +37,11 @@ class DatabaseSeeder extends Seeder
             $Model->email = $email;
             $Model->email_verified_at = now();
             $Model->remember_token = Str::random(10);
+            $Model->role_id = 3;
             $Model->password = Hash::make($password);
             $Model->save();
             error_log($Model->createToken('authToken', ['change password', 'change email', 'password reset', 'create', 'read', 'update', 'destroy'])->plainTextToken);
         }
-
         AdminUser("admin", "admin@gmail.com", 'password');
 
         function User($username, $email, $password): void
