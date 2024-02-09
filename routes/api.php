@@ -35,7 +35,7 @@ use Illuminate\Support\Facades\Route;
 
 /* Get current user */
 Route::get('/user', function (Request $request) {
-    return $request->user();
+    return $request->user('sanctum');
 });
 
 /* Create */
@@ -146,6 +146,9 @@ Route::get('/race/genre/{genre}', [RaceController::class, 'getRacesByGenre'])->n
 Route::get('/genre/name/{name}', [GenreController::class, 'showName'])->name('showName');
 Route::get('/showOptions/{genre}', [GenreController::class, 'showOptions'])->name('showOptions');
 Route::get('/{genre}/books', [GenreController::class, 'showBooks'])->name('showBooks');
+
+// Authorization & Authentication
+Route::get('/auth/ability/{ability}', [AuthController::class, 'checkAbility'])->name('checkAbility');
 
 Route::group(['middleware' => ['web']], function () {
     // Authentication
