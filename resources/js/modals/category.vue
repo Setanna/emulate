@@ -7,7 +7,7 @@
                     <div>
                         <fieldset class="fieldset">
                             <legend class="legend">
-                                Category
+                                Categories
                             </legend>
                             <ul class="checkbox-ul">
                                 <li class="checkbox-li" v-for="category in categories">
