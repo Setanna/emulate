@@ -59,13 +59,6 @@ export default {
     },
     mounted() {
         this.fetchCategories();
-    },
-    watch: {
-        chosen_categories: {
-            handler(c) {
-                console.log(c);
-            }
-        }
     }
 }
 </script>
