@@ -562,7 +562,7 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
     margin-right: 5px;
     font-family: "Montserrat", serif;
     font-weight: bold;
-    color: var(--dark-text-color);
+    color: var(--text-color);
 }
 
 .modal-cancel {
