@@ -36,8 +36,9 @@ export default {
     watch: {
         '$route.params.id': {
             handler(id) {
-                // Remove the old talent
+                // Remove the old talent & make edit false
                 this.talent = {};
+                this.edit = false;
 
                 // fetch new genre when parameter id is changed
                 if (id !== undefined && this.genre !== undefined) {
