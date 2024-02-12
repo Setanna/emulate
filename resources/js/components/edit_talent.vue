@@ -69,7 +69,7 @@
                     <td style="width: 20%; font-weight: bold; padding: 5px;">{{ trait.name }}</td>
                     <td style="width: 80%;">{{ trait.system }}</td>
                 </tr>
-                <tr>
+                <tr class="clickable" @click="showTrait = true">
                     <td style="width: 20%; font-weight: bold; padding: 5px;"> +</td>
                     <td style="width: 80%;"> Add Trait</td>
                 </tr>
@@ -85,6 +85,7 @@
     <!-- Modals -->
     <Teleport to="body">
         <category-modal v-model:showCategory="showCategory" v-model:chosen_categories="categories"/>
+        <trait-modal v-model:showTrait="showTrait" v-model:chosen_traits="traits"/>
     </Teleport>
 </template>
 
@@ -92,6 +93,7 @@
 import axios from 'axios';
 import editor from '../components/editor.vue';
 import categoryModal from '../modals/category.vue';
+import traitModal from '../modals/trait.vue';
 
 export default {
     props: ['genre', 'edit', 'talent'],
@@ -119,12 +121,14 @@ export default {
             requirement_options: this.fetchRequirements(),
             required_talent_options: this.fetchTalents(),
             /* variables */
-            showCategory: false
+            showCategory: false,
+            showTrait: false
         }
     },
     components: {
         editor,
-        categoryModal
+        categoryModal,
+        traitModal
     },
     methods: {
         editTalent: function () {
