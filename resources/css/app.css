@@ -10,7 +10,7 @@ html, body {
     src: url("../fonts/Montserrat-VariableFont_wght.ttf");
 }
 
-h1, h2, h3, h4, h5, h6, p, a, b {
+h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
     font-family: "Montserrat", serif;
     color: var(--text-color);
 }
@@ -108,7 +108,6 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     width: 100vw;
     display: flex;
     flex-direction: row;
-    transition: all 0.5s;
 }
 
 /* Text & Titles */
@@ -145,6 +144,10 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     padding: 5px;
 }
 
+.text-dark {
+    color: var(--dark-text-color) !important;
+}
+
 /* Table */
 .trait-table {
     width: 100%;
@@ -152,7 +155,7 @@ h1, h2, h3, h4, h5, h6, p, a, b {
 
 /* Component */
 .component {
-    overflow: hidden;
+    overflow: auto;
     height: 100%;
     width: 100%;
     transition: all 0.5s;
@@ -228,6 +231,14 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     font-weight: 700;
 }
 
+/* Multiselect */
+.multiselect {
+    position: relative;
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+
 /* Inputs */
 .text-input {
     color: var(--dark-text-color);
@@ -258,11 +269,18 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     border: none;
     box-sizing: border-box;
     height: 40px;
+    transition: all 0.5s;
 }
 
 .clean-input:hover {
     text-decoration: none;
     outline: none;
+}
+
+.clean-input[type=number] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
 }
 
 .clean-input:focus {
@@ -271,6 +289,41 @@ h1, h2, h3, h4, h5, h6, p, a, b {
 }
 
 .clean-input::placeholder {
+    font-family: "Montserrat", serif;
+}
+
+.title-input {
+    color: var(--dark-text-color);
+    font-family: "Montserrat", serif;
+    font-size: 32px;
+    font-weight: bold;
+    background-color: var(--secondary-color);
+    width: 100%;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+    padding-left: 0;
+    padding-right: 0;
+    height: 39px;
+}
+
+.title-input:hover {
+    text-decoration: none;
+    outline: none;
+}
+
+.title-input[type=number] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+.title-input:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+.title-input::placeholder {
     font-family: "Montserrat", serif;
 }
 
@@ -315,13 +368,13 @@ h1, h2, h3, h4, h5, h6, p, a, b {
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    transition: width 0.5s;
+    transition: all 0.5s;
     width: 0;
 }
 
 .search-results-opened {
     width: 20%;
-    transition: width 0.5s;
+    transition: all 0.5s;
 }
 
 .search-button {
@@ -593,4 +646,17 @@ h1, h2, h3, h4, h5, h6, p, a, b {
 /* Transform */
 .capitalize {
     text-transform: capitalize;
+}
+
+/* Primevue Multiselect */
+.p-multiselect {
+    display: flex;
+    flex-direction: row;
+    font-family: "Montserrat", serif;
+    font-size: 16px;
+}
+
+
+.p-multiselect-panel {
+    background-color: var(--secondary-color);
 }
