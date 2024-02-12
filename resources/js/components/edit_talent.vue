@@ -19,7 +19,7 @@
         <div class="categories sub-title">
             <p class="category-card clickable" @click="deleteCategory(index)" v-for="(category, index) in categories">
                 {{ category.name }}</p>
-            <p class="category-card clickable" @click=""> + </p>
+            <p class="category-card clickable" @click="showCategory = true" > + </p>
         </div>
 
         <!-- Requirements -->
@@ -81,11 +81,17 @@
         <button class="modal-save clickable" @click="this.$emit('update:edit', false)">Cancel</button>
 
     </div>
+
+    <!-- Modals -->
+    <Teleport to="body">
+        <category-modal v-model:showCategory="showCategory" v-model:chosen_categories="categories"/>
+    </Teleport>
 </template>
 
 <script>
 import axios from 'axios';
 import editor from '../components/editor.vue';
+import categoryModal from '../modals/category.vue';
 
 export default {
     props: ['genre', 'edit', 'talent'],
@@ -106,18 +112,19 @@ export default {
             }),
             description: this.talent.description,
             system: this.talent.system,
-            // description: '<p style="color: var(--dark-text-color)"> Description</p>',
-            // system: '<p style="color: var(--dark-text-color)"> System </p>',
             traits: this.talent.traits.map((trait) => {
                 return {id: trait.id, name: trait.name, description: trait.description, system: trait.system}
             }),
             /* option variables */
             requirement_options: this.fetchRequirements(),
-            required_talent_options: this.fetchTalents()
+            required_talent_options: this.fetchTalents(),
+            /* variables */
+            showCategory: false
         }
     },
     components: {
-        editor
+        editor,
+        categoryModal
     },
     methods: {
         editTalent: function () {
