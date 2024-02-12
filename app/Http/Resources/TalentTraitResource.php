@@ -17,10 +17,9 @@ class TalentTraitResource extends JsonResource
     public function toArray(Request $request): array
     {
         return [
-            'talent' => [
-                'talent'                => $this->talent->name,
-                'trait'                 => $this->trait->name
-            ]
+            'talent' => $this->talent->name,
+            'trait' => $this->trait->name
+
         ];
     }
 }

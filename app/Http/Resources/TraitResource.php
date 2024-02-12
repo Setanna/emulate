@@ -17,12 +17,10 @@ class TraitResource extends JsonResource
     public function toArray(Request $request): array
     {
         return [
-            'trait' => [
-                'id'                    => $this->id,
-                'name'                  => $this->name,
-                'description'           => $this->description,
-                'system'                => $this->system
-            ]
+            'id' => $this->id,
+            'name' => $this->name,
+            'description' => $this->description,
+            'system' => $this->system
         ];
     }
 }
