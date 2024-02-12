@@ -39,7 +39,7 @@
                       v-for="(required_talent, index) in talent['required_talents']">
                 <template v-if="index < 1">&nbsp;</template>
                 <template v-if="index > 0">, &nbsp;</template>
-                <p> {{ required_talent }} </p>
+                <p> {{ required_talent.name }} </p>
             </template>
         </div>
 
