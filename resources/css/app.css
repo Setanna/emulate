@@ -328,6 +328,18 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
 }
 
 /* Button */
+.clean-button {
+    /* border: 1px solid black; */
+    border:none;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    padding: 5px;
+    margin-right: 5px;
+    font-family: "Montserrat", serif;
+    font-weight: bold;
+    color: var(--dark-text-color);
+}
+
 .button {
     width: 100%;
     background-color: var(--secondary-color);
@@ -542,12 +554,15 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
 }
 
 .modal-save {
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    border:none;
     border-radius: 5px;
-    background-color: var(--accent-color);
+    background-color: var(--tertiary-color);
     padding: 5px;
+    margin-right: 5px;
     font-family: "Montserrat", serif;
-    color: var(--text-color);
+    font-weight: bold;
+    color: var(--dark-text-color);
 }
 
 .modal-cancel {
@@ -646,17 +661,4 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
 /* Transform */
 .capitalize {
     text-transform: capitalize;
-}
-
-/* Primevue Multiselect */
-.p-multiselect {
-    display: flex;
-    flex-direction: row;
-    font-family: "Montserrat", serif;
-    font-size: 16px;
-}
-
-
-.p-multiselect-panel {
-    background-color: var(--secondary-color);
 }

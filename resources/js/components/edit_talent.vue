@@ -77,8 +77,8 @@
             </table>
         </div>
 
-        <button class="modal-save clickable" @click="editTalent()">Confirm</button>
-        <button class="modal-save clickable" @click="this.$emit('update:edit', false)">Cancel</button>
+        <button class="clean-button clickable" @click="editTalent()">Confirm</button>
+        <button class="clean-button clickable" @click="this.$emit('update:edit', false)">Cancel</button>
 
     </div>
 
