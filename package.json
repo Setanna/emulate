@@ -14,7 +14,7 @@
         "@tiptap/pm": "^2.2.1",
         "@tiptap/starter-kit": "^2.2.1",
         "@tiptap/vue-3": "^2.2.1",
-        "@vitejs/plugin-vue": "^4.5.0",
+        "@vitejs/plugin-vue": "^4.6.2",
         "primevue": "^3.48.1",
         "vite-plugin-vuetify": "^2.0.1",
         "vue": "^3.2.36",
