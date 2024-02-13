@@ -10,7 +10,7 @@
                                 Categories
                             </legend>
                             <ul class="checkbox-ul">
-                                <li class="checkbox-li" v-for="category in categories">
+                                <li class="checkbox-li" v-for="category in category_options">
                                     <input class="checkbox" type="checkbox" v-model="chosen_categories"
                                            :value="category"
                                            :id="category.name + category.id" hidden>
@@ -37,27 +37,32 @@ export default {
     data() {
         return {
             /* arrays & objects */
-            categories: {}
+            category_options: {},
+            chosen_categories: null,
         }
     },
-    props: ['showCategory', 'chosen_categories'],
-    emits: ['update:showCategory', 'update:chosen_categories'],
+    props: ['showCategory', 'categories'],
+    emits: ['update:showCategory', 'update:categories'],
     methods: {
         fetchCategories: function () {
             axios.get('/api/category').then(response => {
                 // Get the books from the genre
-                this.categories = response.data.data;
+                this.category_options = response.data.data;
             })
                 .catch(error => {
                     console.log("Error: " + error);
                 })
         },
+        setCategories: function () {
+            this.chosen_categories = this.categories;
+        },
         close: function () {
-            this.$emit('update:chosen_categories', this.chosen_categories);
+            this.$emit('update:categories', this.chosen_categories);
             this.$emit('update:showCategory', false);
         }
     },
     mounted() {
+        this.setCategories();
         this.fetchCategories();
     }
 }

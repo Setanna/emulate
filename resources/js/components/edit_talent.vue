@@ -25,22 +25,27 @@
         <!-- Requirements -->
         <div style="display:flex">
             <p style="font-weight: bold">Requirements: </p>
+            <!--
+            <v-select v-model="requirements" :items="requirement_options" multiple></v-select>
             <template v-if="talent['requirements'].length" v-for="(requirement, index) in talent['requirements']">
                 <template v-if="index < 1">&nbsp;</template>
                 <template v-if="index > 0">, &nbsp;</template>
                 <p> {{ requirement.name }} </p>
             </template>
+            -->
         </div>
 
         <!-- Required Talents -->
         <div style="display:flex;">
             <p style="font-weight: bold">Required talents: </p>
+            <!--
             <template v-if="talent['required_talents'].length"
                       v-for="(required_talent, index) in talent['required_talents']">
                 <template v-if="index < 1">&nbsp;</template>
                 <template v-if="index > 0">, &nbsp;</template>
                 <p> {{ required_talent.name }} </p>
             </template>
+            -->
         </div>
 
         <!-- description -->
@@ -84,8 +89,8 @@
 
     <!-- Modals -->
     <Teleport to="body">
-        <category-modal v-model:showCategory="showCategory" v-model:chosen_categories="categories"/>
-        <trait-modal v-model:showTrait="showTrait" v-model:chosen_traits="traits"/>
+        <category-modal v-model:showCategory="showCategory" :categories="categories" @update:categories="(modalCategories) => this.categories = modalCategories" />
+        <trait-modal v-model:showTrait="showTrait" :traits="traits" @update:traits="(modalTraits) => this.traits = modalTraits" />
     </Teleport>
 </template>
 

@@ -10,7 +10,7 @@
                                 Traits
                             </legend>
                             <ul class="checkbox-ul">
-                                <li class="checkbox-li" v-for="trait in traits">
+                                <li class="checkbox-li" v-for="trait in trait_options">
                                     <input class="checkbox" type="checkbox" v-model="chosen_traits"
                                            :value="trait"
                                            :id="trait.name + trait.id" hidden>
@@ -37,28 +37,32 @@ export default {
     data() {
         return {
             /* arrays & objects */
-            traits: {}
+            chosen_traits: {},
+            trait_options: null
         }
     },
-    props: ['showTrait', 'chosen_traits'],
-    emits: ['update:showTrait', 'update:chosen_traits'],
+    props: ['showTrait', 'traits'],
+    emits: ['update:showTrait', 'update:traits'],
     methods: {
         fetchTraits: function () {
             axios.get('/api/trait').then(response => {
                 // Get the books from the genre
-                this.traits = response.data.data;
-                console.log(response.data.data);
+                this.trait_options = response.data.data;
             })
                 .catch(error => {
                     console.log("Error: " + error);
                 })
         },
+        setTraits: function () {
+          this.chosen_traits = this.traits;
+        },
         close: function () {
-            this.$emit('update:chosen_traits', this.chosen_traits);
+            this.$emit('update:traits', this.chosen_traits);
             this.$emit('update:showTrait', false);
         }
     },
     mounted() {
+        this.setTraits();
         this.fetchTraits();
     }
 }
