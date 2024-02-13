@@ -36,7 +36,7 @@ export default {
             modalTheme: localStorage.getItem('theme') !== null ?  localStorage.getItem('theme') : 'obsidian'
         }
     },
-    props: ['showTheme', 'theme'],
+    props: ['showTheme'],
     emits: ['update:showTheme', 'update:theme'],
     methods: {
         close: function () {
