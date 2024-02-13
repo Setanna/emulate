@@ -10,7 +10,7 @@
                                 Theme
                             </legend>
                             <!-- Theme Picker -->
-                            <select v-model="theme" class="select title">
+                            <select v-model="modalTheme" class="select title">
                                 <option class="option" value="obsidian"> Obsidian </option>
                                 <option class="option" value="office"> Office </option>
                                 <option class="option" value="charcoal"> Charcoal </option>
@@ -30,6 +30,12 @@
 
 <script>
 export default {
+    data() {
+        return {
+            /* arrays & objects */
+            modalTheme: localStorage.getItem('theme') !== null ?  localStorage.getItem('theme') : 'obsidian'
+        }
+    },
     props: ['showTheme', 'theme'],
     emits: ['update:showTheme', 'update:theme'],
     methods: {
@@ -38,9 +44,11 @@ export default {
         }
     },
     watch: {
-        theme: {
+        modalTheme: {
             handler(theme) {
-                this.$emit('update:theme', theme);
+                if(theme){
+                    this.$emit('update:theme', theme);
+                }
             },
             immediate: true
         }

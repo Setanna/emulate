@@ -87,7 +87,7 @@
         <!-- Modals -->
         <Teleport to="body">
             <filter-modal v-model:showFilter="showFilter" v-model:search_filters="search_filters" :genre="genre" @close="search(search_filters)"/>
-            <theme-modal v-model:showTheme="showTheme" v-model:theme="theme"/>
+            <theme-modal v-model:showTheme="showTheme" :theme="theme" @update:theme="(modalTheme) => this.theme = modalTheme"/>
         </Teleport>
     </div>
 </template>
