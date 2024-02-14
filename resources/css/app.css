@@ -47,6 +47,44 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
     --ms-option-color-selected-pointed: var(--reverse-text-color);
     --ms-empty-color: var(--dark-text-color);
     */
+
+    /* @vueform/multiselect */
+    --ms-font-size: 16px;
+    --ms-option-font-size: 16px;
+    --ms-option-line-height: 19px;
+    --ms-tag-font-size: 16px;
+    --ms-tag-line-height: 19px;
+
+    --ms-border-color: var(--secondary-color);
+    --ms-border-width: 0px;
+    --ms-tag-color: var(--dark-text-color);
+    --ms-tag-bg: none;
+    --ms-tag-font-weight: 400;
+
+    --ms-ring-width: 1px;
+    --ms-ring-color: var(--secondary-color);
+
+}
+
+.multiselect {
+    font-family: "Montserrat", serif !important;
+    width: 50% !important;
+    flex-grow: 1 !important;
+    padding: 0 !important;
+}
+
+.multiselect-wrapper {
+    max-height: 19px !important;
+    height: 19px !important;
+}
+
+.multiselect-tag {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.ProseMirror:focus {
+    outline: none !important;
 }
 
 /* Themes */
@@ -330,7 +368,7 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
 /* Button */
 .clean-button {
     /* border: 1px solid black; */
-    border:none;
+    border: none;
     border-radius: 5px;
     background-color: var(--secondary-color);
     padding: 5px;
@@ -555,7 +593,7 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
 
 .modal-save {
     /* border: 1px solid black; */
-    border:none;
+    border: none;
     border-radius: 5px;
     background-color: var(--tertiary-color);
     padding: 5px;
@@ -662,3 +700,4 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
 .capitalize {
     text-transform: capitalize;
 }
+

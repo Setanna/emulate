@@ -17,34 +17,52 @@
 
         <!-- Categories -->
         <div class="categories sub-title">
-            <p class="category-card clickable" @click="deleteCategory(index)" v-for="(category, index) in categories">
+            <p class="category-card clickable" @click="deleteCategory(index)"
+               v-for="(category, index) in categories">
                 {{ category.name }}</p>
-            <p class="category-card clickable" @click="showCategory = true" > + </p>
+            <p class="category-card clickable" style="width: 24px; display: flex; justify-content: center" @click="showCategory = true"> + </p>
         </div>
 
         <!-- Requirements -->
         <div style="display:flex">
-            <p style="font-weight: bold">Requirements: </p>
+            <b style="align-self: center">Requirements: &nbsp;</b>
+            <multiselect
+                v-model="requirements"
+                :options="requirement_options"
+                :object="true"
+                :searchable="true"
+                mode="tags"/>
             <!--
-            <v-select v-model="requirements" :items="requirement_options" multiple></v-select>
             <template v-if="talent['requirements'].length" v-for="(requirement, index) in talent['requirements']">
                 <template v-if="index < 1">&nbsp;</template>
                 <template v-if="index > 0">, &nbsp;</template>
                 <p> {{ requirement.name }} </p>
+                <template v-if="index === talent['requirements'].length - 1"> , </template>
             </template>
+            <p class="clickable">&nbsp; Add Requirement</p>
             -->
         </div>
 
+        <br>
+
         <!-- Required Talents -->
         <div style="display:flex;">
-            <p style="font-weight: bold">Required talents: </p>
+            <b style="align-self: center">Required talents: &nbsp;</b>
+            <multiselect
+                v-model="required_talents"
+                :options="required_talent_options"
+                :object="true"
+                :searchable="true"
+                mode="tags"/>
             <!--
             <template v-if="talent['required_talents'].length"
                       v-for="(required_talent, index) in talent['required_talents']">
                 <template v-if="index < 1">&nbsp;</template>
                 <template v-if="index > 0">, &nbsp;</template>
                 <p> {{ required_talent.name }} </p>
+                <template v-if="index === talent['required_talents'].length - 1"> , </template>
             </template>
+            <p class="clickable"> &nbsp; Add Required Talent</p>
             -->
         </div>
 
@@ -75,30 +93,36 @@
                     <td style="width: 80%;">{{ trait.system }}</td>
                 </tr>
                 <tr class="clickable" @click="showTrait = true">
-                    <td style="width: 20%; font-weight: bold; padding: 5px;"> +</td>
+                    <td style="width: 20%; font-weight: bold; padding: 5px; text-align: center;" class="clean-button"> +</td>
                     <td style="width: 80%;"> Add Trait</td>
                 </tr>
                 </tbody>
             </table>
         </div>
 
-        <button class="clean-button clickable" @click="editTalent()">Confirm</button>
-        <button class="clean-button clickable" @click="this.$emit('update:edit', false)">Cancel</button>
-
+        <div style="display: flex; justify-content: center; padding-top: 20px;">
+            <button class="clean-button clickable" @click="editTalent()">Save</button>
+            <button class="clean-button clickable" @click="this.$emit('update:edit', false)">Discard</button>
+        </div>
     </div>
 
     <!-- Modals -->
     <Teleport to="body">
-        <category-modal v-model:showCategory="showCategory" :categories="categories" @update:categories="(modalCategories) => this.categories = modalCategories" />
-        <trait-modal v-model:showTrait="showTrait" :traits="traits" @update:traits="(modalTraits) => this.traits = modalTraits" />
+        <category-modal v-model:showCategory="showCategory" :categories="categories"
+                        @update:categories="(modalCategories) => this.categories = modalCategories"/>
+        <trait-modal v-model:showTrait="showTrait" :traits="traits"
+                     @update:traits="(modalTraits) => this.traits = modalTraits"/>
     </Teleport>
 </template>
+
+<style src="@vueform/multiselect/themes/default.css"></style>
 
 <script>
 import axios from 'axios';
 import editor from '../components/editor.vue';
 import categoryModal from '../modals/category.vue';
 import traitModal from '../modals/trait.vue';
+import Multiselect from '@vueform/multiselect'
 
 export default {
     props: ['genre', 'edit', 'talent'],
@@ -112,10 +136,14 @@ export default {
                 return {id: category.id, name: category.name, description: category.description}
             }),
             requirements: this.talent.requirements.map((requirement) => {
-                return {id: requirement.id, name: requirement.name, description: requirement.description }
+                return {value: requirement.id, label: requirement.name, description: requirement.description}
             }),
             required_talents: this.talent.required_talents.map((required_talent) => {
-                return {id: required_talent.id, name: required_talent.name, description: required_talent.description }
+                return {
+                    value: required_talent.id,
+                    label: required_talent.name,
+                    description: required_talent.description
+                }
             }),
             description: this.talent.description,
             system: this.talent.system,
@@ -133,7 +161,8 @@ export default {
     components: {
         editor,
         categoryModal,
-        traitModal
+        traitModal,
+        Multiselect
     },
     methods: {
         editTalent: function () {
@@ -198,7 +227,9 @@ export default {
         fetchRequirements: function () {
             axios.get('/api/requirement').then(response => {
                 // put the data into an array
-                this.requirement_options = response.data.data;
+                this.requirement_options = response.data.data.map((requirement) => {
+                    return {value: requirement.id, label: requirement.name, description: requirement.description}
+                });
             })
                 .catch(error => {
                     console.log("error: " + error)
@@ -206,7 +237,13 @@ export default {
         },
         fetchTalents: function () {
             axios.get('/api/talent/genre/' + this.genre).then(response => {
-                this.required_talent_options = response.data.data
+                this.required_talent_options = response.data.data.map((required_talent) => {
+                    return {
+                        value: required_talent.id,
+                        label: required_talent.name,
+                        description: required_talent.description
+                    }
+                });
             })
                 .catch(error => {
                     console.log(error)
