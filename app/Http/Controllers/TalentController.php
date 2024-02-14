@@ -117,7 +117,7 @@ class TalentController extends Controller
         $categories = $request->collect('talent.categories')->toArray();
         $requirements = $request->collect('talent.requirements')->toArray();
         $required_talents = $request->collect('talent.required_talents')->toArray();
-        $traits = $request->collect('talent.talent_traits')->toArray();
+        $traits = $request->collect('talent.traits')->toArray();
 
         // Create the new associated data
         $t->talent_categories()->sync($categories);
