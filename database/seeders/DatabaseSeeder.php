@@ -7,7 +7,6 @@ use App\Models\RaceSense;
 use App\Models\RequiredTalent;
 use App\Models\Requirement;
 use App\Models\Talent;
-use App\Models\TalentRequirement;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
@@ -141,19 +140,9 @@ class DatabaseSeeder extends Seeder
         Requirement("Somatic", "A talent with this requirement needs both hands free, or wielding the specified equipment");
         Requirement("Material", "A talent with this requirement needs some sort of material to be used. The material is consumed only if the talent states so");
 
-
-        function TalentRequirement($talent_id, $requirement_id)
-        {
-            $Model = new \App\Models\TalentRequirement();
-            $Model->talent_id = $talent_id;
-            $Model->requirement_id = $requirement_id;
-            $Model->save();
-        }
-
-        TalentRequirement(3, 1);
-        TalentRequirement(9, 1);
-        TalentRequirement(9, 2);
-        TalentRequirement(9, 3);
+        /* Sync talents with category relations */
+        Talent::find(3)->talent_requirements()->sync([1]);
+        Talent::find(9)->talent_requirements()->sync([1,2,3]);
 
         function Category($name, $description, $system)
         {

@@ -24,14 +24,7 @@ class Talent extends Model
      */
     public function talent_requirements()
     {
-        return $this->hasManyThrough(
-            'App\Models\Requirement',
-            'App\Models\TalentRequirement',
-            'talent_id',
-            'id',
-            'id',
-            'requirement_id'
-        );
+        return $this->belongsToMany(Requirement::class);
     }
 
     /**
