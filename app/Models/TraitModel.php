@@ -25,13 +25,6 @@ class TraitModel extends Model
      */
     public function talent_traits()
     {
-        return $this->hasManyThrough(
-            'App\Models\Talent',
-            'App\Models\TalentTrait',
-            'trait_id',
-            'id',
-            'id',
-            'talent_id'
-        );
+        return $this->belongsToMany(Talent::class);
     }
 }

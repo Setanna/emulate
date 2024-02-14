@@ -200,27 +200,16 @@ class DatabaseSeeder extends Seeder
         TraitModel("Heritage", "A talent that gives you power through your bloodline. ","system");
         TraitModel("Minion", "A talent that grants control over a minion, such as a pet or undead, or involves a minion", "Talents with the minion trait only work on minions or create minions");
 
-
-        function TalentTrait($talent_id, $trait_id)
-        {
-            $Model = new \App\Models\TalentTrait();
-            $Model->talent_id = $talent_id;
-            $Model->trait_id = $trait_id;
-            $Model->save();
-        }
-
-        TalentTrait(9, 1);
-        TalentTrait(10, 1);
-        TalentTrait(11, 1);
-        TalentTrait(9, 4);
-        TalentTrait(10, 4);
-        TalentTrait(11, 4);
-        TalentTrait(7, 2);
-        TalentTrait(8, 2);
-        TalentTrait(4, 3);
-        TalentTrait(5, 3);
-        TalentTrait(6, 3);
-        TalentTrait(12, 4);
+        /* Sync talents with trait relations */
+        Talent::find(4)->talent_traits()->sync([3]);
+        Talent::find(5)->talent_traits()->sync([3]);
+        Talent::find(6)->talent_traits()->sync([3]);
+        Talent::find(7)->talent_traits()->sync([2]);
+        Talent::find(8)->talent_traits()->sync([2]);
+        Talent::find(9)->talent_traits()->sync([1,4]);
+        Talent::find(10)->talent_traits()->sync([1,4]);
+        Talent::find(11)->talent_traits()->sync([1,4]);
+        Talent::find(12)->talent_traits()->sync([4]);
 
         function Rule($name, $text, $book_id)
         {
