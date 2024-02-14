@@ -24,6 +24,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('talent_traits');
+        Schema::dropIfExists('talent_trait_model');
     }
 };
