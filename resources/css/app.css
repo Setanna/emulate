@@ -55,14 +55,13 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
     --ms-tag-font-size: 16px;
     --ms-tag-line-height: 19px;
 
-    --ms-border-color: var(--secondary-color);
     --ms-border-width: 0px;
     --ms-tag-color: var(--dark-text-color);
     --ms-tag-bg: none;
     --ms-tag-font-weight: 400;
 
     --ms-ring-width: 1px;
-    --ms-ring-color: var(--secondary-color);
+    --ms-ring-color: black;
 
 }
 
