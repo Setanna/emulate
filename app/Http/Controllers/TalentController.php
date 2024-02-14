@@ -61,9 +61,15 @@ class TalentController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(TalentRequest $request, Talent $talent)
+    public function update(Request $request, Talent $talent)
     {
-        $talent->update($request->all());
+        $talent->update($request->all(), [
+            'name' => ['unique:talent,name,'.$talent->id],
+            'experience_cost' => 'required|max:3|integer',
+            'description' => 'required|max:65535',
+            'system' => 'required|max:65535',
+            'book_id' => 'required|max:20|integer|exists:books,id'
+        ]);
 
         return new TalentResource($talent);
     }
