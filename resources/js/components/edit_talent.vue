@@ -179,7 +179,7 @@ export default {
                     return requirement.value
                 }),
                 required_talents: this.required_talents.map((required_talent) => {
-                    return required_talent.id
+                    return required_talent.value
                 }),
                 description: this.description,
                 system: this.system,

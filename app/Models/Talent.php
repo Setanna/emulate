@@ -30,16 +30,9 @@ class Talent extends Model
     /**
      * Get the required talents that the talent has through RequiredTalent
      */
-    public function required_talent()
+    public function required_talents()
     {
-        return $this->hasManyThrough(
-            'App\Models\Talent',
-            'App\Models\RequiredTalent',
-            'talent_id',
-            'id',
-            'id',
-            'required_talent_id'
-        );
+        return $this->belongsToMany(Talent::class, 'required_talent', 'talent_id', 'required_talent_id');
     }
 
     /**

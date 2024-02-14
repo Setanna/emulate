@@ -9,7 +9,6 @@ use App\Models\Category;
 use App\Models\Genre;
 use App\Http\Resources\GenreResource;
 use App\Models\Talent;
-use App\Models\TalentRequirement;
 use http\Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -95,7 +94,7 @@ class TalentController extends Controller
     {
         $validated = $request->validate([
             'talent.name' => 'required|max:255|unique:talent,name,' . $talent->id,
-            'talent.experience_cost' => 'required|max:3|integer',
+            'talent.experience_cost' => 'required|max:99|min:-99|integer',
             'talent.categories' => 'array',
             'talent.categories.*' => 'integer',
             'talent.requirements' => 'array',
@@ -113,23 +112,18 @@ class TalentController extends Controller
 
         // Delete all the associated data
         $t = Talent::find($talent->id);
-        // return $t;
-        // $t->talent_categories()->detach();
-        // $t->talent_requirements()->detach();
-        // $t->required_talent()->detach();
-        // $t->talent_traits()->detach();
 
         // Get all the associated data
         $categories = $request->collect('talent.categories')->toArray();
         $requirements = $request->collect('talent.requirements')->toArray();
-        $required_talents = $request->collect('talent.required_talent')->toArray();
+        $required_talents = $request->collect('talent.required_talents')->toArray();
         $traits = $request->collect('talent.talent_traits')->toArray();
 
         // Create the new associated data
         $t->talent_categories()->sync($categories);
-        // $t->talent_requirements()->sync($requirements);
-        // $t->required_talent()->sync($required_talents);
-        // $t->talent_traits()->sync($traits);
+        $t->talent_requirements()->sync($requirements);
+        $t->required_talents()->sync($required_talents);
+        $t->talent_traits()->sync($traits);
 
 
         return new TalentResource($talent);

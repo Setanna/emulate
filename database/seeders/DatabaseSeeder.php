@@ -114,19 +114,12 @@ class DatabaseSeeder extends Seeder
         /* Sci-fi */
         Talent("Xenophobic", -1, "You're xenophobic", "system", 6);
 
+        /* Sync talents with required talent relations */
+        Talent::find(5)->required_talents()->sync([4]);
+        Talent::find(6)->required_talents()->sync([4]);
+        Talent::find(10)->required_talents()->sync([9]);
+        Talent::find(11)->required_talents()->sync([10]);
 
-        function RequiredTalent($talent_id, $required_talent_id)
-        {
-            $Model = new \App\Models\RequiredTalent();
-            $Model->talent_id = $talent_id;
-            $Model->required_talent_id = $required_talent_id;
-            $Model->save();
-        }
-
-        RequiredTalent(5, 4);
-        RequiredTalent(6, 4);
-        RequiredTalent(10, 9);
-        RequiredTalent(11, 10);
 
         function Requirement($name, $description)
         {
@@ -140,7 +133,7 @@ class DatabaseSeeder extends Seeder
         Requirement("Somatic", "A talent with this requirement needs both hands free, or wielding the specified equipment");
         Requirement("Material", "A talent with this requirement needs some sort of material to be used. The material is consumed only if the talent states so");
 
-        /* Sync talents with category relations */
+        /* Sync talents with requirements relations */
         Talent::find(3)->talent_requirements()->sync([1]);
         Talent::find(9)->talent_requirements()->sync([1,2,3]);
 
