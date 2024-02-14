@@ -5,9 +5,11 @@ namespace App\Http\Controllers;
 use App\Http\Requests\TalentRequest;
 use App\Http\Resources\TalentResource;
 use App\Models\Book;
+use App\Models\Category;
 use App\Models\Genre;
 use App\Http\Resources\GenreResource;
 use App\Models\Talent;
+use App\Models\TalentRequirement;
 use http\Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -64,7 +66,7 @@ class TalentController extends Controller
     public function update(Request $request, Talent $talent)
     {
         $talent->update($request->all(), [
-            'name' => ['unique:talent,name,'.$talent->id],
+            'name' => ['unique:talent,name,' . $talent->id],
             'experience_cost' => 'required|max:3|integer',
             'description' => 'required|max:65535',
             'system' => 'required|max:65535',
@@ -85,6 +87,53 @@ class TalentController extends Controller
     }
 
     /* Custom Functions */
+
+    /**
+     * Update talent
+     */
+    public function updateTalent(Request $request, Talent $talent)
+    {
+        $validated = $request->validate([
+            'talent.name' => 'required|max:255|unique:talent,name,' . $talent->id,
+            'talent.experience_cost' => 'required|max:3|integer',
+            'talent.categories' => 'array',
+            'talent.categories.*' => 'integer',
+            'talent.requirements' => 'array',
+            'talent.requirements.*' => 'integer',
+            'talent.required_talents' => 'array',
+            'talent.required_talents.*' => 'integer',
+            'talent.description' => 'required|max:65535',
+            'talent.system' => 'required|max:65535',
+            'talent.book_id' => 'required|max:20|integer|exists:books,id',
+            'talent.traits' => 'array',
+            'talent.traits.*' => 'integer'
+        ]);
+
+        $talent->update($validated);
+
+        // Delete all the associated data
+        $t = Talent::find($talent->id);
+        // return $t;
+        // $t->talent_categories()->detach();
+        // $t->talent_requirements()->detach();
+        // $t->required_talent()->detach();
+        // $t->talent_traits()->detach();
+
+        // Get all the associated data
+        $categories = $request->collect('talent.categories')->toArray();
+        $requirements = $request->collect('talent.requirements')->toArray();
+        $required_talents = $request->collect('talent.required_talent')->toArray();
+        $traits = $request->collect('talent.talent_traits')->toArray();
+
+        // Create the new associated data
+        $t->talent_categories()->sync($categories);
+        // $t->talent_requirements()->sync($requirements);
+        // $t->required_talent()->sync($required_talents);
+        // $t->talent_traits()->sync($traits);
+
+
+        return new TalentResource($talent);
+    }
 
     /**
      * Display talents by genre name.
@@ -129,12 +178,12 @@ class TalentController extends Controller
         }
 
         // Get the book id the talent is in
-        $book_id = [ $talent->book_id ];
+        $book_id = [$talent->book_id];
 
         // Get the genre_id of the book
         $genre_id = Book::whereIn('id', $book_id)->get()->pluck('genre_id');
 
-        if($genre_id[0] === $genre->getData()->id){
+        if ($genre_id[0] === $genre->getData()->id) {
             return new TalentResource($talent);
         }
         return response()->json(['message' => 'could not find talent in given genre'], 404);

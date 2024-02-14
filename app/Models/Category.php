@@ -21,13 +21,7 @@ class Category extends Model
      */
     public function talent_categories()
     {
-        return $this->hasManyThrough(
-            'App\Models\Talent',
-            'App\Models\TalentCategory',
-            'category_id',
-            'id',
-            'id',
-            'talent_id'
-        );
+
+        return $this->belongsToMany(Talent::class);
     }
 }

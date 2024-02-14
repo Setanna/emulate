@@ -54,14 +54,7 @@ class Talent extends Model
      */
     public function talent_categories()
     {
-        return $this->hasManyThrough(
-            'App\Models\Category',
-            'App\Models\TalentCategory',
-            'talent_id',
-            'id',
-            'id',
-            'category_id'
-        );
+        return $this->belongsToMany(Category::class);
     }
 
     /**

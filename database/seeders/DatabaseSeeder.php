@@ -3,11 +3,10 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
-use App\Http\Controllers\TalentCategoryController;
 use App\Models\RaceSense;
 use App\Models\RequiredTalent;
 use App\Models\Requirement;
-use App\Models\TalentCategory;
+use App\Models\Talent;
 use App\Models\TalentRequirement;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Hash;
@@ -172,31 +171,20 @@ class DatabaseSeeder extends Seeder
         Category("Flaw", "A talent that is a detriment to a character, but grants other advantages", "system");
         Category("Teamwork", "A talent that only works together with allies that share the same talent", "system");
 
-        function TalentCategory($talent_id, $category_id)
-        {
-            $Model = new \App\Models\TalentCategory();
-            $Model->talent_id = $talent_id;
-            $Model->category_id = $category_id;
-            $Model->save();
-        }
-
-        TalentCategory(1, 1);
-        TalentCategory(2, 1);
-        TalentCategory(3, 1);
-        TalentCategory(3, 2);
-        TalentCategory(4, 1);
-        TalentCategory(5, 1);
-        TalentCategory(6, 1);
-        TalentCategory(7, 4);
-        TalentCategory(8, 4);
-        TalentCategory(9, 4);
-        TalentCategory(10, 4);
-        TalentCategory(10, 3);
-        TalentCategory(11, 4);
-        TalentCategory(11, 3);
-        TalentCategory(12, 3);
-        TalentCategory(12, 5);
-        TalentCategory(13, 6);
+        /* Sync talents with category relations */
+        Talent::find(1)->talent_categories()->sync([1]);
+        Talent::find(2)->talent_categories()->sync([1]);
+        Talent::find(3)->talent_categories()->sync([1,2]);
+        Talent::find(4)->talent_categories()->sync([1]);
+        Talent::find(5)->talent_categories()->sync([1]);
+        Talent::find(6)->talent_categories()->sync([1]);
+        Talent::find(7)->talent_categories()->sync([4]);
+        Talent::find(8)->talent_categories()->sync([4]);
+        Talent::find(9)->talent_categories()->sync([4]);
+        Talent::find(10)->talent_categories()->sync([3,4]);
+        Talent::find(11)->talent_categories()->sync([3,4]);
+        Talent::find(12)->talent_categories()->sync([3,5]);
+        Talent::find(13)->talent_categories()->sync([6]);
 
         function TraitModel($name, $description, $system)
         {
