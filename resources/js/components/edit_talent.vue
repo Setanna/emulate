@@ -166,7 +166,42 @@ export default {
     },
     methods: {
         editTalent: function () {
-            this.$emit('update:edit', false);
+            console.log(this.talent);
+            // Get the talent data
+            const talent = JSON.parse(JSON.stringify({
+                id: this.talent.id,
+                name: this.name,
+                experience_cost: this.experience_cost,
+                categories: this.categories.map((category) => {
+                    return category.id
+                }),
+                requirements: this.requirements.map((requirement) => {
+                    return requirement.value
+                }),
+                required_talents: this.required_talents.map((required_talent) => {
+                    return required_talent.id
+                }),
+                description: this.description,
+                system: this.system,
+                traits: this.traits.map((trait) => {
+                    return trait.id
+                }),
+                book_id: this.talent.book.id
+            }));
+
+            console.log(talent);
+
+            // Update the talent itself
+            axios.put('/api/talent/' + this.talent.id, {talent: talent} ).then(response => {
+                console.log(response);
+                // Update the talents junction tables (categories, requirements, required talents & traits)
+                // axios.post('/api/talent_relations/' + this.talent.id, {categories: talent.categories, requirements: talent.requirements, required_talents: talent.required_talents, traits: talent.traits})
+            })
+                .catch(error => {
+                    console.log("error: " + error)
+                })
+
+            // this.$router.go();
         },
         isNumber: function (evt) {
             evt = (evt) ? evt : window.event;
