@@ -254,6 +254,26 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
 }
 
 /* Select */
+.clean-select {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: all 0.5s;
+
+    color: var(--dark-text-color);
+    font-family: "Montserrat", serif;
+    font-size: 20px;
+    font-weight: 650;
+}
+
+.clean-option {
+    color: var(--dark-text-color);
+    font-family: "Montserrat", serif;
+    font-size: 20px;
+    font-weight: 650;
+}
+
 .select {
     background-color: var(--secondary-color);
     border: none;
@@ -353,6 +373,11 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
     -webkit-appearance: textfield;
     -moz-appearance: textfield;
     appearance: textfield;
+}
+
+.title-input::-webkit-outer-spin-button,
+.title-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
 }
 
 .title-input:focus {

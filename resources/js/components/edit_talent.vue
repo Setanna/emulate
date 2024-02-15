@@ -15,13 +15,24 @@
             </div>
         </div>
 
-        <!-- Categories -->
+        <!-- Categories & Books -->
         <div class="categories sub-title">
+            <!-- Categories -->
             <p class="category-card clickable" @click="deleteCategory(index)"
                v-for="(category, index) in categories">
                 {{ category.name }}</p>
             <p class="category-card clickable" style="width: 24px; display: flex; justify-content: center"
                @click="showCategory = true"> + </p>
+
+            <!-- Book -->
+            <div style="margin-left:auto; margin-right:0; position:relative; display: flex; justify-content: center">
+                <p style="align-self: center">Book: &nbsp;</p>
+                <select v-model="book" style="height: 34px; align-self: center" class="clean-select">
+                    <option v-for="book_option in book_options" :value="book_option.id" class="clean-option">
+                        {{ book_option.name }}
+                    </option>
+                </select>
+            </div>
         </div>
 
         <!-- Requirements -->
@@ -134,9 +145,11 @@ export default {
             traits: this.talent.traits.map((trait) => {
                 return {id: trait.id, name: trait.name, description: trait.description, system: trait.system}
             }),
+            book: this.talent.book.id,
             /* option variables */
             requirement_options: this.fetchRequirements(),
             required_talent_options: this.fetchTalents(),
+            book_options: this.fetchBooks(this.genre),
             /* variables */
             showCategory: false,
             showTrait: false
@@ -169,7 +182,7 @@ export default {
                 traits: this.traits.map((trait) => {
                     return trait.id
                 }),
-                book_id: this.talent.book.id
+                book_id: this.book
             }));
 
             // Update the talent itself
@@ -200,42 +213,6 @@ export default {
                 }
             }
         },
-        createTalent: function () {
-            try {
-                const talent = {username: this.username, password: this.password, email: this.email}
-                axios.post('/api/talent', talent).then(response => {
-                    this.$router.push({name: 'home'})
-                })
-                    .catch(error => {
-                        if (error.response.data.message) {
-                            this.error = error.response.data.message;
-                        } else {
-                            this.error = error.message;
-                        }
-                        console.log(error)
-                    })
-            } catch (error) {
-                this.error = error;
-            }
-            axios.post('/api/talent').then(response => {
-                this.talent = response.data
-            })
-                .catch(error => {
-                    console.log(error)
-                    if (error.response.status === 404) {
-                        this.$router.push({name: 'not_found'})
-                    }
-                })
-        },
-        fetchCategories: function () {
-            axios.get('/api/category').then(response => {
-                // put the data into an array
-                this.categories = response.data.data;
-            })
-                .catch(error => {
-                    console.log("error: " + error)
-                })
-        },
         fetchRequirements: function () {
             axios.get('/api/requirement').then(response => {
                 // put the data into an array
@@ -263,6 +240,19 @@ export default {
                         this.$router.push({name: 'not_found'})
                     }
                 })
+        },
+        fetchBooks: function (genre) {
+            if (genre) {
+                axios.get('/api/' + genre + '/books').then(response => {
+                    // Get the books from the genre
+                    this.book_options = response.data.map((book) => {
+                        return {id: book.id, name: book.name}
+                    });
+                })
+                    .catch(error => {
+                        console.log("Error: " + error);
+                    })
+            }
         },
         deleteCategory: function (index) {
             this.categories.splice(index, 1);
