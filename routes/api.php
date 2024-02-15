@@ -7,7 +7,6 @@ use App\Http\Controllers\GenreController;
 use App\Http\Controllers\RaceController;
 use App\Http\Controllers\RaceSenseController;
 use App\Http\Controllers\RaceTypeController;
-use App\Http\Controllers\RequiredTalentController;
 use App\Http\Controllers\RequirementController;
 use App\Http\Controllers\RuleController;
 use App\Http\Controllers\SearchController;
@@ -41,7 +40,6 @@ Route::group(['middleware' => ['auth:sanctum', 'ability:create']], function () {
     Route::post('/book', [BookController::class, 'store']);
     Route::post('/rule', [RuleController::class, 'store']);
     Route::post('/talent', [TalentController::class, 'store']);
-    Route::post('/required_talent', [RequiredTalentController::class, 'store']);
     Route::post('/requirement', [RequirementController::class, 'store']);
     Route::post('/category', [CategoryController::class, 'store']);
     Route::post('/trait', [TraitController::class, 'store']);
@@ -57,8 +55,7 @@ Route::group(['middleware' => ['auth:sanctum', 'ability:update']], function () {
     Route::put('/genre/{genre}', [GenreController::class, 'update']);
     Route::put('/book/{book}', [BookController::class, 'update']);
     Route::put('/rule/{rule}', [RuleController::class, 'update']);
-    // Route::put('/talent/{talent}', [TalentController::class, 'update']);
-    Route::put('/required_talent/{required_talent}', [RequiredTalentController::class, 'update']);
+    Route::put('/talent/{talent}', [TalentController::class, 'update']);
     Route::put('/requirement/{requirement}', [RequirementController::class, 'update']);
     Route::put('/category/{category}', [CategoryController::class, 'update']);
     Route::put('/trait/{trait}', [TraitController::class, 'update']);
@@ -69,7 +66,7 @@ Route::group(['middleware' => ['auth:sanctum', 'ability:update']], function () {
     Route::put('/type/{type}', [TypeController::class, 'update']);
 
     /* Custom Update Functions */
-    Route::put('/talent/{talent}', [TalentController::class, 'updateTalent']);
+    // Route::put('/talent/{talent}', [TalentController::class, 'updateTalent']);
 });
 
 /* Destroy */
@@ -78,7 +75,6 @@ Route::group(['middleware' => ['auth:sanctum', 'ability:destroy']], function () 
     Route::delete('/book/{book}', [BookController::class, 'destroy']);
     Route::delete('/rule/{rule}', [RuleController::class, 'destroy']);
     Route::delete('/talent/{talent}', [TalentController::class, 'destroy']);
-    Route::delete('/required_talent/{required_talent}', [RequiredTalentController::class, 'destroy']);
     Route::delete('/requirement/{requirement}', [RequirementController::class, 'destroy']);
     Route::delete('/category/{category}', [CategoryController::class, 'destroy']);
     Route::delete('/trait/{trait}', [TraitController::class, 'destroy']);
@@ -104,8 +100,6 @@ Route::get('/talent', [TalentController::class, 'index']);
 Route::get('/talent/{talent}', [TalentController::class, 'show']);
 Route::get('/trait', [TraitController::class, 'index']);
 Route::get('/trait/{id}', [TraitController::class, 'show']);
-Route::get('/required_talent', [RequiredTalentController::class, 'index']);
-Route::get('/required_talent/{required_talent}', [RequiredTalentController::class, 'show']);
 Route::get('/rule', [RuleController::class, 'index']);
 Route::get('/rule/{rule}', [RuleController::class, 'show']);
 Route::get('/sense', [SenseController::class, 'index']);

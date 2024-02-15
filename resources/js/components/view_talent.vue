@@ -42,14 +42,14 @@
         <div v-if="talent.description">
             <hr>
             <p style="font-weight: bold">Description:</p>
-            <p> {{ talent.description }}</p>
+            <p v-html="talent.description"></p>
         </div>
 
         <!-- System -->
         <div v-if="talent.system">
             <hr>
             <p style="font-weight: bold">System:</p>
-            <p> {{ talent.system }}</p>
+            <p v-html="talent.system"></p>
         </div>
 
         <!-- Traits -->

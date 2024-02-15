@@ -20,7 +20,8 @@
             <p class="category-card clickable" @click="deleteCategory(index)"
                v-for="(category, index) in categories">
                 {{ category.name }}</p>
-            <p class="category-card clickable" style="width: 24px; display: flex; justify-content: center" @click="showCategory = true"> + </p>
+            <p class="category-card clickable" style="width: 24px; display: flex; justify-content: center"
+               @click="showCategory = true"> + </p>
         </div>
 
         <!-- Requirements -->
@@ -93,7 +94,9 @@
                     <td style="width: 80%;">{{ trait.system }}</td>
                 </tr>
                 <tr class="clickable" @click="showTrait = true">
-                    <td style="width: 20%; font-weight: bold; padding: 5px; text-align: center;" class="clean-button"> +</td>
+                    <td style="width: 20%; font-weight: bold; padding: 5px; text-align: center;" class="clean-button">
+                        +
+                    </td>
                     <td style="width: 80%;"> Add Trait</td>
                 </tr>
                 </tbody>
@@ -166,7 +169,6 @@ export default {
     },
     methods: {
         editTalent: function () {
-            console.log(this.talent);
             // Get the talent data
             const talent = JSON.parse(JSON.stringify({
                 id: this.talent.id,
@@ -189,19 +191,13 @@ export default {
                 book_id: this.talent.book.id
             }));
 
-            console.log(talent);
-
             // Update the talent itself
-            axios.put('/api/talent/' + this.talent.id, {talent: talent} ).then(response => {
-                console.log(response);
-                // Update the talents junction tables (categories, requirements, required talents & traits)
-                // axios.post('/api/talent_relations/' + this.talent.id, {categories: talent.categories, requirements: talent.requirements, required_talents: talent.required_talents, traits: talent.traits})
+            axios.put('/api/talent/' + this.talent.id, {talent: talent}).then(response => {
+                this.$router.go();
             })
                 .catch(error => {
                     console.log("error: " + error)
                 })
-
-            // this.$router.go();
         },
         isNumber: function (evt) {
             evt = (evt) ? evt : window.event;
