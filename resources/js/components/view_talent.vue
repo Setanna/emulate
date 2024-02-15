@@ -12,9 +12,16 @@
             <p style="margin-left:auto; margin-right:0; padding-right: 5px;"> {{ talent["experience_cost"] }} XP </p>
         </div>
 
-        <!-- Categories -->
+        <!-- Categories & Book -->
         <div v-if="talent.categories" class="categories sub-title">
+            <!-- Categories -->
             <p class="category-card" v-for="category in talent.categories"> {{ category.name }} </p>
+
+
+            <!-- Book -->
+            <div style="margin-left:auto; margin-right:0; position:relative; display: flex; justify-content: center">
+                <p style="align-self: center"> {{ talent.book.name }}</p>
+            </div>
         </div>
 
         <!-- Requirements -->
@@ -89,7 +96,7 @@ export default {
             this.$emit('update:edit', true);
         },
         checkAbility: function (ability) {
-            axios.get('/api/auth/ability/' + ability, ).then(response => {
+            axios.get('/api/auth/ability/' + ability,).then(response => {
                 this.update = response.data;
             })
                 .catch(error => {
@@ -102,7 +109,7 @@ export default {
     },
     watch: {
         user: {
-            handler(user){
+            handler(user) {
                 this.checkAbility("update");
             },
             immediate: true
