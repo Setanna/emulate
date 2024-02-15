@@ -33,15 +33,6 @@
                 :object="true"
                 :searchable="true"
                 mode="tags"/>
-            <!--
-            <template v-if="talent['requirements'].length" v-for="(requirement, index) in talent['requirements']">
-                <template v-if="index < 1">&nbsp;</template>
-                <template v-if="index > 0">, &nbsp;</template>
-                <p> {{ requirement.name }} </p>
-                <template v-if="index === talent['requirements'].length - 1"> , </template>
-            </template>
-            <p class="clickable">&nbsp; Add Requirement</p>
-            -->
         </div>
 
         <br>
@@ -55,16 +46,6 @@
                 :object="true"
                 :searchable="true"
                 mode="tags"/>
-            <!--
-            <template v-if="talent['required_talents'].length"
-                      v-for="(required_talent, index) in talent['required_talents']">
-                <template v-if="index < 1">&nbsp;</template>
-                <template v-if="index > 0">, &nbsp;</template>
-                <p> {{ required_talent.name }} </p>
-                <template v-if="index === talent['required_talents'].length - 1"> , </template>
-            </template>
-            <p class="clickable"> &nbsp; Add Required Talent</p>
-            -->
         </div>
 
         <!-- description -->
