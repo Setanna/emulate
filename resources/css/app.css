@@ -90,10 +90,11 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
 
 [data-theme="obsidian"] {
     /* Main Colors */
-    --primary-color: #806cd8;
-    --secondary-color: #4a37a0;
-    --tertiary-color: #2a2d63;
-    --accent-color: #1f2147;
+    --primary-color: #745ed4;
+    --secondary-color: #5136c9;
+    --tertiary-color: #412ba1;
+    --quaternary-color: #302079;
+    --accent-color: #201551;
     --border-color: #eeeeee;
 
     /* Text colors */
@@ -105,29 +106,13 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
     --shadow-color: rgba(0, 0, 0, 0.2);
 }
 
-[data-theme="office"] {
-    /* Main Colors */
-    --primary-color: #f2f2f2;
-    --secondary-color: #d9b38c;
-    --tertiary-color: #bf8040;
-    --accent-color: #996633;
-    --border-color: #996633;
-
-    /* Text colors */
-    --reverse-text-color: #000000;
-    --dark-text-color: #333333;
-    --text-color: #ffffff;
-
-    /* Other */
-    --shadow-color: rgba(0, 0, 0, 0.2);
-}
-
-[data-theme="charcoal"] {
+[data-theme="pewter"] {
     /* Main Colors */
     --primary-color: #808080;
-    --secondary-color: #4d4d4d;
-    --tertiary-color: #262626;
-    --accent-color: #1a1a1a;
+    --secondary-color: #666666;
+    --tertiary-color: #4d4d4d;
+    --quaternary-color: #333333;
+    --accent-color: #262626;
     --border-color: #1a1a1a;
 
     /* Text colors */
@@ -138,6 +123,25 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
     /* Other */
     --shadow-color: rgba(0, 0, 0, 0.2);
 }
+
+[data-theme="office"] {
+    /* Main Colors */
+    --primary-color: #f9f2ec;
+    --secondary-color: #d9b38c;
+    --tertiary-color: #cc9966;
+    --quaternary-color: #bf8040;
+    --accent-color: #996633;
+    --border-color: #734d26;
+
+    /* Text colors */
+    --reverse-text-color: #000000;
+    --dark-text-color: #333333;
+    --text-color: #ffffff;
+
+    /* Other */
+    --shadow-color: rgba(0, 0, 0, 0.2);
+}
+
 
 .page {
     position: absolute;
@@ -164,7 +168,6 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
 
 .title-card {
     display: flex;
-    background-color: var(--secondary-color);
     border-radius: 5px;
     padding: 5px;
 }
@@ -176,7 +179,6 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
 .category-card {
     margin: 4px 4px 4px 0;
     display: flex;
-    background-color: var(--secondary-color);
     border-radius: 5px;
     padding: 5px;
 }
@@ -187,14 +189,12 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
 
 /* Table */
 .talent-table {
-    background-color: var(--secondary-color);
     border-radius: 5px;
     border-collapse: collapse;
     text-align: left;
 }
 
 .tr-light {
-    background-color: var(--tertiary-color);
     border-top: 2px;
     border-left: 0;
     border-right: 2px;
@@ -313,7 +313,6 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
 }
 
 .select {
-    background-color: var(--secondary-color);
     border: none;
     text-align: center;
     transition: all 0.5s;
@@ -358,7 +357,6 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
     font-family: "Montserrat", serif;
     font-size: 22px;
     font-weight: bold;
-    background-color: var(--secondary-color);
     width: 100%;
     text-decoration: none;
     border: none;
@@ -442,7 +440,6 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
 
 .button {
     width: 100%;
-    background-color: var(--secondary-color);
     color: var(--text-color);
     font-size: 16px;
     font-weight: bold;
@@ -521,6 +518,10 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
 
 .background-tertiary {
     background-color: var(--tertiary-color);
+}
+
+.background-quaternary {
+    background-color: var(--quaternary-color);
 }
 
 /* Router Link */
@@ -632,7 +633,6 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
     width: 900px;
     margin: auto;
     padding: 20px 30px;
-    background-color: var(--secondary-color);
     border-radius: 2px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
     transition: all 0.3s ease;
@@ -657,7 +657,6 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
     /* border: 1px solid black; */
     border: none;
     border-radius: 5px;
-    background-color: var(--tertiary-color);
     padding: 5px;
     margin-right: 5px;
     font-family: "Montserrat", serif;
@@ -722,7 +721,7 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
     cursor: pointer;
     border: 1px solid black;
     border-radius: 5px;
-    background-color: var(--tertiary-color);
+    background-color: var(--quaternary-color);
     color: var(--dark-text-color);
     padding: 5px;
     margin-bottom: 10px;
@@ -747,15 +746,13 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
 }
 
 /* Theme */
-.theme {
+.theme-modal-button {
     position: absolute;
     z-index: 10;
     right: 0;
     bottom: 0;
     padding: 5px 5px 0 5px;
     border-top-left-radius: 5px;
-    border-color: var(--tertiary-color);
-    background-color: var(--secondary-color);
 }
 
 /* Transform */

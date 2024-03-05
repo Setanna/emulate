@@ -1,7 +1,7 @@
 <template>
     <Transition name="modal">
         <div v-if="showTrait && traits" class="modal-mask">
-            <div class="modal-container">
+            <div class="background-tertiary modal-container">
                 <!-- Body -->
                 <div class="modal-body">
                     <div>
@@ -23,7 +23,7 @@
 
                 <!-- Footer -->
                 <div class="modal-footer">
-                    <button class="modal-save" @click="close()">Ok</button>
+                    <button class="background-quaternary modal-save" @click="close()">Ok</button>
                 </div>
             </div>
         </div>

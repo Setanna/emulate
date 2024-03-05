@@ -28,9 +28,9 @@
                            placeholder="Confirm password" max="255" required/>
                 </div>
                 <br>
-                <button type="submit" class="button m-4"> {{ register ? "Sign Up" : "Login" }}</button>
+                <button type="submit" class="background-tertiary button m-4"> {{ register ? "Sign Up" : "Login" }}</button>
             </form>
-            <button class="button" @click="register = !register">
+            <button class="background-tertiary button" @click="register = !register">
                 {{ register ? "Already have an account? Login!" : "Don't have an account? Sign up!" }}
             </button>
             <br>
@@ -41,7 +41,7 @@
         <div v-if="user !== null">
             <form @submit.prevent="logout" method="post">
                 <input type="hidden" name="_token" :value="csrf">
-                <button type="submit" class="button m-4">Logout</button>
+                <button type="submit" class="background-tertiary button m-4">Logout</button>
             </form>
         </div>
     </div>

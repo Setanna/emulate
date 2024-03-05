@@ -1,7 +1,7 @@
 <template>
     <Transition name="modal">
         <div v-if="showTheme" class="modal-mask">
-            <div class="modal-container">
+            <div class="background-tertiary modal-container">
                 <!-- Body -->
                 <div class="modal-body">
                     <div>
@@ -10,10 +10,10 @@
                                 Theme
                             </legend>
                             <!-- Theme Picker -->
-                            <select v-model="modalTheme" class="select title">
+                            <select v-model="modalTheme" class="background-tertiary select title">
                                 <option class="option" value="obsidian"> Obsidian </option>
+                                <option class="option" value="pewter"> Pewter </option>
                                 <option class="option" value="office"> Office </option>
-                                <option class="option" value="charcoal"> Charcoal </option>
                             </select>
                         </fieldset>
                     </div>
@@ -21,7 +21,7 @@
 
                 <!-- Footer -->
                 <div class="modal-footer">
-                    <button class="modal-save" @click="close()">Ok</button>
+                    <button class="background-quaternary modal-save" @click="close()">Ok</button>
                 </div>
             </div>
         </div>

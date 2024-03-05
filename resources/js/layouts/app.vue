@@ -2,9 +2,9 @@
     <!-- Page -->
     <div class="page background-primary">
         <!-- Navbar -->
-        <div class="background-tertiary navbar">
+        <div class="background-quaternary navbar">
             <!-- Navbar Header -->
-            <div class="navbar-header background-tertiary">
+            <div class="navbar-header background-quaternary">
                 <router-link :to="{ name: 'home' }" class="no-text-link navbar-title">
                     Emulate:
                 </router-link>
@@ -31,12 +31,12 @@
         </div>
 
         <!-- Search Results -->
-        <div class="background-secondary search-results" :class="{'search-results-opened': search_state}">
+        <div class="background-tertiary search-results" :class="{'search-results-opened': search_state}">
             <!-- Margin -->
             <div style="margin: 0 5px">
                 <!-- Search Input -->
                 <div class="search">
-                    <input class="clean-input" placeholder="Search" v-model="search_text"
+                    <input class="background-tertiary clean-input" placeholder="Search" v-model="search_text"
                            @input="search(search_filters)"
                            @focusin="this.searchFocus = true" @focusout="this.searchFocus = false">
                     <div class="clickable" @click="showFilter = true">
@@ -62,7 +62,7 @@
                 <div v-if="search_results.talents.length" class="search-category">
                     <b class="search-category-title">Talents</b>
                     <router-link v-for="search_result in search_results.talents"
-                                 :to="{ name: 'talent', params: { id: search_result.id, genre: this.genre } }"
+                                     :to="{ name: 'talent', params: { id: search_result.id, genre: this.genre } }"
                                  class="no-text-link">
                         {{ search_result.name }}
                     </router-link>
@@ -80,7 +80,7 @@
         </router-view>
 
         <!-- Theme Modal Button -->
-        <div class="theme clickable" @click="showTheme = true">
+        <div class="background-tertiary theme-modal-button clickable" @click="showTheme = true">
             <menu-icon></menu-icon>
         </div>
 

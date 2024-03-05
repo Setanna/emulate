@@ -2,7 +2,7 @@
 <template>
     <!-- Deck -->
     <div id="genre-deck" class="deck">
-        <div class="card background-secondary" v-for="genre in genres" @click="chooseGenre(genre.name)">
+        <div class="card background-tertiary" v-for="genre in genres" @click="chooseGenre(genre.name)">
             <router-link :to="{ name: 'genres', params: { genre: genre.name.toLowerCase() }}" class="no-text-link">
                 <img class="card-image" :src="getImageUrl(genre.name.toLowerCase())"
                      @error="getAltImageUrl">

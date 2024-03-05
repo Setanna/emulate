@@ -2,7 +2,7 @@
 <template>
     <div v-if="talent" class="m-10">
         <!-- Name & Cost -->
-        <div v-if="talent.name" class="title-card title">
+        <div v-if="talent.name" class="background-tertiary title-card title">
             <p style="padding-left: 5px;"> {{ talent.name }}</p>
             <div class="clickable" style="padding-left: 5px; display: flex; align-items: center" v-if="update"
                  @click="editTalent()">
@@ -15,7 +15,7 @@
         <!-- Categories & Book -->
         <div v-if="talent.categories" class="categories sub-title">
             <!-- Categories -->
-            <p class="category-card" v-for="category in talent.categories"> {{ category.name }} </p>
+            <p class="background-tertiary category-card" v-for="category in talent.categories"> {{ category.name }} </p>
 
 
             <!-- Book -->
@@ -61,7 +61,7 @@
 
         <!-- Traits -->
         <div v-if="talent['traits']" style="padding-top: 6px">
-            <div v-if="talent['traits'].length" class="title-card sub-title">
+            <div v-if="talent['traits'].length" class="background-tertiary title-card sub-title">
                 <p style="padding-left: 5px;"> Traits </p>
             </div>
 

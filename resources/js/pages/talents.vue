@@ -3,7 +3,7 @@
     <div style="display: flex; justify-content: center">
 
         <!-- Table -->
-        <table v-if="talents.length" class="talent-table">
+        <table v-if="talents.length" class="background-secondary talent-table">
             <thead>
             <tr>
                 <th>Name</th>
@@ -12,7 +12,7 @@
             </tr>
             </thead>
             <tbody>
-                <tr v-for="(talent, index) in talents" :class="{'tr-light': index % 2 === 0}" class="clickable" @click="go(talent.id)">
+                <tr v-for="(talent, index) in talents" :class="{'background-tertiary': index % 2 === 0}" class="clickable" @click="go(talent.id)">
                     <td> {{ talent.name }}</td>
                     <td style="text-align: center"> {{ talent.experience_cost }}</td>
                     <td> {{ talent.description }}</td>
