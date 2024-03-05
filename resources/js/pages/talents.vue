@@ -1,15 +1,24 @@
 <!-- genre.vue -->
 <template>
-    <!-- Deck -->
-    <div v-if="talents" id="genre-deck" class="deck">
-        <div class="card background-secondary" v-for="talent in talents">
-            <router-link :to="{ }" class="no-text-link">
-                <div class="card-body">
-                    <h2 class="card-title">{{ talent.name }}</h2>
-                    <p class="card-text">{{ talent.description }}</p>
-                </div>
-            </router-link>
-        </div>
+    <div style="display: flex; justify-content: center">
+
+        <!-- Table -->
+        <table v-if="talents.length" class="talent-table">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Cost</th>
+                <th>Description</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr v-for="(talent, index) in talents" :class="{'tr-light': index % 2 === 0}" class="clickable" @click="go(talent.id)">
+                    <td> {{ talent.name }}</td>
+                    <td style="text-align: center"> {{ talent.experience_cost }}</td>
+                    <td> {{ talent.description }}</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </template>
 
@@ -17,14 +26,18 @@
 import axios from 'axios';
 
 export default {
+    props: ['genre'],
     data() {
         return {
             /* arrays */
-            talents: {},
-            /* variables */
-            genre: null,
+            talents: {}
         }
-    },// watch for route parameter id change
+    },
+    methods: {
+      go(id){
+            this.$router.push({ name: 'talent', params: { id: id, genre: this.genre } })
+      }
+    },
     watch: {
         '$route.params.genre': {
             handler(genre) {

@@ -186,6 +186,44 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
 }
 
 /* Table */
+.talent-table {
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.tr-light {
+    background-color: var(--tertiary-color);
+    border-top: 2px;
+    border-left: 0;
+    border-right: 2px;
+    border-bottom: 2px;
+    border-color:  var(--border-color);
+    border-style: solid;
+
+}
+
+.talent-table > thead > tr > th
+{
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    border-width: 2px;
+    border-color:  var(--border-color);
+    border-style: solid;
+}
+
+.talent-table > tbody > tr > td
+{
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 700;
+    border-width: 2px;
+    border-color:  var(--border-color);
+    border-style: solid;
+}
+
 .trait-table {
     width: 100%;
 }
