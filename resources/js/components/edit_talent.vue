@@ -2,14 +2,14 @@
 <template>
     <div class="m-10">
         <!-- Name & Cost -->
-        <div class="title-card title">
+        <div class="background-tertiary title-card title">
             <div style="padding-left: 5px;">
-                <input type="text" placeholder="Name" class="title-input text-dark" v-model="name"/>
+                <input type="text" placeholder="Name" class="background-tertiary title-input text-dark" v-model="name"/>
             </div>
 
             <div style="margin-left:auto; margin-right:0; padding-right: 5px;">
                 <input type="number" min="-99" max="99" step="1" placeholder="0" v-model="experience_cost"
-                       @keypress="isNumber($event)" class="title-input text-dark"
+                       @keypress="isNumber($event)" class="background-tertiary  title-input text-dark"
                        style="width: 50px; text-align: end"/>
                 XP
             </div>
@@ -18,16 +18,16 @@
         <!-- Categories & Books -->
         <div class="categories sub-title">
             <!-- Categories -->
-            <p class="category-card clickable" @click="deleteCategory(index)"
+            <p class="background-tertiary  category-card clickable" @click="deleteCategory(index)"
                v-for="(category, index) in categories">
                 {{ category.name }}</p>
-            <p class="category-card clickable" style="width: 24px; display: flex; justify-content: center"
+            <p class="background-tertiary category-card clickable" style="width: 24px; display: flex; justify-content: center"
                @click="showCategory = true"> + </p>
 
             <!-- Book -->
             <div style="margin-left:auto; margin-right:0; position:relative; display: flex; justify-content: center">
                 <p style="align-self: center">Book: &nbsp;</p>
-                <select v-model="book" style="height: 34px; align-self: center" class="clean-select">
+                <select v-model="book" style="height: 34px; align-self: center" class="background-tertiary clean-select">
                     <option v-for="book_option in book_options" :value="book_option.id" class="clean-option">
                         {{ book_option.name }}
                     </option>
@@ -75,7 +75,7 @@
 
         <!-- Traits -->
         <div style="padding-top: 6px">
-            <div class="title-card sub-title">
+            <div class="background-tertiary title-card sub-title">
                 <p style="padding-left: 5px;"> Traits </p>
             </div>
 
@@ -86,7 +86,7 @@
                     <td style="width: 80%;">{{ trait.system }}</td>
                 </tr>
                 <tr class="clickable" @click="showTrait = true">
-                    <td style="width: 20%; font-weight: bold; padding: 5px; text-align: center;" class="clean-button">
+                    <td style="width: 20%; font-weight: bold; padding: 5px; text-align: center;" class="background-tertiary clean-button">
                         +
                     </td>
                     <td style="width: 80%;"> Add Trait</td>
@@ -96,8 +96,8 @@
         </div>
 
         <div style="display: flex; justify-content: center; padding-top: 20px;">
-            <button class="clean-button clickable" @click="editTalent()">Save</button>
-            <button class="clean-button clickable" @click="this.$emit('update:edit', false)">Discard</button>
+            <button class="background-tertiary clean-button clickable" @click="editTalent()">Save</button>
+            <button class="background-tertiary clean-button clickable" @click="this.$emit('update:edit', false)">Discard</button>
         </div>
     </div>
 
