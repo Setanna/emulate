@@ -332,7 +332,7 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
 
 .select {
     border: none;
-    text-align: center;
+    text-align: left;
     transition: all 0.5s;
 }
 

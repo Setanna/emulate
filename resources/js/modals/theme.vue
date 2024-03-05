@@ -7,7 +7,7 @@
                     <div>
                         <fieldset class="fieldset">
                             <legend class="legend">
-                                Theme
+                                <b> Theme </b>
                             </legend>
                             <!-- Theme Picker -->
                             <select v-model="modalTheme" class="background-tertiary select title">
