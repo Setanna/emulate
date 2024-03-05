@@ -142,6 +142,24 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
     --shadow-color: rgba(0, 0, 0, 0.2);
 }
 
+[data-theme="lavender"] {
+    /* Main Colors */
+    --primary-color: #8585ad;
+    --secondary-color: #666699;
+    --tertiary-color: #52527a;
+    --quaternary-color: #3d3d5c;
+    --accent-color: #29293d;
+    --border-color: #29293d;
+
+    /* Text colors */
+    --reverse-text-color: #000000;
+    --dark-text-color:  #eeeeee;
+    --text-color: #ffffff;
+
+    /* Other */
+    --shadow-color: rgba(0, 0, 0, 0.2);
+}
+
 
 .page {
     position: absolute;
@@ -722,7 +740,7 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
     border: 1px solid black;
     border-radius: 5px;
     background-color: var(--quaternary-color);
-    color: var(--dark-text-color);
+    color: var(--text-color);
     padding: 5px;
     margin-bottom: 10px;
     user-select: none;

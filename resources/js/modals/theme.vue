@@ -13,6 +13,7 @@
                             <select v-model="modalTheme" class="background-tertiary select title">
                                 <option class="option" value="obsidian"> Obsidian </option>
                                 <option class="option" value="pewter"> Pewter </option>
+                                <option class="option" value="lavender"> Lavender </option>
                                 <option class="option" value="office"> Office </option>
                             </select>
                         </fieldset>
