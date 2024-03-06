@@ -21,17 +21,25 @@
             <p class="background-tertiary  category-card clickable" @click="deleteCategory(index)"
                v-for="(category, index) in categories">
                 {{ category.name }}</p>
-            <p class="background-tertiary category-card clickable" style="width: 24px; display: flex; justify-content: center"
+            <p class="background-tertiary category-card clickable"
+               style="width: 24px; display: flex; justify-content: center"
                @click="showCategory = true"> + </p>
 
             <!-- Book -->
-            <div style="margin-left:auto; margin-right:0; position:relative; display: flex; justify-content: center">
+            <div style="margin-left:auto; margin-right:0; position:relative; display: flex; justify-content: center; align-items: center; width: 50%">
                 <p style="align-self: center">Book: &nbsp;</p>
+                <multiselect
+                    v-model="book"
+                    :options="book_options"
+                    :object="true"
+                    :searchable="true"/>
+                <!--
                 <select v-model="book" style="height: 34px; align-self: center" class="background-tertiary clean-select">
                     <option v-for="book_option in book_options" :value="book_option.id" class="clean-option">
                         {{ book_option.name }}
                     </option>
                 </select>
+                -->
             </div>
         </div>
 
@@ -86,7 +94,8 @@
                     <td style="width: 80%;">{{ trait.system }}</td>
                 </tr>
                 <tr class="clickable" @click="showTrait = true">
-                    <td style="width: 20%; font-weight: bold; padding: 5px; text-align: center;" class="background-tertiary clean-button">
+                    <td style="width: 20%; font-weight: bold; padding: 5px; text-align: center;"
+                        class="background-tertiary clean-button">
                         +
                     </td>
                     <td style="width: 80%;"> Add Trait</td>
@@ -97,7 +106,9 @@
 
         <div style="display: flex; justify-content: center; padding-top: 20px;">
             <button class="background-tertiary clean-button clickable" @click="editTalent()">Save</button>
-            <button class="background-tertiary clean-button clickable" @click="this.$emit('update:edit', false)">Discard</button>
+            <button class="background-tertiary clean-button clickable" @click="this.$emit('update:edit', false)">
+                Discard
+            </button>
         </div>
     </div>
 
@@ -145,7 +156,13 @@ export default {
             traits: this.talent.traits.map((trait) => {
                 return {id: trait.id, name: trait.name, description: trait.description, system: trait.system}
             }),
-            book: this.talent.book.id,
+            book: [this.talent.book].map((book) => {
+                return {
+                    value: book.id,
+                    label: book.name,
+                    description: book.description
+                }
+            })[0],
             /* option variables */
             requirement_options: this.fetchRequirements(),
             required_talent_options: this.fetchTalents(),
@@ -182,7 +199,7 @@ export default {
                 traits: this.traits.map((trait) => {
                     return trait.id
                 }),
-                book_id: this.book
+                book_id: this.book.value
             }));
 
             // Update the talent itself
@@ -246,7 +263,11 @@ export default {
                 axios.get('/api/' + genre + '/books').then(response => {
                     // Get the books from the genre
                     this.book_options = response.data.map((book) => {
-                        return {id: book.id, name: book.name}
+                        return {
+                            value: book.id,
+                            label: book.name,
+                            description: book.description
+                        }
                     });
                 })
                     .catch(error => {

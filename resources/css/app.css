@@ -70,16 +70,68 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
     width: 50% !important;
     flex-grow: 1 !important;
     padding: 0 !important;
+    border-radius: 5px !important;
+    background-color: var(--secondary-color) !important;
+    height: 34px !important;
 }
 
 .multiselect-wrapper {
     max-height: 19px !important;
     height: 19px !important;
+    background-color: var(--secondary-color) !important;
+    border-radius: 5px !important;
+    border: none;
 }
 
 .multiselect-tag {
     padding: 0 !important;
     margin: 0 !important;
+}
+
+.multiselect-tags-search {
+    background-color: var(--secondary-color) !important;
+}
+
+.multiselect-search {
+    background-color: var(--secondary-color) !important;
+}
+
+.multiselect-dropdown {
+    background-color: var(--secondary-color) !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-color: var(--border-color) !important;
+    right: -1px !important;
+    left: -1px !important;
+}
+
+.multiselect-clear-icon {
+    background-color: var(--accent-color) !important;
+}
+
+.multiselect-caret {
+    background-color: var(--accent-color) !important;
+}
+
+.is-pointed {
+    background-color: var(--tertiary-color) !important;
+}
+
+.is-selected {
+    background-color: var(--quaternary-color) !important;
+}
+
+.is-active {
+    background-color: var(--secondary-color) !important;
+    border-radius: 5px !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    outline: 1px solid var(--border-color) !important;
+}
+
+.multiselect-no-results {
+    font-family: "Montserrat", serif !important;
+    color: var(--dark-text-color) !important;
 }
 
 .ProseMirror:focus {
