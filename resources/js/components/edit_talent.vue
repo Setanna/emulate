@@ -33,13 +33,6 @@
                     :options="book_options"
                     :object="true"
                     :searchable="true"/>
-                <!--
-                <select v-model="book" style="height: 34px; align-self: center" class="background-tertiary clean-select">
-                    <option v-for="book_option in book_options" :value="book_option.id" class="clean-option">
-                        {{ book_option.name }}
-                    </option>
-                </select>
-                -->
             </div>
         </div>
 
@@ -203,7 +196,7 @@ export default {
             }));
 
             // Update the talent itself
-            axios.put('/api/talent/' + this.talent.id, {talent: talent}).then(response => {
+            axios.put('/api/talent/' + this.talent.id, {talent: talent}).then(() => {
                 this.$router.go();
             })
                 .catch(error => {
