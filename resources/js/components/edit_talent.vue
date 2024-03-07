@@ -197,7 +197,7 @@ export default {
 
             // Update the talent itself
             axios.put('/api/talent/' + this.talent.id, {talent: talent}).then(() => {
-                this.$router.go();
+                this.$router.go(0);
             })
                 .catch(error => {
                     console.log("error: " + error)
