@@ -3,8 +3,7 @@
     <div class="account">
         <!-- Login -->
         <div v-if="user === null">
-            <form @submit.prevent="authorize" class="d-flex flex-column">
-                <input type="hidden" name="_token" :value="csrf">
+            <form @submit.prevent="authorize" class="d-flex flex-column" id="form">
                 <div>
                     <a class="sub-title">Username</a> <br>
                     <input name="username" class="text-input" type="text" v-model="username" autocomplete="username" placeholder="Username"
@@ -40,7 +39,6 @@
         <!-- Logout -->
         <div v-if="user !== null">
             <form @submit.prevent="logout" method="post">
-                <input type="hidden" name="_token" :value="csrf">
                 <button type="submit" class="background-tertiary button m-4">Logout</button>
             </form>
         </div>
@@ -52,7 +50,6 @@ export default {
     data() {
         return {
             user: window.Laravel.user,
-            csrf: document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
             register: false,
             email: "",
             username: "",
@@ -70,14 +67,16 @@ export default {
 
             try {
                 const login = {username: this.username, password: this.password}
-                axios.post('/api/auth/login?username=' + login.username + '&password=' + login.password).then(response => {
-                    this.$router.go();
+                axios.post('/api/auth/login?username=' + login.username + '&password=' + login.password).then(() => {
+                    this.$router.go(0);
                 })
                     .catch(error => {
                         if (error.response.data.message) {
                             this.error = error.response.data.message;
+                            document.getElementById("form").reportValidity(error.response.data.message);
                         } else {
                             this.error = error.message;
+                            document.getElementById("form").reportValidity(error.message);
                         }
                         console.log(error)
                     })
@@ -91,8 +90,8 @@ export default {
             if (this.confirmPassword === this.password) {
                 try {
                     const signUp = {username: this.username, password: this.password, email: this.email}
-                    axios.post('/api/auth/register?username=' + signUp.username + '&password=' + signUp.password + '&email=' + signUp.email).then(response => {
-                        this.$router.go();
+                    axios.post('/api/auth/register?username=' + signUp.username + '&password=' + signUp.password + '&email=' + signUp.email).then(() => {
+                        this.$router.go(0);
                     })
                         .catch(error => {
                             if (error.response.data.message) {
@@ -112,8 +111,8 @@ export default {
         logout: function () {
             this.error = null;
             try {
-                axios.post('/api/auth/logout').then(response => {
-                    this.$router.go();
+                axios.post('/api/auth/logout').then(() => {
+                    this.$router.go(0);
                 })
                     .catch(error => {
                         console.log(error)
