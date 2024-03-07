@@ -23,7 +23,7 @@
 
                 <!-- Footer -->
                 <div class="modal-footer">
-                    <button class="background-quaternary modal-save" @click="close()">Ok</button>
+                    <button class="modal-save" @click="close()">Ok</button>
                 </div>
             </div>
         </div>

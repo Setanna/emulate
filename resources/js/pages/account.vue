@@ -28,9 +28,9 @@
                            placeholder="Confirm password" max="255" required/>
                 </div>
                 <br>
-                <button type="submit" class="background-tertiary button m-4"> {{ register ? "Sign Up" : "Login" }}</button>
+                <button type="submit" class="button m-4"> {{ register ? "Sign Up" : "Login" }}</button>
             </form>
-            <button class="background-tertiary button" @click="register = !register">
+            <button class="button" @click="register = !register">
                 {{ register ? "Already have an account? Login!" : "Don't have an account? Sign up!" }}
             </button>
             <br>
@@ -71,7 +71,7 @@ export default {
             try {
                 const login = {username: this.username, password: this.password}
                 axios.post('/api/auth/login?username=' + login.username + '&password=' + login.password).then(response => {
-                    this.$router.push({name: 'home'})
+                    this.$router.go();
                 })
                     .catch(error => {
                         if (error.response.data.message) {
@@ -92,7 +92,7 @@ export default {
                 try {
                     const signUp = {username: this.username, password: this.password, email: this.email}
                     axios.post('/api/auth/register?username=' + signUp.username + '&password=' + signUp.password + '&email=' + signUp.email).then(response => {
-                        this.$router.push({name: 'home'})
+                        this.$router.go();
                     })
                         .catch(error => {
                             if (error.response.data.message) {
@@ -113,7 +113,7 @@ export default {
             this.error = null;
             try {
                 axios.post('/api/auth/logout').then(response => {
-                    this.$router.push({name: 'home'})
+                    this.$router.go();
                 })
                     .catch(error => {
                         console.log(error)
