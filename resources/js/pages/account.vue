@@ -6,24 +6,24 @@
             <form @submit.prevent="authorize" class="d-flex flex-column" id="form">
                 <div>
                     <a class="sub-title">Username</a> <br>
-                    <input name="username" class="text-input" type="text" v-model="username" autocomplete="username" placeholder="Username"
+                    <input name="username" class="text-input" type="text" v-model="username" id="username" autocomplete="username" placeholder="Username"
                            max="255" @input="resetValidation()" required/>
                 </div>
                 <br>
                 <div v-if="register">
                     <a class="sub-title">Email</a> <br>
-                    <input name="email" class="text-input" type="email" v-model="email" placeholder="Email" max="255" @input="resetValidation()" required/>
+                    <input name="email" class="text-input" type="email" v-model="email" id="email" placeholder="Email" max="255" @input="resetValidation()" required/>
                 </div>
                 <br>
                 <div>
                     <a class="sub-title">Password:</a><br>
-                    <input name="password" class="text-input" type="password" v-model="password" autocomplete="password"
+                    <input name="password" class="text-input" type="password" v-model="password" id="password" autocomplete="password"
                            placeholder="Password" max="255" @input="resetValidation()" required/>
                 </div>
                 <br>
                 <div v-if="register">
                     <a class="sub-title">Confirm Password:</a><br>
-                    <input name="confirmPassword" class="text-input" type="password" v-model="confirmPassword"
+                    <input name="confirmPassword" class="text-input" type="password" v-model="confirmPassword"  id="confirmPassword"
                            placeholder="Confirm password" max="255" @input="resetValidation()" required/>
                 </div>
                 <br>
@@ -76,18 +76,20 @@ export default {
                     this.$router.go(0);
                 })
                     .catch(error => {
-                        if (error.response.data.message) {
-                            document.getElementById(("form")).getElementsByTagName("input")[0].setCustomValidity(error.response.data.message);
-                            document.getElementById("form").reportValidity();
-                        } else {
-                            document.getElementById(("form")).getElementsByTagName("input")[0].setCustomValidity(error.message);
-                            document.getElementById("form").reportValidity();
+                        if(error.response.data.errors.username){
+                            console.log("username");
+                            document.getElementById("username").setCustomValidity(error.response.data.errors.username);
                         }
-                        console.log(error)
+
+                        if(error.response.data.errors.password){
+                            document.getElementById("password").setCustomValidity(error.response.data.errors.password);
+                        }
+
+                        document.getElementById("form").reportValidity();
                     })
             } catch (error) {
-                document.getElementById(("form")).getElementsByTagName("input")[0].setCustomValidity(error.message);
-                document.getElementById("form").reportValidity();
+                document.getElementById("username").setCustomValidity(error.message);
+                document.getElementById("username").reportValidity();
             }
         },
         signUp: function () {
@@ -99,22 +101,29 @@ export default {
                         this.$router.go(0);
                     })
                         .catch(error => {
-                            if (error.response.data.message) {
-                                document.getElementById(("form")).getElementsByTagName("input")[0].setCustomValidity(error.response.data.message);
-                                document.getElementById("form").reportValidity();
-                            } else {
-                                document.getElementById(("form")).getElementsByTagName("input")[0].setCustomValidity(error.message);
-                                document.getElementById("form").reportValidity();
+                            if(error.response.data.errors.username){
+                                console.log("username");
+                                document.getElementById("username").setCustomValidity(error.response.data.errors.username);
                             }
-                            console.log(error)
+
+                            if(error.response.data.errors.email){
+                                console.log("email");
+                                document.getElementById("email").setCustomValidity(error.response.data.errors.email);
+                            }
+
+                            if(error.response.data.errors.password){
+                                document.getElementById("password").setCustomValidity(error.response.data.errors.password);
+                            }
+
+                            document.getElementById("form").reportValidity();
                         })
                 } catch (error) {
-                    document.getElementById(("form")).getElementsByTagName("input")[0].setCustomValidity(error.message);
-                    document.getElementById("form").reportValidity();
+                    document.getElementById("username").setCustomValidity(error.message);
+                    document.getElementById("username").reportValidity();
                 }
             } else {
-                document.getElementById(("form")).getElementsByTagName("input")[3].setCustomValidity("Passwords don't match");
-                document.getElementById("form").reportValidity();
+                document.getElementById("confirmPassword").setCustomValidity("Passwords don't match");
+                document.getElementById("confirmPassword").reportValidity();
             }
         },
         logout: function () {
