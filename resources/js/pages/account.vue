@@ -7,33 +7,31 @@
                 <div>
                     <a class="sub-title">Username</a> <br>
                     <input name="username" class="text-input" type="text" v-model="username" autocomplete="username" placeholder="Username"
-                           max="255" required/>
+                           max="255" @input="resetValidation()" required/>
                 </div>
                 <br>
                 <div v-if="register">
                     <a class="sub-title">Email</a> <br>
-                    <input name="email" class="text-input" type="email" v-model="email" placeholder="Email" max="255" required/>
+                    <input name="email" class="text-input" type="email" v-model="email" placeholder="Email" max="255" @input="resetValidation()" required/>
                 </div>
                 <br>
                 <div>
                     <a class="sub-title">Password:</a><br>
                     <input name="password" class="text-input" type="password" v-model="password" autocomplete="password"
-                           placeholder="Password" max="255" required/>
+                           placeholder="Password" max="255" @input="resetValidation()" required/>
                 </div>
                 <br>
                 <div v-if="register">
                     <a class="sub-title">Confirm Password:</a><br>
                     <input name="confirmPassword" class="text-input" type="password" v-model="confirmPassword"
-                           placeholder="Confirm password" max="255" required/>
+                           placeholder="Confirm password" max="255" @input="resetValidation()" required/>
                 </div>
                 <br>
                 <button type="submit" class="button m-4"> {{ register ? "Sign Up" : "Login" }}</button>
             </form>
-            <button class="button" @click="register = !register">
+            <button class="button" @click="switchLS()">
                 {{ register ? "Already have an account? Login!" : "Don't have an account? Sign up!" }}
             </button>
-            <br>
-            <a v-if="error != null"> {{ error }}</a>
         </div>
 
         <!-- Logout -->
@@ -54,17 +52,24 @@ export default {
             email: "",
             username: "",
             password: "",
-            confirmPassword: "",
-            error: ""
+            confirmPassword: ""
         }
     },
     methods: {
         authorize: function () {
             this.register ? this.signUp() : this.login();
         },
+        switchLS: function() {
+            this.register = !this.register;
+            this.resetValidation();
+        },
+        resetValidation: function () {
+            let inputs = document.getElementById(("form")).getElementsByTagName("input");
+            for (let input of inputs){
+                input.setCustomValidity('');
+            }
+        },
         login: async function () {
-            this.error = null;
-
             try {
                 const login = {username: this.username, password: this.password}
                 axios.post('/api/auth/login?username=' + login.username + '&password=' + login.password).then(() => {
@@ -72,20 +77,20 @@ export default {
                 })
                     .catch(error => {
                         if (error.response.data.message) {
-                            this.error = error.response.data.message;
-                            document.getElementById("form").reportValidity(error.response.data.message);
+                            document.getElementById(("form")).getElementsByTagName("input")[0].setCustomValidity(error.response.data.message);
+                            document.getElementById("form").reportValidity();
                         } else {
-                            this.error = error.message;
-                            document.getElementById("form").reportValidity(error.message);
+                            document.getElementById(("form")).getElementsByTagName("input")[0].setCustomValidity(error.message);
+                            document.getElementById("form").reportValidity();
                         }
                         console.log(error)
                     })
             } catch (error) {
-                this.error = error;
+                document.getElementById(("form")).getElementsByTagName("input")[0].setCustomValidity(error.message);
+                document.getElementById("form").reportValidity();
             }
         },
         signUp: function () {
-            this.error = null;
 
             if (this.confirmPassword === this.password) {
                 try {
@@ -95,17 +100,21 @@ export default {
                     })
                         .catch(error => {
                             if (error.response.data.message) {
-                                this.error = error.response.data.message;
+                                document.getElementById(("form")).getElementsByTagName("input")[0].setCustomValidity(error.response.data.message);
+                                document.getElementById("form").reportValidity();
                             } else {
-                                this.error = error.message;
+                                document.getElementById(("form")).getElementsByTagName("input")[0].setCustomValidity(error.message);
+                                document.getElementById("form").reportValidity();
                             }
                             console.log(error)
                         })
                 } catch (error) {
-                    this.error = error;
+                    document.getElementById(("form")).getElementsByTagName("input")[0].setCustomValidity(error.message);
+                    document.getElementById("form").reportValidity();
                 }
             } else {
-                this.error = "Passwords don't match";
+                document.getElementById(("form")).getElementsByTagName("input")[3].setCustomValidity("Passwords don't match");
+                document.getElementById("form").reportValidity();
             }
         },
         logout: function () {
