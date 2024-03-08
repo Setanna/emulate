@@ -6,30 +6,46 @@
             <form @submit.prevent="authorize" class="d-flex flex-column" id="form">
                 <div>
                     <a class="sub-title">Username</a> <br>
-                    <input name="username" class="text-input" type="text" v-model="username" id="username" autocomplete="username" placeholder="Username"
+                    <input name="username" class="border text-input" type="text" v-model="username" id="username"
+                           autocomplete="username" placeholder="Username"
                            max="255" @input="resetValidation()" required/>
                 </div>
                 <br>
                 <div v-if="register">
                     <a class="sub-title">Email</a> <br>
-                    <input name="email" class="text-input" type="email" v-model="email" id="email" placeholder="Email" max="255" @input="resetValidation()" required/>
+                    <input name="email" class="border text-input" type="email" v-model="email" id="email" placeholder="Email"
+                           max="255" @input="resetValidation()" required/>
                 </div>
                 <br>
                 <div>
                     <a class="sub-title">Password:</a><br>
-                    <input name="password" class="text-input" type="password" v-model="password" id="password" autocomplete="password"
-                           placeholder="Password" max="255" @input="resetValidation()" required/>
+                    <div class="border" style="display: flex; flex-direction: row">
+                        <input name="password" class="text-input" :type="passwordType" v-model="password" id="password"
+                               autocomplete="password"
+                               placeholder="Password" max="255" @input="resetValidation()" required/>
+                        <div style="display: flex; justify-content: center; align-items: center; padding-right: 2px" @click="showPasswordToggle()">
+                            <eye class="icon-32" v-if="!showPassword" />
+                            <eye-slashed class="icon-32" v-if="showPassword" />
+                        </div>
+                    </div>
                 </div>
                 <br>
                 <div v-if="register">
                     <a class="sub-title">Confirm Password:</a><br>
-                    <input name="confirmPassword" class="text-input" type="password" v-model="confirmPassword"  id="confirmPassword"
-                           placeholder="Confirm password" max="255" @input="resetValidation()" required/>
+                    <div class="border" style="display: flex; flex-direction: row">
+                        <input name="confirmPassword" class="text-input" :type="passwordType" v-model="confirmPassword"
+                               id="confirmPassword"
+                               placeholder="Confirm password" max="255" @input="resetValidation()" required/>
+                        <div style="display: flex; justify-content: center; align-items: center; padding-right: 2px" @click="showPasswordToggle()">
+                            <eye class="icon-32" v-if="!showPassword"/>
+                            <eye-slashed class="icon-32" v-if="showPassword"/>
+                        </div>
+                    </div>
                 </div>
                 <br>
                 <button type="submit" class="button m-4"> {{ register ? "Sign Up" : "Login" }}</button>
             </form>
-            <button class="button" @click="switchLS()">
+            <button class="button" @click="loginSignUpToggle()">
                 {{ register ? "Already have an account? Login!" : "Don't have an account? Sign up!" }}
             </button>
         </div>
@@ -44,6 +60,9 @@
 </template>
 
 <script>
+import eye from '../icons/eye.vue';
+import eyeSlashed from '../icons/eye_slashed.vue';
+
 export default {
     data() {
         return {
@@ -52,20 +71,31 @@ export default {
             email: "",
             username: "",
             password: "",
-            confirmPassword: ""
+            confirmPassword: "",
+            showPassword: false,
+            passwordType: "password"
         }
+    },
+    components: {
+        eye,
+        eyeSlashed
     },
     methods: {
         authorize: function () {
             this.register ? this.signUp() : this.login();
         },
-        switchLS: function() {
+        loginSignUpToggle: function () {
             this.register = !this.register;
             this.resetValidation();
         },
+        showPasswordToggle: function(){
+            this.showPassword = !this.showPassword;
+
+            this.passwordType = this.showPassword ? "test" : "password";
+        },
         resetValidation: function () {
-            let inputs = document.getElementById(("form")).getElementsByTagName("input");
-            for (let input of inputs){
+            let inputs = document.getElementById("form").getElementsByTagName("input");
+            for (let input of inputs) {
                 input.setCustomValidity('');
             }
         },
@@ -76,12 +106,12 @@ export default {
                     this.$router.go(0);
                 })
                     .catch(error => {
-                        if(error.response.data.errors.username){
+                        if (error.response.data.errors.username) {
                             console.log("username");
                             document.getElementById("username").setCustomValidity(error.response.data.errors.username);
                         }
 
-                        if(error.response.data.errors.password){
+                        if (error.response.data.errors.password) {
                             document.getElementById("password").setCustomValidity(error.response.data.errors.password);
                         }
 
@@ -101,17 +131,17 @@ export default {
                         this.$router.go(0);
                     })
                         .catch(error => {
-                            if(error.response.data.errors.username){
+                            if (error.response.data.errors.username) {
                                 console.log("username");
                                 document.getElementById("username").setCustomValidity(error.response.data.errors.username);
                             }
 
-                            if(error.response.data.errors.email){
+                            if (error.response.data.errors.email) {
                                 console.log("email");
                                 document.getElementById("email").setCustomValidity(error.response.data.errors.email);
                             }
 
-                            if(error.response.data.errors.password){
+                            if (error.response.data.errors.password) {
                                 document.getElementById("password").setCustomValidity(error.response.data.errors.password);
                             }
 

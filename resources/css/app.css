@@ -407,6 +407,13 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
     margin: 0;
 }
 
+/* border */
+.border {
+    border-color: var(--border-color) !important;
+    border-radius: 5px !important;
+    border: 2px solid !important;
+}
+
 /* Inputs */
 .text-input {
     color: var(--dark-text-color);
@@ -414,9 +421,7 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
     font-weight: bold;
     background-color: var(--primary-color);
     width: 100%;
-    border-color: var(--border-color);
-    border-radius: 5px;
-    border: 2px solid;
+    border: none;
     box-sizing: border-box;
     height: 40px;
 }
