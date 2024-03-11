@@ -703,6 +703,13 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
     transform: translateX(0%);
 }
 
+
+.delay-enter-active,
+.delay-leave-active {
+    transition: all 0.5s;
+    transition-delay: 0.5s;
+}
+
 /* Modals */
 .modal-mask {
     position: fixed;
@@ -837,14 +844,30 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
     font-weight: 500;
 }
 
-/* Theme */
-.theme-modal-button {
+/* Menu */
+.menu {
     position: absolute;
+    display: grid;
+    grid-auto-flow: column;
     z-index: 10;
     right: 0;
     bottom: 0;
     padding: 5px 5px 0 5px;
     border-top-left-radius: 5px;
+    transition: all 0.5s;
+    width: 33px;
+    height: 38px;
+}
+
+.menu-icons {
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: row;
+    padding: 1px;
+}
+
+.menu-opened {
+    width: 107px;
 }
 
 /* Transform */

@@ -62,7 +62,7 @@
                 <div v-if="search_results.talents.length" class="search-category">
                     <b class="search-category-title">Talents</b>
                     <router-link v-for="search_result in search_results.talents"
-                                     :to="{ name: 'talent', params: { id: search_result.id, genre: this.genre } }"
+                                 :to="{ name: 'talent', params: { id: search_result.id, genre: this.genre } }"
                                  class="no-text-link">
                         {{ search_result.name }}
                     </router-link>
@@ -80,13 +80,29 @@
         </router-view>
 
         <!-- Theme Modal Button -->
-        <div class="background-tertiary theme-modal-button clickable" @click="showTheme = true">
-            <menu-icon></menu-icon>
+        <div class="background-tertiary menu" :class="{'menu-opened': showMenu}">
+            <div class="menu-icons">
+                <div class="clickable" @click="showMenu = !showMenu">
+                    <menu-icon></menu-icon>
+                </div>
+                <transition-group name="delay">
+                    <hr v-if="showMenu"
+                        style="margin: 2px 5px; border-color: var(--primary-color); border-style: solid; border-width: 1px"/>
+
+                    <div class="clickable" v-if="showMenu">
+                        <theme-icon @click="showTheme = true"></theme-icon>
+                    </div>
+                    <router-link to="account" v-if="showMenu">
+                        <account-icon></account-icon>
+                    </router-link>
+                </transition-group>
+            </div>
         </div>
 
         <!-- Modals -->
         <Teleport to="body">
-            <filter-modal v-model:showFilter="showFilter" v-model:search_filters="search_filters" :genre="genre" @close="search(search_filters)"/>
+            <filter-modal v-model:showFilter="showFilter" v-model:search_filters="search_filters" :genre="genre"
+                          @close="search(search_filters)"/>
             <theme-modal v-model:showTheme="showTheme" @update:theme="(modalTheme) => this.theme = modalTheme"/>
         </Teleport>
     </div>
@@ -97,6 +113,8 @@ import filterModal from '../modals/filter.vue';
 import themeModal from '../modals/theme.vue';
 import settingsIcon from '../icons/settings.vue';
 import menuIcon from '../icons/menu.vue';
+import accountIcon from '../icons/account.vue';
+import themeIcon from '../icons/paintbrush.vue';
 import axios from "axios";
 
 export default {
@@ -114,11 +132,12 @@ export default {
             },
             options: {},
             /* variables */
-            theme: localStorage.getItem('theme') !== null ?  localStorage.getItem('theme') : 'obsidian',
+            theme: localStorage.getItem('theme') !== null ? localStorage.getItem('theme') : 'obsidian',
             genre: null,
             search_text: '',
             /* booleans */
             showTheme: false,
+            showMenu: false,
             showFilter: false,
             showSort: false,
             search_state: false,
@@ -129,6 +148,8 @@ export default {
         themeModal,
         filterModal,
         settingsIcon,
+        accountIcon,
+        themeIcon,
         menuIcon
     },
     methods: {
