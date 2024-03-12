@@ -106,13 +106,15 @@ export default {
                     this.$router.go(0);
                 })
                     .catch(error => {
-                        if (error.response.data.errors.username) {
-                            console.log("username");
-                            document.getElementById("username").setCustomValidity(error.response.data.errors.username);
-                        }
+                        if(error.response.data.errors){
+                            if (error.response.data.errors.username) {
+                                console.log("username");
+                                document.getElementById("username").setCustomValidity(error.response.data.errors.username);
+                            }
 
-                        if (error.response.data.errors.password) {
-                            document.getElementById("password").setCustomValidity(error.response.data.errors.password);
+                            if (error.response.data.errors.password) {
+                                document.getElementById("password").setCustomValidity(error.response.data.errors.password);
+                            }
                         }
 
                         document.getElementById("form").reportValidity();
@@ -131,18 +133,20 @@ export default {
                         this.$router.go(0);
                     })
                         .catch(error => {
-                            if (error.response.data.errors.username) {
-                                console.log("username");
-                                document.getElementById("username").setCustomValidity(error.response.data.errors.username);
-                            }
+                            if(error.response.data.errors) {
+                                if (error.response.data.errors.username) {
+                                    console.log("username");
+                                    document.getElementById("username").setCustomValidity(error.response.data.errors.username);
+                                }
 
-                            if (error.response.data.errors.email) {
-                                console.log("email");
-                                document.getElementById("email").setCustomValidity(error.response.data.errors.email);
-                            }
+                                if (error.response.data.errors.email) {
+                                    console.log("email");
+                                    document.getElementById("email").setCustomValidity(error.response.data.errors.email);
+                                }
 
-                            if (error.response.data.errors.password) {
-                                document.getElementById("password").setCustomValidity(error.response.data.errors.password);
+                                if (error.response.data.errors.password) {
+                                    document.getElementById("password").setCustomValidity(error.response.data.errors.password);
+                                }
                             }
 
                             document.getElementById("form").reportValidity();
