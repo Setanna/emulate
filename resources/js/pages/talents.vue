@@ -55,8 +55,6 @@ export default {
                                 this.$router.push({name: 'not_found'})
                             }
                         })
-                } else {
-                    this.genre = null;
                 }
             },
             immediate: true,
