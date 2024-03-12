@@ -79,7 +79,7 @@
             </div>
         </router-view>
 
-        <!-- Theme Modal Button -->
+        <!-- Menu Modal Button -->
         <div class="background-tertiary menu" :class="{'menu-opened': showMenu}">
             <div class="menu-icons">
                 <div class="clickable" @click="showMenu = !showMenu">
@@ -92,7 +92,7 @@
                     <div class="clickable" v-if="showMenu">
                         <theme-icon @click="showTheme = true"></theme-icon>
                     </div>
-                    <router-link to="account" v-if="showMenu">
+                    <router-link :to="{ name: 'account' }" v-if="showMenu">
                         <account-icon></account-icon>
                     </router-link>
                 </transition-group>
