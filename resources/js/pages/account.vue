@@ -13,7 +13,8 @@
                 <br>
                 <div v-if="register">
                     <a class="sub-title">Email</a> <br>
-                    <input name="email" class="border text-input" type="email" v-model="email" id="email" placeholder="Email"
+                    <input name="email" class="border text-input" type="email" v-model="email" id="email"
+                           placeholder="Email"
                            max="255" @input="resetValidation()" required/>
                 </div>
                 <br>
@@ -23,9 +24,11 @@
                         <input name="password" class="text-input" :type="passwordType" v-model="password" id="password"
                                autocomplete="password"
                                placeholder="Password" max="255" @input="resetValidation()" required/>
-                        <div style="display: flex; justify-content: center; align-items: center; padding-right: 2px" @click="showPasswordToggle()">
-                            <eye class="icon-32" v-if="!showPassword" />
-                            <eye-slashed class="icon-32" v-if="showPassword" />
+                        <div
+                            style="user-select: none;display: flex; justify-content: center; align-items: center; padding-right: 2px"
+                            @click="showPasswordToggle()">
+                            <eye class="icon-32" v-if="!showPassword"/>
+                            <eye-slashed class="icon-32" v-if="showPassword"/>
                         </div>
                     </div>
                 </div>
@@ -36,7 +39,9 @@
                         <input name="confirmPassword" class="text-input" :type="passwordType" v-model="confirmPassword"
                                id="confirmPassword"
                                placeholder="Confirm password" max="255" @input="resetValidation()" required/>
-                        <div style="display: flex; justify-content: center; align-items: center; padding-right: 2px" @click="showPasswordToggle()">
+                        <div
+                            style="user-select: none;display: flex; justify-content: center; align-items: center; padding-right: 2px"
+                            @click="showPasswordToggle()">
                             <eye class="icon-32" v-if="!showPassword"/>
                             <eye-slashed class="icon-32" v-if="showPassword"/>
                         </div>
@@ -88,7 +93,7 @@ export default {
             this.register = !this.register;
             this.resetValidation();
         },
-        showPasswordToggle: function(){
+        showPasswordToggle: function () {
             this.showPassword = !this.showPassword;
 
             this.passwordType = this.showPassword ? "test" : "password";
@@ -106,7 +111,7 @@ export default {
                     this.$router.go(0);
                 })
                     .catch(error => {
-                        if(error.response.data.errors){
+                        if (error.response.data.errors) {
                             if (error.response.data.errors.username) {
                                 console.log("username");
                                 document.getElementById("username").setCustomValidity(error.response.data.errors.username);
@@ -133,7 +138,7 @@ export default {
                         this.$router.go(0);
                     })
                         .catch(error => {
-                            if(error.response.data.errors) {
+                            if (error.response.data.errors) {
                                 if (error.response.data.errors.username) {
                                     console.log("username");
                                     document.getElementById("username").setCustomValidity(error.response.data.errors.username);
