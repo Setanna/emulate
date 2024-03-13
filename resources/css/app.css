@@ -308,8 +308,8 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
 
 /* Component */
 .component {
-    overflow: auto;
-    height: 100%;
+    overflow: hidden;
+    height: calc(100% - 63px);
     width: 100%;
     transition: all 0.5s;
 }
@@ -325,7 +325,7 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
     height: 100%;
     align-items: start;
     z-index: 5;
-    width: 20%;
+    width: 260px;
     transition: all 0.5s;
 }
 
@@ -781,7 +781,7 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
 }
 
 .search-results-opened {
-    width: 20%;
+    width: 260px;
     transition: all 0.5s;
 }
 
