@@ -191,7 +191,7 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
 
     /* Text colors */
     --reverse-text-color: #000000;
-    --dark-text-color: #333333;
+    --dark-text-color: #262626;
     --text-color: #ffffff;
 
     /* Other */
@@ -726,7 +726,6 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
 
 /* Search */
 .search {
-    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     width: 100%;
