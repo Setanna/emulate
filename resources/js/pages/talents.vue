@@ -1,6 +1,6 @@
 <!-- talents.vue -->
 <template>
-    <div class="talents" style="display: flex; flex-direction: column; justify-content: center">
+    <div class="talents">
 
         <!-- Search -->
         <div class="pb-20">
