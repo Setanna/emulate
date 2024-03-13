@@ -132,7 +132,7 @@ export default {
             },
             options: {},
             /* variables */
-            theme: localStorage.getItem('theme') !== null ? localStorage.getItem('theme') : 'obsidian',
+            theme: localStorage.getItem('theme') !== null ? localStorage.getItem('theme') : 'lavender',
             genre: null,
             search_text: '',
             /* booleans */
