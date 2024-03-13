@@ -1,6 +1,6 @@
 <!-- edit_talent.vue -->
 <template>
-    <div class="m-10">
+    <div>
         <!-- Name & Cost -->
         <div class="background-tertiary title-card title">
             <div style="padding-left: 5px;">

@@ -16,14 +16,18 @@
                 <transition name="fall" mode="in-out">
                     <div class="navbar-options" v-if="options.length">
                         <!-- Search -->
-                        <router-link to="" class="no-text-link navbar-option" @click="search_state = !search_state" :class="{'background-tertiary': search_state}">
+                        <router-link to="" class="no-text-link navbar-option" @click="search_state = !search_state"
+                                     :class="{'background-tertiary': search_state}">
                             <a class="m-5">Search</a>
                         </router-link>
 
                         <!-- Genre options -->
-                        <router-link v-for="option in options" :to="{ path: '/' + genre + '/' + option }"
-                                     class="no-text-link navbar-option capitalize">
-                            <a class="m-5">{{ option }}</a>
+                        <router-link v-for="option in options" :to="{ name: option }"
+                                     class="no-text-link navbar-option capitalize"
+                                     :class="{'background-primary': option === $route.name && !search_state,}">
+                            <a class="m-5" :class="{'text-dark': option === $route.name && !search_state}">{{
+                                    option
+                                }} </a>
                         </router-link>
                     </div>
                 </transition>
@@ -36,7 +40,8 @@
             <div style="margin: 0 5px">
                 <!-- Search Input -->
                 <div class="search">
-                    <input name="search" class="background-tertiary clean-input" placeholder="Search" v-model="search_text"
+                    <input name="search" class="background-tertiary clean-input" placeholder="Search"
+                           v-model="search_text"
                            @input="search(search_filters)"
                            @focusin="this.searchFocus = true" @focusout="this.searchFocus = false">
                     <div class="clickable" @click="showFilter = true">

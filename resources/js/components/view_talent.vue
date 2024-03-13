@@ -1,6 +1,6 @@
 <!-- view_talent.vue -->
 <template>
-    <div v-if="talent" class="m-10">
+    <div v-if="talent">
         <!-- Name & Cost -->
         <div v-if="talent.name" class="background-tertiary title-card title">
             <p style="padding-left: 5px;"> {{ talent.name }}</p>

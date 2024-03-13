@@ -266,7 +266,6 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 20px;
 }
 
 .talent-search {
@@ -276,6 +275,8 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
 }
 
 .talent-table {
+    height: 100%;
+    width: 100%;
     border-radius: 5px;
     border-collapse: collapse;
     text-align: left;
@@ -309,6 +310,7 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
 /* Component */
 .component {
     overflow: hidden;
+    margin: 10px;
     height: calc(100% - 63px);
     width: 100%;
     transition: all 0.5s;
@@ -663,6 +665,14 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
     padding: 10px !important;
 }
 
+.pr-10 {
+    padding-right: 10px !important;
+}
+
+.pl-10 {
+    padding-left: 10px !important;
+}
+
 .pb-20 {
     padding-bottom: 20px !important;
 }
@@ -684,7 +694,11 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
     width: 100% !important;
 }
 
-/* Center */
+/* Placements */
+.ta-center {
+    text-align: center;
+}
+
 .center {
     display: flex;
     justify-content: center;

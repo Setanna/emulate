@@ -5,7 +5,7 @@
         <!-- Search -->
         <div class="pb-20">
             <div class="background-tertiary b-2 r-5 talent-search">
-                <input class="background-tertiary title-input p-10 pt-20 pb-20" placeholder="Enter search query">
+                <input class="background-tertiary title-input r-5 p-10 pt-20 pb-20" placeholder="Enter search query">
 
                 <div class="clickable center pr-5">
                     <settings-icon></settings-icon>
@@ -22,12 +22,12 @@
                 <th>Description</th>
             </tr>
             </thead>
-            <tbody>
+            <tbody style="overflow: auto">
             <tr v-for="(talent, index) in talents" :class="{'background-tertiary': index % 2 === 0}" class="clickable"
                 @click="go(talent.id)">
-                <td class="p-5"> {{ talent.name }}</td>
-                <td class="p-5" style="text-align: center"> {{ talent.experience_cost }}</td>
-                <td class="p-5"> {{ talent.description }}</td>
+                <td class="p-5 pl-10 pr-10"> {{ talent.name }}</td>
+                <td class="ta-center p-5 pl-10 pr-10"> {{ talent.experience_cost }}</td>
+                <td class="p-5 pl-10 pr-10"> {{ talent.description }}</td>
             </tr>
             </tbody>
         </table>
