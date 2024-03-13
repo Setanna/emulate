@@ -4,7 +4,7 @@
         <!-- Navbar -->
         <div class="background-quaternary navbar">
             <!-- Navbar Header -->
-            <div class="navbar-header background-quaternary">
+            <div class="navbar-header background-quaternary center">
                 <router-link :to="{ name: 'home' }" class="no-text-link navbar-title">
                     Emulate:
                 </router-link>
@@ -16,14 +16,14 @@
                 <transition name="fall" mode="in-out">
                     <div class="navbar-options" v-if="options.length">
                         <!-- Search -->
-                        <router-link to="" class="no-text-link navbar-title" @click="search_state = !search_state">
-                            Search
+                        <router-link to="" class="no-text-link navbar-title navbar-hover w-100" @click="search_state = !search_state" :class="{'background-tertiary': search_state}">
+                            <a class="m-5">Search</a>
                         </router-link>
 
                         <!-- Genre options -->
                         <router-link v-for="option in options" :to="{ path: '/' + genre + '/' + option }"
-                                     class="no-text-link navbar-title capitalize">
-                            {{ option }}
+                                     class="no-text-link navbar-title capitalize navbar-hover w-100">
+                            <a class="m-5">{{ option }}</a>
                         </router-link>
                     </div>
                 </transition>

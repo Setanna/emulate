@@ -342,9 +342,11 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
 .navbar-title {
     font-size: 32px;
     font-weight: 700;
-    margin: 0 auto;
-    padding: 5px;
     z-index: 3;
+}
+
+.navbar-hover:hover {
+    background-color: var(--tertiary-color);
 }
 
 .navbar-menu {
@@ -623,6 +625,10 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
     margin: 0 !important;
 }
 
+.m-5 {
+    margin: 5px !important;
+}
+
 .m-10 {
     margin: 10px !important;
 }
@@ -650,6 +656,11 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
 
 .pt-20 {
     padding-top: 20px !important;
+}
+
+/* Size */
+.w-100 {
+    width: 100% !important;
 }
 
 /* Center */
