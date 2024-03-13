@@ -6,27 +6,27 @@
             <form @submit.prevent="authorize" class="d-flex flex-column" id="form">
                 <div>
                     <a class="sub-title">Username</a> <br>
-                    <input name="username" class="border text-input" type="text" v-model="username" id="username"
+                    <input name="username" class="b-2 r-5 text-input" type="text" v-model="username" id="username"
                            autocomplete="username" placeholder="Username"
                            max="255" @input="resetValidation()" required/>
                 </div>
                 <br>
                 <div v-if="register">
                     <a class="sub-title">Email</a> <br>
-                    <input name="email" class="border text-input" type="email" v-model="email" id="email"
+                    <input name="email" class="b-2 r-5 text-input" type="email" v-model="email" id="email"
                            placeholder="Email"
                            max="255" @input="resetValidation()" required/>
                 </div>
                 <br>
                 <div>
                     <a class="sub-title">Password:</a><br>
-                    <div class="border" style="display: flex; flex-direction: row">
-                        <input name="password" class="text-input" :type="passwordType" v-model="password" id="password"
+                    <div class="b-2 r-5 row">
+                        <input name="password" class="text-input" style="height: 36px;" :type="passwordType"
+                               v-model="password" id="password"
                                autocomplete="password"
                                placeholder="Password" max="255" @input="resetValidation()" required/>
-                        <div
-                            style="user-select: none;display: flex; justify-content: center; align-items: center; padding-right: 2px"
-                            @click="showPasswordToggle()">
+                        <div class="center pr-5 us-none"
+                             @click="showPasswordToggle()">
                             <eye class="icon-32" v-if="!showPassword"/>
                             <eye-slashed class="icon-32" v-if="showPassword"/>
                         </div>
@@ -35,13 +35,13 @@
                 <br>
                 <div v-if="register">
                     <a class="sub-title">Confirm Password:</a><br>
-                    <div class="border" style="display: flex; flex-direction: row">
-                        <input name="confirmPassword" class="text-input" :type="passwordType" v-model="confirmPassword"
+                    <div class="b-2 r-5 row">
+                        <input name="confirmPassword" class="text-input" style="height: 36px;" :type="passwordType"
+                               v-model="confirmPassword"
                                id="confirmPassword"
                                placeholder="Confirm password" max="255" @input="resetValidation()" required/>
-                        <div
-                            style="user-select: none;display: flex; justify-content: center; align-items: center; padding-right: 2px"
-                            @click="showPasswordToggle()">
+                        <div class="center pr-5 us-none"
+                             @click="showPasswordToggle()">
                             <eye class="icon-32" v-if="!showPassword"/>
                             <eye-slashed class="icon-32" v-if="showPassword"/>
                         </div>
