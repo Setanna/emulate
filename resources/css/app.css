@@ -343,9 +343,22 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
     font-size: 32px;
     font-weight: 700;
     z-index: 3;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 2px;
+    border-color: var(--text-color);
+    border-style: solid;
 }
 
-.navbar-hover:hover {
+.navbar-option {
+    width: 100%;
+    font-size: 32px;
+    font-weight: 700;
+    z-index: 3;
+}
+
+.navbar-option:hover {
     background-color: var(--tertiary-color);
 }
 
@@ -659,6 +672,14 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
 }
 
 /* Size */
+.w-80 {
+    width: 80% !important;
+}
+
+.w-90 {
+    width: 90% !important;
+}
+
 .w-100 {
     width: 100% !important;
 }
