@@ -18,11 +18,13 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        function Role($name) {
+        function Role($name)
+        {
             $Model = new \App\Models\Role();
             $Model->name = $name;
             $Model->save();
         }
+
         Role("user");
         Role("moderator");
         Role("admin");
@@ -40,6 +42,7 @@ class DatabaseSeeder extends Seeder
             $Model->save();
             error_log($Model->createToken('authToken', ['change password', 'change email', 'password reset', 'create', 'read', 'update', 'destroy'])->plainTextToken);
         }
+
         AdminUser("admin", "admin@gmail.com", 'password');
 
         function User($username, $email, $password): void
@@ -63,10 +66,9 @@ class DatabaseSeeder extends Seeder
             $Model->save();
         }
 
-        Genre("Fantasy", "Generic fantasy ttrpg with dragons and orcs galore.");
-        Genre("Sci-Fi", "Generic sci-fi ttrpg with spaceships and aliens galore");
-        Genre("Apocalypse", "Generic apocalypse ttrpg with factions and moral dilemmas galore");
-        Genre("Superhero", "Generic superhero ttrpg with sidekicks and villains galore");
+        Genre("Fantasy", "Generic fantasy ttrpg with dragons, orcs and loot galore.");
+        Genre("Sci-Fi", "Generic sci-fi ttrpg with spaceships, xenos and tech galore");
+        Genre("Superhero", "Generic superhero ttrpg with sidekicks, villains and banter galore");
 
         function Book($name, $description, $genre_id, $publication_date)
         {
@@ -86,6 +88,8 @@ class DatabaseSeeder extends Seeder
         Book("The Shadows of Death", "A book for a generic fantasy system filled with undead minions and necrotic spells", 1, "2023/11/10");
         /* Sci-fi */
         Book("Core Rulebook", "The core rulebook for a generic sci-fi system", 2, "2023/11/10");
+        /* Superhero */
+        Book("Core Rulebook", "The core rulebook for a generic superhero system", 3, "2023/11/10");
 
         function Talent($name, $experience_cost, $description, $system, $book_id)
         {
@@ -113,6 +117,8 @@ class DatabaseSeeder extends Seeder
         Talent("Condescending Teamwork", 5, "Your belief that you're better than everyone else allows you to pull others to your level.", "Your allies count as minion for talents with the minion trait.", 1);
         /* Sci-fi */
         Talent("Xenophobic", -1, "You're xenophobic", "system", 6);
+        /* Superhero */
+        Talent("Let Loose", 10, "You're always holding back", "Double your physical stats in dire situations", 7);
 
         /* Sync talents with required talent relations */
         Talent::find(5)->required_talents()->sync([4]);
@@ -132,10 +138,12 @@ class DatabaseSeeder extends Seeder
         Requirement("Verbal", "A talent with this requirement needs words or sound spoken or played on an instrument.");
         Requirement("Somatic", "A talent with this requirement needs both hands free, or wielding the specified equipment");
         Requirement("Material", "A talent with this requirement needs some sort of material to be used. The material is consumed only if the talent states so");
+        Requirement("Good", "A talent with this requirement needs the user to be a good person");
 
         /* Sync talents with requirements relations */
         Talent::find(3)->talent_requirements()->sync([1]);
-        Talent::find(9)->talent_requirements()->sync([1,2,3]);
+        Talent::find(9)->talent_requirements()->sync([1, 2, 3]);
+        Talent::find(14)->talent_requirements()->sync([4]);
 
         function Category($name, $description, $system)
         {
@@ -145,6 +153,7 @@ class DatabaseSeeder extends Seeder
             $Model->system = $system;
             $Model->save();
         }
+
         Category("Combat", "A talent that deals or reduces damage.", "system");
         Category("Movement", "A talent that includes movement or that moves another target", "system");
         Category("Augment", "A talent that alters another talent, either buffing, debuffing or changing how it works", "system");
@@ -156,17 +165,18 @@ class DatabaseSeeder extends Seeder
         /* Sync talents with category relations */
         Talent::find(1)->talent_categories()->sync([1]);
         Talent::find(2)->talent_categories()->sync([1]);
-        Talent::find(3)->talent_categories()->sync([1,2]);
+        Talent::find(3)->talent_categories()->sync([1, 2]);
         Talent::find(4)->talent_categories()->sync([1]);
         Talent::find(5)->talent_categories()->sync([1]);
         Talent::find(6)->talent_categories()->sync([1]);
         Talent::find(7)->talent_categories()->sync([4]);
         Talent::find(8)->talent_categories()->sync([4]);
         Talent::find(9)->talent_categories()->sync([4]);
-        Talent::find(10)->talent_categories()->sync([3,4]);
-        Talent::find(11)->talent_categories()->sync([3,4]);
-        Talent::find(12)->talent_categories()->sync([3,5]);
+        Talent::find(10)->talent_categories()->sync([3, 4]);
+        Talent::find(11)->talent_categories()->sync([3, 4]);
+        Talent::find(12)->talent_categories()->sync([3, 5]);
         Talent::find(13)->talent_categories()->sync([6]);
+        Talent::find(14)->talent_categories()->sync([1]);
 
         function TraitModel($name, $description, $system)
         {
@@ -179,7 +189,7 @@ class DatabaseSeeder extends Seeder
 
         TraitModel("Magic", "A talent that involves the use of magic.", "Talents with the magic trait don't work in no magic zones");
         TraitModel("Diverse", "A talent with a wide array of options to choose from.", "Talents with the Diverse trait can be taken any number of times, but any option chosen from the talent can only be chosen once.");
-        TraitModel("Heritage", "A talent that gives you power through your bloodline. ","system");
+        TraitModel("Heritage", "A talent that gives you power through your bloodline. ", "system");
         TraitModel("Minion", "A talent that grants control over a minion, such as a pet or undead, or involves a minion", "Talents with the minion trait only work on minions or create minions");
 
         /* Sync talents with trait relations */
@@ -188,9 +198,9 @@ class DatabaseSeeder extends Seeder
         Talent::find(6)->talent_traits()->sync([3]);
         Talent::find(7)->talent_traits()->sync([2]);
         Talent::find(8)->talent_traits()->sync([2]);
-        Talent::find(9)->talent_traits()->sync([1,4]);
-        Talent::find(10)->talent_traits()->sync([1,4]);
-        Talent::find(11)->talent_traits()->sync([1,4]);
+        Talent::find(9)->talent_traits()->sync([1, 4]);
+        Talent::find(10)->talent_traits()->sync([1, 4]);
+        Talent::find(11)->talent_traits()->sync([1, 4]);
         Talent::find(12)->talent_traits()->sync([4]);
 
         function Rule($name, $text, $book_id)
