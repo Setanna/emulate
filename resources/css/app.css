@@ -269,6 +269,12 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
     margin: 20px;
 }
 
+.talent-search {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+
 .talent-table {
     border-radius: 5px;
     border-collapse: collapse;
@@ -595,13 +601,13 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
     color: var(--text-color);
 }
 
-/* row & columns */
+/* Row & Columns */
 .row {
     display: flex;
     flex-direction: row;
 }
 
-/* border */
+/* Border */
 .b-2 {
     border-width: 2px !important;
     border-style: solid !important;
@@ -720,6 +726,7 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
 
 /* Search */
 .search {
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     width: 100%;

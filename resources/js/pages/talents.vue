@@ -4,7 +4,7 @@
 
         <!-- Search -->
         <div class="pb-20">
-            <div class="background-tertiary b-2 r-5 search">
+            <div class="background-tertiary b-2 r-5 talent-search">
                 <input class="background-tertiary title-input p-10 pt-20 pb-20" placeholder="Enter search query">
 
                 <div class="clickable center pr-5">
