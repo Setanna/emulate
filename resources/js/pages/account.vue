@@ -2,7 +2,7 @@
 <template>
     <div class="account">
         <!-- Login -->
-        <div v-if="user === null">
+        <div v-if="user === null" style="max-height: 100%; overflow: auto">
             <form @submit.prevent="authorize" class="d-flex flex-column" id="form">
                 <div>
                     <a class="sub-title">Username</a> <br>
@@ -51,7 +51,7 @@
                 <button type="submit" class="button m-4"> {{ register ? "Sign Up" : "Login" }}</button>
             </form>
             <button class="button" @click="loginSignUpToggle()">
-                {{ register ? "Already have an account? Login!" : "Don't have an account? Sign up!" }}
+                {{ register ? "Already have an account?  Login!" : "Don't have an account? Sign up!" }}
             </button>
         </div>
 

@@ -6,27 +6,49 @@ const router = createRouter({
         {
             name: 'home',
             path: '/',
-            component: () => import('./pages/genres.vue')
+            component: () => import('./pages/genre/genres.vue')
         },
         {
             name: 'genres',
             path: '/:genre',
-            component: () => import('./pages/genre.vue')
+            component: () => import('./pages/genre/genre.vue')
         },
         {
-            name: 'talents',
+            name: 'workshop',
+            path: '/:genre/workshop',
+            component: () => import('./pages/workshop.vue'),
+        },
+        {
             path: '/:genre/talents',
-            component: () => import('./pages/talents.vue')
+            component: () => import('./pages/talent/talents.vue'),
+            children: [
+                {name: 'talents', path: '', component: () => import('./components/talent/view_talents.vue')},
+                {
+                    path: ':id', component: () => import('./pages/talent/talent.vue'),
+                    children: [
+                        {name: 'talent', path: '', component: () => import('./components/talent/view_talent.vue')},
+                        {
+                            name: 'edit_talent',
+                            path: 'edit',
+                            component: () => import('./components/talent/edit_talent.vue')
+                        }
+                    ]
+                }
+            ]
+
         },
         {
-            name: 'talent',
-            path: '/:genre/talents/:id',
-            component: () => import('./pages/talent.vue')
-        },
-        {
-            name: 'races',
             path: '/:genre/races',
-            component: () => import('./pages/races.vue')
+            component: () => import('./pages/race/races.vue'),
+            children: [
+                {name: 'races', path: '', component: () => import('./components/race/view_races.vue')},
+                {
+                    path: ':id', component: () => import('./pages/race/race.vue'),
+                    children: [
+                        {name: 'race', path: '', component: () => import('./components/race/view_race.vue')}
+                    ]
+                }
+            ]
         },
         {
             name: 'account',

@@ -261,28 +261,23 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
     color: var(--dark-text-color) !important;
 }
 
-/* Talent */
-.talents {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.talent-search {
+/* Table */
+.table-search {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
 }
 
-.talent-table {
+.table {
+    display: inline-block;
+    overflow-y: scroll;
     height: 100%;
-    width: 100%;
     border-radius: 5px;
     border-collapse: collapse;
     text-align: left;
 }
 
-.talent-table > thead > tr > th
+.table > thead > tr > th
 {
     padding-right: 10px;
     padding-left: 10px;
@@ -292,7 +287,7 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
     border-style: solid;
 }
 
-.talent-table > tbody > tr > td
+.table > tbody > tr > td
 {
     padding-right: 10px;
     padding-left: 10px;
@@ -318,6 +313,14 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
 
 .component * {
     color: var(--dark-text-color);
+}
+
+.subcomponent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 /* Navbar */
@@ -534,6 +537,7 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
 }
 
 .button {
+    box-sizing: border-box;
     width: 100%;
     background-color: var(--tertiary-color);
     color: var(--text-color);
@@ -541,8 +545,10 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
     font-weight: bold;
     border: none;
     border-radius: 5px;
-    padding: 4px;
-    margin: 2px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 .button:hover {
@@ -585,7 +591,6 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 10px;
     overflow: hidden;
 }
 
@@ -665,12 +670,20 @@ h1, h2, h3, h4, h5, h6, p, a, b, th, tbody {
     padding: 10px !important;
 }
 
+.pt-10 {
+    padding-top: 10px !important;
+}
+
 .pr-10 {
     padding-right: 10px !important;
 }
 
 .pl-10 {
     padding-left: 10px !important;
+}
+
+.pb-10 {
+    padding-bottom: 10px !important;
 }
 
 .pb-20 {

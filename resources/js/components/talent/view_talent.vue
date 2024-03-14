@@ -1,10 +1,10 @@
 <!-- view_talent.vue -->
 <template>
-    <div v-if="talent">
+    <div class="subcomponent" v-if="talent.id">
         <!-- Name & Cost -->
         <div v-if="talent.name" class="background-tertiary title-card title">
             <p style="padding-left: 5px;"> {{ talent.name }}</p>
-            <div class="clickable" style="padding-left: 5px; display: flex; align-items: center" v-if="update"
+            <div class="clickable" style="padding-left: 5px; display: flex; align-items: center" v-if="abilities.update"
                  @click="editTalent()">
                 <edit-icon/>
             </div>
@@ -41,7 +41,7 @@
                       v-for="(required_talent, index) in talent['required_talents']">
                 <template v-if="index < 1">&nbsp;</template>
                 <template v-if="index > 0">, &nbsp;</template>
-                <p> {{ required_talent.name }} </p>
+                <router-link :to="{name: 'talent', params: {id: required_talent.id, genre: this.genre}}" class="no-text-link"> {{ required_talent.name }} </router-link>
             </template>
         </div>
 
@@ -78,43 +78,18 @@
 </template>
 
 <script>
-import axios from 'axios';
-import editIcon from '../icons/edit.vue';
+import editIcon from '../../icons/edit.vue';
 
 export default {
-    props: ['genre', 'edit', 'talent'],
-    emit: ['update:edit'],
-    data() {
-        return {
-            /* user */
-            user: window.Laravel.user,
-            update: null
-        }
-    },
+    props: ['genre', 'talent', 'abilities'],
     methods: {
         editTalent: function () {
-            this.$emit('update:edit', true);
-        },
-        checkAbility: function (ability) {
-            axios.get('/api/auth/ability/' + ability,).then(response => {
-                this.update = response.data;
-            })
-                .catch(error => {
-                    console.log(error)
-                })
+            this.$router.push({name: 'edit_talent', params: {id: this.talent.id, genre: this.genre}})
         }
     },
     components: {
         editIcon
-    },
-    watch: {
-        user: {
-            handler(user) {
-                this.checkAbility("update");
-            },
-            immediate: true
-        }
-    },
+    }
 }
 </script>
 

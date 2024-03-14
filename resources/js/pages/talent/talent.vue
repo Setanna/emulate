@@ -1,44 +1,24 @@
 <!-- talent.vue -->
 <template>
-    <div>
-        <!-- View Talent -->
-        <template v-if="!edit">
-            <view_talent v-model:edit="edit" :genre="genre" :talent="talent"/>
-        </template>
-
-        <!-- Edit Talent -->
-        <template v-if="edit">
-            <edit_talent v-model:edit="edit" :genre="genre" :talent="talent"/>
-        </template>
-    </div>
+    <router-view :genre="genre" :talent="talent" v-if="talent.id"/>
 </template>
 
 <script>
-import view_talent from "../components/view_talent.vue";
-import edit_talent from "../components/edit_talent.vue";
 import axios from "axios";
 
 export default {
-    props: {
-        genre: String
-    },
+    props: ['genre'],
     data() {
         return {
             /* variables */
-            edit: false,
             talent: null
         }
-    },
-    components: {
-        view_talent,
-        edit_talent
     },
     watch: {
         '$route.params.id': {
             handler(id) {
                 // Remove the old talent & make edit false
                 this.talent = {};
-                this.edit = false;
 
                 // fetch new genre when parameter id is changed
                 if (id !== undefined && this.genre !== undefined) {

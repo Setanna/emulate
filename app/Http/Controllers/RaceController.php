@@ -101,4 +101,32 @@ class RaceController extends Controller
         // return the array with the talent resource
         return RaceResource::collection($races);
     }
+
+    /**
+     * Display race by genre name and talent id.
+     */
+    public function getRaceByGenre($genre_input, Race $race)
+    {
+        // Make new genre controller
+        $genre_controller = new GenreController;
+
+        // Get genres using genre controller function showName
+        $genre = $genre_controller->showName($genre_input);
+
+        // Check if there is no error, else return genre response.
+        if ($genre->getStatusCode() !== 200) {
+            return $race;
+        }
+
+        // Get the book id the talent is in
+        $book_id = [$race->book_id];
+
+        // Get the genre_id of the book
+        $genre_id = Book::whereIn('id', $book_id)->get()->pluck('genre_id');
+
+        if ($genre_id[0] === $genre->getData()->id) {
+            return new RaceResource($race);
+        }
+        return response()->json(['message' => 'could not find race in given genre'], 404);
+    }
 }

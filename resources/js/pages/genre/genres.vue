@@ -29,14 +29,13 @@ export default {
     },
     methods: {
         getImageUrl: function (image_name) {
-            return new URL('../../assets/images/' + image_name + ".jpg", import.meta.url).href;
+            return new URL('../../../assets/images/' + image_name + ".jpg", import.meta.url).href;
         },
         getAltImageUrl: function (event) {
-            event.target.src = new URL('../../assets/images/unavailable.jpg', import.meta.url).href;
+            event.target.src = new URL('../../../assets/images/unavailable.jpg', import.meta.url).href;
         },
         chooseGenre: function (genre) {
             this.genre = genre;
-            this.intro = false;
         },
         fetchGenres: function () {
             // Make the api call

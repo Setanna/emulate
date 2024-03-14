@@ -1,24 +1,26 @@
 <!-- edit_talent.vue -->
 <template>
-    <div>
+    <form class="subcomponent" @submit.prevent="editTalent" id="form" v-if="talent.id">
+
         <!-- Name & Cost -->
         <div class="background-tertiary title-card title">
-            <div style="padding-left: 5px;">
-                <input type="text" placeholder="Name" class="background-tertiary title-input text-dark" v-model="name"/>
+            <div v-if="talent.name" style="padding-left: 5px;">
+                <input type="text" placeholder="Name" class="background-tertiary title-input text-dark" v-model="name" required/>
             </div>
 
-            <div style="margin-left:auto; margin-right:0; padding-right: 5px;">
+            <div v-if="talent.experience_cost" style="margin-left:auto; margin-right:0; padding-right: 5px;">
                 <input type="number" min="-99" max="99" step="1" placeholder="0" v-model="experience_cost"
                        @keypress="isNumber($event)" class="background-tertiary  title-input text-dark"
-                       style="width: 50px; text-align: end"/>
+                       style="width: 50px; text-align: end" required/>
                 XP
             </div>
         </div>
 
         <!-- Categories & Books -->
-        <div class="categories sub-title">
+        <div v-if="talent" class="categories sub-title">
             <!-- Categories -->
-            <p class="background-tertiary  category-card clickable" @click="deleteCategory(index)"
+            <p v-if="talent.categories" class="background-tertiary  category-card clickable"
+               @click="deleteCategory(index)"
                v-for="(category, index) in categories">
                 {{ category.name }}</p>
             <p class="background-tertiary category-card clickable"
@@ -26,18 +28,19 @@
                @click="showCategory = true"> + </p>
 
             <!-- Book -->
-            <div style="margin-left:auto; margin-right:0; position:relative; display: flex; justify-content: center; align-items: center; width: 50%">
+            <div v-if="talent.book"
+                 style="margin-left:auto; margin-right:0; position:relative; display: flex; justify-content: center; align-items: center; width: 50%">
                 <p style="align-self: center">Book: &nbsp;</p>
                 <multiselect
                     v-model="book"
                     :options="book_options"
                     :object="true"
-                    :searchable="true"/>
+                    :searchable="true" required/>
             </div>
         </div>
 
         <!-- Requirements -->
-        <div style="display:flex">
+        <div v-if="talent.requirements" style="display:flex" class="pt-10">
             <b style="align-self: center">Requirements: &nbsp;</b>
             <multiselect
                 v-model="requirements"
@@ -50,7 +53,7 @@
         <br>
 
         <!-- Required Talents -->
-        <div style="display:flex;">
+        <div v-if="talent.required_talents" style="display:flex;" class="pt-10">
             <b style="align-self: center">Required talents: &nbsp;</b>
             <multiselect
                 v-model="required_talents"
@@ -61,21 +64,21 @@
         </div>
 
         <!-- description -->
-        <div>
+        <div v-if="talent.description" class="pb-10">
             <hr>
             <p style="font-weight: bold">Description:</p>
             <editor name="description" v-model="description"/>
         </div>
 
         <!-- System -->
-        <div>
+        <div v-if="talent.system" class="pb-10">
             <hr>
             <p style="font-weight: bold">System:</p>
             <editor name="system" v-model="system"/>
         </div>
 
         <!-- Traits -->
-        <div style="padding-top: 6px">
+        <div v-if="talent.traits" style="padding-top: 6px">
             <div class="background-tertiary title-card sub-title">
                 <p style="padding-left: 5px;"> Traits </p>
             </div>
@@ -99,33 +102,34 @@
 
         <div style="display: flex; justify-content: center; padding-top: 20px;">
             <button class="background-tertiary clean-button clickable" @click="editTalent()">Save</button>
-            <button class="background-tertiary clean-button clickable" @click="this.$emit('update:edit', false)">
-                Discard
-            </button>
+            <router-link :to="{name: 'talent', params: {id: talent.id, genre: this.genre}}">
+                <button class="background-tertiary clean-button clickable">
+                    Discard
+                </button>
+            </router-link>
         </div>
-    </div>
 
-    <!-- Modals -->
-    <Teleport to="body">
-        <category-modal v-model:showCategory="showCategory" :categories="categories"
-                        @update:categories="(modalCategories) => this.categories = modalCategories"/>
-        <trait-modal v-model:showTrait="showTrait" :traits="traits"
-                     @update:traits="(modalTraits) => this.traits = modalTraits"/>
-    </Teleport>
+        <!-- Modals -->
+        <Teleport to="body">
+            <category-modal v-model:showCategory="showCategory" :categories="categories"
+                            @update:categories="(modalCategories) => this.categories = modalCategories"/>
+            <trait-modal v-model:showTrait="showTrait" :traits="traits"
+                         @update:traits="(modalTraits) => this.traits = modalTraits"/>
+        </Teleport>
+    </form>
 </template>
 
-<style src="@vueform/multiselect/themes/default.css"></style>
+<style src="../../../../node_modules/@vueform/multiselect/themes/default.css"></style>
 
 <script>
 import axios from 'axios';
-import editor from '../components/editor.vue';
-import categoryModal from '../modals/category.vue';
-import traitModal from '../modals/trait.vue';
+import editor from '../editor.vue';
+import categoryModal from '../../modals/category.vue';
+import traitModal from '../../modals/trait.vue';
 import Multiselect from '@vueform/multiselect'
 
 export default {
-    props: ['genre', 'edit', 'talent'],
-    emit: ['update:edit'],
+    props: ['genre', 'talent'],
     data() {
         return {
             /* talent variables */
@@ -197,7 +201,7 @@ export default {
 
             // Update the talent itself
             axios.put('/api/talent/' + this.talent.id, {talent: talent}).then(() => {
-                this.$router.go(0);
+                this.$router.push({name: 'talent', params: {id: this.talent.id, genre: this.genre}})
             })
                 .catch(error => {
                     console.log("error: " + error)
@@ -274,7 +278,7 @@ export default {
         deleteTrait: function (index) {
             this.traits.splice(index, 1);
         }
-    }
+    },
 }
 </script>
 

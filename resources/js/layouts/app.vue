@@ -21,13 +21,18 @@
                             <a class="m-5">Search</a>
                         </router-link>
 
+                        <!-- Workshop -->
+                        <router-link v-if="abilities.create" :to="{ name: 'workshop' }" class="no-text-link navbar-option" :class="{'background-primary': $route.path.includes('workshop') && !search_state,}">
+                            <a class="m-5" :class="{'text-dark': $route.path.includes('workshop') && !search_state}">Workshop</a>
+                        </router-link>
+
                         <!-- Genre options -->
                         <router-link v-for="option in options" :to="{ name: option }"
                                      class="no-text-link navbar-option capitalize"
-                                     :class="{'background-primary': option === $route.name && !search_state,}">
-                            <a class="m-5" :class="{'text-dark': option === $route.name && !search_state}">{{
-                                    option
-                                }} </a>
+                                     :class="{'background-primary': $route.path.includes(option) && !search_state,}">
+                            <a class="m-5" :class="{'text-dark': $route.path.includes(option) && !search_state}">
+                                {{ option }}
+                            </a>
                         </router-link>
                     </div>
                 </transition>
@@ -76,7 +81,7 @@
         </div>
 
         <!-- Component -->
-        <router-view v-slot="{ Component }" :genre="genre">
+        <router-view v-slot="{ Component }" :genre="genre" :abilities="abilities" :options="options">
             <div class="component">
                 <keep-alive>
                     <component :is="Component"></component>
@@ -146,7 +151,14 @@ export default {
             showFilter: false,
             showSort: false,
             search_state: false,
-            searchFocus: false
+            searchFocus: false,
+            /* user */
+            user: window.Laravel.user,
+            abilities: {
+                create: false,
+                update: false,
+                delete: false
+            }
         }
     },
     components: {
@@ -188,6 +200,14 @@ export default {
                     })
             }
         },
+        checkAbility: function (ability) {
+            axios.get('/api/auth/ability/' + ability,).then(response => {
+                this.abilities[ability] = response.data;
+            })
+                .catch(error => {
+                    console.log(error)
+                })
+        }
     },
     watch: {
         '$route.params.genre': {
@@ -229,6 +249,14 @@ export default {
             },
             immediate: true,
             deep: true
+        },
+        user: {
+            handler() {
+                this.checkAbility("create");
+                this.checkAbility("update");
+                this.checkAbility("delete");
+            },
+            immediate: true
         }
     },
 }
