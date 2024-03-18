@@ -204,9 +204,6 @@ export default {
             axios.get('/api/auth/ability/' + ability,).then(response => {
                 this.abilities[ability] = response.data;
             })
-                .catch(error => {
-                    console.log(error)
-                })
         }
     },
     watch: {
