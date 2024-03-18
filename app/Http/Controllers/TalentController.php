@@ -10,9 +10,11 @@ use App\Models\Genre;
 use App\Http\Resources\GenreResource;
 use App\Models\Talent;
 use http\Exception;
+use Illuminate\Auth\AuthenticationException;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Validation\ValidationException;
+use Laravel\Sanctum\Exceptions\MissingAbilityException;
 use function Clue\StreamFilter\remove;
 
 class TalentController extends Controller
@@ -90,10 +92,10 @@ class TalentController extends Controller
             ]
         );
 
-        if($request->filled('talent.categories') ||
-           $request->filled('talent.requirements') ||
-           $request->filled('talent.required_talents' ||
-           $request->filled('talent.traits'))) {
+        if ($request->filled('talent.categories') ||
+            $request->filled('talent.requirements') ||
+            $request->filled('talent.required_talents' ||
+                $request->filled('talent.traits'))) {
             $this->updateRelations($request, $talent);
         }
 

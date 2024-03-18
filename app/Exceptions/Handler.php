@@ -74,7 +74,7 @@ class Handler extends ExceptionHandler
         if ($e instanceof AuthorizationException) {
             return response()->json([
                 'message' => 'Unauthorized'
-            ],401);
+            ],403);
         }
 
         return parent::render($request, $e);

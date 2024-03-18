@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\UserRequest;
 use App\Models\User;
 use Carbon\Carbon;
+use Illuminate\Auth\AuthenticationException;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
@@ -60,6 +61,9 @@ class AuthController extends Controller
     public function logout(Request $request)
     {
         if(auth('sanctum')->check() ) {
+            /* Delete users tokens */
+            $request->user()->tokens()->delete();
+
             return Auth::logout();
         }else {
             return response()->json([
@@ -88,9 +92,9 @@ class AuthController extends Controller
                 false
             );
         } else {
-            return response()->json([
-                'Unauthenticated',
-            ], 403);
+            return response()->json(
+                false
+            );
         }
     }
 }
