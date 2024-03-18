@@ -13,18 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// TODO: make not found page return 404 page instead of throwing too much recursion error.
 Route::get('/{any}', function () {
     return view('./vue');
 })->where('any', '.*');
 
-/*
-Route::get('/{vue_capture?}', function() {
-    return view('welcome');
-})->where('vue_capture', '[\/\w\.-]*');
-*/
-/*
-Route::get('/', function () {
-    return view('welcome');
-});
-*/

@@ -3,6 +3,7 @@
 namespace App\Exceptions;
 
 use Illuminate\Auth\Access\AuthorizationException;
+use Illuminate\Auth\AuthenticationException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Database\QueryException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
@@ -61,7 +62,13 @@ class Handler extends ExceptionHandler
         if($e instanceof MissingAbilityException) {
             $ability = $e->abilities()[0];
             error_log($e);
-            return response(['error' => 'You are not authorized to ' . $ability], 401);
+            return response(['error' => 'You are not authorized to ' . $ability], 403);
+        }
+
+        if ($e instanceof AuthenticationException) {
+            return response()->json([
+                'message' => 'Unauthenticated'
+            ],401);
         }
 
         if ($e instanceof AuthorizationException) {

@@ -19,6 +19,7 @@ class AuthController extends Controller
         $user = User::create([
             'username' => $request->input('username'),
             'email' => $request->input('email'),
+            'role_id' => 1,
             'password' => Hash::make($request->input('password'))
         ]);
 
@@ -41,7 +42,7 @@ class AuthController extends Controller
         $expirationsDate = Carbon::now()->addHour();
 
         // create abilities based on user role
-        $abilities = match ($user->role) {
+        $abilities = match ($user->role->name) {
             'user' => ['change password', 'change email', 'password reset', 'read'],
             'moderator' => ['change password', 'change email', 'password reset', 'read', 'create', 'read', 'update', 'destroy'],
             'admin' => ['change password', 'change email', 'password reset', 'read', 'create', 'read', 'update', 'destroy', 'update user role'],
@@ -51,22 +52,20 @@ class AuthController extends Controller
         // create token with the given abilities
         $token = $user->createToken('authToken', $abilities, $expirationsDate)->plainTextToken;
 
-        // create session
-        // $request->session()->regenerate();
-
         return response()->json([
-            'access_token' => $token,
-            'token_type' => 'Bearer',
+            'Login information is valid.'
         ]);
     }
 
     public function logout(Request $request)
     {
-        $request->session()->invalidate();
-
-        return $request->wantsJson()
-            ? new JsonResponse([], 204)
-            : redirect('/');
+        if(auth('sanctum')->check() ) {
+            return Auth::logout();
+        }else {
+            return response()->json([
+                'No user logged in.'
+            ]);
+        }
     }
 
     public function checkAbility(Request $request, $ability)

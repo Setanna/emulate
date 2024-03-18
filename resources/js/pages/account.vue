@@ -113,13 +113,16 @@ export default {
                     .catch(error => {
                         if (error.response.data.errors) {
                             if (error.response.data.errors.username) {
-                                console.log("username");
                                 document.getElementById("username").setCustomValidity(error.response.data.errors.username);
                             }
 
                             if (error.response.data.errors.password) {
                                 document.getElementById("password").setCustomValidity(error.response.data.errors.password);
                             }
+                        }
+
+                        if(error.response.data.message) {
+                            document.getElementById("username").setCustomValidity(error.response.data.message);
                         }
 
                         document.getElementById("form").reportValidity();
@@ -130,7 +133,6 @@ export default {
             }
         },
         signUp: function () {
-
             if (this.confirmPassword === this.password) {
                 try {
                     const signUp = {username: this.username, password: this.password, email: this.email}
@@ -140,12 +142,10 @@ export default {
                         .catch(error => {
                             if (error.response.data.errors) {
                                 if (error.response.data.errors.username) {
-                                    console.log("username");
                                     document.getElementById("username").setCustomValidity(error.response.data.errors.username);
                                 }
 
                                 if (error.response.data.errors.email) {
-                                    console.log("email");
                                     document.getElementById("email").setCustomValidity(error.response.data.errors.email);
                                 }
 
