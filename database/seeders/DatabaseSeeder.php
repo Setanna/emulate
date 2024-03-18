@@ -52,6 +52,7 @@ class DatabaseSeeder extends Seeder
             $Model->email = $email;
             $Model->email_verified_at = now();
             $Model->remember_token = Str::random(10);
+            $Model->role_id = 1;
             $Model->password = Hash::make($password);
             $Model->save();
         }
