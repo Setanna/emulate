@@ -1,5 +1,5 @@
 ---
-tags: [content/gear/book]
+tags: []
 cssclass: pathfinder
 ---
 

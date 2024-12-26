@@ -1,5 +1,5 @@
 ---
-tags: [content/gear/weapons]
+tags: []
 cssclass: pathfinder
 ---
 

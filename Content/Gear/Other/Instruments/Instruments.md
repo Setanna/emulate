@@ -1,5 +1,5 @@
 ---
-tags: [content/gear/other/instruments]
+tags: []
 cssclass: pathfinder
 ---
 

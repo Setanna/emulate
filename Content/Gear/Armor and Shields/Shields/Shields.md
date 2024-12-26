@@ -1,5 +1,5 @@
 ---
-tags: [content/gear/shields]
+tags: []
 cssclass: pathfinder
 ---
 

@@ -1,5 +1,5 @@
 ---
-tags: [character-creation/traits/flaw]
+tags: []
 cssclass: pathfinder
 ---
 

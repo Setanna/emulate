@@ -1,5 +1,5 @@
 ---
-tags: [character-creation/traits/merit, character-creation/traits/sight]
+tags: []
 cssclass: pathfinder
 ---
 

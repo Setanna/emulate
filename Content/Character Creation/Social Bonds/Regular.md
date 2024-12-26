@@ -1,5 +1,5 @@
 ---
-tags: [character-creation/social-bonds/wealth]
+tags: []
 cssclass: pathfinder  
 ---
 

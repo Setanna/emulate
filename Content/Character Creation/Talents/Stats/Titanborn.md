@@ -1,5 +1,5 @@
 ---
-tags: [content/talents/stats]
+tags: []
 cssclass: pathfinder  
 ---
 

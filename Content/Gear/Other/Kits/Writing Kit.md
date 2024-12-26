@@ -1,5 +1,5 @@
 ---
-tags: [content/gear/other/kits]
+tags: []
 cssclass: pathfinder
 ---
 

@@ -1,5 +1,5 @@
 ---
-tags: [character-creation/backgrounds/wealth]
+tags: []
 cssclass: pathfinder
 ---
 

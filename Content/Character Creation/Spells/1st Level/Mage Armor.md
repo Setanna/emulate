@@ -1,5 +1,5 @@
 ---
-tags: [character-creation/spells]
+tags: []
 cssclass: pathfinder  
 ---
 

@@ -1,5 +1,5 @@
 ---
-tags: [content/talents/racial]
+tags: []
 cssclass: pathfinder  
 ---
 

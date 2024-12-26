@@ -1,5 +1,5 @@
 ---
-tags: [content/gear/other/clothes]
+tags: []
 cssclass: pathfinder
 ---
 

@@ -1,9 +1,11 @@
 ---
-tags: [character-creation/backgrounds/wealth]
+tags: []
 cssclass: pathfinder
 ---
 
 <h1> Commander <span style="margin-left: auto;">3 XP</span> </h1>
+
+[[Morale]]{.trait}
 
 [[Wealth]]{.trait}
 
