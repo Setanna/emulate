@@ -18,4 +18,4 @@ ___
 <br>
 
 **System:**
-You increase the Morale Penalty from the [[Pretty]] Trait to -3.
+You increase the Morale Penalty from the [[Ugly]] Trait to -3.
