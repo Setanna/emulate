@@ -1,5 +1,5 @@
 ---
-tags: [character-creation/backgrounds/social, character-creation/backgrounds/wealth]
+tags: [character-creation/backgrounds/wealth]
 cssclass: pathfinder
 ---
 
@@ -15,4 +15,4 @@ ___
 <br>
 
 **System:**
-You start with [[Clothes | Common Clothes]] and 10 Silver Coins worth of [[Content/Gear/Armor and Shields/Armor/Armor|Armor]], [[Content/Gear/Armor and Shields/Shields/Shields|Shields]] and [[Content/Gear/Weapons/Weapons|Weapons]], you keep any leftover coins. Additionally you gain the [[Rally]] Action.
+You start with [[Clothes | Common Clothes]] and 10 Silver Coins worth of [[Content/Gear/Armor and Shields/Armor/Armor|Armor]], [[Content/Gear/Armor and Shields/Shields/Shields|Shields]] and [[Content/Gear/Weapons/Weapons|Weapons]]. Additionally you gain the [[Rally]] Action.
