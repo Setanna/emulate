@@ -7,6 +7,7 @@ kanban-plugin: board
 ## To-Do
 
 - [ ] **Races**
+	 - [ ] Age
 	 - [ ] [[Human]]
 	 - [ ] [[Medusa]]
 	 - [ ] [[Resonants]]

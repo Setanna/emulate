@@ -5,6 +5,8 @@ cssclass: pathfinder
 
 <h1> Pretty <span style="margin-left: auto;">1 XP</span> </h1>
 
+[[Emotion]]{.trait}
+
 [[Sight]]{.trait}
 
 [[Merit]]{.trait}

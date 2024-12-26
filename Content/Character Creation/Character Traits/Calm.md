@@ -11,7 +11,6 @@ cssclass: pathfinder
  
 <div style="clear:both" /> 
 
-**Requirements:** You don't have a Character Trait with the [[Emotion]] Trait.
 ___
 *A serene demeanor surrounds you, making it difficult for others to disturb your calm.*
 
