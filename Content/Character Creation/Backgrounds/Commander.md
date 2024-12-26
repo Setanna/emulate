@@ -3,17 +3,12 @@ tags: [character-creation/backgrounds/social, character-creation/backgrounds/wea
 cssclass: pathfinder
 ---
 
-<h1> Commander <span style="margin-left: auto;">8 XP</span> </h1>
+<h1> Commander <span style="margin-left: auto;">3 XP</span> </h1>
 
 <div> 
 <div style="display:inline-block; float:left;">
 
 #### [[Wealth]]{.trait}
-
-</div>
-<div style="display:inline-block; float:left;">
-
-#### [[Social]]{.trait}
 
 </div>
 <div style="clear:both" /> 
@@ -24,4 +19,4 @@ ___
 <br>
 
 **System:**
-You start with 10 Gold Coins worth of [[Rules/Gear/Armor]], [[Rules/Gear/Shields]] and [[Content/Gear/Weapons/Weapons]]. Additionally you gain the [[Rally]] Action.
+You start with 10 Silver Coins worth of [[Content/Gear/Armor and Shields/Armor/Armor|Armor]], [[Content/Gear/Armor and Shields/Shields/Shields|Shields]] and [[Content/Gear/Weapons/Weapons|Weapons]], you keep any leftover coins. Additionally you gain the [[Rally]] Action.

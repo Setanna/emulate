@@ -18,10 +18,12 @@ cssclass: pathfinder
 </div>
 <div style="clear:both" /> 
 
+**Requirements:** Strength +2
+
 ___
-*You've spent more time in the mines than you have in a bed. .*
+*You've spent more time in the mines than you have in a bed.*
 
 <br>
 
 **System:**
-You start with 750 Copper Coins, [[Common Clothes]] and a +1 Proficiency Bonus to damage rolls with a [[Pickaxe]].
+You start with 500 Copper Coins, a [[Content/Gear/Weapons/Weapons | Pickaxe]], [[Common Clothes]] and gain a +1 Proficiency Bonus to damage rolls with a [[Pickaxe]].

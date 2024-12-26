@@ -11,11 +11,6 @@ cssclass: pathfinder
 #### [[Wealth]]{.trait}
 
 </div>
-<div style="display:inline-block; float:left;">
-
-#### [[Social]]{.trait}
-
-</div>
 <div style="clear:both" /> 
 
 ___
