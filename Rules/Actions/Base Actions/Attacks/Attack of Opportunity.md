@@ -1,0 +1,18 @@
+---
+tags: [content/actions/base/attacks]
+cssclass: pathfinder
+---
+
+<h1> Attack of Opportunity <span style="margin-left: auto;">Reaction</span> </h1>
+
+<div> 
+<div style="display:inline-block; float: left;"> 
+
+#### [[Attack]]{.trait}
+
+</div> 
+<div style="clear:both" /> 
+
+___
+**System:**
+You take an Attack Action against the creature that provoked the Attack of Opportunity. When making an Attack of Opportunity you can only take the [[Swing for the Fences]] Attack Action.

@@ -1,0 +1,65 @@
+/*------ VARIABLES ------*/
+:root {
+    --border-radius: 3px;
+    --title-padding: 4px 9px;
+    --head-bg: #404859;
+    --head-fg: #cbc5c3;
+    --mid-bg: #404859;
+    --mid-fg: #21252b;
+    --font-variant: small-caps;
+}
+
+/*------ HEADERS ------*/
+.pathfinder {}
+
+.pathfinder h1 {
+    margin-top: 30px !important;
+    margin-bottom: 0 !important;
+    margin-left: -2px;
+    display: flex;
+    color: var(--head-fg);
+    background-color: var(--head-bg);
+    padding: var(--title-padding);
+    min-height: 26px;
+    line-height: 1em;
+    border-radius: var(--border-radius);
+    vertical-align: middle;
+}
+
+.pathfinder h2 {
+    display: flex;
+    margin-top: 30px !important;
+    margin-bottom: 10px !important;
+    margin-left: -2px;
+    color: var(--head-fg) !important;
+    background-color: var(--mid-bg) !important;
+    font-variant: var(--font-variant) !important;
+    padding: var(--title-padding);
+    line-height: 1em;
+    border-radius: var(--border-radius);
+    vertical-align: middle;
+}
+
+/*------ PARAGRAPHS ------*/
+.pathfinder p {
+    margin: 5px !important;
+}
+
+/*------ SPANS ------*/
+.span.action {
+    font-family: ActionIcons;
+    font-weight: normal;
+    font-variant: normal;
+}
+
+/*------ IMAGES ------*/
+img.thumbnail {
+    background: var(--bg-main);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    float: right;
+    clear: both;
+    padding: 5px;
+    width: 150px;
+}
+

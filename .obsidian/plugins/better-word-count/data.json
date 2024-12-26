@@ -1,0 +1,51 @@
+{
+  "statusBar": [
+    {
+      "prefix": " ",
+      "suffix": " characters",
+      "metric": {
+        "type": 0,
+        "counter": 1
+      }
+    },
+    {
+      "prefix": "",
+      "suffix": " words",
+      "metric": {
+        "type": 0,
+        "counter": 0
+      }
+    }
+  ],
+  "altBar": [
+    {
+      "prefix": " ",
+      "suffix": " characters",
+      "metric": {
+        "type": 2,
+        "counter": 1
+      }
+    },
+    {
+      "prefix": " ",
+      "suffix": " notes",
+      "metric": {
+        "type": 2,
+        "counter": 6
+      }
+    },
+    {
+      "prefix": " ",
+      "suffix": " words",
+      "metric": {
+        "type": 2,
+        "counter": 0
+      }
+    }
+  ],
+  "countComments": true,
+  "collectStats": false,
+  "displaySectionCounts": false,
+  "pageWords": 500,
+  "statsPath": ".obsidian/vault-stats.json"
+}

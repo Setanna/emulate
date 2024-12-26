@@ -1,0 +1,10 @@
+{
+  "snippet-commands-obsidian:snippet-command-reload-all-snippets": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Y"
+    }
+  ]
+}

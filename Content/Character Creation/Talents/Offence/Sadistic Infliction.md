@@ -1,0 +1,22 @@
+---
+tags: [content/talents/offence]
+cssclass: pathfinder  
+---
+
+<h1> Sadistic Infliction <span style="margin-left: auto;"> 4 XP</span> </h1>
+
+<div> 
+<div style="display:inline-block; float: left;"> 
+
+#### [[Offence]]{.trait}
+
+</div>
+<div style="clear:both" /> 
+
+**Requirement:** The [[Sadistic]] Trait
+___
+
+**System:**
+Whenever you deal at least a single point of damage, you gain a +1 [[Rules/Bonuses and Penalties/Morale]] on attack, damage and skill rolls until the end of your next turn. If you kill a creature increase this bonus to +3 on the next attack or skill roll, if the attack or skill would deal damage increase the damage bonus to +3.
+
+

@@ -1,0 +1,281 @@
+{
+  "main": {
+    "id": "ecdd5519ea78688f",
+    "type": "split",
+    "children": [
+      {
+        "id": "8bc857b08b432f97",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5dd93f54c583635c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_meta/Campaign.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Campaign"
+            }
+          },
+          {
+            "id": "c900559c4a85227c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "World/Ostrad/Red Top Cliffs/Red Top Cliffs.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Red Top Cliffs"
+            }
+          },
+          {
+            "id": "242447041bd37566",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "World/Ostrad/Red Top Cliffs/The Tipsy Goat/The Tipsy Goat.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "The Tipsy Goat"
+            }
+          },
+          {
+            "id": "e224f7ad714b1cb1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "World/Ostrad/Red Top Cliffs/Red Top Cliffs.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Red Top Cliffs"
+            }
+          },
+          {
+            "id": "c8a2073653c87341",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "PC's/Oliver Barbarian.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Oliver Barbarian"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "462f95c74931a777",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a2b53741046dc4e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b8521be19a3ce300",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "46348e85b900d3d6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9a83a4ecee5f7db4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a4ae541820bd7abc",
+    "type": "split",
+    "children": [
+      {
+        "id": "cbdf395a5653c3c8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c3dd4b73dc059c82",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "World/Ostrad/Red Top Cliffs/Red Top Cliffs.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Red Top Cliffs"
+            }
+          },
+          {
+            "id": "98ce51fee01468db",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "World/Ostrad/Red Top Cliffs/Red Top Cliffs.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Red Top Cliffs"
+            }
+          },
+          {
+            "id": "41d3ea07ea554e92",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "18fee0d81057489c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "6fadbc0bd76450ba",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "World/Ostrad/Red Top Cliffs/Red Top Cliffs.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Red Top Cliffs"
+            }
+          },
+          {
+            "id": "9fd66bb169ee86d2",
+            "type": "leaf",
+            "state": {
+              "type": "FANTASY_CALENDAR",
+              "state": {},
+              "icon": "FANTASY_CALENDAR",
+              "title": "Fantasy Calendar"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "fantasy-calendar:Open Large Fantasy Calendar": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "obsidian42-brat:BRAT": false
+    }
+  },
+  "active": "e224f7ad714b1cb1",
+  "lastOpenFiles": [
+    "_meta/Campaign.md",
+    "World/Ostrad/Red Top Cliffs/The Tipsy Goat/Bounties",
+    "World/Ostrad/Red Top Cliffs/Red Top Cliffs.md",
+    "NPC's/Monsters/Blood Elementals/Medium Blood Elemental.md",
+    "PC's/lvl 2 cleric.pdf",
+    "World/Ostrad/Red Top Cliffs/The Tipsy Goat/The Tipsy Goat.md",
+    "PC's/Oliver Barbarian.pdf",
+    "NPC's/Monsters/Blood Elementals",
+    "_meta/Notes.md",
+    "World/Ostrad/Red Top Cliffs/The Tipsy Goat",
+    "World/Ostrad/Red Top Cliffs",
+    "_meta/Kanban.md",
+    "World/Ostrad",
+    "PC's/Barbarian Warpriest - lvl 13.pdf",
+    "_meta/Rules/Homebrew Rulings.md",
+    "_meta/Attachments/Maps/castle_floor_1.png",
+    "World/Alaria/Wakefield/Castle/Castle.md",
+    "NPC's/Monsters/Primordial.md",
+    "World/Alaria/Wakefield/Wakefield.md",
+    "NPC's/Monsters/Peerless Samurai.md",
+    "_meta/Attachments/Named NPCs/peerless_samurai.png",
+    "_meta/Attachments/Maps/Large Wakefield.jpg",
+    "_meta/Attachments/Maps/castle_floor_2.png",
+    "_meta/Attachments/Monsters/aasimar.jpg",
+    "_meta/Attachments/Monsters/dragon_forged_lich.jpg",
+    "_meta/Attachments/Maps/castle_floor_1.png~RF6baf6e15.TMP",
+    "_meta/Attachments/Maps/castle_floor_1.ds",
+    "_meta/Attachments/Monsters/primordial_2.jpeg",
+    "_meta/Attachments/Monsters/primordial_1.jpg",
+    "_meta/Attachments/Monsters/primordial_3.jpg"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "alwaysUpdateLinks": true,
+  "spellcheckDictionary": [
+    "gambeson",
+    "Littlemore",
+    "colosseum",
+    "worshipping",
+    "Grixis",
+    "lich",
+    "undeath",
+    "Hexbane",
+    "innkeep",
+    "Bharick",
+    "Blessedbear",
+    "Sarkhan",
+    "Cursebound",
+    "Arcanum",
+    "greatsword",
+    "Econian",
+    "Elarian"
+  ],
+  "defaultViewMode": "source",
+  "livePreview": false,
+  "showInlineTitle": false,
+  "readableLineLength": true,
+  "propertiesInDocument": "hidden",
+  "focusNewTab": false,
+  "showLineNumber": false,
+  "foldHeading": false,
+  "foldIndent": false,
+  "strictLineBreaks": false
+}

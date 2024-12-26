@@ -1,0 +1,22 @@
+{
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "bug-banner-fix",
+    "header",
+    "extended-colorschemes",
+    "custom-rainbow-colors",
+    "traits",
+    "magic_items",
+    "pathfinder_actions",
+    "banner",
+    "novel_word_count",
+    "obsidian",
+    "pathfinder",
+    "pathfinder_traits"
+  ],
+  "cssTheme": "AnuPpuccin",
+  "theme": "obsidian",
+  "showViewHeader": true,
+  "nativeMenus": false,
+  "baseFontSize": 17
+}

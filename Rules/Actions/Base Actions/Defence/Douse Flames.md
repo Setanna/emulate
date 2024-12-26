@@ -1,0 +1,27 @@
+---
+tags: [content/actions/base/defence]
+cssclass: pathfinder
+---
+
+
+<h1> Douse Flames <span style="margin-left: auto;"> 1 Action </span> </h1>
+
+<div> 
+<div style="display:inline-block; float: left;"> 
+
+#### [[Defence]]{.trait}
+
+</div> 
+<div style="clear:both" />
+
+**Requirement:** You're on [[Fire]] and have a hand free.
+
+___
+
+**System:**
+You quickly douse the flames on your body.
+
+
+
+
+

@@ -1,0 +1,14 @@
+{
+  "new-line-trigger": "shift-enter",
+  "show-checkboxes": false,
+  "tag-colors": [
+    {
+      "tagKey": "#story",
+      "color": "rgba(122, 148, 240, 1)",
+      "backgroundColor": ""
+    }
+  ],
+  "hide-tags-display": false,
+  "hide-tags-in-title": true,
+  "lane-width": 360
+}

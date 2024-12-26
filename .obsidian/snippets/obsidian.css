@@ -1,0 +1,75 @@
+/* Text */
+:root body {
+    color: #D5D5D5 !important;
+  --bold-modifier: 300 !important;
+}
+
+.cm-hmd-internal-link .cm-underline, .internal-link {
+text-decoration: initial !important
+}
+
+
+/*------ HEADERS ------*/
+/*------ Remove headers margin ------*/
+.markdown-rendered h1, .markdown-rendered h2, .markdown-rendered h3, .markdown-rendered h5, .markdown-rendered h6 {
+    margin: 0;
+    display: flex;
+    color: #D5D5D5 !important;
+}
+
+ .markdown-rendered h4 {
+    color: #D5D5D5 !important;
+    margin: 0;
+}
+
+
+.markdown-rendered h5, .markdown-rendered h3 {
+    border-bottom: 1px solid gray;
+}
+
+/*------ Remove large header top margin ------*/
+.markdown-rendered div:has( > :is(p,pre,table,ul,ol)) + div > :is(h1,h2,h3,h4,h5,h6) {
+    margin-top: 0;
+}
+
+/*------ LISTS ------*/
+ul {
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.markdown-rendered ul, .markdown-rendered ol {
+    padding-inline-start: var(--list-indent);
+    margin-block-start: 0;
+    margin-block-end: var(--p-spacing);
+}
+
+/*------ PARAGRAPHS ------*/
+p {
+    margin-block-start: 0;
+}
+
+/*------ TIMELINE ------*/
+.timeline-container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    border: 4px solid #c5cff5;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.timeline-container > h2 {
+    margin-top: 7px;
+    margin-bottom: 15px;
+    align-self: center;
+}
+
+/*------ REMOVE FILTER ITEMS OPTION ------*/
+[aria-label="Filter items"] {
+    display:none;
+}
+
