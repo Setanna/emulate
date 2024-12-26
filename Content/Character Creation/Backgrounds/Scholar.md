@@ -15,4 +15,4 @@ ___
 <br>
 
 **System:**
-You start with a single silver coin, a [[Robe]], [[Ink]], [[Quill]], [[Empty Book]] and 3 books with total value of 1 Gold Coin or less.
+You start with a single silver coin, a [[Clothes | Robe]], [[Writing Kit]] and 3 books with total value of 1 Gold Coin or less.

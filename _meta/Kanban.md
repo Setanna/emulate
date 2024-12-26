@@ -12,15 +12,15 @@ kanban-plugin: board
 - [ ] **Traits**
 	- [ ] Make sure all Trait Files exist
 	- [ ] Trait Descriptions
-- [ ] **Make.md**
 - [ ] **Backgrounds; Talents; Traits and Spells**
 	- [ ] Races
 		- [ ] Mudblood
+- [ ] **Make.md**
 
 
 ## Doing
 
-- [ ] **Races**
+- [ ] [[Races]]
 	 - [ ] Age
 	 - [x] [[Human]]
 	 - [ ] [[Medusa]]
@@ -39,6 +39,7 @@ kanban-plugin: board
 		- [ ] Tags
 - [ ] **Bugs**
 	- [ ] Link Preview Missing CSS on header
+		- [ ] Link only to file not header?
 	- [x] Make shield text float right
 - [ ] **Armor, Shields and Weapons**
 	- [ ] Figure out how to deal with mixed material weapons (spear)
