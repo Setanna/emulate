@@ -1,5 +1,5 @@
 ---
-tags: [content/talents/arcane]
+tags: []
 cssclass: pathfinder
 ---
 

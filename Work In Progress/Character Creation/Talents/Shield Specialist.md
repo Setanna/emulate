@@ -1,5 +1,5 @@
 ---
-tags: [content/talents/shield, content/talents/defence]
+tags: []
 cssclass: pathfinder
 ---
 

@@ -1,5 +1,5 @@
 ---
-tags: [race-trait/humanoid, race-trait/monstrous, sizes/medium]
+tags: []
 cssclass: pathfinder
 ---
 
