@@ -1,5 +1,5 @@
 ---
-tags: [rules/stats-and-skills/saving-throws]
+tags: []
 cssclass: pathfinder
 ---
 

@@ -1,5 +1,5 @@
 ---
-tags: [content/actions/base/attacks]
+tags: []
 cssclass: pathfinder
 ---
 

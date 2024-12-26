@@ -1,5 +1,5 @@
 ---
-tags: [rules/race/natural-armor]
+tags: []
 cssclass: pathfinder
 ---
 

@@ -1,5 +1,5 @@
 ---
-tags: [rules/race/hit-die]
+tags: []
 cssclass: pathfinder
 ---
 

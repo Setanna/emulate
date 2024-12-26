@@ -1,5 +1,5 @@
 ---
-tags: [rules/spellcasting/schools]
+tags: []
 cssclass: pathfinder
 ---
 

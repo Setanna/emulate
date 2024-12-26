@@ -1,5 +1,5 @@
 ---
-tags: [rules/race/vision]
+tags: []
 cssclass: pathfinder
 ---
 

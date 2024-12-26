@@ -1,5 +1,5 @@
 ---
-tags: [content/actions/talents/language, content/actions/talents/morale]
+tags: []
 cssclass: pathfinder
 ---
 

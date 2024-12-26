@@ -1,5 +1,5 @@
 ---
-tags: [rules/race/age]
+tags: []
 cssclass: pathfinder
 ---
 

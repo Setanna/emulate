@@ -1,5 +1,5 @@
 ---
-tags: [content/actions/base/item, content/actions/base/mental]
+tags: []
 cssclass: pathfinder
 ---
 

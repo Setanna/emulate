@@ -1,5 +1,5 @@
 ---
-tags: [content/actions/base/defence, content/actions/base/item]
+tags: []
 cssclass: pathfinder
 ---
 

@@ -1,5 +1,5 @@
 ---
-tags: [rules/combat]
+tags: []
 cssclass: pathfinder
 ---
 

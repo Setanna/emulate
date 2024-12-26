@@ -1,5 +1,5 @@
 ---
-tags: [rules/traits]
+tags: []
 cssclass: pathfinder
 ---
 

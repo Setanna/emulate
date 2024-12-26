@@ -1,5 +1,5 @@
 ---
-tags: [content/actions/base/skills/climb]
+tags: []
 cssclass: pathfinder
 ---
 

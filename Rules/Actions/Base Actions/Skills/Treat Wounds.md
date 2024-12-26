@@ -1,5 +1,5 @@
 ---
-tags: [content/actions/base/skills/medicine]
+tags: []
 cssclass: pathfinder
 ---
 

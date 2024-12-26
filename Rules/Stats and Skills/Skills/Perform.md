@@ -1,5 +1,5 @@
 ---
-tags: [rules/stats-and-skills/stats]
+tags: []
 cssclass: pathfinder
 ---
 
