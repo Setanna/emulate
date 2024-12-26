@@ -100,7 +100,6 @@
   "Content/Gear/Weapons": "LiSword",
   "Content/Gear/Armor and Shields": "IbShield",
   "_meta/Attachments/Cover": "TiWall",
-  "_meta/Guide to Emulate.md": "RiGuideLine",
   "Rules/Stats and Skills": "LiBrain",
   "Content/Character Creation/Races": "FasPerson",
   "Content/Character Creation/Backgrounds": "LiBook",
@@ -122,5 +121,6 @@
   "Work In Progress/Character Creation/Talents": "LiStar",
   "_meta/Syntax.md": "LiCode",
   "Content/Character Creation/Social Bonds": "FasUsers",
-  "_meta/Attachments/Races": "FasPerson"
+  "_meta/Attachments/Races": "FasPerson",
+  "_meta/Character Creation.md": "RiGuideLine"
 }

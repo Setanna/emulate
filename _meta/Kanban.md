@@ -6,16 +6,6 @@ kanban-plugin: board
 
 ## To-Do
 
-- [ ] **Races**
-	 - [ ] Age
-	 - [ ] [[Human]]
-	 - [ ] [[Medusa]]
-	 - [ ] [[Resonants]]
-	 - [ ] [[Dwarf]]
-	 - [ ] [[Elf]]
-		 - [ ] Elves should start with [[Beautiful]]
-	 - [ ] [[Orc]]
-	 - [ ] [[Kobold]]
 - [ ] **Stats and Skills**
 	 - [ ] [[Stats]]
 	 - [ ] [[Skills]]
@@ -30,6 +20,17 @@ kanban-plugin: board
 
 ## Doing
 
+- [ ] **Races**
+	 - [ ] Age
+	 - [x] [[Human]]
+	 - [ ] [[Medusa]]
+	 - [ ] [[Resonants]]
+	 - [x] [[Dragonborn]]
+	 - [x] [[Dwarf]]
+	 - [x] [[Elf]]
+		 - [x] Elves should start with [[Beautiful]]
+	 - [ ] [[Orc]]
+	 - [ ] [[Kobold]]
 - [ ] **Arcane**
 	- [ ] Arcane Talents
 		- [ ] [[Eldritch Lineage | Sorcerer]]
