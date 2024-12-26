@@ -5,11 +5,11 @@
     "fontSize": 16,
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiArchive",
-      "LiBookmark",
-      "FasBookmark",
+      "LiStar",
+      "FasUsers",
       "RiFireLine",
-      "TiUsersGroup"
+      "FasPerson",
+      "TiSparkles"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -106,11 +106,19 @@
   "Content/Character Creation/Backgrounds": "LiBook",
   "Content/Character Creation": "FabCreativeCommonsBy",
   "Content/Character Creation/Talents": "LiStar",
-  "Content/Character Creation/Social Bonds": "TiUsersGroup",
+  "Content/Character Creation/Social Bonds": "FasUsers",
   "Content/Character Creation/Spells": "RiFireLine",
   "Rules/Spellcasting": "RiFireLine",
   "Rules/Bonuses and Penalties": "FasPlus",
   "Content/Gear/Other": "LiArchive",
   "Content/Character Creation/Character Traits": "TiSparkles",
-  "Rules/Actions": "TiSquareRotatedFilled"
+  "Rules/Actions": "TiSquareRotatedFilled",
+  "Work In Progress": "LiHammer",
+  "Work In Progress/Character Creation": "FabCreativeCommonsBy",
+  "Work In Progress/Character Creation/Backgrounds": "LiBook",
+  "Work In Progress/Character Creation/Character Traits": "TiSparkles",
+  "Work In Progress/Character Creation/Races": "FasPerson",
+  "Work In Progress/Character Creation/Spells": "RiFireLine",
+  "Work In Progress/Character Creation/Social Bonds": "FasUsers",
+  "Work In Progress/Character Creation/Talents": "LiStar"
 }

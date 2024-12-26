@@ -22,11 +22,11 @@ ___
 You start with [[finery]] and an amount of gold depending on how much XP you've spent as shown in the table below:
 
 
-| XP  | Title                            | Gold |
+| XP  | Title                            | Silver coins |
 | --- | ------------------------ | ----- |
-| 2   | Lord / Lady                  | 10  |
-| 4   | Baron / Baroness         | 25  |
+| 2   | Lord / Lady                  | 20  |
+| 4   | Baron / Baroness         | 40  |
 | 6   | Viscount /Viscountess | 60  |
-| 8   | Count / Countess        | 150  |
-| 10   | Duke / Duchess           | 500  |
-| 12   | Prince / Princess          |  2000       |
+| 8   | Count / Countess        | 80  |
+| 10   | Duke / Duchess           | 100  |
+| 12   | Prince / Princess          |  120       |
