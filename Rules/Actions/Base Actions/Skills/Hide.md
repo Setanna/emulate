@@ -6,15 +6,12 @@ cssclass: pathfinder
 
 <h1> Hide <span style="margin-left: auto;"> Reaction </span> </h1>
 
-<div> 
-<div style="display:inline-block; float: left;"> 
+[[Skill | Skill (Stealth)]]{.trait}
 
-#### [[Skill | Skill (Stealth)]]{.trait}
-
-</div> 
 <div style="clear:both" />
 
 **Requirement:** No one is aware of your presence.
+**Trigger:** Someone is about to spot you.
 ___
 
 **System:**
@@ -26,6 +23,7 @@ You roll a Stealth Roll against all surrounding creatures [[Perception]] DC. Any
 **Fail:** The creature knows someone is hiding.
 **Critical Fail:** The creature knows your specific location.
 
+<br>
 
 > ### Example
 > 1. A Kobold would like to stealth by a Human and rolls a 14.

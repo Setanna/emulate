@@ -5,18 +5,10 @@ cssclass: pathfinder
 
 <h1> Shield Specialist<span style="margin-left: auto;">2 XP</span> </h1>
 
-<div> 
-<div style="display:inline-block; float: left;"> 
+[[Defence]]{.trait}
 
-#### Defence{.trait}
+[[Item]]{.trait}
 
-</div> 
-
-<div style="display:inline-block; float:left;">
-
-#### [[Item]]{.trait}
-
-</div>
 <div style="clear:both" /> 
 
 ___

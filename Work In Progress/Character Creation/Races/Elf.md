@@ -5,23 +5,18 @@ cssclass: pathfinder
 
 <h1> Elf <span style="margin-left: auto;">4 XP</span> </h1>
 
-<div> 
-<div style="display:inline-block; float: left;"> 
+[[Size | Medium]]{.size-trait}
 
-#### [[Size | Small]]{.size-trait}
+[[Elf]]{.trait}
 
-</div> 
-<div style="display:inline-block; float:left;">
+[[Humanoid]]{.trait}
 
-#### [[Humanoid]]{.trait}
-
-</div>
 <div style="clear:both" /> 
 
 ___
 
-**Hit Die:** d10
-**Ground Movement:** 3 meters
+**Hit Die:** d8
+**Ground Movement:** 5 meters
 
 ___
 
@@ -37,3 +32,11 @@ Dwarves are short and stout like a Barrel of Ale. As such they tend to be around
 
 **System:**
 Dwarves start with the [[Dwarven Stoutness]] Talent.
+
+
+# XP Distribution
+
+| Name  | XP  |
+| ----- | --- |
+| Total | 0   |
+

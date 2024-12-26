@@ -5,17 +5,10 @@ cssclass: pathfinder
 
 <h1> Dwarf <span style="margin-left: auto;">4 XP</span> </h1>
 
-<div> 
-<div style="display:inline-block; float: left;"> 
+[[Size | Small]]{.size-trait}
 
-#### [[Size | Small]]{.size-trait}
+[[Humanoid]]{.trait}
 
-</div> 
-<div style="display:inline-block; float:left;">
-
-#### [[Humanoid]]{.trait}
-
-</div>
 <div style="clear:both" /> 
 
 ___

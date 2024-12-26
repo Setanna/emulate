@@ -5,12 +5,8 @@ cssclass: pathfinder
 
 <h1> Ironskin <span style="margin-left: auto;"> 6 XP</span> </h1>
 
-<div> 
-<div style="display:inline-block; float: left;"> 
+[[Defence]]{.trait}
 
-#### [[Defence]]{.trait}
-
-</div> 
 <div style="clear:both" /> 
 
 **Requirements:** [[Iron Strikes]], Strength 3+

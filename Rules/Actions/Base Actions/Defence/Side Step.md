@@ -6,12 +6,8 @@ cssclass: pathfinder
 
 <h1> Side Step <span style="margin-left: auto;"> Reaction </span> </h1>
 
-<div> 
-<div style="display:inline-block; float: left;"> 
+[[Defence]]{.trait}
 
-#### [[Defence]]{.trait}
-
-</div> 
 <div style="clear:both" />
 
 **Trigger:**  You are the target of an attack; or a source with the [[Blast]] trait.

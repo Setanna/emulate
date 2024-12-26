@@ -5,27 +5,14 @@ cssclass: pathfinder
 
 <h1> Mage Armor <span style="margin-left: auto;">1</span> </h1>
 
-<div>  
-<div style="display:inline-block; float:left;">
+[[Abjuration]]{.school-trait}
 
-#### [[Abjuration]]{.school-trait}
+[[Arcane]]{.trait}
 
-</div>
-<div style="display:inline-block; float:left;">
+[[Defence]]{.trait}
 
-#### [[Arcane]]{.trait}
+[[Force]]{.trait}
 
-</div>
-<div style="display:inline-block; float:left;">
-
-#### [[Defence]]{.trait}
-
-</div>
-<div style="display:inline-block; float:left;">
-
-#### [[Force]]{.trait}
-
-</div>
 <div style="display:inline-block; float:left;">
 
 #### [[Somatic]]{.trait}

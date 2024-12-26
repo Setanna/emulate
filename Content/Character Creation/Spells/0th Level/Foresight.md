@@ -5,27 +5,14 @@ cssclass: pathfinder
 
 <h1> Foresight <span style="margin-left: auto;"> 0 </span> </h1>
 
-<div>  
-<div style="display:inline-block; float:left;">
+[[Divination]]{.school-trait}
 
-#### [[Divination]]{.school-trait}
+[[Arcane]]{.trait}
 
-</div>
-<div style="display:inline-block; float:left;">
+[[Defence]]{.trait}
 
-#### [[Arcane]]{.trait}
+[[Mental]]{.trait}
 
-</div>
-<div style="display:inline-block; float:left;">
-
-#### [[Defence]]{.trait}
-
-</div>
-<div style="display:inline-block; float:left;">
-
-#### [[Mental]]{.trait}
-
-</div>
 <div style="clear:both" /> 
 
 ___

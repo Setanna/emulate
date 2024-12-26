@@ -5,12 +5,8 @@ cssclass: pathfinder
 
 <h1> Attack of Opportunity <span style="margin-left: auto;">Reaction</span> </h1>
 
-<div> 
-<div style="display:inline-block; float: left;"> 
+[[Attack]]{.trait}
 
-#### [[Attack]]{.trait}
-
-</div> 
 <div style="clear:both" /> 
 
 ___

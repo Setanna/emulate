@@ -5,27 +5,14 @@ cssclass: pathfinder
 
 <h1> Shocking Grasp <span style="margin-left: auto;">0</span> </h1>
 
-<div>  
-<div style="display:inline-block; float:left;">
+[[Evocation]]{.school-trait}
 
-#### [[Evocation]]{.school-trait}
+[[Arcane]]{.trait}
 
-</div>
-<div style="display:inline-block; float:left;">
+[[Electricity]]{.trait}
 
-#### [[Arcane]]{.trait}
+[[Somatic]]{.trait}
 
-</div>
-<div style="display:inline-block; float:left;">
-
-#### [[Electricity]]{.trait}
-
-</div>
-<div style="display:inline-block; float:left;">
-
-#### [[Somatic]]{.trait}
-
-</div>
 <div style="clear:both" /> 
 
 ___

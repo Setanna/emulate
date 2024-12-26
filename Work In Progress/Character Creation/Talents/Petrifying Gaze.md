@@ -5,17 +5,10 @@ cssclass: pathfinder
 
 <h1> Petrifying Gaze<span style="margin-left: auto;"> 4 XP</span> </h1>
 
-<div> 
-<div style="display:inline-block; float: left;"> 
+[[Offence]]{.trait}
 
-#### [[Offence]]{.trait}
+[[Gaze]]{.trait}
 
-</div> 
-<div style="display:inline-block; float: left;"> 
-
-#### [[Gaze]]{.trait}
-
-</div> 
 <div style="clear:both" /> 
 
 ___

@@ -5,27 +5,14 @@ cssclass: pathfinder
 
 <h1> Fireball <span style="margin-left: auto;"> 3 </span> </h1>
 
-<div>  
-<div style="display:inline-block; float:left;">
+[[Evocation]]{.school-trait}
 
-#### [[Evocation]]{.school-trait}
+[[Arcane]]{.trait}
 
-</div>
-<div style="display:inline-block; float:left;">
+[[Fire]]{.trait}
 
-#### [[Arcane]]{.trait}
+[[Somatic]]{.trait}
 
-</div>
-<div style="display:inline-block; float:left;">
-
-#### [[Fire]]{.trait}
-
-</div>
-<div style="display:inline-block; float:left;">
-
-#### [[Somatic]]{.trait}
-
-</div>
 <div style="clear:both" /> 
 
 ___

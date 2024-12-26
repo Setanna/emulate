@@ -5,12 +5,8 @@ cssclass: pathfinder
 
 <h1> Spellbane <span style="margin-left: auto;">8 XP</span> </h1>
 
-<div> 
-<div style="display:inline-block; float: left;"> 
+[[Defence]]{.trait}
 
-#### [[Defence]]{.trait}
-
-</div> 
 <div style="clear:both" /> 
 
 **Requirements:** Constitution 3+, No Talents with the [[Arcane]] Trait.

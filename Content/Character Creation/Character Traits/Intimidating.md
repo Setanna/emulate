@@ -5,17 +5,10 @@ cssclass: pathfinder
 
 <h1> Intimidating <span style="margin-left: auto;">1 XP</span> </h1>
 
-<div> 
-<div style="display:inline-block; float:left;">
+[[Skill | Skill (Intimidation)]]{.trait}
 
-#### [[Skill | Skill (Intimidation)]]{.trait}
+[[Merit]]{.trait}
 
-</div>
-<div style="display:inline-block; float:left;">
-
-#### [[Merit]]{.trait}
-
-</div>
 <div style="clear:both" /> 
 
 ___

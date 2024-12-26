@@ -5,17 +5,10 @@ cssclass: pathfinder
 
 <h1> Miner <span style="margin-left: auto;">1 XP</span> </h1>
 
-<div> 
-<div style="display:inline-block; float:left;">
+[[Wealth]]{.trait}
 
-#### [[Wealth]]{.trait}
+[[Offence]]{.trait}
 
-</div>
-<div style="display:inline-block; float:left;">
-
-#### [[Offence]]{.trait}
-
-</div>
 <div style="clear:both" /> 
 
 **Requirements:** Strength +2

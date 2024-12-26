@@ -5,12 +5,8 @@ cssclass: pathfinder
 
 <h1> Observant <span style="margin-left: auto;">1 XP</span> </h1>
 
-<div> 
-<div style="display:inline-block; float:left;">
+[[Merit]]{.trait}
 
-#### [[Merit]]{.trait}
-
-</div>
 <div style="clear:both" /> 
 
 **Requirements:** Wisdom +1

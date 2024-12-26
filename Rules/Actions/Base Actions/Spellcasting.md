@@ -5,17 +5,10 @@ cssclass: pathfinder
 
 <h1> Spellcasting </h1>
 
-<div> 
-<div style="display:inline-block; float: left;"> 
+[[Arcane]]{.trait}
 
-#### [[Arcane]]{.trait}
+[[Mental]]{.trait}
 
-</div> 
-<div style="display:inline-block; float: left;"> 
-
-#### [[Mental]]{.trait}
-
-</div> 
 <div style="clear:both" /> 
 
 ___

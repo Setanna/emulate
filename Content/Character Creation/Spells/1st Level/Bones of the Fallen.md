@@ -5,32 +5,16 @@ cssclass: pathfinder
 
 <h1> Bones of the Fallen <span style="margin-left: auto;"> 1 </span> </h1>
 
-<div>  
-<div style="display:inline-block; float:left;">
+[[Necromancy]]{.school-trait}
 
-#### [[Necromancy]]{.school-trait}
+[[Arcane]]{.trait}
 
-</div>
-<div style="display:inline-block; float:left;">
+[[Death]]{.trait}
 
-#### [[Arcane]]{.trait}
+[[Defence]]{.trait}
 
-</div>
-<div style="display:inline-block; float:left;">
+[[Somatic]]{.trait}
 
-#### [[Death]]{.trait}
-
-</div>
-<div style="display:inline-block; float:left;">
-
-#### [[Defence]]{.trait}
-
-</div>
-<div style="display:inline-block; float:left;">
-
-#### [[Somatic]]{.trait}
-
-</div>
 <div style="clear:both" /> 
 
 ___

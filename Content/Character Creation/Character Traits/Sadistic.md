@@ -5,17 +5,10 @@ cssclass: pathfinder
 
 <h1> Sadistic <span style="margin-left: auto;">-2 XP</span> </h1>
 
-<div> 
-<div style="display:inline-block; float: left;"> 
+[[Emotion]]{.trait}
 
-#### [[Emotion]]{.trait}
-
-</div> 
-<div style="display:inline-block; float: left;"> 
-
-#### [[Flaw]]{.trait}
-
-</div> 
+[[Flaw]]{.trait}
+ 
 <div style="clear:both" /> 
 
 ___

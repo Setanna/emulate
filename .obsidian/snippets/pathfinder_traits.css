@@ -1,82 +1,126 @@
 /*------ Traits ------*/
 .trait {
-    border-color: #d8c483;
     background-color: var(--head-bg);
+
+    border-color: #d8c483;
     border-style: double;
     border-width: 2px;
+
     font-style: normal !important;
     font-variant: var(--font-variant) !important;
-    font-weight: bold !important;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+
     text-align: left;
     text-indent: 0.00em;
+
     color: #D5D5D5 !important;
+
     display: inline-block;
     float: left;
+
     padding-left: 5px;
     padding-right: 5px;
-    margin-right: 0.3rem !important;
-    margin-top: 0.2rem !important;
+
+    margin-right: 0.6rem !important;
+    margin-left: -0.3rem !important;
+
+    letter-spacing: 0.015em;
+    line-height: 1.4;
 }
 
 .rare-trait {
     background-color: #0c1466;
+
     border-color: #d8c483;
     border-style: double;
     border-width: 2px;
-    color: #D5D5D5 !important;
+
     font-style: normal !important;
-    font-weight: bold !important;
+    font-weight: 500 !important;
+    font-size: 20px !important;
     font-variant: var(--font-variant) !important;
+
     padding-right: 5px;
     padding-left: 5px;
+
     text-align: left;
     text-indent: 0.00em;
+
+    color: #D5D5D5 !important;
+
     display: inline-block;
     float: left;
+
     padding-left: 5px;
     padding-right: 5px;
-    margin-right: 0.3rem !important;
-    margin-top: 0.2rem !important;
+
+    margin-right: 0.6rem !important;
+    margin-left: -0.3rem !important;
+
+    letter-spacing: 0.015em;
+    line-height: 1.4;
 }
 
 .school-trait {
     background-color: #800080;
+
     border-color: #d8c483;
     border-style: double;
     border-width: 2px;
+
     color: #D5D5D5 !important;
+
     font-style: normal !important;
     font-variant: var(--font-variant) !important;
-    font-weight: bold !important;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+
     padding-right: 5px;
     padding-left: 5px;
+
     text-align: left;
     text-indent: 0em;
+
     display: inline-block;
     float: left;
+
     padding-left: 5px;
     padding-right: 5px;
-    margin-right: 0.3rem !important;
-    margin-top: 0.2rem !important;
+
+    margin-right: 0.6rem !important;
+    margin-left: -0.3rem !important;
+
+    letter-spacing: 0.015em;
+    line-height: 1.4;
 }
 
 .size-trait {
     background-color: #478c42;
+
     border-color: #d8c483;
     border-style: double;
     border-width: 2px;
+
     color: #D5D5D5 !important;
+
     font-style: normal !important;
     font-variant: var(--font-variant) !important;
     font-weight: bold !important;
-    padding-right: 5px;
-    padding-left: 5px;
+    font-size: 20px !important;
+
     text-align: left;
     text-indent: 0em;
+
     display: inline-block;
     float: left;
+
     padding-left: 5px;
     padding-right: 5px;
-    margin-right: 0.3rem !important;
-    margin-top: 0.2rem !important;
+
+    margin-right: 0.6rem !important;
+    margin-left: -0.3rem !important;
+
+    letter-spacing: 0.015em;
+    line-height: 1.4;
 }

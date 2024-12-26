@@ -5,22 +5,12 @@ cssclass: pathfinder
 
 <h1> Medusa <span style="margin-left: auto;">12 XP</span> </h1>
 
-<div> 
-<div style="display:inline-block; float: left;"> 
+[[Size | Medium]]{.size-trait}
 
-#### [[Size | Medium]]{.size-trait}
+[[Humanoid]]{.trait}
 
-</div> 
-<div style="display:inline-block; float:left;">
+[[Monstrous]]{.trait}
 
-#### [[Humanoid]]{.trait}
-
-</div>
-<div style="display:inline-block; float:left;">
-
-#### [[Monstrous]]{.trait}
-
-</div>
 <div style="clear:both" /> 
 
 ___

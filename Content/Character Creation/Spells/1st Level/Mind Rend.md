@@ -5,27 +5,14 @@ cssclass: pathfinder
 
 <h1> Mind Rend <span style="margin-left: auto;"> 1 </span> </h1>
 
-<div>  
-<div style="display:inline-block; float:left;">
+[[Enchantment]]{.school-trait}
 
-#### [[Enchantment]]{.school-trait}
+[[Arcane]]{.trait}
 
-</div>
-<div style="display:inline-block; float:left;">
+[[Defence]]{.trait}
 
-#### [[Arcane]]{.trait}
+[[Emotion]]{.trait}
 
-</div>
-<div style="display:inline-block; float:left;">
-
-#### [[Defence]]{.trait}
-
-</div>
-<div style="display:inline-block; float:left;">
-
-#### [[Emotion]]{.trait}
-
-</div>
 <div style="clear:both" /> 
 
 ___

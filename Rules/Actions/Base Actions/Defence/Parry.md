@@ -6,22 +6,12 @@ cssclass: pathfinder
 
 <h1> Parry <span style="margin-left: auto;"> Reaction </span> </h1>
 
-<div> 
-<div style="display:inline-block; float: left;"> 
+[[Defence]]{.trait}
 
-#### [[Defence]]{.trait}
+[[Item | Item (Weapon or Light; Medium Shield)]]{.trait}
 
-</div> 
-<div style="display:inline-block; float: left;"> 
+[[Flexible]]{.trait}
 
-#### [[Item | Item (Weapon or Light; Medium Shield)]]{.trait}
-
-</div> 
-<div style="display:inline-block; float: left;"> 
-
-#### [[Flexible]]{.trait}
-
-</div> 
 <div style="clear:both" />
 
 **Trigger:**  You or your ally is the target of a Melee Weapon Attack.

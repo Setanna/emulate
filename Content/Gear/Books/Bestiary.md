@@ -5,12 +5,8 @@ cssclass: pathfinder
 
 <h1> Bestiary <span style="margin-left: auto;">25 SC</span> </h1>
 
-<div> 
-<div style="display:inline-block; float: left;"> 
+[[Book]]{.trait}
 
-#### [[Book]]{.trait}
-
-</div> 
 <div style="clear:both" /> 
 
 ___

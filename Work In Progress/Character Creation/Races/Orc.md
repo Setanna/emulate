@@ -5,17 +5,10 @@ cssclass: pathfinder
 
 <h1> Orc <span style="margin-left: auto;">8 XP</span> </h1>
 
-<div> 
-<div style="display:inline-block; float: left;"> 
+[[Size | Medium]]{.size-trait}
 
-#### [[Size | Medium]]{.size-trait}
+[[Humanoid]]{.trait}
 
-</div> 
-<div style="display:inline-block; float:left;">
-
-#### [[Humanoid]]{.trait}
-
-</div>
 <div style="clear:both" /> 
 
 ___

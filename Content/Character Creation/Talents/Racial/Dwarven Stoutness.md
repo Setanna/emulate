@@ -5,12 +5,8 @@ cssclass: pathfinder
 
 <h1> Dwarven Stoutness <span style="margin-left: auto;"> 4 XP</span> </h1>
 
-<div> 
-<div style="display:inline-block; float: left;"> 
+[[Racial]]{.trait}
 
-#### [[Racial]]{.trait}
-
-</div> 
 <div style="clear:both" /> 
 
 **Requirements:** [[Dwarf]]

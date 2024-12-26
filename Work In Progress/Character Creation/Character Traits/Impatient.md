@@ -5,12 +5,8 @@ cssclass: pathfinder
 
 <h1> Impatient <span style="margin-left: auto;">-2 XP</span> </h1>
 
-<div> 
-<div style="display:inline-block; float:left;">
+[[Flaw]]{.trait}
 
-#### [[Flaw]]{.trait}
-
-</div>
 <div style="clear:both" /> 
 
 ___

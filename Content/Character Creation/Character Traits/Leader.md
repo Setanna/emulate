@@ -5,12 +5,8 @@ cssclass: pathfinder
 
 <h1> Leader <span style="margin-left: auto;">2 XP</span> </h1>
 
-<div> 
-<div style="display:inline-block; float: left;"> 
+[[Merit]]{.trait}
 
-#### [[Merit]]{.trait}
-
-</div> 
 <div style="clear:both" /> 
 
 **Requirements:** You don't have the [[Cowardly]] Trait.

@@ -5,17 +5,10 @@ cssclass: pathfinder
 
 <h1> Resonants <span style="margin-left: auto;">2 XP</span> </h1>
 
-<div> 
-<div style="display:inline-block; float:left;">
+[[Humanoid]]{.trait}
 
-#### [[Humanoid]]{.trait}
+[[Ageless]]{.trait}
 
-</div>
-<div style="display:inline-block; float:left;">
-
-#### [[Ageless]]{.trait}
-
-</div>
 <div style="clear:both" /> 
 
 ___

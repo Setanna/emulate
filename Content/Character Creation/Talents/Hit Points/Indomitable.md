@@ -5,12 +5,8 @@ cssclass: pathfinder
 
 <h1> Indomitable <span style="margin-left: auto;">1 XP</span> </h1>
 
-<div> 
-<div style="display:inline-block; float: left;"> 
-
-#### Defence{.trait}
-
-</div> 
+[[Defence]]{.trait}
+ 
 <div style="clear:both" /> 
 
 **Requirements:** Constitution 3+

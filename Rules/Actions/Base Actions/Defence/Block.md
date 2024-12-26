@@ -6,17 +6,10 @@ cssclass: pathfinder
 
 <h1> Block <span style="margin-left: auto;"> Reaction </span> </h1>
 
-<div> 
-<div style="display:inline-block; float: left;"> 
+[[Defence]]{.trait}
 
-#### [[Defence]]{.trait}
-
-</div> 
-<div style="display:inline-block; float: left;"> 
-
-#### [[Item | Item (Shield)]]{.trait}
-
-</div> 
+[[Item | Item (Shield)]]{.trait}
+ 
 <div style="clear:both" />
 
 **Trigger:** You or an ally within reach is the target of a Weapon Attack and you're using your shield reactively.

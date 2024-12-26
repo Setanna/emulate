@@ -5,32 +5,16 @@ cssclass: pathfinder
 
 <h1> Flicker <span style="margin-left: auto;"> 1 </span> </h1>
 
-<div>  
-<div style="display:inline-block; float:left;">
+[[Conjuration]]{.school-trait}
 
-#### [[Conjuration]]{.school-trait}
+[[Arcane]]{.trait}
 
-</div>
-<div style="display:inline-block; float:left;">
+[[Defence]]{.trait}
 
-#### [[Arcane]]{.trait}
+[[Teleporation]]{.trait}
 
-</div>
-<div style="display:inline-block; float:left;">
+[[Somatic]]{.trait}
 
-#### [[Defence]]{.trait}
-
-</div>
-<div style="display:inline-block; float:left;">
-
-#### [[Teleporation]]{.trait}
-
-</div>
-<div style="display:inline-block; float:left;">
-
-#### [[Somatic]]{.trait}
-
-</div>
 <div style="clear:both" /> 
 
 ___

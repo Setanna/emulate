@@ -5,17 +5,10 @@ cssclass: pathfinder
 
 <h1> Charge <span style="margin-left: auto;">3 Action</span> </h1>
 
-<div> 
-<div style="display:inline-block; float: left;"> 
+[[Attack]]{.trait}
 
-#### [[Attack]]{.trait}
+[[Movement]]{.trait}
 
-</div> 
-<div style="display:inline-block; float: left;"> 
-
-#### [[Movement]]{.trait}
-
-</div> 
 <div style="clear:both" /> 
 
 ___

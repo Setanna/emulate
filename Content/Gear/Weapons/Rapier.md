@@ -5,15 +5,8 @@ cssclass: pathfinder
 
 <h1> Rapier <span style="margin-left: auto;"> 24 sc </span> </h1>
 
-<div> 
-<div style="display:inline-block; float: left;"> 
-
-#### [[Vital Strike | Vital Strike (1d4)]]{.trait}
-
-</div> 
-<div style="display:inline-block; float: left;"> 
-
-#### [[Versatile | Versatile (Slashing)]]{.trait}
+[[Vital Strike | Vital Strike (1d4)]]{.trait}
+[[Versatile | Versatile (Slashing)]]{.trait}
 
 </div> 
 <div style="display:inline-block; float: left;"> 

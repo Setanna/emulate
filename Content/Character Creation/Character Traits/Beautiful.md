@@ -5,17 +5,10 @@ cssclass: pathfinder
 
 <h1> Beautiful<span style="margin-left: auto;">4 XP</span> </h1>
 
-<div> 
-<div style="display:inline-block; float:left;">
+[[Sight]]{.trait}
 
-#### [[Sight]]{.trait}
+[[Merit]]{.trait}
 
-</div>
-<div style="display:inline-block; float:left;">
-
-#### [[Merit]]{.trait}
-
-</div>
 <div style="clear:both" /> 
 
 **Requirements:** [[Pretty]]

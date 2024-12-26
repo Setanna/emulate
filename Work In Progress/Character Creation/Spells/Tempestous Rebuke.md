@@ -5,37 +5,18 @@ cssclass: pathfinder
 
 <h1> Tempestous Rebuke <span style="margin-left: auto;"> 1 </span> </h1>
 
-<div>  
-<div style="display:inline-block; float:left;">
+[[Evocation]]{.school-trait}
 
-#### [[Evocation]]{.school-trait}
+[[Arcane]]{.trait}
 
-</div>
-<div style="display:inline-block; float:left;">
+[[Defence]]{.trait}
 
-#### [[Arcane]]{.trait}
+[[Electricity]]{.trait}
 
-</div>
-<div style="display:inline-block; float:left;">
+[[Sonic]]{.trait}
 
-#### [[Defence]]{.trait}
+[[Somatic]]{.trait}
 
-</div>
-<div style="display:inline-block; float:left;">
-
-#### [[Electricity]]{.trait}
-
-</div>
-<div style="display:inline-block; float:left;">
-
-#### [[Sonic]]{.trait}
-
-</div>
-<div style="display:inline-block; float:left;">
-
-#### [[Somatic]]{.trait}
-
-</div>
 <div style="clear:both" /> 
 
 ___

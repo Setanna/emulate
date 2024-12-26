@@ -5,17 +5,10 @@ cssclass: pathfinder
 
 <h1> Pretty <span style="margin-left: auto;">1 XP</span> </h1>
 
-<div> 
-<div style="display:inline-block; float:left;">
+[[Sight]]{.trait}
 
-#### [[Sight]]{.trait}
+[[Merit]]{.trait}
 
-</div>
-<div style="display:inline-block; float:left;">
-
-#### [[Merit]]{.trait}
-
-</div>
 <div style="clear:both" /> 
 
 **Requirements:** You don't have the [[Ugly]] Trait or any trait that has it as a requirement

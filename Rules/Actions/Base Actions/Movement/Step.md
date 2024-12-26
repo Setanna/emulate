@@ -5,12 +5,8 @@ cssclass: pathfinder
 
 <h1> Step <span style="margin-left: auto;">1 Action</span> </h1>
 
-<div> 
-<div style="display:inline-block; float: left;"> 
+[[Movement]]{.trait}
 
-#### [[Movement]]{.trait}
-
-</div> 
 <div style="clear:both" /> 
 
 ___

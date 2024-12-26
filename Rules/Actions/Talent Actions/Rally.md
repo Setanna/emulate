@@ -6,17 +6,10 @@ cssclass: pathfinder
 
 <h1> Rally <span style="margin-left: auto;"> Any Number of Actions</span> </h1>
 
-<div> 
-<div style="display:inline-block; float: left;"> 
+[[Language]]{.trait}
 
-#### [[Language]]{.trait}
+[[Morale]]{.trait}
 
-</div> 
-<div style="display:inline-block; float:left;">
-
-#### [[Morale]]{.trait}
-
-</div>
 <div style="clear:both" />
 
 ___

@@ -5,17 +5,10 @@ cssclass: pathfinder
 
 <h1> Cowardly <span style="margin-left: auto;">-2 XP</span> </h1>
 
-<div> 
-<div style="display:inline-block; float: left;"> 
+[[Emotion]]{.trait}
 
-#### [[Emotion]]{.trait}
+[[Flaw]]{.trait}
 
-</div> 
-<div style="display:inline-block; float: left;"> 
-
-#### [[Flaw]]{.trait}
-
-</div> 
 <div style="clear:both" /> 
 
 **Requirements:** You don't have the [[Brave]] Trait.

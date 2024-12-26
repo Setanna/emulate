@@ -5,17 +5,10 @@ cssclass: pathfinder
 
 <h1> Shield Master<span style="margin-left: auto;">2 XP</span> </h1>
 
-<div> 
-<div style="display:inline-block; float: left;"> 
+[[Defence]]{.trait}
 
-#### [[Defence]]{.trait}
+[[Item | Item (Shield)]]{.trait}
 
-</div> 
-<div style="display:inline-block; float: left;"> 
-
-#### [[Item | Item (Shield)]]{.trait}
-
-</div> 
 <div style="clear:both" /> 
 
 **Required Talents:** [[Shield Specialist]]

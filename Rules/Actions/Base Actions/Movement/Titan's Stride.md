@@ -5,12 +5,8 @@ cssclass: pathfinder
 
 <h1> Titan's Stride <span style="margin-left: auto;">1 Action</span> </h1>
 
-<div> 
-<div style="display:inline-block; float: left;"> 
+[[Movement]]{.trait}
 
-#### [[Movement]]{.trait}
-
-</div> 
 <div style="clear:both" /> 
 
 **Requirements:** Both hands free.

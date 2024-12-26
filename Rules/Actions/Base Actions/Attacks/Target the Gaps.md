@@ -5,12 +5,8 @@ cssclass: pathfinder
 
 <h1> Target the Gaps <span style="margin-left: auto;">3 Actions</span> </h1>
 
-<div> 
-<div style="display:inline-block; float: left;"> 
-
-#### [[Attack]]{.trait}
-
-</div> 
+[[Attack]]{.trait}
+ 
 <div style="clear:both" /> 
 
 ___

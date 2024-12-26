@@ -5,17 +5,10 @@ cssclass: pathfinder
 
 <h1> Hideous <span style="margin-left: auto;">-4 XP</span> </h1>
 
-<div> 
-<div style="display:inline-block; float:left;">
+[[Sight]]{.trait}
 
-#### [[Sight]]{.trait}
+[[Flaw]]{.trait}
 
-</div>
-<div style="display:inline-block; float:left;">
-
-#### [[Flaw]]{.trait}
-
-</div>
 <div style="clear:both" /> 
 
 **Requirements:** [[Ugly]]

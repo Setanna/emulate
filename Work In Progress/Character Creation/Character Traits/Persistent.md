@@ -5,17 +5,10 @@ cssclass: pathfinder
 
 <h1> Persistent <span style="margin-left: auto;">2 XP</span> </h1>
 
-<div> 
-<div style="display:inline-block; float:left;">
+[[Morale]]{.trait}
 
-#### [[Morale]]{.trait}
+[[Merit]]{.trait}
 
-</div>
-<div style="display:inline-block; float:left;">
-
-#### [[Merit]]{.trait}
-
-</div>
 <div style="clear:both" /> 
 
 **Requirements:** Wisdom +1
