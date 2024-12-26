@@ -24,4 +24,4 @@ ___
 <br>
 
 **System:**
-You start with 10 Gold Coins worth of [[Rules/Gear/Armor]], [[Rules/Gear/Shields]] and [[Weapons]]. Additionally you gain the [[Rally]] Action.
+You start with 10 Gold Coins worth of [[Rules/Gear/Armor]], [[Rules/Gear/Shields]] and [[Content/Gear/Weapons/Weapons]]. Additionally you gain the [[Rally]] Action.

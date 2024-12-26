@@ -13,4 +13,4 @@ Bonuses from the same source never stack.
 | [[Cover]]        |    ❌    | Stealh, Hit Class, Dexterity Saving Throw | Hiding behind terrain or others.        |
 | [[Luck]]         |    ✔     | Any Roll, Hit Class                       | Lucky                                   |
 | [[Morale]]       |    ❌    | Any Roll, Hit Class                       |                                         |
-| [[Proficiency]]  |    ✔     | Any Roll, Hit Class                       | Skill with certain ways of doing things |
+| [[Rules/Bonuses and Penalties/Proficiency]]  |    ✔     | Any Roll, Hit Class                       | Skill with certain ways of doing things |
