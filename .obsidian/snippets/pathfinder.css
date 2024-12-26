@@ -53,13 +53,13 @@
 }
 
 /*------ IMAGES ------*/
-img.thumbnail {
+.thumbnail {
     background: var(--bg-main);
     border: 1px solid #ddd;
     border-radius: 4px;
     float: right;
     clear: both;
     padding: 5px;
-    width: 150px;
+    width: 250px;
 }
 

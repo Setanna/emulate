@@ -3,7 +3,7 @@ tags: [content/talents/racial]
 cssclass: pathfinder  
 ---
 
-<h1> Dwarven Stoutness <span style="margin-left: auto;"> 4 XP</span> </h1>
+<h1> Dwarven Stoutness <span style="margin-left: auto;"> 8 XP</span> </h1>
 
 [[Racial]]{.trait}
 
@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-You count as two sizes larger for the purposes of [[Stats#Stats | Carrying Capacity]], [[size |weight and size modifiers (flight, stealth, attack, hit class, damage and damage reduction)]]. Additionally you also count as two sizes larger for food and water consumption.
+You count as two sizes larger for the purposes of [[Stats#Stats | Carrying Capacity]], [[Size | Weight]] and [[Size]] modifiers (flight, stealth, attack, hit class, damage and damage reduction). Additionally you also count as two sizes larger for food and water consumption.

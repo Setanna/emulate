@@ -5,11 +5,11 @@
     "fontSize": 16,
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FasPerson",
       "LiCode",
       "TiCode",
       "LiStar",
-      "FasUsers",
-      "RiFireLine"
+      "FasUsers"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -121,5 +121,6 @@
   "Work In Progress/Character Creation/Social Bonds": "FasUsers",
   "Work In Progress/Character Creation/Talents": "LiStar",
   "_meta/Syntax.md": "LiCode",
-  "Content/Character Creation/Social Bonds": "FasUsers"
+  "Content/Character Creation/Social Bonds": "FasUsers",
+  "_meta/Attachments/Races": "FasPerson"
 }

@@ -19,7 +19,7 @@
     "Econian",
     "Elarian"
   ],
-  "defaultViewMode": "preview",
+  "defaultViewMode": "source",
   "livePreview": false,
   "showInlineTitle": false,
   "readableLineLength": true,

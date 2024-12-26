@@ -11,6 +11,8 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
+![[Human.jpg]]{.thumbnail}
+
 ___
 
 **Hit Die:** d8

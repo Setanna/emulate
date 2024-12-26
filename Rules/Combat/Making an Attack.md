@@ -17,8 +17,17 @@ The Attacker rolls the attack with any relevant bonuses and penalties.
 ### 3.1 Resolve Defensive Reactions
 If any Defensive Reactions have been taken, they are resolved against the enemy attack roll.
 
-### 3.2 Roll Damage
-If the attack hits and goes through any Defensive Reactions, roll for damage with any relevant bonuses and penalties.
+### 3.2 Determine Success
+Determines the Success of the Attack: Critical Fail; Fail; Success; or Critical Success.
+
+### 3.3 Roll Damage
+If the attack hits and goes through any Defensive Reactions, roll for damage with any relevant bonuses and penalties. Damage rolled can never be less than 1.
+
+<br>
+
+If the attack would be a Critical Success, double the final damage roll (after applying penalties and bonuses).
+
+<br>
 
 > ### Example
 > 1. A Kobold targets a Human with a Slingshot.

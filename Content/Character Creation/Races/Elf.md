@@ -13,10 +13,14 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
+![[Elf.jpg]]{.thumbnail}
+
+
 ___
 
 **Hit Die:** d8
 **Ground Movement:** 5 meters
+
 
 ___
 
@@ -26,7 +30,7 @@ As graceful as they are beautiful, elves are seen as perfect lacking in flaws in
 <br>
 
 **Description:**
-Elves resemble human but without warts, rashes or any imperfections. As such they tend to be 1.5 to 2 metres tall and weigh 40 to 120 kg, placing them in the [[Size | Medium]] size category.
+Elves resemble human but without warts, rashes or any imperfections. As such they tend to be 1.5 to 2 metres tall and weigh 40 to 120 kg, placing them in the [[Size | Medium]] size category. In Addition to their striking beauty Elves tend to have long and sharp ears.
 
 <br>
 
@@ -37,10 +41,10 @@ Elves start with [[Pretty]]; [[Beautiful]]; [[Calm]] and proficiency in [[Percep
 # XP Distribution
 
 | Name                                                  | XP  |
-| ----------------------------------------------------- | --- |
-| [[Pretty]]                                            | 1   |
-| [[Beautiful]]                                         | 4   |
-| [[Calm]]                                              | 0   |
-| [[Rules/Stats and Skills/Proficiency \| Proficiency]] | 1   |
-| Total                                                 | 6   |
+| ----------------------------------------------------- |:---:|
+| [[Pretty]]                                            | +1  |
+| [[Beautiful]]                                         | +4  |
+| [[Calm]]                                              |  0  |
+| [[Rules/Stats and Skills/Proficiency \| Proficiency]] | +1  |
+| Total                                                 |  6  |
 
