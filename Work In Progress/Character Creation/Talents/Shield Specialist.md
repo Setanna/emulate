@@ -7,7 +7,7 @@ cssclass: pathfinder
 
 [[Defence]]{.trait}
 
-[[Item]]{.trait}
+[[Rules/Traits/Item]]{.trait}
 
 <div style="clear:both" /> 
 

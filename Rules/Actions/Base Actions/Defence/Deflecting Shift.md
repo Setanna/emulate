@@ -8,7 +8,7 @@ cssclass: pathfinder
 
 [[Defence]]{.trait}
 
-[[Item | Item (Armor)]]{.trait}
+[[Rules/Traits/Item| Item (Armor)]]{.trait}
 
 <div style="clear:both" />
 

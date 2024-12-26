@@ -8,7 +8,7 @@ cssclass: pathfinder
 
 [[Defence]]{.trait}
 
-[[Item | Item (Weapon or Light; Medium Shield)]]{.trait}
+[[Rules/Traits/Item| Item (Weapon or Light; Medium Shield)]]{.trait}
 
 [[Flexible]]{.trait}
 

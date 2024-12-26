@@ -6,7 +6,7 @@ cssclass: pathfinder
 
 <h1> Treat Wounds <span style="margin-left: auto;"> 4 Actions </span> </h1>
 
-[[Item | Item (Medicine Kit)]]{.trait}
+[[Rules/Traits/Item| Item (Medicine Kit)]]{.trait}
 
 [[Skill |Skill (Medicine)]]{.trait}
 
