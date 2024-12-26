@@ -5,11 +5,11 @@
     "fontSize": 16,
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiCode",
+      "TiCode",
       "LiStar",
       "FasUsers",
-      "RiFireLine",
-      "FasPerson",
-      "TiSparkles"
+      "RiFireLine"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -106,7 +106,6 @@
   "Content/Character Creation/Backgrounds": "LiBook",
   "Content/Character Creation": "FabCreativeCommonsBy",
   "Content/Character Creation/Talents": "LiStar",
-  "Content/Character Creation/Social Bonds": "FasUsers",
   "Content/Character Creation/Spells": "RiFireLine",
   "Rules/Spellcasting": "RiFireLine",
   "Rules/Bonuses and Penalties": "FasPlus",
@@ -120,5 +119,7 @@
   "Work In Progress/Character Creation/Races": "FasPerson",
   "Work In Progress/Character Creation/Spells": "RiFireLine",
   "Work In Progress/Character Creation/Social Bonds": "FasUsers",
-  "Work In Progress/Character Creation/Talents": "LiStar"
+  "Work In Progress/Character Creation/Talents": "LiStar",
+  "_meta/Syntax.md": "LiCode",
+  "Content/Character Creation/Social Bonds": "FasUsers"
 }

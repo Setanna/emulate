@@ -55,6 +55,7 @@ kanban-plugin: board
 		- [ ] [[Rules/Bonuses and Penalties/Morale|Morale]] Penalty
 	- [ ] Decimals should be . not ,
 	- [ ] Update Traits to be nested properly
+		- [ ] Make Enhanced Tables work with Display:inline
 
 
 ## Done
