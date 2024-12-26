@@ -10,7 +10,7 @@ cssclass: pathfinder
 
 | Name        | Damage Die      | Traits                                      | Cost   | Weight |
 | ----------- | --------------- | ------------------------------------------- | ------ | ------ |
-| [[Dagger]]  | 1d4 piercing    | [[Vital Strike \| Vital Strike (d8)]]       | 30 cc  | 0.6 kg |
+| Dagger      | 1d4 piercing    | [[Vital Strike \| Vital Strike (d8)]]       | 30 cc  | 0.6 kg |
 | Club        | 1d6 bludgeoning |                                             | 9 cc   | 2 kg   |
 | Greatclub   | 1d8 bludgeoning |                                             | 27 cc  | 6 kg   |
 | Staff       | 1d6 bludgeoning |                                             | 18 cc  | 3.4 kg |
@@ -30,13 +30,13 @@ cssclass: pathfinder
 
 ## Advanced Weapons
 ### Melee Weapons
-| Name         | Damage Die | Traits | Cost  | Weight |
-| ------------ | ---------- | ------ | ----- | ------ |
-| Battleaxe    | 1d8 s      |        | 23 cc | 2 kg   |
-| Longsword    | 1d8 s      |        | 25 cc | 1.9 kg |
-| Mace         | 1d8 b      |        | 20 cc | 2.5 kg |
-| War Hammer   | 1d8 b      |        | 21 cc | 2.3 kg |
-| Battle Axe   | 1d8 s      |        | 23 cc | 2 kg   |
-| [[Greataxe]] | 1d12 s     |        | 24 cc | 4.5 kg |
+| Name       | Damage Die | Traits | Cost  | Weight |
+| ---------- | ---------- | ------ | ----- | ------ |
+| Battleaxe  | 1d8 s      |        | 23 cc | 2 kg   |
+| Longsword  | 1d8 s      |        | 25 cc | 1.9 kg |
+| Mace       | 1d8 b      |        | 20 cc | 2.5 kg |
+| War Hammer | 1d8 b      |        | 21 cc | 2.3 kg |
+| Battle Axe | 1d8 s      |        | 23 cc | 2 kg   |
+| Greataxe   | 1d12 s     |        | 24 cc | 4.5 kg |
 
 ### Ranged Weapons
