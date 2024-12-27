@@ -1,7 +1,3 @@
-Joen lugter
-PF2 er bedre end PF1
-
-
 Good JS:
 text = [ 72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100]
 str = []
