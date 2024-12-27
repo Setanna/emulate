@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Medicine Kit <span style="margin-left: auto;">20 SC</span> </h1>
+<h1> Medicine Kit <span style="margin-left: auto;">20 CC</span> </h1>
 
 [[Kit]]{.trait}
 

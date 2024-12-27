@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Writing Kit <span style="margin-left: auto;">15 SC</span> </h1>
+<h1> Writing Kit <span style="margin-left: auto;">15 CC</span> </h1>
 
 [[Kit]]{.trait}
 
