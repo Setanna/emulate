@@ -7,9 +7,11 @@ cssclass: pathfinder
 
 [[Offence]]{.trait}
 
+[[Morale]]{.trait}
+
 <div style="clear:both" /> 
 
-**Requirement:** The [[Sadistic]] Trait
+**Requirement:** [[Sadistic]]
 ___
 
 **System:**

@@ -50,8 +50,9 @@ Each creature has a set of skills based on the 6 [[Stats]].
 | Name          | Example |
 | ------------- | ------- |
 | Bluff         |         |
+| Diplomacy     |         |
 | Disguise      |         |
 | Handle Animal |         |
-| Intimidate    |         | 
+| Intimidate    |         |
 | Perform       |         |
 

@@ -16,8 +16,8 @@ ___
 <br>
 
 **System:**
-At the end of Preparation you gain a number of Spell Points equal to your Charisma.
+You gain a number of Spell Points equal to your Charisma and regain any expended Spell Points at the end of a [[Resting | Long Rest]].
 
 <br>
 
-
+Additionally you learn 5 Spells of your choice.

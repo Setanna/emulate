@@ -5,11 +5,11 @@
     "fontSize": 16,
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FasUser",
       "FasPerson",
       "LiCode",
       "TiCode",
-      "LiStar",
-      "FasUsers"
+      "LiStar"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
