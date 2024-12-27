@@ -33,6 +33,9 @@ Backgrounds typically give an amount of coins to spend on specific things. Once 
 ### Picking Character Traits
 Once a background has been chosen Character Traits are next. Character Traits are the traits that define your character, whether they are incredibly [[Beautiful]] or stubbornly [[Persistent]]. Just because a character doesn't have a certain Character Trait does not mean they can't express similar emotion or acquire it at a later time from the Game Master.
 
+### Picking Social Bonds
+Social Bonds determine what bonds a character might have, such as being a regular at a tavern and getting a discount.
+
 ### Picking Talents
 Talents are the meat of a Character, they determine what and what a character can't do. Examples of Character Archetypes below show their related talents.
 
@@ -63,3 +66,7 @@ The last choice is Ability Scores. Each Ability Score starts at 0 and can be inc
 
 ## Leveling Up
 When leveling up a character gains additional XP. This newly gained XP can only be spent on Ability Scores and Talents. At the discretion of the Game Master a character can gain or loose Traits if it is in character.
+
+<br>
+
+Social Bonds can also be bought upon Leveling Up, but must be accepted by the Game Master.

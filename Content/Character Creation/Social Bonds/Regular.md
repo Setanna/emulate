@@ -7,6 +7,8 @@ cssclass: pathfinder
 
 [[Wealth]]{.trait}
 
+[[Social]]{.trait}
+
 <div style="clear:both" /> 
 
 ___
