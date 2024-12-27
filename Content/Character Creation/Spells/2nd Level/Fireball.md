@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Fireball <span style="margin-left: auto;"> 3 </span> </h1>
+<h1> Fireball <span style="margin-left: auto;"> 2 </span> </h1>
 
 [[Evocation]]{.school-trait}
 

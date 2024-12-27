@@ -14,7 +14,7 @@ cssclass: pathfinder
 ___
 
 **System:**
-While benefiting from cover you can crouch or move in a way to place you better behind cover; increase your cover by one step until you take your next action.
+While benefiting from cover you can crouch or move in a way to place you better behind cover; increase your cover by one step against the attack or source with the [[Blast]] trait.
 
 <br>
 

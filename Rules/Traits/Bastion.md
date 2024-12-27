@@ -8,4 +8,4 @@ Shields with the Bastion Trait are large enough for others to gain cover behind.
 
 <br>
 
-Additionally Shields with the Bastion Trait can used to [[Take Cover]] for the wielder and others.
+Additionally Shields with the Bastion Trait don't grant a reaction and can only be used to [[Take Cover]] or [[Block]] Reaction.
