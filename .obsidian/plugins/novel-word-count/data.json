@@ -511,35 +511,6 @@
         "cssclass": "pathfinder"
       }
     },
-    "Work In Progress/Character Creation/Talents/Mini Spellbane.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 84,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.28,
-      "characterCount": 575,
-      "nonWhitespaceCharacterCount": 465,
-      "readingTimeInMinutes": 0.3169811320754717,
-      "linkCount": 2,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1735306089310,
-      "modifiedDate": 1735306089310,
-      "sizeInBytes": 615,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.28,
-        "wordCount": 84,
-        "characterCount": 575,
-        "nonWhitespaceCharacterCount": 465
-      },
-      "frontmatter": {
-        "tags": [],
-        "cssclass": "pathfinder"
-      }
-    },
     "Work In Progress/Character Creation/Talents/Disarming Block.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -563,6 +534,35 @@
         "wordCount": 35,
         "characterCount": 304,
         "nonWhitespaceCharacterCount": 243
+      },
+      "frontmatter": {
+        "tags": [],
+        "cssclass": "pathfinder"
+      }
+    },
+    "Work In Progress/Character Creation/Talents/Mini Spellbane.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 84,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.28,
+      "characterCount": 575,
+      "nonWhitespaceCharacterCount": 465,
+      "readingTimeInMinutes": 0.3169811320754717,
+      "linkCount": 2,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1735306089310,
+      "modifiedDate": 1735306089310,
+      "sizeInBytes": 615,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.28,
+        "wordCount": 84,
+        "characterCount": 575,
+        "nonWhitespaceCharacterCount": 465
       },
       "frontmatter": {
         "tags": [],
@@ -656,6 +656,35 @@
         "cssclass": "pathfinder"
       }
     },
+    "Work In Progress/Character Creation/Races/Orc.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 89,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.2966666666666667,
+      "characterCount": 669,
+      "nonWhitespaceCharacterCount": 534,
+      "readingTimeInMinutes": 0.33584905660377357,
+      "linkCount": 3,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1735306089301,
+      "modifiedDate": 1735306089301,
+      "sizeInBytes": 711,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.2966666666666667,
+        "wordCount": 89,
+        "characterCount": 669,
+        "nonWhitespaceCharacterCount": 534
+      },
+      "frontmatter": {
+        "tags": [],
+        "cssclass": "pathfinder"
+      }
+    },
     "Work In Progress/Character Creation/Races/Resonants/Resonants.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -733,35 +762,6 @@
         "wordCount": 37,
         "characterCount": 331,
         "nonWhitespaceCharacterCount": 266
-      },
-      "frontmatter": {
-        "tags": [],
-        "cssclass": "pathfinder"
-      }
-    },
-    "Work In Progress/Character Creation/Races/Orc.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 89,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.2966666666666667,
-      "characterCount": 669,
-      "nonWhitespaceCharacterCount": 534,
-      "readingTimeInMinutes": 0.33584905660377357,
-      "linkCount": 3,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1735306089301,
-      "modifiedDate": 1735306089301,
-      "sizeInBytes": 711,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.2966666666666667,
-        "wordCount": 89,
-        "characterCount": 669,
-        "nonWhitespaceCharacterCount": 534
       },
       "frontmatter": {
         "tags": [],
@@ -2682,35 +2682,6 @@
         "cssclass": "pathfinder"
       }
     },
-    "Rules/Spellcasting/Schools/Divination.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 1,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.0033333333333333335,
-      "characterCount": 16,
-      "nonWhitespaceCharacterCount": 11,
-      "readingTimeInMinutes": 0.0037735849056603774,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1735306089254,
-      "modifiedDate": 1735306089254,
-      "sizeInBytes": 56,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.0033333333333333335,
-        "wordCount": 1,
-        "characterCount": 16,
-        "nonWhitespaceCharacterCount": 11
-      },
-      "frontmatter": {
-        "tags": [],
-        "cssclass": "pathfinder"
-      }
-    },
     "Rules/Spellcasting/Schools/Transmutation.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -2850,6 +2821,35 @@
         "wordCount": 1,
         "characterCount": 19,
         "nonWhitespaceCharacterCount": 12
+      },
+      "frontmatter": {
+        "tags": [],
+        "cssclass": "pathfinder"
+      }
+    },
+    "Rules/Spellcasting/Schools/Divination.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 1,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 16,
+      "nonWhitespaceCharacterCount": 11,
+      "readingTimeInMinutes": 0.0037735849056603774,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1735306089254,
+      "modifiedDate": 1735306089254,
+      "sizeInBytes": 56,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.0033333333333333335,
+        "wordCount": 1,
+        "characterCount": 16,
+        "nonWhitespaceCharacterCount": 11
       },
       "frontmatter": {
         "tags": [],
@@ -3407,29 +3407,29 @@
         "cssclass": "pathfinder"
       }
     },
-    "Rules/Combat/Negative Hit Points.md": {
+    "Rules/Combat/Temporary Hit Points.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 47,
+      "wordCount": 92,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.15666666666666668,
-      "characterCount": 273,
-      "nonWhitespaceCharacterCount": 221,
-      "readingTimeInMinutes": 0.17735849056603772,
-      "linkCount": 2,
+      "pageCount": 0.30666666666666664,
+      "characterCount": 517,
+      "nonWhitespaceCharacterCount": 407,
+      "readingTimeInMinutes": 0.3471698113207547,
+      "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1735315248819,
-      "modifiedDate": 1735315641430,
-      "sizeInBytes": 310,
+      "createdDate": 1735306089237,
+      "modifiedDate": 1735306089238,
+      "sizeInBytes": 557,
       "sessionStart": {
         "noteCount": 1,
-        "pageCount": 0.15666666666666668,
-        "wordCount": 47,
-        "characterCount": 273,
-        "nonWhitespaceCharacterCount": 221
+        "pageCount": 0.30666666666666664,
+        "wordCount": 92,
+        "characterCount": 517,
+        "nonWhitespaceCharacterCount": 407
       },
       "frontmatter": {
         "tags": [],
@@ -3465,35 +3465,6 @@
         "cssclass": "pathfinder"
       }
     },
-    "Rules/Combat/Temporary Hit Points.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 92,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.30666666666666664,
-      "characterCount": 517,
-      "nonWhitespaceCharacterCount": 407,
-      "readingTimeInMinutes": 0.3471698113207547,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1735306089237,
-      "modifiedDate": 1735306089238,
-      "sizeInBytes": 557,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.30666666666666664,
-        "wordCount": 92,
-        "characterCount": 517,
-        "nonWhitespaceCharacterCount": 407
-      },
-      "frontmatter": {
-        "tags": [],
-        "cssclass": "pathfinder"
-      }
-    },
     "Rules/Combat/Resting.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -3523,23 +3494,52 @@
         "cssclass": "pathfinder"
       }
     },
+    "Rules/Combat/Negative Hit Points.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 47,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.15666666666666668,
+      "characterCount": 273,
+      "nonWhitespaceCharacterCount": 221,
+      "readingTimeInMinutes": 0.17735849056603772,
+      "linkCount": 2,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1735315248819,
+      "modifiedDate": 1735315641430,
+      "sizeInBytes": 310,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.15666666666666668,
+        "wordCount": 47,
+        "characterCount": 273,
+        "nonWhitespaceCharacterCount": 221
+      },
+      "frontmatter": {
+        "tags": [],
+        "cssclass": "pathfinder"
+      }
+    },
     "Rules/Combat/Making an Attack.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 203,
+      "wordCount": 215,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.6766666666666666,
-      "characterCount": 1288,
-      "nonWhitespaceCharacterCount": 1022,
-      "readingTimeInMinutes": 0.7660377358490567,
+      "pageCount": 0.7166666666666667,
+      "characterCount": 1329,
+      "nonWhitespaceCharacterCount": 1085,
+      "readingTimeInMinutes": 0.8113207547169812,
       "linkCount": 1,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1735306089236,
-      "modifiedDate": 1735306089236,
-      "sizeInBytes": 1328,
+      "modifiedDate": 1735320097468,
+      "sizeInBytes": 1366,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.6766666666666666,
@@ -3755,35 +3755,6 @@
         "cssclass": "pathfinder"
       }
     },
-    "Rules/Bonuses and Penalties/Resistance.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 19,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.06333333333333334,
-      "characterCount": 123,
-      "nonWhitespaceCharacterCount": 99,
-      "readingTimeInMinutes": 0.07169811320754717,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1735306089230,
-      "modifiedDate": 1735306089230,
-      "sizeInBytes": 163,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.06333333333333334,
-        "wordCount": 19,
-        "characterCount": 123,
-        "nonWhitespaceCharacterCount": 99
-      },
-      "frontmatter": {
-        "tags": [],
-        "cssclass": "pathfinder"
-      }
-    },
     "Rules/Bonuses and Penalties/Proficiency.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -3807,6 +3778,35 @@
         "wordCount": 15,
         "characterCount": 102,
         "nonWhitespaceCharacterCount": 82
+      },
+      "frontmatter": {
+        "tags": [],
+        "cssclass": "pathfinder"
+      }
+    },
+    "Rules/Bonuses and Penalties/Resistance.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 19,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.06333333333333334,
+      "characterCount": 123,
+      "nonWhitespaceCharacterCount": 99,
+      "readingTimeInMinutes": 0.07169811320754717,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1735306089230,
+      "modifiedDate": 1735306089230,
+      "sizeInBytes": 163,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.06333333333333334,
+        "wordCount": 19,
+        "characterCount": 123,
+        "nonWhitespaceCharacterCount": 99
       },
       "frontmatter": {
         "tags": [],
@@ -3871,35 +3871,6 @@
         "cssclass": "pathfinder"
       }
     },
-    "Rules/Bonuses and Penalties/Item.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 19,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.06333333333333334,
-      "characterCount": 104,
-      "nonWhitespaceCharacterCount": 80,
-      "readingTimeInMinutes": 0.07169811320754717,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1735306089227,
-      "modifiedDate": 1735306089227,
-      "sizeInBytes": 144,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.06333333333333334,
-        "wordCount": 19,
-        "characterCount": 104,
-        "nonWhitespaceCharacterCount": 80
-      },
-      "frontmatter": {
-        "tags": [],
-        "cssclass": "pathfinder"
-      }
-    },
     "Rules/Bonuses and Penalties/Cover.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -3923,6 +3894,35 @@
         "wordCount": 34,
         "characterCount": 217,
         "nonWhitespaceCharacterCount": 177
+      },
+      "frontmatter": {
+        "tags": [],
+        "cssclass": "pathfinder"
+      }
+    },
+    "Rules/Bonuses and Penalties/Item.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 19,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.06333333333333334,
+      "characterCount": 104,
+      "nonWhitespaceCharacterCount": 80,
+      "readingTimeInMinutes": 0.07169811320754717,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1735306089227,
+      "modifiedDate": 1735306089227,
+      "sizeInBytes": 144,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.06333333333333334,
+        "wordCount": 19,
+        "characterCount": 104,
+        "nonWhitespaceCharacterCount": 80
       },
       "frontmatter": {
         "tags": [],
@@ -4480,35 +4480,6 @@
         "cssclass": "pathfinder"
       }
     },
-    "Rules/Actions/Base Actions/Defence/Intercepting Step.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 57,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.19,
-      "characterCount": 398,
-      "nonWhitespaceCharacterCount": 326,
-      "readingTimeInMinutes": 0.21509433962264152,
-      "linkCount": 3,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1735313893242,
-      "modifiedDate": 1735314182253,
-      "sizeInBytes": 435,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.19,
-        "wordCount": 57,
-        "characterCount": 398,
-        "nonWhitespaceCharacterCount": 326
-      },
-      "frontmatter": {
-        "tags": [],
-        "cssclass": "pathfinder"
-      }
-    },
     "Rules/Actions/Base Actions/Defence/Take Cover.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -4590,6 +4561,35 @@
         "wordCount": 92,
         "characterCount": 681,
         "nonWhitespaceCharacterCount": 573
+      },
+      "frontmatter": {
+        "tags": [],
+        "cssclass": "pathfinder"
+      }
+    },
+    "Rules/Actions/Base Actions/Defence/Intercepting Step.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 57,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.19,
+      "characterCount": 398,
+      "nonWhitespaceCharacterCount": 326,
+      "readingTimeInMinutes": 0.21509433962264152,
+      "linkCount": 3,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1735313893242,
+      "modifiedDate": 1735314182253,
+      "sizeInBytes": 435,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.19,
+        "wordCount": 57,
+        "characterCount": 398,
+        "nonWhitespaceCharacterCount": 326
       },
       "frontmatter": {
         "tags": [],
@@ -4756,7 +4756,7 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1735306089203,
-      "modifiedDate": 1735306089203,
+      "modifiedDate": 1735320147568,
       "sizeInBytes": 457,
       "sessionStart": {
         "noteCount": 1,
@@ -4994,7 +4994,7 @@
         "noteCount": 1,
         "pageCount": 0.12,
         "wordCount": 36,
-        "characterCount": 318,
+        "characterCount": 299,
         "nonWhitespaceCharacterCount": 250
       },
       "frontmatter": {
@@ -5010,20 +5010,20 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.14,
-      "characterCount": 349,
+      "characterCount": 330,
       "nonWhitespaceCharacterCount": 275,
       "readingTimeInMinutes": 0.15849056603773584,
       "linkCount": 1,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1735306089193,
-      "modifiedDate": 1735306089194,
-      "sizeInBytes": 389,
+      "modifiedDate": 1735319160457,
+      "sizeInBytes": 367,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.14,
         "wordCount": 42,
-        "characterCount": 349,
+        "characterCount": 330,
         "nonWhitespaceCharacterCount": 275
       },
       "frontmatter": {
@@ -5292,35 +5292,6 @@
         "cssclass": "pathfinder"
       }
     },
-    "Content/Character Creation/Talents/Proficiency/Bardic Lore.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 48,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.16,
-      "characterCount": 462,
-      "nonWhitespaceCharacterCount": 403,
-      "readingTimeInMinutes": 0.1811320754716981,
-      "linkCount": 7,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1735314453505,
-      "modifiedDate": 1735315060406,
-      "sizeInBytes": 501,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.16,
-        "wordCount": 48,
-        "characterCount": 462,
-        "nonWhitespaceCharacterCount": 403
-      },
-      "frontmatter": {
-        "tags": [],
-        "cssclass": "pathfinder"
-      }
-    },
     "Content/Character Creation/Talents/Proficiency/Musical Prodigy.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -5489,6 +5460,35 @@
         "wordCount": 26,
         "characterCount": 290,
         "nonWhitespaceCharacterCount": 252
+      },
+      "frontmatter": {
+        "tags": [],
+        "cssclass": "pathfinder"
+      }
+    },
+    "Content/Character Creation/Talents/Proficiency/Bardic Lore.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 48,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.16,
+      "characterCount": 462,
+      "nonWhitespaceCharacterCount": 403,
+      "readingTimeInMinutes": 0.1811320754716981,
+      "linkCount": 7,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1735314453505,
+      "modifiedDate": 1735315060406,
+      "sizeInBytes": 501,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.16,
+        "wordCount": 48,
+        "characterCount": 462,
+        "nonWhitespaceCharacterCount": 403
       },
       "frontmatter": {
         "tags": [],
@@ -5872,35 +5872,6 @@
         "cssclass": "pathfinder"
       }
     },
-    "Content/Character Creation/Spells/2nd Level/Fireball.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 87,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.29,
-      "characterCount": 781,
-      "nonWhitespaceCharacterCount": 645,
-      "readingTimeInMinutes": 0.3283018867924528,
-      "linkCount": 4,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1735306089165,
-      "modifiedDate": 1735312419430,
-      "sizeInBytes": 820,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.29,
-        "wordCount": 87,
-        "characterCount": 781,
-        "nonWhitespaceCharacterCount": 645
-      },
-      "frontmatter": {
-        "tags": [],
-        "cssclass": "pathfinder"
-      }
-    },
     "Content/Character Creation/Spells/Spells.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -5924,6 +5895,35 @@
         "wordCount": 219,
         "characterCount": 1366,
         "nonWhitespaceCharacterCount": 1070
+      },
+      "frontmatter": {
+        "tags": [],
+        "cssclass": "pathfinder"
+      }
+    },
+    "Content/Character Creation/Spells/2nd Level/Fireball.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 87,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.29,
+      "characterCount": 781,
+      "nonWhitespaceCharacterCount": 645,
+      "readingTimeInMinutes": 0.3283018867924528,
+      "linkCount": 4,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1735306089165,
+      "modifiedDate": 1735312419430,
+      "sizeInBytes": 820,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.29,
+        "wordCount": 87,
+        "characterCount": 781,
+        "nonWhitespaceCharacterCount": 645
       },
       "frontmatter": {
         "tags": [],
@@ -6046,52 +6046,23 @@
         "cssclass": "pathfinder"
       }
     },
-    "Content/Character Creation/Spells/0th Level/Dirge of Doom.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 98,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.32666666666666666,
-      "characterCount": 947,
-      "nonWhitespaceCharacterCount": 789,
-      "readingTimeInMinutes": 0.36981132075471695,
-      "linkCount": 9,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1735313185813,
-      "modifiedDate": 1735313634499,
-      "sizeInBytes": 986,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.32666666666666666,
-        "wordCount": 98,
-        "characterCount": 947,
-        "nonWhitespaceCharacterCount": 789
-      },
-      "frontmatter": {
-        "tags": [],
-        "cssclass": "pathfinder"
-      }
-    },
     "Content/Character Creation/Spells/0th Level/Shocking Grasp.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 94,
+      "wordCount": 97,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.31333333333333335,
-      "characterCount": 938,
-      "nonWhitespaceCharacterCount": 751,
-      "readingTimeInMinutes": 0.35471698113207545,
-      "linkCount": 7,
+      "pageCount": 0.3233333333333333,
+      "characterCount": 915,
+      "nonWhitespaceCharacterCount": 767,
+      "readingTimeInMinutes": 0.3660377358490566,
+      "linkCount": 8,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1735306089161,
-      "modifiedDate": 1735306089161,
-      "sizeInBytes": 980,
+      "modifiedDate": 1735320120027,
+      "sizeInBytes": 954,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.31333333333333335,
@@ -6108,19 +6079,19 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 83,
+      "wordCount": 86,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.27666666666666667,
-      "characterCount": 863,
-      "nonWhitespaceCharacterCount": 685,
-      "readingTimeInMinutes": 0.3132075471698113,
-      "linkCount": 5,
+      "pageCount": 0.2866666666666667,
+      "characterCount": 836,
+      "nonWhitespaceCharacterCount": 697,
+      "readingTimeInMinutes": 0.32452830188679244,
+      "linkCount": 6,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1735306089160,
-      "modifiedDate": 1735306089160,
-      "sizeInBytes": 905,
+      "modifiedDate": 1735319722431,
+      "sizeInBytes": 875,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.27666666666666667,
@@ -6156,6 +6127,35 @@
         "wordCount": 138,
         "characterCount": 1102,
         "nonWhitespaceCharacterCount": 908
+      },
+      "frontmatter": {
+        "tags": [],
+        "cssclass": "pathfinder"
+      }
+    },
+    "Content/Character Creation/Spells/0th Level/Dirge of Doom.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 98,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.32666666666666666,
+      "characterCount": 947,
+      "nonWhitespaceCharacterCount": 789,
+      "readingTimeInMinutes": 0.36981132075471695,
+      "linkCount": 9,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1735313185813,
+      "modifiedDate": 1735313634499,
+      "sizeInBytes": 986,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.32666666666666666,
+        "wordCount": 98,
+        "characterCount": 947,
+        "nonWhitespaceCharacterCount": 789
       },
       "frontmatter": {
         "tags": [],
@@ -6423,35 +6423,6 @@
         "cssclass": "pathfinder"
       }
     },
-    "Content/Character Creation/Character Traits/Persistent.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 86,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.2866666666666667,
-      "characterCount": 642,
-      "nonWhitespaceCharacterCount": 525,
-      "readingTimeInMinutes": 0.32452830188679244,
-      "linkCount": 4,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1735306089145,
-      "modifiedDate": 1735306089146,
-      "sizeInBytes": 682,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.2866666666666667,
-        "wordCount": 86,
-        "characterCount": 642,
-        "nonWhitespaceCharacterCount": 525
-      },
-      "frontmatter": {
-        "tags": [],
-        "cssclass": "pathfinder"
-      }
-    },
     "Content/Character Creation/Character Traits/Observant.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -6475,6 +6446,35 @@
         "wordCount": 40,
         "characterCount": 377,
         "nonWhitespaceCharacterCount": 311
+      },
+      "frontmatter": {
+        "tags": [],
+        "cssclass": "pathfinder"
+      }
+    },
+    "Content/Character Creation/Character Traits/Persistent.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 86,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.2866666666666667,
+      "characterCount": 642,
+      "nonWhitespaceCharacterCount": 525,
+      "readingTimeInMinutes": 0.32452830188679244,
+      "linkCount": 4,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1735306089145,
+      "modifiedDate": 1735306089146,
+      "sizeInBytes": 682,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.2866666666666667,
+        "wordCount": 86,
+        "characterCount": 642,
+        "nonWhitespaceCharacterCount": 525
       },
       "frontmatter": {
         "tags": [],

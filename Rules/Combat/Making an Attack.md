@@ -6,7 +6,7 @@ cssclass: pathfinder
 # Making an Attack
 
 ### 1. Determine Target
-The Attacker chooses a target they can see within range of their attack.
+The Attacker chooses a target they can see within range of their attack. Melee Attacks add Strength to the roll while Ranged attacks add Dexterity.
 
 ### 2. Defensive Reactions
 The Defender chooses whether or not they will use any reactions with the [[Defence]] trait. The Defender must be aware of the attack to be able to use any reactions.

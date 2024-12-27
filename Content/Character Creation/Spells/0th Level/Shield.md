@@ -42,4 +42,4 @@ ___
 
 ___
 
-You weave strands of magic together to a physical barrier. You gain a Shield Value equal to your Spellcasting Modifier. This Shield Value is used reactively against the attack.
+You weave strands of magic together to a physical barrier. You gain a Shield Value equal to your Spellcasting Modifier. This Shield Value is used as the [[Block]] Reaction against the attack.
