@@ -11,4 +11,4 @@ ___
 
 
 **System:**
-A torch burns for 1 hour, shedding [[Lighting | Norma Lighting]] for 5 meters and [[Lighting | Dim Light]] for another 5 meters.
+A torch burns for 1 hour, shedding [[Lighting | Normal Lighting]] for 5 meters and [[Lighting | Dim Light]] for another 5 meters.
