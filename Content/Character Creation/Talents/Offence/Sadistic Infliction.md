@@ -9,6 +9,8 @@ cssclass: pathfinder
 
 [[Morale]]{.trait}
 
+[[Pain]]{.trait}
+
 <div style="clear:both" /> 
 
 **Requirement:** [[Sadistic]]
