@@ -9,11 +9,11 @@ cssclass: pathfinder
  
 <div style="clear:both" /> 
 
-**Requirements:** Constitution 3+
+**Requirements:** Constitution 3
 ___
 *Your conviction is your armor.*
 
 <br>
 
 **System:**
-You do not fall unconscious due to having Negative hit Points.
+When you are at [[Negative Hit Points]] you don't fall [[Unconscious]] and gain the [[Slowed | Slowed 2]] Condition.
