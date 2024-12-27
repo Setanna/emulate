@@ -7,10 +7,12 @@ cssclass: pathfinder
 Bonuses from the same source never stack.
 
 	
-| Name             | Stacking | Applies to                                | Description                             |
-| ---------------- |:--------:| ----------------------------------------- | --------------------------------------- |
-| [[Circumstance]] |    ✔     | Any Roll, Hit Class                       | The circumstance of the roll            |
-| [[Cover]]        |    ❌    | Stealh, Hit Class, Dexterity Saving Throw | Hiding behind terrain or others.        |
-| [[Luck]]         |    ✔     | Any Roll, Hit Class                       | Lucky                                   |
-| [[Morale]]       |    ❌    | Any Roll, Hit Class                       |                                         |
-| [[Rules/Bonuses and Penalties/Proficiency]]  |    ✔     | Any Roll, Hit Class                       | Skill with certain ways of doing things |
+| Name                                                       | Stacking | Applies to                                |
+| ---------------------------------------------------------- |:--------:| ----------------------------------------- |
+| [[Circumstance]]                                           |    ✔     | Any Roll, Hit Class                       |
+| [[Cover]]                                                  |    ❌    | Stealh, Hit Class, Dexterity Saving Throw |
+| [[Item]]                                                   |    ✔     | Any Roll, Damage Rolls, Hit Class         |
+| [[Luck]]                                                   |    ✔     | Any Roll, Damage Rolls, Hit Class         |
+| [[Morale]]                                                 |    ❌    | Any Roll, Damage Rolls, Hit Class         |
+| [[Rules/Bonuses and Penalties/Proficiency \| Proficiency]] |    ✔     | Any Roll, Damage Rolls, Hit Class         |
+| [[Resistance]]                                             |    ✔     | Saving Throws                             | 
