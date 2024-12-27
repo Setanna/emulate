@@ -30,13 +30,17 @@ cssclass: pathfinder
 
 ## Advanced Weapons
 ### Melee Weapons
-| Name       | Damage Die | Traits | Cost  | Weight |
-| ---------- | ---------- | ------ | ----- | ------ |
-| Battleaxe  | 1d8 s      |        | 23 cc | 2 kg   |
-| Longsword  | 1d8 s      |        | 25 cc | 1.9 kg |
-| Mace       | 1d8 b      |        | 20 cc | 2.5 kg |
-| War Hammer | 1d8 b      |        | 21 cc | 2.3 kg |
-| Battle Axe | 1d8 s      |        | 23 cc | 2 kg   |
-| Greataxe   | 1d12 s     |        | 24 cc | 4.5 kg |
+| Name        | Damage Die       | Traits                                        | Cost   | Weight |
+| ----------- | ---------------- | --------------------------------------------- | ------ | ------ |
+| Battleaxe   | 1d8 slashing     |                                               | 1.5 sc | 4.4 kg |
+| Longsword   | 1d8 slashing     | [[Versatile \| Versatile (p)]]                | 1.2 sc | 3.8 kg |
+| Warhammer   | 1d8 bludgeoning  |                                               | 2.1 sc | 6.2 kg |
+| Greataxe    | 1d12 slashing    | [[Two Handed]]                                | 2.1 sc | 6.7 kg |
+| Greatsword  | 1d12 slashing    | [[Two Handed]] [[Versatile \| Versatile (p)]] | 1.8 sc | 5.4 kg |
+| Greathammer | 1d12 bludgeoning | [[Two Handed]]                                | 2.4 sc | 7.4 kg |
 
 ### Ranged Weapons
+| Name     | Damage Die | Range     | Traits | Cost  | Weight |
+| -------- | ---------- | --------- | ------ | ----- | ------ |
+| Shortbow | 1d6        | 10 meters |        | 9 cc  | 1.1 kg |
+| Longbow  | 1d8        | 30 meters |        | 14 cc | 2.7 kg |

@@ -8,20 +8,20 @@ cssclass: pathfinder
 ## Light Shields
 | Name    | Traits       | Cost  | Weight | Shield Value | Dex Penalty | Str Requirement |
 | ------- | ------------ | ----- | ------ | ------------ | ----------- | --------------- |
-| Buckler | [[Freehand]] | 10 cc | 0,7 kg | 1            | 0           | -2              | 
+| Buckler | [[Freehand]] | 9 cc | 1.7 kg | 1            | 0           | -2              |
 
 
 
 ## Medium Shields
 | Name         | Traits | Cost  | Weight | Shield Value | Dex Penalty | Str Requirement |
 | ------------ | ------ | ----- | ------ | ------------ | ----------- | --------------- |
-| Round Shield |        | 30 cc | 1,6 kg | 2            | 0           | 0               |
+| Round Shield |        | 14 cc | 2.5 kg | 2            | 0           | 0               |
 
 ## Heavy Shields
-| Name         | Traits                                   | Cost   | Weight | Shield Value | Dex Penalty | Str Requirement |
-| ------------ | ---------------------------------------- | ------ | ------ | ------------ | ----------- | --------------- |
-| Great Shield | [[Bulwark \| Bulwark (+2)]]              | 90 cc  | 4 kg   | 3            | 1           | 1               |
-| Tower Shield | [[Bastion]], [[Bulwark \| Bulwark (+3)]] | 1,5 sc | 7 kg   | 4            | 2           | 2               |
+| Name         | Traits                                   | Cost  | Weight | Shield Value | Dex Penalty | Str Requirement |
+| ------------ | ---------------------------------------- | ----- | ------ | ------------ | ----------- | --------------- |
+| Great Shield | [[Bulwark \| Bulwark (+2)]]              | 23 cc | 4.9 kg | 3            | 1           | 1               |
+| Tower Shield | [[Bastion]], [[Bulwark \| Bulwark (+3)]] | 32 cc | 7 kg   | 4            | 2           | 2               |
 
 ### Dexterity Penalty and Strength Requirement
 Dexterity Penalty is applied directly to ones Dexterity Score, lowering it while the shield is used.
