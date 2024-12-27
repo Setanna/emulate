@@ -13,7 +13,7 @@ ___
 <br>
 
 **System:**
-A Hoverlight can be activated using the [[Interact]] action. Once Activated the pebble will float above the users head and shed [[Lighting | Norma Lighting]] for 6 meters and [[Lighting | Dim Light]] for another 6 meters. 
+A Hoverlight can be activated using the [[Interact]] action. Once Activated the pebble will float above the users head and shed [[Lighting | Normal Lighting]] for 6 meters and [[Lighting | Dim Light]] for another 6 meters. 
 
 <br>
 
