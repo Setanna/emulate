@@ -11,4 +11,4 @@ cssclass: pathfinder
 
 ___
 **System:**
-You move up to four times your speed in metres.
+You move up to four times your speed in meters.

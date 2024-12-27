@@ -18,6 +18,12 @@ The general ideas for Emulate.
 - mudblood talent
 - dragons should be more bestial and wyvern ish.
 - Axes should have a cleave trait
+- Look into saves
+- Side Step might be op.
+- Suprise rounds
+- figure out frightened
+- look at 1d8 bleed damage
+	- Maybe only proc bleed damage once
 
 ## Optional Rules
 Crit on 1 and 20
