@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-When you are at [[Negative Hit Points]] you don't fall [[Unconscious]] and gain the [[Slowed | Slowed 2]] Condition.
+When you are at [[Negative Hit Points]] you gain the [[Slowed | Slowed 2]] Condition and don't fall [[Unconscious]].
