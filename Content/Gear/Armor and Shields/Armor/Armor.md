@@ -20,8 +20,15 @@ cssclass: pathfinder
 | Breast Plate | [[Loud]], [[Bulwark \| Bulwark +2]] | 2,25 sc | 15 kg  | 6            | 1           | 1               |
 
 ## Heavy Armor
-| Name        | Traits                                          | Cost    | Weight | Armour Value | Dex Penalty | Str Requirement |
-| ----------- | ----------------------------------------------- | ------- | ------ | ------------ | ----------- | --------------- |
-| Splint Mail | [[Loud]]                                        | 2,7 sc  | 18 kg  | 7            | 2           | 2               |
-| Half Plate  | [[Loud]], [[Bulwark \| Bulwark +3]]             | 3,15 sc | 21 kg  | 8            | 2           | 2               |
-| Full Plate  | [[Loud]], [[Bastion]] [[Bulwark \| Bulwark +4]] | 3,6 sc  | 24 kg  | 9            | 2           | 2               |
+| Name        | Traits                              | Cost    | Weight | Armour Value | Dex Penalty | Str Requirement |
+| ----------- | ----------------------------------- | ------- | ------ | ------------ | ----------- | --------------- |
+| Splint Mail | [[Loud]]                            | 2,7 sc  | 18 kg  | 7            | 2           | 2               |
+| Half Plate  | [[Loud]], [[Bulwark \| Bulwark +3]] | 3,15 sc | 21 kg  | 8            | 2           | 2               |
+| Full Plate  | [[Loud]], [[Bulwark \| Bulwark +4]] | 3,6 sc  | 24 kg  | 9            | 2           | 2               |
+
+### Dexterity Penalty and Strength Requirement
+Dexterity Penalty is applied directly to ones Dexterity Score, lowering it while the shield is used.
+
+<br>
+
+If a creature doesn't meet the Strength Requirement for Armor their Armor Value is applied to all Strength and Dexterity Based Rolls.
