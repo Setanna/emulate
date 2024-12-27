@@ -9,11 +9,11 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Dwarf]]
+**Requirements:** [[Dwarf]], [[Size | Small]]
 ___
 *As heavy and tough as a chunk of metal, and as agile.*
 
 <br>
 
 **System:**
-You count as two sizes larger for the purposes of [[Stats#Stats | Carrying Capacity]], [[Size | Weight]] and [[Size]] modifiers (flight, stealth, attack, hit class, damage and damage reduction). Additionally you also count as two sizes larger for food and water consumption.
+You count as two sizes larger for the purposes of [[Stats#Stats | Carrying Capacity]], [[Size | Weight]] and [[Size]] modifiers (flight, stealth, attack, hit class, and damage reduction). Additionally you also count as two sizes larger for food and water consumption and you gain a +4 [[Rules/Traits/Proficiency|Proficiency]] Bonus on Melee Damage Rolls.

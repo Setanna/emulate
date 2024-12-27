@@ -18,4 +18,4 @@ ___
 <br>
 
 **System:**
-You gain a -1 [[Morale]] Penalty on charisma skill checks against creatures lacking the [[Mindless]] and [[Emotionless]] trait.
+You gain a -1 [[Trait]] Penalty on charisma skill checks against creatures lacking the [[Mindless]] and [[Emotionless]] trait.

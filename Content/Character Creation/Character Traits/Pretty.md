@@ -20,4 +20,4 @@ ___
 <br>
 
 **System:**
-You gain a +1 [[Morale]] Bonus on charisma skill checks against creatures lacking the [[Mindless]] and [[Emotionless]] trait.
+You gain a +1  [[Trait]]  Bonus on charisma skill checks against creatures lacking the [[Mindless]] and [[Emotionless]] trait.

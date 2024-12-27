@@ -20,4 +20,4 @@ ___
 <br>
 
 **System:**
-You increase the Morale Bonus from the [[Pretty]] Trait to +3.
+You increase the [[Trait]] Bonus from the [[Pretty]] Trait to +3.

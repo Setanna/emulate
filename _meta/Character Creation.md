@@ -4,9 +4,9 @@
 To start character creation the Game Master must first determine what Starting XP will be for the party.
 
 | Example     | XP  |
-| ----------- | --- |
-| Gutter Rats | 0   |
-| Vagrant     | 4   |
+| ----------- |:---:|
+| Gutter Rats |  0  |
+| Vagrant     |  4  |
 | Commoner    | 10  |
 | Guard       | 19  |
 | Veteran     | 29  |
@@ -17,10 +17,10 @@ To start character creation the Game Master must first determine what Starting X
 XP or Experience Points can be used on Races; Backgrounds; Character Traits; Social Bonds; or Talents. When using XP this way deduct the amount detailed in the option chosen. Some options such as [[Gutter Rat]] have a negative XP cost meaning you gain XP for picking that option.
 
 ### Picking a Race
-Once starting XP has been determined a character must have a Race. 
+Once starting XP has been determined a character must select a Race. 
 
 ### Picking a Background
-Once a Race has been chosen a character must have a Background. This background should preferably be tied into a short story regarding their character.
+Once a Race has been chosen a character must select any number of Backgrounds. This background should preferably be tied into a short story regarding their character.
 
 <br>
 
@@ -50,23 +50,19 @@ Talents are the meat of a Character, they determine what and what a character ca
 The last choice is Ability Scores. Each Ability Score starts at 0 and can be increased or decreased as shown below.
 
 
-| Ability Score | XP Per | XP total |
-|:-------------:|:------:|:--------:|
-|      +5       |   5    |    15    |
-|      +4       |   4    |    10    |
-|      +3       |   3    |    6     |
-|      +2       |   2    |    3     |
-|      +1       |   1    |    1     |
-|       0       |   0    |    0     |
-|      -1       |   -1   |    -1    |
-|      -2       |   -2   |    -3    |
-|      -3       |   -3   |    -6    |
-|      -4       |   -4   |   -10    |
-|      -5       |   -5   |   -15    | 
+| Ability Score | XP Difference | XP total |
+|:-------------:|:-------------:|:--------:|
+|      +5       |       5       |    15    |
+|      +4       |       4       |    10    |
+|      +3       |       3       |    6     |
+|      +2       |       2       |    3     |
+|      +1       |       1       |    1     |
+|       0       |       0       |    0     |
+|      -1       |      -1       |    -1    |
+|      -2       |      -2       |    -3    |
+|      -3       |      -3       |    -6    |
+|      -4       |      -4       |   -10    |
+|      -5       |      -5       |   -15    |
 
 ## Leveling Up
-When leveling up a character gains additional XP. This newly gained XP can only be spent on Ability Scores and Talents. At the discretion of the Game Master a character can gain or loose Traits if it is in character.
-
-<br>
-
-Social Bonds can also be bought upon Leveling Up, but must be accepted by the Game Master.
+When leveling up a character gains additional XP. This newly gained XP can only be spent on Ability Scores and Talents. At the discretion of the Game Master a character can gain or loose Traits or Social Bonds if it is in character.
