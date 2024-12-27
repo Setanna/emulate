@@ -25,4 +25,4 @@ There are 2 types of weapons; Simple and Advanced. Simple weapons require no pro
 When making an attack roll with an Advanced weapon of which the attacker is not proficient, they concur a -2 Proficiency Penalty.
 
 ### Skills
-Rolling a skill roll without proper proficiency concurs a -2 Proficiency Penalty.
+Rolling a skill roll without proper proficiency concurs a -2 Proficiency Penalty. If you would gain Proficiency in a skill you're already Proficient in, instead gain a +1 [[Rules/Bonuses and Penalties/Proficiency|Proficiency]] Bonus to the Skill.
