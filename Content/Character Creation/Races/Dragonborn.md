@@ -33,7 +33,7 @@ Dragonborn tend to be large and frightening as the dragons they stem from. As su
 <br>
 
 **Racial Talents:**
-Dragonborn start with [[Dragon Scales]], [[Intimidating]] and proficiency in [[Intimidation]] and [[Perception]].
+Dragonborn start with [[Dragon Scales]], [[Intimidating]], [[Vision#Low-Light Vision \| Low-Light Vision]] and proficiency in [[Intimidation]] and [[Perception]].
 
 # XP Distribution
 
