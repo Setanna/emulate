@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Adventurer <span style="margin-left: auto;">1 XP</span> </h1>
+<h1> Adventurer <span style="margin-left: auto;">2 XP</span> </h1>
 
 [[Wealth]]{.trait}
 
@@ -15,4 +15,4 @@ ___
 <br>
 
 **System:**
-You start with [[Clothes | Common Clothes]] and 5 Silver Coins worth of [[Content/Gear/Armor and Shields/Armor/Armor|Armor]], [[Content/Gear/Armor and Shields/Shields/Shields|Shields]] and [[Content/Gear/Weapons/Weapons|Weapons]].
+You start with [[Clothes | Common Clothes]]; [[Rules/Traits/Proficiency|Proficiency]] in [[Perception]] and [[Survival]]; and 5 Silver Coins.

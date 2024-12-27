@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Entertainer <span style="margin-left: auto;">1 XP</span> </h1>
+<h1> Entertainer <span style="margin-left: auto;"> 2 XP</span> </h1>
 
 [[Wealth]]{.trait}
 
@@ -15,4 +15,4 @@ ___
 <br>
 
 **System:**
-You start with 5 Silver Coins worth of [[Instruments]], [[Clothes | Common Clothes]] and a +1 [[Rules/Bonuses and Penalties/Proficiency|Proficiency]] Bonus to a [[Skills | Perform Skill]] of your choice, of which you also gain Proficiency with.
+You start with 5 Silver Coins; [[Clothes | Common Clothes]]; and a +1 [[Rules/Bonuses and Penalties/Proficiency|Proficiency]] Bonus to a [[Skills | Perform Skill]] of your choice, of which you also gain Proficiency with.

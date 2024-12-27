@@ -26,10 +26,6 @@ Once a Race has been chosen a character must select any number of Backgrounds. T
 
 For example a human war noble sent out to reclaim his honor by capturing a prophesied hero would most likely have the [[Noble]] or [[Commander]] background. 
 
-<br>
-
-Backgrounds typically give an amount of coins to spend on specific things. Once one of those items have been acquired the rest of the coins are kept by the character or spent on other things.
-
 ### Picking Character Traits
 Once a background has been chosen Character Traits are next. Character Traits are the traits that define your character, whether they are incredibly [[Beautiful]] or stubbornly [[Persistent]]. Just because a character doesn't have a certain Character Trait does not mean they can't express similar emotion or acquire it at a later time from the Game Master.
 

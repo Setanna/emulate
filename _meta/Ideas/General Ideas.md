@@ -17,6 +17,7 @@ The general ideas for Emulate.
 	- Mind
 - mudblood talent
 - dragons should be more bestial and wyvern ish.
+- Axes should have a cleave trait
 
 ## Optional Rules
 Crit on 1 and 20
