@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-You gain proficiency with all [[Knowledge]] and all [[Rules/Bonuses and Penalties/Proficiency|Proficiency]] Bonuses you apply to the Perform Skill chosen in the [[Musical Prodigy]] Talent you also apply to [[Knowledge]] Rolls.
+You gain proficiency with all [[Knowledge]] Skills. Additionally all [[Rules/Bonuses and Penalties/Proficiency|Proficiency]] Bonuses you apply to the [[Perform]] Skill chosen in the [[Musical Prodigy]] Talent you also apply to [[Knowledge]] Skills.
