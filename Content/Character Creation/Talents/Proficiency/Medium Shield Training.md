@@ -9,6 +9,8 @@ cssclass: pathfinder
  
 <div style="clear:both" /> 
 
+**Requirements:** [[Light Shield Training]]
+
 ___
 
 <br>

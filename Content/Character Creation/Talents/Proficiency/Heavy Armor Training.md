@@ -9,6 +9,8 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
+**Requirements:** [[Medium Armor Training]]
+
 ___
 
 <br>
