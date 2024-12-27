@@ -65,7 +65,7 @@ kanban-plugin: board
 
 - [ ] **Line of Sight**
 	- [x] [[Line of Sight]]
-	- [x] [[Benefitting from Cover]]
+	- [x] [[Benefiting from Cover]]
 	- [x] [[Blinded]]
 	- [x] [[Perception]]
 	- [x]  [[Lighting]]

@@ -9,7 +9,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** Constitution 2+
+**Requirements:** Constitution +2; No Talents with the [[Arcane]] Trait
 ___
 *A latent resistance within you blunts the edge of hostile magic.*
 

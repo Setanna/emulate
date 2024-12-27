@@ -40,10 +40,10 @@ Social Bonds determine what bonds a character might have, such as being a regula
 Talents are the meat of a Character, they determine what and what a character can't do. Examples of Character Archetypes below show their related talents.
 
 
-| Archetype | Talents                                                           |
-| --------- | ----------------------------------------------------------------- |
-| Barbarian | [[Rage]], [[Medium Armor Training]], [[Advanced Weapon Training]] |
-| Marshal   |                                                                   |
+| Archetype | Talents                                                                |
+| --------- | ---------------------------------------------------------------------- |
+| Barbarian | [[Bloodlust]], [[Medium Armor Training]], [[Advanced Weapon Training]] | 
+| Marshal   |                                                                        |
 
 
 ### Picking Ability Scores
