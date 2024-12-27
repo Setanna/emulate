@@ -1,13 +1,11 @@
 [
   "table-editor-obsidian",
   "obsidian-banners",
-  "better-word-count",
   "obsidian-view-mode-by-frontmatter",
   "obsidian-icon-folder",
   "obsidian-image-toolkit",
   "obsidian-kanban",
   "obsidian-leaflet-plugin",
-  "novel-word-count",
   "ob-table-enhancer",
   "folder-note-plugin",
   "obsidian-style-settings",
@@ -15,5 +13,6 @@
   "markdown-attributes",
   "pf2-action-icons",
   "rich-foot",
-  "obsidian-git"
+  "obsidian-git",
+  "better-word-count"
 ]
