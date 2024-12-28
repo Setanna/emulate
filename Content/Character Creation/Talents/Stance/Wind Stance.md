@@ -13,7 +13,7 @@ cssclass: pathfinder
 
 **Requirements:** Strength 3
 ___
-*brrrrr.*
+*In stillness, the wind amplifies your reach, striking where your weapons cannot.*
 
 <br>
 
