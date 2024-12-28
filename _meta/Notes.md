@@ -5,6 +5,7 @@ Each new download do the following
 - [ ] Settings -> Community Plugins -> Novel Word Count -> Settings 
 	- [ ] Align Right
 	- [ ] 1st data type to show -> characters
+- [ ] Settings -> Editor -> Properties -> Hidden
 
 > this note box
 > is cool
