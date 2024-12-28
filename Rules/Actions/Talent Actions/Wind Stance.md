@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Windslash <span style="margin-left: auto;">1 Action</span> </h1>
+<h1> Wind Stance <span style="margin-left: auto;">1 Action</span> </h1>
 
 [[Offence]]{.trait}
 
