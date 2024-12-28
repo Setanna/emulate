@@ -8,6 +8,10 @@ cssclass: pathfinder
 ### Melee Weapons
 Melee Weapons are Strength Based and as such add Strength to Attack Rolls and Damage Rolls.
 
+<br>
+
+With a Melee Weapon you can Attack anyone within your Reach and [[Line of Sight]].
+
 ### Ranged Weapons
 Ranged Weapons are Dexterity Based and as such add Dexterity to Attack Rolls and to Damage Rolls.
 
@@ -28,7 +32,7 @@ With a Ranged Weapon you can Attack anyone within Maximum Range Increment and [[
 | Handaxe     | 1d6 slashing    | [[Light]]                                   | 60 cc  | 1.6 kg |
 | Lighthammer | 1d6 bludgeoning | [[Light]]                                   | 60 cc  | 1.9 kg |
 | Pickaxe     | 1d8 piercing    | [[Two Handed]]                              | 120 cc | 3.2 kg |
-| Spear       | 1d6 piercing    | [[Reach]], [[Versatile \| Versatile (1d8)]] | 60 cc  | 1.4 kg |
+| Spear       | 1d6 piercing    | [[Rules/Traits/Reach \|Reach 1]], [[Versatile \| Versatile (1d8)]] | 60 cc  | 1.4 kg |
 
 	
 ### Ranged Weapons
