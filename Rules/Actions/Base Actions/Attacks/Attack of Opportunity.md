@@ -9,6 +9,11 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
+**Trigger:** A creature within your Reach takes an Action with the [[Movement]] Trait.
+
 ___
+
+<br>
+
 **System:**
-You take an Attack Action against the creature that provoked the Attack of Opportunity. When making an Attack of Opportunity you can only take the [[Swing for the Fences]] Attack Action.
+You make a [[Swing for the Fences]] Attack against the creature that triggered the Attack of Opportunity. 
