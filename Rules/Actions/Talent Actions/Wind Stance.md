@@ -16,7 +16,7 @@ cssclass: pathfinder
 **Requirements:** You haven't taken an Action with the [[Movement]] Trait.
 
 ___
-*With a slash, the wind becomes your weapon, tearing through anything in its path.*
+*In stillness, the wind amplifies your reach, striking where your weapons cannot.*
 
 <br>
 

@@ -11,11 +11,12 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** Strength 3
+**Requirements:** Strength 2
 ___
-*In stillness, the wind amplifies your reach, striking where your weapons cannot.*
+*With a slash, the wind becomes your weapon, tearing through anything in its path.*
 
 <br>
 
 **System:**
-You gain the [[Wind Stance]] Action.
+All your Melee Weapons that deal Slashing Damage gain the [[Reach]] Trait with a value equal to your Strength. If you would make an Attack Roll outside your original [[Reach]] takes a -3 [[Circumstance]] Penalty to the Attack Roll.
+
