@@ -15,12 +15,11 @@ kanban-plugin: board
 - [ ] **Backgrounds; Talents; Traits and Spells**
 	- [ ] Races
 		- [ ] Mudblood
-- [ ] **Make.md**
 
 
 ## Doing
 
-- [ ] [[Races]]
+- [ ] **Races**
 	 - [ ] Age
 	 - [x] [[Human]]
 	 - [ ] [[Medusa]]
@@ -28,7 +27,7 @@ kanban-plugin: board
 	 - [x] [[Dragonborn]]
 	 - [x] [[Dwarf]]
 	 - [x] [[Elf]]
-		 - [x] Elves should start with [[Beautiful]]
+	 - Elves should start with [[Beautiful]]
 	 - [ ] [[Orc]]
 	 - [ ] [[Kobold]]
 - [ ] **Arcane**
@@ -63,6 +62,9 @@ kanban-plugin: board
 
 ## Done
 
+- [ ] **Plugins**
+	- [x] Make.Md
+	- Appears to be a Database Plugin
 - [ ] **Line of Sight**
 	- [x] [[Line of Sight]]
 	- [x] [[Benefiting from Cover]]
