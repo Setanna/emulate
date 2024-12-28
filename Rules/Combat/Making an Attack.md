@@ -6,26 +6,36 @@ cssclass: pathfinder
 # Making an Attack
 
 ### 1. Determine Target
-The Attacker chooses a target they can see within range of their attack. Melee Attacks add Strength to the roll while Ranged attacks add Dexterity.
+The Attacker chooses a Target within range (for ranged attacks); or reach (for melee attacks); that they have [[Line of Sight]] to.
 
 ### 2. Defensive Reactions
-The Defender chooses whether or not they will use any reactions with the [[Defence]] trait. The Defender must be aware of the attack to be able to use any reactions.
+If the Defender is aware of the attack, they can decide to use any reactions with the [[Defence]] trait. 
 
 ### 3. Roll Attack
-The Attacker rolls the attack with any relevant bonuses and penalties.
+The Attacker rolls a d20 and add Strength for melee attacks or Dexterity for ranged attacks.
 
 ### 3.1 Resolve Defensive Reactions
-If any Defensive Reactions have been taken, they are resolved against the enemy attack roll.
+If any Defensive Reactions have been taken, they are resolved against the Attacker's attack roll.
 
 ### 3.2 Determine Success
-Determines the Success of the Attack: Critical Fail; Fail; Success; or Critical Success.
-
-### 3.3 Roll Damage
-If the attack hits and goes through any Defensive Reactions, roll for damage with any relevant bonuses and penalties. Damage rolled can never be less than 1.
+Compare the Attacker's Attack Roll against the Defender's Hit Class:
 
 <br>
 
-If the attack would be a Critical Success, double the final damage roll (after applying penalties and bonuses).
+**Critical Success:** The Attack Roll is equal to or higher than the Defender's Hit Class + 10.
+**Success:** The Attack Roll is equal to or higher than the Defender's Hit Class.
+**Fail:** The Attack Roll is less than the Defender's Hit Class.
+**Critical Fail:** The Attack Roll is less than the Defender's Hit Class - 10.
+
+### 3.3 Roll Damage
+If the Attack Roll is a Success, roll the weapon's damage die and add Strength for melee attacks or Dexterity for ranged attacks.  Damage Rolled can never be less than 1.
+
+<br>
+
+If the Attack Roll is a Critical Success, roll the damage as for a regular Success and then double the damage.
+
+### 3.4 Apply Damage
+The Defender reduces the damage taken by their Damage Reduction, if any. Any remaining damage is then deducted from the Defenders Hit Points. In case of [[Temporary Hit Points]] are always deducted before Hit Points.
 
 <br>
 
