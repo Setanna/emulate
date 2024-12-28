@@ -18,5 +18,5 @@ ___
 <br>
 
 **System:**
-All your Melee Weapons that deal Slashing Damage gain the [[Reach]] Trait with a value equal to your Strength. If you would make an Attack Roll outside your original [[Reach]] takes a -3 [[Circumstance]] Penalty to the Attack Roll.
+All your Melee Weapons that deal Slashing Damage gain the [[Reach]] Trait with a value equal to your Strength. If you would make an Attack Roll outside your original [[Reach]], the Attack Roll takes a -3 [[Circumstance]] Penalty.
 
