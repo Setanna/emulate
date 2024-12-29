@@ -17,7 +17,7 @@ ___
 <br>
 
 **System:**
-You roll the relevant [[Rules/Stats and Skills/Skills/Knowledge]] Roll as shown in the table below.
+You roll the relevant [[Knowledge]] Roll as shown in the table below.
 
 
 
