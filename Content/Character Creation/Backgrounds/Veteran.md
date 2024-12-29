@@ -9,6 +9,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
+**Requirements:** Any one of the following: [[Adventurer]], [[Commander]], [[Sailor]], or [[Soldier]]
 ___
 *You've got hard earned experience*
 

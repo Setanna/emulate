@@ -11,7 +11,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** Strength +2
+**Requirements:** Strength 1
 
 ___
 *You've spent more time in the mines than you have in a bed.*

@@ -15,4 +15,4 @@ ___
 <br>
 
 **System:**
-You start with [[Clothes | Common Clothes]]; [[Rules/Traits/Proficiency|Proficiency]] in [[Perception]] and [[Survival]]; and 5 Silver Coins.
+You start with [[Clothes | Common Clothes]]; Proficiency in [[Perception]] and [[Survival]]; and 5 Silver Coins.

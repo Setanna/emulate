@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-You can no longer take any talents with the [[Wealth]] traits. You start with nothing but [[Clothes | rags]].
+You can no longer take any backgrounds or talents with the [[Wealth]] traits. You start with nothing but [[Clothes | rags]].
