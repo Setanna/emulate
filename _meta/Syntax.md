@@ -1,3 +1,8 @@
+---
+tags: []
+cssclass: pathfinder
+---
+
 # Syntax
 
 ## Emulate Syntax
@@ -5,7 +10,12 @@
 ### Decimals
 Decimals should use the `.` symbol, while thousand separators should use `,`.
 
-### Bonus and Penalties Linking
+### Linking
+Linking should only be done when necessary. Such as a background linking to the things it grants, but no to the proficiency rules as they're assumed to have been read at the given time. Another example is not linking to the rules on how to make an attack in attack actions, but rather linking to conditions the attack might give.
+
+<br>
+
+**Bonus and Penalties Linking**
 When linking to a specific type of bonus or penalty only the name should be linked such as a +1 [[Rules/Bonuses and Penalties/Morale|Morale]] Bonus.
 
 ### Requirements

@@ -45,7 +45,7 @@ Talents are the meat of a Character, they determine what and what a character ca
 
 
 ### Picking Ability Scores
-The last choice is Ability Scores. Each Ability Score starts at 0 and can be increased or decreased as shown below.
+The last choice is Ability Scores. Each Ability Score starts at 0 and can be increased or decreased as shown below. If any choice that has been chosen requires a stat to be a specific number or higher, that stat must be that number, or higher.
 
 
 | Ability Score | XP Difference | XP total |
