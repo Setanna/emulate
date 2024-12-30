@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 # Knowledge (Int)
-Knowledge has several categories as shown below:
+Knowledge  is actually a number of separate skills as shown below:
 
 
 | Knowledge   | Example                                                                                  |
@@ -18,6 +18,8 @@ Knowledge has several categories as shown below:
 | Nobility    | Lineages; heraldry; personalities; royalty                                               |
 | Planes      | Outsiders; planar magic                                                                  |
 | Religion    | Gods and goddesses; mythic history; ecclesiastic tradition; holy symbols; undead         | 
+
+Each Knowledge counts as their own skill.
 
 ### Example DC's
 
