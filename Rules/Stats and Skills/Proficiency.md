@@ -26,3 +26,9 @@ When making an attack roll with an Advanced weapon of which the attacker is not 
 
 ### Skills
 Rolling a skill roll without proper proficiency concurs a -2 Proficiency Penalty. If you would gain Proficiency in a skill you're already Proficient in, instead gain a +1 [[Rules/Bonuses and Penalties/Proficiency|Proficiency]] Bonus to the Skill.
+
+
+### Upgrading Proficiency
+To increase proficiency, it costs XP as defined as the table below:
+
+![[proficiency_xp_table.png]]{width=100%}
