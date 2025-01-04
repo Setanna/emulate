@@ -15,6 +15,10 @@ kanban-plugin: board
 - [ ] **Backgrounds; Talents; Traits and Spells**
 	- [ ] Races
 		- [ ] Mudblood
+- [ ] **Random Table Generation**
+	- [ ] Shops
+	 - Brew of the Week
+	 - Failed / Unkown Potions Shelf
 
 
 ## Doing
