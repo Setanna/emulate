@@ -25,10 +25,16 @@ There are 2 types of weapons; Simple and Advanced. Simple weapons require no pro
 When making an attack roll with an Advanced weapon of which the attacker is not proficient, they concur a -2 Proficiency Penalty.
 
 ### Skills
-Rolling a skill roll without proper proficiency concurs a -2 Proficiency Penalty. If you would gain Proficiency in a skill you're already Proficient in, instead gain a +1 [[Rules/Bonuses and Penalties/Proficiency|Proficiency]] Bonus to the Skill.
+Rolling a skill roll without proper proficiency concurs a -2 Proficiency Penalty. Gaining a +1 Proficiency Bonus or higher on a skill grants additional benefits as shown in the respective skill.
 
 
 ### Upgrading Proficiency
 To increase proficiency, it costs XP as defined as the table below:
 
 ![[proficiency_xp_table.png]]{width=100%}
+
+Before being able to purchase Heavy Armor Proficiency one must have Medium Armor Proficiency.
+
+<br>
+
+Before being able to Purchase Medium Shield Proficiency one must have Light Shield Training. The same is True for Heavy and Medium Shield Training.
