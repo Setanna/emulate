@@ -28,7 +28,6 @@ Perception covers all five base senses: sight, hearing, taste, touch and smell. 
 | Find the square of a creature by hearing | +10              | Hearing |
 | Creature making the check is distracted  | +5               | All     |
 | Creature making the check is asleep      | +10              | All     |
-| Source is standing out in the open       | -20              | Sight   |
 | Distance to the source                   | +1 per 10 meters | Sight   |
 | Creature or object is [[invsible]]       | +10              | Sight   |
 | [[Lighting]]                             | Varied           | Sight   |

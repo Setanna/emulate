@@ -10,17 +10,16 @@ cssclass: pathfinder
 
 <div style="clear:both" />
 
-**Requirement:** No one is aware of your presence.
 **Trigger:** Someone is about to spot you.
 ___
 
 **System:**
-You roll a [[Stealth]] Roll against all surrounding creatures [[Perception]] DC. Any Perception Modifiers such as range or closed doors reduce the [[Perception]] DC by their respective amount. Alternatively one can use the Hide Action as a single action instead of reaction.
+You roll a [[Stealth]] Roll against all surrounding creatures [[Perception]] DC. Any Perception Modifiers such as range or closed doors reduce the [[Perception]] DC by their respective amount. Alternatively one can use the Hide Action as a single action without the Trigger instead of reaction.
 
 <br>
 
-**Success:** The creature is unaware of you.
-**Fail:** The creature knows someone is hiding.
+**Success:** The creature is [[Unaware]] of you.
+**Fail:** The creature knows someone is hiding and the rough direction of the creature.
 **Critical Fail:** The creature knows your specific location.
 
 <br>

@@ -23,6 +23,8 @@ kanban-plugin: board
 
 ## Doing
 
+- [ ] **Testing**
+	- [ ] Try out Passive Perception only
 - [ ] **Races**
 	 - [ ] Age
 	 - [x] [[Human]]

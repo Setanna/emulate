@@ -8,6 +8,6 @@ An Unconscious creature drops anything it is holding; Goes [[Prone]] and can't t
 
 <br>
 
-Additionally an Unconscious creature automatically fails [[Saving Throws | Reflex]] Saving Throws and are Unaware of their surroundings.
+Additionally an Unconscious creature automatically fails [[Saving Throws | Reflex]] Saving Throws and are [[Unaware]] of their surroundings.
  
 
