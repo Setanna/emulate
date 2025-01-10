@@ -28,10 +28,10 @@ Climb is used to scale mountains and walls.
 You gain the following benefits when having a Proficiency Bonus equal to or higher than the given value.
 
 #### +1 Proficiency Bonus
-When using [[Rules/Actions/Base Actions/Skills/Climb|Climb]] and [[Swift Grip]] Actions you are not [[Flat-Footed]].
+You can [[Skills#Take 10 and 20 | Take 10]] on Climb Rolls during an Encounter.
 
 #### +2 Proficiency Bonus
-You can [[Skills#Take 10 and 20 | Take 10]] on Climb Rolls during an Encounter.
+When using [[Rules/Actions/Base Actions/Skills/Climb|Climb]] and [[Swift Grip]] Actions you are not [[Flat-Footed]].
 
 #### +3 Proficiency Bonus
 You can use the [[Rules/Actions/Base Actions/Skills/Climb|Climb]] and [[Swift Grip]] Actions  with one hand free without any penalties.
