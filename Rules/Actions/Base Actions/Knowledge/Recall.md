@@ -5,7 +5,7 @@ cssclass: pathfinder
 
 <h1> Recall <span style="margin-left: auto;">1 Action</span> </h1>
 
-[[Mental]]{.trait}
+[[Focus]]{.trait}
 
 [[Skill | Skill (Knowledge)]]{.trait}
 

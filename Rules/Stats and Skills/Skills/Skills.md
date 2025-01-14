@@ -13,6 +13,10 @@ When making a Skill Roll outside of an [[Encounters | Encounter]], one can elect
 
 Alternatively the roll can be treated as if the die had rolled 20, but the task would time 20 times as long. If the task takes 3 actions, taking 20 would make the action take 60 actions or 12 rounds. 
 
+<br>
+
+Whenever you take 10 or 20, the action used gains the [[Focus]] Trait.
+
 ## Skill Examples
 
 ### Strength

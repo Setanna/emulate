@@ -11,7 +11,7 @@ cssclass: pathfinder
 
 [[Defence]]{.trait}
 
-[[Mental]]{.trait}
+[[Focus]]{.trait}
 
 <div style="clear:both" /> 
 

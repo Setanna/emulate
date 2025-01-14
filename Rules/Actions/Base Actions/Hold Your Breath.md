@@ -6,7 +6,7 @@ cssclass: pathfinder
 
 <h1> Hold Your Breath <span style="margin-left: auto;"> Free Action </span> </h1>
 
-[[Mental]]{.trait}
+[[Focus]]{.trait}
 
 <div style="clear:both" />
 

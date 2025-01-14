@@ -7,7 +7,7 @@ cssclass: pathfinder
 
 [[Arcane]]{.trait}
 
-[[Mental]]{.trait}
+[[Focus]]{.trait}
 
 <div style="clear:both" /> 
 

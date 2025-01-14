@@ -7,7 +7,7 @@ cssclass: pathfinder
 
 [[Rules/Traits/Item|Item]]{.trait}
 
-[[Mental]]{.trait}
+[[Focus]]{.trait}
 
 [[Skill | Skill (Knowledge)]]{.trait}
 
