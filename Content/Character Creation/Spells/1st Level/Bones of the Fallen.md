@@ -46,5 +46,5 @@ You take their fucking bones. If the creature would be reduced to negative hit p
 
 <br>
 
-**Success:** This spell is counteracted.
+**Success:** This spell fails.
 **Fail:** The creature is killed and you gain a number of Temporary Hit Points equal to their Maximum Negative Hit Points.

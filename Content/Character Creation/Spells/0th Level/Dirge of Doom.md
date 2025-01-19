@@ -32,7 +32,7 @@ ___
 	<div style="display:inline-block; float: right; padding-right: 100px;"> 
 		<b>Saving Throw:</b> Will
 		<br>
-		<b>Duration:</b> Until start of your next turn
+		<b>Duration:</b> Instantaneous
 		<br>
 		<b>Damage:</b> None
 	</div> 
@@ -48,5 +48,5 @@ You play a haunting tune, you make a [[Perform | Perform (Instrument)]] Roll aga
 
 **Critical Success:** The creature gains [[Frightened | Frightened 2]].
 **Success:** The creature gains [[Frightened | Frightened 1]].
-**Fail:** The creature counteracts this Spell.
+**Fail:** You fail to intimidate the creature.
 

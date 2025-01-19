@@ -27,4 +27,4 @@ You roll an Intimidation Roll against all enemies Willpower DC. Enemies that can
 
 **Critical Success:** The enemy is [[Frightened | Frightened 3]].
 **Success:** The enemy is [[Frightened | Frightened 1]].
-**Fail:** The enemy counteracts the action.
+**Fail:** You fail to intimidate the enemy.

@@ -44,6 +44,6 @@ You implant horrid memory into the attacker, such as a creature about to cast fi
 
 <br>
 
-**Success:** The Attacker counteracts this spell.
+**Success:** The spell fails.
 **Fail:** The Attacker's Action is prevented and they loose a single action. The Attacker looses no used resources such as Spell Points. They can't try and use the same action again this turn.
 **Critical Fail:** The Attacker's Action is counteracted.

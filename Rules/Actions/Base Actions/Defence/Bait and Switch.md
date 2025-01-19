@@ -18,7 +18,7 @@ You lure your enemy into a false sense of advantage, only to leave their blade s
 
 <br>
 
-**Success:** The attack is counteracted.
+**Success:** The attack counts as a Miss.
 **Fail:** You reduce the damage taken by your Charisma.
 **Critical Fail:** You take full damage from the attack.
 

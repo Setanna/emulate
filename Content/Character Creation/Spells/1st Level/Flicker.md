@@ -42,4 +42,4 @@ ___
 
 ___
 
-You momentarily flicker out of existence. You counteract any attack or effect that triggered the reaction.
+You momentarily flicker out of existence. The attack counts as a Miss, while a Saving Throw counts as a Critical Success.

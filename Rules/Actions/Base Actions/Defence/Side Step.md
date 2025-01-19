@@ -18,7 +18,7 @@ You step out the way by taking the [[Step]] action and rolling a Reflex Saving T
 
 <br>
 
-**Success:** The attack is counteracted.
+**Success:** The attack counts as a Miss.
 **Fail:** You reduce the damage taken by your Dexterity.
 **Critical Fail:** You take full damage from the attack.
 
