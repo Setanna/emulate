@@ -2,7 +2,6 @@
   "table-editor-obsidian",
   "obsidian-banners",
   "obsidian-view-mode-by-frontmatter",
-  "obsidian-icon-folder",
   "obsidian-image-toolkit",
   "obsidian-kanban",
   "obsidian-leaflet-plugin",
@@ -16,5 +15,5 @@
   "obsidian-git",
   "better-word-count",
   "novel-word-count",
-  "iconic"
+  "obsidian-icon-folder"
 ]
