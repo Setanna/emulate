@@ -21,7 +21,8 @@ You shake the attacker to their core with a single look. You roll Intimidation a
 
 <br>
 
-**Success:** The attack counts as a Miss and the Attacker's [[Frightened]] Condition increases by 1.
+**Critical Success:** The attack counts as a Miss and the Attacker's [[Frightened]] Condition increases by 1.
+**Success:** The attack counts as a Miss.
 **Fail:** You reduce the damage taken by your Charisma.
 **Critical Fail:** You take full damage from the attack.
 
