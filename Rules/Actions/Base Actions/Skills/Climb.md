@@ -23,7 +23,7 @@ Alternatively you can use only one hand to climb, leaving the other hand free fo
 
 <br>
 
-**Critical Success:** You move up to your speed.
+**Critical Success:** You move up to half your speed, rounded up.
 **Success:** You move 1 meter.
 **Fail:** You don't move.
 **Critical Fail:** You [[Falling | Fall]].
