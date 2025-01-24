@@ -8,6 +8,8 @@ cssclass: pathfinder
 
 [[Defence]]{.trait}
 
+[[Skill | Skill (Bluff)]]{.trait}
+
 <div style="clear:both" />
 
 **Trigger:** You are the target of an Attack.
