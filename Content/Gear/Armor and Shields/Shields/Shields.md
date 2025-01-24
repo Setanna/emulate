@@ -15,7 +15,7 @@ cssclass: pathfinder
 ## Medium Shields
 | Name         | Traits | Cost  | Weight | Shield Value | Dex Penalty | Str Requirement |
 | ------------ | ------ | ----- | ------ | ------------ | ----------- | --------------- |
-| Round Shield |        | 14 cc | 2.5 kg | 2            | 0           | 0               |
+| Round Shield | [[Bulwark \| Bulwark (+1)]]       | 14 cc | 2.5 kg | 2            | 0           | 0               |
 
 ## Heavy Shields
 | Name         | Traits                                   | Cost  | Weight | Shield Value | Dex Penalty | Str Requirement |
