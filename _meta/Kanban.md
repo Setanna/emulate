@@ -52,6 +52,8 @@ kanban-plugin: board
 		- [ ] Improvised Weapons
 		- [ ] Weapon Traits
 - [ ] **Syntax File**
+	- [ ] Move Character Creation to Rules
+	- [ ] Find a way to get Rainbow Folders
 	- [ ] Make syntax file
 	- [ ] use ; for conditions as [[Deflecting Shift]]
 	- [ ] Requirements
