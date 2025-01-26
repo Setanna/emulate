@@ -1,3 +1,8 @@
+---
+tags: []
+cssclass: pathfinder
+---
+
 # Traits
 Traits are the defining structure of Emulate, defining how different actions and effects interact with one and another. This also helps the players easily identify things through keywords such as [[Blast]] and [[Movement]].
 
