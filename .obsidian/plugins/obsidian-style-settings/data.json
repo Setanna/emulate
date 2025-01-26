@@ -17,5 +17,21 @@
   "anuppuccin-theme-settings@@anp-simple-rainbow-icon-toggle": false,
   "anuppuccin-theme-settings@@anp-decoration-toggle": false,
   "anuppuccin-theme-settings@@anp-alt-rainbow-style": "anp-simple-rainbow-color-toggle",
-  "anuppuccin-theme-settings@@anuppuccin-accent-toggle": false
+  "anuppuccin-theme-settings@@anuppuccin-accent-toggle": false,
+  "fancy-a-story@@theme-variant-light": "fas-automn",
+  "fancy-a-story@@theme-variant-dark": "fas-mystic",
+  "fancy-a-story@@fas-opposite-bg": false,
+  "fancy-a-story@@header-style-h1": "none",
+  "fancy-a-story@@fas-sans-serif": true,
+  "fancy-a-story@@table-margin-inline": "0 auto",
+  "fancy-a-story@@image-shadow-offset": 0,
+  "fancy-a-story@@image-shadow-stripe-thickness": 0,
+  "fancy-a-story@@image-shadow-stripe-gap": 0,
+  "fancy-a-story@@fas-highlight-active-note": false,
+  "fancy-a-story@@fas-rainbow-folders": "enable",
+  "fancy-a-story@@fas-floating-mode-button": "disable",
+  "fancy-a-story@@table-style": "none",
+  "fancy-a-story@@file-line-width": 700,
+  "fancy-a-story@@fas-checkbox-style": "normal",
+  "fancy-a-story@@fas-bullet-style": "normal"
 }

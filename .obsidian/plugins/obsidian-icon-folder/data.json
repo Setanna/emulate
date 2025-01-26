@@ -111,7 +111,10 @@
   "Content/Gear/Other": "LiArchive",
   "Content/Character Creation/Character Traits": "TiSparkles",
   "Rules/Actions": "TiSquareRotatedFilled",
-  "Work In Progress": "LiHammer",
+  "Work In Progress": {
+    "iconName": "LiHammer",
+    "iconColor": "#ccc500"
+  },
   "Work In Progress/Character Creation": "FabCreativeCommonsBy",
   "Work In Progress/Character Creation/Backgrounds": "LiBook",
   "Work In Progress/Character Creation/Character Traits": "TiSparkles",

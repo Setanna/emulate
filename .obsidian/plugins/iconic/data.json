@@ -1,0 +1,74 @@
+{
+  "biggerIcons": "mobile",
+  "clickableIcons": "desktop",
+  "showAllFileIcons": false,
+  "showAllFolderIcons": false,
+  "minimalFolderIcons": true,
+  "showItemName": "desktop",
+  "biggerSearchResults": "mobile",
+  "maxSearchResults": 50,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorDrag": false,
+  "uncolorSelect": false,
+  "uncolorQuick": false,
+  "rememberDeletedItems": false,
+  "dialogState": {
+    "iconMode": true,
+    "emojiMode": false,
+    "rulePage": "file"
+  },
+  "appIcons": {},
+  "tabIcons": {},
+  "fileIcons": {
+    "Content": {
+      "icon": "lucide-book",
+      "unsynced": [
+        "9c4516fa28f7815a"
+      ],
+      "color": "orange"
+    },
+    "Content/Character Creation": {
+      "icon": "lucide-person-standing",
+      "unsynced": [
+        "9c4516fa28f7815a"
+      ],
+      "color": "orange"
+    },
+    "Content/Gear": {
+      "icon": "lucide-package",
+      "color": "orange",
+      "unsynced": [
+        "9c4516fa28f7815a"
+      ]
+    },
+    "Rules": {
+      "icon": "lucide-scroll-text",
+      "unsynced": [
+        "9c4516fa28f7815a"
+      ],
+      "color": "pink"
+    },
+    "Work In Progress": {
+      "icon": "lucide-hammer",
+      "unsynced": [
+        "9c4516fa28f7815a"
+      ],
+      "color": "yellow"
+    },
+    "_meta": {
+      "icon": "lucide-git-pull-request",
+      "unsynced": [
+        "9c4516fa28f7815a"
+      ],
+      "color": "purple"
+    }
+  },
+  "bookmarkIcons": {},
+  "tagIcons": {},
+  "propertyIcons": {},
+  "ribbonIcons": {},
+  "fileRules": [],
+  "folderRules": []
+}
