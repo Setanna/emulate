@@ -6,11 +6,11 @@ cssclass: pathfinder
 # Armor
 
 ## Light Armor
-| Name         | Traits                               | Cost  | Weight | Armor Value | Dex Penalty | Str Requirement |
-| ------------ | ------------------------------------ | ----- | ------ | ----------- | ----------- | --------------- |
-| Padded       | [[Comfy]]                            | 9 cc  | 2 kg   | 1           | 0           | 0               |
-| Leather      | [[Comfy]]                            | 23 cc | 3 kg   | 2           | 0           | 0               |
-| Gambeson     | [[Comfy]]                            | 27 cc | 6 kg   | 3           | 0           | 0               |
+| Name     | Traits    | Cost  | Weight | Armor Value | Dex Penalty | Str Requirement |
+| -------- | --------- | ----- | ------ | ----------- | ----------- | --------------- |
+| Padded   | [[Comfy]] | 9 cc  | 2 kg   | 1           | 0           | 0               |
+| Leather  | [[Comfy]] | 23 cc | 3 kg   | 2           | 0           | 0               |
+| Gambeson | [[Comfy]] | 27 cc | 6 kg   | 3           | 0           | 0               |
 
 ## Medium Armor
 | Name         | Traits                               | Cost   | Weight | Armor Value | Dex Penalty | Str Requirement |
