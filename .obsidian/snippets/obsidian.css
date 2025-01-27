@@ -5,9 +5,13 @@
 }
 
 .cm-hmd-internal-link .cm-underline, .internal-link {
-text-decoration: initial !important
+    text-decoration: initial !important;
 }
 
+/*------ Fold ------*/
+.heading-collapse-indicator {
+    margin-inline-start: -44px !important;
+}
 
 /*------ HEADERS ------*/
 /*------ Remove headers margin ------*/
