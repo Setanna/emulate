@@ -4,6 +4,14 @@
   --bold-modifier: 300 !important;
 }
 
+.markdown-preview-view {
+    color: #D5D5D5 !important;
+}
+
+.cm-html-embed th, .markdown-rendered th {
+    color: #D5D5D5 !important;
+}
+
 .cm-hmd-internal-link .cm-underline, .internal-link {
     text-decoration: initial !important;
 }
