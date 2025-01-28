@@ -4,4 +4,4 @@ cssclass: pathfinder
 ---
 
 # Snapfit
-Gear with the Snapfit Trait can be equipped and worn in the same [[Interact]] action used to pick it up.
+Gear with the Snapfit Trait can be donned in the same [[Interact]] Action used to pick it up. Additionally the armor can also be doffed in a single [[Interact]] Action.
