@@ -1,0 +1,7 @@
+---
+tags: []
+cssclass: pathfinder
+---
+
+# Sundering
+When a Weapon with the Sundering Trait scores a Critical Success on an Attack Roll. If it has its damage reduced by Armor; Shields; or Weapons, one of the items gains the [[Broken | Broken 1]] Condition. If the item already has the [[Broken | Broken 1]] Condition, it is instead increased by 1.
