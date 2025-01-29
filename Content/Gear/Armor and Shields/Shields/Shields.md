@@ -8,24 +8,24 @@ Shields are used in many [[Defence | Defensive]] Reactions such as [[Block]] and
 
 <br>
 
-Donning multiple shields 
+It is possible to wield two shields, but you would only gain a single additional reaction.
 
 ## Light Shields
 | Name    | Traits       | Cost | Weight | Shield Value | Dex Penalty | Str Requirement |
 | ------- | ------------ | ---- | ------ | ------------ | ----------- | --------------- |
-| Buckler | [[Freehand]] | 9 cc | 1.7 kg | 1            | 0           | -2              | 
+| Buckler | [[Freehand]] | 9 cc | 1.7 kg | 1            | 0           | -1              |
 
 
 
 ## Medium Shields
-| Name         | Traits                      | Cost  | Weight | Shield Value | Dex Penalty | Str Requirement |
-| ------------ | --------------------------- | ----- | ------ | ------------ | ----------- | --------------- |
-| Round Shield | [[Bulwark \| Bulwark (+1)]] | 14 cc | 2.5 kg | 2            | 0           | 0               |
+| Name         | Traits                                             | Cost  | Weight | Shield Value | Dex Penalty | Str Requirement |
+| ------------ | -------------------------------------------------- | ----- | ------ | ------------ | ----------- | --------------- |
+| Round Shield | [[Bash \| Bash (1d4)]],[[Bulwark \| Bulwark (+1)]] | 14 cc | 2.5 kg | 2            | 1           | 1               |
 
 ## Heavy Shields
 | Name         | Traits                                   | Cost  | Weight | Shield Value | Dex Penalty | Str Requirement |
 | ------------ | ---------------------------------------- | ----- | ------ | ------------ | ----------- | --------------- |
-| Great Shield | [[Bulwark \| Bulwark (+2)]]              | 23 cc | 4.9 kg | 3            | 1           | 1               |
+| Great Shield | [[Bulwark \| Bulwark (+2)]]              | 23 cc | 4.9 kg | 3            | 2           | 2               |
 | Tower Shield | [[Bastion]], [[Bulwark \| Bulwark (+3)]] | 32 cc | 7 kg   | 4            | 2           | 2               |
 
 ### Dexterity Penalty and Strength Requirement
