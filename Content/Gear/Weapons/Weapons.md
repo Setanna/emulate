@@ -36,10 +36,10 @@ With a Ranged Weapon you can Attack anyone within Maximum Range Increment and [[
 
 	
 ### Ranged Weapons
-| Name           | Damage Die | Range Increment | Traits         | Cost  | Weight |
-| -------------- | ---------- | --------------- | -------------- | ----- | ------ |
-| Light Crossbow | 1d6        | 10 meters       | [[Mechanical]] | 15 cc | 2.3 kg |
-| Heavy Crossbow | 1d8        | 30 meters       | [[Mechanical]] | 25 cc | 5.1 kg |
+| Name           | Damage Die | Range Increment | Traits                                 | Cost  | Weight |
+| -------------- | ---------- | --------------- | -------------------------------------- | ----- | ------ |
+| Light Crossbow | 1d8        | 10 meters       | [[Mechanical]], [[Reload \| Reload 2]] | 15 cc | 2.3 kg |
+| Heavy Crossbow | 1d10       | 30 meters       | [[Mechanical]], [[Reload \| Reload 3]] | 25 cc | 5.1 kg |
 
 
 ## Advanced Weapons
