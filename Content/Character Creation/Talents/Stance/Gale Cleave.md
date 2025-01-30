@@ -19,6 +19,4 @@ ___
 <br>
 
 **System:**
-Whenever you make an Attack using [[Content/Character Creation/Talents/Stance/Windslash|Windslash]], you can instead target all creatures within a cone or line:
-- **Cone:** A 90 degree cone with a range of your Reach.
-- **Line:** A 1 meter wide line with a range of twice your Reach.
+You gain the [[Rules/Actions/Talent Actions/Gale Cleave|Gale Cleave]] Action.
