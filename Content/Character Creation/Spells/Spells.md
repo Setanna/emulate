@@ -37,7 +37,7 @@ A spell can have
 - **Long Range:** 20 meters + 4 per Spell Point
 
 ### Damage
-A Spell deals damage in form of Damage Dice, similar to weapons.
+A Spell deals damage in form of Damage Dice, similar to weapons. Some Spells deal additional damage based on your Spell Stat. Your Spell Stat is the Stat used to Cast the Spell as defined by the Talent that granted you the Spellcasting.
 
 ### School
 The school of a spell typically defines what the spell is able to do.
