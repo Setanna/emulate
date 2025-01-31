@@ -1,0 +1,28 @@
+{
+  "styles": {
+    "_meta": {
+      "textColor": "#ffffff",
+      "backgroundColor": "#a30000",
+      "isBold": true
+    },
+    "Content": {
+      "textColor": "#ffffff",
+      "backgroundColor": "#965a50",
+      "isBold": true
+    },
+    "Rules": {
+      "backgroundColor": "#9664a0",
+      "applyToSubfolders": false,
+      "applyToFiles": false,
+      "isBold": true,
+      "textColor": "#ffffff"
+    },
+    "Work In Progress": {
+      "backgroundColor": "#ffc800",
+      "textColor": "#000000",
+      "isBold": true
+    }
+  },
+  "presets": {},
+  "presetOrder": []
+}

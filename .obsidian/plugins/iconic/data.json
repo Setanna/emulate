@@ -7,7 +7,7 @@
   "showItemName": "desktop",
   "biggerSearchResults": "mobile",
   "maxSearchResults": 50,
-  "colorPicker1": "list",
+  "colorPicker1": "rgb",
   "colorPicker2": "rgb",
   "uncolorHover": false,
   "uncolorDrag": false,
@@ -27,7 +27,7 @@
       "unsynced": [
         "9c4516fa28f7815a"
       ],
-      "color": "orange"
+      "color": "#ffffff"
     },
     "Content/Character Creation": {
       "icon": "lucide-person-standing",
@@ -48,21 +48,21 @@
       "unsynced": [
         "9c4516fa28f7815a"
       ],
-      "color": "pink"
+      "color": "#ffffff"
     },
     "Work In Progress": {
       "icon": "lucide-hammer",
       "unsynced": [
         "9c4516fa28f7815a"
       ],
-      "color": "yellow"
+      "color": "#000000"
     },
     "_meta": {
       "icon": "lucide-git-pull-request",
       "unsynced": [
         "9c4516fa28f7815a"
       ],
-      "color": "purple"
+      "color": "#ffffff"
     }
   },
   "bookmarkIcons": {},
