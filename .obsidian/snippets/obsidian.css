@@ -4,6 +4,10 @@
   --bold-modifier: 300 !important;
 }
 
+:root hr {
+    margin: 5px !important;
+}
+
 .markdown-preview-view {
     color: #D5D5D5 !important;
 }
