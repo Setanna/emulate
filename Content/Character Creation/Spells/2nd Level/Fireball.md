@@ -15,6 +15,8 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
+**Requirements:** [[Firebolt]]
+
 ___
 
 <div> 
