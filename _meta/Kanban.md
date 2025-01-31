@@ -52,6 +52,9 @@ kanban-plugin: board
 		- [ ] Improvised Weapons
 		- [ ] Weapon Traits
 - [ ] **Syntax File**
+	- [ ] Version Control
+	- Major.Minor.Patch.Hotfix
+	- 1.23.65.33
 	- [ ] Move Character Creation to Rules
 	- [ ] Find a way to get Rainbow Folders
 	- [ ] Make syntax file
