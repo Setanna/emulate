@@ -52,6 +52,9 @@ kanban-plugin: board
 		- [ ] Improvised Weapons
 		- [ ] Weapon Traits
 - [ ] **Syntax File**
+	- [ ] Spells Syntax
+	- Make Requirements in line with rest of text
+	- Make Spell Descriptors without css
 	- [ ] Version Control
 	- Major.Minor.Patch.Hotfix
 	- 1.23.65.33
