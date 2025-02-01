@@ -15,6 +15,7 @@ kanban-plugin: board
 - [ ] **Backgrounds; Talents; Traits and Spells**
 	- [ ] Races
 		- [ ] Mudblood
+	- [ ] Make [[Flanked]] Examples
 - [ ] **Random Table Generation**
 	- [ ] Shops
 	 - Brew of the Week

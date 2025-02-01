@@ -14,6 +14,9 @@ cssclass: pathfinder
 **Requirement:** The chosen character must also take this Social Bond.
 
 ___
+*Surrounded? No. Perfectly positioned.*
+
+<br>
 
 **System:**
-Choose a creature, while you and that creature are adjacent to each other you can not be Flanked.
+Choose a creature, while you and that creature are adjacent to each other you can not be [[Flanked]].
