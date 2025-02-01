@@ -25,44 +25,127 @@
     "Content": {
       "icon": "lucide-book",
       "unsynced": [
-        "9c4516fa28f7815a"
+        "9c4516fa28f7815a",
+        "ef88b428abf812c5"
       ],
       "color": "#ffffff"
     },
     "Content/Character Creation": {
       "icon": "lucide-person-standing",
       "unsynced": [
-        "9c4516fa28f7815a"
+        "9c4516fa28f7815a",
+        "ef88b428abf812c5"
       ],
-      "color": "orange"
+      "color": "#965a50"
     },
     "Content/Gear": {
       "icon": "lucide-package",
-      "color": "orange",
+      "color": "#965a50",
       "unsynced": [
-        "9c4516fa28f7815a"
+        "9c4516fa28f7815a",
+        "ef88b428abf812c5"
       ]
     },
     "Rules": {
       "icon": "lucide-scroll-text",
       "unsynced": [
-        "9c4516fa28f7815a"
+        "9c4516fa28f7815a",
+        "ef88b428abf812c5"
       ],
       "color": "#ffffff"
+    },
+    "Rules/Actions": {
+      "icon": "lucide-square",
+      "color": "#9664a0",
+      "unsynced": [
+        "ef88b428abf812c5"
+      ]
+    },
+    "Rules/Bonuses and Penalties": {
+      "icon": "lucide-plus",
+      "unsynced": [
+        "ef88b428abf812c5"
+      ],
+      "color": "#9664a0"
+    },
+    "Rules/Combat": {
+      "icon": "lucide-axe",
+      "unsynced": [
+        "ef88b428abf812c5"
+      ],
+      "color": "#9664a0"
+    },
+    "Rules/Conditions": {
+      "icon": "lucide-droplets",
+      "color": "#9664a0",
+      "unsynced": [
+        "ef88b428abf812c5"
+      ]
+    },
+    "Rules/Gear": {
+      "icon": "lucide-package",
+      "color": "#9664a0",
+      "unsynced": [
+        "ef88b428abf812c5"
+      ]
+    },
+    "Rules/Race": {
+      "icon": "lucide-person-standing",
+      "color": "#9664a0",
+      "unsynced": [
+        "ef88b428abf812c5"
+      ]
+    },
+    "Rules/Spellcasting": {
+      "icon": "lucide-flame",
+      "color": "#9664a0",
+      "unsynced": [
+        "ef88b428abf812c5"
+      ]
+    },
+    "Rules/Stats and Skills": {
+      "icon": "lucide-brain",
+      "color": "#9664a0",
+      "unsynced": [
+        "ef88b428abf812c5"
+      ]
+    },
+    "Rules/Traits": {
+      "icon": "lucide-sparkle",
+      "color": "#9664a0",
+      "unsynced": [
+        "ef88b428abf812c5"
+      ]
     },
     "Work In Progress": {
       "icon": "lucide-hammer",
       "unsynced": [
-        "9c4516fa28f7815a"
+        "9c4516fa28f7815a",
+        "ef88b428abf812c5"
       ],
       "color": "#000000"
     },
     "_meta": {
       "icon": "lucide-git-pull-request",
       "unsynced": [
-        "9c4516fa28f7815a"
+        "9c4516fa28f7815a",
+        "ef88b428abf812c5"
       ],
       "color": "#ffffff"
+    },
+    "_meta/Attachments": {
+      "icon": "lucide-paperclip",
+      "unsynced": [
+        "ef88b428abf812c5"
+      ],
+      "color": "#a30000"
+    },
+    "_meta/Ideas": {
+      "icon": "lucide-lightbulb",
+      "unsynced": [
+        "ef88b428abf812c5"
+      ],
+      "color": "#a30000"
     }
   },
   "bookmarkIcons": {},
