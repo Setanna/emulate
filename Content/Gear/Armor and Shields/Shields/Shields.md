@@ -4,11 +4,7 @@ cssclass: pathfinder
 ---
 
 # Shields
-Shields are used in many [[Defence | Defensive]] Reactions such as [[Block]] and [[Parry]]. When donning a shield you gain one additional reaction each turn which can only be used on [[Defence | Defensive]] Reactions. 
-
-<br>
-
-It is possible to wield two shields, but you would only gain a single additional reaction.
+Shields are used in many [[Defence | Defensive]] Reactions such as [[Block]] and [[Parry]].
 
 ## Light Shields
 | Name    | Traits       | Cost | Weight | Shield Value | Dex Penalty | Str Requirement |
