@@ -9,7 +9,7 @@ Shields are used in many [[Defence | Defensive]] Reactions such as [[Block]] and
 ## Light Shields
 | Name    | Traits                                  | Cost | Weight | Shield Value | Dex Penalty | Str Requirement |
 | ------- | --------------------------------------- | ---- | ------ | ------------ | ----------- | --------------- |
-| Buckler | [[Freehand]] [[Parrying \| Parrying 1]] | 9 cc | 1.7 kg | 1            | 0           | -1              |
+| Buckler | [[Freehand]], [[Parrying \| Parrying 1]] | 9 cc | 1.7 kg | 1            | 0           | -1              |
 
 
 
