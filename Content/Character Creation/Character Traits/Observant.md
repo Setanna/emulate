@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-You gain a +1 [[Rules/Bonuses and Penalties/Proficiency|Proficiency]] Bonus to [[Perception]] and [[Insight]] Rolls.
+You gain a +1 [[Trait]] Bonus to [[Perception]] and [[Insight]] Rolls.

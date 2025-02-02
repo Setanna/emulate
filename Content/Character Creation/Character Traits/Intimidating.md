@@ -17,4 +17,4 @@ ___
 <br>
 
 **System:**
-You gain a +1 [[Rules/Bonuses and Penalties/Proficiency|Proficiency]] Bonus on  [[Intimidation]] Rolls. Additionally you can use the [[Intimidate]] Action without Language.
+You gain a +1 [[Trait]] Bonus on  [[Intimidation]] Rolls. Additionally you can use the [[Intimidate]] Action without Language.
