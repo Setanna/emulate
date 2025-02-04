@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Veteran <span style="margin-left: auto;"> 2 XP</span> </h1>
+<h1> Veteran <span style="margin-left: auto;"> 4 XP</span> </h1>
 
 [[Wealth]]{.trait}
 
@@ -16,7 +16,7 @@ ___
 <br>
 
 **System:**
-You increase the Starting Coins of one of your backgrounds by 5 Silver Coins; And you gain a +1 [[Rules/Bonuses and Penalties/Proficiency|Proficiency]] Bonus on up to 2 [[Rules/Stats and Skills/Proficiency| Proficiencies]] gained from the background.
+You increase the Starting Coins of one of your backgrounds by 5 Silver Coins; And you gain a +1 [[Rules/Bonuses and Penalties/Proficiency|Proficiency]] Bonus on up to 2 [[Rules/Stats and Skills/Proficiency| Proficiencies]] gained from the background. 
 
 <br>
 
