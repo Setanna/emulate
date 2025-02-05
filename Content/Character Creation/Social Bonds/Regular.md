@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Regular <span style="margin-left: auto;">4 XP</span> </h1>
+<h1> Regular <span style="margin-left: auto;">1 XP</span> </h1>
 
 [[Wealth]]{.trait}
 
@@ -18,4 +18,4 @@ Choose an establishment. When buying an item or service from that specific estab
 
 <br>
 
-Additionally you gain a +1 to Interaction Skill Rolls with anyone running the establishment for anything other than the [[Barter]] Action.
+Additionally you gain a +1 [[Circumstance]] Bonus to Charisma Skill Rolls with anyone running the establishment for anything other than the [[Barter]] Action.
