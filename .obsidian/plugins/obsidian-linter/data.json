@@ -284,44 +284,72 @@
   "customRegexes": [
     {
       "label": "Strength",
-      "find": "strength",
-      "replace": "Strength",
-      "flags": "gm",
+      "find": "strength(\\.|\\s)",
+      "replace": "Strength$1",
+      "flags": "igm",
       "enabled": true
     },
     {
       "label": "Dexterity",
-      "find": "dexterity",
-      "replace": "Dexterity",
-      "flags": "gm",
+      "find": "dexterity(\\.|\\s)",
+      "replace": "Dexterity$1",
+      "flags": "igm",
       "enabled": true
     },
     {
       "label": "Constitution",
-      "find": "constitution",
-      "replace": "Constitution",
-      "flags": "gm",
+      "find": "constitution(\\.|\\s)",
+      "replace": "Constitution$1",
+      "flags": "igm",
       "enabled": true
     },
     {
       "label": "Intelligence",
-      "find": "intelligence",
-      "replace": "Intelligence",
-      "flags": "gm",
+      "find": "intelligence(\\.|\\s)",
+      "replace": "Intelligence$1",
+      "flags": "igm",
       "enabled": true
     },
     {
       "label": "Wisdom",
-      "find": "wisdom",
-      "replace": "Wisdom",
-      "flags": "gm",
+      "find": "wisdom(\\.|\\s)",
+      "replace": "Wisdom$1",
+      "flags": "igm",
       "enabled": true
     },
     {
       "label": "Charisma",
-      "find": "charisma",
-      "replace": "Charisma",
-      "flags": "gm",
+      "find": "charisma(\\.|\\s)",
+      "replace": "Charisma$1",
+      "flags": "igm",
+      "enabled": true
+    },
+    {
+      "label": "Skill",
+      "find": "skill(\\.|\\s)",
+      "replace": "Skill$1",
+      "flags": "igm",
+      "enabled": true
+    },
+    {
+      "label": "Check",
+      "find": "check(\\.|\\s)",
+      "replace": "Check$1",
+      "flags": "igm",
+      "enabled": true
+    },
+    {
+      "label": "Saving Throw",
+      "find": "saving throw(\\.|\\s)",
+      "replace": "Saving Throw$1",
+      "flags": "igm",
+      "enabled": true
+    },
+    {
+      "label": "Trait",
+      "find": "trait(\\.|\\s)",
+      "replace": "Trait$1",
+      "flags": "igm",
       "enabled": true
     }
   ],
