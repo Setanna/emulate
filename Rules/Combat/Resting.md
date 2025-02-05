@@ -26,7 +26,7 @@ A Long Rest is defined as 8 hours of uninterrupted downtime, of which 6 must be 
 <br>
 
 ### Finishing a Long Rest
-After finishing rest you roll your Racial Hit Die and regain a number of hit points equal to the result, to a minimum of your Constitution.
+After finishing rest you Roll your Racial Hit Die and regain a number of hit points equal to the result, to a minimum of your Constitution.
 
 ### Interrupting a Long Rest
 A Long Rest can be interrupted by the following:

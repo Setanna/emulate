@@ -17,7 +17,7 @@ ___
 <br>
 
 **System:**
-You roll the relevant [[Knowledge]] Roll as shown in the table below.
+You Roll the relevant [[Knowledge]] Roll as shown in the table below.
 
 
 
@@ -33,4 +33,4 @@ You roll the relevant [[Knowledge]] Roll as shown in the table below.
 
 **Critical Success:** You learn everything there is to know about the creature.
 **Success:** Your learn the creatures special powers; resistances; and vulnerabilities.
-**Fail:** You recall nothing and can't roll against the same creature.
+**Fail:** You recall nothing and can't Roll against the same creature.

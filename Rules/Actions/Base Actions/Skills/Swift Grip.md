@@ -15,7 +15,7 @@ cssclass: pathfinder
 ___
 
 **System:**
-You roll a Climb Roll against the DC of the surface you are falling past. While holding onto the edge you are [[Flat-Footed]].
+You Roll a Climb Roll against the DC of the surface you are falling past. While holding onto the edge you are [[Flat-Footed]].
 
 <br>
 

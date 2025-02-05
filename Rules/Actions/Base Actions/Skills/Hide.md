@@ -14,7 +14,7 @@ cssclass: pathfinder
 ___
 
 **System:**
-You roll a [[Stealth]] Roll against all surrounding creatures [[Perception]] DC. Any Perception Modifiers such as range or closed doors reduce the [[Perception]] DC by their respective amount. Alternatively one can use the Hide Action as a single action without the Trigger instead of reaction.
+You Roll a [[Stealth]] Roll against all surrounding creatures [[Perception]] DC. Any Perception Modifiers such as range or closed doors reduce the [[Perception]] DC by their respective amount. Alternatively one can use the Hide Action as a single action without the Trigger instead of reaction.
 
 <br>
 

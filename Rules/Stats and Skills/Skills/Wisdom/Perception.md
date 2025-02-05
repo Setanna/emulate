@@ -48,4 +48,4 @@ You remain alert to sound even in your sleep. Ignore the DC increase from being 
 You can [[Skills#Take 10 and 20 | Take 10]] on Perception Rolls during an Encounter.
 
 #### +5 Proficiency Bonus
-Your precise senses always warn you of danger. When [[Encounters#Rolling Initiative | rolling for initiative]] you can roll a Perception Roll instead of an Initiative Roll.
+Your precise senses always warn you of danger. When [[Encounters#Rolling Initiative | rolling for initiative]] you can Roll a Perception Roll instead of an Initiative Roll.

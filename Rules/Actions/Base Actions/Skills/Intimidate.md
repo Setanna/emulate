@@ -21,7 +21,7 @@ cssclass: pathfinder
 ___
 
 **System:**
-You roll an Intimidation Roll against all enemies Willpower DC. Enemies that can not see you gain a +4 to their Willpower DC and the same is true if they don't speak the same language.
+You Roll an Intimidation Roll against all enemies Willpower DC. Enemies that can not see you gain a +4 to their Willpower DC and the same is true if they don't speak the same language.
 
 <br>
 

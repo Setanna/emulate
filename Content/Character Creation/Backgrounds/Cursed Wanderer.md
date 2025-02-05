@@ -13,7 +13,7 @@ ___
 <br>
 
 **System:**
-You start with a Curse. You can either roll randomly on the table below or choose one of the curses.
+You start with a Curse. You can either Roll randomly on the table below or choose one of the curses.
 
 
 |  #  | XP  | Curse          | Effect                                                                                       |

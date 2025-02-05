@@ -44,7 +44,7 @@ Crit on 1 and 20
 
 ## Spells
 
-Spells should be varied and unique. Powerful spells should be limited and impactful, they might take 3 or even 4 actions to cast but will always have a result. Minor spells might only cost an action but also only effect the next roll or similar.
+Spells should be varied and unique. Powerful spells should be limited and impactful, they might take 3 or even 4 actions to cast but will always have a result. Minor spells might only cost an action but also only effect the next Roll or similar.
 
 **Misc**
 

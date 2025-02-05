@@ -17,4 +17,4 @@ ___
 <br>
 
 **System:**
-You roll the relevant [[Knowledge]] Roll. If you would fail you can not use the Recall Action on the same Task again.
+You Roll the relevant [[Knowledge]] Roll. If you would fail you can not use the Recall Action on the same Task again.

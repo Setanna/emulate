@@ -17,7 +17,7 @@ ___
 
 
 **System:**
-You shake the attacker to their core with a single look. You roll Intimidation against the incoming Attack Roll
+You shake the attacker to their core with a single look. You Roll Intimidation against the incoming Attack Roll
 
 <br>
 

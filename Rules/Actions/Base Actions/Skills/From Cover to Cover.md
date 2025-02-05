@@ -16,7 +16,7 @@ cssclass: pathfinder
 ___
 
 **System:**
-You roll a [[Stealth]] Roll against all surrounding creatures [[Perception]] DC. Any Perception Modifiers such as range or closed doors reduce the [[Perception]] DC by their respective amount.  You do not gain benefit from [[Benefiting from Cover | Cover]] on this Roll.
+You Roll a [[Stealth]] Roll against all surrounding creatures [[Perception]] DC. Any Perception Modifiers such as range or closed doors reduce the [[Perception]] DC by their respective amount.  You do not gain benefit from [[Benefiting from Cover | Cover]] on this Roll.
 
 <br>
 

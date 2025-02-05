@@ -16,7 +16,7 @@ cssclass: pathfinder
 ___
 
 **System:**
-You lure your enemy into a false sense of advantage, only to leave their blade slicing empty air. You roll Bluff against the incoming Attack Roll
+You lure your enemy into a false sense of advantage, only to leave their blade slicing empty air. You Roll Bluff against the incoming Attack Roll
 
 <br>
 

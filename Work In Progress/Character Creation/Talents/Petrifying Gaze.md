@@ -14,7 +14,7 @@ cssclass: pathfinder
 ___
 
 **System:**
-Whenever a creature meets your gaze, they must roll a Constitution Saving Throw against your Charisma DC.
+Whenever a creature meets your gaze, they must Roll a Constitution Saving Throw against your Charisma DC.
 
 <br>
 

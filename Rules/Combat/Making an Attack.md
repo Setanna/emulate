@@ -15,7 +15,7 @@ If the Defender is aware of the attack, they can decide to use any reactions wit
 The Attacker rolls a d20 and add Strength for melee attacks or Dexterity for ranged attacks.
 
 ### 3.1 Resolve Defensive Reactions
-If any Defensive Reactions have been taken, they are resolved against the Attacker's attack roll.
+If any Defensive Reactions have been taken, they are resolved against the Attacker's attack Roll.
 
 ### 3.2 Determine Success
 Compare the Attacker's Attack Roll against the Defender's Hit Class:
@@ -28,11 +28,11 @@ Compare the Attacker's Attack Roll against the Defender's Hit Class:
 **Critical Fail:** The Attack Roll is less than the Defender's Hit Class - 10.
 
 ### 3.3 Roll Damage
-If the Attack Roll is a Success, roll the weapon's damage die and add Strength for melee attacks or Dexterity for ranged attacks.  Damage Rolled can never be less than 1.
+If the Attack Roll is a Success, Roll the weapon's damage die and add Strength for melee attacks or Dexterity for ranged attacks.  Damage Rolled can never be less than 1.
 
 <br>
 
-If the Attack Roll is a Critical Success, roll the damage as for a regular Success and then double the damage.
+If the Attack Roll is a Critical Success, Roll the damage as for a regular Success and then double the damage.
 
 ### 3.4 Apply Damage
 The Defender reduces the damage taken by their Damage Reduction, if any. Any remaining damage is then deducted from the Defenders Hit Points. In case of [[Temporary Hit Points]] are always deducted before Hit Points.

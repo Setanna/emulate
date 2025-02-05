@@ -37,7 +37,7 @@ ___
 
 ___
 
-You roll a [[Swing for the Fences]] Attack against the target. If the Defender takes damage they must roll a Fortitude Saving Throw against being [[Stunned]].
+You Roll a [[Swing for the Fences]] Attack against the target. If the Defender takes damage they must Roll a Fortitude Saving Throw against being [[Stunned]].
 
 <br>
 

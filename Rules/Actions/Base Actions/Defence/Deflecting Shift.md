@@ -21,7 +21,7 @@ You quickly twist your body to let your armor take the blow. Roll a Reflex Savin
 
 <br>
 
-**Success:** you reduce the damage by your armor value.
+**Success:** you reduce the damage by your Armor Value.
 **Fail:** You reduce the damage by your armor's Bulwark value if any.
 **Critical Fail:** You take full damage from the attack.
 

@@ -16,7 +16,7 @@ cssclass: pathfinder
 ___
 
 **System:**
-You roll Insight against any number of creatures Bluff DC. Rolling against a creature that is in no way hostile or planning any form of attack automatically, counts as a Fail.
+You Roll Insight against any number of creatures Bluff DC. Rolling against a creature that is in no way hostile or planning any form of attack automatically, counts as a Fail.
 
 <br>
 
