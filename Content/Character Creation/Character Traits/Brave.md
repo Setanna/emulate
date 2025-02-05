@@ -18,4 +18,4 @@ ___
 <br>
 
 **System:**
-You gain a +4 [[Morale]] Penalty on saving throws against sources with the [[Fear]] Trait. 
+You gain a +4 [[Morale]] Bonus on saving throws against sources with the [[Fear]] Trait. 
