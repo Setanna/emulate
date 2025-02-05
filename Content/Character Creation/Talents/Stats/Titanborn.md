@@ -11,7 +11,7 @@ cssclass: pathfinder
 
 **Requirements:** Strength 3+
 ___
-*Your strength knows no bounds, allowing you to perform feats beyond mortal limits.*
+*Your Strength knows no bounds, allowing you to perform feats beyond mortal limits.*
 
 <br>
 

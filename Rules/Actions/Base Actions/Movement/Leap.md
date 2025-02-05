@@ -12,12 +12,12 @@ cssclass: pathfinder
 ___
 
 **System:**
-When leaping you can choose to do a Standing Leap or Running Leap. The height of your leap is 100 cm plus 10 times your strength.
+When leaping you can choose to do a Standing Leap or Running Leap. The height of your leap is 100 cm plus 10 times your Strength.
 
 <br>
 
 **Standing Leap (1 Action):**
-With a Standing Leap you can move a number of metres equal to your strength to a minimum of 1 meter.
+With a Standing Leap you can move a number of metres equal to your Strength to a minimum of 1 meter.
 
 <br>
 

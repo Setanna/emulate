@@ -19,7 +19,7 @@ Knowledge  is actually a number of separate skills as shown below:
 | Planes      | Outsiders; planar magic                                                                  |
 | Religion    | Gods and goddesses; mythic history; ecclesiastic tradition; holy symbols; undead         | 
 
-Each Knowledge counts as their own skill.
+Each Knowledge counts as their own Skill.
 
 ### Example DC's
 

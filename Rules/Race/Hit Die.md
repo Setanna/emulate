@@ -8,4 +8,4 @@ Each race has a Hit Die; d4, d6, d8, d10 or d12. The number of Hit Points gained
 
 <br>
 
-The given hit die also determines how well a race's body can heal it's own wounds. After an uninterrupted [[Resting#Long Rest | Long Rest]], the creature rolls it's hit die and regains that many hit points, to a minimum of their constitution.
+The given hit die also determines how well a race's body can heal it's own wounds. After an uninterrupted [[Resting#Long Rest | Long Rest]], the creature rolls it's hit die and regains that many hit points, to a minimum of their Constitution.

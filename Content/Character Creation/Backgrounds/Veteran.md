@@ -20,4 +20,4 @@ You increase the Starting Coins of one of your backgrounds by 5 Silver Coins; An
 
 <br>
 
-If the chosen background doesn't grant [[Rules/Stats and Skills/Proficiency|Proficiencies]] or only grants one, you can instead apply the bonus or bonuses to any other skill.
+If the chosen background doesn't grant [[Rules/Stats and Skills/Proficiency|Proficiencies]] or only grants one, you can instead apply the bonus or bonuses to any other Skill.

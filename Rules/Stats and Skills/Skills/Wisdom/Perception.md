@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 # Perception (Wis)
-Perception covers all five base senses: sight, hearing, taste, touch and smell. A perception check can be specified to use a specific sense, such as Perception (Sight).
+Perception covers all five base senses: sight, hearing, taste, touch and smell. A perception Check can be specified to use a specific sense, such as Perception (Sight).
 
 ### Perception Examples
 | Detail                                       |         Perception DC          |
@@ -26,8 +26,8 @@ Perception covers all five base senses: sight, hearing, taste, touch and smell. 
 | Distance to the source                   |   +1 per meter   | Hearing |
 | Through a closed door                    |        +5        | Hearing |
 | Find the square of a creature by hearing |       +10        | Hearing |
-| Creature making the check is distracted  |        +5        | All     |
-| Creature making the check is asleep      |       +10        | All     |
+| Creature making the Check is distracted  |        +5        | All     |
+| Creature making the Check is asleep      |       +10        | All     |
 | Distance to the source                   | +1 per 10 meters | Sight   |
 | Creature or object is [[invsible]]       |       +10        | Sight   |
 | [[Lighting]]                             |      Varied      | Sight   |

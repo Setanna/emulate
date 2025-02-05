@@ -11,7 +11,7 @@ cssclass: pathfinder
 
 **Requirements:** [[Iron Strikes]], Strength 3+
 ___
-*Your strength tempers your flesh into unyielding armor.*
+*Your Strength tempers your flesh into unyielding armor.*
 
 <br>
 

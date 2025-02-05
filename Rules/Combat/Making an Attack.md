@@ -9,7 +9,7 @@ cssclass: pathfinder
 The Attacker chooses a Target within range (for ranged attacks); or reach (for melee attacks); that they have [[Line of Sight]] to.
 
 ### 2. Defensive Reactions
-If the Defender is aware of the attack, they can decide to use any reactions with the [[Defence]] trait. 
+If the Defender is aware of the attack, they can decide to use any reactions with the [[Defence]] Trait. 
 
 ### 3. Roll Attack
 The Attacker rolls a d20 and add Strength for melee attacks or Dexterity for ranged attacks.

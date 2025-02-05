@@ -43,7 +43,7 @@ Three-Quarter Cover grants you a +4 [[Cover]] Bonus.
 ### Full Cover
 ![[full_cover.png]]{width=100%}
 
-Full Cover makes it so you can't be targeted by attacks, take no effects from sources with the [[Blast]] trait and can't be perceived by sight.
+Full Cover makes it so you can't be targeted by attacks, take no effects from sources with the [[Blast]] Trait and can't be perceived by sight.
 
 **Examples**
 - Entire body cover.

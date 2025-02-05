@@ -4,4 +4,4 @@ cssclass: pathfinder
 ---
 
 # Proficiency
-A Proficiency Bonus or Penalty represents skill or lack of skill on specific Rolls.
+A Proficiency Bonus or Penalty represents Skill or lack of Skill on specific Rolls.

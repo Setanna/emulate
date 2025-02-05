@@ -44,7 +44,7 @@ Constitution lacks any skills as resisting diseases or alcohol is considered a F
 | ---------- | ------------------------------------------------------------------ |
 | Perception | Used to understand your immediate surroundings                     | 
 | Medicine   | Used to tend to ailments and treat wounds                          |
-| Profession | A skill made up of several specialities all regarding a profession |
+| Profession | A Skill made up of several specialities all regarding a profession |
 | Insight    | Used to determine a creatures traits and intentions                |
 | Survival   | Used to navigate; track creatures; and survive in the wilderness   |
 
@@ -52,8 +52,8 @@ Constitution lacks any skills as resisting diseases or alcohol is considered a F
 | Name      | Example                                                           |
 | --------- | ----------------------------------------------------------------- |
 | Appraisal | Used to determine an objects characteristics                      |
-| Craft     | A skill made up of several specialities all regarding crafting    |
-| Knowledge | A skill made up of several specialities all regarding information |
+| Craft     | A Skill made up of several specialities all regarding crafting    |
+| Knowledge | A Skill made up of several specialities all regarding information |
 
 
 ### Charisma
@@ -64,5 +64,5 @@ Constitution lacks any skills as resisting diseases or alcohol is considered a F
 | Disguise      | Used to change ones appearance to deceive others                                 |
 | Handle Animal | Used to teach animals commands and domesticate them                              |
 | Intimidate    | Used to threaten others and demoralize them                                      |
-| Perform       | A skill made up of several specialities all regarding performing                 | 
+| Perform       | A Skill made up of several specialities all regarding performing                 | 
 

@@ -11,7 +11,7 @@ cssclass: pathfinder
 <div style="clear:both" />
 
 ___
-*Fury consumes you, unlocking unparalleled strength and a relentless will to fight.*
+*Fury consumes you, unlocking unparalleled Strength and a relentless will to fight.*
 
 <br>
 

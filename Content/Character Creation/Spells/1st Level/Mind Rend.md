@@ -34,7 +34,7 @@ ___
 	</div> 
 	<div style="clear:both" /> 
 		
-	<b>Trigger:</b> You or an ally would be the target of an attack or make a saving throw.
+	<b>Trigger:</b> You or an ally would be the target of an attack or make a Saving Throw.
 	
 </div>
 

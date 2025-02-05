@@ -4,4 +4,4 @@ cssclass: pathfinder
 ---
 
 # Verbal
-Talents with the Verbal trait require some sort of sound and are nearly impossible to hide.
+Talents with the Verbal Trait require some sort of sound and are nearly impossible to hide.
