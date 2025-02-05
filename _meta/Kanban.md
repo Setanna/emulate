@@ -53,6 +53,8 @@ kanban-plugin: board
 		- [ ] Improvised Weapons
 		- [ ] Weapon Traits
 - [ ] **Syntax File**
+	- [ ] Linter
+	- Make linter look for , (comma)
 	- [ ] Spells Syntax
 	- Make Requirements in line with rest of text
 	- Make Spell Descriptors without css
