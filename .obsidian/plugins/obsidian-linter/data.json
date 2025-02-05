@@ -351,6 +351,27 @@
       "replace": "Trait$1",
       "flags": "igm",
       "enabled": true
+    },
+    {
+      "label": "Roll",
+      "find": "roll(\\.|\\s)",
+      "replace": "Roll$1",
+      "flags": "igm",
+      "enabled": true
+    },
+    {
+      "label": "Armor Value",
+      "find": "armor value(\\.|\\s)",
+      "replace": "Armor Value$1",
+      "flags": "igm",
+      "enabled": true
+    },
+    {
+      "label": "Shield value",
+      "find": "shield value(\\.|\\s)",
+      "replace": "Shield Value$1",
+      "flags": "igm",
+      "enabled": true
     }
   ],
   "commonStyles": {
