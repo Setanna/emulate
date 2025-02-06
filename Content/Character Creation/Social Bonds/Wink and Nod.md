@@ -5,13 +5,15 @@ cssclass: pathfinder
 
 <h1> Wink and Nod <span style="margin-left: auto;">1 XP</span> </h1>
 
+[[Bonded]]{.trait}
+
+[[Defence]]{.trait}
+
 [[Sight]]{.trait}
 
 [[Social]]{.trait}
 
 <div style="clear:both" /> 
-
-**Requirement:** The chosen characters must also take this Social Bond.
 
 ___
 *A glance is worth a thousand words—especially when you're in on the joke.*

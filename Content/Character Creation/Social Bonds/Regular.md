@@ -5,6 +5,10 @@ cssclass: pathfinder
 
 <h1> Regular <span style="margin-left: auto;">1 XP</span> </h1>
 
+[[Bonded]]{.trait}
+
+[[Expansive]]{.trait}
+
 [[Wealth]]{.trait}
 
 [[Social]]{.trait}

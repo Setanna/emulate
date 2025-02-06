@@ -5,13 +5,15 @@ cssclass: pathfinder
 
 <h1> Back to Back <span style="margin-left: auto;">4 XP</span> </h1>
 
+[[Bonded]]{.trait}
+
 [[Defence]]{.trait}
+
+[[Expansive]]{.trait}
 
 [[Social]]{.trait}
 
 <div style="clear:both" /> 
-
-**Requirement:** The chosen character must also take this Social Bond.
 
 ___
 *Surrounded? No. Perfectly positioned.*

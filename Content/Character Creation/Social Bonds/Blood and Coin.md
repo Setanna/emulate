@@ -5,6 +5,10 @@ cssclass: pathfinder
 
 <h1> Blood and Coin <span style="margin-left: auto;">6 XP</span> </h1>
 
+[[Bonded]]{.trait}
+
+[[Defence]]{.trait}
+
 [[Wealth]]{.trait}
 
 [[Social]]{.trait}
