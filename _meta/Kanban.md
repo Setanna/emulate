@@ -53,6 +53,7 @@ kanban-plugin: board
 		- [ ] Improvised Weapons
 		- [ ] Weapon Traits
 - [ ] **Syntax File**
+	- [ ] Maybe use & instead of and for titles?
 	- [ ] Linter
 	- Make linter look for , (comma)
 	- [ ] Spells Syntax
