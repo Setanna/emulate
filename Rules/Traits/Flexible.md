@@ -8,4 +8,8 @@ Any Talent or Action with the Flexible Trait can replace all instances of Streng
 
 <br>
 
-By default, any talent or action with the Flexible Trait is automatically assumed to be using the highest stat.
+Any Weapon with the Flexible Trait can Roll an Attack Roll using the Dexterity Stat instead of the Strength Stat.
+
+<br>
+
+By default, any Action, Talent or Weapon with the Flexible Trait is automatically assumed to be using the highest stat.
