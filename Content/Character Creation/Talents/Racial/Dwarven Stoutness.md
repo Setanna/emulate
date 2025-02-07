@@ -5,6 +5,8 @@ cssclass: pathfinder
 
 <h1> Dwarven Stoutness <span style="margin-left: auto;"> 8 XP</span> </h1>
 
+[[Birthright]]{.trait}
+
 [[Racial]]{.trait}
 
 <div style="clear:both" /> 

@@ -5,6 +5,8 @@ cssclass: pathfinder
 
 <h1> Dragon Scales <span style="margin-left: auto;"> 2 XP</span> </h1>
 
+[[Birthright]]{.trait}
+
 [[Racial]]{.trait}
 
 <div style="clear:both" /> 
