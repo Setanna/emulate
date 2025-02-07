@@ -28,7 +28,7 @@ Dragonborn a rumored to stem directly from dragons, as their given name suggests
 <br>
 
 **Description:**
-Dragonborn tend to be large and frightening as the dragons they stem from. As such they stand between 2 and 2.4 meters tall and weighing in at 130 to 210 kgs.
+Dragonborn tend to be massive and frightening as the dragons they stem from. As such they stand between 2 and 2.4 meters tall and weighing in at 130 to 210 kgs.
 
 <br>
 

@@ -26,7 +26,7 @@ For Dwarves honor and kinship are cornerstones of their civilation. Most dwarves
 <br>
 
 **Description:**
-Dwarves are short and stout like a Barrel of Ale. As such they tend to be around 1 to 1.2 meters and weight between 80 to 160 kgs, placing them in the [[Size | Small]] size category.
+Dwarves are short and stout like a Barrel of Ale. As such they tend to be around 1 to 1.2 meters and weight between 80 to 160 kgs.
 
 <br>
 

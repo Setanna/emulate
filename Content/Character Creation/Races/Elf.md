@@ -30,7 +30,7 @@ As graceful as they are beautiful, elves are seen as perfect lacking in flaws in
 <br>
 
 **Description:**
-Elves resemble human but without warts, rashes or any imperfections. As such they tend to be 1.5 to 2 metres tall and weigh 40 to 120 kg, placing them in the [[Size | Medium]] size category. In Addition to their striking beauty Elves tend to have long and sharp ears.
+Elves resemble human but without warts, rashes or any imperfections. As such they tend to be 1.5 to 2 metres tall and weigh 40 to 120 kg. In Addition to their striking beauty Elves tend to have long and sharp ears.
 
 <br>
 

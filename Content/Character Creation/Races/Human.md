@@ -21,7 +21,7 @@ ___
 ___
 
 **Description:**
-Humans vary from 1.5 to 2 metres tall and weigh 40 to 120 kg, placing them in the [[Size | Medium Size Category]]. Their varied nature allows all sorts of colorful and and unique personalities and appearance.
+Humans vary from 1.5 to 2 metres tall and weigh 40 to 120 kg. Their varied nature allows all sorts of colorful and and unique personalities and appearance.
 
 <br>
 
