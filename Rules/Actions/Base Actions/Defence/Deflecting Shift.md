@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 
-<h1> Deflecting Shift WIP <span style="margin-left: auto;"> Reaction </span> </h1>
+<h1> Deflecting Shift <span style="margin-left: auto;"> Reaction </span> </h1>
 
 [[Defence]]{.trait}
 
@@ -12,18 +12,12 @@ cssclass: pathfinder
 
 <div style="clear:both" />
 
-**Trigger:** You are the target of a [[Target the Gaps]] attack.
+**Trigger:** You are the target of a [[Target the Gaps]] Attack.
 
 ___
 
 **System:**
-You quickly twist your body to let your armor take the blow. Roll a Reflex Saving Throw against the Attack Roll.
-
-<br>
-
-**Success:** you reduce the damage by your Armor Value.
-**Fail:** You reduce the damage by your armor's Bulwark value if any.
-**Critical Fail:** You take full damage from the attack.
+You quickly twist your body to let your armor take the blow. The Attack is resolved as if it was a [[Swing for the Fences]] Attack.
 
 
 
