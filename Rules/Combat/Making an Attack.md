@@ -43,6 +43,10 @@ The Defender reduces the damage taken by their Damage Reduction, if any. Any rem
 
 <br>
 
+An effect that happens upon Dealing Damage is only resolved if the defender lost one or more Hit Points from the Attack.
+
+<br>
+
 > ### Example
 > 1. A Kobold targets a Human with a Slingshot.
 > 2. The Human uses the Block Defensive Reaction.
