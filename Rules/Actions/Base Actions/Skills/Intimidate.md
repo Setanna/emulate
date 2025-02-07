@@ -15,7 +15,9 @@ cssclass: pathfinder
 [[Fear]]{.trait}
 
 [[Skill | Skill (Intimidate)]]{.trait}
- 
+
+[[Timed]]{.trait}
+
 <div style="clear:both" />
 
 ___
