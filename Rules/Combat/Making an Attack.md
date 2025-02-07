@@ -6,7 +6,11 @@ cssclass: pathfinder
 # Making an Attack
 
 ### 1. Determine Target
-The Attacker chooses a Target within range (for ranged attacks); or reach (for melee attacks); that they have [[Line of Sight]] to.
+The Attacker chooses a Target within range (for ranged attacks); or reach (for melee attacks); that they have [[Line of Sight]] to. The Attacker chooses if they make a [[Swing for the Fences]] or [[Target the Gaps]] Attack.
+
+<br>
+
+Some Actions such as spells or [[Charge]], forces the Attacker to make a specific Attack Action.
 
 ### 2. Defensive Reactions
 If the Defender is aware of the attack, they can decide to use any reactions with the [[Defence]] Trait. 
@@ -25,7 +29,7 @@ Compare the Attacker's Attack Roll against the Defender's Hit Class:
 **Critical Success:** The Attack Roll is equal to or higher than the Defender's Hit Class + 10.
 **Success:** The Attack Roll is equal to or higher than the Defender's Hit Class.
 **Fail:** The Attack Roll is less than the Defender's Hit Class.
-**Critical Fail:** The Attack Roll is less than the Defender's Hit Class - 10.
+**Critical Fail:** The Attack Roll is equal to or less than the Defender's Hit Class - 10.
 
 ### 3.3 Roll Damage
 If the Attack Roll is a Success, Roll the weapon's damage die and add Strength for melee attacks or Dexterity for ranged attacks.  Damage Rolled can never be less than 1.
