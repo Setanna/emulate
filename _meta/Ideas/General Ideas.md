@@ -1,6 +1,13 @@
 # General Ideas
 The general ideas for Emulate.
 
+## Aron's Corner
+- Master of Game
+	- Two different versions:
+		- Proficient in all games
+		- Acting like they're proficient and use bluff or sleight of hand
+- 
+
 ## Christian's Corner
 - Unique Martial late game actions besides blocking and attacking.
 - Melee wizard (shield spam)
