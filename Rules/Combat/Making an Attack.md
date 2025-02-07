@@ -15,7 +15,7 @@ Some Actions such as spells or [[Charge]], forces the Attacker to make a specifi
 ### 2. Defensive Reactions
 If the Defender is aware of the attack, they can decide to use any reactions with the [[Defence]] Trait. 
 
-### 3. Roll Attack
+### 3. Attack Roll
 The Attacker rolls a d20 and add Strength for melee attacks or Dexterity for ranged attacks.
 
 ### 3.1 Resolve Defensive Reactions
