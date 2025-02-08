@@ -64,7 +64,7 @@ Each Ability Score starts at 0 and can be increased or decreased as shown below.
 
 
 ### Picking Talents
-Talents are the meat of a Character, they determine what and what a character can't do. Examples of Character Archetypes below show their related talents.
+Talents are the meat of a Character, they determine what a character can and what a character can't do. Examples of Character Archetypes below show their related talents.
 
 
 | Archetype  | Talents                                                                |
