@@ -25,7 +25,7 @@ ___
 	<div style="display:inline-block; float: left;"> 
 		<b>Actions:</b> 3
 		<br>
-		<b>Range:</b> Short Range
+		<b>Range:</b> Medium Range
 		<br>
 		<b>Area:</b> Single Target
 	</div> 
