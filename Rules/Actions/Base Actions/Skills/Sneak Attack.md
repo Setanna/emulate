@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 
-<h1> Stealth Attack <span style="margin-left: auto;"> 3 Actions </span> </h1>
+<h1> Sneak Attack <span style="margin-left: auto;"> 3 Actions </span> </h1>
 
 [[Attack]]{.trait}
 
