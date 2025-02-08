@@ -16,7 +16,7 @@ ___
 <br>
 
 **System:**
-You gain the following bonuses and penalties until the End of the Encounter:
+You gain the following bonuses and penalties until the End of the Encounter or until you use Rage again:
 - +1 [[Rules/Bonuses and Penalties/Morale|Morale]] Bonus on Melee Weapon Attack rolls.
 - +1 [[Rules/Bonuses and Penalties/Morale|Morale]] Bonus on Melee Weapon Damage Rolls
 - +4 [[Rules/Bonuses and Penalties/Morale|Morale]] on [[Saving Throws | Will]] Saving Throws.
