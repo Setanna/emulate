@@ -34,5 +34,5 @@ Bleed damage is represented as a creature losing large quantities of blood. Unli
 
 <br>
 
-If a creature would Regain any 
+If a creature would Regain any Hit Points before the Bleed Damage is applied, it is removed.
 
