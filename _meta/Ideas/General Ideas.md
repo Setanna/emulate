@@ -1,6 +1,9 @@
 # General Ideas
 The general ideas for Emulate.
 
+## Erin's Corner
+- Noble mechanic flavor binding
+
 ## Aron's Corner
 - Master of Game
 	- Two different versions:
