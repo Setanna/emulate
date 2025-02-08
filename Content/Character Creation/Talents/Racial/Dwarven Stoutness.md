@@ -19,3 +19,7 @@ ___
 
 **System:**
 You count as two sizes larger for the purposes of [[Stats#Stats | Carrying Capacity]], [[Size | Weight]] and [[Size]] modifiers (flight, stealth, attack, weapon damage, hit class, and damage reduction). Additionally you also count as two sizes larger for food and water consumption.
+
+<br>
+
+You only gain the Weapon Damage Size Modifier on Melee Weapon Attacks.
