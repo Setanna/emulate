@@ -53,6 +53,7 @@ kanban-plugin: board
 		- [ ] Improvised Weapons
 		- [ ] Weapon Traits
 - [ ] **Syntax File**
+	- [ ] Gutter Rat XP option name change
 	- [ ] Have race size be consistent
 	- Some races have size in description others dont
 	- [ ] Maybe use & instead of and for titles?
