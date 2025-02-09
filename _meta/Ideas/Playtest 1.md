@@ -2,6 +2,8 @@
 	- How it work with animals
 - [[Rally]]
 	- Make morale bonuses
+- [[Shield]]
+	- Raise Shield Action how handle now
 - [[Morale]]
 	- MAke Satck test
 - [[Rage]]
@@ -25,6 +27,8 @@
 - [[Loud]]
 	- Only while moving?
 - Ideas
+	- Bows dex to damage and maybe str requirement
+	- Attack of Opportunity should provoke on any movement inside their reach
 	- Make Pouches and bags
 	- Non Lethal damage
 	- Make manaveurs
