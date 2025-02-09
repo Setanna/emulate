@@ -52,7 +52,7 @@ With a Ranged Weapon you can Attack anyone within Maximum Range Increment and [[
 | Warhammer   | 1d8 bludgeoning  |                                                            | 2.1 sc | 6.2 kg |
 | Lucerne     | 1d10 bludgeoning | [[Two Handed]], [[Versatile \| Versatile (p)]], [[Piercing \| Piercing 2]] | 1.8 sc | 5.1    |
 | Greataxe    | 1d12 slashing    | [[Two Handed]]                                             | 2.1 sc | 6.7 kg |
-| Greatsword  | 1d12 slashing    | [[Two Handed]] [[Versatile \| Versatile (p)]]              | 1.8 sc | 5.4 kg |
+| Greatsword  | 1d12 slashing    | [[Two Handed]], [[Versatile \| Versatile (p)]]              | 1.8 sc | 5.4 kg |
 | Greathammer | 1d12 bludgeoning | [[Two Handed]]                                             | 2.4 sc | 7.4 kg |
 
 ### Ranged Weapons
