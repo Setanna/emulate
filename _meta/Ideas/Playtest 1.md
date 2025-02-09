@@ -1,0 +1,32 @@
+- [[Words Unfinished]]
+	- How it work with animals
+- [[Rally]]
+	- Make morale bonuses
+- [[Morale]]
+	- MAke Satck test
+- [[Rage]]
+	- Make temp hit points into a new talent that can be rage cycled
+- [[Frightened]]
+	- Maybe only rolls
+- [[Intimidate]]
+	- Maybe 2 actions
+- [[Side Step]]
+	- Maybe only make the step action on success
+- [[Charge]]
+	- Minimum movement speed needed to activate
+- Ideas
+	- A talent that lets you hide which attack type you are using
+	- Dodge or Defensive Stance Action
+	- Size should be 2 for small and large?
+	- Handle dual proficiency in backgrounds and races
+		- Maybe trade in for xp
+	- Rests should use healers kit or grace
+	- Languages and reading and so on
+	- penalized for low int
+	- How to handle group Check
+	- Bows and crossbows should be able to also throw daggers while using them since holding them is only 1 hand
+	- while making an attack, unsheathe weapon
+	- Crossbows should use 1 reload and 2 reload for light and heavy respectively
+	- Standing up movement cost?
+	- Crit is just max damage
+	- Negative hit points is entire hit die
