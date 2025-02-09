@@ -20,6 +20,10 @@
 - [[Reload]]
 	- Maybe add str requirement?
 		- some have levers to reload
+- [[Cursed Wanderer]]
+	- Expansive Trait
+- [[Loud]]
+	- Only while moving?
 - Ideas
 	- Make Pouches and bags
 	- Non Lethal damage
