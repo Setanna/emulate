@@ -36,7 +36,7 @@ If the Attack Roll is a Success, Roll the weapon's damage die and add Strength f
 
 <br>
 
-If the Attack Roll is a Critical Success, Roll the damage as for a regular Success and then double the damage.
+If the Attack Roll is a Critical Success, any Damage Die are treated as they rolled the maximum.
 
 ### 3.4 Apply Damage
 The Defender reduces the damage taken by their Damage Reduction, if any. Any remaining damage is then deducted from the Defenders Hit Points. In case of [[Temporary Hit Points]] are always deducted before Hit Points.
