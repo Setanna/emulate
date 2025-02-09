@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 # Shields
-Shields are used in many [[Defence | Defensive]] Reactions such as [[Block]] and [[Parry]].
+Shields are used in many [[Defence | Defensive]] Reactions such as [[Raise Shield]] and [[Parry]].
 
 ## Light Shields
 | Name    | Traits                                   | Cost | Weight | Shield Value | Dex Penalty | Str Requirement |
