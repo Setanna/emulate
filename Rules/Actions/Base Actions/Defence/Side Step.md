@@ -16,7 +16,7 @@ cssclass: pathfinder
 ___
 
 **System:**
-You step out the way and roll Acrobatics against the Attack Roll or Saving Throw Difficulty Check. For sources with the [[Blast]] Trait you take no damage if the [[Step]] or [[Move]] action would move you out of the blast radius.
+You step out the way and Roll Acrobatics against the Attack Roll or Saving Throw Difficulty Check. For sources with the [[Blast]] Trait you take no damage if the [[Step]] or [[Move]] action would move you out of the blast radius.
 
 <br>
 
