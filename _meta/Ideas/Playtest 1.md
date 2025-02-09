@@ -16,6 +16,14 @@
 - [[Charge]]
 	- Minimum movement speed needed to activate
 - Ideas
+	- Make manaveurs
+	- Stat Penalities
+		- Int (-5 animals, -4 smart animals (crows), -3 magic animals, -2 minimum for speech and retardation.)
+		- 
+	- Jack of All Trades
+		- Perform
+	- Cooler Tools
+		- Smithing Tools and so on
 	- Critical Specializations?
 	- Fatal and Deadly
 	- A talent that lets you hide which attack type you are using
