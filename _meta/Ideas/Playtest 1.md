@@ -16,6 +16,7 @@
 - [[Charge]]
 	- Minimum movement speed needed to activate
 - Ideas
+	- Fatal and Deadly
 	- A talent that lets you hide which attack type you are using
 	- Dodge or Defensive Stance Action
 	- Size should be 2 for small and large?
