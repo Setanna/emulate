@@ -19,6 +19,5 @@ ___
 You gain the following bonuses and penalties until the End of the Encounter or until you use Rage again:
 - +1 [[Rules/Bonuses and Penalties/Morale|Morale]] Bonus on Melee Weapon Attack rolls.
 - +1 [[Rules/Bonuses and Penalties/Morale|Morale]] Bonus on Melee Weapon Damage Rolls
-- +4 [[Rules/Bonuses and Penalties/Morale|Morale]] on [[Saving Throws | Will]] Saving Throws.
 - -1 [[Rules/Bonuses and Penalties/Morale|Morale]] Penalty on Hit Class.
-- [[Temporary Hit Points]] equal to your Constitution.
+- You gain the [[Brave]] Trait. If you already have the Trait, instead double the bonus it grants.
