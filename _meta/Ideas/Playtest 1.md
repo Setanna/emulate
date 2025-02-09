@@ -29,5 +29,7 @@
 	- Crossbows should use 1 reload and 2 reload for light and heavy respectively
 	- Standing up movement cost?
 	- Crit is just max damage
+		- Make effects that happen upon rolling max damage?
 	- Negative hit points is entire hit die
 	- Make DC rules
+	- Actions maybe should have a break before system as they don't have flavour text?
