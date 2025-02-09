@@ -15,7 +15,14 @@
 	- Maybe only make the step action on success
 - [[Charge]]
 	- Minimum movement speed needed to activate
+-  [[Spells]]
+	- Make Spell range incremental
+- [[Reload]]
+	- Maybe add str requirement?
+		- some have levers to reload
 - Ideas
+	- Make Pouches and bags
+	- Non Lethal damage
 	- Make manaveurs
 	- Stat Penalities
 		- Int (-5 animals, -4 smart animals (crows), -3 magic animals, -2 minimum for speech and retardation.)
