@@ -15,7 +15,7 @@ cssclass: pathfinder
 ___
 
 **System:**
-You trick the creature into raising their defenses, unknown to them, a shield does nothing to a Fireball. You roll a [[Bluff]] Roll against one creature's [[Insight]] DC. You and the creature must be able to see each other.
+You trick the creature into raising their defenses, unknown to them, a shield does nothing to a Fireball. You Roll a [[Bluff]] Roll against one creature's [[Insight]] DC. You and the creature must be able to see each other.
 
 <br>
 
