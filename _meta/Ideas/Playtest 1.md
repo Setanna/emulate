@@ -6,6 +6,7 @@
 	- MAke Satck test
 - [[Rage]]
 	- Make temp hit points into a new talent that can be rage cycled
+	- Frenzy Retaliate reaction
 - [[Frightened]]
 	- Maybe only rolls
 - [[Intimidate]]
