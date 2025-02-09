@@ -20,10 +20,11 @@ Whenever you take 10 or 20, the action used gains the [[Focus]] Trait.
 ## Skill Examples
 
 ### Strength
-| Name  | Example                                          |
-| ----- | ------------------------------------------------ |
-| Climb | Used to perform various maneuvers while climbing |
-| Swim  | Used to perform various maneuvers while swimming | 
+| Name      | Example                                             |
+| --------- | --------------------------------------------------- |
+| Athletics | Used to perform athletic feats and combat maneuvers | 
+| Climb     | Used to perform various maneuvers while climbing    |
+| Swim      | Used to perform various maneuvers while swimming    |
 
 ### Dexterity
 | Name            | Example                                                                     |
