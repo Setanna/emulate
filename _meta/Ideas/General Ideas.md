@@ -47,6 +47,7 @@ Crit on 1 and 20
 	- TP build
 - A talent using sleight of hand to unbuckle enemy armor.
 - Titan's Strength, count as being large for Strength stat.
+- thrown weapons
 
 ## Defence
 - Switch Places reaction (crit fail no defensive actions, fail you can still use defensive actions)
