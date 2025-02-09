@@ -13,4 +13,4 @@ cssclass: pathfinder
 
 ___
 **System:**
-You move up to twice your speed in meters, at the end of the charge you can make a single [[Swing for the Fences]] Attack.
+You move up to twice your speed in meters, at the end of the charge you can make a single [[Swing for the Fences]] Attack. You must move at least a number of meters equal to your speed to use the Charge Action.
