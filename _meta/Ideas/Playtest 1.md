@@ -30,3 +30,4 @@
 	- Standing up movement cost?
 	- Crit is just max damage
 	- Negative hit points is entire hit die
+	- Make DC rules
