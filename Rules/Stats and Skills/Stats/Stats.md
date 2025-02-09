@@ -75,19 +75,19 @@ Creatures of Emulate are made up and primarily defined by 6 core attributes know
 | +5         |         |             |
 
 ### Intelligence
-| Stat Score | Example | Description | 
-| ---------- | ------- | ----------- |
-| -5         |         |             |
-| -4         |         |             |
-| -3         |         |             |
-| -2         |         |             |
-| -1         |         |             |
-| +0         |         |             |
-| +1         |         |             |
-| +2         |         |             |
-| +3         |         |             |
-| +4         |         |             |
-| +5         |         |             |
+| Stat Score | Example                                             | Description |
+| ---------- | --------------------------------------------------- | ----------- |
+| -5         | Animals like cows                                   |             |
+| -4         | Smarter animals like crows                          |             |
+| -3         | Magical Beasts                                      |             |
+| -2         | Minimum Intelligence required for speech; town fool |             |
+| -1         |                                                     |             |
+| +0         |                                                     |             |
+| +1         |                                                     |             |
+| +2         |                                                     |             |
+| +3         |                                                     |             |
+| +4         |                                                     |             |
+| +5         |                                                     |             |
 
 ### Charisma
 | Stat Score | Example | Description | 
