@@ -76,3 +76,6 @@ Talents are the meat of a Character, they determine what a character can and wha
 
 ## Leveling Up
 When leveling up a character gains additional XP. This newly gained XP can only be spent on Ability Scores and Talents. At the discretion of the Game Master a character can gain or loose Traits or Social Bonds if it is in character.
+
+## Redundant Proficiencies
+In some cases you can choose a Background and Race which both grant Proficiency in Perception. In such a case you can refund one of the proficiencies as per the Proficiency Table.
