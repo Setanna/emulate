@@ -12,5 +12,5 @@ cssclass: pathfinder
 ___
 
 **System:**
-When Swinging for the Fences, you make an [[Making an Attack| Attack]] against a creature within your reach. The defending creature reduces any [[Damage Types#Physical Damage | physical damage]] taken from this attack, by their Shield and Armor Value.
+When Swinging for the Fences, you make an [[Making an Attack| Attack]] against a creature within your reach. The defending creature reduces any [[Damage Types#Physical Damage | physical damage]] taken from this attack, by their Armor Value.
 
