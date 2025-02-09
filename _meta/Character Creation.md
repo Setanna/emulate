@@ -1,3 +1,8 @@
+---
+tags: []
+cssclass: pathfinder
+---
+
 # Guide to Emulate
 
 ## Character Creation
