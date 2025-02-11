@@ -34,11 +34,14 @@ Compare the Attacker's Attack Roll against the Defender's Hit Class:
 ### 3.3 Roll Damage
 If the Attack Roll is a Success, Roll the weapon's damage die and add Strength for melee attacks or Dexterity for ranged attacks.  Damage Rolled can never be less than 1.
 
+### 3.4 Determine Critical Hit
+If the Attack Roll is a Critical Success, any Damage Die are treated as they rolled the maximum. Additionally, rolling the highest number on a damage die for an Attack also counts as a Critical Success for Critical Damage Effects.
+
 <br>
 
-If the Attack Roll is a Critical Success, any Damage Die are treated as they rolled the maximum.
+Additional Damage dice such as Bleed Damage from Vital Strike is also treated as they rolled maximum.
 
-### 3.4 Apply Damage
+### 3.5 Apply Damage
 The Defender reduces the damage taken by their Damage Reduction, if any. Any remaining damage is then deducted from the Defenders Hit Points. In case of [[Temporary Hit Points]] are always deducted before Hit Points.
 
 <br>
