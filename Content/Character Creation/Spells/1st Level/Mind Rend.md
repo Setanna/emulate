@@ -11,7 +11,7 @@ cssclass: pathfinder
 
 [[Defence]]{.trait}
 
-[[Emotion]]{.trait}
+[[Fear]]{.trait}
 
 <div style="clear:both" /> 
 
