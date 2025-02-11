@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 # Piercing
-Attacks made using Weapons with the Piercing Trait reduce the Defenders Armor or Shield Value by the amount defined in the Trait.
+[[Swing for the Fences]] Attacks made using Weapons with the Piercing Trait reduces the Defenders Armor and Shield Value for that Attack. This reduction is only applied to the amount of Damage that the Armor and Shield would reduce.
 
 <br>
 
