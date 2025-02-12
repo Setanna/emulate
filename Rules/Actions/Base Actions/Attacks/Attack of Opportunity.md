@@ -9,7 +9,11 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Trigger:** A creature within your Reach takes an Action with the [[Movement]] Trait.
+**Trigger:** A creature within your Reach does any of the following:
+- Takes an Action with the [[Movement]] Trait
+- Takes the [[Interact]] Action.
+- Makes a Ranged Weapon Attack
+- Casts a Spell
 
 ___
 
