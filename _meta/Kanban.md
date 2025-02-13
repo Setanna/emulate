@@ -6,26 +6,17 @@ kanban-plugin: board
 
 ## To-Do
 
-- [ ] **Stats and Skills**
-	 - [ ] [[Stats]]
-	 - [ ] [[Skills]]
-- [ ] **Traits**
-	- [ ] Make sure all Trait Files exist
-	- [ ] Trait Descriptions
-- [ ] **Backgrounds; Talents; Traits and Spells**
-	- [ ] Races
-		- [ ] Mudblood
-	- [ ] Make [[Flanked]] Examples
-- [ ] **Random Table Generation**
-	- [ ] Shops
-	 - Brew of the Week
-	 - Failed / Unkown Potions Shelf
-
-
-## Doing
-
-- [ ] **Testing**
-	- [ ] Try out Passive Perception only
+- [ ] **Armor, Shields and Weapons**
+	- [ ] Figure out how to deal with mixed material weapons (spear)
+	- [ ] Figure out how to deal with Armor and Shield Damage Reduction and multiple damage types (such as 9 Armor Value vs 6 Piercing and 3 Fire)
+	- [ ] Create Cost Sheet
+		- [ ] Improvised Weapons
+		- [ ] Weapon Traits
+	- [ ] Make Weapon Critical Effects
+- [ ] **Bugs**
+	- [ ] Link Preview Missing CSS on header
+		- [ ] Link only to file not header?
+	- [x] Make shield text float right
 - [ ] **Races**
 	 - [ ] Age
 	 - [x] [[Human]]
@@ -37,21 +28,36 @@ kanban-plugin: board
 	 - Elves should start with [[Beautiful]]
 	 - [ ] [[Orc]]
 	 - [ ] [[Kobold]]
-- [ ] **Arcane**
+- [ ] **Play Testing**
+	- [ ] Try out Passive Perception only
+	- [ ] Try out infinite bleed duration
+- [ ] **Traits**
+	- [ ] Make sure all Trait Files exist
+	- [ ] Trait Descriptions
+- [ ] **Random Table Generation**
+	- [ ] Shops
+	 - Brew of the Week
+	 - Failed / Unkown Potions Shelf
+- [ ] **Racial Talents**
+	 - [ ] Mudblood
+- [ ] **Conditions**
+	- [ ] [[Flanked]]
+		- [ ] Make Examples
+
+
+## Doing
+
+- [ ] **Stats and Skills**
+	 - [ ] [[Stats]]
+		 - [ ] Low Stat Penalties
+	 - [ ] [[Skills]]
+		 - [ ] Proficiency Bonuses
+- [ ] **Spell Casting Talents**
 	- [ ] Arcane Talents
 		- [ ] [[Eldritch Lineage | Sorcerer]]
 	- [ ] Spells
 		- [ ] Rebalance [[Electricity]]
 		- [ ] Tags
-- [ ] **Bugs**
-	- [ ] Link Preview Missing CSS on header
-		- [ ] Link only to file not header?
-	- [x] Make shield text float right
-- [ ] **Armor, Shields and Weapons**
-	- [ ] Figure out how to deal with mixed material weapons (spear)
-	- [ ] Create Cost Sheet
-		- [ ] Improvised Weapons
-		- [ ] Weapon Traits
 - [ ] **Syntax File**
 	- [ ] Gutter Rat XP option name change
 	- [ ] Have race size be consistent
