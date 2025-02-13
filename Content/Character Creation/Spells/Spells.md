@@ -5,6 +5,9 @@ cssclass: pathfinder
 
 #  Spells
 
+## Traits
+All spells automatically gain the [[Arcane]] and [[Focus]] Traits.
+
 ## Attributes
 A Spell is made up of 6 attributes: 
 
