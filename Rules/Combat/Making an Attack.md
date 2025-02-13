@@ -42,7 +42,11 @@ If the Attack Roll is a Critical Success, any Damage Die are treated as they rol
 Additional Damage dice such as Bleed Damage from Vital Strike is also treated as they rolled maximum.
 
 ### 3.5 Apply Damage
-The Defender reduces the damage taken by their Damage Reduction, if any. Any remaining damage is then deducted from the Defenders Hit Points. In case of [[Temporary Hit Points]] are always deducted before Hit Points.
+The Defender reduces the damage taken by their Damage Reduction, if any. Physical Damage is reduced first and then Elemental Damage. 
+
+<br>
+
+Any remaining damage is then deducted from the Defenders Hit Points. In case of [[Temporary Hit Points]] are always deducted before Hit Points.
 
 <br>
 
@@ -50,9 +54,16 @@ An effect that happens upon Dealing Damage is only resolved if the defender lost
 
 <br>
 
-> ### Example
+> ### Attack Roll Example
 > 1. A Kobold targets a Human with a Slingshot.
 > 2. The Human uses the Block Defensive Reaction.
 > 3.  The Kobold rolls a 14 + 3 (Dexterity) = 17 to hit.
 > 3.1 The Block Reaction increases the Human's AC to 18, making the attack miss.
 > 3.2 The attack misses and no damage is rolled.
+
+> ### Apply Damage Example
+> 1. A Human is dealt 6 Slashing and 3 Fire Damage by a Swing for the Fences Attack.
+> 2. Human has a Fullplate with an Armor Value of 9
+> 	1. He reduces the Slashing Damage by 6, leaving 3 Armor Value left.
+> 	2. A Fullplates Armor Value only reduces Fire Damage by one third, so the 3 Armor Value left reduces 1 Fire Damage
+> 	3. The Human applies 2 Fire Damage to his Hit Points.
