@@ -26,18 +26,18 @@ All weapons can be thrown as [[Thrown]] Weapons. When Thrown this way the range 
 ## Simple Weapons 
 ### Melee Weapons
 
-| Name                | Damage Die | Traits                                                                          | Cost   | Weight |
-| ------------------- |:----------:| ------------------------------------------------------------------------------- | ------ | ------ |
-| [[Dagger]]          |    1d4     | [[Finesse]], [[Thrown \| Thrown (4 meters)]], [[Vital Strike \| Vital Strike (d6)]]                             | 30 cc  | 0.6 kg |
-| [[Parrying Dagger]] |    1d4     | [[Finesse]], [[Vital Strike \| Vital Strike (d4)]], [[Parrying \| Parrying 1]] | 60 cc  | 1.3 kg |
-| Club                |    1d6     |                                                                                 | 9 cc   | 2 kg   |
-| Greatclub           |    1d8     | [[Two Handed]]                                                                  | 27 cc  | 6 kg   |
-| Staff               |    1d6     | [[Two Handed]]                                                                  | 18 cc  | 3.4 kg |
-| Shortsword          |    1d6     | [[Finesse]], [[Light]]                                                         | 60 cc  | 1.3 kg |
-| Handaxe             |    1d6     | [[Light]]                                                                       | 60 cc  | 1.6 kg |
-| Lighthammer         |    1d6     | [[Light]]                                                                       | 60 cc  | 1.9 kg |
-| Pickaxe             |    1d8     | [[Two Handed]], [[Piercing \| Piercing 2]]                                      | 1.2 sc | 3.2 kg |
-| Spear               |    1d6     | [[Rules/Traits/Reach \|Reach 1]], [[Versatile \| Versatile (1d8)]]              | 60 cc  | 1.4 kg |
+| Name                | Damage Die | Traits                                                                                                                | Cost   | Weight |
+| ------------------- |:----------:| --------------------------------------------------------------------------------------------------------------------- | ------ | ------ |
+| [[Dagger]]          |    1d4     | [[Finesse]], [[Light]], [[Thrown \| Thrown (10m)]], [[Vital Strike \| Vital Strike (d6)]]                             | 30 cc  | 0.6 kg |
+| [[Parrying Dagger]] |    1d4     | [[Finesse]], [[Light]], [[Thrown \| Thrown (10m)]], [[Vital Strike \| Vital Strike (d4)]], [[Parrying \| Parrying 1]] | 60 cc  | 1.3 kg |
+| [[Club]]            |    1d6     |                                                                                                                       | 9 cc   | 2 kg   |
+| [[Greatclub]]       |    1d8     | [[Two Handed]]                                                                                                        | 27 cc  | 6 kg   |
+| [[Staff]]           |    1d6     | [[Two Handed]], [[Parrying \| Parrying 1]]                                                                            | 18 cc  | 3.4 kg |
+| Shortsword          |    1d6     | [[Finesse]], [[Light]], [[Thrown \| Thrown (10m)]], [[Versatile \| Versatile (p)]]                                    | 60 cc  | 1.3 kg |
+| Handaxe             |    1d6     | [[Light]], [[Thrown \| Thrown (10m)]]                                                                                 | 60 cc  | 1.6 kg |
+| Lighthammer         |    1d6     | [[Light]]                                                                                                             | 60 cc  | 1.9 kg |
+| Pickaxe             |    1d8     | [[Two Handed]], [[Piercing \| Piercing 2]]                                                                            | 1.2 sc | 3.2 kg |
+| Spear               |    1d6     | [[Rules/Traits/Reach \|Reach 1]], [[Versatile \| Versatile (1d8)]]                                                    | 60 cc  | 1.4 kg |
 
 	
 ### Ranged Weapons
