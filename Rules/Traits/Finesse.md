@@ -8,7 +8,7 @@ Any Talent or Action with the Finesse Trait can replace all instances of Strengt
 
 <br>
 
-Any Weapon with the Finesse Trait can Roll an Attack Roll using the Dexterity Stat instead of the Strength Stat. If the Weapon used the Dexterity Roll for the [[Target the Gaps]] Attack, the weapon can also add the Dexterity Stat to Damage instead of the Strength Stat.
+Any Weapon with the Finesse Trait that is used to make a [[Target the Gaps]] Attack, can replace all instances of Strength with Dexterity.
 
 <br>
 
