@@ -10,7 +10,7 @@ cssclass: pathfinder
 
 [[Rules/Traits/Item| Item (Weapon or Light; Medium Shield)]]{.trait}
 
-[[Flexible]]{.trait}
+[[Finesse]]{.trait}
 
 <div style="clear:both" />
 

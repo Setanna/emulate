@@ -5,7 +5,7 @@ cssclass: pathfinder
 
 <h1> Parrying Dagger <span style="margin-left: auto;">PRICE</span> </h1>
 
-[[Flexible]]{.trait}
+[[Finesse]]{.trait}
 
 [[Parrying | Parrying 1]]{.trait}
 
@@ -17,9 +17,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-<br>
-
-<div> 
+<div style="margin-top:0.3rem"> 
 	<div style="display:inline-block; float: left;"> 
 		<b>Damage:</b> 1d4 Piercing
 	</div> 

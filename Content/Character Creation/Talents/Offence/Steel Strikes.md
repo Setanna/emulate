@@ -5,7 +5,7 @@ cssclass: pathfinder
 
 <h1> Steel Strikes <span style="margin-left: auto;"> 6 XP</span> </h1>
 
-[[Flexible]]{.trait}
+[[Finesse]]{.trait}
 
 [[Offence]]{.trait}
 

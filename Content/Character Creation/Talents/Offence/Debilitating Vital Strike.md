@@ -5,7 +5,7 @@ cssclass: pathfinder
 
 <h1> Debilitating Vital Strike <span style="margin-left: auto;"> 2 XP</span> </h1>
 
-[[Flexible]]{.trait}
+[[Finesse]]{.trait}
 
 [[Offence]]{.trait}
 

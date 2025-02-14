@@ -7,7 +7,7 @@ cssclass: pathfinder
 
 [[Offence]]{.trait}
 
-[[Flexible]]{.trait}
+[[Finesse]]{.trait}
 
 [[Stance]]{.trait}
 
