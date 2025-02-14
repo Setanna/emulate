@@ -33,11 +33,11 @@ The duration of a spell can be any of the following:
 
 ### Range
 A spell can have 
-- **Personal:** The area originates from the caster
-- **Touch:** The area targets within reach.
-- **Short Range:** 5 meters + 1 per Spell Point 
-- **Medium Range:** 10 meters + 2 per Spell Point
-- **Long Range:** 20 meters + 4 per Spell Point
+- **Personal:** The area originates from the caster or targets the caster
+- **Touch:** The area targets within reach of the caster
+- **Short Range:** 10 meters + 1 meter per Spell Point Spent
+- **Medium Range:** 20 meters + 2 per Spell Point Spent
+- **Long Range:** 30 meters + 3 per Spell Point Spent
 
 ### Damage
 A Spell deals damage in form of Damage Dice, similar to weapons. Some Spells deal additional damage based on your Spell Stat. Your Spell Stat is the Stat used to Cast the Spell as defined by the Talent that granted you the Spellcasting.
