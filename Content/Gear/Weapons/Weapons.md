@@ -21,7 +21,7 @@ With a Ranged Weapon you can Attack anyone within Maximum Range Increment and [[
 
 <br>
 
-All weapons can be thrown as [[Thrown]] Weapons.
+All weapons can be thrown as [[Thrown]] Weapons. When Thrown this way the range of the weapon is equal to the Attackers Strength Score (minimum 1).
 
 ## Simple Weapons 
 ### Melee Weapons
