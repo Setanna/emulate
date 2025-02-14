@@ -7,6 +7,10 @@ cssclass: pathfinder
 
 [[Finesse]]{.trait}
 
+[[Light]]{.trait}
+
+[[Thrown \| Thrown (10m)]]{.trait}
+
 [[Versatile | Versatile (s)]]{.trait}
 
 [[Vital Strike \| Vital Strike (D6)]]{.trait}

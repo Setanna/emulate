@@ -7,7 +7,11 @@ cssclass: pathfinder
 
 [[Finesse]]{.trait}
 
+[[Light]]{.trait}
+
 [[Parrying | Parrying 1]]{.trait}
+
+[[Thrown \| Thrown (10m)]]{.trait}
 
 [[Versatile | Versatile (s)]]{.trait}
 
