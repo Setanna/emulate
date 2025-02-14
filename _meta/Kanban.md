@@ -43,6 +43,19 @@ kanban-plugin: board
 - [ ] **Conditions**
 	- [ ] [[Flanked]]
 		- [ ] Make Examples
+- [ ] **Templates**
+	- [ ] Make Templates for relevant files
+		- [ ] Races
+		- [ ] Talents
+		- [ ] Weapons
+		- [ ] Armor
+		- [ ] Shields
+		- [ ] Backgrounds
+		- [ ] Social Bonds
+		- [ ] Character Traits
+		- [ ] Spells
+	- [ ] Generic Template
+	- Should have css
 
 
 ## Doing
