@@ -8,7 +8,7 @@ kanban-plugin: board
 
 - [ ] **Armor, Shields and Weapons**
 	- [ ] Figure out how to deal with mixed material weapons (spear)
-	- [ ] Figure out how to deal with Armor and Shield Damage Reduction and multiple damage types (such as 9 Armor Value vs 6 Piercing and 3 Fire)
+	- [x] Figure out how to deal with Armor and Shield Damage Reduction and multiple damage types (such as 9 Armor Value vs 6 Piercing and 3 Fire)
 	- [ ] Create Cost Sheet
 		- [ ] Improvised Weapons
 		- [ ] Weapon Traits
