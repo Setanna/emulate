@@ -13,11 +13,8 @@ cssclass: pathfinder
 
 [[Force]]{.trait}
 
-<div style="display:inline-block; float:left;">
+[[Somatic]]{.trait}
 
-#### [[Somatic]]{.trait}
-
-</div>
 <div style="clear:both" /> 
 
 ___
