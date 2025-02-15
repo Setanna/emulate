@@ -4,4 +4,4 @@ cssclass: pathfinder
 ---
 
 # Light
-Weapons with the Light Trait can easily be dual wielded or thrown. Light Weapons reduce the [[Circumstance]] Penalty from [[Dual Strike]] by 2 for Attacks with said Weapon.
+Weapons with the Light Trait can easily be dual wielded or thrown. Light Weapons reduce the [[Circumstance]] Penalty from [[Dual Strike]] by 2 for Attacks with said Weapon. Additionally the range when Thrown is doubled, for weapons that start with the Light and [[Thrown]] Trait, this has already been taken into account in the [[Thrown]] Trait parenthesis.

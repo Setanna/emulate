@@ -21,7 +21,7 @@ With a Ranged Weapon you can Attack anyone within Maximum Range Increment and [[
 
 <br>
 
-All weapons can be thrown as [[Thrown]] Weapons. When Thrown this way the range of the weapon is equal to the Attackers Strength Score (minimum 1).
+All weapons can be thrown as [[Thrown]] Weapons. When Thrown this way the range of the weapon is equal to the Attacker's Strength Stat (minimum 1). Weapons with the [[Light]] Trait but not the [[Thrown]] Trait has this range doubled to twice the Attacker's Strength Stat.
 
 ## Simple Weapons 
 ### Melee Weapons
@@ -33,9 +33,9 @@ All weapons can be thrown as [[Thrown]] Weapons. When Thrown this way the range 
 | [[Club]]            |    1d6     |                                                                                                                       | 9 cc   | 2 kg   |
 | [[Greatclub]]       |    1d8     | [[Two Handed]]                                                                                                        | 27 cc  | 6 kg   |
 | [[Staff]]           |    1d6     | [[Two Handed]], [[Parrying \| Parrying 1]]                                                                            | 18 cc  | 3.4 kg |
-| Shortsword          |    1d6     | [[Finesse]], [[Light]], [[Thrown \| Thrown (10m)]], [[Versatile \| Versatile (p)]]                                    | 60 cc  | 1.3 kg |
-| Handaxe             |    1d6     | [[Light]], [[Thrown \| Thrown (10m)]]                                                                                 | 60 cc  | 1.6 kg |
-| Lighthammer         |    1d6     | [[Light]]                                                                                                             | 60 cc  | 1.9 kg |
+| Shortsword          |    1d6     | [[Finesse]], [[Light]], [[Versatile \| Versatile (p)]]                                    | 60 cc  | 1.3 kg |
+| Handaxe             |    1d6     | [[Light]]                                                                                | 60 cc  | 1.6 kg |
+| Lighthammer         |    1d6     | [[Light]]                                                                                                            | 60 cc  | 1.9 kg |
 | Pickaxe             |    1d8     | [[Two Handed]], [[Piercing \| Piercing 2]]                                                                            | 1.2 sc | 3.2 kg |
 | Spear               |    1d6     | [[Rules/Traits/Reach \|Reach 1]], [[Versatile \| Versatile (1d8)]]                                                    | 60 cc  | 1.4 kg |
 
