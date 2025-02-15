@@ -71,6 +71,7 @@ kanban-plugin: board
 	- [ ] Spells
 		- [ ] Rebalance [[Electricity]]
 		- [ ] Tags
+		- [ ] Flavor Lines
 - [ ] **Syntax File**
 	- [ ] Gutter Rat XP option name change
 	- [ ] Have race size be consistent
