@@ -17,6 +17,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
+**Requirements:** [[Mortis Marionette]]
 ___
 
 <div> 
@@ -41,8 +42,12 @@ ___
 </div>
 
 ___
+*Bone splinters, marrow shifts, and you rise fortified by stolen remains.*
 
-You take their fucking bones. If the creature would be reduced to negative hit points and not outright die, they make a Constitution Saving Throw. If the creature outright dies the Constitution Saving Throw counts as a Failure.
+<br>
+
+**System:**
+If the creature would be reduced to negative hit points and not outright die, they make a Constitution Saving Throw. If the creature outright dies the Constitution Saving Throw counts as a Failure.
 
 <br>
 
