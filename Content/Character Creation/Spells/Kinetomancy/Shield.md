@@ -21,7 +21,7 @@ ___
 
 <div> 
 	<div style="display:inline-block; float: left;"> 
-		<b>Actions:</b> Reaction
+		<b>Actions:</b> 1 Actions
 		<br>
 		<b>Range:</b> Personal
 		<br>
@@ -30,7 +30,7 @@ ___
 	<div style="display:inline-block; float: right; padding-right: 100px;"> 
 		<b>Saving Throw:</b> None
 		<br>
-		<b>Duration:</b> Instantaneous
+		<b>Duration:</b> Until end of Encounter
 		<br>
 		<b>Damage:</b> None
 	</div> 
@@ -42,4 +42,5 @@ ___
 
 ___
 
-You weave strands of magic together to a physical barrier. You gain a Shield Value equal to your Spellcasting Modifier. This Shield Value is used as the [[Raise Shield]] Reaction against the attack.
+**System:**
+You create a small shield of kinetic energy. You count as having equipped a Shield with a Shield Value equal to your Spell Stat. This Shield is [[Invisible]] and gains the [[Freehand]] Trait as it floats around you.

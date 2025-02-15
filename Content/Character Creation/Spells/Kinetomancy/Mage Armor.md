@@ -39,4 +39,5 @@ ___
 
 ___
 
-You weave strands of magic together to a physical barrier protecting you. You gain an Armor Value equal to your Spellcasting Modifier.
+**System:**
+You create a kinetic barrier around you. You count as having equipped a suit of Armor with an Armor Value equal to your Spell Stat. This Armor is [[Invisible]] and has the [[Bulwark]] Trait with a value equal to one third of your Spell Stat rounded up.
