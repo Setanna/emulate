@@ -12,6 +12,10 @@ Melee Weapons are Strength Based and as such add Strength to Attack Rolls and Da
 
 With a Melee Weapon you can Attack anyone within your Reach and [[Line of Sight]].
 
+<br>
+
+All Weapons except Weapons with the [[Two Handed]] Trait, can be wielded in two hands to increase the Weapon's Damage Die by one Step. Weapons can't be thrown when wielded this way.
+
 ### Ranged Weapons
 Ranged Weapons are Dexterity Based and as such add Dexterity to Attack Rolls and to Damage Rolls.
 
@@ -37,7 +41,7 @@ All weapons can be thrown as [[Thrown]] Weapons. When Thrown this way the range 
 | Handaxe             |    1d6     | [[Light]]                                                                                                             | 60 cc  | 1.6 kg |
 | [[Lighthammer]]     |    1d6     | [[Light]]                                                                                                             | 60 cc  | 1.9 kg |
 | [[Pickaxe]]         |    1d8     | [[Two Handed]], [[Piercing \| Piercing 2]]                                                                            | 1.2 sc | 3.2 kg |
-| Spear               |    1d6     | [[Rules/Traits/Reach \|Reach 1]], [[Versatile \| Versatile (1d8)]]                                                    | 60 cc  | 1.4 kg |
+| [[Spear]]           |    1d6     | [[Rules/Traits/Reach \|Reach 1]], [[Thrown \| Thrown (15m]]                                                    | 60 cc  | 1.4 kg |
 
 	
 ### Ranged Weapons
