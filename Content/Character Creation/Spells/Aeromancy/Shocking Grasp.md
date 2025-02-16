@@ -19,7 +19,7 @@ ___
 
 <div> 
 	<div style="display:inline-block; float: left;"> 
-		<b>Actions:</b> 3
+		<b>Actions:</b> 2
 		<br>
 		<b>Range:</b> Touch 
 		<br>
@@ -30,17 +30,17 @@ ___
 		<br>
 		<b>Duration:</b> Instantaneous
 		<br>
-		<b>Damage:</b> 1d8 Electricity
+		<b>Damage:</b> 1d6 + Spell Stat Electricity
 	</div> 
 	<div style="clear:both" /> 
 </div>
 
 ___
 
-You Roll a [[Swing for the Fences]] Attack against the target. If the Defender takes damage they must Roll a Fortitude Saving Throw against being [[Stunned]].
+You roll a [[Swing for the Fences]] Attack against the target. If the Defender takes damage they must Roll a Fortitude Saving Throw against being [[Stunned]]. You can spend another action to make a [[Target the Gaps]] Attack, instead of a [[Swing for the Fences]] Attack.
 
 <br>
 
 **Success:** The Defender shakes of the shock.
 **Fail:** The Defender is [[Stunned | Stunned 1]].
-**Critical Fail:** The Defender is [[Stunned | Stunned 3]].
+**Critical Fail:** The Defender is [[Stunned | Stunned 2]].
