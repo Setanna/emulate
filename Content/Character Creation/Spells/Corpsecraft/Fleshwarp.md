@@ -34,7 +34,7 @@ ___
 </div>
 
 ___
-*Bone twists, flesh reshapes—your hands rewrite death itself..*
+*Bone twists, flesh reshapes—your hands rewrite death itself.*
 
 <br>
 
