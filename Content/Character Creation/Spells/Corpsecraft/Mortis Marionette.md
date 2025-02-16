@@ -19,7 +19,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Corpsecraft]]
+**Requirements:** [[Fleshwarp]]
 ___
 
 <div> 
