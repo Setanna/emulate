@@ -37,7 +37,7 @@ ___
 
 ___
 
-You roll a [[Swing for the Fences]] Attack against the target. If the Defender takes damage they must Roll a Fortitude Saving Throw against being [[Stunned]]. You can spend another action to make a [[Target the Gaps]] Attack, instead of a [[Swing for the Fences]] Attack.
+You Roll a [[Swing for the Fences]] Attack against the target. If the Defender takes damage they must Roll a Fortitude Saving Throw against being [[Stunned]]. You can spend another action to make a [[Target the Gaps]] Attack, instead of a [[Swing for the Fences]] Attack.
 
 <br>
 
