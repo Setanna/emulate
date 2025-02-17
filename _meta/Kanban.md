@@ -31,6 +31,7 @@ kanban-plugin: board
 - [ ] **Play Testing**
 	- [ ] Try out Passive Perception only
 	- [ ] Try out infinite bleed duration
+	- [ ] Add more content to see if [[Lucky]] is still chosen alot
 - [ ] **Traits**
 	- [ ] Make sure all Trait Files exist
 	- [ ] Trait Descriptions
