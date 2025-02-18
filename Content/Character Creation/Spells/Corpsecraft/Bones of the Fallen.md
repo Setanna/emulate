@@ -17,7 +17,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Mortis Marionette]]
+**Requirements:** [[Fleshwarp]]
 ___
 
 <div> 
