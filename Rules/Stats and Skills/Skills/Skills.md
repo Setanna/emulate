@@ -27,15 +27,14 @@ Whenever you take 10 or 20, the action used gains the [[Focus]] Trait.
 | Swim      | Used to perform various maneuvers while swimming    |
 
 ### Dexterity
-| Name            | Example                                                                     |
-| --------------- | --------------------------------------------------------------------------- |
-| Acrobatics      | Used to perform various maneuvers, such as walking on ledges or doing flips |
-| Disable Device  | Used disarm traps; sabotage simple mechanical devices; and pick locks       |
-| Escape Artist   | Used to slip free from bonds                                                |
-| Fly             | Used to perform various maneuvers while flying                              | 
-| Ride            | Used to ride variety of animals                                             |
-| Sleight of Hand | Used to steal or otherwise take actions without being noticed               |
-| Stealth         | Used to hide from other creatures                                           |
+| Name            | Example                                                                                           |
+| --------------- | ------------------------------------------------------------------------------------------------- |
+| Acrobatics      | Used to perform various maneuvers, such as walking on ledges, doing flips or slip free from bonds |
+| Disable Device  | Used disarm traps; sabotage simple mechanical devices; and pick locks                             |
+| Fly             | Used to perform various maneuvers while flying                                                    | 
+| Ride            | Used to ride variety of animals                                                                   |
+| Sleight of Hand | Used to steal or otherwise take actions without being noticed                                     |
+| Stealth         | Used to hide from other creatures                                                                 |
 
 ### Constitution
 Constitution lacks any skills as resisting diseases or alcohol is considered a Fortitude Saving Throw.
