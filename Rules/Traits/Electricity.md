@@ -10,3 +10,8 @@ Sources with the Electricity Trait deal Electricity damage. Creatures with Metal
 - Reflex Saving Throws gains a [[Circumstance]] Penalty
 
 The Circumstance Bonus and Penalty is equal to one third of their Armor Value.
+
+<br>
+
+### Bright
+Additionally all sources with the Electricity Trait sheds [[Lighting | Bright Lighting]] for 5 meters, [[Lighting |  Normal Lighting]] for another 5 meters and [[Lighting | Dim Lighting]] for another 5 meters.
