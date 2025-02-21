@@ -25,7 +25,7 @@ With a Ranged Weapon you can Attack anyone within Maximum Range Increment and [[
 
 <br>
 
-All weapons can be thrown as [[Thrown]] Weapons. When Thrown this way the range of the weapon is equal to the Attacker's Strength Stat (minimum 1). Weapons with the [[Light]] Trait but not the [[Thrown]] Trait has this range doubled to twice the Attacker's Strength Stat.
+All weapons can be thrown as [[Thrown]] Weapons. When Thrown this way the range of the weapon is equal to twice the Attacker's Strength Stat (minimum 1). Weapons with the [[Light]] Trait but not the [[Thrown]] Trait has this range doubled to four times the Attacker's Strength Stat.
 
 ## Simple Weapons 
 ### Melee Weapons
