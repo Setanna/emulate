@@ -17,7 +17,7 @@ You prepare for the worst. Choose any Reaction or Action with an Action Cost of 
 
 <br>
 
-If a creature wishes to know what you chose, they must roll a Insight Roll against your Bluff DC. On a success the creature learns what Action or Reaction you have prepared.
+If a creature wishes to know what you chose, they must Roll a Insight Roll against your Bluff DC. On a success the creature learns what Action or Reaction you have prepared.
 
 
 
