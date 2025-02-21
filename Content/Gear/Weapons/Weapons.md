@@ -41,7 +41,7 @@ All weapons can be thrown as [[Thrown]] Weapons. When Thrown this way the range 
 | Handaxe             |    1d6     | [[Light]]                                                                                                             | 60 cc  | 1.6 kg |
 | [[Lighthammer]]     |    1d6     | [[Light]]                                                                                                             | 60 cc  | 1.9 kg |
 | [[Pickaxe]]         |    1d8     | [[Two Handed]], [[Piercing \| Piercing 2]]                                                                            | 1.2 sc | 3.2 kg |
-| [[Spear]]           |    1d6     | [[Rules/Traits/Reach \|Reach 1]], [[Thrown \| Thrown (15m]]                                                    | 60 cc  | 1.4 kg |
+| [[Spear]]           |    1d6     | [[Rules/Traits/Reach \|Reach 1]], [[Thrown \| Thrown (15m)]]                                                    | 60 cc  | 1.4 kg |
 
 	
 ### Ranged Weapons
