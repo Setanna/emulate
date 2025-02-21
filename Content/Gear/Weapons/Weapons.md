@@ -47,10 +47,10 @@ All weapons can be thrown as [[Thrown]] Weapons. When Thrown this way the range 
 ### Ranged Weapons
 | Name           | Damage Die | Range Increment | Traits                                                 | Cost  | Weight |
 | -------------- |:----------:| --------------- | ------------------------------------------------------ | ----- | ------ |
-| Light Crossbow | 1d6        | 10 meters       | [[Mechanical \| Mechanical 2]], [[Reload \| Reload 1]] | 15 cc | 2.3 kg |
-| Heavy Crossbow | 1d8        | 30 meters       | [[Mechanical \| Mechanical 4]], [[Reload \| Reload 2]] | 25 cc | 5.1 kg |
+| Light Crossbow |    1d6     | 10 meters       | [[Mechanical \| Mechanical 2]], [[Reload \| Reload 1]] | 15 cc | 2.3 kg |
+| Heavy Crossbow |    1d8     | 30 meters       | [[Mechanical \| Mechanical 4]], [[Reload \| Reload 2]] | 25 cc | 5.1 kg |
 
-
+	
 ## Advanced Weapons
 ### Melee Weapons
 | Name        | Damage Die | Traits                                                                     | Cost   | Weight |
@@ -64,7 +64,7 @@ All weapons can be thrown as [[Thrown]] Weapons. When Thrown this way the range 
 | Greathammer |    1d12    | [[Two Handed]]                                                             | 2.4 sc | 7.4 kg |
 
 ### Ranged Weapons
-| Name     | Damage Die | Range Increment | Traits         | Cost  | Weight |
-| -------- |:----------:| --------------- | -------------- | ----- | ------ |
-| Shortbow |    1d6     | 20 meters       | [[Propulsive]] | 9 cc  | 1.1 kg |
-| Longbow  |    1d8     | 60 meters       | [[Propulsive]] | 14 cc | 2.7 kg |
+| Name     | Damage Die | Range Increment | Traits                         | Cost  | Weight |
+| -------- |:----------:| --------------- | ------------------------------ | ----- | ------ |
+| Shortbow |    1d6     | 20 meters       | [[Propulsive \| Propulsive 0]] | 9 cc  | 1.1 kg |
+| Longbow  |    1d8     | 60 meters       | [[Propulsive \| Propulsive 2]] | 14 cc | 2.7 kg |
