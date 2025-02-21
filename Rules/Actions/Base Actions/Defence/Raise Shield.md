@@ -22,6 +22,9 @@ You lift your shield to block the attack. Until the start of your next turn you 
 
 When Raising a Shield for your ally, the effect lasts until they leave your reach or the start of their next turn, and the **Shield Value** is added to their **Armor Value**.
 
+<br>
+
+Alternatively you can use an Action on your own turn instead of a Reaction.
 
 
 
