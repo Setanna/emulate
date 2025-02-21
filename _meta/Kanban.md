@@ -74,6 +74,9 @@ kanban-plugin: board
 		- [ ] Tags
 		- [ ] Flavor Lines
 - [ ] **Syntax File**
+	- [ ] Look into variables for things like:
+	- Item Prices
+	- Item Weight
 	- [ ] Gutter Rat XP option name change
 	- [ ] Have race size be consistent
 	- Some races have size in description others dont
