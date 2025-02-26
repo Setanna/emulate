@@ -16,5 +16,5 @@ A Creature's Reach is most of the time dependant on their size and weapon they'r
 | Tiny   | 0 Meters (Same Square or Hex) |
 | Small  | 1 Meter                       |
 | Medium | 1 Meter                       |
-| Large  | 2 Meters                      | 
-| Huge   | 3 Meters                      |
+| Large  | 1 Meters                      | 
+| Huge   | 2 Meters                      |
