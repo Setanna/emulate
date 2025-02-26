@@ -57,6 +57,12 @@ kanban-plugin: board
 		- [ ] Spells
 	- [ ] Generic Template
 	- Should have css
+- [ ] **Environment**
+	- [ ] [[Weather]]
+	- Rules
+	- Climate Examples (Tropical, Taiga so on)
+	- [ ] [[Lighting | Light]]
+	- [ ] [[Benefiting from Cover | Cover]]
 
 
 ## Doing
