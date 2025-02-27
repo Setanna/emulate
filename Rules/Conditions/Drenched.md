@@ -8,7 +8,7 @@ Creatures who are Drenched take less damage from sources with the [[Fire]] Trait
 
 <br>
 
-Whenever a Drenched Creature would gain the [[Burning]] Condition, instead reduce its Drenched Condition by that many steps, any remaining Die in the [[Burning]] Condition is still applied. The same is true vice versa, whenever a [[Burning]] Creature instead reduce its [[Burning]] Condition by that many steps.
+Whenever a Drenched Creature would gain the [[Burning]] Condition, instead reduce its Drenched Condition by that many steps, any remaining Die in the [[Burning]] Condition is still applied. The same is true vice versa, whenever a [[Burning]] Creature gains the Drenched Condition, instead reduce its [[Burning]] Condition by that many steps.
 
 <br>
 
