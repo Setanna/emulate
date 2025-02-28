@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-When you are at [[Negative Hit Points]] you gain the [[Slowed | Slowed 2]] Condition and don't fall [[Unconscious]].
+When you are at [[Negative Hit Points]] you gain the [[Slowed | Slowed 2]] Condition and don't fall [[Unconscious]]. While benefitting from this talent you can not reduce your [[Slowed]] Condition lower than 2.
