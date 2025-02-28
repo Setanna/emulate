@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-You gain an Armor Value equal to your Strength. Armor gained from this Talent leaves no gaps and reduces damage even if targeted by a [[Target the Gaps]] Attack. Additionally you add your Strength to your Hit Class.
+You gain an Armor Value equal to your Strength. Armor gained from this Talent leaves no gaps and reduces damage even if targeted by a [[Target the Gaps]] Attack.
