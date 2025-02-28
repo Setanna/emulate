@@ -8,4 +8,4 @@ When a creature reaches Negative Hit Points they fall [[Unconscious]] and at the
 
 <br>
 
-When a creature's Negative Hit Points exceeds their Racial Hit Die, the creature dies.
+When a creature's Negative Hit Points exceeds half their Racial Hit Die, the creature dies.
