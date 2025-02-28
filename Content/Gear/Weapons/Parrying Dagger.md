@@ -38,4 +38,4 @@ ___
 <br>
 
 **Critical Effect:**
-Increase the Bleed Damage from [[Vital Strike]] by one step.
+Increase the Damage from [[Vital Strike]] by one step.

@@ -30,4 +30,4 @@ ___
 <br>
 
 **Critical Effect:**
-The creature takes 1d8 [[Damage Types | Bleed]] Damage.
+The creature gains the [[Bleeding | Bleeding (d8)]] Condition.

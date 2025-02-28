@@ -13,7 +13,7 @@ ___
 
 **System:**
 You burn a wound of yourself or another creature within reach. You or the Creature takes [[Damage Types | Fire]] Damage, that is not reduced by Armor Value. You can choose 1 Attack that the Creature was hit by and give them the following benefits:
-- Prevent any [[Damage Types | Bleed]] Damage from the Attack
+- Remove any [[Bleeding]] Condition from the creature.
 - Grant the creature a +2 [[Circumstance]] Bonus against diseases from the attack.
 
 <br>
