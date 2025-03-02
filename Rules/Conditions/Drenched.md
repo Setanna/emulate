@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 # Drenched
-Creatures who are Drenched take less damage from sources with the [[Fire]] Trait, and additional damage from sources with the [[Electricity]] or [[Cold]] Trait. This Damage Modification is equal to the die notified in the Drenched Condition Parenthesis. 
+Creatures who are Drenched take less damage from sources with the [[Fire]] Trait, and additional damage from sources with the [[Electricity]] or [[Cold]] Trait. This Damage Modification is equal to the die notified in the Drenched Condition Parenthesis. When reducing [[Fire]] Damage, the reduction is equal to the maximum number of the die.
 
 <br>
 
