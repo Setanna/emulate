@@ -9,6 +9,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
+**Requirements:** You have higher than 0 Speed.
 ___
 **System:**
-You move up to a single meter, this movement does not provoke [[Attack of Opportunity]].
+You move a single meter up to your speed, this movement does not provoke [[Attack of Opportunity]].
