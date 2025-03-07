@@ -8,4 +8,4 @@ A creature that is Petrified rolls their Petrified Die as a [[Circumstance]] Pen
 
 <br>
 
-When a creatures reaches a d12 Petrified Value, they and any items on their person, turn completely to stone. The creature gains the [[Unconscious]] Conditon.
+When a creatures reaches a d12 Petrified Value, they and any items on their person, turn completely to stone. The creature gains the [[Unconscious]] Condition.
