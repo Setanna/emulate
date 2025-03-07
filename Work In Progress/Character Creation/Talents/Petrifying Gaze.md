@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Petrifying Gaze<span style="margin-left: auto;"> 4 XP</span> </h1>
+<h1> Petrifying Gaze<span style="margin-left: auto;"> 10 XP</span> </h1>
 
 [[Birthright]]{.trait}
 
@@ -20,7 +20,7 @@ Whenever a creature meets your gaze, they must Roll a Constitution Saving Throw 
 
 <br>
 
-**Success:** The creature becomes [[Petrified 1]] or increases their Petrified value by 1.
-**Fail:** The creature becomes [[Petrified 2]] or increases their Petrified value by 2.
-**Critical Fail:** The creature becomes [[Petrified 3]] or increases their Petrified value by 3.
+**Success:** The creature becomes [[Petrified | Petrified 1]] or increases their Petrified value by 1.
+**Fail:** The creature becomes [[Petrified | Petrified 2]] or increases their Petrified value by 2.
+**Critical Fail:** The creature becomes [[Petrified | Petrified 3]] or increases their Petrified value by 3.
 
