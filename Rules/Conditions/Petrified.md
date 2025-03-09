@@ -9,7 +9,7 @@ And for each step of the Petrified Die, the creature reduces their speed by that
 
 <br>
 
-Additionally a Creature gains an Armor Value equal to the maximum of their Petrified Die, this Armor Value reduces damage even if [[Target the Gaps]] Attack is made against the creature.
+Additionally a Creature is treated as if it is wearing Armor with an Armor Value equal to the maximum of their Petrified Die, this Armor has the [[Gapless]] Trait.
 
 <br>
 

@@ -7,6 +7,8 @@ cssclass: pathfinder
 
 [[Defence]]{.trait}
 
+[[Gapless]]{.trait}
+
 <div style="clear:both" /> 
 
 **Requirements:** [[Iron Strikes]], Strength 3+
@@ -16,4 +18,4 @@ ___
 <br>
 
 **System:**
-You gain an Armor Value equal to your Strength. Armor gained from this Talent leaves no gaps and reduces damage even if targeted by a [[Target the Gaps]] Attack.
+You gain an Armor Value equal to your Strength.
