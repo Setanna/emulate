@@ -9,8 +9,8 @@ And for each step of the Petrified Die, the creature reduces their speed by that
 
 <br>
 
-Additionally a Creature is treated as if it is wearing Armor with an Armor Value equal to the maximum of their Petrified Die, this Armor has the [[Gapless]] Trait.
+Additionally a Creature is treated as if it is wearing Armor with an Armor Value equal to the maximum of their Petrified Die.
 
 <br>
 
-When a creatures reaches a d12 Petrified Value, they and any items on their person, turn completely to stone. The creature gains the [[Unconscious]] Condition. The creatures weight is increased by eight times.
+When a creatures reaches a d12 Petrified Value, they and any items on their person, turn completely to stone. The creature gains the [[Unconscious]] Condition and its weight is increased by eight times, until the Petrified Condition is reduced below a d12. Additionally while they have a Petrified Value of a d12, the Armor granted from this Condition gains the [[Gapless]] Trait.
