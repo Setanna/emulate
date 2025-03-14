@@ -15,10 +15,10 @@ cssclass: pathfinder
 ___
 
 **System:**
-You trick the creature into raising their defenses, unknown to them, a shield does nothing to a Fireball. You Roll a [[Bluff]] Roll against one creature's [[Insight]] DC. You and the creature must be able to see each other.
+Roll a [[Bluff]] Roll and choose an Action. The next time you would take the chosen Action this turn, compare the [[Bluff]] Roll against each targets [[Insight]] DC. If the chosen Action has [[Sight]], [[Verbal]] or [[Language]], Hide Intent gains those traits.
 
 <br>
 
 **Critical Success:** The creature doesn't know what action is targeting it. It can still use [[Defence | Defensive]] Reactions.
 **Success:** The creature knows what action is targeting it, but not what Traits the action has.
-**Fail:** The creature knows what attack or action is targeting them.
+**Fail:** The creature knows what action is targeting them.
