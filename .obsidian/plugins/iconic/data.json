@@ -30,6 +30,13 @@
       ],
       "color": "#ffffff"
     },
+    "Content/Bestiary": {
+      "icon": "lucide-paw-print",
+      "unsynced": [
+        "9c4516fa28f7815a"
+      ],
+      "color": "#965a50"
+    },
     "Content/Character Creation": {
       "icon": "lucide-person-standing",
       "unsynced": [
@@ -86,6 +93,13 @@
         "9c4516fa28f7815a"
       ]
     },
+    "Rules/Environment": {
+      "icon": "lucide-cloud",
+      "unsynced": [
+        "9c4516fa28f7815a"
+      ],
+      "color": "#9664a0"
+    },
     "Rules/Gear": {
       "icon": "lucide-package",
       "color": "#9664a0",
@@ -93,6 +107,13 @@
         "ef88b428abf812c5",
         "9c4516fa28f7815a"
       ]
+    },
+    "Rules/Mechanics": {
+      "icon": "lucide-cog",
+      "unsynced": [
+        "9c4516fa28f7815a"
+      ],
+      "color": "#9664a0"
     },
     "Rules/Race": {
       "icon": "lucide-person-standing",
