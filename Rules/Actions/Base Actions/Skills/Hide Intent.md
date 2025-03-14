@@ -6,8 +6,6 @@ cssclass: pathfinder
 
 <h1> Hide Intent <span style="margin-left: auto;"> 1 Action </span> </h1>
 
-[[Sight]]{.trait}
-
 [[Skill | Skill (Bluff)]]{.trait}
 
 <div style="clear:both" />
