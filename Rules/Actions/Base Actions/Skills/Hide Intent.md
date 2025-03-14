@@ -20,5 +20,5 @@ You trick the creature into raising their defenses, unknown to them, a shield do
 <br>
 
 **Critical Success:** The creature doesn't know what action is targeting it. It can still use [[Defence | Defensive]] Reactions.
-**Success:** The creature doesn't know whether the Attack is [[Swing for the Fences]] or [[Target the Gaps]].
+**Success:** The creature knows what action is targeting it, but not what Traits the action has.
 **Fail:** The creature knows what attack or action is targeting them.
