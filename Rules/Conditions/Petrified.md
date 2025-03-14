@@ -5,11 +5,10 @@ cssclass: pathfinder
 
 # Petrified
 A creature that is Petrified rolls their Petrified Die as a [[Circumstance]] Penalty on all Attack Rolls, Physical Skills and Reflex Saving Throws. 
-And for each step of the Petrified Die, the creature reduces their speed by that amount. So a d4 would reduce a creatures speed by 1 and a d10 would reduce a creatures speed by 4. 
 
 <br>
 
-Additionally a Creature is treated as if it is wearing Armor with an Armor Value equal to the maximum of their Petrified Die.
+Additionally a Creature is treated as if it is wearing Armor with an Armor Value equal to the maximum of their Petrified Die. The Armor's Strength Requirement is equal to a third of the their Petrified Die round up. The Armor has no Dexterity Penalty.
 
 <br>
 
