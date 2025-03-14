@@ -42,5 +42,5 @@ ___
 ___
 
 **System:**
-You conjure up a bright flame and hurl it at a creature within Range. Make a [[Swing for the Fences]] Attack against the creature.
+You conjure up a bright flame and hurl it at a creature within Range. Make an [[Making an Attack | Attack]] against the creature.
 

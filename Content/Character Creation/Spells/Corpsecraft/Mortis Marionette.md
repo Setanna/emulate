@@ -39,7 +39,7 @@ ___
 	</div> 
 	<div style="clear:both" /> 
 	
-	<b>Trigger:</b> A creature would provoke <a href="Attack of Opportunity.md" class="internal-link">Attack of Opportunity</a>, <a href="Raise Shield.md" class="internal-link">Raise Shield</a> or <a href="Parry.md" class="internal-link">Parry</a> within reach of a corpse.
+	<b>Trigger:</b> A creature would provoke an <a href="Attack of Opportunity.md" class="internal-link">Attack of Opportunity</a>, <a href="Raise Shield.md" class="internal-link">Raise Shield</a> or <a href="Parry.md" class="internal-link">Parry</a> within reach of a corpse.
 	
 </div>
 
@@ -53,8 +53,8 @@ The corpse makes one of the triggered Actions. The corpse treats all your allies
 
 <br>
 
-Alternatively, the spell can be used for 2 Actions to force a corpse to make a [[Swing for the Fences]] Attack against a creature within reach or range.
+Alternatively, the spell can be used for 2 Actions to force a corpse to make a [[Making an Attack | Attack]] Attack against a creature within reach or range.
 
 <br>
 
-The corpse can pick up Shields or Weapon within reach to use for the Actions. The corpse takes the Action as it would when it was alive, adding all their relevant Talents, Bonuses and Penalties to their Roll and Shield Value. The [[Luck]] and [[Rules/Bonuses and Penalties/Morale|Morale]] Bonus and Penalties are not added to their Roll or Shield Value, additionally the corpse can only make [[Swing for the Fences]] Attacks.
+The corpse can pick up Shields or Weapon within reach to use for the Actions. The corpse takes the Action as it would when it was alive, adding all their relevant Talents, Bonuses and Penalties to their Roll and Shield Value. The [[Luck]] and [[Rules/Bonuses and Penalties/Morale|Morale]] Bonus and Penalties are not added to their Roll or Shield Value.

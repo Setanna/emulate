@@ -13,6 +13,8 @@ cssclass: pathfinder
 
 [[Somatic]]{.trait}
 
+[[Precise]]{.trait}
+
 <div style="clear:both" /> 
 
 **Requirements:** [[Fleshwarp]]
@@ -42,4 +44,4 @@ ___
 <br>
 
 **System:**
-You make a [[Target the Gaps]] Attack against a creature within reach. The creature takes 1d6 + your Spell Stat [[Damage Types | Necrotic]] Damage.
+You make an [[Making an Attack | Attack]] against a creature within reach. The creature takes 1d6 + your Spell Stat [[Damage Types | Necrotic]] Damage.

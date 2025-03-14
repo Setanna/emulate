@@ -44,6 +44,6 @@ You channel heat directly into the palm of your hands. This allows you to use yo
 
 <br>
 
-Additionally you gain a Melee [[Spell Attack]] while channeling this spell.
+Additionally you can make [[Making an Attack | Attacks]], as if wielding a Weapon. The Damage of the Weapon is equal to the Spell Damage.
 
 

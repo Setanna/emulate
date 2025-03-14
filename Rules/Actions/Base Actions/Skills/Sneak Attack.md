@@ -6,7 +6,7 @@ cssclass: pathfinder
 
 <h1> Sneak Attack <span style="margin-left: auto;"> 3 Actions </span> </h1>
 
-[[Attack]]{.trait}
+[[Rules/Traits/Attack]]{.trait}
 
 [[Skill | Skill (Stealth)]]{.trait}
 
@@ -16,7 +16,7 @@ cssclass: pathfinder
 ___
 
 **System:**
-You Roll a [[Stealth]] Roll against all surrounding creatures [[Perception]] DC. On a success make a [[Swing for the Fences]] or [[Target the Gaps]] Attack. You can spend an additional action to move up your Speed before making the attack.
+You Roll a [[Stealth]] Roll against all surrounding creatures [[Perception]] DC. On a success make an [[Making an Attack | Attack]]. You can spend an additional action to move up your Speed before making the attack.
 
 <br>
 

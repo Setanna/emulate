@@ -5,6 +5,8 @@ cssclass: pathfinder
 
 <h1> Cauterize <span style="margin-left: auto;"> 1 Action</span> </h1>
 
+[[Precise]]{.trait}
+
 <div style="clear:both" /> 
 
 **Requirements:** Wielding something that deals [[Damage Types | Fire]] Damage.
@@ -18,4 +20,4 @@ You burn a wound of yourself or another creature within reach. You or the Creatu
 
 <br>
 
-If the creature is unwilling to be Cauterized, you must Roll a [[Target the Gaps]] Attack to affect the creature with this Action.
+If the creature is unwilling to be Cauterized, you must Roll an [[Making an Attack | Attack]] to affect the creature with this Action.

@@ -6,11 +6,7 @@ cssclass: pathfinder
 # Making an Attack
 
 ### 1. Determine Target
-The Attacker chooses a Target within range (for ranged attacks); or reach (for melee attacks); that they have [[Line of Sight]] to. The Attacker chooses if they make a [[Swing for the Fences]] or [[Target the Gaps]] Attack.
-
-<br>
-
-Some Actions such as spells or [[Charge]], forces the Attacker to make a specific Attack Action.
+The Attacker chooses a Target within range (for ranged attacks); or reach (for melee attacks); that they have [[Line of Sight]] to.
 
 ### 2. Defensive Reactions
 If the Defender is aware of the attack, they can decide to use any reactions with the [[Defence]] Trait. 
@@ -39,7 +35,7 @@ If the Attack Roll is a Critical Success, any Weapon Damage Die are treated as t
 
 <br>
 
-Additional Damage Dice such as Bleed Damage from Vital Strike is are not treated as they rolled maximum.
+Additional Damage Dice such as Bleed Damage from Vital Strike are not treated as they rolled maximum.
 
 ### 3.5 Apply Damage
 The Defender reduces the damage taken by their Damage Reduction, if any. Physical Damage is reduced first and then Elemental Damage. 

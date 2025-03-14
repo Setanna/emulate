@@ -12,12 +12,12 @@ cssclass: pathfinder
 
 <div style="clear:both" />
 
-**Trigger:** You are the target of a [[Target the Gaps]] Attack.
+**Trigger:** You are the target of an Action with the [[Precise]] Trait.
 
 ___
 
 **System:**
-You quickly twist your body to let your armor take the blow. The Attack is resolved as if it was a [[Swing for the Fences]] Attack.
+You quickly twist your body to let your armor take the blow. The Action is resolved as if it was made without the [[Precise]] Trait.
 
 
 

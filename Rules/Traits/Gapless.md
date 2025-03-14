@@ -4,4 +4,4 @@ cssclass: pathfinder
 ---
 
 # Gapless
-Armor or Talents that grant an Armor Value and has the [[Gapless]] Trait, reduces damage from [[Target the Gaps]] Attacks as if they were [[Swing for the Fences]] Attacks.
+Armor or Talents that grant an Armor Value and has the Gapless Trait, treat all attacks as if they were made without the [[Precise]] Trait.

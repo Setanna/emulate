@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 # Reach
-Reach determines how long a creature can reach for with [[Interact]] Actions; and Actions with the [[Attack]] Trait.
+Reach determines how long a creature can reach for with [[Interact]] Actions; and Actions with the [[Rules/Traits/Attack | Attack]] Trait.
 
 <br>
 
