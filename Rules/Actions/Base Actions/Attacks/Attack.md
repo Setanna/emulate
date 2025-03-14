@@ -7,8 +7,6 @@ cssclass: pathfinder
 
 [[Rules/Traits/Attack | Attack]]{.trait}
 
-[[Precise]]{.trait}
-
 <div style="clear:both" /> 
 
 ___
