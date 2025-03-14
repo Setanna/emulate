@@ -29,7 +29,7 @@ Armor reduces all [[Damage Types | Physical Damage]] by the Armor Value, while a
 | Full Plate  | [[Loud]], [[Bash \| Bash (1d4)]], [[Bulwark \| Bulwark +4]] | 7.5 sc | 24 kg  | 9           | 2           | 2               |
 
 ### Dexterity Penalty and Strength Requirement
-Dexterity Penalty is applied directly to ones Dexterity Score, lowering it while the shield is used.
+Dexterity Penalty is applied directly to ones Dexterity Score, lowering it while the armor is used.
 
 <br>
 
