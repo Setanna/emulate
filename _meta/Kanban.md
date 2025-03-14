@@ -81,7 +81,8 @@ kanban-plugin: board
 		- [ ] Rebalance [[Electricity]]
 		- [ ] Tags
 		- [ ] Flavor Lines
-- [ ] **Syntax File**
+- [ ] **Syntax**
+	- [ ] Improve CSS Files
 	- [ ] Look into variables for things like:
 	- Item Prices
 	- Item Weight
