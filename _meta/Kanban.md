@@ -82,6 +82,7 @@ kanban-plugin: board
 		- [ ] Tags
 		- [ ] Flavor Lines
 - [ ] **Syntax**
+	- [ ] Find name for talent groups folder
 	- [ ] Improve CSS Files
 	- [ ] Look into variables for things like:
 	- Item Prices
