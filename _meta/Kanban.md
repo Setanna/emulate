@@ -71,7 +71,10 @@ kanban-plugin: board
 
 - [ ] **Stats and Skills**
 	 - [ ] [[Stats]]
-		 - [ ] Low Stat Penalties
+		- [ ] Low Stat Penalties
+		- [ ] Stat Balance
+		- Constitution, Wisdom and Dexterity generally too good
+		- Buff or add more talents for Charisma, Intelligence and Strength
 	 - [ ] [[Skills]]
 		 - [ ] Proficiency Bonuses
 - [ ] **Spell Casting Talents**
