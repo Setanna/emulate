@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Spellcasting </h1>
+<h1> Cast a Spell </h1>
 
 [[Arcane]]{.trait}
 
