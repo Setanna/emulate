@@ -16,6 +16,6 @@ ___
 <br>
 
 **System:**
-You can use weapons with the [[Two Handed]] Trait in a single Hand, and whenever you would use the [[Titan's Stride]] Action you can lift up to 4 times your [[Stats#Physical | Heavy Load]].
+You don't incur a penalty for using [[Heavy]] Weapons with [[Multiattack]], and whenever you would use the [[Titan's Stride]] Action you can lift up to 4 times your [[Stats#Physical | Heavy Load]].
 
 

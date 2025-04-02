@@ -7,8 +7,6 @@ cssclass: pathfinder
 
 [[Parrying | Parrying 1]]{.trait}
 
-[[Two Handed]]{.trait}
-
 [[Material | Material (Wood)]]{.trait}
 
 <div style="clear:both" /> 

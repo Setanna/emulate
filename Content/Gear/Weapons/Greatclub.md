@@ -5,7 +5,7 @@ cssclass: pathfinder
 
 <h1> Greatclub <span style="margin-left: auto;">PRICE</span> </h1>
 
-[[Two Handed]]{.trait}
+[[Heavy]]{.trait}
 
 [[Material | Material (Wood)]]{.trait}
 

@@ -5,7 +5,7 @@ cssclass: pathfinder
 
 <h1> Pickaxe <span style="margin-left: auto;">PRICE</span> </h1>
 
-[[Two Handed]]{.trait}
+[[Heavy]]{.trait}
 
 [[Piercing | Piercing 2]]{.trait}
 

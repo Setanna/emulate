@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 # Armor
-Armor grants an **AV (Armor Value)** that either reduces damage or increases **HC (Hit Class)** depending on the type of Attack, such as [[Target the Gaps]] and [[Swing for the Fences]].
+Armor grants an **AV (Armor Value)** that either reduces damage or increases **HC (Hit Class)** depending on the type of Attack, such as [[Precise]] and [[Rules/Actions/Base Actions/Attacks/Attack]].
 
 <br>
 
