@@ -3,9 +3,11 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Charge <span style="margin-left: auto;">4 Action</span> </h1>
+<h1> Charge <span style="margin-left: auto;">3 Action</span> </h1>
 
 [[Rules/Traits/Attack | Attack]]{.trait}
+
+[[Reckless]]{.trait}
 
 [[Movement]]{.trait}
 
@@ -13,4 +15,4 @@ cssclass: pathfinder
 
 ___
 **System:**
-You move up to twice your speed in meters, at the end of the charge you can make a single [[Making an Attack | Attack]]. You must move at least a number of meters equal to your speed to use the Charge Action.
+You move up to twice your speed in meters, at the end of the movement you can make a single [[Making an Attack | Attack]]. You must move at least a number of meters equal to your speed to use the Charge Action.
