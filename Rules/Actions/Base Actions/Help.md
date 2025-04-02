@@ -19,4 +19,4 @@ You help another creature with a Skill Roll. You Roll the same Skill Roll, with 
 **Critical Success:** You give a +4 [[Circumstance]] Bonus.
 **Success:** You give a +2 [[Circumstance]] Bonus.
 **Fail:** You give no bonus.
-**Critical Fail:** You give a -2 [[Circumstance]] Bonus.
+**Critical Fail:** You give a -2 [[Circumstance]] Penalty.

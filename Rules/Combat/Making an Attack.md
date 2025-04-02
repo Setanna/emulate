@@ -38,7 +38,7 @@ If the Attack Roll is a Critical Success, any Weapon Damage Die are treated as t
 Additional Damage Dice such as Bleed Damage from Vital Strike are not treated as they rolled maximum.
 
 ### 3.5 Apply Damage
-The Defender reduces the damage taken by their Damage Reduction, if any. Physical Damage is reduced first and then Elemental Damage. 
+First any damage increase is applied to the damage. Then the Defender reduces the damage taken by their Damage Reduction, if any. Physical Damage is reduced first and then Elemental Damage. 
 
 <br>
 
@@ -58,7 +58,7 @@ An effect that happens upon Dealing Damage is only resolved if the defender lost
 > 3.2 The attack misses and no damage is rolled.
 
 > ### Apply Damage Example
-> 1. A Human is dealt 6 Slashing and 3 Fire Damage by a Swing for the Fences Attack.
+> 1. A Human is dealt 6 Slashing and 3 Fire Damage.
 > 2. Human has a Fullplate with an Armor Value of 9
 > 	1. He reduces the Slashing Damage by 6, leaving 3 Armor Value left.
 > 	2. A Fullplates Armor Value only reduces Fire Damage by one third, so the 3 Armor Value left reduces 1 Fire Damage
