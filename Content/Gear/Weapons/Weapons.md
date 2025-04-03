@@ -14,7 +14,7 @@ With a Melee Weapon you can Attack anyone within your Reach and [[Line of Sight]
 
 <br>
 
-All Melee Weapons can be wielded in two hands to increase the Weapon's Damage Die by one Step.
+All Melee Weapons without the [[Light]] Trait, can be wielded in two hands to increase the Weapon's Damage Die by one Step.
 
 ### Ranged Weapons
 Ranged Weapons are Dexterity Based and as such add Dexterity to Attack Rolls and to Damage Rolls.
