@@ -12,4 +12,5 @@ cssclass: pathfinder
 ___
 
 **System:**
-You take the [[Rules/Actions/Base Actions/Attacks/Attack | Attack]] Action with any number of weapons you are wielding, for each [[Making an Attack | Attack]] after the first, increase the Action Cost of this Action by one. All [[Making an Attack | Attacks]] made in this way incur a -4 [[Circumstance]] Penalty to Attack Rolls.
+You make the [[Rules/Actions/Base Actions/Attacks/Attack | Attack]] Action with each weapon you are wielding. For each weapon you take the [[Rules/Actions/Base Actions/Attacks/Attack | Attack]] Action with after the first, increase this Action Cost by 1, Heavy Weapons increase the Action cost by 2 and Light Weapons don't increase the Action Cost. All Attack Rolls made using Attack Actions from this Action, take a -4 [[Circumstance]] Penalty.
+
