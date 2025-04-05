@@ -8,6 +8,8 @@ cssclass: pathfinder
 
 [[Defence]]{.trait}
 
+[[Emotion]]{.trait}
+
 [[Skill | Skill (Intimidate)]]{.trait}
 
 <div style="clear:both" />
