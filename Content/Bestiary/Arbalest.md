@@ -18,6 +18,7 @@ ___
 ___
 
 **Hit Class:** 12
+**Armor Value:** 3
 **Hit Points:** 9 (1d8 + 1)
 **Fort:** +1, **Ref:** +2, **Will:** +2
 
