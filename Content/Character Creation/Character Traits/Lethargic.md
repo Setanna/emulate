@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Lethargic <span style="margin-left: auto;">-2 XP</span> </h1>
+<h1> Lethargic <span style="margin-left: auto;">-5 XP</span> </h1>
 
 [[Flaw]]{.trait}
 
