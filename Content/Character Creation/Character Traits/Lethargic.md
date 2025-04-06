@@ -10,7 +10,7 @@ cssclass: pathfinder
 <div style="clear:both" /> 
 
 ___
-*Your gaze and posture are enough to give pause, subtly warning others not to push their luck.*
+*Weariness claims you sooner, your endurance a fleeting resource.*
 
 <br>
 
