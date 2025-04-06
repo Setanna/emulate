@@ -71,7 +71,7 @@ Creatures of Emulate are made up and primarily defined by 6 core attributes know
 |     +0     | Human         | Have a basic awareness of the consequences of actions, and comprehend emotions and motivations.                                               |
 |     +1     | Centaur       | Insightful beings with a sharp perception of the world around them. Strong instincts and able to act effectively in unpredictable situations. |
 |     +2     | Pixies        | Highly perceptive and wise, with deep understanding of nature, magic, and the intricacies of social dynamics.                                 |
-|     +3     | Elderly Human | Their deep wisdom allows them to guide or mentor others with great clarity.                                                                   |
+|     +3     | Elderly Human | Their deep Wisdom allows them to guide or mentor others with great clarity.                                                                   |
 |     +4     | Dragon        | Deep insight into nature, life, and magical forces. These beings often see patterns and outcomes long before they occur.                      |
 |     +5     | Sphinx        | Deep, almost cosmic understanding of the universe, with a profound grasp of fate, ethics, and the balance of life.                            |
 
@@ -83,12 +83,19 @@ Creatures of Emulate are made up and primarily defined by 6 core attributes know
 |     -3     | Griffons, Unicorns | Magical Beasts; Minimum Intelligence required for speech;                                |
 |     -2     | Town Fool; Ogre    | Limited reasoning ability; can follow orders but struggles with complex concepts.        |
 |     -1     | Goblin             | Below-average cognition, slow learners, and prone to confusion with abstract ideas.      |
-|     +0     | Human              | Average intelligence with normal reasoning, logic, and learning capacity.                |
+|     +0     | Human              | Average Intelligence with normal reasoning, logic, and learning capacity.                |
 |     +1     | Medusa             | Quick learners, skilled at problem-solving and adapting to new situations.               |
 |     +2     | Gnome              | Highly intelligent, strong memory, can think several steps ahead in planning.            |
 |     +3     | Elderly Human      | Exceptional logic, deep understanding of multiple disciplines, manipulative masterminds. |
 |     +4     | Beholders          | Brilliant thinkers, capable of long-term strategy, multiple fields of study.             |
 |     +5     | Sphinx             | Genius, understands philosophy, science, and magic at an advanced level;                 |
+
+**Speech**
+Creatures with an Intelligence of -2 or lower, can only learn [[Languages]] to a Basic Understanding, and any [[Languages]] they are Fluent in are instead treated as Basic.
+
+<br>
+
+Creatures with an Intelligence of -4 or lower, can't learn languages above an Untrained Proficiency, and any [[Languages]] they know are treated as Untrained.
 
 ### Charisma
 | Stat Score | Example          | Description                                                                                                                                                                                   |
@@ -101,7 +108,7 @@ Creatures of Emulate are made up and primarily defined by 6 core attributes know
 |     -1     | Kobolds          | The individual has an average grasp of social interaction but still faces challenges in more complex or emotionally charged situations                                                        |
 |     +0     | Human            | Average charisma, with the ability to lead, persuade, or connect with others. They can form friendships, alliances, and be effective in social settings.                                      |
 |     +1     | Centaur          | With a natural knack for conversation and engagement, they are able to make allies easily, lead small groups, and foster friendships or collaborations in their immediate circle.             |
-|     +2     | Griffon          | Their charisma shines in speeches, debates, and one-on-one negotiations, allowing them to sway opinions and inspire action.                                                                   |
+|     +2     | Griffon          | Their Charisma shines in speeches, debates, and one-on-one negotiations, allowing them to sway opinions and inspire action.                                                                   |
 |     +3     | Elderly Human    | These individuals carry an almost magnetic aura. People naturally gravitate toward them, and their presence alone can stir emotions and create loyalty or admiration among those around them. |
 |     +4     | Pixie            | A rare individual who can sway entire crowds with ease, inspire devotion, and instill hope or passion in large groups.                                                                        |
 |     +5     | Sphinx           | These beings have an almost supernatural ability to inspire devotion or fear.                                                                                                                 |
