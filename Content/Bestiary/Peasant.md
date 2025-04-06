@@ -18,6 +18,7 @@ ___
 ___
 
 **Hit Class** 11
+**Armor Value:** 0
 **Hit Points:** 8 (1d8)
 **Fort:** +0, **Ref:** +0, **Will:** +1
 
