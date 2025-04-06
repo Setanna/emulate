@@ -31,7 +31,7 @@ Rolling a Skill Roll without proper proficiency concurs a -2 Proficiency Penalty
 ### Upgrading Proficiency
 To increase proficiency, it costs XP as defined as the table below:
 
-![[proficiency_xp_table.png]]{width=100%}
+![[proficiency_table.png]]{width=100%}
 
 Before being able to purchase Heavy Armor Proficiency one must have Medium Armor Proficiency.
 
