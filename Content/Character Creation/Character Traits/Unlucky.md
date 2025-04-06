@@ -15,4 +15,4 @@ ___
 <br>
 
 **System:**
-You gain a -1 [[Luck]] Penalty to your Hit Class; Saving Throws; Difficulty Classes; and all Rolls.
+You gain a -1 [[Luck]] Penalty to your Hit Class; Saving Throws; Difficulty Classes; all Rolls and all Damage Rolls.
