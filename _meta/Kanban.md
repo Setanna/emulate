@@ -65,6 +65,9 @@ kanban-plugin: board
 	- [ ] [[Benefiting from Cover | Cover]]
 	- [ ] Time Incremental Rules
 	- Rain only penalizes tracking each hour, but make a rule to allow all time sensitive penalties and bonuses be able to split up in smaller time increments.
+- [ ] **Talents**
+	-  [ ] [[All Eyes On Me]] needs a better name
+	- Possible change effect and make new Talent with the old effect
 
 
 ## Doing
