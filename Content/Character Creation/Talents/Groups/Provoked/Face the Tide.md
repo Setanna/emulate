@@ -11,7 +11,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[All Eyes On Me]], Charisma 3+
+**Requirements:** [[Undeniable Presence]], Charisma 3+
 ___
 *You think numbers will save you?*
 
