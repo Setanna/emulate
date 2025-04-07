@@ -12,7 +12,7 @@ The general ideas for Emulate.
 	- Two different versions:
 		- Proficient in all games
 		- Acting like they're proficient and use bluff or sleight of hand
-- 
+- Melee Counter Spell
 
 ## Christian's Corner
 - Unique Martial late game actions besides blocking and attacking.
