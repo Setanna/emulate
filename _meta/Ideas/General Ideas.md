@@ -4,6 +4,8 @@ The general ideas for Emulate.
 ## Erin's Corner
 - Noble mechanic flavor binding
 - Herbalist
+- Distract
+	- Pocket Sand Reaction
 
 ## Aron's Corner
 - Master of Game
