@@ -18,5 +18,5 @@ ___
 <br>
 
 **System:**
-Any creature that can see you gains the [[Provoked | Provoked 1]] Condition, with you as their Target.
+Any creature that is [[Provoked]] with you as their Target, can not reduce their [[Provoked]] Value below 1, for as long as they have sight you.
 
