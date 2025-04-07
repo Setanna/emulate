@@ -85,6 +85,9 @@ kanban-plugin: board
 		- [ ] Tags
 		- [ ] Flavor Lines
 - [ ] **Syntax**
+	- [ ] Should Conditions and Affects use:
+	- First Person (You make an attack)
+	- Third Person (The creature makes an attack)
 	- [ ] Find name for talent groups folder
 	- [ ] Improve CSS Files
 	- [ ] Look into variables for things like:
