@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Face the Tide <span style="margin-left: auto;"> 10 XP</span> </h1>
+<h1> Face the Tide <span style="margin-left: auto;"> 6 XP</span> </h1>
 
 [[Sight]]{.trait}
 
@@ -11,7 +11,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Undeniable Presence]], Charisma 3+
+**Requirements:** [[Undeniable Presence]], Charisma 4+
 ___
 *You think numbers will save you?*
 

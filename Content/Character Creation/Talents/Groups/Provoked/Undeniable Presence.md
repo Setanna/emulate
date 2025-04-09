@@ -11,7 +11,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[All Eyes On Me]], Charisma 2+
+**Requirements:** [[Between All Eyes]], Charisma 3+
 ___
 *In the chaos of war, you're the one they can't ignore.*
 
@@ -19,4 +19,8 @@ ___
 
 **System:**
 Any creature that is [[Provoked]] with you as their Target, can not reduce their [[Provoked]] Value below 1, for as long as they have sight you.
+
+<br>
+
+Additionally, you can use the [[All Eyes On Me]] Talent even when you are [[Surprised]].
 

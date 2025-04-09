@@ -13,10 +13,10 @@ cssclass: pathfinder
 
 **Requirements:** Charisma 1+
 ___
-*Draw their gaze, deny their tactics.*
+*Attention is a weapon, and you wield it with ease.*
 
 <br>
 
 **System:**
-Any creature that is [[Provoked]] with you as their Target, can not [[Flanked | Flank]] you.
+Whenever you Roll for Initiative and you are not [[Surprised]], you can take the [[Antagonize]] Action as a free action.
 
