@@ -18,7 +18,7 @@ ___
 <br>
 
 **System:**
-Any creature that is [[Provoked]] with you as their Target, can not reduce their [[Provoked]] Value below 1, for as long as they have sight you.
+Any creature that is [[Provoked]] with you as their Target, can not reduce their [[Provoked]] Value below 1, for as long as they have sight to you.
 
 <br>
 
