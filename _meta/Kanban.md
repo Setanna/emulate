@@ -87,6 +87,11 @@ kanban-plugin: board
 - [ ] **Spell Casting Talents**
 	- [ ] Arcane Talents
 		- [ ] [[Eldritch Lineage | Sorcerer]]
+		- Spells come from dormant powers within ones blood or heritage.
+		- Spells come naturally, learning groups of spells such as pyromancy.
+		- [ ] [[Runic Study]]
+		- Magical Instruments infused with magic to trace runes in the air. All spells gain [[Somatic]].
+		- Spells come from study, being able to learn runes to summon fireball without ever learning minor fire magic.
 	- [ ] Spells
 		- [ ] Rebalance [[Electricity]]
 		- [ ] Tags
