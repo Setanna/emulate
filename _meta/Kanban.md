@@ -68,6 +68,9 @@ kanban-plugin: board
 - [ ] **Talents**
 	-  [ ] [[All Eyes On Me]] needs a better name
 	- Possible change effect and make new Talent with the old effect
+	- [ ] Talents that require proficiency bonus
+- [ ] **Magic Items**
+	- [ ] Take inspiration from Pirates of the Caribbean
 
 
 ## Doing
