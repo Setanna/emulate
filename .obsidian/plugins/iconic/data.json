@@ -139,6 +139,13 @@
         "9c4516fa28f7815a"
       ]
     },
+    "Rules/Talents": {
+      "icon": "lucide-star",
+      "unsynced": [
+        "9c4516fa28f7815a"
+      ],
+      "color": "#9664a0"
+    },
     "Rules/Traits": {
       "icon": "lucide-sparkle",
       "color": "#9664a0",
