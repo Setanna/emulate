@@ -28,10 +28,6 @@ kanban-plugin: board
 	 - Elves should start with [[Beautiful]]
 	 - [ ] [[Orc]]
 	 - [ ] [[Kobold]]
-- [ ] **Play Testing**
-	- [ ] Try out Passive Perception only
-	- [ ] Try out infinite bleed duration
-	- [ ] Add more content to see if [[Lucky]] is still chosen alot
 - [ ] **Traits**
 	- [ ] Make sure all Trait Files exist
 	- [ ] Trait Descriptions
@@ -75,6 +71,11 @@ kanban-plugin: board
 
 ## Doing
 
+- [ ] **Play Testing**
+	- [ ] Try out Passive Perception only
+	- [x] Try out infinite bleed duration
+	- Bleed has been changed to a die condition that reduces each round.
+	- [ ] Add more content to see if [[Lucky]] is still chosen alot
 - [ ] **Stats and Skills**
 	 - [ ] [[Stats]]
 		- [ ] Low Stat Penalties
