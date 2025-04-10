@@ -59,12 +59,12 @@ kanban-plugin: board
 	- Climate Examples (Tropical, Taiga so on)
 	- [ ] [[Lighting | Light]]
 	- [ ] [[Benefiting from Cover | Cover]]
-	- [ ] Time Incremental Rules
+	- [x] Time Incremental Rules
 	- Rain only penalizes tracking each hour, but make a rule to allow all time sensitive penalties and bonuses be able to split up in smaller time increments.
 - [ ] **Talents**
-	-  [ ] [[All Eyes On Me]] needs a better name
+	-  [x] [[All Eyes On Me]] needs a better name
 	- Possible change effect and make new Talent with the old effect
-	- [ ] Talents that require proficiency bonus
+	- [x] Talents that require proficiency bonus
 - [ ] **Magic Items**
 	- [ ] Take inspiration from Pirates of the Caribbean
 
