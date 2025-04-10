@@ -27,8 +27,7 @@ Perception covers all five base senses: sight, hearing, taste, touch and smell. 
 | Through a closed door                    |        +5        | Hearing |
 | Find the square of a creature by hearing |       +10        | Hearing |
 | Creature making the Check is distracted  |        +5        | All     |
-| Creature making the Check is asleep      |       +10        | All     |
-| Creatures in an Encounter                |        -5        | Sight   | 
+| Creature making the Check is asleep      |       +10        | All     | 
 | Distance to the source                   | +1 per 10 meters | Sight   |
 | Creature or object is [[invsible]]       |       +10        | Sight   |
 | [[Lighting]]                             |      Varied      | Sight   |
@@ -37,7 +36,7 @@ Perception covers all five base senses: sight, hearing, taste, touch and smell. 
 You gain the following benefits when having a Proficiency Bonus equal to or higher than the given value.
 
 #### +1 Proficiency Bonus
-You gain the [[Heighten Senses]] Action. If you already have the Heighten Senses Action increase the bonus gained from the Action by 1. Additionally you can ignore the Perception Modifier from being in an Encounter.
+You gain the [[Heighten Senses]] Action. If you already have the Heighten Senses Action increase the bonus gained from the Action by 1. 
 
 #### +2 Proficiency Bonus
 Your acute senses allow you to pick up things from larger distances. Double the range needed to concur range specific Perception DC Increases. Example is the `+1 per meter ` from `Distance to the Source (Hearing)` Perception Modifier would instead be `+1 per 2 meters`.
