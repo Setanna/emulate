@@ -18,3 +18,8 @@ Some Talents require a specific Character Trait to be able to take the Talent.
 
 ## Spells
 Some Talents require the ability to cast certain spells. The given requirement is met when a creature has the spell learnt and can cast it using their spell points, at least once per day.
+
+<br>
+
+## Inherited Requirements
+Some Talents require Spells or other Talents that might have their own Requirements. These requirements are called Inherited Requiremetns, and must also be met before being able to purchase the given Talent or Spell.
