@@ -15,13 +15,15 @@ cssclass: pathfinder
 
 ### Size
 
-| Size   | XP Cost |
-| ------ | ------- |
-| Huge   | +8      |
-| Large  | +4      |
-| Medium | 0       |
-| Small  | -4      |
-| Tiny   | -8      |
+| Size       | XP Cost |
+| ---------- | ------- |
+| Gargantuan | +16     |
+| Huge       | +8      |
+| Large      | +4      |
+| Medium     | 0       |
+| Small      | -4      |
+| Tiny       | -8      |
+| Diminutive | -16     |
 
 ### Hit Die
 
