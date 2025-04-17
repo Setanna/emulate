@@ -21,7 +21,7 @@ cssclass: pathfinder
 ___
 
 **System:**
-You can use [[Diplomacy]], [[Bluff]] or [[Intimidation]] to make a creature target their hatred towards you or another creature. Make the Chosen Skill Roll all Enemies Will DC. If the creature is told to target their own ally they gain a +5 [[Circumstance]] Bonus to their Will DC.
+You can use [[Diplomacy]], [[Bluff]] or [[Intimidation]] to make a creature target their hatred towards you or another creature you can see. Make the Chosen Skill Roll all Enemies Will DC. If the creature is told to target their own ally they gain a +5 [[Circumstance]] Bonus to their Will DC.
 
 
 <br>
