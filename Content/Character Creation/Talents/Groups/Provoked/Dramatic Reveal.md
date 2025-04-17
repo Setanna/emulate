@@ -3,17 +3,19 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> All Eyes On Me <span style="margin-left: auto;"> 2 XP</span> </h1>
+<h1> Dramatic Reveal <span style="margin-left: auto;"> 1 XP</span> </h1>
 
 [[Sight]]{.trait}
 
 [[Emotion]]{.trait}
 
+[[Rules/Traits/Item | Item (Dueling Cape)]]{.trait}
+
 <div style="clear:both" /> 
 
 **Requirements:** Charisma 1+
 ___
-*Attention is a weapon, and you wield it with ease.*
+*You never get a second chance to make a deadly first impression.*
 
 <br>
 

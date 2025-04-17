@@ -11,7 +11,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Between All Eyes]], Charisma 3+
+**Requirements:** [[Between All Eyes]] or [[Grand Reveal]], Charisma 3+
 ___
 *In the chaos of war, you're the one they can't ignore.*
 
@@ -22,5 +22,5 @@ Any creature that is [[Provoked]] with you as their Target, can not reduce their
 
 <br>
 
-Additionally, you can use the [[All Eyes On Me]] Talent even when you are [[Surprised]].
+Additionally, you can use the [[All Eyes On Me]] and [[Dramatic Reveal]] Talents even when you are [[Surprised]].
 

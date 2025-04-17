@@ -65,6 +65,8 @@ kanban-plugin: board
 	-  [x] [[All Eyes On Me]] needs a better name
 	- Possible change effect and make new Talent with the old effect
 	- [x] Talents that require proficiency bonus
+	- [ ] How to handle converging talent trees
+	- Such as [[Grand Reveal]] and [[Between All Eyes]] both being an optional requirement to [[Undeniable Presence]]
 - [ ] **Magic Items**
 	- [ ] Take inspiration from Pirates of the Caribbean
 
