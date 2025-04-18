@@ -1,0 +1,23 @@
+---
+tags: []
+cssclass: pathfinder
+---
+
+<h1> Spellscorn <span style="margin-left: auto;">3 XP</span> </h1>
+
+[[Defence]]{.trait}
+
+<div style="clear:both" /> 
+
+**Requirements:** Constitution +2; No Talents with the [[Arcane]] Trait
+___
+*A latent resistance within you blunts the edge of hostile magic.*
+
+<br>
+
+**System:**
+You can no longer take or gain Talents with the [[Arcane]] trait, however you gain the following benefits against sources with the [[Arcane]] Trait:
+- A +1 [[Resistance]] Bonus to [[Saving Throws]].
+- Reduce damage by 1.
+
+Whenever you gain a Talent with this Talent as a requirement, increase the benefits of this Talent by one.
