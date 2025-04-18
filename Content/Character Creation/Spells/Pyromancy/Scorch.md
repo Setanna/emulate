@@ -32,7 +32,7 @@ ___
 		<br>
 		<b>Duration:</b> Until the end of the Encounter 
 		<br>
-		<b>Damage:</b> 1d4 + Spell Stat <a href="Damage Types.md" class="internal-link">Fire</a> Damage
+		<b>Damage:</b> Spell Stat <a href="Damage Types.md" class="internal-link">Fire</a> Damage
 	</span> 
 	<div style="clear:both" /> 
 </div>
@@ -44,6 +44,6 @@ You channel heat directly into the palm of your hands. This allows you to use yo
 
 <br>
 
-Additionally you can make [[Making an Attack | Attacks]], as if wielding a Weapon. The Damage of the Weapon is equal to the Spell Damage.
+Additionally you can make [[Making an Attack | Attacks]], as if wielding a Weapon with the [[Fire]] Trait. The Damage of the Weapon is equal to the Spell Damage.
 
 
