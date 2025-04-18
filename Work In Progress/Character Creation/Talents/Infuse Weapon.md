@@ -16,7 +16,7 @@ ___
 <br>
 
 **System:**
-You channel the energy of the spell into a weapon you touch, the Action Cost for the Spell is increased by one. 
+Whenever you cast one of the Spells that are Required of this Talent, you can increase the Action Cost for the spell by one and channel the energy into a weapon. 
 
 <br>
 
