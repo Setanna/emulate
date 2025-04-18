@@ -15,7 +15,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Firebolt]]
+**Requirements:** [[Shocking Grasp]]
 
 ___
 
