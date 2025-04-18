@@ -17,17 +17,6 @@ kanban-plugin: board
 	- [ ] Link Preview Missing CSS on header
 		- [ ] Link only to file not header?
 	- [x] Make shield text float right
-- [ ] **Races**
-	 - [ ] Age
-	 - [x] [[Human]]
-	 - [ ] [[Medusa]]
-	 - [ ] [[Resonants]]
-	 - [x] [[Dragonborn]]
-	 - [x] [[Dwarf]]
-	 - [x] [[Elf]]
-	 - Elves should start with [[Beautiful]]
-	 - [ ] [[Orc]]
-	 - [ ] [[Kobold]]
 - [ ] **Traits**
 	- [ ] Make sure all Trait Files exist
 	- [ ] Trait Descriptions
@@ -67,6 +56,17 @@ kanban-plugin: board
 	- [x] Talents that require proficiency bonus
 	- [ ] How to handle converging talent trees
 	- Such as [[Grand Reveal]] and [[Between All Eyes]] both being an optional requirement to [[Undeniable Presence]]
+- [ ] **Races**
+	 - [ ] Age
+	 - [x] [[Human]]
+	 - [ ] [[Medusa]]
+	 - [ ] [[Resonants]]
+	 - [x] [[Dragonborn]]
+	 - [x] [[Dwarf]]
+	 - [x] [[Elf]]
+	 - Elves should start with [[Beautiful]]
+	 - [ ] [[Orc]]
+	 - [ ] [[Kobold]]
 - [ ] **Magic Items**
 	- [ ] Take inspiration from Pirates of the Caribbean
 
@@ -98,6 +98,8 @@ kanban-plugin: board
 		- [ ] Rebalance [[Electricity]]
 		- [ ] Tags
 		- [ ] Flavor Lines
+		- [ ] Traits with Bright
+		- Make it scale with spell points?
 - [ ] **Syntax**
 	- [ ] Should Conditions and Affects use:
 	- First Person (You make an attack)
