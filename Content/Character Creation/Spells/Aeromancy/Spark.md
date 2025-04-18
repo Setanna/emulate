@@ -9,11 +9,7 @@ cssclass: pathfinder
 
 [[Channeling]]{.trait}
 
-[[Offence]]{.trait}
-
 [[Electricity]]{.trait}
-
-[[Somatic]]{.trait}
 
 <div style="clear:both" /> 
 
