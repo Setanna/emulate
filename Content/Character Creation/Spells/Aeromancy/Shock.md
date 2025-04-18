@@ -36,7 +36,7 @@ ___
 ___
 
 **System:**
-You channel electricity directly into the tip of your fingers. Any creature you grapple takes [[Damage Types | Electricity ]] Damage at the start of the creature's turn.
+You channel electricity directly into the tip of your fingers. Whenever you grapple a creature, it takes [[Damage Types | Electricity ]] Damage equal to this Spell's Damage.
 
 <br>
 

@@ -36,7 +36,7 @@ ___
 ___
 
 **System:**
-You channel cold directly into the palms of your hands. Any creature you grapple takes [[Damage Types | Cold]] Damage at the start of the creature's turn.
+You channel cold directly into the palms of your hands. Whenever you grapple a creature, it takes [[Damage Types | Cold]] Damage equal to this Spell's Damage.
 
 <br>
 

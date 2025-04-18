@@ -36,7 +36,7 @@ ___
 ___
 
 **System:**
-You channel heat directly into the palm of your hands. This allows you to use your hands for actions such as [[Cauterize]] and any creature you grapple takes [[Damage Types | Fire ]] Damage at the start of the creature's turn.
+You channel heat directly into the palm of your hands. This allows you to use your hands for actions such as [[Cauterize]] and whenever you grapple a creature, it takes [[Damage Types | Fire]] Damage equal to this Spell's Damage.
 
 <br>
 
