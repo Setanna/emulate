@@ -40,6 +40,6 @@ You channel electricity directly into the tip of your fingers. Any creature you 
 
 <br>
 
-Additionally you can make [[Making an Attack | Attacks]], as if wielding a Weapon with the [[Electricity]] Trait. The Damage of the Weapon is equal to the Spell Damage.
+Additionally your [[Unarmed Strikes]] gain the [[Electricity]] Trait and deal additional [[Damage Types | Electricity]] Damage equal to this Spell's Damage.
 
 
