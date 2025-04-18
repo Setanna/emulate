@@ -39,10 +39,4 @@ ___
 
 ___
 
-You Roll a [[Making an Attack | Attack]] against the target. If the Defender takes damage they must Roll a Fortitude Saving Throw against being [[Stunned]]. Additionally you can add the [[Precise]] Trait by increasing the Action Cost for this Action by one.
-
-<br>
-
-**Success:** The Defender shakes of the shock.
-**Fail:** The Defender is [[Stunned | Stunned 1]].
-**Critical Fail:** The Defender is [[Stunned | Stunned 2]].
+You Roll an [[Making an Attack | Attack]] against the target.
