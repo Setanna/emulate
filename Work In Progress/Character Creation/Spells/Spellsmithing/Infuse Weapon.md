@@ -13,7 +13,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Scorch]] or [[Spark]]
+**Requirements:** [[Scorch]] or [[Shock]]
 
 ___
 

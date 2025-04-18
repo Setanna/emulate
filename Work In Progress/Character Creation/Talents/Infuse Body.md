@@ -9,7 +9,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** Ability to cast [[Scorch]] or [[Spark]]
+**Requirements:** Ability to cast [[Scorch]] or [[Shock]]
 ___
 **
 
