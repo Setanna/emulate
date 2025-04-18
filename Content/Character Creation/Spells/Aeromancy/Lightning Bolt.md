@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Lightning Bolt <span style="margin-left: auto;"> 5 </span> </h1>
+<h1> Lightning Bolt <span style="margin-left: auto;"> 2 </span> </h1>
 
 [[Evocation]]{.school-trait}
 
