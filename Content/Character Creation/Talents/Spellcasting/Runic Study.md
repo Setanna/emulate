@@ -9,7 +9,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** Intelligence 2+, Fluent in Runic
+**Requirements:** Intelligence 2+, Basic Runic
 ___
 *Runes of creation and destruction, humming with ancient secrets*
 
