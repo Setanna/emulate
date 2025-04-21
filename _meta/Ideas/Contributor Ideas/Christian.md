@@ -1,0 +1,8 @@
+- [ ] Unique Martial late game actions 
+- Besides blocking and attacking
+- [ ] Melee Wizard
+- Shield Spam
+- [x] One hand Two-handed Weapons
+- Has been turned into a basic feature of the game at the cost of penalties
+- [x] Barbarian Rage on a Kill Theft
+- [[Glory Theft]]

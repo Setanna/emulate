@@ -1,0 +1,5 @@
+- [ ] Master of Games
+- Two different versions
+	- Proficient in all Games
+	- Bluff proficiency in all Games
+- Melee Counterspell

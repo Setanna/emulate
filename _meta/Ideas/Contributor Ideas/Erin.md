@@ -1,0 +1,5 @@
+- [ ] Noble 
+- Bind flavor and mechanic
+- [ ] Herbalist
+- [ ] Distract Reaction
+- Pocket Sand

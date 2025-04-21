@@ -1,0 +1,3 @@
+- [ ] Spectral Hydra Turret
+- Roll for damage type
+- Use action to make the Turret attack
