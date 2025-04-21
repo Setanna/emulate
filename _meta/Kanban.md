@@ -20,6 +20,8 @@ kanban-plugin: board
 - [ ] **Traits**
 	- [ ] Make sure all Trait Files exist
 	- [ ] Trait Descriptions
+	- [ ] Elemental Traits
+		- [ ] [[Fire]] grants the [[Burning]] Condition equal to the fire damage die. What if it deals a flat amount of fire damage? Same for other elements.
 - [ ] **Random Table Generation**
 	- [ ] Shops
 	 - Brew of the Week
