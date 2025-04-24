@@ -71,6 +71,9 @@ kanban-plugin: board
 	 - [ ] [[Kobold]]
 - [ ] **Magic Items**
 	- [ ] Take inspiration from Pirates of the Caribbean
+- [ ] **Size**
+	- [ ] Size Modifier
+	- Make size into a modifier that is applied to things
 
 
 ## Doing
