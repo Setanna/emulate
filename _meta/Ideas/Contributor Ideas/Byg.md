@@ -1,3 +1,12 @@
-- [ ] Spectral Hydra Turret
-- Roll for damage type
-- Use action to make the Turret attack
+- Spells
+  - [ ] Spectral Hydra Turret
+  - Roll for damage type
+  - Use action to make the Turret attack
+  - [ ] Guardian Armor
+  - From Pathfinder 1e
+  - [ ] Deathwatch
+  - From Pathfinder 1e
+  - [ ] Knowing Things
+  - Commune with some sort of never ending knowledge for bonuses
+  - [ ] Book of the Forbidden
+  - Book turns into your skin
