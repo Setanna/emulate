@@ -9,7 +9,7 @@ cssclass: pathfinder
 
 [[Reckless]]{.trait}
 
-[[Movement]]{.trait}
+[[Momentum]]{.trait}
 
 <div style="clear:both" /> 
 
