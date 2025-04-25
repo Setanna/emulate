@@ -6,32 +6,86 @@ kanban-plugin: board
 
 ## To-Do
 
-- [ ] **Armor, Shields and Weapons**
+- [ ] <details> 
+	<summary> 
+		<b>
+			Armor Shields and Weapons 
+		</b> 
+	</summary> 
+	
 	- [ ] Figure out how to deal with mixed material weapons (spear)
 	- [x] Figure out how to deal with Armor and Shield Damage Reduction and multiple damage types (such as 9 Armor Value vs 6 Piercing and 3 Fire)
 	- [ ] Create Cost Sheet
 		- [ ] Improvised Weapons
 		- [ ] Weapon Traits
 	- [ ] Make Weapon Critical Effects
-- [ ] **Bugs**
+	
+	</details>
+- [ ] <details> 
+	<summary> 
+		<b>
+			Bugs
+		</b> 
+	</summary>
+	
 	- [ ] Link Preview Missing CSS on header
 		- [ ] Link only to file not header?
 	- [x] Make shield text float right
-- [ ] **Traits**
+	
+	</details>
+- [ ] <details> 
+	<summary> 
+		<b>
+			Traits
+		</b> 
+	</summary>
+	
 	- [ ] Make sure all Trait Files exist
 	- [ ] Trait Descriptions
 	- [ ] Elemental Traits
 		- [ ] [[Fire]] grants the [[Burning]] Condition equal to the fire damage die. What if it deals a flat amount of fire damage? Same for other elements.
-- [ ] **Random Table Generation**
+	
+	</details>
+- [ ] <details> 
+	<summary> 
+		<b>
+			Random Table Generation
+		</b> 
+	</summary>
+	
 	- [ ] Shops
 	 - Brew of the Week
 	 - Failed / Unkown Potions Shelf
-- [ ] **Racial Talents**
+	
+	</details>
+- [ ] <details> 
+	<summary> 
+		<b>
+			Racial Talents
+		</b> 
+	</summary>
+	
 	 - [ ] Mudblood
-- [ ] **Conditions**
+	
+	</details>
+- [ ] <details> 
+	<summary> 
+		<b>
+			Conditions
+		</b> 
+	</summary>
+	
 	- [ ] [[Flanked]]
 		- [ ] Make Examples
-- [ ] **Templates**
+	
+	</details>
+- [ ] <details> 
+	<summary> 
+		<b>
+			Templates
+		</b> 
+	</summary>
+	
 	- [ ] Make Templates for relevant files
 		- [ ] Races
 		- [ ] Talents
@@ -44,7 +98,15 @@ kanban-plugin: board
 		- [ ] Spells
 	- [ ] Generic Template
 	- Should have css
-- [ ] **Environment**
+	
+	</details>
+- [ ] <details> 
+	<summary> 
+		<b>
+			Environment
+		</b> 
+	</summary>
+	
 	- [ ] [[Weather]]
 	- Rules
 	- Climate Examples (Tropical, Taiga so on)
@@ -52,13 +114,29 @@ kanban-plugin: board
 	- [ ] [[Benefiting from Cover | Cover]]
 	- [x] Time Incremental Rules
 	- Rain only penalizes tracking each hour, but make a rule to allow all time sensitive penalties and bonuses be able to split up in smaller time increments.
-- [ ] **Talents**
+	
+	</details>
+- [ ] <details> 
+	<summary> 
+		<b>
+			Talents
+		</b> 
+	</summary>
+	
 	-  [x] [[All Eyes On Me]] needs a better name
 	- Possible change effect and make new Talent with the old effect
 	- [x] Talents that require proficiency bonus
 	- [ ] How to handle converging talent trees
 	- Such as [[Grand Reveal]] and [[Between All Eyes]] both being an optional requirement to [[Undeniable Presence]]
-- [ ] **Races**
+	
+	</details>
+- [ ] <details> 
+	<summary> 
+		<b>
+			Races
+		</b> 
+	</summary>
+	
 	 - [ ] Age
 	 - [x] [[Human]]
 	 - [ ] [[Medusa]]
@@ -69,21 +147,53 @@ kanban-plugin: board
 	 - Elves should start with [[Beautiful]]
 	 - [ ] [[Orc]]
 	 - [ ] [[Kobold]]
-- [ ] **Magic Items**
+	
+	</details>
+- [ ] <details> 
+	<summary> 
+		<b>
+			Magic Items
+		</b> 
+	</summary>
+	
 	- [ ] Take inspiration from Pirates of the Caribbean
-- [ ] **Size**
+	
+	</details>
+- [ ] <details> 
+	<summary> 
+		<b>
+			Size
+		</b> 
+	</summary>
+	
 	- [ ] Size Modifier
 	- Make size into a modifier that is applied to things
+	
+	</details>
 
 
 ## Doing
 
-- [ ] **Play Testing**
+- [ ] <details> 
+	<summary> 
+		<b>
+			Playtesting
+		</b> 
+	</summary>
+	
 	- [ ] Try out Passive Perception only
 	- [x] Try out infinite bleed duration
 	- Bleed has been changed to a die condition that reduces each round.
 	- [ ] Add more content to see if [[Lucky]] is still chosen alot
-- [ ] **Stats and Skills**
+	
+	</details>
+- [ ] <details> 
+	<summary> 
+		<b>
+			Stats and Skills
+		</b> 
+	</summary>
+	
 	 - [ ] [[Stats]]
 		- [ ] Low Stat Penalties
 		- [ ] Stat Balance
@@ -91,7 +201,15 @@ kanban-plugin: board
 		- Buff or add more talents for Charisma, Intelligence and Strength
 	 - [ ] [[Skills]]
 		 - [ ] Proficiency Bonuses
-- [ ] **Spell Casting Talents**
+	
+	</details>
+- [ ] <details> 
+	<summary> 
+		<b>
+			Spellcasting Talents
+		</b> 
+	</summary>
+	
 	- [ ] Arcane Talents
 		- [ ] [[Eldritch Lineage | Sorcerer]]
 		- Spells come from dormant powers within ones blood or heritage.
@@ -105,7 +223,15 @@ kanban-plugin: board
 		- [ ] Flavor Lines
 		- [ ] Traits with Bright
 		- Make it scale with spell points?
-- [ ] **Syntax**
+	
+	</details>
+- [ ] <details> 
+	<summary> 
+		<b>
+			Syntax
+		</b> 
+	</summary>
+	
 	- [ ] Should Conditions and Affects use:
 	- First Person (You make an attack)
 	- Third Person (The creature makes an attack)
@@ -140,19 +266,47 @@ kanban-plugin: board
 	- [ ] Decimals should be . not ,
 	- [x] Update Traits to be nested properly
 		- [x] Make Enhanced Tables work with Display:inline
+	
+	</details>
+- [ ] <details> 
+	<summary> 
+		<b>
+			Kanban
+		</b> 
+	</summary>
+	
+	- [ ] Fix checkboxes closing card
+	
+	</details>
 
 
 ## Done
 
-- [ ] **Plugins**
+- [ ] <details> 
+	<summary> 
+		<b>
+			Plugins
+		</b> 
+	</summary>
+	
 	- [x] Make.Md
 	- Appears to be a Database Plugin
-- [ ] **Line of Sight**
+	
+	</details>
+- [ ] <details> 
+	<summary> 
+		<b>
+			Line of Sight
+		</b> 
+	</summary>
+	
 	- [x] [[Line of Sight]]
 	- [x] [[Benefiting from Cover]]
 	- [x] [[Blinded]]
 	- [x] [[Perception]]
 	- [x]  [[Lighting]]
+	
+	</details>
 
 
 
