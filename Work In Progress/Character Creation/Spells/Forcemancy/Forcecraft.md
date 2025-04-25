@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Kineticism <span style="margin-left: auto;"> 0 </span> </h1>
+<h1> Forcecraft <span style="margin-left: auto;"> 0 </span> </h1>
 
 [[Abjuration]]{.school-trait}
 
