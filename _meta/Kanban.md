@@ -170,6 +170,21 @@ kanban-plugin: board
 	- Make size into a modifier that is applied to things
 	
 	</details>
+- [ ] <details> 
+	<summary> 
+		<b>
+			 Maneuvers
+		</b> 
+	</summary>
+	
+	- [ ] [[Maneuver]] Trait
+	- [ ] [[Ram]]
+	- [ ] [[Shove]]
+	- [ ] [[Grapple]]
+	- [ ] [[Disarm]]
+	- [ ] [[Dirty Trick]]
+	
+	</details>
 
 
 ## Doing
