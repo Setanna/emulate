@@ -22,5 +22,7 @@ You move up to twice your speed and ram yourself into a creature. You Roll [[Ath
 
 **Critical Success:** You move the creature up to your Strength in meters, and it gains the [[Prone]] Condition. 
 **Success:** You move the creature 1 meter. 
-**Failure:** You stop in front of the creature
-**Critical Failure:** You stop in front of the creature and gain the [[Prone]] Condition
+**Failure:** You stop in front of the creature.
+**Critical Failure:** You stop in front of the creature and gain the [[Prone]] Condition.
+
+Additionally for each +1 [[Circumstance]] Bonus gained from the [[Momentum]] Trait, move the creature an additional meter.

@@ -11,10 +11,12 @@ Fate favors the bold— Fate Dice are a vital part of Emulate, empowering each P
 Each Player Character has 3 Fate Dice and regains one expended Fate Die at the end of a [[Resting | Long Rest]]. Fate Dice start at a d4, and can be increased and altered by Talents or Character Traits.
 
 ### Expending Fate Dice
-Whenever a Player Character rolls or a creature rolls against the Player Character, the Player Character can expend a Fate Die as a Free Action for one of the following benefits:
-- Increase or Decrease Success by one step.
+Whenever a Player Character rolls or a creature rolls against the Player Character, the Player Character can expend the given number of Fate Dice as a Free Action for one of the following benefits:
+- **1 Fate Die:** Add or Subtract Fate Die from Roll.
+- **2 Fate Dice:** Roll the Roll or Damage Roll again and choose the higher result.
+- **3 Fate Dice:** Increase or Decrease Success by one step.
 - Add or Subtract Fate Die from Roll.
-- ReRoll a Roll or Damage Roll.
+
 
 <br>
 
