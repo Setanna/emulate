@@ -6,7 +6,7 @@ cssclass: pathfinder
 # Size
 Size modifies several things regarding a creature as noted in the table below:
 
-| Size       | Height (m)  | Weight (Kg)  | Modifier | Move | Be Moved | Strength Rolls | Dexterity Rolls | Attack | Hit Class | Weapon Damage | Damage Reduction |
+| Size       | Height (m)  | Weight (Kg)  | Size Modifier | Move | Be Moved | Strength Rolls | Dexterity Rolls | Attack | Hit Class | Weapon Damage | Damage Reduction |
 | ---------- | ----------- | ------------ |:--------:|:----:|:--------:|:--------------:|:---------------:|:------:|:---------:|:-------------:|:----------------:|
 | Diminutive | 0.1 to 0.3  | 0.25 to 0.5  |    -8    |  -8  |    +8    |       -8       |       +8        |   +8   |    +8     |      -8       |        -8        |
 | Tiny       | 0.3 to 0.6  | 0.5 to 4     |    -4    |  -4  |    +4    |       -4       |       +4        |   +4   |    +4     |      -4       |        -4        |
@@ -31,17 +31,17 @@ Whenever you would be forcefully moved by a creature, such a with the [[Ram]] or
 <br>
 
 **Strength Rolls**
-Whenever you would make a Strength-Based Skill Roll, add your Size Modifier to the roll.
+Whenever you would make a Strength-Based Skill Roll, add your Size Modifier to the Roll.
 
 <br>
 
 **Dexterity Rolls**
-Whenever you would make a Dexterity-Based Skill Roll, substract your Size Modifier from the roll. If the Size Modifier is negative, substracting it makes it positive, instead adding it to the Dexterity-Based Skill Roll.
+Whenever you would make a Dexterity-Based Skill Roll, substract your Size Modifier from the Roll. If the Size Modifier is negative, substracting it makes it positive, instead adding it to the Dexterity-Based Skill Roll.
 
 <br>
 
 **Attack**
-Whenever you would make an Attack Roll, substract your Size Modifier from the roll. If the Size Modifier is negative, substracting it makes it positive, instead adding it to the Attack Roll.
+Whenever you would make an Attack Roll, substract your Size Modifier from the Roll. If the Size Modifier is negative, substracting it makes it positive, instead adding it to the Attack Roll.
 
 <br>
 
@@ -51,7 +51,7 @@ Substract your Size Modifier from your Hit Class. If the Size Modifier is negati
 <br>
 
 **Weapon Damage**
-Whenever you would roll for Weapon Damage, add your Size Modifier to the Damage Roll.
+Whenever you would Roll for Weapon Damage, add your Size Modifier to the Damage Roll.
 
 <br>
 
