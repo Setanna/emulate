@@ -36,6 +36,16 @@ kanban-plugin: board
 - [ ] <details> 
 	<summary> 
 		<b>
+			Characteristics
+		</b> 
+	</summary>
+	
+	- [ ] Move Cursed and Diseased Characteristics into their own rules, allowing a player to start with a curse or disease through other means than Characteristics.
+	
+	</details>
+- [ ] <details> 
+	<summary> 
+		<b>
 			Traits
 		</b> 
 	</summary>
