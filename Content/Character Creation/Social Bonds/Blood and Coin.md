@@ -7,8 +7,6 @@ cssclass: pathfinder
 
 [[Bonded]]{.trait}
 
-[[Defence]]{.trait}
-
 [[Wealth]]{.trait}
 
 [[Social]]{.trait}
