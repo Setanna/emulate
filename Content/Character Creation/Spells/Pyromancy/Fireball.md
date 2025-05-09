@@ -43,5 +43,6 @@ You throw a tiny streaking light of fire at a point of your choice, it explodes 
 
 <br>
 
-**Success:** The creature takes half damage
-**Fail:** The creature takes full damage
+**Success:** The Creature takes half damage
+**Fail:** The Creature takes full damage
+**Critical Failure:** The Creature takes full damage; <abbr title="The Burning Condition comes from the Fire Trait">and gains the [[Burning | Burning 1d6]] Condition</abbr>
