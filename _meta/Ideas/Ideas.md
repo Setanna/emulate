@@ -43,3 +43,14 @@ Spells should be varied and unique. Powerful spells should be limited and impact
 - Spell duration should be simple
     - Until End of Combat (EoC)
     - Until next preparation
+
+- **Elemental Spells**
+	- *Elemental Trait*
+		- Elemental Traits should grant an Elemental Condition on Critical Hits or Critical Failures.
+			- The Elemental Condition should have a die as a value
+	- **Fire**
+		- Should only be Reckless Attacks or Reflex Saving Throws.
+		- Should not have Critical Success or Critical Failure effects outside of the Fire Trait.
+	- **Cold**
+		- Should only be Constitution Saving Throws.
+		- Should be able to take no damage on a critical success
