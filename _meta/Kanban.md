@@ -257,6 +257,7 @@ kanban-plugin: board
 		</b> 
 	</summary>
 	
+	- [ ] Spells should have their Trait Effects on Saving Throws with abbreviation message to make it clear where the effect comes from.
 	- [ ] Should Conditions and Affects use:
 	- First Person (You make an attack)
 	- Third Person (The creature makes an attack)
