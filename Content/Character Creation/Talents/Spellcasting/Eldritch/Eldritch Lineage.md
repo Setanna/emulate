@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Eldritch Lineage <span style="margin-left: auto;"> 8 XP</span> </h1>
+<h1> Eldritch Lineage <span style="margin-left: auto;"> 4 XP</span> </h1>
 
 [[Arcane]]{.trait}
 
@@ -16,8 +16,8 @@ ___
 <br>
 
 **System:**
-You gain a number of Spell Points equal to your Charisma and regain any expended Spell Points at the end of a [[Resting | Long Rest]].
+You gain a number of Spell Points equal to your Charisma and regain any expended Spell Points at the end of a [[Resting | Long Rest]]; And you learn a number of Spells equal to your Charisma. 
 
 <br>
 
-Additionally you learn 5 Spells of your choice.
+Any increase to your Charisma, also increases the Spells learnt and the Spell Points gained from this Talent.
