@@ -23,4 +23,4 @@ You learn a single additional spell with [[Runic Initiate]]. The Spell can have 
 
 <br>
 
-The cost of this Talent is equal to 2 + Three times the Spell Points of the chosen Spell.
+The cost of this Talent is equal to 2 + Twice the Spell Points of the chosen Spell.
