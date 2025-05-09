@@ -14,7 +14,7 @@ cssclass: pathfinder
 **Requirements:** [[Runic Initiate]]
 
 ___
-*Runes of creation and destruction, humming with ancient secrets*
+*Creation speaks in symbols; you are learning its tongue*
 
 <br>
 
