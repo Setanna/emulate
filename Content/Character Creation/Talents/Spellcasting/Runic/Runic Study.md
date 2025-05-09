@@ -3,21 +3,24 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Runic Study <span style="margin-left: auto;"> 8 XP</span> </h1>
+<h1> Runic Study <span style="margin-left: auto;"> Varied XP</span> </h1>
 
 [[Arcane]]{.trait}
 
+[[Expansive]]{.trait}
+
 <div style="clear:both" /> 
 
-**Requirements:** Intelligence 2+, Basic Runic
+**Requirements:** [[Runic Initiate]]
+
 ___
 *Runes of creation and destruction, humming with ancient secrets*
 
 <br>
 
 **System:**
-You trace runes in the air using magical instruments to summon powerful effects. Whenever you cast a Spell using Runic Study, the spell gains the [[Somatic]] and [[Item | Item (Implement)]] Traits and does not expend any Spell Points. If you only have a Basic Understanding of Runic, all rolls and DC's from the spell are reduced by 2.
+You learn a single additional spell with [[Runic Initiate]]. The Spell can have be 1 Spell Point higher than the highest Spell Point of a Spell you have learnt with [[Runic Initiate]].
 
 <br>
 
-You learn a number of Spells equal to your Intelligence. The Spells must cost 0 Spell Points, and if you ever gain Intelligence, you learn an additional Spells.
+The cost of this Talent is equal to 2 + Three times the Spell Points of the chosen Spell.
