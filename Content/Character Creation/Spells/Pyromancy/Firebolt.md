@@ -11,6 +11,8 @@ cssclass: pathfinder
 
 [[Offence]]{.trait}
 
+[[Reckless]]{.trait}
+
 [[Fire]]{.trait}
 
 [[Somatic]]{.trait}
