@@ -1,0 +1,19 @@
+---
+tags: []
+cssclass: pathfinder
+---
+
+<h1> Eldritch Legacy <span style="margin-left: auto;"> Varied XP</span> </h1>
+
+[[Arcane]]{.trait}
+
+<div style="clear:both" /> 
+
+**Requirements:** [[Eldritch Lineage]]
+___
+**
+
+<br>
+
+**System:**
+You increase the Spells learnt from [[Eldritch Lineage]] by 1. The XP Cost of this talent is equal to the 1 + The Spell Points of the learnt Spell.
