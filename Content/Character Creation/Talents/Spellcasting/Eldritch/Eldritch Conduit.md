@@ -7,11 +7,13 @@ cssclass: pathfinder
 
 [[Arcane]]{.trait}
 
+[[Expansive]]{.trait}
+
 <div style="clear:both" /> 
 
 **Requirements:** [[Eldritch Lineage]]
 ___
-**
+*The Arcane comes as naturally to you as breathing*
 
 <br>
 

@@ -7,11 +7,14 @@ cssclass: pathfinder
 
 [[Arcane]]{.trait}
 
+[[Expansive]]{.trait}
+
 <div style="clear:both" /> 
 
 **Requirements:** [[Eldritch Lineage]]
+
 ___
-**
+*Each new spell is an echo of those who came before—growing louder with each breath you draw*
 
 <br>
 
