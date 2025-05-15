@@ -20,5 +20,5 @@ You lift an object or willing creature weighing greater than your [[Stats#Physic
 
 <br>
 
-You can only use a single action to put down the object or take the [[Step]] Action. Taking the [[Step]] Action in this way it provokes attack of opportunity.
+You can only use a single action to put down the object or take the [[Step]] Action. Taking the [[Step]] Action in this way it provokes attack of opportunity. Additionally, when you take this Action or any [[Step]] Action while using this action, you gain the [[Fatigued | Fatigued 1]] Condition.
 
