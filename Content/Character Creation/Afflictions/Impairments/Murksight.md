@@ -9,7 +9,8 @@ cssclass: pathfinder
 <div style="clear:both" /> 
 
 ___
-*He’s got the Murksight. Can’t read a sign 'til he’s kissed the wall it’s nailed to*
+*"He’s got the Murksight. Can’t read a sign 'til he’s kissed the wall it’s nailed to"*
+*— Krell the Barkeep*
 
 <br>
 
