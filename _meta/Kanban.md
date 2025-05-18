@@ -195,6 +195,19 @@ kanban-plugin: board
 	- [ ] [[Dirty Trick]]
 	
 	</details>
+- [ ] <details> 
+	<summary> 
+		<b>
+			 Bestiary
+		</b> 
+	</summary>
+	
+	- [ ] Demons and Devils
+	- Take Inspiration from Love, Death and Robots Volume 4 Episode 8
+		- Make True Demons terrifying by making them immune to anything not from the divine.
+		- Maybe make lesser demons which are similar to dnd and pathfinder.
+	
+	</details>
 
 
 ## Doing
