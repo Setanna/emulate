@@ -7,7 +7,7 @@ cssclass: pathfinder
 Afflictions can vary from curses to a limp. Any character can gain an Affliction during their escapades, but some can start with them from birth.
 
 ## Starting with an Affliction
-To start with an Affliction, simply apply the Affliction the the character, and increase the XP of said Character by the level of the Affliction.
+To start with an Affliction, simply apply the Affliction the the character, and increase the XP of said Character by the level of the Affliction. Some Afflictions have varied levels, when choosing the Affliction you can chose what level you want the Affliction at. Diseases start at Stage 1, but you can choose to start it at any Stage you want.
 
 ### Curses
 Evil Witches or wishes gone wrong—a curse can be the result of many things, but always stems from magic. A Curse is build up of 3 things: 
