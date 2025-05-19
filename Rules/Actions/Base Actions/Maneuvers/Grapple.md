@@ -5,7 +5,7 @@ cssclass: pathfinder
 
 <h1> Grapple <span style="margin-left: auto;"> 2 Actions </span> </h1>
 
-[[Attack]]{.trait}
+[[Maneuver]]{.trait}
 
 <div style="clear:both" /> 
 
@@ -14,7 +14,7 @@ cssclass: pathfinder
 ___
 
 **System:**
-You make an [[Athletics]] Roll against one creature within you reach. The creature decides whether the DC is based o their [[Escape Artist]] or [[Athletics]]. If you take this action only using one hand you take a -4 [[Circumstance]] Penalty to the Roll.
+You make an [[Athletics]] Roll against one creature's [[Acrobatics]] or [[Athletics]] DC, whichever is higher.
 
 <br>
 
