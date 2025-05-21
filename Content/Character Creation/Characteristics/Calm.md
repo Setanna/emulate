@@ -11,10 +11,11 @@ cssclass: pathfinder
  
 <div style="clear:both" /> 
 
+**Requirements:** You don't have the [[Emotional]] Characteristic
 ___
-*A serene demeanor surrounds you, making it difficult for others to disturb your calm.*
+*A serene demeanor surrounds you, making it difficult for others to disturb your calm*
 
 <br>
 
 **System:**
-You reduce any [[Morale]] penalty or bonus by 1. 
+You reduce any [[Morale]] penalty or bonus you recieve by 1. 
