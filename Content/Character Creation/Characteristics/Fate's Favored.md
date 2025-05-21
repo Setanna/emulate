@@ -11,7 +11,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** You don't have the [[Fate's Forsaken]] Character Trait
+**Requirements:** You don't have the [[Fate's Forsaken]] Characteristic
 ___
 *Fate holds its breath, waiting to see what _you_ will do.*
 
