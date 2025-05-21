@@ -7,7 +7,7 @@ cssclass: pathfinder
 
 [[Emotion]]{.trait}
 
-[[Merit]]{.trait}
+[[Flaw]]{.trait}
  
 <div style="clear:both" /> 
 
