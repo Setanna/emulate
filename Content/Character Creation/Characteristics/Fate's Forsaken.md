@@ -11,9 +11,9 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** You don't have the [[Fate's Favored]] Character Trait
+**Requirements:** You don't have the [[Fate's Favored]] Characteristic
 ___
-*No prophecy knows your name. No destiny holds your hand.*
+*No prophecy knows your name. No destiny holds your hand*
 
 <br>
 
