@@ -18,4 +18,4 @@ ___
 <br>
 
 **System:**
-You increase the [[Trait]] Penalty from the [[Ugly]] Trait to -3.
+You increase the [[Morale]] Bonus from the [[Ugly]] Characteristic to 3.
