@@ -9,9 +9,9 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** You don't have the [[Cowardly]] Trait.
+**Requirements:** You don't have the [[Cowardly]] Characteristic
 ___
-*You inspire those around you, guiding them with confidence and a clear vision.*
+*You inspire those around you, guiding them with confidence and a clear vision*
 
 <br>
 
