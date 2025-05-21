@@ -11,7 +11,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** You don't have the [[Cowardly]] Trait.
+**Requirements:** You don't have the [[Cowardly]] Characteristic.
 ___
 *Flavor.*
 
