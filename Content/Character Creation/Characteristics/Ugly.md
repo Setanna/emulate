@@ -11,11 +11,12 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** You don't have the [[Pretty]] Trait or any Trait that has it as a requirement
+**Requirements:** You don't have the [[Pretty]] Characteristic
 ___
 *A face so sorrowful and broken, it draws pity from all who see it.*
 
 <br>
 
 **System:**
-You gain a -1 [[Trait]] Penalty on Charisma Skill checks against creatures lacking the [[Mindless]] and [[Emotionless]] Trait.
+Whenever you roll a Charisma Based Skill Check against a Creature, they gain a +1 [[Morale]] Bonus on their Difficulty Check or Opposed Roll.
+
