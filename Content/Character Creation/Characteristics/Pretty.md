@@ -13,11 +13,11 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** You don't have the [[Ugly]] Trait or any Trait that has it as a requirement
+**Requirements:** You don't have the [[Ugly]] Characteristic
 ___
 *A pretty face can hide dark intent.*
 
 <br>
 
 **System:**
-You gain a +1  [[Trait]]  Bonus on Charisma Skill checks against creatures lacking the [[Mindless]] and [[Emotionless]] Trait.
+Whenever you roll a Charisma Based Skill Check against a Creature, they take a -1 [[Morale]] Penalty on their Difficulty Check or Opposed Roll.
