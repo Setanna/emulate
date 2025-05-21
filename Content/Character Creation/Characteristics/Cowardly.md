@@ -11,11 +11,11 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** You don't have the [[Brave]] Trait.
+**Requirements:** You don't have the [[Brave]] Characteristic.
 ___
-*Courage is a scarce resource, and you never really had any. *
+*Courage is a scarce resource, and you never really had any*
 
 <br>
 
 **System:**
-You gain a -4 [[Morale]] Penalty on saving throws against sources with the [[Fear]] Trait. Additionally you can no longer benefit from any bonuses to saving throws against sources with the [[Fear]] Trait.
+You gain a -4 [[Morale]] Penalty on saving throws against sources with the [[Fear]] Trait.
