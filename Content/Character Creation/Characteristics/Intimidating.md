@@ -17,4 +17,8 @@ ___
 <br>
 
 **System:**
-You gain a +1 [[Trait]] Bonus on  [[Intimidation]] Rolls. Additionally when you use the [[Intimidate]] Action it looses the [[Language]] Trait.
+Whenever you roll an Intimidation Skill Check against a Creature, they take a -1 [[Morale]] Penalty on their Difficulty Check or Opposed Roll.
+
+<br>
+
+Additionally when you use the [[Intimidate]] Action it looses the [[Language]] Trait.
