@@ -3,16 +3,17 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Unlucky <span style="margin-left: auto;">-10 XP</span> </h1>
+<h1> Unlucky <span style="margin-left: auto;">-15 XP</span> </h1>
 
 [[Flaw]]{.trait}
 
 <div style="clear:both" /> 
 
+**Requirements:** [[Unfortunate]]
 ___
 *Misfortune clings to you like a shadow.*
 
 <br>
 
 **System:**
-You gain a -1 [[Luck]] Penalty to your Hit Class; Saving Throws; Difficulty Classes; all Rolls and all Damage Rolls.
+You gain a -3 [[Luck]] Penalty to your Hit Class; Saving Throws; Difficulty Classes; all Rolls and all Damage Rolls.
