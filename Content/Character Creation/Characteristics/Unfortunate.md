@@ -5,7 +5,7 @@ cssclass: pathfinder
 
 <h1> Unfortunate <span style="margin-left: auto;"> -10 XP</span> </h1>
 
-[[Merit]]{.trait}
+[[Flaw]]{.trait}
 
 <div style="clear:both" /> 
 
