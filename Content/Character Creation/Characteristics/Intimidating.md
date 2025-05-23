@@ -17,7 +17,7 @@ ___
 <br>
 
 **System:**
-Whenever you roll an Intimidation Skill Check against a Creature, they take a -1 [[Morale]] Penalty on their Difficulty Check or Opposed Roll.
+Whenever you Roll an [[Intimidation]] Skill Check against a Creature, they take a -1 [[Morale]] Penalty on their Difficulty Check or Opposed Roll.
 
 <br>
 
