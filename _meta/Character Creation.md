@@ -35,8 +35,8 @@ For example a human war noble sent out to reclaim his honor by capturing a proph
 
 Backgrounds can not improve anything beyond a +1 [[Rules/Traits/Proficiency|Proficiency]] Bonus.
 
-### Picking Character Traits
-Once a background has been chosen Character Traits are next. Character Traits are the traits that define your character, whether they are incredibly [[Beautiful]] or stubbornly [[Persistent]]. Just because a character doesn't have a certain Character Trait does not mean they can't express similar emotion or acquire it at a later time from the Game Master.
+### Picking Characteristics
+Once a background has been chosen Characteristics are next. Characteristic are the traits that define your character, whether they are incredibly [[Beautiful]] or stubbornly [[Persistent]]. Just because a character doesn't have a certain Characteristic does not mean they can't express similar emotion, Characteristics, or acquire it at a later time from the Game Master.
 
 ### Picking Social Bonds
 Social Bonds determine what bonds a character might have, such as being a regular at a tavern and getting a discount.
@@ -79,8 +79,8 @@ Talents are the meat of a Character, they determine what a character can and wha
 | Barbarian  | [[Bloodlust]], [[Medium Armor Training]], [[Advanced Weapon Training]] |
 | Marshal    |                                                                        |
 
-## Leveling Up
-When leveling up a character gains additional XP. This newly gained XP can only be spent on Ability Scores and Talents. At the discretion of the Game Master a character can gain or loose Traits or Social Bonds if it is in character.
+## Gaining Experience Points
+When overcoming challenges, whether defeating a powerful foe in battle, picking a nearly impossible lock or rallying a militia, the Player Characters gain Experience Points. These newly gained Experience Points can only be spent on Ability Scores, Proficiencies and Talents. At the discretion of the Game Master a Player Character can gain or loose Characteristics or Social Bonds, they must still pay the cost.
 
 ## Redundant Proficiencies
 In some cases you can choose a Background and Race which both grant Proficiency in Perception. In such a case you can refund one of the proficiencies as per the Proficiency Table.
