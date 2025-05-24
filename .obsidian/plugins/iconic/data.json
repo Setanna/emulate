@@ -117,6 +117,13 @@
         "9c4516fa28f7815a"
       ]
     },
+    "Rules/Glossary": {
+      "icon": "lucide-book-marked",
+      "color": "#a06496",
+      "unsynced": [
+        "ef88b428abf812c5"
+      ]
+    },
     "Rules/Mechanics": {
       "icon": "lucide-cog",
       "unsynced": [
