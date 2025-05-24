@@ -31,10 +31,10 @@ You gain the following benefits when having a Proficiency Bonus equal to or high
 You can [[Skills#Take 10 and 20 | Take 10]] on Climb Rolls during an Encounter.
 
 #### +2 Proficiency Bonus
-When using [[Rules/Actions/Base Actions/Skills/Climb|Climb]] and [[Swift Grip]] Actions you are not [[Flat-Footed]].
+When using [[Content/Actions/Base Actions/Skills/Climb|Climb]] and [[Swift Grip]] Actions you are not [[Flat-Footed]].
 
 #### +3 Proficiency Bonus
-You can use the [[Rules/Actions/Base Actions/Skills/Climb|Climb]] and [[Swift Grip]] Actions  with one hand free without any penalties.
+You can use the [[Content/Actions/Base Actions/Skills/Climb|Climb]] and [[Swift Grip]] Actions  with one hand free without any penalties.
 
 #### +4 Proficiency Bonus
 You have an iron grip, you ignore penalties to Climb Roll from environmental, such as slippery surfaces, strong winds or icy surfaces.

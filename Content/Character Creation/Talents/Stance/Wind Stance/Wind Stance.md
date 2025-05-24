@@ -21,4 +21,4 @@ ___
 <br>
 
 **System:**
-You gain the [[Rules/Actions/Talent Actions/Wind Stance|Wind Stance]] Action.
+You gain the [[Content/Actions/Talent Actions/Wind Stance|Wind Stance]] Action.

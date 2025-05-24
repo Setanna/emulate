@@ -19,4 +19,4 @@ ___
 <br>
 
 **System:**
-You gain the [[Rules/Actions/Talent Actions/Gale Cleave|Gale Cleave]] Action.
+You gain the [[Content/Actions/Talent Actions/Gale Cleave|Gale Cleave]] Action.

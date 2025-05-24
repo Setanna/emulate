@@ -13,7 +13,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** You are in the [[Rules/Actions/Talent Actions/Wind Stance|Wind Stance]].
+**Requirements:** You are in the [[Content/Actions/Talent Actions/Wind Stance|Wind Stance]].
 
 ___
 

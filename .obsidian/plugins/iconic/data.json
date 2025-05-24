@@ -30,6 +30,14 @@
       ],
       "color": "#ffffff"
     },
+    "Content/Actions": {
+      "icon": "lucide-diamond",
+      "color": "#965a50",
+      "unsynced": [
+        "ef88b428abf812c5",
+        "9c4516fa28f7815a"
+      ]
+    },
     "Content/Afflictions": {
       "icon": "lucide-biohazard",
       "color": "#965a50",
@@ -68,14 +76,6 @@
         "ef88b428abf812c5"
       ],
       "color": "#ffffff"
-    },
-    "Rules/Actions": {
-      "icon": "lucide-square",
-      "color": "#9664a0",
-      "unsynced": [
-        "ef88b428abf812c5",
-        "9c4516fa28f7815a"
-      ]
     },
     "Rules/Bonuses and Penalties": {
       "icon": "lucide-plus",
