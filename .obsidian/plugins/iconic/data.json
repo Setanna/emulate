@@ -33,7 +33,8 @@
     "Content/Bestiary": {
       "icon": "lucide-paw-print",
       "unsynced": [
-        "9c4516fa28f7815a"
+        "9c4516fa28f7815a",
+        "ef88b428abf812c5"
       ],
       "color": "#965a50"
     },
@@ -69,6 +70,13 @@
         "9c4516fa28f7815a"
       ]
     },
+    "Rules/Afflictions": {
+      "icon": "lucide-biohazard",
+      "color": "#9664a0",
+      "unsynced": [
+        "ef88b428abf812c5"
+      ]
+    },
     "Rules/Bonuses and Penalties": {
       "icon": "lucide-plus",
       "unsynced": [
@@ -96,7 +104,8 @@
     "Rules/Environment": {
       "icon": "lucide-cloud",
       "unsynced": [
-        "9c4516fa28f7815a"
+        "9c4516fa28f7815a",
+        "ef88b428abf812c5"
       ],
       "color": "#9664a0"
     },
@@ -111,7 +120,8 @@
     "Rules/Mechanics": {
       "icon": "lucide-cog",
       "unsynced": [
-        "9c4516fa28f7815a"
+        "9c4516fa28f7815a",
+        "ef88b428abf812c5"
       ],
       "color": "#9664a0"
     },
@@ -142,7 +152,8 @@
     "Rules/Talents": {
       "icon": "lucide-star",
       "unsynced": [
-        "9c4516fa28f7815a"
+        "9c4516fa28f7815a",
+        "ef88b428abf812c5"
       ],
       "color": "#9664a0"
     },
