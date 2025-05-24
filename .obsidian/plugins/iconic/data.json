@@ -30,6 +30,13 @@
       ],
       "color": "#ffffff"
     },
+    "Content/Afflictions": {
+      "icon": "lucide-biohazard",
+      "color": "#965a50",
+      "unsynced": [
+        "ef88b428abf812c5"
+      ]
+    },
     "Content/Bestiary": {
       "icon": "lucide-paw-print",
       "unsynced": [
@@ -68,13 +75,6 @@
       "unsynced": [
         "ef88b428abf812c5",
         "9c4516fa28f7815a"
-      ]
-    },
-    "Rules/Afflictions": {
-      "icon": "lucide-biohazard",
-      "color": "#9664a0",
-      "unsynced": [
-        "ef88b428abf812c5"
       ]
     },
     "Rules/Bonuses and Penalties": {
