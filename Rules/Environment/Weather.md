@@ -21,6 +21,8 @@ There are three types of fog; Thin, Dense and Thick as shown below:
 **Thin Fog:**
 Thin Fog is barely noticeable. The Perception Modifier for the Distance to Source Sight Modifier is doubled to +2 per 10 meters.
 
+<br>
+
 **Dense Fog:**
 Dense Fog can cover large areas and obscure details or even object from a distance. The Perception Modifier for the Distance to Source Sight Modifier is doubled from Thin Fog to +4 per 10 meters.
 
