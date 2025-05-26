@@ -33,7 +33,7 @@ For example a human war noble sent out to reclaim his honor by capturing a proph
 
 <br>
 
-Backgrounds can not improve anything beyond a +1 [[Rules/Traits/Proficiency|Proficiency]] Bonus.
+Backgrounds can not improve anything beyond a +1 [[Rules/Bonuses and Penalties/Proficiency|Proficiency]] Bonus.
 
 ### Picking Characteristics
 Once a background has been chosen Characteristics are next. Characteristic are the traits that define your character, whether they are incredibly [[Beautiful]] or stubbornly [[Persistent]]. Just because a character doesn't have a certain Characteristic does not mean they can't express similar emotion, Characteristics, or acquire it at a later time from the Game Master.
