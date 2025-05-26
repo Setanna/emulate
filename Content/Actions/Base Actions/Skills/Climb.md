@@ -11,7 +11,6 @@ cssclass: pathfinder
 <div style="clear:both" />
 
 **Requirements:** Both hands free.
-**Trigger:** You are [[Falling]].
 ___
 
 **System:**
