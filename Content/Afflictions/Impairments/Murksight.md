@@ -15,4 +15,4 @@ ___
 <br>
 
 **System:**
-You gain a [[Circumstance]] Penalty to all your Sight based [[Perception]] Rolls, [[Making an Attack | Attack]] Rolls and [[Defence]] Reaction Rolls. The penalty is equal to this Impairment's level.
+You gain a [[Circumstance]] Penalty to all your Sight based [[Perception]] Rolls, [[Making an Attack | Attack]] Rolls and [[Defence]] Reaction Rolls. The penalty is equal to this Impairment's level, the penalty is doubled on Sight Based [[Perception]] Rolls.
