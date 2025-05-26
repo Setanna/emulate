@@ -23,3 +23,15 @@ There are 7 Attitudes, that defines the range of hatred or love, Creatures can f
 <br>
 
 While an Attitude is a great guideline for how characters might act, they are not set in stone. A Paladin that would always risk his life to save others, might still risk his life to save Innocent Bystanders even if they are from the Enemy Nation and he is Distant against them.
+
+### Changing a Creature's Attitude
+A Creature's Attitude can be changed by many things, such as a [[Brown Bear]] becoming Hostile when another Creature enters its territory, or by another Creature using the [[Make an Impression]] Action.
+
+<br>
+
+The Game Master generally decided a Creature's Attitude, not through the mechanics of the game, but by the actions and world circumstance. So when entering a town of the Enemy, all in the town might be Distant or even Hostile. 
+
+<br>
+
+When it comes to the Loyal and Resentful Attitudes, these Attitudes should only be applied to a Creature in utmost rare circumstances. Such as a Rogue stealing an Arch wizards life work or a soldier almost dying to save a Father's child..
+
