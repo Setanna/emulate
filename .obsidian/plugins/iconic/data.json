@@ -42,7 +42,8 @@
       "icon": "lucide-biohazard",
       "color": "#965a50",
       "unsynced": [
-        "ef88b428abf812c5"
+        "ef88b428abf812c5",
+        "9c4516fa28f7815a"
       ]
     },
     "Content/Bestiary": {
@@ -121,7 +122,8 @@
       "icon": "lucide-book-marked",
       "color": "#a06496",
       "unsynced": [
-        "ef88b428abf812c5"
+        "ef88b428abf812c5",
+        "9c4516fa28f7815a"
       ]
     },
     "Rules/Mechanics": {
