@@ -20,4 +20,4 @@ You gain the following bonuses and penalties until the End of the Encounter or u
 - +1 [[Rules/Bonuses and Penalties/Morale|Morale]] Bonus on Melee Weapon Attack rolls.
 - +1 [[Rules/Bonuses and Penalties/Morale|Morale]] Bonus on Melee Weapon Damage Rolls
 - -1 [[Rules/Bonuses and Penalties/Morale|Morale]] Penalty on Hit Class.
-- You gain the [[Brave]] Trait. If you already have the Trait, instead double the bonus it grants.
+- You gain the [[Brave]] Characteristic. If you already have the Characteristic, instead double the bonus it grants.
