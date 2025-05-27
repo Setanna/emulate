@@ -13,7 +13,8 @@ cssclass: pathfinder
 <div style="clear:both" />
 
 ___
-*Your words rally the fallen to their feet and lets them face death with a sword in their hand.*
+*“This is the hour we will be remembered for!”*
+*— Dagg Varn, Last of the 13th*
 
 <br>
 
@@ -21,9 +22,6 @@ ___
 You chose any number of allies that can hear you, up to an amount equal to your Charisma per Action used on this action. You choose one benefit to grant to all the targets until the end of the encounter:
 
 <br>
-
-##### Last Stand
-Your allies gain the [[Indomitable]] Talent. Allies who already have the Talent instead add your Charisma as a [[Rules/Bonuses and Penalties/Morale|Morale]] Bonus to their Negative Hit Points.
 
 ##### Valiant Charge
 Whenever your allies use the [[Charge]] or [[Ram]] Action, they add your Charisma as a [[Rules/Traits/Morale|Morale]] Bonus to the number of meters they can move.
