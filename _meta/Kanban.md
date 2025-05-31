@@ -209,6 +209,18 @@ kanban-plugin: board
 		- Maybe make lesser demons which are similar to dnd and pathfinder.
 	
 	</details>
+- [ ] <details> 
+	<summary> 
+		<b>
+			 Proficiency
+		</b> 
+	</summary>
+	
+	- [ ] Proficiency Bonuses
+	- Remove Proficiency Bonuses
+	- Keep the old ones to use for future talents or similar
+	
+	</details>
 
 
 ## Doing
