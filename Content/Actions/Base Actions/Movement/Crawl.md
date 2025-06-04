@@ -9,7 +9,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** You are [[Prone]] and your Speed is at least 10 feet.
+**Requirements:** You are [[Prone]] and your Speed is at least 2 meters.
 ___
 **System:**
 You move up to 1 meter.
