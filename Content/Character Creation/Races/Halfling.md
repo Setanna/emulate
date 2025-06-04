@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Halfling <span style="margin-left: auto;">4 XP</span> </h1>
+<h1> Halfling <span style="margin-left: auto;">15 XP</span> </h1>
 
 [[Size | Small]]{.size-trait}
 
@@ -32,7 +32,7 @@ Halfling tend to be on the smaller side, as such they stand between 1 and 1.2 me
 <br>
 
 **Racial Talents:**
-Halflings start with the [[Brave]] Trait and [[Lucky]].
+Halflings start with the [[Brave]], [[Fortunate]] and [[Lucky]] Characteristics.
 
 
 # XP Distribution
@@ -41,9 +41,10 @@ Halflings start with the [[Brave]] Trait and [[Lucky]].
 | ----------------------- |:---:|
 | [[Race#Hit Die \| d6]]  | -4  |
 | [[Race#Size  \| Small]] | -4  |
-| [[Race#Movement \| 5]]  |  0  |
+| [[Race#Movement \| 3]]  | -4  |
 | [[Brave]]               |  2  |
-| [[Lucky]]               | 10  |
-| Total                   |  4  | 
+| [[Fortunate]]           | 10  |
+| [[Lucky]]               | 15  |
+| Total                   | 15  | 
 
 
