@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-You gain a -2 [[Trait]] Bonus to [[Perception]], [[Survival]] and [[Insight]] Rolls.
+You take a -2 [[Trait]] Penalty to [[Perception]], [[Survival]] and [[Insight]] Rolls.
