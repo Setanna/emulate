@@ -13,7 +13,8 @@ cssclass: pathfinder
 
 **Requirements:** You don't have the [[Cowardly]] Characteristic.
 ___
-*Flavor.*
+*A good soldier does not need a blade to stand between danger and the innocent*
+*— Dagg Varn, Last of the 13th*
 
 <br>
 
