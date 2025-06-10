@@ -20,4 +20,8 @@ ___
 <br>
 
 **System:**
-You make an [[Making an Attack | Attack]] against the creature that triggered the Attack of Opportunity. 
+You make an [[Making an Attack | Attack]] against the creature that triggered the Attack of Opportunity.
+
+<br>
+
+Alternatively instead of making an [[Making an Attack | Attack]], you can take a [[Maneuver]] Action, targeting the creature.
