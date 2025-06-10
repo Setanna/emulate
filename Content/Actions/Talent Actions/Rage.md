@@ -6,7 +6,7 @@ cssclass: pathfinder
 
 <h1> Rage<span style="margin-left: auto;"> 1 Action</span> </h1>
 
-[[Morale]]{.trait}
+[[Emotion]]{.trait}
 
 <div style="clear:both" />
 
