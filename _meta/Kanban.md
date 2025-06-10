@@ -84,7 +84,8 @@ kanban-plugin: board
 			Conditions
 		</b> 
 	</summary>
-	
+
+ 	- [ ] Conditions should not have Traits, the source that gave the Conditions should be the one with the Traits
 	- [ ] [[Flanked]]
 		- [ ] Make Examples
 	
