@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 
-<h1> Rally <span style="margin-left: auto;"> Any Number of Actions</span> </h1>
+<h1> Rally <span style="margin-left: auto;"> 1 Action</span> </h1>
 
 [[Language]]{.trait}
 
@@ -19,7 +19,7 @@ ___
 <br>
 
 **System:**
-You chose any number of allies that can hear you, up to an amount equal to your Charisma per Action used on this action. You choose one benefit to grant to all the targets until the end of the encounter:
+You choose any number of allies that can [[Perception | hear]] you. You choose one benefit below to grant to all the targets until the end of the encounter. If the creature is targeted by another Rally, they must choose which benefit to keep. 
 
 <br>
 
