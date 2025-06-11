@@ -5,10 +5,6 @@ cssclass: pathfinder
 
 <h1> Between All Eyes <span style="margin-left: auto;"> 2 XP</span> </h1>
 
-[[Sight]]{.trait}
-
-[[Emotion | Emotion (Anger)]]{.trait}
-
 <div style="clear:both" /> 
 
 **Requirements:** [[All Eyes On Me]], Charisma 2+
