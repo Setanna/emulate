@@ -5,7 +5,7 @@ cssclass: pathfinder
 
 <h1> Brave <span style="margin-left: auto;">2 XP</span> </h1>
 
-[[Emotion]]{.trait}
+[[Emotion | Emotion (Hope)]]{.trait}
 
 [[Merit]]{.trait}
 
