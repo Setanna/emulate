@@ -5,7 +5,7 @@ cssclass: pathfinder
 
 <h1> Cowardly <span style="margin-left: auto;">-2 XP</span> </h1>
 
-[[Emotion]]{.trait}
+[[Emotion | Emotion (Fear)]]{.trait}
 
 [[Flaw]]{.trait}
 
@@ -18,4 +18,4 @@ ___
 <br>
 
 **System:**
-You gain a -4 [[Morale]] Penalty on saving throws against sources with the [[Fear]] Trait.
+You gain a -4 [[Morale]] Penalty on saving throws against sources with the [[Emotion | Emotion (Fear)]] Trait.
