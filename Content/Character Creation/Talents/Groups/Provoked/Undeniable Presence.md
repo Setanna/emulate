@@ -7,8 +7,6 @@ cssclass: pathfinder
 
 [[Sight]]{.trait}
 
-[[Emotion | Emotion (Anger)]]{.trait}
-
 <div style="clear:both" /> 
 
 **Requirements:** [[Between All Eyes]] or [[Grand Reveal]], Charisma 3+
