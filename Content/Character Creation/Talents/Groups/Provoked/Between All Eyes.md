@@ -7,7 +7,7 @@ cssclass: pathfinder
 
 [[Sight]]{.trait}
 
-[[Emotion]]{.trait}
+[[Emotion | Emotion (Anger)]]{.trait}
 
 <div style="clear:both" /> 
 
