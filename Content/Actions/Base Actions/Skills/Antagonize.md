@@ -6,7 +6,7 @@ cssclass: pathfinder
 
 <h1> Antagonize <span style="margin-left: auto;"> 1 Actions </span> </h1>
 
-[[Emotion]]{.trait}
+[[Emotion | Emotion (Anger)]]{.trait}
 
 [[Sight]]{.trait}
 
