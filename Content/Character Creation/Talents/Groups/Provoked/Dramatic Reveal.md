@@ -5,10 +5,6 @@ cssclass: pathfinder
 
 <h1> Dramatic Reveal <span style="margin-left: auto;"> 1 XP</span> </h1>
 
-[[Sight]]{.trait}
-
-[[Emotion | Emotion (Anger)]]{.trait}
-
 [[Rules/Traits/Item | Item (Dueling Cape)]]{.trait}
 
 <div style="clear:both" /> 
