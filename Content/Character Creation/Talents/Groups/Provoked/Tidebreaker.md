@@ -5,8 +5,6 @@ cssclass: pathfinder
 
 <h1> Tidebreaker <span style="margin-left: auto;"> 10 XP</span> </h1>
 
-[[Sight]]{.trait}
-
 <div style="clear:both" /> 
 
 **Requirements:** [[Face the Tide]], Charisma 5+
