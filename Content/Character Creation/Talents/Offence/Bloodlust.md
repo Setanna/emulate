@@ -7,8 +7,6 @@ cssclass: pathfinder
 
 [[Offence]]{.trait}
 
-[[Emotion]]{.trait}
-
 <div style="clear:both" /> 
 
 **Requirements:** Strength 2+; Constitution 1+
