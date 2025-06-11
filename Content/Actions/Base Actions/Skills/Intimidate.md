@@ -6,13 +6,11 @@ cssclass: pathfinder
 
 <h1> Intimidate <span style="margin-left: auto;"> 1 Actions </span> </h1>
 
-[[Emotion]]{.trait}
+[[Emotion | Emotion (Fear)]]{.trait}
 
 [[Sight]]{.trait}
 
 [[Language]]{.trait}
-
-[[Fear]]{.trait}
 
 [[Skill | Skill (Intimidate)]]{.trait}
 
