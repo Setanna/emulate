@@ -5,6 +5,8 @@ cssclass: pathfinder
 
 <h1> Ugly <span style="margin-left: auto;">-1 XP</span> </h1>
 
+[[Emotion | Emotion (Disgust)]]{.trait}
+
 [[Sight]]{.trait}
 
 [[Flaw]]{.trait}
