@@ -5,8 +5,6 @@ cssclass: pathfinder
 
 <h1> Face the Tide <span style="margin-left: auto;"> 6 XP</span> </h1>
 
-[[Sight]]{.trait}
-
 <div style="clear:both" /> 
 
 **Requirements:** [[Undeniable Presence]], Charisma 4+
