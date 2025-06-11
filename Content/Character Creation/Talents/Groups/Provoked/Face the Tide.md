@@ -7,8 +7,6 @@ cssclass: pathfinder
 
 [[Sight]]{.trait}
 
-[[Emotion]]{.trait}
-
 <div style="clear:both" /> 
 
 **Requirements:** [[Undeniable Presence]], Charisma 4+
