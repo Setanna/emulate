@@ -7,7 +7,7 @@ cssclass: pathfinder
 
 [[Sight]]{.trait}
 
-[[Emotion]]{.trait}
+[[Emotion | Emotion (Anger)]]{.trait}
 
 [[Rules/Traits/Item | Item (Dueling Cape)]]{.trait}
 
