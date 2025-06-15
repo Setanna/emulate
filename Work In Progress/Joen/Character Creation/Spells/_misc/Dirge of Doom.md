@@ -11,7 +11,7 @@ cssclass: pathfinder
 
 [[Offence]]{.trait}
 
-[[Fear]]{.trait}
+[[Emotion | Emotion (Fear)]]{.trait}
 
 [[Verbal]]{.trait}
 

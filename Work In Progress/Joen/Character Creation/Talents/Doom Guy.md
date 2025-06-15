@@ -5,15 +5,13 @@ cssclass: pathfinder
 
 <h1> Doom Guy <span style="margin-left: auto;"> 10 XP</span> </h1>
 
-[[Fear]]{.trait}
-
-[[Emotion]]{.trait}
+[[Emotion | Emotion (Fear)]]{.trait}
 
 <div style="clear:both" /> 
 
 **Requirements:** You've killed over 100 from the chosen race.
 ___
-*Jesus Christ, that's Jason Bourne.*
+*Jesus Christ, that's Jason Bourne*
 
 <br>
 

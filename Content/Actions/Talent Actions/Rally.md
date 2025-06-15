@@ -31,4 +31,4 @@ Your allies gain the [[Brave]] Characteristic, if they already have the [[Brave]
 
 <br>
 
-Additionally if your allies is affected by a source with the [[Fear]] Trait, they can Roll against the effect again, with the new Bonuses.
+Additionally if your allies is affected by a source with the [[Emotion | Emotion (Fear)]] Trait, they can Roll against the effect again, with the new Bonuses.
