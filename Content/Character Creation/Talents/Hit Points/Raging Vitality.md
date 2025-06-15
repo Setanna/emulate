@@ -9,9 +9,9 @@ cssclass: pathfinder
  
 <div style="clear:both" /> 
 
-**Requirements:** [[Rage]], Constitution 3
+**Requirements:** [[Rage]], Constitution 3+
 ___
-*With every roar of rage, your body steels itself against harm.*
+*With every roar of rage, your body steels itself against harm*
 
 <br>
 
