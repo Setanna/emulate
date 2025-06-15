@@ -9,8 +9,6 @@ cssclass: pathfinder
 
 [[Emotion | Emotion (Pain)]]{.trait}
 
-[[Pain]]{.trait}
-
 <div style="clear:both" /> 
 
 **Requirement:** [[Sadistic]]

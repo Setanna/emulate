@@ -17,4 +17,4 @@ ___
 <br>
 
 **System:**
-You reduce any [[Rules/Bonuses and Penalties/Morale|Morale]] Bonuses gained from any source without the [[Pain]] Trait by 1.
+You reduce any [[Rules/Bonuses and Penalties/Morale|Morale]] Bonuses gained from any source without the [[Emotion | Emotion (Pain)]] Trait by 1.
