@@ -9,12 +9,12 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Rage]]
+**Requirements:** [[Content/Actions/Talent Actions/Rage | Rage]]
 ___
 *Their interference sparks your unbridled rage.*
 
 <br>
 
 **System:**
-When a creature you dealt damage to your last turn, would be killed or knocked [[Unconscious]] by another creature, you can use the [[Rage]] Action as a Free Action without having to meet the Requirements.
+When a creature you dealt damage to your last turn, would be killed or knocked [[Unconscious]] by another creature, you can use the [[Content/Actions/Talent Actions/Rage | Rage]] Action as a Free Action without having to meet the Requirements.
 

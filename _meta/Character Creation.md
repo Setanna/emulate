@@ -76,7 +76,7 @@ Talents are the meat of a Character, they determine what a character can and wha
 | ---------- | ---------------------------------------------------------------------- |
 | Archer     |                                                                        |
 | Arbalester |                                                                        |
-| Barbarian  | [[Bloodlust]], [[Medium Armor Training]], [[Advanced Weapon Training]] |
+| Barbarian  | [[Content/Character Creation/Talents/Groups/Rage/Rage \| Rage]], [[Medium Armor Training]], [[Advanced Weapon Training]] |
 | Marshal    |                                                                        |
 
 ## Gaining Experience Points

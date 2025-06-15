@@ -6,7 +6,7 @@
 	- Raise Shield Action how handle now
 - [[Morale]]
 	- MAke Satck test
-- [[Rage]]
+- [[Content/Actions/Talent Actions/Rage]]
 	- Make temp hit points into a new talent that can be rage cycled
 	- Frenzy Retaliate reaction
 - [[Frightened]]

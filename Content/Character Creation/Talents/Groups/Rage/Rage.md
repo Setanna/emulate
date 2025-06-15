@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Bloodlust <span style="margin-left: auto;"> 4 XP</span> </h1>
+<h1> Rage <span style="margin-left: auto;"> 4 XP</span> </h1>
 
 [[Offence]]{.trait}
 
@@ -13,5 +13,5 @@ cssclass: pathfinder
 ___
 
 **System:**
-You gain the [[Rage]] Action.
+You gain the [[Content/Actions/Talent Actions/Rage | Rage]] Action.
 

@@ -9,11 +9,11 @@ cssclass: pathfinder
  
 <div style="clear:both" /> 
 
-**Requirements:** [[Rage]], Constitution 3+
+**Requirements:** [[Content/Actions/Talent Actions/Rage | Rage]], Constitution 3+
 ___
 *With every roar of rage, your body steels itself against harm*
 
 <br>
 
 **System:**
-When you take the [[Rage]] Action, you gain a number of [[Temporary Hit Points]] equal to your Constitution.
+When you take the [[Content/Actions/Talent Actions/Rage | Rage]] Action, you gain a number of [[Temporary Hit Points]] equal to your Constitution.
