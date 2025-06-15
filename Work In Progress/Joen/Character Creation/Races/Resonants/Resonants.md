@@ -27,8 +27,9 @@ Resonants mimic the characteristics of the race that spawned them.
 
 **System:**
 Choose any race and a single emotion from the following list:
-- [[Agony]]
-- [[Glee]]
+- [[Anger]]
+- [[Work In Progress/Joen/Character Creation/Races/Resonants/Pain | Pain]]
+- [[Joy]]
 
 <br>
 
