@@ -20,4 +20,4 @@ ___
 <br>
 
 **System:**
-You increase the [[Morale]] Bonus from the [[Ugly]] Characteristic to 3.
+You increase the [[Rules/Bonuses and Penalties/Morale | Morale]] Bonus from the [[Ugly]] Characteristic to 3.

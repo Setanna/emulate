@@ -18,4 +18,4 @@ ___
 <br>
 
 **System:**
-You gain a -4 [[Morale]] Penalty on saving throws against sources with the [[Emotion | Emotion (Fear)]] Trait.
+You gain a -4 [[Rules/Bonuses and Penalties/Morale | Morale]] Penalty on saving throws against sources with the [[Emotion | Emotion (Fear)]] Trait.

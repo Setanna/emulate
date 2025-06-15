@@ -18,4 +18,4 @@ ___
 <br>
 
 **System:**
-You reduce any [[Morale]] penalty or bonus you recieve by 1. 
+You reduce any [[Rules/Bonuses and Penalties/Morale | Morale]] penalty or bonus you recieve by 1. 

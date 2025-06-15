@@ -8,7 +8,7 @@ cssclass: pathfinder
 
 [[Language]]{.trait}
 
-[[Morale]]{.trait}
+[[Emotion | Emotion (Awe)]]{.trait}
 
 <div style="clear:both" />
 
@@ -24,7 +24,7 @@ You choose any number of allies that can [[Perception | hear]] you. You choose o
 <br>
 
 ##### Valiant Charge
-Whenever your allies use the [[Charge]] or [[Ram]] Action, they add your Charisma as a [[Rules/Traits/Morale|Morale]] Bonus to the number of meters they can move.
+Whenever your allies use the [[Charge]] or [[Ram]] Action, they add your Charisma as a [[Rules/Bonuses and Penalties/Morale | Morale]] Bonus to the number of meters they can move.
 
 ##### Inspire Courage
 Your allies gain the [[Brave]] Characteristic, if they already have the [[Brave]] Characteristic they increase the Bonus it grants by your Charisma.

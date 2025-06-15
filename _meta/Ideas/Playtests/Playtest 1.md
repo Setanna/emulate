@@ -4,7 +4,7 @@
 	- Make morale bonuses
 - [[Shield]]
 	- Raise Shield Action how handle now
-- [[Morale]]
+- Morale Trait // DEPRECATED
 	- MAke Satck test
 - [[Content/Actions/Talent Actions/Rage]]
 	- Make temp hit points into a new talent that can be rage cycled

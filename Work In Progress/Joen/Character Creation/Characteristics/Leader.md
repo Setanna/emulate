@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-Treat your Charisma as 1 higher for Talents and Actions with the [[Rules/Traits/Morale|Morale]] Trait that benefit allies.
+Treat your Charisma as 1 higher for Talents and Actions with the [[Rules/Bonuses and Penalties/Morale | Morale]] Trait that benefit allies.

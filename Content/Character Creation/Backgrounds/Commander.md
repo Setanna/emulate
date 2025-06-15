@@ -5,8 +5,6 @@ cssclass: pathfinder
 
 <h1> Commander <span style="margin-left: auto;">4 XP</span> </h1>
 
-[[Morale]]{.trait}
-
 [[Wealth]]{.trait}
 
 <div style="clear:both" /> 

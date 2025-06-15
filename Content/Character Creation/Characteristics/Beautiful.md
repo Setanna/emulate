@@ -20,4 +20,4 @@ ___
 <br>
 
 **System:**
-You increase the [[Morale]] Penalty from the [[Pretty]] Characteristic to 3.
+You increase the [[Rules/Bonuses and Penalties/Morale | Morale]] Penalty from the [[Pretty]] Characteristic to 3.

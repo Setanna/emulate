@@ -5,7 +5,7 @@ cssclass: pathfinder
 
 <h1> Persistent <span style="margin-left: auto;">1 XP</span> </h1>
 
-[[Morale]]{.trait}
+[[Emotion]]{.trait}
 
 [[Merit]]{.trait}
 

@@ -20,4 +20,4 @@ ___
 <br>
 
 **System:**
-Whenever you roll a Charisma Based Skill Check against a Creature, they take a -1 [[Morale]] Penalty on their Difficulty Check or Opposed Roll.
+Whenever you Roll a Charisma Based Skill Check against a Creature, they take a -1 [[Rules/Bonuses and Penalties/Morale|Morale]] Penalty on their Difficulty Check or Opposed Roll.

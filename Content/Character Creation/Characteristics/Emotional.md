@@ -18,4 +18,4 @@ ___
 <br>
 
 **System:**
-You increase any [[Morale]] penalty or bonus you recieve by 1. 
+You increase any [[Rules/Bonuses and Penalties/Morale | Morale]] penalty or bonus you recieve by 1. 
