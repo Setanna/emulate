@@ -39,12 +39,12 @@ Halflings start with the [[Brave]], [[Fortunate]] and [[Lucky]] Characteristics.
 
 | Name                                  | XP  |
 | ------------------------------------- |:---:|
-| [[Race#Hit Die \| d6]]                | -4  | 
+| [[Race#Hit Die \| d6]]                | -4  |
 | [[Race#Size  \| Small]]               | -4  |
-| [[Race#Movement \| 3 Movement Speed]] | -4  |
+| [[Race#Movement \| 5 Movement Speed]] |  0  | 
 | [[Brave]]                             |  2  |
 | [[Fortunate]]                         | 10  |
 | [[Lucky]]                             | 15  |
-| Total                                 | 15  |
+| Total                                 | 19  |
 
 
