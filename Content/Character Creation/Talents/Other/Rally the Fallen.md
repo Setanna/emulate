@@ -16,7 +16,7 @@ ___
 **System:**
 When you take the [[Rally]] Action, any ally who is [[Deafened]] due to being [[Unconscious]] is still affected by your [[Rally]] Action. Additionally your [[Rally]] Action gains the following option:
 
-##### Last Stand
+##### One Last Time, Fight!
 Your allies gain the [[Indomitable]] Talent. Allies who already have the Talent instead add your Charisma as a [[Rules/Bonuses and Penalties/Morale|Morale]] Bonus to their Negative Hit Points.
 
 <br>

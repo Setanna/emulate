@@ -23,10 +23,10 @@ You choose any number of allies that can [[Perception | hear]] you. You choose o
 
 <br>
 
-##### Valiant Charge
+##### Break Their Ranks!
 Whenever your allies use the [[Charge]] or [[Ram]] Action, they add your Charisma as a [[Rules/Bonuses and Penalties/Morale | Morale]] Bonus to the number of meters they can move.
 
-##### Inspire Courage
+##### Steel Your Hearts!
 Your allies gain the [[Brave]] Characteristic, if they already have the [[Brave]] Characteristic they increase the Bonus it grants by your Charisma.
 
 <br>
