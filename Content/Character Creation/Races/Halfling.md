@@ -11,7 +11,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-![[Halfling.png]]]{.thumbnail}
+![[Halfling.png]]{.thumbnail}
 
 ___
 
@@ -21,7 +21,7 @@ ___
 ___
 
 **Flavor:**
-
+Don’t let their size fool you—Halflings walk the world with luck in their pockets and adventure in their hearts.
 
 <br>
 
@@ -37,14 +37,14 @@ Halflings start with the [[Brave]], [[Fortunate]] and [[Lucky]] Characteristics.
 
 # XP Distribution
 
-| Name                    | XP  |
-| ----------------------- |:---:|
-| [[Race#Hit Die \| d6]]  | -4  |
-| [[Race#Size  \| Small]] | -4  |
-| [[Race#Movement \| 3]]  | -4  |
-| [[Brave]]               |  2  |
-| [[Fortunate]]           | 10  |
-| [[Lucky]]               | 15  |
-| Total                   | 15  | 
+| Name                                  | XP  |
+| ------------------------------------- |:---:|
+| [[Race#Hit Die \| d6]]                | -4  | 
+| [[Race#Size  \| Small]]               | -4  |
+| [[Race#Movement \| 3 Movement Speed]] | -4  |
+| [[Brave]]                             |  2  |
+| [[Fortunate]]                         | 10  |
+| [[Lucky]]                             | 15  |
+| Total                                 | 15  |
 
 
