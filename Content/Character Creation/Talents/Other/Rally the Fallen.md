@@ -5,8 +5,6 @@ cssclass: pathfinder
 
 <h1> Rally the Fallen <span style="margin-left: auto;"> 1 XP</span> </h1>
 
-[[Emotion]]{.trait}
-
 <div style="clear:both" /> 
 
 **Requirements:** [[Rally]]
