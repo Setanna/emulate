@@ -36,4 +36,4 @@ Additionally if your allies is affected by a source with the [[Emotion | Emotion
 ##### Remember Who You Are!
 Your allies gain the [[Iron Will]] Characteristic, if they already have the [[Iron Will]] Characteristic they increase the Bonus it grants by your Charisma.
 
-Additionally if your allies is affected by a source with the [[Mind Control]] Trait, they can Roll against the effect again, with the new Bonuses.
+Additionally if your allies is affected by a source with the [[Compulsion]] Trait, they can Roll against the effect again, with the new Bonuses.
