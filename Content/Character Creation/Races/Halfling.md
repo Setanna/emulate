@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Halfling <span style="margin-left: auto;">15 XP</span> </h1>
+<h1> Halfling <span style="margin-left: auto;">19 XP</span> </h1>
 
 [[Size | Small]]{.size-trait}
 
