@@ -7,14 +7,14 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Content/Actions/Talent Actions/Rally]]
+**Requirements:** [[Content/Actions/Talent Actions/Rally | Rally]]
 ___
 *Your words rally the fallen to their feet and lets them face death with a sword in their hand.*
 
 <br>
 
 **System:**
-When you take the [[Content/Actions/Talent Actions/Rally]] Action, any ally who is [[Deafened]] due to being [[Unconscious]] is still affected by your [[Content/Actions/Talent Actions/Rally]] Action. Additionally your [[Content/Actions/Talent Actions/Rally]] Action gains the following option:
+When you take the [[Content/Actions/Talent Actions/Rally | Rally]] Action, any ally who is [[Deafened]] due to being [[Unconscious]] is still affected by your [[Content/Actions/Talent Actions/Rally | Rally]] Action. Additionally your [[Content/Actions/Talent Actions/Rally | Rally]] Action gains the following option:
 
 ##### One Last Time, Fight!
 Your allies gain the [[Indomitable]] Talent. Allies who already have the Talent instead add your Charisma as a [[Rules/Bonuses and Penalties/Morale|Morale]] Bonus to their Negative Hit Points.
