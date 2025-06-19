@@ -11,7 +11,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-![[]]{.thumbnail}
+![[Halfling.png]]]{.thumbnail}
 
 ___
 
