@@ -9,9 +9,9 @@ cssclass: pathfinder
 
 **Requirements:** [[Content/Actions/Talent Actions/Rally | Rally]]
 ___
-*Your words rally the fallen to their feet and lets them face death with a sword in their hand.*
+*Some lead with wisdom and age. You lead with fire and steel*
 
-<br>
+<br>``
 
 **System:**
 When you take the [[Content/Actions/Talent Actions/Rally | Rally]] Action it gains the following option:
