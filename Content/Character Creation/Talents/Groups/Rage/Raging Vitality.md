@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-When you take the [[Content/Actions/Talent Actions/Rage | Rage]] Action, you gain a number of [[Temporary Hit Points]] equal to your Constitution.
+Whenever you are [[Enraged]], you gain the [[Bolster]] Action. Additionally whenever you use the [[Content/Actions/Talent Actions/Rage | Rage]] Action, you can use the [[Bolster]] Action as a Free Action.
