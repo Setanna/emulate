@@ -9,11 +9,11 @@ cssclass: pathfinder
  
 <div style="clear:both" /> 
 
-**Requirements:** [[Content/Actions/Talent Actions/Rage | Rage]], Constitution 3+
+**Requirements:** Constitution 3+
 ___
 *With every roar of rage, your body steels itself against harm*
 
 <br>
 
 **System:**
-Whenever you are [[Enraged]], you gain the [[Bolster]] Action. Additionally whenever you use the [[Content/Actions/Talent Actions/Rage | Rage]] Action, you can use the [[Bolster]] Action as a Free Action.
+Whenever you are [[Enraged]], you gain the [[Bolster]] Action. Additionally whenever you gain the [[Enraged]] Condition, you can use the [[Bolster]] Action as a Free Action.
