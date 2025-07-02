@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-Whenever you are [[Enraged]], you gain the [[Bolster]] Action. Additionally whenever you gain the [[Enraged]] Condition, you can use the [[Bolster]] Action as a Free Action.
+While you are [[Enraged]] you gain the [[Bolster]] Action and whenever you would gain the [[Enraged]] Condition, you can use [[Bolster]] as a Free Action.
