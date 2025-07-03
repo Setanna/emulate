@@ -16,5 +16,8 @@ ___
 <br>
 
 **System:**
-The first action you take on your turn after using [[Dramatic Reveal]], gains the benefit of [[Hide Intent]] as if it was a Critical Success, against all creatures you [[Provoked]] with [[Dramatic Reveal]].
+Your [[Hide Intent]] Action gains the following Trigger:
 
+<br>
+
+**Trigger:** The first Action you take against a creature, that is [[Provoked]] by your [[Dramatic Reveal]]
