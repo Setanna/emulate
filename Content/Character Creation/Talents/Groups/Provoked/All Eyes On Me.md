@@ -14,9 +14,9 @@ ___
 <br>
 
 **System:**
-Your [[Antagonize]] Action gain the following trigger:
+Your [[Antagonize | Antagonize (You)]] Action gain the following trigger:
 
 <br>
 
-**Trigger:** Whenever you Roll for Initiative and you are not [[Surprised]]. You must choose yourself as the [[Antagonize]] Target.
+**Trigger:** Whenever you Roll for Initiative and you are not [[Surprised]].
 
