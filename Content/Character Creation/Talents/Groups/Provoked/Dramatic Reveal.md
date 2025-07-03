@@ -16,9 +16,9 @@ ___
 <br>
 
 **System:**
-Your [[Antagonize]] Action gain the following trigger:
+Your [[Antagonize | Antagonize (You)]] Action gain the following trigger:
 
 <br>
 
-**Trigger ([[Rules/Traits/Item | Item (Dueling Cape)]]):** Whenever you Roll for Initiative and you are not [[Surprised]]. You must choose yourself as the [[Antagonize]] Target.
+**Trigger ([[Rules/Traits/Item | Item (Dueling Cape)]]):** Whenever you Roll for Initiative and you are not [[Surprised]].
 
