@@ -20,5 +20,4 @@ Any creature that is [[Provoked]] with you as their Target, can not reduce their
 
 <br>
 
-Additionally, you can use the [[All Eyes On Me]] and [[Dramatic Reveal]] Talents even when you are [[Surprised]].
-
+Additionally, your [[Antagonize]] Action Triggers can be used even when you are [[Surprised]].
