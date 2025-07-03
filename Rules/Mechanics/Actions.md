@@ -16,3 +16,6 @@ When an Action has a Trigger, it can be used as a Free Action whenever the liste
 
 #### Trigger Traits
 Some Triggers have Traits in their paranthesis. These Traits are applied to the Action and any conditions of the Traits must be met before the Trigger can be used.
+
+### Action Targets
+Sometimes you gain an Action, or are allowed to take an Action with a paranthesis. The paranthesis defines the target that must be chosen for the Action. An example is the [[All Eyes On Me]] Talent, which gives a Trigger to the [[Antagonize | Antagonize (You)]], so the trigger only works on the [[Antagonize]] Action that targets you.
