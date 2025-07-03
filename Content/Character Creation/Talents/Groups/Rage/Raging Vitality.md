@@ -16,7 +16,7 @@ ___
 <br>
 
 **System:**
-While you are [[Enraged]], you gain the [[Bolster]] Action and your [[Bolster]] Action gains the following Trigger:
+While you are [[Enraged]], you gain the [[Bolster]] Action. Additionally Your [[Bolster]] Action gains the following Trigger:
 
 <br>
 
