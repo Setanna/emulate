@@ -14,5 +14,9 @@ ___
 <br>
 
 **System:**
-Whenever you Roll for Initiative and you are not [[Surprised]], you can take the [[Antagonize]] Action as a free action. You must chose yourself as the [[Antagonize]] Target.
+Your [[Antagonize]] Action gain the following trigger:
+
+<br>
+
+**Trigger:** Whenever you Roll for Initiative and you are not [[Surprised]]. You must choose yourself as the [[Antagonize]] Target.
 
