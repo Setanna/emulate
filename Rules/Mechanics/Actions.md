@@ -11,6 +11,9 @@ Whenever you would gain an Action, you simply gain acces to use the given Action
 #### Gaining Multiple actions
 If you would ever gain the same Action twice from different Talents or similar. They grant the same action, and any benefits or penalties applied to the Actions is applied to that one Action.
 
+### Reaction Triggers
+When a Reaction has a Trigger, it can only be used when the trigger is met. The Reaction is used at the same time as whatever triggered it.
+
 ### Action Triggers
 When an Action has a Trigger, it can be used as a Free Action whenever the listed condiiton is met. The Action is used at the same time as whatever triggered it.
 
