@@ -15,10 +15,10 @@ If you would ever gain the same Action twice from different Talents or similar. 
 When a Reaction has a Trigger, it can only be used when the trigger is met. The Reaction is used at the same time as whatever triggered it.
 
 ### Action Triggers
-When an Action has a Trigger, it can be used as a Free Action whenever the listed condiiton is met. The Action is used at the same time as whatever triggered it.
+When an Action has a Trigger, it can be used as a Free Action whenever the listed condition is met. The Action is used at the same time as whatever triggered it.
 
-#### Trigger Traits
-Some Triggers have Traits in their paranthesis. These Traits are applied to the Action and any conditions of the Traits must be met before the Trigger can be used.
+### Trigger Traits
+Some Triggers have Traits in their parenthesis. These Traits are applied to the Action and any conditions of the Traits must be met before the Trigger can be used.
 
 ### Action Targets
-Sometimes you gain an Action, or are allowed to take an Action with a paranthesis. The paranthesis defines the target that must be chosen for the Action. An example is the [[All Eyes On Me]] Talent, which gives a Trigger to the [[Antagonize | Antagonize (You)]], so the trigger only works on the [[Antagonize]] Action that targets you.
+Sometimes you gain an Action, or are allowed to take an Action with a parenthesis. The parenthesis defines the target that must be chosen for the Action. An example is the [[All Eyes On Me]] Talent, which gives a Trigger to the [[Antagonize | Antagonize (You)]], so the trigger only works on the [[Antagonize]] Action that targets you.
