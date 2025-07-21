@@ -3,11 +3,11 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Resonants <span style="margin-left: auto;">2 XP</span> </h1>
-
-[[Humanoid]]{.trait}
+<h1> Resonants </h1>
 
 [[Ageless]]{.trait}
+
+[[Aspect]]{.trait}
 
 <div style="clear:both" /> 
 
@@ -26,11 +26,9 @@ Resonants mimic the characteristics of the race that spawned them.
 <br>
 
 **System:**
-Choose any race and a single emotion from the following list:
+Choose an emotion, you gain all the benefits of the emotion:
 - [[Anger]]
 - [[Work In Progress/Joen/Character Creation/Races/Resonants/Pain | Pain]]
 - [[Joy]]
 
-<br>
-
-Increase the cost of this Race by an amount equal to the chosen race.
+Additionally you gain the [[Emotionless]] Trait, you can however still be effected by 

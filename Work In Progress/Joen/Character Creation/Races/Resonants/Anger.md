@@ -19,4 +19,4 @@ interrogators
 <br>
 
 **System:**
-Anger Resonants gain the [[Content/Actions/Talent Actions/Rage | Rage]] Action. 
+Anger Resonants gain the [[Content/Actions/Talent Actions/Rage | Rage]] Action and can use the action without meeting it's requirements.
