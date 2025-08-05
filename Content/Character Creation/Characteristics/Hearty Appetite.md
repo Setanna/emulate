@@ -5,7 +5,7 @@ cssclass: pathfinder
 
 <h1> Hearty Appetite <span style="margin-left: auto;"> 4 XP </span> </h1>
 
-[[Emotion]]{.trait}
+[[Emotion | Emotion (Joy)]]{.trait}
 
 [[Merit]]{.trait}
  
@@ -18,4 +18,4 @@ ___
 
 **System:**
 Increase your weight by 10%.
-Additionally whenever you would eat more than your required food on a day, you gain a +1 [[Rules/Bonuses and Penalties/Morale | Morale]] Bonus to your Constitution until the start of your next [[Resting | Preparation]]. 
+Additionally, the first time you would eat more than your required food on a day, you gain a +1 [[Rules/Bonuses and Penalties/Morale | Morale]] Bonus to your Constitution until the end of your next [[Resting | Preparation]]. 
