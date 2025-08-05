@@ -46,7 +46,7 @@ ___
 | Ability Scores                                  | +4  |
 | Proficiencies                                   | +6  |
 | [[Vision#Low-Light Vision \| Low-Light Vision]] | +2  |
-| [[Natural Armor]]                               | +4  |
+| [[Natural Armor \| Natural Armor (2)]]          | +4  |
 | [[Natural Attack \| Claw (1d6, Light)]]         | +6  |
 | [[Natural Attack \| Bite (1d8)]]                | +6  |
 | Total                                           | 42  |
