@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 
-<h1> Antagonize <span style="margin-left: auto;"> 1 Actions </span> </h1>
+<h1> Antagonize <span style="margin-left: auto;"> 1 Second </span> </h1>
 
 [[Emotion | Emotion (Anger)]]{.trait}
 

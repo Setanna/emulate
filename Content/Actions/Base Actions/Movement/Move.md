@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Move <span style="margin-left: auto;">2 Actions</span> </h1>
+<h1> Move <span style="margin-left: auto;">2 Seconds </span> </h1>
 
 [[Movement]]{.trait}
 

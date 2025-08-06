@@ -21,7 +21,7 @@ ___
 
 <div> 
 	<div style="display:inline-block; float: left;"> 
-		<b>Actions:</b> 2
+		<b>Seconds:</b> 2
 		<br>
 		<b>Range:</b> Touch 
 		<br>

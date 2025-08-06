@@ -6,7 +6,7 @@ cssclass: pathfinder
 # Actions
 
 ### Gaining Actions
-Whenever you would gain an Action, you simply gain acces to use the given Action. If you gain an Action only when a conditon is met, you do not lose any benefits or penalties the Action granted even if the condition is no longer met, you only lose the ability to use the Action.
+Whenever you would gain an Action, you simply gain access to use the given Action. If you gain an Action only when a condition is met, you do not lose any benefits or penalties the Action granted even if the condition is no longer met, you only lose the ability to use the Action.
 
 #### Gaining Multiple actions
 If you would ever gain the same Action twice from different Talents or similar. They grant the same action, and any benefits or penalties applied to the Actions is applied to that one Action.

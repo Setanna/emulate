@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 
-<h1> Intercepting Step <span style="margin-left: auto;"> Reaction </span> </h1>
+<h1> Intercepting Step <span style="margin-left: auto;"> Split Second </span> </h1>
 
 [[Defence]]{.trait}
 

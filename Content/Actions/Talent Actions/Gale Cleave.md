@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Gale Cleave <span style="margin-left: auto;">4 Actions</span> </h1>
+<h1> Gale Cleave <span style="margin-left: auto;">4 Seconds </span> </h1>
 
 [[Offence]]{.trait}
 

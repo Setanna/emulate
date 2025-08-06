@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Attack of Opportunity <span style="margin-left: auto;">Reaction</span> </h1>
+<h1> Attack of Opportunity <span style="margin-left: auto;">Split Second</span> </h1>
 
 [[Rules/Traits/Attack | Attack]]{.trait}
 

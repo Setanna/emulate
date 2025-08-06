@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 
-<h1> Swift Grip <span style="margin-left: auto;"> Reaction </span> </h1>
+<h1> Swift Grip <span style="margin-left: auto;"> Split Second </span> </h1>
 
 [[Skill | Skill (Climb)]]{.trait}
 

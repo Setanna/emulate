@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Leap <span style="margin-left: auto;">1-3 Actions</span> </h1>
+<h1> Leap <span style="margin-left: auto;">1-3 Seconds </span> </h1>
 
 [[Movement]]{.trait}
 
@@ -16,13 +16,13 @@ When leaping you can choose to do a Standing Leap or Running Leap. The height of
 
 <br>
 
-**Standing Leap (1 Action):**
+**Standing Leap (1 Second):**
 With a Standing Leap you can move a number of metres equal to your Strength to a minimum of 1 meter.
 
 <br>
 
-**Running Leap (3 Actions):**
-You move up to your speed in a straight line and at the end of the movement you jump a number of meters equal to your strength + half the number of meters moved.
+**Running Leap (3 Seconds):**
+You move up to your speed in a straight line and at the end of the movement you jump a number of meters equal to your Strength + half the number of meters moved.
 
 <br>
 

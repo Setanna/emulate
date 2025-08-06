@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 
-<h1> Climb <span style="margin-left: auto;"> 3 Actions </span> </h1>
+<h1> Climb <span style="margin-left: auto;"> 3 Seconds </span> </h1>
 
 [[Skill | Skill (Climb)]]{.trait}
 

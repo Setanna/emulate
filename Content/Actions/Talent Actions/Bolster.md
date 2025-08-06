@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 
-<h1> Bolster <span style="margin-left: auto;"> 1 Action </span> </h1>
+<h1> Bolster <span style="margin-left: auto;"> 1 Second </span> </h1>
 
 [[Defence]]{.trait}
 

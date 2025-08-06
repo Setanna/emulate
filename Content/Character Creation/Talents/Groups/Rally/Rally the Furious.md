@@ -9,7 +9,7 @@ cssclass: pathfinder
 
 **Requirements:** [[Content/Actions/Talent Actions/Rally | Rally]]
 ___
-*Some lead with wisdom and age. You lead with fire and steel*
+*Some lead with Wisdom and age. You lead with fire and steel*
 
 <br>
 

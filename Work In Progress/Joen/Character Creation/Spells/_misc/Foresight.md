@@ -19,7 +19,7 @@ ___
 
 <div> 
 	<div style="display:inline-block; float: left;"> 
-		<b>Actions:</b> Reaction
+		<b>Seconds:</b> Split Second
 		<br>
 		<b>Range:</b> Personal
 		<br>
@@ -43,4 +43,4 @@ ___
 Unravelling the tapestry of time, you align its threads to ensure your safe passage. You can use your Spellcasting Modifier on your Reflex and Hit Class instead of Dexterity against the attack or Saving Throw. 
 
 ## Uppercasting
-For one Action and one Spell Point you can increase the duration of the spell to until the end of the encounter. For 5 actions and 3 Spell Points you can increase the duration of the spell until next preparation.
+For one Second and one Spell Point you can increase the duration of the spell to until the end of the encounter. For 5 actions and 3 Spell Points you can increase the duration of the spell until next preparation.

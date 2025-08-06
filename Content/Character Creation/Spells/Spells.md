@@ -14,8 +14,8 @@ A Spell is made up of 6 attributes:
 ### Level
 The level of a spell determines how many Spell Points is needed to cast it. Some spells have a Level of 0 meaning they cost nothing to cast, but they can be uppercasted, meaning a Spell Point can be spend to increase the effect of the spell.
 
-### Actions
-How many actions it takes to cast a spell.
+### Seconds
+How many Seconds it takes to cast a spell.
 
 ### Area
 The Area of a spell can be any of the following:

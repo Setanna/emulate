@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-Whenever you would move at least 5 meters in a straight line before making a Melee [[Making an Attack | Attack]]. If you hit the Attack, you can also target the creature with a [[Shove]] Maneuver as a Free Action.
+Whenever you would move at least 5 meters in a straight line before making a Melee [[Making an Attack | Attack]]. If you hit the Attack, you can also target the creature with a [[Shove]] Maneuver.

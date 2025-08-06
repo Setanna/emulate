@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Scour the Pages <span style="margin-left: auto;">2 Action</span> </h1>
+<h1> Scour the Pages <span style="margin-left: auto;">2 Seconds</span> </h1>
 
 [[Rules/Traits/Item|Item]]{.trait}
 

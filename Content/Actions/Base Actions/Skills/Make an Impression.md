@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 
-<h1> Make an Impression <span style="margin-left: auto;"> 4 Actions </span> </h1>
+<h1> Make an Impression <span style="margin-left: auto;"> 4 Seconds </span> </h1>
 
 [[Skill | Skill (Diplomacy or Survival)]]{.trait}
 

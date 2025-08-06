@@ -8,4 +8,4 @@ Weapons with the Heavy Trait are unwieldy and powerful. Heavy Weapons increase t
 
 <br>
 
-Additionally when using Heavy Weapons for the [[Rules/Traits/Attack | Attack]] Action, the Action Cost is increased by one and the Action gains the [[Reckless]] Trait.
+Additionally when using Heavy Weapons for the [[Rules/Traits/Attack | Attack]] Action, the cost is increased by one second and the Action gains the [[Reckless]] Trait.

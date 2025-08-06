@@ -21,7 +21,7 @@ ___
 
 <div> 
 	<div style="display:inline-block; float: left;"> 
-		<b>Actions:</b> 5 actions
+		<b>Seconds:</b> 5 actions
 		<br>
 		<b>Range:</b> Long Range
 		<br>

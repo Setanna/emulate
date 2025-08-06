@@ -24,7 +24,7 @@ ___
 
 <div> 
 	<div style="display:inline-block; float: left;"> 
-		<b>Actions:</b> Reaction
+		<b>Seconds:</b> Split Second
 		<br>
 		<b>Range:</b> Short Range
 		<br>
@@ -53,7 +53,7 @@ The corpse makes one of the triggered Actions. The corpse treats all your allies
 
 <br>
 
-Alternatively, the spell can be used for 2 Actions to force a corpse to make a [[Making an Attack | Attack]] Attack against a creature within reach or range.
+Alternatively, the spell can be used for 2 Seconds to force a corpse to make a [[Making an Attack | Attack]] Attack against a creature within reach or range.
 
 <br>
 

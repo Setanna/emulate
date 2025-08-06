@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 
-<h1> Anticipate <span style="margin-left: auto;"> 1 Action </span> </h1>
+<h1> Anticipate <span style="margin-left: auto;"> 1 Second </span> </h1>
 
 [[Timed]]{.trait}
 
@@ -13,7 +13,7 @@ cssclass: pathfinder
 ___
 
 **System:**
-You prepare for the worst. Choose any Reaction or Action with an Action Cost of 1 or less. You gain an additional reaction for 1 round that can only be used on the chosen Reaction or Action.
+You prepare for the worst. Choose any Reaction or Action with a Cost of 1 Second or less. You gain an additional Split Second for 1 round that can only be used on the chosen Reaction or Action.
 
 <br>
 

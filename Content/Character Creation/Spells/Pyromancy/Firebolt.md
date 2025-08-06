@@ -25,7 +25,7 @@ ___
 
 <div> 
 	<div style="display:inline-block; float: left;"> 
-		<b>Actions:</b> 3
+		<b>Seconds:</b> 3
 		<br>
 		<b>Range:</b> Medium Range
 		<br>

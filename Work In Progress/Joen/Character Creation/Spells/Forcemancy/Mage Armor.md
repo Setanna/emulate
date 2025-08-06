@@ -21,7 +21,7 @@ ___
 
 <div> 
 	<div style="display:inline-block; float: left;"> 
-		<b>Actions:</b> 5
+		<b>Seconds:</b> 5
 		<br>
 		<b>Range:</b> Personal
 		<br>

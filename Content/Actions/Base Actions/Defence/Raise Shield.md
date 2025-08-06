@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 
-<h1> Raise Shield <span style="margin-left: auto;"> Reaction </span> </h1>
+<h1> Raise Shield <span style="margin-left: auto;"> Split Second </span> </h1>
 
 [[Defence]]{.trait}
 
@@ -24,7 +24,7 @@ When Raising a Shield for your ally, the effect lasts until they leave your reac
 
 <br>
 
-Alternatively you can use an Action on your own turn instead of a Reaction.
+Alternatively you can use an Second on your own turn instead of a Split Second.
 
 
 

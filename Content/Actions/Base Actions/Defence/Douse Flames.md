@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 
-<h1> Douse Flames <span style="margin-left: auto;"> Any number of Actions </span> </h1>
+<h1> Douse Flames <span style="margin-left: auto;"> Any number of Seconds </span> </h1>
 
 [[Defence]]{.trait}
 
@@ -15,7 +15,7 @@ cssclass: pathfinder
 ___
 
 **System:**
-You quickly douse the flames on your body. For each action spent, reduce the Fire Damage Die by one step. If using two hands reduce the Fire Damage Die by two steps for each action spent.
+You quickly douse the flames on your body. For each second spent, reduce the Fire Damage Die by one step. If using two hands reduce the Fire Damage Die by two steps for each second spent.
 
 <br>
 

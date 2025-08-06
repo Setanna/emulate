@@ -22,7 +22,7 @@ ___
 
 <div> 
 	<div style="display:inline-block; float: left;"> 
-		<b>Actions:</b> 3 Actions
+		<b>Seconds:</b> 3
 		<br>
 		<b>Range:</b> Touch
 		<br>

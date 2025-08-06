@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-You choose a spell to cast and spend the specified actions. This actions gains any traits of the spell.
+You choose a spell to cast and spend the specified Seconds. This Action gains any traits of the spell.

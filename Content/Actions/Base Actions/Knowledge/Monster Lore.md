@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Monster Lore <span style="margin-left: auto;">1 Action</span> </h1>
+<h1> Monster Lore <span style="margin-left: auto;">1 Second</span> </h1>
 
 [[Focus]]{.trait}
 

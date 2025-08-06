@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Titan's Stride <span style="margin-left: auto;">1 Action</span> </h1>
+<h1> Titan's Stride <span style="margin-left: auto;">1 Second </span> </h1>
 
 [[Movement]]{.trait}
 
@@ -20,5 +20,5 @@ You lift an object or willing creature weighing greater than your [[Stats#Physic
 
 <br>
 
-You can only use a single action to put down the object or take the [[Step]] Action. Taking the [[Step]] Action in this way it provokes attack of opportunity. Additionally, when you take this Action or any [[Step]] Action while using this action, you gain the [[Fatigued | Fatigued 1]] Condition.
+You can only use a single Second to put down the object or take the [[Step]] Action. Taking the [[Step]] Action in this way it provokes attack of opportunity. Additionally, when you take this Action or any [[Step]] Action while using this Action, you gain the [[Fatigued | Fatigued 1]] Condition.
 

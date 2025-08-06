@@ -21,7 +21,7 @@ ___
 
 <div> 
 	<div style="display:inline-block; float: left;"> 
-		<b>Actions:</b> Reaction
+		<b>Seconds:</b> Split Second
 		<br>
 		<b>Range:</b> Personal
 		<br>

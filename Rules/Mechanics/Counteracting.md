@@ -7,7 +7,7 @@ cssclass: pathfinder
 In the system of Emulate, several effects and conditions can come to clash. Counteracting is the rules for how to handle one effect overpowering the other.
 
 ## Counteracting Actions
-When an Action is counteracted, all actions spent on it are lost and the action has no effect as if it had never been used.
+When an Action is counteracted, all Seconds spent on it are lost and the Action has no effect as if it had never been used.
 
 ## Counteracting Conditions
 Conditions have two different values, a static value or a die value.

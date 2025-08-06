@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 
-<h1> From Cover to Cover <span style="margin-left: auto;"> 3 Actions </span> </h1>
+<h1> From Cover to Cover <span style="margin-left: auto;"> 3 Seconds </span> </h1>
 
 [[Movement]]{.trait}
 

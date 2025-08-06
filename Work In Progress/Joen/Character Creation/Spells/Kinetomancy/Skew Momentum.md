@@ -16,7 +16,7 @@ ___
 
 <div> 
 	<div style="display:inline-block; float: left;"> 
-		<b>Actions:</b> Reaction
+		<b>Seconds:</b> Split Second
 		<br>
 		<b>Range:</b> Short Range
 		<br>
@@ -39,4 +39,4 @@ You add or subtract your Spell Stat to the number of metres they have moved for 
 
 <br>
 
-You can use this spell for an Action on your turn, and the next time the target creature would [[Falling | Fall]] or take a [[Momentum]] Action, they gain the benefits of this spell. The Spells duration is changed to 1 round.
+You can use this spell for a Second on your turn, and the next time the target creature would [[Falling | Fall]] or take a [[Momentum]] Action, they gain the benefits of this spell. The Spells duration is changed to 1 round.

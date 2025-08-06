@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Help <span style="margin-left: auto;"> Any Actions</span> </h1>
+<h1> Help <span style="margin-left: auto;"> Any Number of Seconds</span> </h1>
 
 <div style="clear:both" /> 
 
@@ -12,7 +12,7 @@ ___
 <br>
 
 **System:**
-You help another creature with a Skill Roll. You Roll the same Skill Roll, with the same actions; requirements; bonuses; and penalties. You grant the other creature a bonus depending on your success:
+You help another creature with a Skill Roll. You Roll the same Skill Roll, with the same Seconds spend; requirements; bonuses; and penalties. You grant the other creature a bonus depending on your success:
 
 <br>
 

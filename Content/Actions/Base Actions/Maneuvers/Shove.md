@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Shove <span style="margin-left: auto;"> 2 Actions </span> </h1>
+<h1> Shove <span style="margin-left: auto;"> Seconds </span> </h1>
 
 [[Maneuver]]{.trait}
 

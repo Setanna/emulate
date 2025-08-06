@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Ram <span style="margin-left: auto;"> 2 Actions </span> </h1>
+<h1> Ram <span style="margin-left: auto;"> 2 Seconds </span> </h1>
 
 [[Maneuver]]{.trait}
 
@@ -24,5 +24,7 @@ You move up to twice your speed and ram yourself into a creature. You Roll [[Ath
 **Success:** You move the creature 1 meter. 
 **Failure:** You stop in front of the creature.
 **Critical Failure:** You stop in front of the creature and gain the [[Prone]] Condition.
+
+<br>
 
 Additionally for each +1 [[Circumstance]] Bonus gained from the [[Momentum]] Trait, move the creature an additional meter.

@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 
-<h1> Hide <span style="margin-left: auto;"> Reaction </span> </h1>
+<h1> Hide <span style="margin-left: auto;"> Split Second </span> </h1>
 
 [[Skill | Skill (Stealth)]]{.trait}
 
@@ -14,7 +14,7 @@ cssclass: pathfinder
 ___
 
 **System:**
-You Roll a [[Stealth]] Roll against all surrounding creatures [[Perception]] DC. Any Perception Modifiers such as range or closed doors reduce the [[Perception]] DC by their respective amount. Alternatively one can use the Hide Action as a single action without the Trigger instead of reaction.
+You Roll a [[Stealth]] Roll against all surrounding creatures [[Perception]] DC. Any Perception Modifiers such as range or closed doors reduce the [[Perception]] DC by their respective amount. Alternatively one can use the Hide Action without the Trigger, by expending 1 Second instead.
 
 <br>
 
