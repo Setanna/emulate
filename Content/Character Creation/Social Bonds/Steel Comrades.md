@@ -7,8 +7,6 @@ cssclass: pathfinder
 
 [[Bonded]]{.trait}
 
-[[Social]]{.trait}
-
 <div style="clear:both" /> 
 
 ___
