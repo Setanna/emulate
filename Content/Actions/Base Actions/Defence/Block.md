@@ -16,5 +16,5 @@ cssclass: pathfinder
 ___
 
 **System:**
-You raise your shield and double its Shield Value against the Triggering Action. 
-If you Blocked for you ally, you lose your Shield Value and they instead gain the Doubled Shield Value against the Triggering Action instead.
+You raise your shield and double its Shield and [[Bulwark]] Value against the Triggering Action. 
+If you Blocked for you ally, you lose your Shield Value and they instead gain the Doubled Shield and [[Bulwark]] Value against the Triggering Action instead.
