@@ -1,0 +1,23 @@
+---
+tags: []
+cssclass: pathfinder
+---
+
+# Taking an Action
+Actions is how you in Emulate interact with the world.
+
+### 1. Chose the Action and the Targets
+Select the Action you want to take and declare any necessary targets. If the Action has a target listed in parentheses (*Antagonize (You)*), it must target a creature that fits the listed condition.
+
+### 2. Determine Triggers
+Any Creature that can [[Perception | see]] or [[Perception | hear]] you take your Action, can use any Reaction or Action whose Trigger is met.
+
+### 2.1 Resolve Any Triggered Actions
+Resolve any Triggered Actions before continuing with your declared Action.
+
+### 3. Resolve Action
+You Roll for you action, if any Roll is involved, and resolve the action.
+
+### 4. Expend Seconds
+You expend the number of Seconds the Action cost.
+
