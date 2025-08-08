@@ -20,7 +20,7 @@ ___
 <br>
 
 **System:**
-Whenever you take the [[Move]] Action, you can spend an additional Second. If you do, declare a path up to your full [[Move]] distance. Roll Intimidation against the Passive Will Save of each Creature who blocks your path.
+Whenever you take the [[Move]] Action, you can spend an additional Second. If you do, declare a path up to your full [[Move]] distance. Roll Intimidation against the Will Save DC of each Creature who blocks your path.
 
 <br>
 
