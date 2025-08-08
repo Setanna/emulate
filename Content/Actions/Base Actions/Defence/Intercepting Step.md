@@ -11,7 +11,7 @@ cssclass: pathfinder
  
 <div style="clear:both" />
 
-**Trigger:** An ally is the target of a Charge Action; Ranged Attack; or Makes a Saving Throw from a source with the [[Blast]] Trait.
+**Trigger:** An ally is the target of a Charge Action; Ranged Attack; or Action with the [[Blast]] Trait.
 ___
 
 **System:**
