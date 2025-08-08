@@ -7,7 +7,7 @@ cssclass: pathfinder
 In Emulate many things can multiply your effect or similar.
 
 # Division
-In EMulate many things can reduce your effects or similar by dividing it. If you would ever divide a number, always round up.
+In Emulate many things can reduce your effects or similar by dividing it. If you would ever divide a number, always round up.
 
 > **Example**
 > If you have an Armor Value of 4
