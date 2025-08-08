@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Multiattack <span style="margin-left: auto;">2 Seconds</span> </h1>
+<h1> Multiattack <span style="margin-left: auto;">3 Seconds</span> </h1>
 
 [[Rules/Traits/Attack | Attack]]{.trait}
 
@@ -12,5 +12,9 @@ cssclass: pathfinder
 ___
 
 **System:**
-You make the [[Content/Actions/Base Actions/Attacks/Attack| Attack]] Action with each weapon you are wielding. For each weapon you take the [[Content/Actions/Base Actions/Attacks/Attack| Attack]] Action with after the first, increase this Action time by one second. Heavy Weapons increase the Action time by two seconds and Light Weapons don't increase the Action time. All Attack Rolls made using Attack Actions from this Action, take a -4 [[Circumstance]] Penalty.
+You make an [[Making an Attack | Attack]] with each weapon you are wielding. When making [[Making an Attack | Attacks]] with this Action, all Attack Rolls suffer a -4 [[Circumstance]] Penalty.
+
+<br>
+
+The [[Light]] or [[Heavy]] Traits can never reduce or increase this Action's Cost below 1 Second or higher than 5 Seconds. 
 
