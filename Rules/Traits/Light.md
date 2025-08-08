@@ -8,4 +8,4 @@ Weapons with the Light Trait can easily be dual wielded or thrown. Light Weapons
 
 <br>
 
-Additionally when using Light Weapons for any Action with the [[Attack]] Triat, the cost is reduced by one Second and the Action gains the [[Precise]] Trait.
+Additionally when using Light Weapons for any Action with the [[Attack]] Trait, the cost is reduced by one Second and the Action gains the [[Precise]] Trait.
