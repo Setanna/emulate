@@ -7,7 +7,7 @@ cssclass: pathfinder
 Difficulty Check, typically shortened as DC, are often what is rolled against to determine success. Difficulty Class determines how hard a task is.
 
 ### Dynamic Difficulty Classes
-Some Actions or Talents use Skills to determine Difficulty Classes. To determine such a Difficulty Class, simply add 10 to the Skill.
+Some Actions or Talents use Saves, Skills or Stats to determine Difficulty Classes. To determine such a Difficulty Class, simply add 10 to the Save, Skill or Stat.
 
 <br>
 
