@@ -10,12 +10,12 @@ cssclass: pathfinder
 
 <div style="clear:both" />
 
-**Requirement:** You or your ally is on [[Fire]]; You have a hand free.
+**Requirement:** You or your ally within reach is on [[Burning]]; You have a hand free.
 
 ___
 
 **System:**
-You quickly douse the flames on your body. For each second spent, reduce the Fire Damage Die by one step. If using two hands reduce the Fire Damage Die by two steps for each second spent.
+You quickly douse the flames on your body. For each Second spent, reduce the Fire Damage Die by one step. If using two hands reduce the Fire Damage Die by two steps for each Second spent.
 
 <br>
 
