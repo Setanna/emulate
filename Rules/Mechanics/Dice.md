@@ -7,10 +7,10 @@ cssclass: pathfinder
 The system of Emulate runs on dice, as  such there are 2 types of dice; Result and Effect Dice.
 
 ## Result Dice
-Result Dice are d20'es used to determine the success of tasks and actions on a Critical Failure, Failure, Success and Critical Success basis.
+Attack Rolls, Saving Throws and Skill Checks all use Result Dice. Result Dice are d20'es used to determine the success of Actions on a Critical Failure, Failure, Success and Critical Success basis.
 
 ## Effect Dice
-Effect Dice are a varied group of Dice used to determine the effects of an Action, Task and the Damage of weapons or spells. The Dice are made of up of 6 dice: d2 -> d4 -> d6 -> d8 -> d10 -> d12. 
+Damage Rolls or Condition Rolls are all Effect Dice. Effect Dice are a varied group of Dice used to determine the effects of an Action or the Damage of weapons or spells. The Dice are made of up of 6 dice: d2 -> d4 -> d6 -> d8 -> d10 -> d12. 
 
 ### Increasing or Reducing an Effect Die
 When increasing or Reducing an Effect Die, it is moved up or down one step: A d8 would be increased by one step to a d10, or reduced by one step to a d6.
