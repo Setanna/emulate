@@ -14,7 +14,7 @@ cssclass: pathfinder
 
 <div style="clear:both" />
 
-**Trigger:**  You or your ally is the target of a Melee Weapon Attack.
+**Trigger:**  You or your ally within reach is the target of an Action with the [[Attack]] and [[Melee]] Traits.
 ___
 
 **System:**
