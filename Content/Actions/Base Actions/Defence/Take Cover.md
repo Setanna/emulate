@@ -10,7 +10,7 @@ cssclass: pathfinder
 
 <div style="clear:both" />
 
-**Trigger:**  You are the target of a attack; or a source with the [[Blast]] Trait
+**Trigger:**  You are the target of an Action with the [[Attack]] or [[Blast]] Trait.
 ___
 
 **System:**
