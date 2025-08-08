@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Shove <span style="margin-left: auto;"> Seconds </span> </h1>
+<h1> Shove <span style="margin-left: auto;"> 2 Seconds </span> </h1>
 
 [[Maneuver]]{.trait}
 
@@ -12,7 +12,7 @@ cssclass: pathfinder
 ___
 
 **System:**
-You Roll Athletics against target creatures [[Athletics]] or [[Acrobatics]] DC, whichever is higher. You move with the creature you shove, up to your speed.
+You Roll Athletics against target Creature's [[Athletics]] or [[Acrobatics]] DC, whichever is higher. You may move with the creature you shove, up to your speed.
 
 <br>
 
