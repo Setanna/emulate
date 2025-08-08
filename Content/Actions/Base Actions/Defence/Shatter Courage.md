@@ -14,7 +14,7 @@ cssclass: pathfinder
 
 <div style="clear:both" />
 
-**Trigger:** You are the target of an Attack by a creature with the [[Frightened]] condition.
+**Trigger:** You are the target of an Action with the [[Attack]] Trait by a [[Frightened]] Creature.
 ___
 
 
