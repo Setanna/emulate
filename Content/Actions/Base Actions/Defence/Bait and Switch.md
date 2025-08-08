@@ -12,7 +12,7 @@ cssclass: pathfinder
 
 <div style="clear:both" />
 
-**Trigger:** You are the target of an Attack.
+**Trigger:** You are the target of an Action with the [[Attack]] Trait.
 ___
 
 **System:**
