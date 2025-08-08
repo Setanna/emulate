@@ -18,7 +18,7 @@ ___
 ___
 
 **Hit Class:** 12
-**Armor Value:** 3
+**Armor Value:** 3 ([[Content/Gear/Armor and Shields/Armor/Armor | Gambeson]])
 **Hit Points:** 9 (1d8 + 1)
 **Fort:** +1, **Ref:** +2, **Will:** +2
 
@@ -48,6 +48,5 @@ The Arbalest tends to stick to the backlines, picking off high priority targets 
 | [[Race#Movement \| 5 Movement Speed]] |  0  |
 | Ability Scores                        | +7  |
 | Proficiencies                         | +2  |
-| [[Commoner \| Commoner Background]]   |  0  |
 | Gear Cost                             | +1  |
 | Total                                 | 10  |
