@@ -21,4 +21,4 @@ ___
 <br>
 
 **System:**
-All your Melee Weapons that deal Slashing Damage gain the [[Rules/Traits/Reach|Reach]] Trait with a value equal to your Strength.
+You suffer no [[Circumstance]] Penalty from [[Content/Character Creation/Talents/Stance/Wind Stance/Windslash | Windslash]].
