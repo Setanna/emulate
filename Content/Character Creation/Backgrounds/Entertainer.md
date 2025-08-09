@@ -9,6 +9,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
+**Requirement:** Charisma 1+
 ___
 *Singing songs and writing tales.*
 

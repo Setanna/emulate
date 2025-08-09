@@ -9,7 +9,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** Intelligence 1
+**Requirements:** Intelligence 1+
 ___
 *Where others see rubble, you see opportunity.*
 

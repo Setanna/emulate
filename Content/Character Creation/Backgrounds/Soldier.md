@@ -9,7 +9,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** Strength 1; Constitution 1
+**Requirements:** Strength 1+; Constitution 1+
 ___
 *You've earnt a living fighting in wars.*
 
