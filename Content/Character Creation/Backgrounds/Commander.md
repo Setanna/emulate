@@ -9,6 +9,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
+**Requirements:** Charisma 1+
 ___
 *The enemy in front of you, your troops behind you. *
 
