@@ -19,21 +19,21 @@ ___
 
 ___
 
-**Hit Class:** 5
+**Hit Class:** 3
 **Armor Value:** 11  ([[Size \| Gargantuan]] creatures take 8 less damage from everything)
 **Hit Points:** 16 (1d12 + 4)
-**Fort:** +4, **Ref:** +3, **Will:** +5
+**Fort:** +4, **Ref:** +1, **Will:** +5
 
 ___
 
 **Speed:** 8 meters
-**Melee:** Greatsword ([[Heavy]], [[Versatile \| Versatile (p)]]): -1 to Hit; 1d10 + 12 Slashing.
+**Melee:** Greatsword ([[Heavy]], [[Versatile \| Versatile (p)]]): -1 to Hit; 1d10 + 16 Slashing.
 **Space:** 4 meters.; **Reach:** 3 meters
 
 
 ___
 
-**Str** +4, **Dex** +3, **Con** +4, **Int** +1, **Wis** +5, **Cha** +4
+**Str** +4, **Dex** +1, **Con** +4, **Int** +1, **Wis** +5, **Cha** +4
 **Skills:** Perception +7, Intimidation +6
 **Languages** Common
 
