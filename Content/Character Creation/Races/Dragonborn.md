@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Dragonborn <span style="margin-left: auto;">16 XP</span> </h1>
+<h1> Dragonborn <span style="margin-left: auto;">17 XP</span> </h1>
 
 [[Size | Medium]]{.size-trait}
 
@@ -43,8 +43,8 @@ Dragonborn start with [[Dragon Scales]], [[Intimidating]], [[Vision#Low-Light Vi
 | [[Race#Movement \| 6 Movement Speed]]               | +2  |
 | [[Intimidating]]                                    | +1  |
 | [[Dragon Scales]]                                   | +2  |
-| [[Rules/Stats and Skills/Proficiency\|Proficiency]] | +1  |
+| [[Rules/Stats and Skills/Proficiency\|Proficiency]] | +2  |
 | [[Vision#Low-Light Vision \| Low-Light Vision]]     | +2  |
-| Total                                               |  0  |
+| Total                                               | 17  |
 
 
