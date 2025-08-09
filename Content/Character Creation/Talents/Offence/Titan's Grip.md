@@ -16,6 +16,6 @@ ___
 <br>
 
 **System:**
-You don't incur a penalty for using [[Heavy]] Weapons with [[Multiattack]], and whenever you would use the [[Titan's Stride]] Action you can lift up to 4 times your [[Stats#Physical | Heavy Load]].
+You don't incur a penalty for using [[Heavy]] Weapons without wielding them in two hands, and whenever you would use the [[Titan's Stride]] Action you can lift up to 4 times your [[Stats#Physical | Heavy Load]].
 
 
