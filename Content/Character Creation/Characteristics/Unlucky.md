@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-You take a -3 [[Luck]] Penalty to your Hit Class; Difficulty Classes; all Rolls and all Damage Rolls.
+You increase the Penalty from [[Unfortunate]] to -3.

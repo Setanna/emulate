@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-You gain a +3 [[Luck]] Bonus to your Hit Class; Difficulty Classes; all Rolls and all Damage Rolls.
+You increase the Bonus from [[Fortunate]]  to +3.
