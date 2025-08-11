@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Fortunate <span style="margin-left: auto;">10 XP</span> </h1>
+<h1> Fortunate <span style="margin-left: auto;">15 XP</span> </h1>
 
 [[Merit]]{.trait}
 
@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-You gain a +1 [[Luck]] Bonus to your Hit Class; Difficulty Classes; all Rolls and all Damage Rolls.
+You gain a +1 [[Luck]] Bonus to your Hit Class; Attack Rolls, Saving Throws and Skill Checks.
