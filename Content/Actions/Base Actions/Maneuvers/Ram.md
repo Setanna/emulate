@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Ram <span style="margin-left: auto;"> 2 Seconds </span> </h1>
+<h1> Ram <span style="margin-left: auto;"> 4 Seconds </span> </h1>
 
 [[Maneuver]]{.trait}
 
