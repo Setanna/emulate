@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-You take a -1 [[Luck]] Penalty to your Hit Class; Difficulty Classes; all Rolls and all Damage Rolls.
+You take a -1 [[Luck]] Penalty to your Hit Class; Attack Rolls; Saving Throws; and Skill Checks.
