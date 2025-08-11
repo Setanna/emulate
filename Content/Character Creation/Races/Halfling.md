@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Halfling <span style="margin-left: auto;">19 XP</span> </h1>
+<h1> Halfling <span style="margin-left: auto;">37 XP</span> </h1>
 
 [[Size | Small]]{.size-trait}
 
@@ -16,7 +16,7 @@ cssclass: pathfinder
 ___
 
 **Hit Die:** d6
-**Ground Movement:** 5 meters
+**Ground Movement:** 4 meters
 
 ___
 
@@ -41,10 +41,10 @@ Halflings start with the [[Brave]], [[Fortunate]] and [[Lucky]] Characteristics.
 | ------------------------------------- |:---:|
 | [[Race#Hit Die \| d6]]                | -4  |
 | [[Race#Size  \| Small]]               | -4  |
-| [[Race#Movement \| 5 Movement Speed]] |  0  | 
+| [[Race#Movement \| 4 Movement Speed]] | -2  | 
 | [[Brave]]                             |  2  |
-| [[Fortunate]]                         | 10  |
-| [[Lucky]]                             | 15  |
-| Total                                 | 19  |
+| [[Fortunate]]                         | 15  |
+| [[Lucky]]                             | 30  |
+| Total                                 | 37  |
 
 
