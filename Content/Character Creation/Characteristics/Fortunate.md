@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-You gain a +1 [[Luck]] Bonus to your Hit Class; Attack Rolls, Saving Throws and Skill Checks.
+You gain a +1 [[Luck]] Bonus to your Hit Class; Attack Rolls; Saving Throws; and Skill Checks.
