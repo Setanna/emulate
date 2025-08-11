@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Attack <span style="margin-left: auto;">2 Seconds</span> </h1>
+<h1> Attack <span style="margin-left: auto;"> 3 Seconds </span> </h1>
 
 [[Rules/Traits/Attack | Attack]]{.trait}
 
