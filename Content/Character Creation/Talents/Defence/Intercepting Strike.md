@@ -18,4 +18,4 @@ ___
 
 **System:**
 
-You can use the [[Parry]] Reaction against Ranged Weapon Attacks.
+You can use the [[Parry]] Reaction against Ranged Attacks.
