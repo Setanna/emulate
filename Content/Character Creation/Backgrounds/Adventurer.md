@@ -3,14 +3,14 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Adventurer <span style="margin-left: auto;">2 XP</span> </h1>
+<h1> Adventurer <span style="margin-left: auto;"> 3 XP </span> </h1>
 
 [[Wealth]]{.trait}
 
 <div style="clear:both" /> 
 
 ___
-*You've earnt a living through quests and missions.*
+*You've earnt a living through quests and missions*
 
 <br>
 
