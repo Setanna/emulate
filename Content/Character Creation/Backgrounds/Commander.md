@@ -11,7 +11,7 @@ cssclass: pathfinder
 
 **Requirements:** Charisma 1+
 ___
-*The enemy in front of you, your troops behind you. *
+*The enemy in front of you, your troops behind you*
 
 <br>
 
