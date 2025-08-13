@@ -11,7 +11,7 @@ cssclass: pathfinder
 
 **Requirements:** You have no talents with the [[Wealth]] traits
 ___
-*You've lived moldy bread to rotten apples, doing whatever it takes to survive.*
+*You've lived moldy bread to rotten apples, doing whatever it takes to survive*
 
 <br>
 
