@@ -11,7 +11,7 @@ cssclass: pathfinder
 
 **Requirements:** Constitution 1+; Wisdom 1+
 ___
-*You've earnt a out at sea*
+*The deck beneath your feet, the wind at your back, and coin for the next port*
 
 <br>
 
