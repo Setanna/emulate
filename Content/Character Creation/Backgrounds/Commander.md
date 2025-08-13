@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Commander <span style="margin-left: auto;">4 XP</span> </h1>
+<h1> Commander <span style="margin-left: auto;"> 8 XP </span> </h1>
 
 [[Wealth]]{.trait}
 
