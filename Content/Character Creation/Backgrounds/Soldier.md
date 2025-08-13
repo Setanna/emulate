@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Soldier <span style="margin-left: auto;">2 XP</span> </h1>
+<h1> Soldier <span style="margin-left: auto;"> 3 XP </span> </h1>
 
 [[Wealth]]{.trait}
 
@@ -11,7 +11,7 @@ cssclass: pathfinder
 
 **Requirements:** Strength 1+; Constitution 1+
 ___
-*You've earnt a living fighting in wars.*
+*You've earnt a living fighting in wars*
 
 <br>
 
