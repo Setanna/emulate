@@ -19,4 +19,4 @@ ___
 <br>
 
 **System:**
-You start with 500 Copper Coins; a [[Content/Gear/Weapons/Weapons | Pickaxe]]; [[Clothes | Common Clothes]]; and gain a +1 Proficiency Bonus to damage rolls with a [[Content/Gear/Weapons/Weapons | Pickaxe]].
+You start with 500 Copper Coins; a [[Content/Gear/Weapons/Weapons | Pickaxe]]; and [[Clothes | Common Clothes]];
