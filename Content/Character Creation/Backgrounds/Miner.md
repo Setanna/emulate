@@ -14,7 +14,7 @@ cssclass: pathfinder
 **Requirements:** Strength 1+
 
 ___
-*You've spent more time in the mines than you have in a bed.*
+*You've spent more time in the mines than you have in a bed*
 
 <br>
 
