@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Elf <span style="margin-left: auto;"> 6 XP</span> </h1>
+<h1> Elf <span style="margin-left: auto;"> 7 XP </span> </h1>
 
 [[Size | Medium]]{.size-trait}
 
@@ -45,6 +45,6 @@ Elves start with [[Pretty]]; [[Beautiful]]; [[Calm]] and proficiency in [[Percep
 | [[Pretty]]                                            | +1  |
 | [[Beautiful]]                                         | +4  |
 | [[Calm]]                                              |  0  |
-| [[Rules/Stats and Skills/Proficiency \| Proficiency]] | +1  |
-| Total                                                 |  6  |
+| [[Rules/Stats and Skills/Proficiency \| Proficiency]] | +2  |
+| Total                                                 |  7  |
 
