@@ -14,7 +14,7 @@ ___
 <br>
 
 **System:**
-You gain the [[Unlucky]] Characteristic. 
+You gain the [[Unfortunate]] Characteristic. 
 
 <br>
 
