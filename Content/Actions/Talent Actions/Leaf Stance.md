@@ -13,7 +13,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** You wield no weapons or armor
+**Requirements:** You wield no Armor, Shields or Weapons
 
 ___
 *You kick off your foes like a leaf on the wind, flowing effortlessly from one to the next*
