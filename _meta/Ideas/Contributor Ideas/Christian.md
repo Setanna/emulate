@@ -10,3 +10,9 @@
 - Debuff (Slow)
 - Buff (Heal)
 - Monk dnd 5e and pathfinder 1e
+- [ ] Fatigued Build
+- Treat Fatigued as lower value (Maybe up to constitution?)
+- Increase Catch Your Breath Fatigued Reduction
+- Increase Strength, Temporary Hit Points or similar when Fatigued, preferably scaling.
+	- "I can do this all day" type shi
+- 
