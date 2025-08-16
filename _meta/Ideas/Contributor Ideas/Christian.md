@@ -6,3 +6,7 @@
 - Has been turned into a basic feature of the game at the cost of penalties
 - [x] Barbarian Rage on a Kill Theft
 - [[Glory Theft]]
+- [ ] Chi Manipulation
+- Debuff (Slow)
+- Buff (Heal)
+- Monk dnd 5e and pathfinder 1e
