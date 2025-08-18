@@ -12,4 +12,4 @@ cssclass: pathfinder
 ___
 
 **System:**
-You make an [[Making an Attack | Attack]]. Additionally you can add the [[Reckless]] or [[Precise]] Trait to this Action by spending an additional Second.
+You make an [[Making an Attack | Attack]]. By spending 1 additional Second, you can grant the [[Accurate]] or [[Daring]] trait to any Weapon used for the attack made as part of this Action only.
