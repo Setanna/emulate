@@ -7,8 +7,6 @@ cssclass: pathfinder
 
 [[Rules/Traits/Attack | Attack]]{.trait}
 
-[[Reckless]]{.trait}
-
 <div style="clear:both" /> 
 
 **Trigger:** A creature within your Reach does any of the following:
