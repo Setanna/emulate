@@ -13,7 +13,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** You wield no Armor, Shields or Weapons
+**Requirements:** You wield no Armor, Shields or Weapons; You are Light Load
 
 ___
 *You kick off your foes like a leaf on the wind, flowing effortlessly from one to the next*
@@ -25,4 +25,4 @@ Your [[Step]] Action gains the following trigger:
 
 <br>
 
-**Trigger:** Whenever you take the [[Attack]] Action.
+**Trigger:** After you take the [[Attack]] Action.
