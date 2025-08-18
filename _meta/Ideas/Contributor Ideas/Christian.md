@@ -15,4 +15,5 @@
 - Increase Catch Your Breath Fatigued Reduction
 - Increase Strength, Temporary Hit Points or similar when Fatigued, preferably scaling.
 	- "I can do this all day" type shi
-- 
+- [ ] Paladin Flight | Holy Wings
+- [ ] Mercies from Pathfinder 1e
