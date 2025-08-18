@@ -7,8 +7,6 @@ cssclass: pathfinder
 
 [[Rules/Traits/Attack | Attack]]{.trait}
 
-[[Reckless]]{.trait}
-
 [[Momentum]]{.trait}
 
 <div style="clear:both" /> 
