@@ -1,0 +1,26 @@
+---
+tags: []
+cssclass: pathfinder  
+---
+
+<h1> Conviction <span style="margin-left: auto;"> 4 XP </span> </h1>
+
+[[Arcane]]{.trait}
+
+[[Belief]]{.trait}
+
+<div style="clear:both" /> 
+
+**Requirements:** Charisma 1+
+___
+*Through unyielding resolve, you touch the edges of miracles*
+
+<br>
+
+**System:**
+Choose one of the following beliefs and this Talent and any Talent or Spell with this as a requirement, gain the relevant beleif trait:
+- Justice
+- Mercy
+- Courage
+
+You gain a number of Spell Points equal to your Charisma and regain any expended Spell Points at the end of a [[Resting | Long Rest]]; And you learn a number of spells equal to your Charisma, but the Spells must have Conviction as a Requirement.
