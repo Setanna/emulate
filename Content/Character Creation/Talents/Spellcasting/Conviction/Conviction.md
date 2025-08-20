@@ -18,7 +18,7 @@ ___
 <br>
 
 **System:**
-Choose one of the following beliefs and this Talent and any Talent or Spell with this as a requirement, gain the relevant beleif trait:
+Choose one of the following beliefs and this Talent and any Talent or Spell with this as a requirement, gain the relevant belief trait:
 - Justice
 - Mercy
 
