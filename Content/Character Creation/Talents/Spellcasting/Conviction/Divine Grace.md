@@ -13,7 +13,7 @@ cssclass: pathfinder
 
 **Requirements:** [[Conviction]], Charisma 2+
 ___
-*Your Conviction lets you surpass any obstacle as you lead by example*
+*Where others would yield to poison, fear, or flame, your conviction carries you through unscathed*
 
 <br>
 
