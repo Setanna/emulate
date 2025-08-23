@@ -31,6 +31,17 @@
     margin: 0;
     display: flex;
     color: #D5D5D5 !important;
+    margin-top: 30px !important;
+    margin-bottom: 0 !important;
+    margin-left: -2px;
+    display: flex;
+    color: var(--head-fg);
+    background-color: var(--head-bg);
+    padding: var(--title-padding);
+    min-height: 26px;
+    line-height: 1em;
+    border-radius: var(--border-radius);
+    vertical-align: middle;
 }
 
  .markdown-rendered h4 {
