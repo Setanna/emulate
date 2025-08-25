@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Unyielding Conviction <span style="margin-left: auto;"> 6 XP </span> </h1>
+<h1> March of Conviction <span style="margin-left: auto;"> 6 XP </span> </h1>
 
 [[Arcane]]{.trait}
 
@@ -13,7 +13,7 @@ cssclass: pathfinder
 
 **Requirements:** [[Step of Conviction]];  Charisma 3+
 ___
-*You stride barefoot across jagged stone, each shard shifting aside as though unwilling to harm you*
+*Thorns wither, mud firms, and rubble shifts as you advance — the world itself dares not halt your step*
 
 <br>
 
