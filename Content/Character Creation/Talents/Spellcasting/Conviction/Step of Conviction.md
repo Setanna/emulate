@@ -18,4 +18,4 @@ ___
 <br>
 
 **System:**
-You can ignore any Penalty or Effect from [[Difficult Terrain]] that has a DC lower than 10 + your Charisma.
+You can ignore any Penalty or Effect from [[Difficult Terrain]] that has a DC equal to or lower than 10 + your Charisma.
