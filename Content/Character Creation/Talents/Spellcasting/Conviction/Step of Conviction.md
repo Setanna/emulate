@@ -13,7 +13,7 @@ cssclass: pathfinder
 
 **Requirements:** Charisma 2+
 ___
-*Each step resounds with purpose, steady against all hindrance*
+*You stride barefoot across jagged stone, each shard shifting aside as though unwilling to harm you*
 
 <br>
 
