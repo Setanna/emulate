@@ -11,7 +11,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** Charisma 2+
+**Requirements:** [[Conviction]]; Charisma 2+
 ___
 *You stride barefoot across jagged stone, each shard shifting aside as though unwilling to harm you*
 

@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> March of Conviction <span style="margin-left: auto;"> 6 XP </span> </h1>
+<h1> Stride of Conviction <span style="margin-left: auto;"> 6 XP </span> </h1>
 
 [[Arcane]]{.trait}
 
