@@ -16,12 +16,8 @@ ___
 <br>
 
 **System:**
-You learn a number of Spells equal to your Intelligence. The spells must cost 0 Spell Points. 
+You learn a number of Spells equal to your Intelligence. The Spells must cost 0 Spell Points, but you can ignore any Spell Requirements of the spell. 
 
 <br>
 
-You trace runes in the air using magical instruments to summon powerful effects. Whenever you cast a Spell learnt from Runic Study, the spell gains the [[Somatic]] and [[Item | Item (Implement)]] Traits and does not expend any Spell Points. If you only have a Basic Understanding of Runic, all Rolls and DC's from the spell, take a -2 [[Rules/Bonuses and Penalties/Proficiency|Proficiency]] Penalty.
-
-<br>
-
-Any increase to your Intelligence, also increases the Spells learnt from this Talent.
+You trace runes in the air using magical instruments to summon powerful effects. Whenever you cast a Spell learnt from Runic Study, the spell gains the [[Somatic]] and [[Item | Item (Implement)]] Traits; Costs an additional Second; and does not expend any Spell Points. If you only have a Basic Understanding of Runic, all Rolls and DC's from the spell, take a -2 [[Rules/Bonuses and Penalties/Proficiency|Proficiency]] Penalty.
