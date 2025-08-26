@@ -12,7 +12,7 @@ cssclass: pathfinder
 **Requirements:** [[Runic Initiate]]
 
 ___
-*You have a sliver of magic within you, not enough to muster even the weakest of spells but enough as a catalyst for your training*
+*Though fragile, your spark of magic shines just enough to weave runes into the world by hand alone*
 
 <br>
 
