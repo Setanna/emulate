@@ -19,8 +19,8 @@ ___
 <br>
 
 **System:**
-You learn a single additional spell with [[Runic Initiate]]. The Spell can have be 1 Spell Point higher than the highest Spell Point of a Spell you have learnt with [[Runic Initiate]].
+You learn an additional Spell with [[Runic Initiate]]. The Spell can be 1 Spell Point higher than the highest Spell Point of a Spell you have learnt with [[Runic Initiate]].
 
 <br>
 
-The cost of this Talent is equal to 2 + Twice the Spell Points of the chosen Spell.
+The cost of this Talent is equal to 2 + the Spell Points of the chosen Spell.
