@@ -16,7 +16,7 @@ ___
 <br>
 
 **System:**
-You learn a number of Spells equal to your Intelligence. The spells must cost 0 Spell Points. 
+You learn a number of Spells equal to your Intelligence. The Spells must cost 0 Spell Points, but you can ignore any Spell Requirements of the spell. 
 
 <br>
 
