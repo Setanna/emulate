@@ -18,4 +18,4 @@ ___
 <br>
 
 **System:**
-You gain an Armor Value equal to your Charisma.
+You gain an Armor Value equal to 1 +  your Charisma.
