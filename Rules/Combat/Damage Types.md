@@ -27,6 +27,10 @@ cssclass: pathfinder
 
 ### Poison
 
-## Miscellaneous Damage
+## Esoteric Damage
 
+### Psychic
 
+### Radiant
+
+### Necrotic
