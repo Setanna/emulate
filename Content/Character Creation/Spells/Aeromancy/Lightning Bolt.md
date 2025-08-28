@@ -43,5 +43,7 @@ You channel a powerful line of lightning where you point.
 
 <br>
 
-**Success:** The creature takes half damage
-**Fail:** The creature takes full damage
+**Critical Success:** The Creature takes no damage
+**Success:** The Creature takes half damage
+**Fail:** The Creature takes full damage
+**Critical Fail:** The Creature takes full damage; <abbr title="The Stunned Condition comes from the Electricity Trait">and gains the [[Stunned | Stunned 1]] Condition</abbr>
