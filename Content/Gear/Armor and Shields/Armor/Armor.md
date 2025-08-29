@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 # Armor
-Armor reduces all [[Damage Types | Physical Damage]] and [[Damage Types | Elemental Damage]] by the Armor Value.
+Armor reduces all [[Damage Types | Physical Damage]] and [[Damage Types | Elemental Damage]] by their Armor Value.
 
 ## Light Armor
 | Name         | Traits                                 | Cost   | Weight | Armor Value | Dex Penalty | Str Requirement |
