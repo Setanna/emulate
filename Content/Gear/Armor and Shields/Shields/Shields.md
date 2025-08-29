@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 # Shields
-shields reduces all [[Damage Types | Physical Damage]] and [[Damage Types | Elemental Damage]] by their Shield Value.
+shields reduces all [[Damage Types | Physical Damage]] by their Shield Value; and it reduces [[Damage Types | Elemental Damage]] by half their Shield Value.
 
 ## Light Shields
 | Name    | Traits                                   | Cost | Weight | Shield Value | Dex Penalty | Str Requirement |
