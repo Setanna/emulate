@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 # Shields
-Shields are used in many [[Defence | Defensive]] Reactions such as [[Raise Shield]] and [[Parry]].
+shields reduces all [[Damage Types | Physical Damage]] and [[Damage Types | Elemental Damage]] by their Shield Value.
 
 ## Light Shields
 | Name    | Traits                                   | Cost | Weight | Shield Value | Dex Penalty | Str Requirement |
