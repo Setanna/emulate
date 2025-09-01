@@ -4,4 +4,4 @@ cssclass: pathfinder
 ---
 
 # Bulwark
-Armor and Shields with the Bulwark Trait, grant a [[Circumstance]] Bonus to Reflex Saving Throws against sources with the [[Blast]] Trait. The Bonus is equal to your Bulwark Value.
+Armor and Shields with the Bulwark Trait, reduce [[Damage Types | Elemental Damage]]; and [[Damage Types | Physical Damage]] from [[Accurate]] and [[Precise]] Attacks by their Bulwark Value.
