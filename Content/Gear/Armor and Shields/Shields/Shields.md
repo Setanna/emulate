@@ -19,10 +19,10 @@ shields reduces all [[Damage Types | Physical Damage]] by their Shield Value; an
 | Round Shield | [[Bash \| Bash (1d4)]]                             | 14 cc | 2.5 kg | 2            | 1           | 1               |
 
 ## Heavy Shields
-| Name         | Traits                                   | Cost  | Weight | Shield Value | Dex Penalty | Str Requirement |
-| ------------ | ---------------------------------------- | ----- | ------ | ------------ | ----------- | --------------- |
-| Great Shield | [[Bulwark \| Bulwark (+1)]]              | 23 cc | 4.9 kg | 3            | 2           | 2               |
-| Tower Shield | [[Bastion]], [[Bulwark \| Bulwark (+2)]] | 32 cc | 7 kg   | 4            | 2           | 2               |
+| Name         | Traits                                                                  | Cost  | Weight | Shield Value | Dex Penalty | Str Requirement |
+| ------------ | ----------------------------------------------------------------------- | ----- | ------ | ------------ | ----------- | --------------- |
+| Great Shield | [[Bulwark \| Bulwark (+1)]]                                             | 23 cc | 4.9 kg | 3            | 2           | 2               |
+| Tower Shield | [[Bastion]], [[Bulwark \| Bulwark (+2)]] [[Cumbersome \| Cumbersome 1]] | 32 cc | 7 kg   | 4            | 2           | 2               |
 
 ### Dexterity Penalty and Strength Requirement
 Dexterity Penalty is applied directly to ones Dexterity Score, lowering it while the shield is used.
