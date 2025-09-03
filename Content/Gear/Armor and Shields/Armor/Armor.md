@@ -22,11 +22,11 @@ Armor reduces all [[Damage Types | Physical Damage]] by their Armor Value; and a
 | Breast Plate | [[Loud]], [[Bash \| Bash (1d4)]], [[Bulwark \| Bulwark +1]] | 9.6 sc | 16 kg  | 6           | 1           | 1               |
 
 ## Heavy Armor
-| Name        | Traits                                                      | Cost  | Weight | Armor Value | Dex Penalty | Str Requirement |
-| ----------- | ----------------------------------------------------------- | ----- | ------ | ----------- | ----------- | --------------- |
-| Splint Mail | [[Loud]]                                                    | 21 sc | 18 kg  | 7           | 2           | 2               |
-| Half Plate  | [[Loud]], [[Bash \| Bash (1d4)]], [[Bulwark \| Bulwark +2]] | 24 sc | 20 kg  | 8           | 2           | 2               |
-| Full Plate  | [[Loud]], [[Bash \| Bash (1d4)]], [[Bulwark \| Bulwark +3]] | 30 sc | 24 kg  | 9           | 2           | 2               |
+| Name        | Traits                                                                                     | Cost  | Weight | Armor Value | Dex Penalty | Str Requirement |
+| ----------- | ------------------------------------------------------------------------------------------ | ----- | ------ | ----------- | ----------- | --------------- |
+| Splint Mail | [[Loud]]                                                                                   | 21 sc | 18 kg  | 7           | 2           | 2               |
+| Half Plate  | [[Loud]], [[Bash \| Bash (1d4)]], [[Bulwark \| Bulwark +2]]                                | 24 sc | 20 kg  | 8           | 2           | 2               |
+| Full Plate  | [[Loud]], [[Bash \| Bash (1d4)]], [[Bulwark \| Bulwark +3]] [[Cumbersome \| Cumbersome 1]] | 30 sc | 24 kg  | 9           | 2           | 2               |
 
 ### Dexterity Penalty and Strength Requirement
 Dexterity Penalty is applied directly to ones Dexterity Score, lowering it while the armor is used.
