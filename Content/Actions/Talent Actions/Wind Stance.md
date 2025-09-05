@@ -13,7 +13,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** You haven't taken an Action with the [[Movement]] Trait.
+**Requirements:** You haven't taken an Action with the [[Movement]] Trait; You are wielding a [[Damage Types | Slashing]] Melee Weapon.
 
 ___
 *In stillness, the wind amplifies your reach, striking where your weapons cannot.*
