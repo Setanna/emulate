@@ -20,6 +20,18 @@ ___
 <br>
 
 **System:**
-You make a [[Making an Attack | Attack]] against all creatures within a cone or line:
+You chose to make a cone or line originating from you:
 - **Cone:** A 90 degree cone with a range of your Reach.
 - **Line:** A 1 meter wide line with a range of twice your Reach.
+
+Each Creature within the Cone or Line must make a Reflex Saving Throw against your Attack Roll DC.
+
+<br>
+
+**Critical Success:** The Creature takes no damage.
+**Success:** The Creature takes half damage.
+**Failure:** The Creature takes full damage.
+
+<br>
+
+The Attack Roll and Damage is based on the [[Damage Types | Slashing]] Melee Weapon you are Wielding.
