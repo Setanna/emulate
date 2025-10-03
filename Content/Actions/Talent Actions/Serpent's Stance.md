@@ -20,5 +20,4 @@ ___
 
 **System:**
 Whenever you would deal damage with a [[Precise]] [[Weapons | Unarmed Strike]], you can apply one of the following conditions to the defender:
- - [[Bleeding | Bleeding 1d4]
- - [[Slowed | Slowed 1]]
+ - [[Agonizing | Agonizing 1]]
