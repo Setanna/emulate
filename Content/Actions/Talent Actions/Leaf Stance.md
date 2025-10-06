@@ -13,7 +13,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** You wield no Armor, Shields or Weapons; You are Light Load
+**Requirements:** You wield no Armor, Shields or Weapons; You are Light Load; You took an Action with the [[Movement]] Trait last round.
 
 ___
 *You kick off your foes like a leaf on the wind, flowing effortlessly from one to the next*
@@ -21,7 +21,7 @@ ___
 <br>
 
 **System:**
-Your [[Step]] Action gains the following trigger:
+You gain a [[Circumstance]] Bonus to your Hit Class equal to the number of Talents you have with [[Leaf Stance]] as a requirement. Additionally your [[Step]] Action gains the following trigger:
 
 <br>
 
