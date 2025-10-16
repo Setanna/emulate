@@ -3,15 +3,13 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Falling Leaf Step <span style="margin-left: auto;">2 XP</span> </h1>
-
-[[Merit]]{.trait}
+<h1> Falling Leaf Step <span style="margin-left: auto;"> 2 XP </span> </h1>
 
 <div style="clear:both" /> 
 
 **Requirements:** [[Leaf Stance]]
 ___
-**
+*Flavor Text*
 
 <br>
 
