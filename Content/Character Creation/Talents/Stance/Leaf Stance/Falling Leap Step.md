@@ -9,11 +9,11 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** While you are in the [[Leaf Stance]]
+**Requirements:** [[Leaf Stance]]
 ___
 **
 
 <br>
 
 **System:**
-Whenever you would gain the [[Prone]] Condition, you can instead take the [[Step]] Action.
+You gain the [[Falling Leap Step]] Action.
