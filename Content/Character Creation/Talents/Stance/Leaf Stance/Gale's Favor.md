@@ -7,14 +7,14 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Leaf Stance]]; You wield no Armor, Shields or Weapons; You are Light Load
+**Requirements:** [[Leaf Stance]]
 ___
 *Flavor Text*
 
 <br>
 
 **System:**
-Whenever you would take the [[Step]] Action, increase the amount of meters you move by one meter for each step the Weather is above still, to a maximum of your Speed.
+While in [[Leaf Stance]], whenever you would take the [[Step]] Action, increase the amount of meters you move by one meter for each step the Weather is above still, to a maximum of your Speed.
 
 <br>
 
