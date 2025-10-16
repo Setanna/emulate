@@ -7,8 +7,6 @@ cssclass: pathfinder
 
 [[Movement]]{.trait}
 
-[[Finesse]]{.trait}
-
 [[Stance]]{.trait}
 
 <div style="clear:both" /> 
