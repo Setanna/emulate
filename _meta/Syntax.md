@@ -7,6 +7,9 @@ cssclass: pathfinder
 
 ## Emulate Syntax
 
+### Italicized Text
+Italicized Text is considered Reminder or Flavor text and does not hold any rule or mechanical effect.
+
 ### Decimals
 Decimals should use the `.` symbol, while thousand separators should use `,`.
 
