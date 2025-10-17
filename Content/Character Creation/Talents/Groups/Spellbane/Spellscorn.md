@@ -5,6 +5,8 @@ cssclass: pathfinder
 
 <h1> Spellscorn <span style="margin-left: auto;">3 XP</span> </h1>
 
+[[Resonance]]{.trait}
+
 [[Defence]]{.trait}
 
 <div style="clear:both" /> 
@@ -20,4 +22,7 @@ You can no longer take or gain Talents with the [[Arcane]] trait, however you ga
 - A +1 [[Resistance]] Bonus to [[Saving Throws]].
 - Reduce damage by 1.
 
-Whenever you gain a Talent with this Talent as a requirement, increase the benefits of this Talent by one.
+<br>
+
+**Resonance:**
+You increase the benefits of this Talent by one for each Talent you have with Spellscorn as a requirement.
