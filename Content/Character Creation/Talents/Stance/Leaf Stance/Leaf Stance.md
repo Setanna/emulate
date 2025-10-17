@@ -5,8 +5,6 @@ cssclass: pathfinder
 
 <h1> Leaf Stance <span style="margin-left: auto;"> 4 XP </span> </h1>
 
-[[Movement]]{.trait}
-
 [[Stance]]{.trait}
 
 <div style="clear:both" /> 
