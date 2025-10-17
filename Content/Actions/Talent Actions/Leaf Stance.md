@@ -19,7 +19,7 @@ ___
 <br>
 
 **System:**
-You gain a [[Circumstance]] Bonus to your Hit Class equal to the number of Talents you have with [[Leaf Stance]] as a requirement. Additionally your [[Step]] Action gains the following trigger:
+Your [[Step]] Action gains the following trigger:
 
 <br>
 
