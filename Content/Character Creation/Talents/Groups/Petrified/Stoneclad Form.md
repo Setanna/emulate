@@ -5,6 +5,8 @@ cssclass: pathfinder
 
 <h1> Stoneclad Form <span style="margin-left: auto;">1 XP</span> </h1>
 
+[[Resonance]]{.trait}
+
 [[Defence]]{.trait}
 
 <div style="clear:both" /> 
@@ -16,4 +18,7 @@ ___
 <br>
 
 **System:**
-Whenever you would take a [[Circumstance]] Penalty Die from the [[Petrified]] Condition on your Strength Based Attacks or Skills, reduce the die by one step. You reduce the die by one additional step for each talent you have with Stoneblood as a requirement.
+Whenever you would take a [[Circumstance]] Penalty Die from the [[Petrified]] Condition on your Strength Based Attacks or Skills, reduce the die by one step.
+
+**Resonance:**
+You reduce the die by one additional step for each Talent you have with Stoneclad Form as a requirement.
