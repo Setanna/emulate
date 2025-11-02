@@ -84,8 +84,8 @@ kanban-plugin: board
 			Conditions
 		</b> 
 	</summary>
-
- 	- [ ] Conditions should not have Traits, the source that gave the Conditions should be the one with the Traits
+	
+	 	- [ ] Conditions should not have Traits, the source that gave the Conditions should be the one with the Traits
 	- [ ] [[Flanked]]
 		- [ ] Make Examples
 	
@@ -190,8 +190,17 @@ kanban-plugin: board
 	
 	- [ ] [[Maneuver]] Trait
 	- [ ] [[Ram]]
+	- Run into a creature to push it
 	- [ ] [[Shove]]
+	- Push a creature
 	- [ ] [[Grapple]]
+	- Grab a creature
+	- [ ] [[Pin]]
+	- Pin a Grappled Creature
+	- [ ] [[Escape]]
+	- Use Acrobatics to escape grappled or similar
+	- [ ] [[Break]]
+	- Use Athletics to break a grapple or similar
 	- [ ] [[Disarm]]
 	- [ ] [[Dirty Trick]]
 	
