@@ -23,7 +23,6 @@ You roll [[Athletics]] against the creature you are [[Grappling]] or [[Grappled]
 **Critical Success:** You move the creature up to your speed. You may move with the creature.
 **Success:** You move the creature one meter. You may move with the creature.
 **Fail:** You fail to move the creature.
-**Critical Fail:** You fail to Grapple the creature and the creature may make an [[Attack of Opportunity]] against you.
 
 <br>
 
