@@ -16,7 +16,7 @@ You Roll Athletics against target Creature's [[Athletics]] or [[Acrobatics]] DC,
 
 <br>
 
-**Critical Success:** You move the creature up to your Strength in meters and it gains the [[Prone]] Condition.
+**Critical Success:** You move the creature up to your Strength + 1 in meters and it gains the [[Prone]] Condition.
 **Success:** You move the creature 1 meter
 **Failure:** Nothing happens
 **Critical Fail:** You gain the [[Prone]] Condition.
