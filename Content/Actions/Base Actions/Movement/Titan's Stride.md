@@ -11,7 +11,7 @@ cssclass: pathfinder
 
 **Requirements:** Both hands free.
 ___
-*The world's burden on your shoulders.*
+*The world's burden on your shoulders*
 
 <br>
 
@@ -20,5 +20,5 @@ You lift an object or willing creature weighing greater than your [[Stats#Physic
 
 <br>
 
-You can only use a single Second to put down the object or take the [[Step]] Action. Taking the [[Step]] Action in this way it provokes attack of opportunity. Additionally, when you take this Action or any [[Step]] Action while using this Action, you gain the [[Fatigued | Fatigued 1]] Condition.
+While carrying anything using this Action,you can only use a seconds to put down the object or take the [[Step]] Action. *You still incur any Heavy Load Penalties such as increased movement cost*. Taking the [[Step]] Action in this way it provokes attack of opportunity. Additionally, Each turn where you've carried something using this Action, you gain the [[Fatigued | Fatigued 1]] Condition.
 
