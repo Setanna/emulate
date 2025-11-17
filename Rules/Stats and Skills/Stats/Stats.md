@@ -26,7 +26,7 @@ Creatures of Emulate are made up and primarily defined by 6 core attributes know
 
 **Size** For each size above medium double the loads, and for each size below medium half the loads. For Example a Large Horse with a Strength of 4 would have a Light Load of 96 kg.
 
-**Load Penalties:** Being lightly encumbered brings no penalties, while being of Medium Load carries with it a -1 Dexterity Penalty. Heavy Load carries with it a -2 Dexterity Penalty.
+**Load Penalties:** Being lightly encumbered brings no penalties, while being of Medium Load carries with it a -1 Dexterity Penalty. Heavy Load carries with it a -2 Dexterity Penalty and increases all [[Movement]] Actions second cost by one.
 
 ### Dexterity
 | Stat Score | Example       | Description                                                          |
