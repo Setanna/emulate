@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Leaf Stance <span style="margin-left: auto;">Split Second </span> </h1>
+<h1> Falling Leaf Step <span style="margin-left: auto;">Split Second </span> </h1>
 
 [[Movement]]{.trait}
 
