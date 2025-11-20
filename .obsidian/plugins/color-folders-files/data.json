@@ -21,6 +21,11 @@
       "backgroundColor": "#ffc800",
       "textColor": "#000000",
       "isBold": true
+    },
+    "Build-A-Spell": {
+      "backgroundColor": "#ce6712",
+      "isBold": true,
+      "textColor": "#ffffff"
     }
   },
   "presets": {},
