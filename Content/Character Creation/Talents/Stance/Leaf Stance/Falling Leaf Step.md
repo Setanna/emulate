@@ -14,4 +14,4 @@ ___
 <br>
 
 **System:**
-You gain the [[Falling Leaf Step]] Action.
+You gain the [[Content/Actions/Talent Actions/Falling Leaf Step | Falling Leaf Step]] Action.
