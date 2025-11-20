@@ -14,4 +14,4 @@ ___
 <br>
 
 **System:**
-You gain the [[Falling Leap Step]] Action.
+You gain the [[Falling Leaf Step]] Action.
