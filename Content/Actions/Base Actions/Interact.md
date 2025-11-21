@@ -18,7 +18,7 @@ You do an action that interacts with an object or another. Some actions might re
 | Light a Torch                      | 5 Seconds | None |             ✔             |
 | Open a Door                        | 1 Second  | None |             ✔             |
 | Flip a Table                       | 2 Seconds | None |             ✔             |
-| Get something from a belt or pouch | 1 Second  | None |            ❌             |
+| Get something from a [[Bandolier]] | 0 Seconds | None |            ❌             |
 | Search bag for something           | 3 Seconds | None |             ✔             |
 | Barricade Door                     | 5 Seconds | None |             ✔             |
 | Active Magic Item                  | Varies    | None |            ❌             |
