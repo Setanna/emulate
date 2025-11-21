@@ -6,7 +6,7 @@ cssclass: pathfinder
 # Taking an Action
 Actions is how you in Emulate interact with the world.
 
-### 1. Chose the Action and the Targets
+### 1. Choose the Action and the Targets
 Select the Action you want to take and declare any necessary targets. If the Action has a target listed in parentheses (*Antagonize (You)*), it must target a creature that fits the listed condition.
 
 ### 2. Determine 'When' Triggers
