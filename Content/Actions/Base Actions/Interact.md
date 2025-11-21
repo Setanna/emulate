@@ -17,11 +17,13 @@ You do an action that interacts with an object or another. Some actions might re
 | ---------------------------------- | --------- | ---- |:-------------------------:|
 | Light a Torch                      | 5 Seconds | None |             ✔             |
 | Open a Door                        | 1 Second  | None |             ✔             |
-| Flip a Table                       | 2 Seconds | None |             ✔             |
+| Flip a Table                       | 3 Seconds | None |             ✔             |
 | Get something from a [[Bandolier]] | 0 Seconds | None |            ❌             |
+| Get something from a [[Pouch]]     | 1 Second  | None |            ❌             |
 | Search bag for something           | 3 Seconds | None |             ✔             |
-| Barricade Door                     | 5 Seconds | None |             ✔             |
+| Barricade Door                     | 6 Seconds | None |             ✔             |
 | Active Magic Item                  | Varies    | None |            ❌             |
 | Grip weapon with two hands         | 0 Seconds | None |            ❌             |
 | Remove hand from weapon            | 0 Seconds | None |            ❌             |
+| Drop something                     | 0 Seconds | None |            ❌             |
 
