@@ -202,6 +202,7 @@ kanban-plugin: board
 	- [ ] [[Break]]
 	- Use Athletics to break a grapple or similar
 	- [ ] [[Disarm]]
+	- Should have penalty if disarming something wielded in two hands
 	- [ ] [[Dirty Trick]]
 	
 	</details>
