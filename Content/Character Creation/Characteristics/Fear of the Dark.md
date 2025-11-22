@@ -15,4 +15,4 @@ ___
 <br>
 
 **System:**
-While you are in [[Lightning | Dim Light]] you gain the [[Frightened | Frightened 1]] Condition. While you are in [[Lightning | Darkness]] you gain the [[Frightened | Frightened 2]] Condition.
+While you are in [[Lighting | Dim Light]] you gain the [[Frightened | Frightened 1]] Condition. While you are in [[Lighting | Complete Darkness]] you gain the [[Frightened | Frightened 2]] Condition.
