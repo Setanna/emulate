@@ -6,27 +6,32 @@ cssclass: pathfinder
 # Size
 Size modifies several things regarding a creature as noted in the table below:
 
-| Size       | Height (m)  | Weight (Kg)  | Size Modifier | Move | Be Moved | Strength Rolls | Dexterity Rolls | Hit Class | Damage | Damage Reduction |
-| ---------- | ----------- | ------------ |:--------:|:----:|:--------:|:--------------:|:---------------:|:---------:|:-------------:|:----------------:|
-| Diminutive | 0.1 to 0.3  | 0.25 to 0.5  |    -6    |  -6  |    +6    |       -6       |       +6        |    +6     |      -6       |        -6        |
-| Tiny       | 0.3 to 0.6  | 0.5 to 4     |    -4    |  -4  |    +4    |       -4       |       +4        |    +4     |      -4       |        -4        |
-| Small      | 0.6 to 1.2  | 4 to 32      |    -2    |  -2  |    +2    |       -2       |       +2        |    +2     |      -2       |        -2        |
-| Medium     | 1.2 to 2.4  | 32 to 256    |    0     |  0   |    0     |       0        |        0        |     0     |       0       |        0         |
-| Large      | 2.4 to 4.8  | 256 to 2048  |    +2    |  +2  |    +2    |       +2       |       -2        |    -2     |      +2       |        +2        |
-| Huge       | 4.8 to 9.6  | 2048 to 4096 |    +4    |  +4  |    +4    |       +4       |       -4        |    -4     |      +4       |        +4        |
-| Gargantuan | 9.6 to 19.2 | 4096 to 8192 |    +6    |  +6  |    +6    |       +6       |       -6        |    -6     |      +6       |        +6        |
+| Size       | Height (m)  | Weight (Kg)  | Size Modifier | Speed | Move | Be Moved | Strength Rolls | Dexterity Rolls | Hit Class | Damage | Damage Reduction |
+| ---------- | ----------- | ------------ |:-------------:|:-----:|:----:|:--------:|:--------------:|:---------------:|:---------:|:------:|:----------------:|
+| Diminutive | 0.1 to 0.3  | 0.25 to 0.5  |      -6       |  -3   |  -3  |    +3    |       -6       |       +6        |    +6     |   -6   |        -6        |
+| Tiny       | 0.3 to 0.6  | 0.5 to 4     |      -4       |  -2   |  -2  |    +2    |       -4       |       +4        |    +4     |   -4   |        -4        |
+| Small      | 0.6 to 1.2  | 4 to 32      |      -2       |  -1   |  -1  |    +1    |       -2       |       +2        |    +2     |   -2   |        -2        |
+| Medium     | 1.2 to 2.4  | 32 to 256    |       0       |   0   |  0   |    0     |       0        |        0        |     0     |   0    |        0         |
+| Large      | 2.4 to 4.8  | 256 to 2048  |      +2       |  +1   |  +1  |    -1    |       +2       |       -2        |    -2     |   +2   |        +2        |
+| Huge       | 4.8 to 9.6  | 2048 to 4096 |      +4       |  +2   |  +2  |    -2    |       +4       |       -4        |    -4     |   +4   |        +4        |
+| Gargantuan | 9.6 to 19.2 | 4096 to 8192 |      +6       |  +3   |  +3  |    -3    |       +6       |       -6        |    -6     |   +6   |        +6        |
 
 **Size Modifier**
 Whenever a Size Modifier is applied to a Roll, if the final Size Modifier is positive it is a Size Bonus and if it is negative it is a Size Penalty.
 
 <br>
 
-**Move**
-Whenever you would forcefully move a creature, such as with the [[Ram]] or [[Shove]] Actions, add your Size Modifier to the meters the creature is moved. 
+**Speed**
+Add half your size modifier to your speed and the meters moved with the [[Step]] Action. This can not reduce the amount of meters moved below one.
 
 <br>
 
-Whenever you would be forcefully moved by a creature, such a with the [[Ram]] or [[Shove]] Actions, substract your Size Modifier to the the meters moved. If the Size Modifier is negative, substracting it makes it positive, instead adding it to the meters moved.
+**Move**
+Whenever you would forcefully move a creature, such as with the [[Ram]] or [[Shove]] Actions, add half your Size Modifier to the meters the creature is moved. 
+
+<br>
+
+Whenever you would be forcefully moved by a creature, such a with the [[Ram]] or [[Shove]] Actions, substract half your Size Modifier to the the meters moved. If the Size Modifier is negative, substracting it makes it positive, instead adding it to the meters moved.
 
 <br>
 
