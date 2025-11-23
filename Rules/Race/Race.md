@@ -17,13 +17,13 @@ cssclass: pathfinder
 
 | Size       | XP Cost |
 | ---------- | ------- |
-| Gargantuan | +16     |
-| Huge       | +8      |
+| Gargantuan | +64     |
+| Huge       | +16     |
 | Large      | +4      |
 | Medium     | 0       |
 | Small      | -4      |
-| Tiny       | -8      |
-| Diminutive | -16     |
+| Tiny       | -16     |
+| Diminutive | -64     | 
 
 ### Hit Die
 
