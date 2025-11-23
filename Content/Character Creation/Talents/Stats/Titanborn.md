@@ -16,7 +16,7 @@ ___
 <br>
 
 **System:**
-You count as a size larger for [[Stats#Strength | Carrying Capacity]] and the [[Leap]] Action. Additionally your speed increases by 1 meter and when taking the [[Step]] Action you can move an additional meter.
+You increase your [[Rules/Race/Size| Size Modifier]] by 1.
 
 <br>
 
