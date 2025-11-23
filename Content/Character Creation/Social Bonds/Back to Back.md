@@ -21,4 +21,4 @@ ___
 <br>
 
 **System:**
-Choose a creature, while you and that creature are adjacent to each other you can not be [[Flanked]].
+Choose any number of creatures as your Bonded Target. While you and a Bonded Target are adjacent to each other you can not be [[Flanked]].

@@ -18,7 +18,7 @@ cssclass: pathfinder
 ___
 
 **System:**
-Choose an establishment. When buying an item or service from that specific establishment, for each 10 copper coin the item or service cost reduce the price by 1 copper coin up to your Charisma.
+Choose an establishment as your Bonded Target. When buying an item or service from your Bonded Target, for each 10 copper coin the item or service cost reduce the price by 1 copper coin up to your Charisma.
 
 <br>
 

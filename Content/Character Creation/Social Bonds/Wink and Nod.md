@@ -19,7 +19,7 @@ ___
 <br>
 
 **System:**
-When you take this Social Bond, choose any number of Characters. You and those characters can communicate basic ideas through minor facial movements such as nodding or raising an eyebrow.
+You choose any number of creatures as your Bonded Targets. You and your Bonded Targets can communicate basic ideas through minor facial movements such as nodding or raising an eyebrow.
 
 <br>
 

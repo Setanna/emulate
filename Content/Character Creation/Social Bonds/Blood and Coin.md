@@ -20,5 +20,5 @@ ___
 <br>
 
 **System:**
-Choose a creature. You can always barter with this creature at favorable rates, reducing any costs between you by 10% up to a maximum amount of Silver Coins equal to your Charisma.
+Choose one creature as your Bonded Target. You can always barter with the Bonded Target at favorable rates, reducing any costs between you by 10% up to a maximum amount of Silver Coins equal to your Charisma.
 
