@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Titanborn <span style="margin-left: auto;"> 4 XP </span> </h1>
+<h1> Titanborn <span style="margin-left: auto;"> 6 XP </span> </h1>
 
 [[Birthright]]{.trait}
 
@@ -11,7 +11,7 @@ cssclass: pathfinder
 
 **Requirements:** Strength 3+
 ___
-*Your Strength knows no bounds, allowing you to perform feats beyond mortal limits.*
+*Others strain to lift what you shoulder without thought*
 
 <br>
 
