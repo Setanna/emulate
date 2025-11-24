@@ -3,12 +3,13 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Steel Comrades <span style="margin-left: auto;"> 4 XP </span> </h1>
+<h1> Steel Comrades <span style="margin-left: auto;"> 6 XP </span> </h1>
 
 [[Bonded]]{.trait}
 
 <div style="clear:both" /> 
 
+**Requirements:** You already have 2 Social Bonds with the chosen creatures as Bonded Targets.
 ___
 *When steel meets steel and backs are to each other, fear has no place*
 
