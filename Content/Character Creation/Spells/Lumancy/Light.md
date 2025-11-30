@@ -1,0 +1,44 @@
+---
+tags: []
+cssclass: pathfinder  
+---
+
+<h1> Light <span style="margin-left: auto;"> 0 </span> </h1>
+
+[[Conjuration]]{.school-trait}
+
+[[Lumination]]{.trait}
+
+<div style="clear:both" /> 
+
+___
+
+<div> 
+	<div style="display:inline-block; float: left;"> 
+		<b>Seconds:</b> 1 to 6
+		<br>
+		<b>Range:</b> Personal
+		<br>
+		<b>Area:</b> None
+	</div> 
+	<span style="display:inline-block; float: right; padding-right: 100px;"> 
+		<b>Saving Throw:</b> None
+		<br>
+		<b>Duration:</b> Until the end of the next Preparation
+		<br>
+		<b>Damage:</b> None
+	</span> 
+	<div style="clear:both" /> 
+</div>
+
+___
+
+**Effect:**
+For each Second spent on this Spell, conjure a small orb of a light with the [[Lumination | Lumination (5 meters)]] Trait, up to a maximum of your Spell Stat. Each Light counts as it's own Spell. Each orb of light floats close to the target of the spell.
+
+<br>
+
+**System:**
+For each long as this spell is active you gain the following Actions:
+ -  [[Transfer Spell | Transfer Spell (Light)]]
+ - [[Luminescent Detonation | Luminescent Detonation (Light)]]
