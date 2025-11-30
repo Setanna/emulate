@@ -11,6 +11,8 @@ cssclass: pathfinder
 
 [[Fire]]{.trait}
 
+[[Lumination | Lumination (5 meters)]]{.trait}
+
 <div style="clear:both" /> 
 
 ___

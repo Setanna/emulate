@@ -13,6 +13,8 @@ cssclass: pathfinder
 
 [[Somatic]]{.trait}
 
+[[Lumination | Lumination (5 meters)]]{.trait}
+
 <div style="clear:both" /> 
 
 **Requirements:** [[Shocking Grasp]]
