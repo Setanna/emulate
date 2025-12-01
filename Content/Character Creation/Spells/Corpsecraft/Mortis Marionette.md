@@ -39,7 +39,7 @@ ___
 	</div> 
 	<div style="clear:both" /> 
 	
-	<b>Trigger:</b> A creature would provoke an <a href="Attack of Opportunity.md" class="internal-link">Attack of Opportunity</a>, <a href="Raise Shield.md" class="internal-link">Raise Shield</a> or <a href="Parry.md" class="internal-link">Parry</a> within reach of a corpse.
+	<b>Trigger:</b> A creature could provoke an <a href="Attack of Opportunity.md" class="internal-link">Attack of Opportunity</a>, <a href="Raise Shield.md" class="internal-link">Raise Shield</a> or <a href="Parry.md" class="internal-link">Parry</a> Action within reach of a corpse, if the corpse was alive and met all requirements of the Actions.
 	
 </div>
 
@@ -48,12 +48,16 @@ ___
 
 <br>
 
+**Effects:**
+ - **Act:** The target makes an [Making an Attack | Attack]] Attack against a creature within reach or range of it's weapons.
+ - **React:** The target makes one of the triggered Actions. The target treats all your allies as it's allies for the purpose of these Actions.
+
 **System:**
-The corpse makes one of the triggered Actions. The corpse treats all your allies as it's allies for the purpose of these Actions.
+When you spend a Split Second for this spell you gain the React Effect.
 
 <br>
 
-Alternatively, the spell can be used for 2 Seconds to force a corpse to make a [[Making an Attack | Attack]] Attack against a creature within reach or range.
+Alternatively, you can spent 2 Seconds to gain the Act Effect.
 
 <br>
 
