@@ -45,6 +45,11 @@ ___
 
 ___
 
+**Effect:**
+The target takes damage.
+
+<br>
+
 **System:**
-You conjure up a bright flame and hurl it at a creature within Range. Make an [[Making an Attack | Attack]] against the creature.
+You conjure up a bright flame and hurl it at a target within range. Make an [[Making an Attack | Attack]] against the target.
 
