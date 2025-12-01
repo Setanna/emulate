@@ -41,7 +41,8 @@ ___
 
 ___
 
-You throw a tiny streaking light of fire at a point of your choice, it explodes in a fiery ball of doom.
+**Effect:**
+Each creature inside the area must make a Reflex Saving Throw:
 
 <br>
 
@@ -49,3 +50,8 @@ You throw a tiny streaking light of fire at a point of your choice, it explodes 
 **Success:** The Creature takes half damage
 **Fail:** The Creature takes full damage
 **Critical Failure:** The Creature takes full damage; <abbr title="The Burning Condition comes from the Fire Trait">and gains the [[Burning | Burning 1d6]] Condition</abbr>
+
+<br>
+
+**System:**
+You throw a tiny streaking light of fire at a point of your choice within range, it explodes in a fiery ball of doom.
