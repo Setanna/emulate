@@ -35,8 +35,8 @@ ___
 
 ___
 
-**System:**
-You channel cold directly into your Target as a thin sheet of ice envelops it.
+**Effect:**
+The target must make a Fortitude Saving Throw:
 
 <br>
 
@@ -45,5 +45,7 @@ You channel cold directly into your Target as a thin sheet of ice envelops it.
 **Failure:** The Creature takes full damage.
 **Critical Failure:** The creature takes full damage; <abbr title="The Freezing Condition comes from the Frost Trait">and gains the [[Freezing | Freezing d6]] Condition. </abbr>
 
+<br>
 
-
+**System:**
+You channel cold directly into your Target as a thin sheet of ice envelops it.
