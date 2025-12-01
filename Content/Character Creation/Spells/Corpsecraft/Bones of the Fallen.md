@@ -46,10 +46,8 @@ ___
 
 <br>
 
-**System:**
-If the creature would be reduced to negative hit points and not outright die, they make a Constitution Saving Throw. If the creature outright dies the Constitution Saving Throw counts as a Failure.
-
-<br>
+**Effect:**
+If the target would be reduced to negative hit points and not outright die, they make a Fortitude Saving Throw. If the target outright dies the Fortitude Saving Throw counts as a Failure:
 
 **Success:** This spell fails.
 **Fail:** The creature is killed and you gain a number of Temporary Hit Points equal to their Maximum Negative Hit Points.
