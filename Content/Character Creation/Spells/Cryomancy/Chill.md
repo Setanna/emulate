@@ -28,18 +28,21 @@ ___
 		<br>
 		<b>Duration:</b> Until the end of the Encounter 
 		<br>
-		<b>Damage:</b> Spell Stat <a href="Damage Types.md" class="internal-link">Electricity</a> Damage
+		<b>Damage:</b> Spell Stat <a href="Damage Types.md" class="internal-link">Cold</a> Damage
 	</span> 
 	<div style="clear:both" /> 
 </div>
 
 ___
 
-**System:**
-You channel cold directly into the palms of your hands. Whenever you grapple a creature, it takes [[Damage Types | Cold]] Damage equal to this Spell's Damage.
+**Effect:**
+The target's [[Unarmed Strikes]] gain the [[Frost]] Trait and deal additional [[Damage Types | Frost]] Damage equal to this Spell's Damage.
 
 <br>
 
-Additionally your [[Unarmed Strikes]] gain the [[Frost]] Trait and deal additional [[Damage Types | Frost]] Damage equal to this Spell's Damage.
+Additionally whenever the target grapples a creature, it takes damage.
+
+**System:**
+You channel cold directly into the palms of your hands.
 
 
