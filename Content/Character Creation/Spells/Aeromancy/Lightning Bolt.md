@@ -41,11 +41,15 @@ ___
 
 ___
 
-You channel a powerful line of lightning where you point.
-
-<br>
+**Effect:**
+All targets within the area must roll a Reflex Saving Throw:
 
 **Critical Success:** The Creature takes no damage
 **Success:** The Creature takes half damage
 **Fail:** The Creature takes full damage
 **Critical Fail:** The Creature takes full damage; <abbr title="The Stunned Condition comes from the Electricity Trait">and gains the [[Stunned | Stunned 1]] Condition</abbr>
+
+<br>
+
+**System:**
+You channel a powerful line of lightning where you point.
