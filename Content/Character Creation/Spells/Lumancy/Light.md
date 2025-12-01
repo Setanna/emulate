@@ -34,11 +34,15 @@ ___
 ___
 
 **Effect:**
-For each Second spent on this Spell, conjure a small orb of a light with the [[Lumination | Lumination (5 meters)]] Trait, up to a maximum of your Spell Stat. Each Light counts as it's own Spell. Each orb of light floats close to the target of the spell.
+An orb of light floats around the target. The orb has the [[Lumination | Lumination (5 meters)]] Trait. 
 
 <br>
 
 **System:**
+For each Second spent on this Spell, conjure a small orb of a light up to a maximum of your Spell Stat. Each Light counts as it's own Spell.
+
+<br>
+
 For each long as this spell is active you gain the following Actions:
  -  [[Transfer Spell | Transfer Spell (Light)]]
  - [[Luminescent Detonation | Luminescent Detonation (Light)]]
