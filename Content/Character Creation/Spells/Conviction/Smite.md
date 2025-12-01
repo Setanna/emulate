@@ -28,7 +28,7 @@ ___
 	<div style="display:inline-block; float: right; padding-right: 100px;"> 
 		<b>Saving Throw:</b> None
 		<br>
-		<b>Duration:</b> Until End of Encounter
+		<b>Duration:</b> Until the End of your Turn
 		<br>
 		<b>Damage:</b> Spell Stat
 	</div> 
