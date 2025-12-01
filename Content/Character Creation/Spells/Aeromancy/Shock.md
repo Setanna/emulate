@@ -37,11 +37,16 @@ ___
 
 ___
 
-**System:**
-You channel electricity directly into the tip of your fingers. Whenever you grapple a creature, it takes [[Damage Types | Electricity ]] Damage equal to this Spell's Damage.
+**Effect:**
+The target's [[Unarmed Strikes]] gain the [[Electricity]] Trait and deal additional [[Damage Types | Electricity]] Damage equal to this Spell's Damage.
 
 <br>
 
-Additionally your [[Unarmed Strikes]] gain the [[Electricity]] Trait and deal additional [[Damage Types | Electricity]] Damage equal to this Spell's Damage.
+Additionally whenever the target grapples a creature, it deals damage.
+
+<br>
+
+**System:**
+You channel electricity directly into the tip of your fingers.
 
 
