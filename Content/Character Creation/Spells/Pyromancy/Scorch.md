@@ -37,10 +37,12 @@ ___
 
 ___
 
-**System:**
-You channel heat directly into the palm of your hands. This allows you to use your hands for actions such as [[Cauterize]] and whenever you grapple a creature, it takes [[Damage Types | Fire]] Damage equal to this Spell's Damage.
+**Effect:**
+The target's [[Unarmed Strikes]] gain the [[Fire]] Trait and deal additional [[Damage Types | Fire]] Damage equal to this Spell's Damage.
 
 <br>
 
-Additionally your [[Unarmed Strikes]] gain the [[Fire]] Trait and deal additional [[Damage Types | Fire]] Damage equal to this Spell's Damage.
+Additionally they can use their [[Unarmed Strikes]] for [[Cauterize]] and whenever they grapple a creature, it takes damage.
 
+**System:**
+You channel heat directly into the palm of your hands.
