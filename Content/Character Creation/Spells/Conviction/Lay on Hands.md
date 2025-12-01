@@ -37,9 +37,8 @@ ___
 
 ___
 
-**System:**
+**Effect:**
 The target regains a number of Hit Points equal to your Spell Stat.
 
-<br>
-
-You can spend an additional Second on this Spell to change the Range to Touch.
+**System:**
+When you cast this spell, you can spend an additional Second on this Spell to change the Range from Personal to Touch.
