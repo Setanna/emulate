@@ -41,4 +41,8 @@ ___
 
 ___
 
+**Effect:**
+The target takes damage.
+
+**System:**
 You Roll an [[Making an Attack | Attack]] against the target.
