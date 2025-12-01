@@ -43,5 +43,10 @@ ___
 
 <br>
 
+**Effect:**
+The target takes damage.
+
+<br>
+
 **System:**
-You make an [[Making an Attack | Attack]] against a creature within reach. The creature takes 1d6 + your Spell Stat [[Damage Types | Necrotic]] Damage.
+You make an [[Making an Attack | Attack]] against a target within reach.
