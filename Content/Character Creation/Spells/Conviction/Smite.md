@@ -37,5 +37,8 @@ ___
 
 ___
 
+**Effect:**
+The next time the Target would take damage from you, you deal additional damage equal to your Spell Stat and the spell ends.
+
 **System:**
-The next time you would roll Damage for the [[Attack]] Action against your target, you deal additional damage equal to your Spell Stat.
+Until the spell has ended you can not cast this spell again.
