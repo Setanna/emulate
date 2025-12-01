@@ -32,9 +32,14 @@ ___
 
 ___
 
-**System:**
-You add or subtract your Spell Stat to the number of metres they have moved for calculating the [[Circumstance]] Bonus from the [[Momentum]] Trait, or the number of metres they have fallen for calculating the damage taken from [[Falling]].
+**Effect:**
+The target adds or subtracts your Spell Stat to the number of metres they have moved for calculating the [[Circumstance]] Bonus from the [[Momentum]] Trait, or the number of metres they have fallen for calculating the damage taken from [[Falling]].
 
 <br>
 
+**System:**
 You can use this Spell for a Second on your turn, and the next time the target creature would [[Falling | Fall]] or take a [[Momentum]] Action, they gain the benefits of this spell. The Spells duration is changed to 1 round.
+
+<br>
+
+You choose whether or not the target subtrats or adds your Spell Stat when you cast this spell.
