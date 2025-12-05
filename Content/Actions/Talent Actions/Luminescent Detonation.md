@@ -10,7 +10,7 @@ cssclass: pathfinder
 
 <div style="clear:both" />
 
-**Trigger:** Whenever a creature within [[Lighting | Normal Lighting]] of your spell is the target of an Attack Roll.
+**Trigger:** Whenever a creature within [[Lighting | Normal Lighting]] emitted of your spell is the target of an Attack Roll.
 ___
 *A snap of will turns your gathered light into a searing flash*
 
