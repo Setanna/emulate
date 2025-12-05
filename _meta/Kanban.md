@@ -9,6 +9,17 @@ kanban-plugin: board
 - [ ] <details> 
 	<summary> 
 		<b>
+			Actions
+		</b> 
+	</summary>
+	
+	-  [ ] [[Luminescent Detonation]]
+	- Make it scale with amount of spell points used
+	
+	</details>
+- [ ] <details> 
+	<summary> 
+		<b>
 			Armor Shields and Weapons 
 		</b> 
 	</summary> 
