@@ -43,6 +43,6 @@ For each Second spent on this Spell, conjure a small orb of a light up to a maxi
 
 <br>
 
-For each long as this spell is active you gain the following Actions:
+For as long as this spell is active you gain the following Actions:
  -  [[Transfer Spell | Transfer Spell (Light)]]
  - [[Luminescent Detonation | Luminescent Detonation (Light)]]
