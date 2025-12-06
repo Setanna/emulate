@@ -296,6 +296,7 @@ kanban-plugin: board
 		- [ ] Flavor Lines
 		- [ ] Traits with Bright
 		- Make it scale with spell points?
+		- [ ] Make Talent for Lumancy that make all light spells reveal Invisibility
 	
 	</details>
 - [ ] <details> 
