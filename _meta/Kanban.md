@@ -297,6 +297,7 @@ kanban-plugin: board
 		- [ ] Traits with Bright
 		- Make it scale with spell points?
 		- [ ] Make Talent for Lumancy that make all light spells reveal Invisibility
+		- [ ] Make a Talent that lets you use Transfer Spell as a free action whenever you cast a spell
 	
 	</details>
 - [ ] <details> 
