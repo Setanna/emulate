@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-You gain a number of [[Temporary Hitpoints]] equal to your Constitution until the End of the Encounter.
+You gain a number of [[Temporary Hit Points]] equal to your Constitution until the End of the Encounter.
