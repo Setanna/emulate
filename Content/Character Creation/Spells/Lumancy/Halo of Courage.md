@@ -35,7 +35,7 @@ ___
 ___
 
 **Effect:**
-A halo made of pure light float above the target's head. The halo have the [[Lumination | Lumination (10 meters)]] Trait. The target gains a [[Resistance]] Bonus on their [[Saving Throws | Will]] Saving Throws equal to the caster's Spell Stat.
+A halo made of pure light float above the target's head. The halo have the [[Lumination | Lumination (10 meters)]] Trait. The target gains a [[Resistance]] Bonus on their [[Saving Throws | Will]] Saving Throws equal to the caster's Spell Stat. The target becomes [[Immune]] to [[Fear]] effects without the [[Arcane]] Trait.
 
 <br>
 
