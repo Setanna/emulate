@@ -35,7 +35,9 @@ ___
 ___
 
 **Effect:**
-The target's heart is filled with pure light. The target gains a the [[Lumination | Lumination (10 meters)]] Trait The target gains a [[Resistance]] Bonus to their [[Saving Throws | Fortitude]] Saving Throw equal to the caster's Spell Stat. The target is [[immune]] to any [[Disease]] or [[Poison]] without the [[Arcane]] Trait.
+The target's heart is filled with pure light, the target gains a the [[Lumination | Lumination (10 meters)]] Trait and the following benefits:
+ - A [[Resistance]] Bonus to their [[Saving Throws | Fortitude]] Saving Throw equal to the caster's Spell Stat
+ - [[Immunity]] to any [[Disease]] or [[Poison]] without the [[Arcane]] Trait.
 
 <br>
 
