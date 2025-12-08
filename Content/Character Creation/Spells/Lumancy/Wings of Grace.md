@@ -35,7 +35,9 @@ ___
 ___
 
 **Effect:**
-Wings made of pure light sprout from the back of the target., the wings have the [[Lumination | Lumination (10 meters)]] Trait. The target gains a fly speed equal to the caster's Spell Stat in meters. The target gains a [[Resistance]] Bonus to their [[Saving Throws | Reflex]] Saving Throw equal to the caster's Spell Stat.
+Wings made of pure light sprout from the back of the target, the wings have the [[Lumination | Lumination (10 meters)]] Trait. The target gains the following benefits:
+ - A [[Resistance]] Bonus to their [[Saving Throws | Reflex]] Saving Throw equal to the caster's Spell Stat
+ - A fly speed equal to the caster's Spell Stat in meters
 
 <br>
 
