@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Pretty <span style="margin-left: auto;">1 XP</span> </h1>
+<h1> Pretty <span style="margin-left: auto;"> 3 XP </span> </h1>
 
 [[Emotion | Emotion (Awe)]]{.trait}
 
