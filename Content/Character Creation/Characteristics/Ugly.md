@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Ugly <span style="margin-left: auto;">-1 XP</span> </h1>
+<h1> Ugly <span style="margin-left: auto;"> -3 XP </span> </h1>
 
 [[Emotion | Emotion (Disgust)]]{.trait}
 
@@ -15,7 +15,7 @@ cssclass: pathfinder
 
 **Requirements:** You don't have the [[Pretty]] Characteristic
 ___
-*A face so sorrowful and broken, it draws pity from all who see it.*
+*A face so sorrowful and broken, it draws pity from all who see it*
 
 <br>
 

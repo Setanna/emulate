@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Beautiful<span style="margin-left: auto;">4 XP</span> </h1>
+<h1> Beautiful<span style="margin-left: auto;"> 9 XP </span> </h1>
 
 [[Emotion | Emotion (Awe)]]{.trait}
 
@@ -15,7 +15,7 @@ cssclass: pathfinder
 
 **Requirements:** [[Pretty]]
 ___
-*Your radiant beauty commands attention, leaving others breathless in your presence.*
+*Your radiant beauty commands attention, leaving others breathless in your presence*
 
 <br>
 
