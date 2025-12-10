@@ -13,9 +13,9 @@ cssclass: pathfinder
 
 **Requirements:** [[Fate's Forsaken]]
 ___
-*You were never meant to be. And yet, you are.*
+*You were never meant to be. And yet, you are*
 
 <br>
 
 **System:**
-Any effects that would effect you looses the [[Fate]] Trait and any benefits gained from it.
+You gain [[Immunity | Immunity (Fate)]].
