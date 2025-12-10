@@ -22,7 +22,7 @@ Any Creature that can [[Perception | see]] or [[Perception | hear]] you take you
 Resolve any Triggered Actions before continuing with your declared Action. To resolve an Triggered Action simple follow the steps for Taking an Action. If multiple creatures use Triggered Actions resolve in order of Dexterity (Highest to Lowest).
 
 ### 5. Determine Success
-Compare Rolls and determine Success of the Action
+Compare Rolls and determine Success of the Action for each target.
 
 ### 6. Resolve the action
 Do as described in the action, such as moving, applying Conditions or applying Damage.
