@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Hideous <span style="margin-left: auto;">-4 XP</span> </h1>
+<h1> Hideous <span style="margin-left: auto;"> -9 XP </span> </h1>
 
 [[Emotion | Emotion (Disgust)]]{.trait}
 
@@ -15,7 +15,7 @@ cssclass: pathfinder
 
 **Requirements:** [[Ugly]]
 ___
-*Your appearance unsettles others, drawing glances of discomfort or pity.*
+*Your appearance unsettles others, drawing glances of discomfort or pity*
 
 <br>
 
