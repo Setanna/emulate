@@ -18,4 +18,4 @@ ___
 <br>
 
 **System:**
-You loose all [[Fate Dice]] and can not gain any.
+You loose all [[Rules/Mechanics/Fate | Fate Dice]] and can not gain any.

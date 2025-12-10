@@ -18,4 +18,4 @@ ___
 <br>
 
 **System:**
-You gain an Additional [[Fate Dice | Fate Die]].
+You gain an Additional [[Rules/Mechanics/Fate | Fate Die]].
