@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Slow <span style="margin-left: auto;"> -2 XP </span> </h1>
+<h1> Slow <span style="margin-left: auto;"> -4 XP </span> </h1>
 
 [[Flaw]]{.trait}
  
