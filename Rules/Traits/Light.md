@@ -12,4 +12,4 @@ Light Weapons reduce the [[Circumstance]] Penalty from [[Multiattack]] by two fo
 
 <br>
 
-Additionally all Light Weapons also gain the [[Precise]] Trait and you reduce the Action Cost of all [[Attack]] Actions made with Light Weapons by one Second.
+Additionally all Light Weapons also gain the [[Precise]] Trait and you reduce the Second Cost of all [[Attack]] Actions made with Light Weapons by one Second. When making several attacks with different Light Weapons, such as with [[Multiattack]], decrease the Second Cost of the Action for each Weapon to a maximum of 2 Seconds decreased total.

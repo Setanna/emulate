@@ -10,4 +10,4 @@ cssclass: pathfinder
 ___
 
 **System:**
-For each Second spend, reduce your [[Fatigued]] Condition by one.
+For each two Seconds spend, reduce your [[Fatigued]] Condition by one.

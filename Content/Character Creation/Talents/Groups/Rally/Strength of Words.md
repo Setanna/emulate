@@ -14,5 +14,5 @@ ___
 <br>
 
 **System:**
-Whenever you use the [[Content/Actions/Talent Actions/Rally | Rally]] Action, you can use up to 4 additional Seconds on it. 
-For each 2 additional Seconds spent on [[Content/Actions/Talent Actions/Rally | Rally]] in this way, increase your Charisma by one, for the purposes calculating the benefits for that [[Content/Actions/Talent Actions/Rally | Rally]] Action.
+Whenever you use the [[Content/Actions/Talent Actions/Rally | Rally]] Action, you can use up to 5 additional Seconds on it. 
+For each 2 Seconds spent on [[Content/Actions/Talent Actions/Rally | Rally]], increase your Charisma by one, for the purposes calculating the benefits for that [[Content/Actions/Talent Actions/Rally | Rally]] Action.

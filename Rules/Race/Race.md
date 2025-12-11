@@ -41,16 +41,16 @@ All races have a base movement speed of 5, which can be altered depending on the
 
 | Movement Speed | XP Cost |
 | -------------- | ------- |
-| 10             | 10      |
-| 9              | 8       | 
-| 8              | 6       |
-| 7              | 4       |
-| 6              | 2       |
+| 10             | 20      |
+| 9              | 16      | 
+| 8              | 12      |
+| 7              | 8       |
+| 6              | 4       |
 | 5              | 0       |
-| 4              | -2      |
-| 3              | -4      |
-| 2              | -6      |
-| 1              | -8      |
+| 4              | -4      |
+| 3              | -8      |
+| 2              | -12     |
+| 1              | -16     |
 
 <br>
 
