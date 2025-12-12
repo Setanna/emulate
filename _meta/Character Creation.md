@@ -11,15 +11,15 @@ To start character creation the Game Master must first determine what Starting X
 | Example     | XP  |
 | ----------- |:---:|
 | Gutter Rats |  0  |
-| Vagrant     |  4  |
+| Vagrant     |  5  |
 | Commoner    | 10  |
-| Guard       | 19  |
-| Veteran     | 29  |
-| Adventurer  | 44  |
+| Guard       | 20  |
+| Veteran     | 40  |
+| Adventurer  | 80  |
 
 <br>
 
-XP or Experience Points can be used on Races; Backgrounds; Character Traits; Social Bonds; or Talents. When using XP this way deduct the amount detailed in the option chosen. Some options such as [[Gutter Rat]] have a negative XP cost meaning you gain XP for picking that option.
+XP or Experience Points can be used on Races; Backgrounds; Characteristics; Social Bonds; or Talents. When using XP this way deduct the amount detailed in the option chosen. Some options such as [[Gutter Rat]] have a negative XP cost meaning you gain XP for picking that option.
 
 ### Picking a Race
 Once starting XP has been determined a character must select a Race. 
