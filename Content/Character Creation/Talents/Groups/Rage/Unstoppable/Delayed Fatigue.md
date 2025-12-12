@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Delayed <span style="margin-left: auto;"> 4 XP </span> </h1>
+<h1> Delayed Fatigue <span style="margin-left: auto;"> 4 XP </span> </h1>
 
 [[Emotion | Emotion (Anger)]]{.trait}
 
