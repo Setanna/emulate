@@ -5,13 +5,13 @@ cssclass: pathfinder
 
 <h1> Unyielding Rage <span style="margin-left: auto;">8 XP</span> </h1>
 
-[[Defence]]{.trait}
- 
+[[Emotion | Emotion (Anger)]]{.trait}
+
 <div style="clear:both" /> 
 
 **Requirements:** [[Raging Vitality]]; Constitution 4+
 ___
-*Flavor Text*
+*My fury outlasts the pain*
 
 <br>
 

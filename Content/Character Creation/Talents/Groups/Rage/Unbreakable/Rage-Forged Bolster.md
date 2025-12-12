@@ -5,13 +5,13 @@ cssclass: pathfinder
 
 <h1> Rage-Forged Bolster <span style="margin-left: auto;"> 8 XP</span> </h1>
 
-[[Defence]]{.trait}
- 
+[[Emotion | Emotion (Anger)]]{.trait}
+
 <div style="clear:both" /> 
 
 **Requirements:** [[Unyielding Rage]]; Constitution 5+
 ___
-*Flavor Text*
+*Every failure is just fuel for the fire*
 
 <br>
 

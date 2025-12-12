@@ -11,7 +11,7 @@ cssclass: pathfinder
 
 **Requirements:** [[Surge of Fury]]; Strength 2+
 ___
-*Flavor Text*
+*The crash comes after the carnage*
 
 <br>
 

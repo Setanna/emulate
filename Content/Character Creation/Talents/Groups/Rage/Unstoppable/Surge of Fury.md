@@ -11,7 +11,7 @@ cssclass: pathfinder
 
 **Requirements:** [[Rage]]; Strength 1+
 ___
-*Flavor Text*
+*My anger grants another precious second*
 
 <br>
 

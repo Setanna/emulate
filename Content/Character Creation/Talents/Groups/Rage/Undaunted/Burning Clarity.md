@@ -5,7 +5,7 @@ cssclass: pathfinder
 
 <h1> Burning Clarity <span style="margin-left: auto;"> 1 XP</span> </h1>
 
-[[Emotion]]{.trait}
+[[Emotion | Emotion (Anger)]]{.trait}
 
 <div style="clear:both" /> 
 

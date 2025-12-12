@@ -5,8 +5,8 @@ cssclass: pathfinder
 
 <h1> Raging Vitality <span style="margin-left: auto;">8 XP</span> </h1>
 
-[[Defence]]{.trait}
- 
+[[Emotion | Emotion (Anger)]]{.trait}
+
 <div style="clear:both" /> 
 
 **Requirements:** Constitution 3+
