@@ -20,4 +20,4 @@ While you are [[Enraged]], you gain the [[Bolster]] Action. Additionally Your [[
 
 <br>
 
-**Trigger:** When you gain the [[Enraged]] Condition.
+**Trigger:** After you gain the [[Enraged]] Condition.
