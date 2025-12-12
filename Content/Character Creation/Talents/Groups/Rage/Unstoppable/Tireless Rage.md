@@ -9,7 +9,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Rage]]; Strength 3+
+**Requirements:** [[Delayed Fatigue]]; Strength 3+
 ___
 *Rage burns away all exhaustion*
 
