@@ -5,7 +5,7 @@ cssclass: pathfinder
 
 <h1> Rage <span style="margin-left: auto;"> 4 XP</span> </h1>
 
-[[Offence]]{.trait}
+[[Emotion | Emotion (Anger)]]{.trait}
 
 <div style="clear:both" /> 
 
