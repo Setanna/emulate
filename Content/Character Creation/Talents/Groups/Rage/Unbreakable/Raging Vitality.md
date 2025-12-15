@@ -9,7 +9,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** Constitution 3+
+**Requirements:** [[Content/Character Creation/Talents/Groups/Rage/Rage | Rage ]]; Constitution 3+
 ___
 *With every roar of rage, your body steels itself against harm*
 
