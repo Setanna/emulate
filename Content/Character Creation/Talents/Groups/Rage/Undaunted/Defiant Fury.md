@@ -17,9 +17,15 @@ ___
 
 **System:**
 Your [[Rage]] and [[Reactive Rage]] gain the following alternative requirements:
- - You are affected by a source with the [[Fear]] Trait
- - You are affected by a source with the [[Compulsion]] Trait
+ - **Requirement:** You are affected by a source with the [[Emotion | Emotion (Fear)]] Trait
+ - **Requirement:** You are affected by a source with the [[Compulsion]] Trait
 
 <br>
 
-Additionally when you rage you may roll a Recovery Saving Throw against [[Fear]] and [[Compulsion]]
+Your [[Reactive Rage]] gains the following triggers:
+ - **Trigger:** When you would be affected by a source with the [[Emotion | Emotion (Fear)]] Trait
+ - **Trigger:** When you would be affected by a source with the [[Compulsion]] Trait
+
+<br>
+
+Additionally when you rage you may roll a Recovery Saving Throw against [[Emotion | Emotion (Fear)]] and [[Compulsion]]
