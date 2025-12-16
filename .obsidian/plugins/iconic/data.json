@@ -93,14 +93,6 @@
       ],
       "color": "#9664a0"
     },
-    "Rules/Combat": {
-      "icon": "lucide-axe",
-      "unsynced": [
-        "ef88b428abf812c5",
-        "9c4516fa28f7815a"
-      ],
-      "color": "#9664a0"
-    },
     "Rules/Conditions": {
       "icon": "lucide-droplets",
       "color": "#9664a0",
@@ -108,6 +100,21 @@
         "ef88b428abf812c5",
         "9c4516fa28f7815a"
       ]
+    },
+    "Rules/Encounters": {
+      "icon": "lucide-swords",
+      "unsynced": [
+        "9c4516fa28f7815a"
+      ],
+      "color": "#9664a0"
+    },
+    "Rules/Encounters/Combat": {
+      "icon": "lucide-axe",
+      "unsynced": [
+        "ef88b428abf812c5",
+        "9c4516fa28f7815a"
+      ],
+      "color": "#9664a0"
     },
     "Rules/Environment": {
       "icon": "lucide-cloud",

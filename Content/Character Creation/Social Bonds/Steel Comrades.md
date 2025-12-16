@@ -16,8 +16,8 @@ ___
 <br>
 
 **System:**
-You chose any number of creatures as your Bonded Targets, While you are in an [[Encounters | Encounter]] with any of your Bonded Targets, you are immune to any source with the [[Emotion | Emotion (Fear)]] Trait.
+You chose any number of creatures as your Bonded Targets, While you are in an [[Combat| Encounter]] with any of your Bonded Targets, you are immune to any source with the [[Emotion | Emotion (Fear)]] Trait.
 
 <br>
 
-If more than half the amount of your Bonded Targets that are in the [[Encounters | Encounter]] would be knocked [[Unconscious]] or Killed, you loose the benefits of this Social Bond until the End of the Encounter.
+If more than half the amount of your Bonded Targets that are in the [[Combat| Encounter]] would be knocked [[Unconscious]] or Killed, you loose the benefits of this Social Bond until the End of the Encounter.

@@ -7,7 +7,7 @@ cssclass: pathfinder
 Each creature has a set of skills based on the 6 [[Stats]].
 
 ## Take 10 and 20
-When making a Skill Roll outside of an [[Encounters | Encounter]], one can elect to forego the Roll and simply treat the Skill Roll as if the die had rolled 10.
+When making a Skill Roll outside of an [[Combat| Encounter]], one can elect to forego the Roll and simply treat the Skill Roll as if the die had rolled 10.
 
 <br>
 
