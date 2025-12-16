@@ -11,6 +11,8 @@ cssclass: pathfinder
 <div style="clear:both" />
 
 **Requirements:** You have less than or equal to half your Maximum Hit Points Left
+
+**Trigger:** After you would be reduced to less than or equal to half your Maximum Hit Points
 ___
 *When the body falters, fury answers faster than thought*
 
