@@ -21,6 +21,6 @@ Social Encounters are Encounters are Encounters where the Player Character's hav
 
 <br>
 
-Some Encounters can be made up of several smaller Encounters of different types. Such as a Party of Adventurers trying to get into a blocked off mine shaft only to find Kobolds hiding ready to attack.
+Some Encounters can be made up of several smaller Encounters of different types. Such as a Party of Adventurers trying to get into a blocked off mine shaft only to find Kobolds hiding ready to attack. Or the Encounter might involve several Encounters at the same time, such as an Adventuring Party breaking into the Throne Room to try and persuade a king while fighting his guards and trying not to kill any of them.
 
-Some Encounters can even be incredibly long, such as the party traversing through an ancient tomb, where they must be on their guard at all times.
+Some Encounters can even be incredibly long, such as the party traversing through an ancient tomb, where they must be on their guard at all times, while others can be solved in a single roll.  An easy way for the Game Master to determine when an Encounter should end, is to think when would the Party Characters relax and let their guard down?
