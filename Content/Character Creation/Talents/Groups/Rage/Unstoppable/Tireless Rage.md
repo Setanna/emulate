@@ -16,4 +16,9 @@ ___
 <br>
 
 **System:**
-While you are [[Enraged]], you reduce all penalties from the [[Fatigued]] Condition by your Strength to a minimum of 0.
+When you take the [[Rage]] Action, you may spend additional Rage Points, up to your Constitution.
+
+<br>
+
+For each Rage Point expended in this way, reduce your [[Fatigued]] Condition by one.
+
