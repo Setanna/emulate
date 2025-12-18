@@ -16,13 +16,13 @@ ___
 <br>
 
 **Cost:**
-When you use the [[Attack]] Action with the given Trigger. It gains an additional Cost of 2 Rage Points.
+When you use the [[Attack of Opportunity]] Action with the given Trigger. It gains an additional Cost of 2 Rage Points.
 
 <br>
 
 **System:**
-Your [[Attack]] Action gains the following trigger:
+While you are [[Enraged]], your [[Attack of Opportunity]] gains the following trigger:
 
 <br>
 
-**Trigger (The Creature that Triggered Reactive Rage):** After you take the [[Reactive Rage]] Action.
+**Trigger:** After you take damage
