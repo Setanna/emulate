@@ -10,9 +10,11 @@ cssclass: pathfinder
 
 <div style="clear:both" />
 
-**Requirements:** You have less than or equal to half your Maximum Hit Points Left
+**Requirements:** You have 4 or more Rage Points
 
-**Trigger:** After you would be reduced to less than or equal to half your Maximum Hit Points
+**Triggers:**
+ - When you would or take Damage
+ - When you would Roll a Strength Based Skill Check
 ___
 *When the body falters, fury answers faster than thought*
 
