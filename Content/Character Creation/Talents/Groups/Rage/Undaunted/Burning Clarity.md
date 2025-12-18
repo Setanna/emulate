@@ -9,10 +9,12 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
+**Requirements:** [[Content/Character Creation/Talents/Groups/Rage/Rage | Rage ]]
 ___
 *Clarity forged in the furnace of fury*
 
 <br>
 
 **System:**
-Whenever you are [[Enraged]] you gain the [[Iron Will]] Characteristic, if you already have [[Iron Will]] instead double the Bonus it grants.
+Whenever you are [[Enraged]], the [[Enraged]] Condition gains the following benefits:
+ - You gain the [[Iron Will]] Characteristic, if you already have [[Iron Will]] instead double the Bonus it grants.
