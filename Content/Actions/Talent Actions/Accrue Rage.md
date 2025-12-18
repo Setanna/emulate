@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 
-<h1> Accrue Rage <span style="margin-left: auto;"> 0 Seconds </span> </h1>
+<h1> Accrue Rage <span style="margin-left: auto;"> 1 Second </span> </h1>
 
 [[Emotion | Emotion (Anger)]]{.trait}
 
