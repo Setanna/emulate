@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-When you expend [[Rage Points]], reduce your [[Fatigued]] condition by the same amount.
+While you are [[Enraged]] and would gain the [[Fatigued]] Condition, you may expend a number of Rage Points up to your Constitution to reduce the amount of [[Fatigued]] gained by that amount.
