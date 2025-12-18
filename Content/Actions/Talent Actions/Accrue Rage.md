@@ -11,13 +11,15 @@ cssclass: pathfinder
 <div style="clear:both" />
 
 **Triggers:**
-- After you take damage
-- After you deal damage
-- When you roll a Strength Skill Check
+- After you take or deal damage
+- You take an action with the [[Emotion | Emotion (Anger)]] Trait
+- You are affected by a source with the [[Emotion | Emotion (Anger)]] Trait
+
+**Requirements:** [[Rage]]
 ___
-*Flavor Text*
+*Your rage grows, quiet but relentless*
 
 <br>
 
 **System:**
-You gain the [[Enraged | Enraged (1)]] Condition.
+You gain a Rage Point.
