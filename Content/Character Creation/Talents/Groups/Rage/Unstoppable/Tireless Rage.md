@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Tireless Rage <span style="margin-left: auto;"> 8 XP </span> </h1>
+<h1> Tireless Rage <span style="margin-left: auto;"> 6 XP </span> </h1>
 
 [[Emotion | Emotion (Anger)]]{.trait}
 
