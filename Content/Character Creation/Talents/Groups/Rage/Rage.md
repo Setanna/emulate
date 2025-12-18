@@ -13,5 +13,5 @@ cssclass: pathfinder
 ___
 
 **System:**
-You gain the [[Content/Actions/Talent Actions/Rage | Rage]] Action.
+You gain the [[Content/Actions/Talent Actions/Rage | Rage]] and the [[Accrue Rage]] Action.
 
