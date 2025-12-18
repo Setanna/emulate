@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Tireless Rage <span style="margin-left: auto;"> 6 XP </span> </h1>
+<h1> Tireless Rage <span style="margin-left: auto;"> 8 XP </span> </h1>
 
 [[Emotion | Emotion (Anger)]]{.trait}
 
@@ -16,9 +16,4 @@ ___
 <br>
 
 **System:**
-When you take the [[Rage]] Action, you may spend additional Rage Points, up to your Constitution.
-
-<br>
-
-For each Rage Point expended in this way, reduce your [[Fatigued]] Condition by one.
-
+When you expend [[Rage Points]], reduce your [[Fatigued]] condition by the same amount.
