@@ -15,6 +15,11 @@ ___
 
 <br>
 
+**Cost:**
+When you use the [[Attack]] Action with the given Trigger. It gains an additional Cost of 2 Rage Points.
+
+<br>
+
 **System:**
 Your [[Attack]] Action gains the following trigger:
 
