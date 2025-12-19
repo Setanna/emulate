@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-At the start of your turn you can expend 2 Rage Points to Roll a [[Saving Throws#Saving Throw Recovery Save| Fortitude Recovery Saving Throw]].
+At the start of your turn you can expend 2 [[Resources#Rage Points | Rage Points]] to Roll a [[Saving Throws#Saving Throw Recovery Save | Fortitude Recovery Saving Throw]].

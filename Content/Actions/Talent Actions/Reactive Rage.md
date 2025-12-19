@@ -10,7 +10,7 @@ cssclass: pathfinder
 
 <div style="clear:both" />
 
-**Requirements:** You have 4 or more Rage Points
+**Requirements:** You have 4 or more [[Resources#Rage Points | Rage Points]]
 
 **Triggers:**
  - When you would or take Damage
@@ -19,6 +19,10 @@ ___
 *When the body falters, fury answers faster than thought*
 
 <br>
+
+**Cost:**
+This action cost an additional 4 [[Resources#Rage Points | Rage Points]] to use.
+
 
 **System:**
 You gain the [[Enraged]] Condition.

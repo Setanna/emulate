@@ -16,7 +16,7 @@ ___
 <br>
 
 **Cost:**
-When you use the [[Attack of Opportunity]] Action with the given Trigger. It gains an additional Cost of 2 Rage Points.
+When you use the [[Attack of Opportunity]] Action with the given Trigger. It gains an additional Cost of 2 [[Resources#Rage Points | Rage Points]].
 
 <br>
 

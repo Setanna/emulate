@@ -20,4 +20,4 @@ You can ignore any Speed Penalties as long as the source has a DC less than 10 +
 
 <br>
 
-While you are [[Enraged]], at the start of your Turn you can expend a number of Rage Points up to your Strength, to increase your Strength by that amount for the purposes of this Talent until start of your next turn.
+While you are [[Enraged]], at the start of your Turn you can expend a number of [[Resources#Rage Points | Rage Points]] up to your Strength, to increase your Strength by that amount for the purposes of this Talent until start of your next turn.
