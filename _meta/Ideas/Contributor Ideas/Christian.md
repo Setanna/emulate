@@ -17,3 +17,4 @@
 	- "I can do this all day" type shi
 - [ ] Paladin Flight | Holy Wings
 - [ ] Mercies from Pathfinder 1e
+- [ ] Make Undaunted & Unbreakable have some proactive talents or actions
