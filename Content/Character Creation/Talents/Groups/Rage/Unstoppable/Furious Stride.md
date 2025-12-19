@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-Whenever you use the Second or Split Second gained from [[Exert]] on a [[Movement]] Action, you increase your Speed by one for that Action to a maximum of twice your Speed.
+For each Second or Split Second gained from [[Exert]] used on a [[Movement]] Action, you increase your Speed by one for that Action to a maximum of twice your Speed.
