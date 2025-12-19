@@ -15,6 +15,11 @@ ___
 
 <br>
 
+**Cost:**
+When you use the [[Bolster]] Action with the given Trigger. It gains an additional Cost of 1 Rage Point.
+
+<br>
+
 **System:**
 While you are [[Enraged]], you gain the [[Bolster]] Action. Additionally Your [[Bolster]] Action gains the following Trigger:
 
