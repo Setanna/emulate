@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-At the start of your turn you can expend 2 Rage Points to Roll a [[Saving Throws | Recovery Saving Throw (Compulsion & Fear)]].
+At the start of your turn you can expend 2 Rage Points to Roll a [[Saving Throws#Saving Throw Recovery Save| Will Recovery Saving Throw]].
