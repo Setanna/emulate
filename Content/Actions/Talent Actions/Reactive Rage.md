@@ -10,7 +10,7 @@ cssclass: pathfinder
 
 <div style="clear:both" />
 
-**Requirements:** You have 4 or more [[Resources#Rage Points | Rage Points]]
+**Requirements:** You have 2 or more [[Resources#Rage Points | Rage Points]]
 
 **Triggers:**
  - When you would or take Damage
@@ -21,7 +21,7 @@ ___
 <br>
 
 **Cost:**
-This action cost an additional 4 [[Resources#Rage Points | Rage Points]] to use.
+This action cost an additional 2 [[Resources#Rage Points | Rage Points]] to use.
 
 
 **System:**
