@@ -13,5 +13,5 @@ cssclass: pathfinder
 ___
 
 **System:**
-You gain the [[Reactive Rage]] Action.
+You gain the [[Content/Actions/Talent Actions/Reactive Rage | Reactive Rage]] Action.
 
