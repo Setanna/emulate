@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-You ignore penalties to your [[Saving Throws | Fortitude]] Saving Throw
+At the start of your turn you can expend 2 Rage Points to Roll a [[Saving Throws#Saving Throw Recovery Save| Fortitude Recovery Saving Throw]].
