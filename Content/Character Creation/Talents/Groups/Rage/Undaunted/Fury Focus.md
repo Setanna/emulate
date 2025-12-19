@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-You ignore any penalties to your [[Saving Throws | Will]] Saving Throws.
+At the start of your turn you can expend 2 Rage Points to Roll a [[Saving Throws | Recovery Saving Throw (Compulsion & Fear)]].
