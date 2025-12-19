@@ -342,6 +342,7 @@ kanban-plugin: board
 	- [ ] Decimals should be . not ,
 	- [x] Update Traits to be nested properly
 		- [x] Make Enhanced Tables work with Display:inline
+	- [ ] Make all links target specific Headers such as -> [[Emotion#Anger | Emotion (Anger)]]
 	
 	</details>
 - [ ] <details> 
