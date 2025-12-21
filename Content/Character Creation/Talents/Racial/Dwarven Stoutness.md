@@ -11,7 +11,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Dwarf]], [[Size | Small]]
+**Requirements:** [[Dwarf]]; [[Size | Small]]
 ___
 *As heavy and tough as a chunk of metal, and as agile.*
 
