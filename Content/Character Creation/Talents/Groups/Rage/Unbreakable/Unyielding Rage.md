@@ -3,13 +3,13 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Unyielding Rage <span style="margin-left: auto;">8 XP</span> </h1>
+<h1> Unyielding Rage <span style="margin-left: auto;"> 6 XP </span> </h1>
 
 [[Emotion | Emotion (Anger)]]{.trait}
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Raging Vitality]]; Constitution 4+
+**Requirements:** [[Raging Vitality]]; Constitution 2+
 ___
 *My fury outlasts the pain*
 

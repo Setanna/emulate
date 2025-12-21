@@ -3,13 +3,13 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Raging Vitality <span style="margin-left: auto;">8 XP</span> </h1>
+<h1> Raging Vitality <span style="margin-left: auto;"> 4 XP </span> </h1>
 
 [[Emotion | Emotion (Anger)]]{.trait}
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Content/Character Creation/Talents/Groups/Rage/Rage | Rage ]]; Constitution 3+
+**Requirements:** [[Content/Character Creation/Talents/Groups/Rage/Rage | Rage ]]; Constitution 1+
 ___
 *With every roar of rage, your body steels itself against harm*
 

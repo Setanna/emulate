@@ -9,7 +9,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Unyielding Rage]]; Constitution 5+
+**Requirements:** [[Unyielding Rage]]; [[Indomitable]]; Constitution 3+
 ___
 *Flavor Text*
 
