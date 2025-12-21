@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-At the start of your turn you can expend 2 [[Resources#Rage Points | Rage Points]] to Roll a [[Saving Throws#Saving Throw Recovery Save| Will Recovery Saving Throw]].
+Whenever you use the [[Content/Character Creation/Talents/Groups/Rage/Rage | Rage]] Action or the [[Content/Character Creation/Talents/Groups/Rage/Reactive Rage | Reactive Rage]] Reaction, you also Roll a [[Saving Throws#Saving Throw Recovery Save| Will Recovery Saving Throw]].
