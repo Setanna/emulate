@@ -168,7 +168,9 @@ kanban-plugin: board
 	 - [x] [[Elf]]
 	 - Elves should start with [[Beautiful]]
 	 - [ ] [[Orc]]
-	 - [ ] [[Kobold]]
+	 - [ ] [[Kobold]] 
+	 - [ ] Fae
+	 - Make Fae feel like old english fairy tales. Weak to iron, steal names and so on.
 	
 	</details>
 - [ ] <details> 
