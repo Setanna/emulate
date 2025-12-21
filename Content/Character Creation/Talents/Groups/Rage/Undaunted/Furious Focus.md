@@ -9,7 +9,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Burning Clarity]]
+**Requirements:** [[Burning Clarity]]; Wisdom 2+
 ___
 *Anger burns away doubt*
 
