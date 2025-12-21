@@ -17,7 +17,7 @@
   "dateDisplayFormat": "mmmm dd, yyyy",
   "showBacklinks": true,
   "showOutlinks": true,
-  "showDates": true,
+  "showDates": false,
   "combineLinks": false,
   "updateDelay": 3000,
   "excludedParentSelectors": [],
