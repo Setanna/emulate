@@ -9,7 +9,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Reactive Rage]]; [[Burning Clarity]]
+**Requirements:** [[Burning Clarity]]
 ___
 *When fear reaches for your mind, your rage reaches back*
 
