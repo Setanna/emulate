@@ -15,5 +15,5 @@ cssclass: pathfinder
 ___
 
 **System:**
-Your [[Unarmed Strikes]] deal 1d4 bludgeoning damage and count as weapons for actions and talents.
+Your [[Unarmed Strikes]] deal 1d4 bludgeoning damage and count as weapons for Actions and Talents.
 

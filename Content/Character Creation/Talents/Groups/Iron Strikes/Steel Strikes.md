@@ -11,9 +11,13 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Iron Strikes]], Strength +3
+**Requirements:** [[Iron Strikes]], Strength 3+
 ___
 
 **System:**
-Your [[Unarmed Strikes]] deal 1d8 bludgeoning damage.Whenever you Attack you can either give the weapon the [[Piercing | Piercing 2]] or [[Vital Strike | Vital Strike (1d4)]].
+Whenever you make an [[Rules/Traits/Attack | Attack]] Action you can either give the weapon the [[Piercing | Piercing 2]] or [[Vital Strike | Vital Strike (1d4)]] Trait.
+
+<br>
+
+When you remove the [[Rules/Traits/Light | Light]] Trait from your [[Unarmed Strikes]], increase the damage die of your [[Unarmed Strikes]] to 1d8.
 
