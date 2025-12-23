@@ -3,11 +3,11 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Rally the Fallen <span style="margin-left: auto;"> 1 XP</span> </h1>
+<h1> Rally the Fallen <span style="margin-left: auto;"> 1 XP </span> </h1>
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Content/Actions/Talent Actions/Rally | Rally]]
+**Requirements:** [[Content/Actions/Talent Actions/Rally | Rally]]; Charisma 2+
 ___
 *Your words rally the fallen to their feet and lets them face death with a sword in their hand.*
 

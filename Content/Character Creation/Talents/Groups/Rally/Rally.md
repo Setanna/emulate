@@ -7,7 +7,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** Charisma 2+
+**Requirements:** Charisma 1+
 ___
 
 **System:**
