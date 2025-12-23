@@ -34,8 +34,8 @@ All weapons can be thrown as [[Thrown]] Weapons. When Thrown this way the range 
 | ------------------- |:----------:| --------------------------------------------------------------------------------------------------------------------- | ------ | ------ |
 | [[Dagger]]          |    1d4     | [[Finesse]], [[Light]], [[Thrown \| Thrown (10m)]], [[Vital Strike \| Vital Strike (d6)]]                             | 30 cc  | 0.6 kg |
 | [[Parrying Dagger]] |    1d4     | [[Finesse]], [[Light]], [[Thrown \| Thrown (10m)]], [[Vital Strike \| Vital Strike (d4)]], [[Parrying \| Parrying 1]] | 60 cc  | 1.3 kg |
-| [[Club]]            |    1d4     |                                                                                                                       | 9 cc   | 2 kg   |
-| [[Greatclub]]       |    1d6     | [[Heavy]]                                                                                                        | 27 cc  | 6 kg   |
+| [[Club]]            |    1d6     |                                                                                                                       | 9 cc   | 2 kg   |
+| [[Greatclub]]       |    1d8     | [[Heavy]]                                                                                                        | 27 cc  | 6 kg   |
 | [[Staff]]           |    1d4     | [[Parrying \| Parrying 1]]                                                                            | 18 cc  | 3.4 kg |
 | [[Shortsword]]      |    1d6     | [[Finesse]], [[Light]], [[Versatile \| Versatile (p)]]                                                                | 60 cc  | 1.3 kg |
 | [[Handaxe]]         |    1d6     | [[Light]]                                                                                                             | 60 cc  | 1.6 kg |
