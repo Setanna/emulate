@@ -7,6 +7,8 @@ cssclass: pathfinder
 
 [[Emotion | Emotion (Anger)]]{.trait}
 
+[[Ragebound]]{.trait}
+
 <div style="clear:both" /> 
 
 **Requirements:** [[Juggernaut]]
@@ -16,4 +18,4 @@ ___
 <br>
 
 **System:**
-While you are [[Enraged]], you reduce all forced movement effects on you be one meter and increase all forced movement you do to other creatures by one.
+You reduce all forced movement effects on you be one meter and increase all forced movement you do to other creatures by one.

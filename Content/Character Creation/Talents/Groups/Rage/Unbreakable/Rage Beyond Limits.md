@@ -7,6 +7,8 @@ cssclass: pathfinder
 
 [[Emotion | Emotion (Anger)]]{.trait}
 
+[[Ragebound]]{.trait}
+
 <div style="clear:both" /> 
 
 **Requirements:** [[Rage Beyond Death]]; Constitution 4+
@@ -16,6 +18,6 @@ ___
 <br>
 
 **System:**
-While you are [[Enraged]], you do not suffer the [[Slowed | Slowed 2]] Condition from [[Indomitable]] and you can reduce your [[Slowed]] Condition below two.
+You do not suffer the [[Slowed | Slowed 2]] Condition from [[Indomitable]] and you can reduce your [[Slowed]] Condition below two.
 
 

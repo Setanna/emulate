@@ -7,6 +7,8 @@ cssclass: pathfinder
 
 [[Emotion | Emotion (Anger)]]{.trait}
 
+[[Ragebound]]{.trait}
+
 <div style="clear:both" /> 
 
 **Requirements:** [[Juggernaut]]; Strength 4+
@@ -16,7 +18,7 @@ ___
 <br>
 
 **System:**
-While you are [[Enraged]], whenever you would reduce an Enemy to 0 Hit Points or less using an [[Rules/Traits/Attack | Attack]] Action, you gain a Split Second if it is not your turn or a Second if it is your turn.
+Whenever you would reduce an Enemy to 0 Hit Points or less using an [[Rules/Traits/Attack | Attack]] Action, you gain a Split Second if it is not your turn or a Second if it is your turn.
 
 <br>
 

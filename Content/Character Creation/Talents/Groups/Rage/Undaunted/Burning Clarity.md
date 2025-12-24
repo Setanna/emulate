@@ -16,5 +16,5 @@ ___
 <br>
 
 **System:**
-Whenever you are [[Enraged]], the [[Enraged]] Condition gains the following benefits:
+Whenever you would gain the [[Enraged]] Condition, it gains the following benefits:
  - You gain the [[Iron Will]] Characteristic, if you already have [[Iron Will]] instead double the Bonus it grants.

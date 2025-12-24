@@ -7,6 +7,8 @@ cssclass: pathfinder
 
 [[Emotion | Emotion (Anger)]]{.trait}
 
+[[Ragebound]]{.trait}
+
 <div style="clear:both" /> 
 
 **Requirements:** [[Furious Stride]]; Strength 3+
@@ -16,7 +18,7 @@ ___
 <br>
 
 **System:**
-While you are [[Enraged]], you can ignore any Speed Penalties as long as the source has a DC less than 10 + your Strength.
+You can ignore any Speed Penalties as long as the source has a DC less than 10 + your Strength.
 
 <br>
 

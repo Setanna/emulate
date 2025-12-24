@@ -7,6 +7,8 @@ cssclass: pathfinder
 
 [[Emotion | Emotion (Anger)]]{.trait}
 
+[[Ragebound]]{.trait}
+
 <div style="clear:both" /> 
 
 **Requirements:** [[Reactive Rage]]
@@ -21,7 +23,7 @@ When you use the [[Attack of Opportunity]] Action with the given Trigger. It gai
 <br>
 
 **System:**
-While you are [[Enraged]], your [[Attack of Opportunity]] gains the following trigger:
+Your [[Attack of Opportunity]] gains the following trigger:
 
 <br>
 

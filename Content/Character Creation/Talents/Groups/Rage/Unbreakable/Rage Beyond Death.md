@@ -7,6 +7,8 @@ cssclass: pathfinder
 
 [[Emotion | Emotion (Anger)]]{.trait}
 
+[[Ragebound]]{.trait}
+
 <div style="clear:both" /> 
 
 **Requirements:** [[Unyielding Rage]]; [[Indomitable]]; Constitution 3+
@@ -16,5 +18,5 @@ ___
 <br>
 
 **System:**
-While you are [[Enraged]], when damage would reduce your Hit Points to 0 or fewer, you may expend [[Resources#Rage Points | Rage Points]] to reduce that damage by the amount of [[Resources#Rage Points | Rage Points]] expended.
+When damage would reduce your Hit Points to 0 or fewer, you may expend [[Resources#Rage Points | Rage Points]] to reduce that damage by the amount of [[Resources#Rage Points | Rage Points]] expended.
 

@@ -15,6 +15,11 @@ ___
 
 <br>
 
+**Cost:**
+When you use the given Trigger, it gains a Cost of 1 [[Resources#Rage Points | Rage Point]].
+
+<br>
+
 **System:**
 You add the following Triggers to the [[Bolster]] Action:
 
