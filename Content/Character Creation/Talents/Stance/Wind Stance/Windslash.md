@@ -11,7 +11,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** Strength 2
+**Requirements:** Strength 2+
 ___
 *With a slash, the wind becomes your weapon, tearing through anything in its path.*
 

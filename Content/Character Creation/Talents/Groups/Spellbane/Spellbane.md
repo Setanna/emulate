@@ -9,7 +9,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Spellscorn]], Constitution 3+
+**Requirements:** [[Spellscorn]]; Constitution 3+
 ___
 *Your very heart beats in defiance of the arcane.*
 

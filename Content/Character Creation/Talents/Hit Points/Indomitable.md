@@ -9,7 +9,7 @@ cssclass: pathfinder
  
 <div style="clear:both" /> 
 
-**Requirements:** Constitution 3
+**Requirements:** Constitution 3+
 ___
 *Your conviction is your armor.*
 

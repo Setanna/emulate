@@ -9,8 +9,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** Constitution 4+
-**Required Talents:** [[Spellbane]]
+**Requirements:** [[Spellbane]]; Constitution 4+
 ___
 *The magic that strikes you is turned inward, fortifying your body with its power.*
 

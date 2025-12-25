@@ -11,7 +11,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Conviction]], Charisma 3+
+**Requirements:** [[Conviction]]; Charisma 3+
 ___
 *Your certainty radiates outward, making miracles not just possible, but inevitable*
 

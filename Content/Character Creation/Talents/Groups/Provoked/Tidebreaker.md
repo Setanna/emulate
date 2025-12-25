@@ -7,7 +7,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Face the Tide]], Charisma 5+
+**Requirements:** [[Face the Tide]]; Charisma 5+
 ___
 *Even the mightiest waves break against the cliffs*
 

@@ -9,7 +9,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Martial Arts]], Strength +2
+**Requirements:** [[Martial Arts]]; Strength 2+
 ___
 
 **System:**

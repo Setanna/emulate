@@ -42,7 +42,7 @@ ___
 ___
 
 **Effect:**
-All targets within the area must roll a Reflex Saving Throw:
+All targets within the area must Roll a Reflex Saving Throw:
 
 **Critical Success:** The Creature takes no damage
 **Success:** The Creature takes half damage

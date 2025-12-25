@@ -11,7 +11,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Iron Strikes]], Strength 3+
+**Requirements:** [[Iron Strikes]]; Strength 3+
 ___
 
 **System:**

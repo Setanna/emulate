@@ -9,7 +9,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Between All Eyes]] or [[Grand Reveal]], Charisma 3+
+**Requirements:** [[Between All Eyes]] or [[Grand Reveal]]; Charisma 3+
 ___
 *In the chaos of war, you're the one they can't ignore.*
 

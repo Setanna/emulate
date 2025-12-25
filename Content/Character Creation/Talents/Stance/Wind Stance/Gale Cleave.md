@@ -11,7 +11,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Content/Character Creation/Talents/Stance/Wind Stance/Wind Stance|Wind Stance]]; Strength 4
+**Requirements:** [[Content/Character Creation/Talents/Stance/Wind Stance/Wind Stance|Wind Stance]]; Strength 4+
 
 ___
 *A surge of wind explodes from your attack, cleaving through foes like a hurricane.*

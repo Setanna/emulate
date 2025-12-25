@@ -13,7 +13,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Content/Character Creation/Talents/Stance/Wind Stance/Windslash|Windslash]]; Strength 3
+**Requirements:** [[Content/Character Creation/Talents/Stance/Wind Stance/Windslash|Windslash]]; Strength 3+
 
 ___
 *In stillness, the wind amplifies your reach, striking where your weapons cannot.*

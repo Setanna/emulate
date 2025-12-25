@@ -11,7 +11,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** You don't have the [[Brave]] Characteristic.
+**Requirements:** You don't have the [[Brave]] Characteristic
 ___
 *Courage is a scarce resource, and you never really had any*
 

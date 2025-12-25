@@ -7,7 +7,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Content/Actions/Talent Actions/Rally | Rally]], Charisma 2+
+**Requirements:** [[Content/Actions/Talent Actions/Rally | Rally]]; Charisma 2+
 ___
 *Even a whisper, if it lasts long enough, becomes a roar*
 

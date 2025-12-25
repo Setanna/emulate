@@ -11,7 +11,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Halo of Courage]], [[Wings of Grace]] and [[Heart of Purity]]
+**Requirements:** [[Halo of Courage]]; [[Wings of Grace]]; [[Heart of Purity]]
 ___
 
 <div> 

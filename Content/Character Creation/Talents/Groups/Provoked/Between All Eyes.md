@@ -7,7 +7,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[All Eyes On Me]], Charisma 2+
+**Requirements:** [[All Eyes On Me]]; Charisma 2+
 ___
 *Draw their gaze, deny their tactics.*
 

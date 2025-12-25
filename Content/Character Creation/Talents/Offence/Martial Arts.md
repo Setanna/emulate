@@ -11,7 +11,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** Strength +1
+**Requirements:** Strength 1+
 ___
 
 **System:**

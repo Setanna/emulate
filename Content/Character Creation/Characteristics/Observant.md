@@ -9,7 +9,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** Wisdom +1; You don't have the [[Oblivious]] Characteristic
+**Requirements:** Wisdom 1+; You don't have the [[Oblivious]] Characteristic
 ___
 *You notice the small details, always alert to what others might overlook.*
 

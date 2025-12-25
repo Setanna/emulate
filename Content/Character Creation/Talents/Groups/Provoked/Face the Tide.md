@@ -7,7 +7,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Undeniable Presence]], Charisma 4+
+**Requirements:** [[Undeniable Presence]]; Charisma 4+
 ___
 *You think numbers will save you?*
 

@@ -9,7 +9,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** Charisma 1+;
+**Requirements:** Charisma 1+
 ___
 *You’ve sold everything from apples to alibis*
 
