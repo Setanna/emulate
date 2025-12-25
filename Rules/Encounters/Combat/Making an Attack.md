@@ -9,11 +9,11 @@ cssclass: pathfinder
 The Attacker chooses a Target within range (for ranged attacks); or reach (for melee attacks); that they have [[Line of Sight]] to.
 
 ### 1.1 Determine Target Size Difference
-For each size your target is smaller you gain the [[Forceful | Forceful (2)]] Trait; And for each size the target is larger you gain the [[Accurate | Accurate (2)]] Trait.
+For each size your target is smaller you gain the [[Daring | Daring (1)]] Trait; And for each size the target is larger you gain the [[Accurate | Accurate (1)]] Trait.
 
 <br>
 
-Additionally if your target is two sizes larger than you or more, you lose the [[Forceful]] Trait on this attack; And if your target is two sizes smaller or less than you, you lose the [[Accurate]] Trait.
+Additionally if your target is two sizes larger than you or more, you lose the [[Daring]] Trait on this attack; And if your target is two sizes smaller or less than you, you lose the [[Accurate]] Trait.
 
 ### 2. Attack Roll
 The Attacker rolls a d20 and add Strength for melee attacks or Dexterity for ranged attacks.

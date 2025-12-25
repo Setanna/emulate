@@ -8,4 +8,4 @@ An [[Making an Attack | Attack]] with the Accurate Trait reduces the Defender's 
 
 <br>
 
-If the Accurate Trait does not have any value, it instead reduces all the Defender's Combined Armor and Shield value.
+If the Accurate Trait does not have any value, it instead reduces all the Defender's Combined Armor and Shield Value.
