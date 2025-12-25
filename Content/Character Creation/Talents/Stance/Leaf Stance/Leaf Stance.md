@@ -9,7 +9,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** Dexterity 2+
+**Requirements:** Dexterity 2+; Acrobatics 1+
 
 ___
 *Like a leaf in the breeze, each strike carries you to a new place*
