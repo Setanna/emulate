@@ -35,16 +35,17 @@ Elves resemble human but without warts, rashes or any imperfections. As such the
 <br>
 
 **System:**
-Elves start with [[Pretty]]; [[Beautiful]]; [[Calm]] and proficiency in [[Perception]]; and [[Insight]].
+Elves start with [[Pretty]], [[Beautiful]],[[Calm]], [[Skill Proficiency | Skill Proficiency (Perception)]] and [[Skill Proficiency | Skill Proficiency (Insight)]].
 
 
 # XP Distribution
 
-| Name                                                  | XP  |
-| ----------------------------------------------------- |:---:|
-| [[Pretty]]                                            | +1  |
-| [[Beautiful]]                                         | +4  |
-| [[Calm]]                                              |  0  |
-| [[Rules/Stats and Skills/Proficiency \| Proficiency]] | +2  |
-| Total                                                 |  7  |
+| Name                                                    | XP  |
+| ------------------------------------------------------- |:---:|
+| [[Pretty]]                                              | +1  |
+| [[Beautiful]]                                           | +4  |
+| [[Calm]]                                                |  0  |
+| [[Skill Proficiency \| Skill Proficiency (Insight)]]    | +1  |
+| [[Skill Proficiency \| Skill Proficiency (Perception)]] | +1  |
+| Total                                                   |  7  |
 

@@ -9,7 +9,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Dramatic Reveal]], Charisma 2+, Bluff 1+
+**Requirements:** [[Dramatic Reveal]]; [[Skill Focus | Skill Focus (Bluff)]]; Charisma 2+
 ___
 *Grand entrances demand grand misdirection.*
 

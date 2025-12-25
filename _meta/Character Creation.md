@@ -41,13 +41,8 @@ Once a background has been chosen Characteristics are next. Characteristic are t
 ### Picking Social Bonds
 Social Bonds determine what bonds a character might have, such as being a regular at a tavern and getting a discount.
 
-### Picking Proficiencies
-Each character starts Untrained in all skills and trained in Simple Weapons and Light Armor.
-
-
-![[proficiency_table.png]]
-
-To become Proficient in Heavy Armor, a character must first be Proficient in Medium Armor. For Heavy Shields a character must be Proficient in Medium Shields, and Medium Shields require proficiency in Light Shields.
+### Proficiencies
+Each character starts Untrained in all skills and all gear. However the [[Light Armor Proficiency]] and [[Simple Weapon Proficiency]] Talents cost 0 XP. 
 
 ### Picking Ability Scores
 Each Ability Score starts at 0 and can be increased or decreased as shown below. If any choice that has been chosen requires a stat to be a specific number or higher, that stat must be that number, or higher.

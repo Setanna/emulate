@@ -13,7 +13,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Intimidation]] 2+
+**Requirements:** [[Skill Specialization | Skill Specialization (Intimidation)]]
 ___
 *A lotta men didn't, a lotta men died*
 

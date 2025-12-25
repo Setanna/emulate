@@ -33,18 +33,19 @@ Dragonborn tend to be massive and frightening as the dragons they stem from. As 
 <br>
 
 **Racial Talents:**
-Dragonborn start with [[Dragon Scales]], [[Intimidating]], [[Vision#Low-Light Vision \| Low-Light Vision]] and proficiency in [[Intimidation]] and [[Perception]].
+Dragonborn start with [[Dragon Scales]], [[Intimidating]], [[Vision#Low-Light Vision \| Low-Light Vision]], [[Skill Proficiency | Skill Proficiency (Intimidation)]] and [[Skill Proficiency | Skill Proficiency (Perception)]].
 
 # XP Distribution
 
-| Name                                                | XP  |
-| --------------------------------------------------- |:---:|
-| [[Race#Hit Die \| d12 Hit Die]]                     | +8  |
-| [[Race#Movement \| 6 Movement Speed]]               | +4  |
-| [[Intimidating]]                                    | +1  |
-| [[Dragon Scales]]                                   | +2  |
-| [[Rules/Stats and Skills/Proficiency\|Proficiency]] | +2  |
-| [[Vision#Low-Light Vision \| Low-Light Vision]]     | +2  |
-| Total                                               | 19  |
+| Name                                                      | XP  |
+| --------------------------------------------------------- |:---:|
+| [[Race#Hit Die \| d12 Hit Die]]                           | +8  |
+| [[Race#Movement \| 6 Movement Speed]]                     | +4  |
+| [[Intimidating]]                                          | +1  |
+| [[Dragon Scales]]                                         | +2  |
+| [[Skill Proficiency \| Skill Proficiency (Intimidation)]] | +1  |
+| [[Skill Proficiency \| Skill Proficiency (Perception)]]   | +1  |
+| [[Vision#Low-Light Vision \| Low-Light Vision]]           | +2  |
+| Total                                                     | 19  |
 
 

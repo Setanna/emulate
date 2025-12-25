@@ -7,7 +7,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Wall Kick]]; Dexterity 3+; Acrobatics 1+
+**Requirements:** [[Wall Kick]]; [[Skill Focus | Skill Focus (Acrobatics)]]; Dexterity 3+
 ___
 *Flavor Text*
 
