@@ -14,7 +14,7 @@ ___
 <br>
 
 **System:**
-Whenever you take a [[Movement]] Action, you can move across Vertical Surfaces with a Climb DC equal to or less than 10 + your Acrobatics.
+Whenever you take a [[Movement]] Action, you can move across Vertical Surfaces with a Climb DC equal to or less than 10 + your Acrobatics. You can move a number of meters in this way up your Acrobatics.
 
 <br>
 
