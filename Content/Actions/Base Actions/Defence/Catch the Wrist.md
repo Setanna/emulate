@@ -10,7 +10,7 @@ cssclass: pathfinder
 
 <div style="clear:both" />
 
-**Trigger:**  You or your ally within reach is the target of an [[Rules/Traits/Attack | Attack]] Action.
+**Trigger:**  You or your ally within reach is the target of an [[Rules/Traits/Attack | Attack]] Action and the Attacker is within your Reach.
 ___
 
 **System:**
