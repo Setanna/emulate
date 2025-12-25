@@ -1,0 +1,21 @@
+---
+tags: []
+cssclass: pathfinder  
+---
+
+<h1> Basic Language <span style="margin-left: auto;"> 1 XP </span> </h1>
+
+[[Expansive]]{.trait}
+
+<div style="clear:both" /> 
+
+___
+
+**System:**
+You gain a [[Languages | Basic Understanding]] of the chosen Language.
+
+<br>
+
+*When you use a basic language for Actions with the [[Language]] Trait, you suffer a -2 [[Circumstance]] Penalty to all Rolls and DCs of the Action.*
+
+

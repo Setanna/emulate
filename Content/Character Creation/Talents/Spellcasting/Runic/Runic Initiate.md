@@ -9,7 +9,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** Intelligence 2+; Basic Runic
+**Requirements:** [[Basic Language | Basic Language (Runic)]]; Intelligence 2+
 ___
 *Runes of creation and destruction, humming with ancient secrets*
 
@@ -20,4 +20,4 @@ You learn a number of Spells equal to your Intelligence. The Spells must cost 0 
 
 <br>
 
-You trace runes in the air using magical instruments to summon powerful effects. Whenever you cast a Spell learnt from Runic Study, the spell gains the [[Somatic]] and [[Item | Item (Implement)]] Traits; Costs an additional Second; and does not expend any Spell Points. If you only have a Basic Understanding of Runic, all Rolls and DC's from the spell, take a -2 [[Rules/Bonuses and Penalties/Proficiency|Proficiency]] Penalty.
+You trace runes in the air using magical instruments to summon powerful effects. Whenever you cast a Spell learnt from Runic Study, the spell gains the [[Language | Language (Runic)]], [[Somatic]] and [[Item | Item (Implement)]] Traits; Costs an additional Second; and does not expend any Spell Points.

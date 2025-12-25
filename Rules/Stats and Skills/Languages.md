@@ -11,7 +11,7 @@ Languages are build up of 3 proficiencies: Untrained, Basic and Fluent.
 
 <br>
 
-**Basic:** Creatures with a basic understanding of a language, as such they can understand, speak, write or read most of it, some sayings, words and dialects might go over their head. Basic Speech tends to be a bit slower with several stops to think of the right words, as such Creatures using the language takes a -2 [[Circumstance]] Penalty to all Difficulty Checks and all Action Rolls with the [[Language]] Trait.
+**Basic:** Creatures with a basic understanding of a language, as such they can understand, speak, write or read most of it, some sayings, words and dialects might go over their head. Basic Speech tends to be a bit slower with several stops to think of the right words, as such Creatures using the language takes a -2 [[Circumstance]] Penalty to all Rolls and DCs for  [[Language]] Actions.
 
 <br>
 
@@ -27,6 +27,7 @@ Additional language can be bought at Character Creation for 1 XP for a basic Und
 
 ### Possible Languages
 
-| Name   | People    | Description |
-| ------ | --------- | ----------- |
-| Common | Humanoids |             |
+| Name   | People    | Description                                                                                    |
+| ------ | --------- | ---------------------------------------------------------------------------------------------- |
+| Common | Humanoids | A universal language spoken by all civilised creatures                                         |
+| Runic  | -         | Ancient runes humming with power. A language which spoken or written can effect reality itself | 
