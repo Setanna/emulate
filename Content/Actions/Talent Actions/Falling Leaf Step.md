@@ -23,4 +23,4 @@ You remove the [[Prone]] Condition and take the [[Step]] Action.
 
 <br>
 
-While you are in the [[Leaf Stance]] the cost of this Action is reduced to 0 Seconds instead of a Split Second.
+While you are in the [[Content/Character Creation/Talents/Stance/Leaf Stance/Leaf Stance | Leaf Stance]] the cost of this Action is reduced to 0 Seconds instead of a Split Second.
