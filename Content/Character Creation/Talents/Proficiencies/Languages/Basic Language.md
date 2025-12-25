@@ -16,6 +16,6 @@ You gain a [[Languages | Basic Understanding]] of the chosen Language.
 
 <br>
 
-*When you use a basic language for Actions with the [[Language]] Trait, you suffer a -2 [[Circumstance]] Penalty to all Rolls and DCs of the Action.*
+*When you use a basic language for Actions with the [[Language]] Trait, you suffer a -2 [[Rules/Bonuses and Penalties/Proficiency | Proficiency]] Penalty to all Rolls and DCs of the Action.*
 
 
