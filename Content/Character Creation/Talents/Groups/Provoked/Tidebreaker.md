@@ -1,5 +1,5 @@
 ---
-tags: [Martial/Marhsal]
+tags: [Martial/Marshal]
 cssclass: pathfinder  
 ---
 
