@@ -39,7 +39,7 @@ An orb of light floats around the target. The orb has the [[Lumination | Luminat
 <br>
 
 **System:**
-For each Second spent on this Spell, conjure a small orb of a light up to a maximum of your Spell Stat. Each Light counts as it's own Spell.
+For each Second spent on this Spell, conjure a small orb of a light. Each Light counts as it's own Spell. You can have a number of Light Spells active equal to your Spell Stat squared *(Spell Stat x Spell Stat)*.
 
 <br>
 
