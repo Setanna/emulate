@@ -19,8 +19,10 @@ ___
 <br>
 
 **System:**
-Your [[Step]] Action gains the following trigger:
+Your [[Step]] Action gains the following triggers:
 
 <br>
 
-**Trigger:** After you take the [[Attack]] Action.
+**Triggers:** 
+- When you take the [[Attack]] Action.
+- After you take the [[Attack]] Action.
