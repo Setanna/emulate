@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: [Martial/Rogue, Martial/Monk]
 cssclass: pathfinder  
 ---
 

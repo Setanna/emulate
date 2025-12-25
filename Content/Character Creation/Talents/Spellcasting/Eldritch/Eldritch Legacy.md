@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: [Caster/Sorcerer]
 cssclass: pathfinder
 ---
 

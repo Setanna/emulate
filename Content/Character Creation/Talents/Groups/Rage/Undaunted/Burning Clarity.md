@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: [Martial/Barbarian/Undaunted]
 cssclass: pathfinder  
 ---
 

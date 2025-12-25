@@ -64,18 +64,18 @@ Each Ability Score starts at 0 and can be increased or decreased as shown below.
 
 
 ### Picking Talents
-Talents are the meat of a Character, they determine what a character can and what a character can't do. Examples of Character Archetypes below show their related talents.
+Talents are the meat of a Character, they determine what a character can and what a character can't do. Examples of Character Classes below show their related talents.
 
+| Classes   | Talents                                                                                                                                         |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| Barbarian | [[Content/Character Creation/Talents/Groups/Rage/Rage \| Rage]], [[Advanced Weapon Proficiency]], [[Skill Focus \| Skill Focus (Intimidation)]] |
+| Marshal   | [[Content/Character Creation/Talents/Groups/Rally/Rally \| Rally]], [[Skill Focus \| Skill Focus (Diplomacy)]]                                  |
+| Monk      | [[Martial Arts]], [[Iron Strikes]], [[Ironskin]]                                                                                                |
 
-| Archetype  | Talents                                                                |
-| ---------- | ---------------------------------------------------------------------- |
-| Archer     |                                                                        |
-| Arbalester |                                                                        |
-| Barbarian  | [[Content/Character Creation/Talents/Groups/Rage/Rage \| Rage]], [[Medium Armor Training]], [[Advanced Weapon Training]] |
-| Marshal    |                                                                        |
+Each Talent is tagged with a Class (Except for Proficiency and racial talents). Some Talents also have an Archetype they fit within the given class.
 
 ## Gaining Experience Points
 When overcoming challenges, whether defeating a powerful foe in battle, picking a nearly impossible lock or rallying a militia, the Player Characters gain Experience Points. These newly gained Experience Points can only be spent on Ability Scores, Proficiencies and Talents. At the discretion of the Game Master a Player Character can gain or loose Characteristics or Social Bonds, they must still pay the cost.
 
-## Redundant Proficiencies
-In some cases you can choose a Background and Race which both grant Proficiency in Perception. In such a case you can refund one of the proficiencies as per the Proficiency Table.
+## Redundant Talents
+In some cases you can choose a Background and Race which both grant the same Talent. In such a case you can refund one of the talents, gaining the XP it would otherwise have cost.
