@@ -7,7 +7,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** Dexterity 1+
+**Requirements:** [[Wall Kick]]; Dexterity 3+
 ___
 *Flavor Text*
 
