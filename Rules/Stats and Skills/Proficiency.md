@@ -7,34 +7,44 @@ cssclass: pathfinder
 Proficiency determines what a character is good at and what a character is bad at.
 
 ### Armor & Shields
-There are 3 types of armor and shields; Light, Medium and Heavy. Light armor requires no proficiency, generally weighing little to nothing and not covering enough to restrict ones mobility.
+There are 3 types of armor and shields; Light, Medium and Heavy.
 
 <br>
 
-When wearing medium armor without the proper proficiency the wearer concurs a -2 Proficiency Penalty to their Armor Value. For heavy armor this penalty is increased to -4.
+When wearing light armor without the proper Proficiency the wearer gains a -1 [[Rules/Bonuses and Penalties/Proficiency | Proficiency]] Penalty to their Armor Value. For medium armor this is increase to -2 and for heavy armor it is increased to -4.
 
 <br>
 
-When using a light or medium shield without the proper proficiency the wielder concurs a -1 Proficiency Penalty to their Shield Value. For Heavy Shields this penalty is increased to -2.
+When using a light or medium shield without the proper proficiency the wielder concurs a -1 [[Rules/Bonuses and Penalties/Proficiency | Proficiency]] Penalty to their Shield Value. For heavy shields this penalty is increased to -2.
 
 ### Weapons
-There are 2 types of weapons; Simple and Advanced. Simple weapons require no proficiency, being simple enough anyone can swing them or point them at the enemy.
+There are 2 types of weapons; Simple and Advanced.
 
 <br>
 
-When making an attack Roll with an Advanced weapon of which the attacker is not proficient, they concur a -2 Proficiency Penalty.
+When making an attack Roll with a weapon of which the attacker is not proficient, they concur a -2 [[Rules/Bonuses and Penalties/Proficiency | Proficiency]] Penalty.
 
 ### Skills
-Rolling a Skill Roll without proper proficiency concurs a -2 Proficiency Penalty. Gaining a +1 Proficiency Bonus or higher on a Skill grants additional benefits as shown in the respective Skill.
+Rolling a Skill Roll without proper proficiency concurs a -2 Proficiency Penalty. 
 
-
-### Upgrading Proficiency
-To increase proficiency, it costs XP as defined as the table below:
-
-![[proficiency_table.png]]{width=100%}
-
-Before being able to purchase Heavy Armor Proficiency one must have Medium Armor Proficiency.
+### Languages
+Languages are build up of 3 proficiencies: Untrained, Basic and Fluent.
 
 <br>
 
-Before being able to Purchase Medium Shield Proficiency one must have Light Shield Training. The same is True for Heavy and Medium Shield Training.
+**Untrained:** Creatures untrained in a language can't understand, speak, write or read it.
+
+<br>
+
+**Basic:** Creatures with a basic understanding of a language, as such they can understand, speak, write or read most of it, some sayings, words and dialects might go over their head. Basic Speech tends to be a bit slower with several stops to think of the right words, as such Creatures using the language takes a -2 [[Rules/Bonuses and Penalties/Proficiency | Proficiency]] Penalty to all Rolls and DCs for  [[Language]] Actions.
+
+<br>
+
+**Fluent:** Creatures fluent in a language, can speak it without thinking twice and can most common sayings and dialects. 
+
+##### Possible Languages
+
+| Name   | People    | Description                                                                                    |
+| ------ | --------- | ---------------------------------------------------------------------------------------------- |
+| Common | Humanoids | A universal language spoken by all civilised creatures                                         |
+| Runic  | -         | Ancient runes humming with power. A language which spoken or written can effect reality itself | 
