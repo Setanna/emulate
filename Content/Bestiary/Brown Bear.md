@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Brown Bear <span style="margin-left: auto;">42 XP</span> </h1>
+<h1> Brown Bear <span style="margin-left: auto;">46 XP</span> </h1>
 
 [[Size | Large]]{.size-trait}
 
@@ -38,15 +38,20 @@ ___
 
 # XP Distribution
 
-| Name                                            | XP  |
-| ----------------------------------------------- |:---:|
-| [[Race#Size  \| Large]]                         | +4  |
-| [[Race#Hit Die \| d12 Hit Die]]                 | +8  |
-| [[Race#Movement \| 5 Movement Speed]]           | +2  |
-| Ability Scores                                  | +4  |
-| Proficiencies                                   | +6  |
-| [[Vision#Low-Light Vision \| Low-Light Vision]] | +2  |
-| [[Natural Armor \| Natural Armor (2)]]          | +4  |
-| [[Natural Attack \| Claw (1d6, Light)]]         | +6  |
-| [[Natural Attack \| Bite (1d8)]]                | +6  |
-| Total                                           | 42  |
+| Name                                                      | XP  |
+| --------------------------------------------------------- |:---:|
+| [[Race#Size  \| Large]]                                   | +4  |
+| [[Race#Hit Die \| d12 Hit Die]]                           | +8  |
+| [[Race#Movement \| 5 Movement Speed]]                     | +2  |
+| [[Vision#Low-Light Vision \| Low-Light Vision]]           | +2  |
+| [[Natural Armor \| Natural Armor (2)]]                    | +4  |
+| [[Natural Attack \| Claw (1d6, Light)]]                   | +6  |
+| [[Natural Attack \| Bite (1d8)]]                          | +6  |
+| [[Skill Proficiency \| Skill Proficiency (Athletics)]]    | +1  |
+| [[Skill Proficiency \| Skill Proficiency (Climb)]]        | +1  |
+| [[Skill Proficiency \| Skill Proficiency (Swim)]]         | +1  |
+| [[Skill Proficiency \| Skill Proficiency (Perception)]]   | +1  |
+| [[Skill Proficiency \| Skill Proficiency (Survival)]]     | +1  |
+| [[Skill Proficiency \| Skill Proficiency (Intimidation)]] | +1  |
+| Ability Scores                                            | +8  | 
+| Total                                                     | 46  |

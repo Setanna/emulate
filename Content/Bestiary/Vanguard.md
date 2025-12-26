@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Vanguard <span style="margin-left: auto;"> 15 XP</span> </h1>
+<h1> Vanguard <span style="margin-left: auto;"> 27 XP</span> </h1>
 
 [[Size | Medium]]{.size-trait}
 
@@ -41,13 +41,14 @@ The Vanguard protects the backline valiantly with [[Block]] and [[Attack of Oppo
 
 # XP Distribution
 
-| Name                                  | XP  |
-| ------------------------------------- |:---:|
-| [[Race#Size  \| Medium]]              |  0  |
-| [[Race#Hit Die \| d8]]                |  0  |
-| [[Race#Movement \| 5 Movement Speed]] |  0  |
-| [[Brave]]                             | +2  | 
-| Ability Scores                        | +9  |
-| Proficiencies                         | +2  |
-| Gear Cost                             | +2  |
-| Total                                 | 15  |
+| Name                                                    | XP  |
+| ------------------------------------------------------- |:---:|
+| [[Race#Size  \| Medium]]                                |  0  |
+| [[Race#Hit Die \| d8]]                                  |  0  |
+| [[Race#Movement \| 5 Movement Speed]]                   |  0  | 
+| [[Brave]]                                               | +2  |
+| [[Skill Proficiency \| Skill Proficiency (Athletics)]]  | +1  |
+| [[Skill Proficiency \| Skill Proficiency (Perception)]] | +1  |
+| Gear Cost                                               | +5  |
+| Ability Scores                                          | +18 |
+| Total                                                   | 27  |

@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Arbalest <span style="margin-left: auto;"> 10 XP</span> </h1>
+<h1> Arbalest <span style="margin-left: auto;"> 12 XP</span> </h1>
 
 [[Size | Medium]]{.size-trait}
 
@@ -41,12 +41,13 @@ The Arbalest tends to stick to the backlines, picking off high priority targets 
 
 # XP Distribution
 
-| Name                                  | XP  |
-| ------------------------------------- |:---:|
-| [[Race#Size  \| Medium]]              |  0  |
-| [[Race#Hit Die \| d8]]                |  0  |
-| [[Race#Movement \| 5 Movement Speed]] |  0  |
-| Ability Scores                        | +7  |
-| Proficiencies                         | +2  |
-| Gear Cost                             | +1  |
-| Total                                 | 10  |
+| Name                                                    | XP  |
+| ------------------------------------------------------- |:---:|
+| [[Race#Size  \| Medium]]                                |  0  |
+| [[Race#Hit Die \| d8]]                                  |  0  |
+| [[Race#Movement \| 5 Movement Speed]]                   |  0  |
+| [[Skill Proficiency \| Skill Proficiency (Acrobatics)]] | +1  | 
+| [[Skill Proficiency \| Skill Proficiency (Perception)]] | +1  |
+| Gear Cost                                               | +1  |
+| Ability Scores                                          | +9  |
+| Total                                                   | 12  |

@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Peasant <span style="margin-left: auto;">1 XP</span> </h1>
+<h1> Peasant <span style="margin-left: auto;"> 3 XP </span> </h1>
 
 [[Size | Medium]]{.size-trait}
 
@@ -40,12 +40,13 @@ The Peasant tends to avoid combat, but if confronted will use whatever weapon is
 
 # XP Distribution
 
-| Name                                  | XP  |
-| ------------------------------------- |:---:|
-| [[Race#Size  \| Medium]]              |  0  |
-| [[Race#Hit Die \| d8]]                |  0  |
-| [[Race#Movement \| 5 Movement Speed]] |  0  |
-| Ability Scores                        |  0  | 
-| Proficiencies                         |  0  |
-| [[Commoner \| Commoner Background]]   |  1  |
-| Total                                 |  1  |
+| Name                                                           | XP  |
+| -------------------------------------------------------------- |:---:|
+| [[Race#Size  \| Medium]]                                       |  0  |
+| [[Race#Hit Die \| d8]]                                         |  0  |
+| [[Race#Movement \| 5 Movement Speed]]                          |  0  |
+| [[Commoner \| Commoner Background]]                            |  1  |
+| [[Skill Proficiency \| Skill Proficiency (Chosen Profession)]] | +1  |
+| [[Skill Focus \| Skill Focus (Chosen Profession)]]             | +2  |
+| Ability Scores                                                 |  0  |
+| Total                                                          |  1  |
