@@ -15,7 +15,7 @@ cssclass: pathfinder
 ___
 
 **System:**
-Whenever you make an [[Rules/Traits/Attack | Attack]] Action you can either give the weapon the [[Piercing | Piercing 2]] or [[Vital Strike | Vital Strike (1d4)]] Trait.
+Whenever you make an [[Rules/Traits/Attack | Attack]] Action you can either give the weapon the [[Piercing | Piercing 2]] or [[Vital Strike]] Trait.
 
 <br>
 
