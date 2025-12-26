@@ -1,5 +1,5 @@
 ---
-tags: [Martial/Monk/Iron Body]
+tags: [Martial/Monk/Iron_Body]
 cssclass: pathfinder  
 ---
 
