@@ -7,7 +7,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** Constitution 1+; Wisdom 1+
+**Requirements:** [[Martial Arts]]; Constitution 1+; Wisdom 1+
 ___
 *Flavor Text*
 
