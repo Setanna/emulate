@@ -16,7 +16,7 @@ cssclass: pathfinder
 ___
 
 **System:**
-You roll [[Athletics]] against the creature you are [[Grappling]] or [[Grappled]] by. If you roll against the creature [[Grappling]] you, the creature can end the condition before you roll to not be moved, doing this counteracts the action and no seconds are spent.
+You Roll [[Athletics]] against the creature you are [[Grappling]] or [[Grappled]] by. If you Roll against the creature [[Grappling]] you, the creature can end the condition before you Roll to not be moved, doing this counteracts the action and no seconds are spent.
 
 <br>
 
