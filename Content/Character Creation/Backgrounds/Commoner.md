@@ -15,4 +15,4 @@ ___
 <br>
 
 **System:**
-You start with 100 Copper Coins; [[Clothes |Common Clothes]]; and you gain Proficiency with a [[Skills | Profession Skill]] of your choice.
+You start with 100 Copper Coins; [[Clothes |Common Clothes]]; and you gain [[Skill Proficiency]] with a [[Skills | Profession Skill]] of your choice.

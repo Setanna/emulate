@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-You start with [[Clothes | Common Clothes]]; Proficiency in [[Perception]] and [[Profession | Profession (Sailor)]]; and 5 Silver Coins.
+You start with [[Clothes | Common Clothes]]; [[Skill Proficiency | Skill Proficiency (Perception)]]; [[Skill Proficiency | Skill Proficiency (Profession (Sailor))]] and 5 Silver Coins.

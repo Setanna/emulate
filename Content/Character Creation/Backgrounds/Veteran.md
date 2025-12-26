@@ -16,11 +16,7 @@ ___
 <br>
 
 **System:**
-You increase the Starting Coins of one of your backgrounds by 5 Silver Coins; And you gain a +1 [[Rules/Bonuses and Penalties/Proficiency|Proficiency]] Bonus on up to 2 [[Rules/Stats and Skills/Proficiency| Proficiencies]] gained from the background. 
-
-<br>
-
-If the chosen background doesn't grant [[Rules/Stats and Skills/Proficiency|Proficiencies]] or only grants one, you can instead apply the bonus or bonuses to any other Skill.
+You increase the Starting Coins of one of your backgrounds by 5 Silver Coins; And you gain a [[Skill Focus]] on up to 2 [[Rules/Stats and Skills/Proficiency| Proficiencies]] gained from the background. 
 
 <br>
 

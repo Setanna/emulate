@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-You start with [[Clothes | Common Clothes]]; 10 Silver Coins; Proficiency in [[Intimidation]] and [[Diplomacy]]; and the [[Rally]] Action.
+You start with [[Clothes | Common Clothes]]; [[Skill Proficiency | Skill Proficiency (Intimidation)]]; [[Skill Proficiency | Skill Proficiency (Diplomacy)]]; [[Content/Character Creation/Talents/Groups/Rally/Rally | Rally]] and 10 Silver Coins.

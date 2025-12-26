@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-You start with 5 Silver Coins; [[Clothes | Common Clothes]]; Proficiency in [[Diplomacy]] and [[Bluff]].
+You start with 5 Silver Coins; [[Clothes | Common Clothes]]; [[Skill Proficiency | Skill Proficiency (Diplomacy)]] and [[Skill Proficiency | Skill Proficiency (Bluff)]].

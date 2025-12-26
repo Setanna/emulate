@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-You start with 5 Silver Coins; [[Clothes | Common Clothes]]; and you gain Proficiency with a [[Skills | Perform Skill]] of your choice.
+You start with 5 Silver Coins; [[Clothes | Common Clothes]]; and you gain [[Skill Proficiency]] with a [[Skills | Perform Skill]] of your choice.

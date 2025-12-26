@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-You start with 500 Copper Coins; [[Clothes | Common Clothes]]; Proficiency in [[Perception]] and [[Survival]]; and a [[Shortbow]] or [[Longbow]].
+You start with 500 Copper Coins; [[Clothes | Common Clothes]]; [[Skill Proficiency | Skill Proficiency (Perception)]]; [[Skill Proficiency | Skill Proficiency (Survival)]].
