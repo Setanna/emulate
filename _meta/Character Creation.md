@@ -44,6 +44,10 @@ Social Bonds determine what bonds a character might have, such as being a regula
 ### Proficiencies
 Each character starts Untrained in all skills and all gear. However the [[Light Armor Proficiency]] and [[Simple Weapon Proficiency]] Talents cost 0 XP. 
 
+<br>
+
+Additionally each creature starts with the [[Basic Language | Basic Language (Common)]] and [[Fluent Language | Fluent Language (Common)]].
+
 ### Picking Ability Scores
 Each Ability Score starts at 0 and can be increased or decreased as shown below. If any choice that has been chosen requires a stat to be a specific number or higher, that stat must be that number, or higher.
 
