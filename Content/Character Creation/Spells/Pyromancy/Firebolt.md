@@ -9,8 +9,6 @@ cssclass: pathfinder
 
 [[Arcane]]{.trait}
 
-[[Offence]]{.trait}
-
 [[Reckless]]{.trait}
 
 [[Fire]]{.trait}

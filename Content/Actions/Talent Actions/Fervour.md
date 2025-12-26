@@ -6,6 +6,7 @@ cssclass: pathfinder
 
 <h1> Fervour <span style="margin-left: auto;"> 0 Seconds </span> </h1>
 
+[[Reactive]]{.trait}
 
 <div style="clear:both" />
 

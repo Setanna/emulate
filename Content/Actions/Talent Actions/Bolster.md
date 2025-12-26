@@ -6,8 +6,6 @@ cssclass: pathfinder
 
 <h1> Bolster <span style="margin-left: auto;"> 1 Second </span> </h1>
 
-[[Defence]]{.trait}
-
 <div style="clear:both" />
 
 ___

@@ -5,8 +5,6 @@ cssclass: pathfinder
 
 <h1> Serpent's Stance <span style="margin-left: auto;"> 1 Second </span> </h1>
 
-[[Offence]]{.trait}
-
 [[Stance]]{.trait}
 
 <div style="clear:both" /> 

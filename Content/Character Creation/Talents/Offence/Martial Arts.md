@@ -5,8 +5,6 @@ cssclass: pathfinder
 
 <h1> Martial Arts<span style="margin-left: auto;"> 1 XP</span> </h1>
 
-[[Offence]]{.trait}
-
 [[Finesse]]{.trait}
 
 <div style="clear:both" /> 

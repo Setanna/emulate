@@ -7,8 +7,6 @@ cssclass: pathfinder
 
 [[Resonance]]{.trait}
 
-[[Defence]]{.trait}
-
 <div style="clear:both" /> 
 
 **Requirements:** Strength 1+

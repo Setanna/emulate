@@ -5,8 +5,6 @@ cssclass: pathfinder
 
 <h1> Spellbane <span style="margin-left: auto;">6 XP</span> </h1>
 
-[[Defence]]{.trait}
-
 <div style="clear:both" /> 
 
 **Requirements:** [[Spellscorn]]; Constitution 3+

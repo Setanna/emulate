@@ -6,8 +6,6 @@ cssclass: pathfinder
 
 <h1> Riposte and Relieve <span style="margin-left: auto;"> Reaction </span> </h1>
 
-[[Defence]]{.trait}
-
 <div style="clear:both" />
 
 ___

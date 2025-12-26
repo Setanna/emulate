@@ -7,8 +7,6 @@ cssclass: pathfinder
 
 [[Finesse]]{.trait}
 
-[[Offence]]{.trait}
-
 <div style="clear:both" /> 
 
 **Requirements:** [[Iron Strikes]]; Strength 3+

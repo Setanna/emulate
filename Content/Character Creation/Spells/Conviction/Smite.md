@@ -9,8 +9,6 @@ cssclass: pathfinder
 
 [[Arcane]]{.trait}
 
-[[Offence]]{.trait}
-
 <div style="clear:both" /> 
 
 **Requirements:** [[Conviction]]

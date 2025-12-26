@@ -6,7 +6,7 @@ cssclass: pathfinder
 
 <h1> Take Cover <span style="margin-left: auto;"> Split Second </span> </h1>
 
-[[Defence]]{.trait}
+[[Reactive]]{.trait}
 
 <div style="clear:both" />
 

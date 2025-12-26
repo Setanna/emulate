@@ -5,8 +5,6 @@ cssclass: pathfinder
 
 <h1> Twing Fangs <span style="margin-left: auto;"> 8 XP </span> </h1>
 
-[[Offence]]{.trait}
-
 <div style="clear:both" /> 
 
 **Requirements:** Dexterity 4+

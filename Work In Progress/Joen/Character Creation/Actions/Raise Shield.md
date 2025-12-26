@@ -6,8 +6,6 @@ cssclass: pathfinder
 
 <h1> Raise Shield <span style="margin-left: auto;"> Split Second </span> </h1>
 
-[[Defence]]{.trait}
-
 [[Rules/Traits/Item| Item (Shield)]]{.trait}
  
 <div style="clear:both" />

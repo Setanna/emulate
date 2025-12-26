@@ -5,8 +5,6 @@ cssclass: pathfinder
 
 <h1> Gale Cleave <span style="margin-left: auto;">4 XP</span> </h1>
 
-[[Offence]]{.trait}
-
 [[Finesse]]{.trait}
 
 <div style="clear:both" /> 

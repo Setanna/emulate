@@ -5,8 +5,6 @@ cssclass: pathfinder
 
 <h1> Iron Breath <span style="margin-left: auto;"> 4 XP</span> </h1>
 
-[[Defence]]{.trait}
-
 <div style="clear:both" /> 
 
 **Requirements:** [[Ironskin]]; Constitution 1+

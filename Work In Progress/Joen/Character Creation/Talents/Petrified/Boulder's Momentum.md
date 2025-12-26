@@ -5,8 +5,6 @@ cssclass: pathfinder
 
 <h1> Boulder's Momentum <span style="margin-left: auto;">2 XP</span> </h1>
 
-[[Defence]]{.trait}
-
 <div style="clear:both" /> 
 
 **Requirements:** Strength 2+, [[Stoneclad Form]]

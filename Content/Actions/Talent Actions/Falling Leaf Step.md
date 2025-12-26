@@ -5,6 +5,8 @@ cssclass: pathfinder
 
 <h1> Falling Leaf Step <span style="margin-left: auto;">Split Second </span> </h1>
 
+[[Reactive]]{.trait}
+
 [[Movement]]{.trait}
 
 <div style="clear:both" /> 

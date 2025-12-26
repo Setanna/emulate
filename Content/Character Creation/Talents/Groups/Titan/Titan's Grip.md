@@ -5,8 +5,6 @@ cssclass: pathfinder
 
 <h1> Titan's Grip <span style="margin-left: auto;"> 6 XP</span> </h1>
 
-[[Offence]]{.trait}
-
 <div style="clear:both" /> 
 
 **Requirement:** [[Titanborn]]; Strength 4+

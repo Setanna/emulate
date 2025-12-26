@@ -5,8 +5,6 @@ cssclass: pathfinder
 
 <h1> One with Stone <span style="margin-left: auto;">4 XP</span> </h1>
 
-[[Defence]]{.trait}
-
 [[Finesse]]{.trait}
 
 <div style="clear:both" /> 

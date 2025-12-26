@@ -5,8 +5,6 @@ cssclass: pathfinder
 
 <h1> Eater of Magic <span style="margin-left: auto;">9 XP</span> </h1>
 
-[[Defence]]{.trait}
-
 <div style="clear:both" /> 
 
 **Requirements:** [[Spellbane]]; Constitution 4+

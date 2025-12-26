@@ -15,5 +15,5 @@ ___
 <br>
 
 **System:**
-Whenever you would be able to take a [[Defence | Defensive]] Reaction, you can decide to take the reaction, after the die Roll has been revealed.
+Whenever you would be able to take a Reaction, you can decide to take the reaction, after the die Roll has been revealed.
 

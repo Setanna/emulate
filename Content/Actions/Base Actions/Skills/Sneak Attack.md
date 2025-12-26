@@ -6,7 +6,7 @@ cssclass: pathfinder
 
 <h1> Sneak Attack <span style="margin-left: auto;"> 3 Seconds </span> </h1>
 
-[[Rules/Traits/Attack]]{.trait}
+[[Rules/Traits/Attack | Attack]]{.trait}
 
 [[Skill | Skill (Stealth)]]{.trait}
 

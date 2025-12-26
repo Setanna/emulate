@@ -3,11 +3,9 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Petrifying Gaze<span style="margin-left: auto;"> 10 XP</span> </h1>
+<h1> Petrifying Gaze <span style="margin-left: auto;"> 10 XP</span> </h1>
 
 [[Birthright]]{.trait}
-
-[[Offence]]{.trait}
 
 [[Gaze]]{.trait}
 

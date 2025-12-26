@@ -17,6 +17,6 @@ Roll a [[Bluff]] Roll and choose an Action. The next time you would take the cho
 
 <br>
 
-**Critical Success:** The creature doesn't know what action is targeting it. It can still use [[Defence | Defensive]] Reactions.
+**Critical Success:** The creature doesn't know what action is targeting it. It can still use Reactions.
 **Success:** The creature knows what action is targeting it, but not what Traits the action has.
 **Fail:** The creature knows what action is targeting them.

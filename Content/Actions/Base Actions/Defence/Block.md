@@ -6,7 +6,7 @@ cssclass: pathfinder
 
 <h1> Block <span style="margin-left: auto;"> Split Second </span> </h1>
 
-[[Defence]]{.trait}
+[[Reactive]]{.trait}
 
 [[Rules/Traits/Item| Item (Shield)]]{.trait}
 

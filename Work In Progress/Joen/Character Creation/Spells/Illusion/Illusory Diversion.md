@@ -9,8 +9,6 @@ cssclass: pathfinder
 
 [[Arcane]]{.trait}
 
-[[Defence]]{.trait}
-
 [[Focus]]{.trait}
 
 <div style="clear:both" /> 

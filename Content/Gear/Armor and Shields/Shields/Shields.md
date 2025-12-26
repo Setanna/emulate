@@ -29,7 +29,7 @@ Dexterity Penalty is applied directly to ones Dexterity Score, lowering it while
 
 <br>
 
-If a creature doesn't meet the Strength Requirement for a Shield they can't take any [[Defence | Defensive]] Reactions using the shield.
+If a creature doesn't meet the Strength Requirement for a Shield they can't take any Reactions using the shield.
 
 ### Don and Doff
 To gain the benefits of a shield it must be donned. It takes 1 actions to don light shields, 3 actions to don medium shields and 5 actions to don heavy shields. 

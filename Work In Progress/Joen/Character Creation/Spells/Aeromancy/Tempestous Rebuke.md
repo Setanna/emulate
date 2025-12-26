@@ -9,8 +9,6 @@ cssclass: pathfinder
 
 [[Arcane]]{.trait}
 
-[[Defence]]{.trait}
-
 [[Electricity]]{.trait}
 
 [[Sonic]]{.trait}

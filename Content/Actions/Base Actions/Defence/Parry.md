@@ -6,11 +6,9 @@ cssclass: pathfinder
 
 <h1> Parry <span style="margin-left: auto;"> Split Second </span> </h1>
 
-[[Defence]]{.trait}
-
 [[Rules/Traits/Item| Item (Weapon or Light; Medium Shield)]]{.trait}
 
-[[Finesse]]{.trait}
+[[Reactive]]{.trait}
 
 <div style="clear:both" />
 

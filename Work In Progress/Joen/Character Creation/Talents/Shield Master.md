@@ -5,8 +5,6 @@ cssclass: pathfinder
 
 <h1> Shield Master<span style="margin-left: auto;">2 XP</span> </h1>
 
-[[Defence]]{.trait}
-
 [[Rules/Traits/Item| Item (Shield)]]{.trait}
 
 <div style="clear:both" /> 

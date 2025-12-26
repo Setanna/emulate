@@ -9,8 +9,6 @@ cssclass: pathfinder
 
 [[Arcane]]{.trait}
 
-[[Offence]]{.trait}
-
 [[Emotion | Emotion (Fear)]]{.trait}
 
 [[Verbal]]{.trait}

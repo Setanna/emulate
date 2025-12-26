@@ -6,8 +6,6 @@ cssclass: pathfinder
 
 <h1> Douse Flames <span style="margin-left: auto;"> Any number of Seconds </span> </h1>
 
-[[Defence]]{.trait}
-
 <div style="clear:both" />
 
 **Requirement:** You or your ally within reach is on [[Burning]]; You have a hand free.

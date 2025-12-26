@@ -11,10 +11,6 @@ cssclass: pathfinder
 
 [[Death]]{.trait}
 
-[[Defence]]{.trait}
-
-[[Offence]]{.trait}
-
 [[Somatic]]{.trait}
 
 <div style="clear:both" /> 

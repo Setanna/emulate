@@ -6,7 +6,7 @@ cssclass: pathfinder
 
 <h1> Bait and Switch <span style="margin-left: auto;"> Split Second </span> </h1>
 
-[[Defence]]{.trait}
+[[Reactive]]{.trait}
 
 [[Skill | Skill (Bluff)]]{.trait}
 

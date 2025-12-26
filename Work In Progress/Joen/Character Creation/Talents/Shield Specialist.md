@@ -5,8 +5,6 @@ cssclass: pathfinder
 
 <h1> Shield Specialist<span style="margin-left: auto;">2 XP</span> </h1>
 
-[[Defence]]{.trait}
-
 [[Rules/Traits/Item]]{.trait}
 
 <div style="clear:both" /> 

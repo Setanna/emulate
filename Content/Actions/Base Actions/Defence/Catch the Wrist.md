@@ -6,7 +6,7 @@ cssclass: pathfinder
 
 <h1> Catch the Wrist <span style="margin-left: auto;"> Split Second </span> </h1>
 
-[[Defence]]{.trait}
+[[Reactive]]{.trait}
 
 <div style="clear:both" />
 

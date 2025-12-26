@@ -5,8 +5,6 @@ cssclass: pathfinder
 
 <h1> Sadistic Infliction <span style="margin-left: auto;"> 4 XP</span> </h1>
 
-[[Offence]]{.trait}
-
 [[Emotion | Emotion (Pain)]]{.trait}
 
 <div style="clear:both" /> 

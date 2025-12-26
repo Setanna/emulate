@@ -8,6 +8,8 @@ cssclass: pathfinder
 
 [[Arcane]]{.trait}
 
+[[Reactive]]{.trait}
+
 <div style="clear:both" />
 
 **Trigger:** Whenever a creature within [[Lighting | Normal Lighting]] emitted of your spell is the target of an Attack Roll.

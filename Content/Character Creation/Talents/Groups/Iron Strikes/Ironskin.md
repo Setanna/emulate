@@ -5,8 +5,6 @@ cssclass: pathfinder
 
 <h1> Ironskin <span style="margin-left: auto;"> 6 XP</span> </h1>
 
-[[Defence]]{.trait}
-
 [[Gapless]]{.trait}
 
 <div style="clear:both" /> 
