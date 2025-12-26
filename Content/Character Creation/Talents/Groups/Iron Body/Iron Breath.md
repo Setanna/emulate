@@ -7,11 +7,11 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Ironskin]]; Constitution 1+
+**Requirements:** [[Iron Skin]]; Constitution 1+
 ___
 *Each breath draws in strength, each exhale leaves you unshaken*
 
 <br>
 
 **System:**
-While you gain the Armor Value from the [[Ironskin]] Talent, you also gain the [[Bolster]] Action.
+While you gain the Armor Value from the [[Iron Skin]] Talent, you also gain the [[Bolster]] Action.

@@ -74,7 +74,7 @@ Talents are the meat of a Character, they determine what a character can and wha
 | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | Barbarian | [[Content/Character Creation/Talents/Groups/Rage/Rage \| Rage]], [[Advanced Weapon Proficiency]], [[Skill Focus \| Skill Focus (Intimidation)]] |
 | Marshal   | [[Content/Character Creation/Talents/Groups/Rally/Rally \| Rally]], [[Skill Focus \| Skill Focus (Diplomacy)]]                                  |
-| Monk      | [[Martial Arts]], [[Iron Strikes]], [[Ironskin]]                                                                                                |
+| Monk      | [[Martial Arts]], [[Iron Strikes]], [[Iron Skin]]                                                                                                |
 
 Each Talent is tagged with a Class (Except for Proficiency and racial talents). Some Talents also have an Archetype they fit within the given class.
 
