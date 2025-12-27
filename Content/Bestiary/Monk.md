@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Monk <span style="margin-left: auto;"> 80 XP </span> </h1>
+<h1> Monk <span style="margin-left: auto;"> 86 XP </span> </h1>
 
 [[Size | Medium]]{.size-trait}
 
@@ -26,8 +26,8 @@ ___
 
 **Speed:** 5 meters
 **Melee:**
- - Unarmed Strikes [ [[Versatile | Versatile (S, P)]], [[Rules/Traits/Light | Light]] ] +3 to Hit; 1d6 + 2 Bludgeoning
- - Unarmed Strikes [ [[Versatile | Versatile (S, P)]] ] +3 to Hit; 1d6 + 3 Bludgeoning
+ - Unarmed Strikes [ [[Versatile | Versatile (S, P)]], [[Vital Strike]], [[Rules/Traits/Light | Light]] ] +3 to Hit; 1d6 + 2 Bludgeoning
+ - Unarmed Strikes [ [[Versatile | Versatile (S, P)]], [[Piercing | Piercing (2)]] ] +3 to Hit; 1d8 + 3 Bludgeoning
  
 **Space:** 1 meter; **Reach:** 1 meter
 
@@ -51,6 +51,7 @@ The Monk tends to use [[Stunning Strike]] on key targets.
 | [[Commoner \| Commoner Background]]                     |  1  |
 | [[Martial Arts]]                                        |  1  |
 | [[Iron Strikes]]                                        |  2  |
+| [[Steel Strikes]]                                       |  6  | 
 | [[Iron Skin]]                                           |  6  |
 | [[Ki]]                                                  |  2  |
 | [[Stunning Strikes]]                                    |  4  |
@@ -71,4 +72,4 @@ The Monk tends to use [[Stunning Strike]] on key targets.
 | [[Skill Proficiency \| Skill Proficiency (Climb)]]      |  1  |
 | [[Skill Proficiency \| Skill Proficiency (Swim)]]       |  1  |
 | Ability Scores                                          | 32  |
-| Total                                                   | 80  |
+| Total                                                   | 86  |
