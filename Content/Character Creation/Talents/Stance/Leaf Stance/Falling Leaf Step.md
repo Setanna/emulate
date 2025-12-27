@@ -1,5 +1,5 @@
 ---
-tags: [Martial/Monk/Leaf Stance]
+tags: [Martial/Monk/Leaf_Stance]
 cssclass: pathfinder
 ---
 
