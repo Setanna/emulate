@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-Whenever you use the [[Content/Character Creation/Talents/Groups/Rage/Rage | Rage]] Action or the [[Content/Character Creation/Talents/Groups/Rage/Reactive Rage | Reactive Rage]] Reaction, you also Roll a [[Saving Throws#Saving Throw Recovery Save | Fortitude Recovery Saving Throw]].
+Whenever you use the [[Content/Actions/Talent Actions/Rage | Rage]] Action or the [[Content/Actions/Talent Actions/Reactive Rage | Reactive Rage]] Reaction, you also Roll a [[Saving Throws#Saving Throw Recovery Save | Fortitude Recovery Saving Throw]].
