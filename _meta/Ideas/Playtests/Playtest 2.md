@@ -1,0 +1,3 @@
+- Look into large creature weight due to [[Dwarven Stoutness]]
+	- [[Dwarven Stoutness]] + [[Titanborn]] = 2 tons weights
+- Looks into [[Making an Attack]] Size andling
