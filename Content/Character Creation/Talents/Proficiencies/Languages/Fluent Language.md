@@ -13,6 +13,6 @@ cssclass: pathfinder
 ___
 
 **System:**
-You gain a [[Languages | Fluent Understanding]] of the chosen Language.
+You gain a [[Rules/Stats and Skills/Proficiency#Languages | Fluent Understanding]] of the chosen Language.
 
 

@@ -12,7 +12,7 @@ cssclass: pathfinder
 ___
 
 **System:**
-You gain a [[Languages | Basic Understanding]] of the chosen Language.
+You gain a [[Rules/Stats and Skills/Proficiency#Languages | Basic Understanding]] of the chosen Language.
 
 <br>
 
