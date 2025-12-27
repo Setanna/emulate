@@ -29,6 +29,7 @@ Each Creature within the Cone or Line must make a Reflex Saving Throw against yo
 **Critical Success:** The Creature takes no damage.
 **Success:** The Creature takes half damage.
 **Failure:** The Creature takes full damage.
+**Critical Failure:** The Creature takes full damage as if the Attack was a Critical Success.
 
 <br>
 
