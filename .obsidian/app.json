@@ -1,4 +1,5 @@
 {
   "showInlineTitle": false,
-  "propertiesInDocument": "hidden"
+  "propertiesInDocument": "hidden",
+  "livePreview": false
 }
