@@ -11,6 +11,7 @@
 - [[Accrue Rage]]
 	- Can just be spammed to always have ready for encounters
 		- Limit to just work in encounters
+			- Does not work on extended encounters?
 - All Rolls
 	- Make it clear what rolls. some people dont like t oread the rules
 - Medium Armor is kinda useless still?
@@ -24,3 +25,4 @@
 - Give [[Raging Vitality]] bolster action emotion rage
 - [[Provoked]] should be gone when the enemy is unconcious
 	- Make it more clear to understand provoked condition
+- Add more fodder clear for martials
