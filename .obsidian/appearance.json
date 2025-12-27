@@ -16,7 +16,7 @@
   ],
   "cssTheme": "Fancy-a-Story",
   "theme": "obsidian",
-  "showViewHeader": false,
+  "showViewHeader": true,
   "nativeMenus": false,
   "baseFontSize": 17
 }
