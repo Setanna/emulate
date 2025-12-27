@@ -11,6 +11,7 @@ In Emulate, many Creatures have a wide variety of Resources they can use for the
 <div style="clear:both" /> 
 
 ___
+You regain an Expended [[Resources#Ki Points | Ki Point]] at the end of each of your turns and for each 2 Seconds spent on the [[Catch your Breath]] Action.
 
 ### Rage Points
 
