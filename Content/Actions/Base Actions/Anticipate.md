@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 
-<h1> Anticipate <span style="margin-left: auto;"> 1 Second </span> </h1>
+<h1> Anticipate <span style="margin-left: auto;"> 2 Seconds </span> </h1>
 
 [[Timed]]{.trait}
 
