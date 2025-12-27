@@ -18,4 +18,4 @@ ___
 <br>
 
 **System:**
-Increase your [[Size]] Modifier by 4. Additionally you count as two sizes larger for [[Stats | Loads]]; weight; food and water consumption.
+Increase your [[Size]] Modifier by 4 except for speed. Additionally you count as two sizes larger for [[Stats | Loads]]; weight; food and water consumption.
