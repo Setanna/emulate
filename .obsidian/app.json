@@ -1,5 +1,6 @@
 {
   "showInlineTitle": false,
   "propertiesInDocument": "hidden",
-  "livePreview": false
+  "livePreview": false,
+  "defaultViewMode": "preview"
 }
