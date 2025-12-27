@@ -9,7 +9,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** Charisma 2+
+**Requirements:** [[Conviction]]; Charisma 2+
 ___
 *Conviction alone guards you, interposing faith where steel cannot*
 
