@@ -34,3 +34,4 @@
 - Update small races now that size already changes speed
 - [[Catch the Wrist]]
 	- Reach extendo how worko?
+- Iron Body needs finesse
