@@ -25,9 +25,12 @@
 - Give [[Raging Vitality]] bolster action emotion rage
 - [[Provoked]] should be gone when the enemy is unconcious
 	- Make it more clear to understand provoked condition
+	- How does it handle with parry another creature?
 - Add more fodder clear for martials
 - Maybe nerf monk
 - Look into heavy, medium and light armor and weapons vs each other
 	- Medium is still kinda useless
 	- Light hard counters heavy (Bleed op?)
 - Update small races now that size already changes speed
+- [[Catch the Wrist]]
+	- Reach extendo how worko?
