@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-You make a [[Making an Attack | Attack]] with a -4 [[Circumstance]] Penalty. You fire an arrow targeting the eyes of a creature. If the creature survives the damage, the creature is permanently [[Blinded]] in one eye and is [[Blinded]] until they spent 2 Actions to clear the blood.
+You make a [[Making a Strike | Strike]] with a -4 [[Circumstance]] Penalty. You fire an arrow targeting the eyes of a creature. If the creature survives the damage, the creature is permanently [[Blinded]] in one eye and is [[Blinded]] until they spent 2 Actions to clear the blood.

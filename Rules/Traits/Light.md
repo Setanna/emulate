@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 # Light
-Weapons with the Light Trait can easily be dual wielded or thrown. When making an [[Making an Attack | Attack]] with a Light Weapon you add only half your Strength to the Damage Roll instead of your Strength.
+Weapons with the Light Trait can easily be dual wielded or thrown. When making a [[Making a Strike | Strike]] with a Light Weapon you add only half your Strength to the Damage Roll instead of your Strength.
 
 <br>
 
@@ -12,8 +12,8 @@ Light Weapons reduce the [[Circumstance]] Penalty from [[Multiattack]] by two fo
 
 <br>
 
-Additionally all Light Weapons also reduce the Second Cost of all [[Attack]] Actions made with Light Weapons by one Second. When making several attacks with different Light Weapons, such as with [[Multiattack]], decrease the Second Cost of the Action for each Weapon to a maximum of 2 Seconds decreased total.
+Additionally all Light Weapons also reduce the Second Cost of all [[Rules/Traits/Attack | Attack]] Actions made with Light Weapons by one Second. When making several attacks with different Light Weapons, such as with [[Multiattack]], decrease the Second Cost of the Action for each Weapon to a maximum of 2 Seconds decreased total.
 
 <br>
 
-[[Making an Attack | Attacks]] made with Light Weapons can not gain the [[Daring]] Trait.
+ [[Rules/Traits/Attack | Attack]] Actions made with Light Weapons can not gain the [[Daring]] Trait.

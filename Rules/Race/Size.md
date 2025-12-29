@@ -45,11 +45,6 @@ Whenever you would make a Dexterity-Based Roll, substract your Size Modifier fro
 
 <br>
 
-**Attack**
-Attack Rolls are handled uniquely in the 1.1 Step of [[Making an Attack]].
-
-<br>
-
 **Hit Class**
 Substract your Size Modifier from your Hit Class. If the Size Modifier is negative, substracting it makes it positive, instead adding it to your Hit Class.
 

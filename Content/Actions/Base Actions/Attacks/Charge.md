@@ -13,4 +13,4 @@ cssclass: pathfinder
 
 ___
 **System:**
-You move up to twice your speed in meters in a straight line, at the end of the movement you can make a single [[Making an Attack | Attack]]. You must move at least 3 meters in a straight line to use the Charge Action.
+You move up to twice your speed in meters in a straight line, at the end of the movement you can make a [[Making a Strike | Strike]]. You must move at least 3 meters in a straight line to use the Charge Action.

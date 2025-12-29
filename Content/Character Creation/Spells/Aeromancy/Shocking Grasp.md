@@ -45,4 +45,4 @@ ___
 The target takes damage.
 
 **System:**
-You Roll an [[Making an Attack | Attack]] against the target.
+You make a [[Making a Strike | Strike]] against the target.

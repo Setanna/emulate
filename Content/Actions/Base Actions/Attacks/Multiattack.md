@@ -12,4 +12,4 @@ cssclass: pathfinder
 ___
 
 **System:**
-You make an [[Making an Attack | Attack]] with each weapon you are wielding. When making [[Making an Attack | Attacks]] with this Action, all Attack Rolls suffer a -4 [[Circumstance]] Penalty.
+You make a [[Making a Strike | Strike]] with each weapon you are wielding. When making [[Making a Strike | Strikes]] with this Action, all Attack Rolls suffer a -4 [[Circumstance]] Penalty.

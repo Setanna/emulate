@@ -47,4 +47,4 @@ The target takes damage.
 <br>
 
 **System:**
-You make an [[Making an Attack | Attack]] against a target within reach.
+You make a [[Making a Strike | Strike]] against a target within reach.

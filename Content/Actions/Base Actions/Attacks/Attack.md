@@ -12,7 +12,7 @@ cssclass: pathfinder
 ___
 
 **System:**
-You make an [[Making an Attack | Attack]].
+You make a [[Making a Strike | Strike]].
 
 <br> 
 

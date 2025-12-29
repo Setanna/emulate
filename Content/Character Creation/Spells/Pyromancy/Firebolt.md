@@ -49,5 +49,5 @@ The target takes damage.
 <br>
 
 **System:**
-You conjure up a bright flame and hurl it at a target within range. Make an [[Making an Attack | Attack]] against the target.
+You conjure up a bright flame and hurl it at a target within range. Make a [[Making a Strike | Strike]] against the target.
 

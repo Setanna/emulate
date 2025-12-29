@@ -16,7 +16,7 @@ cssclass: pathfinder
 ___
 
 **System:**
-You Roll a [[Stealth]] Roll against all surrounding creatures [[Perception]] DC. On a success make an [[Making an Attack | Attack]]. You can spend an additional action to move up your Speed before making the attack.
+You Roll a [[Stealth]] Roll against all surrounding creatures [[Perception]] DC. On a success make an [[Making a Strike | Strike]]. You can spend an additional action to move up your Speed before making the attack.
 
 <br>
 

@@ -20,4 +20,4 @@ You burn a wound of yourself or another creature within reach. You or the Creatu
 
 <br>
 
-If the creature is unwilling to be Cauterized, you must Roll an [[Making an Attack | Attack]] to affect the creature with this Action.
+If the creature is unwilling to be Cauterized, you must Roll an [[Making a Strike | Strike]] to affect the creature with this Action.

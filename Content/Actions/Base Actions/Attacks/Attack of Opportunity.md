@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Attack of Opportunity <span style="margin-left: auto;">Split Second</span> </h1>
+<h1> Attack of Opportunity <span style="margin-left: auto;"> Split Second </span> </h1>
 
 [[Rules/Traits/Attack | Attack]]{.trait}
 
@@ -22,8 +22,8 @@ ___
 <br>
 
 **System:**
-You make an [[Making an Attack | Attack]] against the creature that triggered the Attack of Opportunity.
+You make a [[Making a Strike | Strike]] against the creature that triggered the Attack of Opportunity.
 
 <br>
 
-Alternatively instead of making an [[Making an Attack | Attack]], you can take a [[Maneuver]] Action, targeting the creature.
+Alternatively instead of making a [[Making a Strike | Strike]], you can take a [[Maneuver]] Action, targeting the creature.

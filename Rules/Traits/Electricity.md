@@ -5,7 +5,7 @@ cssclass: pathfinder
 
 # Electricity
 Sources with the Electricity Trait deal Electricity damage. Creatures with Metal Armor, such as Armor with the [[Material (Steel, Iron or Copper)]] Trait gains the following Bonus and Penalties against sources with the [[Electricity]] Trait.
-- [[Making an Attack | Attacks]] against the creature gains a [[Circumstance]] Bonus
+- [[Making a Strike | Strikes]] against the creature gains a [[Circumstance]] Bonus
 - [[Accurate]] Attacks gain the creature gains a [[Circumstance]] Penalty
 - Reflex Saving Throws gains a [[Circumstance]] Penalty
 

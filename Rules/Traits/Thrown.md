@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 # Thrown
-Weapons with the Thrown Trait can be used as Ranged Weapons with the [[Propulsive]] Trait. The range of the weapon is defined in the Trait parenthesis. When making an [[Making an Attack | Attack]] Attack with Thrown Weapons, the Attack Roll can use Strength or Dexterity.
+Weapons with the Thrown Trait can be used as Ranged Weapons with the [[Propulsive]] Trait. The range of the weapon is defined in the Trait parenthesis. When making a [[Making a Strike | Strike]] Attack with Thrown Weapons, the Attack Roll can use Strength or Dexterity.
 
 <br>
 
