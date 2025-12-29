@@ -7,8 +7,6 @@ cssclass: pathfinder
 
 [[Finesse]]{.trait}
 
-[[Reckless]]{.trait}
-
 <div style="clear:both" /> 
 
 **Requirements:** You are in the [[Content/Actions/Talent Actions/Wind Stance|Wind Stance]].
