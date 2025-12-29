@@ -9,8 +9,6 @@ cssclass: pathfinder
 
 [[Rules/Traits/Attack | Attack]]{.trait}
 
-[[Rules/Traits/Item | Item (Melee Weapon that deals Slashing damage)]]{.trait}
-
 <div style="clear:both" /> 
 
 ___
