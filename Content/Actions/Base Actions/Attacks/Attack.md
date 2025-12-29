@@ -16,7 +16,7 @@ You make an [[Making an Attack | Attack]].
 
 <br> 
 
-You can grant the [[Accurate]] or [[Daring]] Trait to the [[Making an Attack | Attack]]. The Traits have a value equal to half the Stat used to make the Attack Roll.
+You can grant the [[Accurate]] or [[Daring]] Trait to this Action. The Traits have a value equal to half the Stat used to make the Attack Roll.
 
 <br>
 
