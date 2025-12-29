@@ -17,4 +17,4 @@ ___
 <br>
 
 **System:**
-You gain the [[Content/Actions/Talent Actions/Gale Cleave|Gale Cleave]] Action.
+When you take the [[Cleave]] Action, if you are in the [[Content/Actions/Talent Actions/Wind Stance | Wind Stance]] double your reach.
