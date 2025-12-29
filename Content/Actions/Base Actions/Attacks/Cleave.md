@@ -14,4 +14,4 @@ cssclass: pathfinder
 ___
 
 **System:**
-You choose a cone or line with a range equal to your reach. You make a [[Making a Sweep | Sweep]] Attack with the given Area.
+You choose a [[Areas#Cone | cone]] or [[Areas#Line | line]] with a range equal to your reach. You make a [[Making a Sweep | Sweep]] Attack with the given Area.
