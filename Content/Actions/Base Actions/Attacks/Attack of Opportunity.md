@@ -9,6 +9,8 @@ cssclass: pathfinder
 
 [[Reactive]]{.trait}
 
+[[Rules/Traits/Item | Item (Melee Weapon)]]{.trait}
+
 <div style="clear:both" /> 
 
 **Trigger:** A creature within your Reach does any of the following:

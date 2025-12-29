@@ -9,6 +9,8 @@ cssclass: pathfinder
 
 [[Momentum]]{.trait}
 
+[[Rules/Traits/Item | Item (Melee Weapon)]]{.trait}
+
 <div style="clear:both" /> 
 
 ___

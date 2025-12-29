@@ -7,6 +7,8 @@ cssclass: pathfinder
 
 [[Rules/Traits/Attack | Attack]]{.trait}
 
+[[Rules/Traits/Item | Item (Weapon)]]{.trait}
+
 <div style="clear:both" /> 
 
 ___
