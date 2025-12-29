@@ -36,12 +36,12 @@ Whenever you would be forcefully moved by a creature, such a with the [[Ram]] or
 <br>
 
 **Strength Rolls**
-Whenever you would make a Strength-Based Skill Roll, add your Size Modifier to the Roll.
+Whenever you would make a Strength-Based Rolls, add your Size Modifier to the Roll.
 
 <br>
 
 **Dexterity Rolls**
-Whenever you would make a Dexterity-Based Skill Roll, substract your Size Modifier from the Roll. If the Size Modifier is negative, substracting it makes it positive, instead adding it to the Dexterity-Based Skill Roll.
+Whenever you would make a Dexterity-Based Roll, substract your Size Modifier from the Roll. If the Size Modifier is negative, substracting it makes it positive, instead adding it to the Dexterity-Based Roll.
 
 <br>
 

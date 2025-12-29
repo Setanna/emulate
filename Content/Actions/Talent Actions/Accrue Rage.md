@@ -12,8 +12,6 @@ cssclass: pathfinder
 
 **Triggers:**
 - After you take or deal damage
-- You take an action with the [[Emotion | Emotion (Anger)]] Trait
-- You are affected by a source with the [[Emotion | Emotion (Anger)]] Trait
 
 **Requirements:** [[Rage]]
 ___

@@ -7,14 +7,6 @@
         "type": 0,
         "counter": 1
       }
-    },
-    {
-      "prefix": "",
-      "suffix": " words",
-      "metric": {
-        "type": 0,
-        "counter": 0
-      }
     }
   ],
   "altBar": [

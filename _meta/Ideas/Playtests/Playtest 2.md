@@ -1,0 +1,37 @@
+- Look into large creature weight due to [[Dwarven Stoutness]]
+	- [[Dwarven Stoutness]] + [[Titanborn]] = 2 tons weights
+	- Look into weight and carrying capacity
+- Looks into [[Making an Attack]] Size handling
+- [[Dwarven Stoutness]]
+	- Doesn't work well with speed since speed is also tied to size.
+	- Small gives -1 speed, +4 size bonus give +1 total speed
+	- shit doesn't work
+	- Maybe not just make it size and just make it say damage reduction, deal additional damage.
+	- maybe add poison resistance
+- [[Accrue Rage]]
+	- Can just be spammed to always have ready for encounters
+		- Limit to just work in encounters
+			- Does not work on extended encounters?
+- All Rolls
+	- Make it clear what rolls. some people dont like t oread the rules
+- Medium Armor is kinda useless still?
+	- Maybe add some traits medium
+- [[Content/Actions/Talent Actions/Wind Stance|Wind Stance]]
+	- No movement action is wonky
+	- Wind Stance additional reactions for each attack or something
+		- Pit Fighter dnd?
+	- Make cone examples
+- Make a maneuver to handle passin ghtrough enemy terroritoy
+- Give [[Raging Vitality]] bolster action emotion rage
+- [[Provoked]] should be gone when the enemy is unconcious
+	- Make it more clear to understand provoked condition
+	- How does it handle with parry another creature?
+- Add more fodder clear for martials
+- Maybe nerf monk
+- Look into heavy, medium and light armor and weapons vs each other
+	- Medium is still kinda useless
+	- Light hard counters heavy (Bleed op?)
+- Update small races now that size already changes speed
+- [[Catch the Wrist]]
+	- Reach extendo how worko?
+- Iron Body needs finesse

@@ -13,7 +13,7 @@ cssclass: pathfinder
 
 <div style="margin-top:0.3rem"> 
 	<div style="display:inline-block; float: left;"> 
-		<b>Damage:</b> 1d4 Bludgeoning
+		<b>Damage:</b> 1 Bludgeoning
 	</div> 
 	<div style="display:inline-block; float: right; padding-right: 50px;"> 
 		<b>Weight:</b> None

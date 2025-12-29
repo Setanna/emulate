@@ -9,7 +9,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** Your Racial Hit Die is higher than a d4
+**Requirements:** Your Racial Hit Die is lower than a d12
 ___
 *Like old oak—takes more than one swing to bring down*
 
