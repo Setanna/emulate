@@ -4,4 +4,4 @@ cssclass: pathfinder
 ---
 
 # Attack
-An Action with the Attack Trait follows the rules for [[Making an Attack| Attacks]]. 
+An Action with the Attack Trait makes a [[Making a Strike | Strike]] or [[Making a Sweep | Sweep]] Attack.
