@@ -4,4 +4,4 @@ cssclass: pathfinder
 ---
 
 # Gapless
-Armor or Talents that grant an Armor Value and has the Gapless Trait, treat all attacks as if they were made without the [[Precise]] Trait.
+Any Armor or Shield Value gained from Armor or a Talent with the Gapless Trait, can not be reduced by the [[Accurate]] Trait.

@@ -17,5 +17,5 @@ ___
 <br>
 
 **System:**
-Whenever you would deal damage with a [[Precise]] [[Weapons | Unarmed Strike]], you can apply one of the following conditions to the defender:
+Whenever you would deal damage with a [[Accurate]] [[Weapons | Unarmed Strike]], you can apply one of the following conditions to the defender:
  - [[Agonizing | Agonizing 1]]

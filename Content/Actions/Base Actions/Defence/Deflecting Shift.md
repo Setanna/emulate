@@ -12,12 +12,12 @@ cssclass: pathfinder
 
 <div style="clear:both" />
 
-**Trigger:** You are the target of an Action with the [[Precise]] Trait.
+**Trigger:** You are the target of an Action with the [[Accurate]] Trait.
 
 ___
 
 **System:**
-You quickly twist your body to let your armor take the blow. The Action is resolved as if it was made without the [[Precise]] Trait.
+You quickly twist your body to let your armor take the blow. The Action is resolved as if it was made without the [[Accurate]] Trait.
 
 
 

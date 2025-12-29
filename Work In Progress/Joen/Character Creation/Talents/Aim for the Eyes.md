@@ -5,7 +5,7 @@ cssclass: pathfinder
 
 <h1> Aim for the Eyes WIP <span style="margin-left: auto;"> 3 XP </span> </h1>
 
-[[Precise]]{.trait}
+[[Accurate]]{.trait}
 
 <div style="clear:both" /> 
 

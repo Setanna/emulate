@@ -11,7 +11,7 @@ cssclass: pathfinder
 
 [[Somatic]]{.trait}
 
-[[Precise]]{.trait}
+[[Accurate]]{.trait}
 
 <div style="clear:both" /> 
 

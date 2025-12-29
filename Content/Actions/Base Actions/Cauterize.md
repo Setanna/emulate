@@ -5,7 +5,7 @@ cssclass: pathfinder
 
 <h1> Cauterize <span style="margin-left: auto;"> 1 Second </span> </h1>
 
-[[Precise]]{.trait}
+[[Accurate]]{.trait}
 
 <div style="clear:both" /> 
 
