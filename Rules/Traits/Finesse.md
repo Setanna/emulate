@@ -8,7 +8,7 @@ Any Talent or Action with the Finesse Trait can replace all instances of Strengt
 
 <br>
 
-Any Weapon with the Finesse Trait that is used to make a [[Precise]] or [[Reckless]] [[Making an Attack | Attack]], can replace all instances of Strength with Dexterity.
+Any Weapon with the Finesse Trait that is used to make an [[Rules/Traits/Attack | Attack]] Action, can replace all instances of Strength with Dexterity.
 
 <br>
 

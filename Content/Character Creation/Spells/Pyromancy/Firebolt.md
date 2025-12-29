@@ -9,7 +9,7 @@ cssclass: pathfinder
 
 [[Arcane]]{.trait}
 
-[[Reckless]]{.trait}
+[[Daring]]{.trait}
 
 [[Fire]]{.trait}
 
