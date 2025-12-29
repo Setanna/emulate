@@ -4,8 +4,5 @@ cssclass: pathfinder
 ---
 
 # Accurate
-An [[Making an Attack | Attack]] with the Accurate Trait reduces the Defender's Combined Armor and Shield Value and apply the amount of Armor and Shield Value reduced to their Hit Class against the Attack Roll. The amount of Armor and Shield Value reduced is equal to the value of the Accurate Trait.
+An Action with the Accurate Trait reduces all target's Armor Value and increases all target's [[Saving Throws#Reflex | Reflex]] by the amount of Armour Value reduced. The amount of Armor Value reduced is equal to the value of the Trait.
 
-<br>
-
-If the Accurate Trait does not have any value, it instead reduces all the Defender's Combined Armor and Shield Value.
