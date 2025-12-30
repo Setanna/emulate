@@ -14,6 +14,3 @@ Light Weapons reduce the [[Circumstance]] Penalty from [[Multiattack]] by two fo
 
 Additionally all Light Weapons also reduce the Second Cost of all [[Rules/Traits/Attack | Attack]] Actions made with Light Weapons by one Second. When making several attacks with different Light Weapons, such as with [[Multiattack]], decrease the Second Cost of the Action for each Weapon to a maximum of 2 Seconds decreased total.
 
-<br>
-
- [[Rules/Traits/Attack | Attack]] Actions made with Light Weapons can not gain the [[Daring]] Trait.
