@@ -3,7 +3,7 @@ tags: [Martial]
 cssclass: pathfinder
 ---
 
-<h1> Wind Stance <span style="margin-left: auto;"> 3 XP</span> </h1>
+<h1> Wind Stance <span style="margin-left: auto;"> 4 XP</span> </h1>
 
 [[Finesse]]{.trait}
 
