@@ -5,8 +5,6 @@ cssclass: pathfinder
 
 <h1> Wind Stance <span style="margin-left: auto;"> 3 XP</span> </h1>
 
-[[Finesse]]{.trait}
-
 [[Stance]]{.trait}
 
 <div style="clear:both" /> 
