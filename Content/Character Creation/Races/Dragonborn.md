@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Dragonborn <span style="margin-left: auto;">19 XP</span> </h1>
+<h1> Dragonborn <span style="margin-left: auto;">15 XP</span> </h1>
 
 [[Size | Medium]]{.size-trait}
 
@@ -17,7 +17,7 @@ cssclass: pathfinder
 
 ___
 
-**Hit Die:** d12
+**Hit Die:** d10
 **Ground Movement:** 6 meters
 
 ___
@@ -33,13 +33,13 @@ Dragonborn tend to be massive and frightening as the dragons they stem from. As 
 <br>
 
 **Racial Talents:**
-Dragonborn start with [[Dragon Scales]], [[Intimidating]], [[Vision#Low-Light Vision \| Low-Light Vision]], [[Skill Proficiency | Skill Proficiency (Intimidation)]] and [[Skill Proficiency | Skill Proficiency (Perception)]].
+Dragonborn start with [[Dragon Scales]]; [[Intimidating]]; [[Vision#Low-Light Vision \| Low-Light Vision]]; [[Skill Proficiency | Skill Proficiency (Intimidation)]] and [[Skill Proficiency | Skill Proficiency (Perception)]].
 
 # XP Distribution
 
 | Name                                                      | XP  |
 | --------------------------------------------------------- |:---:|
-| [[Race#Hit Die \| d12 Hit Die]]                           | +8  |
+| [[Race#Hit Die \| d10 Hit Die]]                           | +4  |
 | [[Race#Movement \| 6 Movement Speed]]                     | +4  |
 | [[Intimidating]]                                          | +1  |
 | [[Dragon Scales]]                                         | +2  |
