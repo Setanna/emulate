@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Elf <span style="margin-left: auto;"> 7 XP </span> </h1>
+<h1> Elf <span style="margin-left: auto;"> 14 XP </span> </h1>
 
 [[Size | Medium]]{.size-trait}
 
@@ -35,17 +35,17 @@ Elves resemble human but without warts, rashes or any imperfections. As such the
 <br>
 
 **System:**
-Elves start with [[Pretty]], [[Beautiful]],[[Calm]], [[Skill Proficiency | Skill Proficiency (Perception)]] and [[Skill Proficiency | Skill Proficiency (Insight)]].
+Elves start with [[Pretty]]; [[Beautiful]]; [[Calm]]; [[Skill Proficiency | Skill Proficiency (Perception)]] and [[Skill Proficiency | Skill Proficiency (Insight)]].
 
 
 # XP Distribution
 
 | Name                                                    | XP  |
 | ------------------------------------------------------- |:---:|
-| [[Pretty]]                                              | +1  |
-| [[Beautiful]]                                           | +4  |
+| [[Pretty]]                                              | +3  |
+| [[Beautiful]]                                           | +9  |
 | [[Calm]]                                                |  0  |
 | [[Skill Proficiency \| Skill Proficiency (Insight)]]    | +1  |
 | [[Skill Proficiency \| Skill Proficiency (Perception)]] | +1  |
-| Total                                                   |  7  |
+| Total                                                   | 14  |
 
