@@ -3,7 +3,7 @@ tags: [Martial/Monk]
 cssclass: pathfinder  
 ---
 
-<h1> Martial Arts<span style="margin-left: auto;"> 1 XP</span> </h1>
+<h1> Martial Arts <span style="margin-left: auto;"> 2 XP </span> </h1>
 
 [[Finesse]]{.trait}
 
