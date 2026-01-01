@@ -168,6 +168,8 @@ kanban-plugin: board
 	 - [x] [[Elf]]
 	 - Elves should start with [[Beautiful]]
 	 - [ ] [[Orc]]
+	 - Orcs should have Indomitable
+	 - Orcs should have some scent ability
 	 - [ ] [[Kobold]] 
 	 - [ ] Fae
 	 - Make Fae feel like old english fairy tales. Weak to iron, steal names and so on.
