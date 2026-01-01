@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Dwarf <span style="margin-left: auto;"> 2 XP </span> </h1>
+<h1> Dwarf <span style="margin-left: auto;"> 6 XP </span> </h1>
 
 [[Size | Small]]{.size-trait}
 
@@ -15,7 +15,7 @@ cssclass: pathfinder
 
 ___
 
-**Hit Die:** d10
+**Hit Die:** d12
 **Ground Movement:** 3 meters
 
 ___
@@ -38,7 +38,7 @@ Dwarves start with [[Dwarven Stoutness]] and [[Vision#Low-Light Vision | Low-Lig
 | Name                                            | XP  |
 | ----------------------------------------------- |:---:|
 | [[Race#Size  \| Small]]                         | -4  |
-| [[Race#Hit Die \| d10 Hit Die]]                 | +4  | 
+| [[Race#Hit Die \| d12 Hit Die]]                 | +8  | 
 | [[Race#Movement \| 3 Movement Speed]]           | -8  |
 | [[Dwarven Stoutness]]                           | +8  |
 | [[Vision#Low-Light Vision \| Low-Light Vision]] | +2  |
