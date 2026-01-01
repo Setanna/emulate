@@ -3,15 +3,15 @@ tags: [Martial]
 cssclass: pathfinder
 ---
 
-<h1> Indomitable <span style="margin-left: auto;">1 XP</span> </h1>
+<h1> Indomitable <span style="margin-left: auto;"> 2 XP </span> </h1>
 
 <div style="clear:both" /> 
 
-**Requirements:** Constitution 3+
+**Requirements:** Constitution 2+
 ___
 *Your conviction is your armor.*
 
 <br>
 
 **System:**
-When you are at [[Negative Hit Points]] you gain the [[Slowed | Slowed 2]] Condition and don't fall [[Unconscious]]. While benefitting from this talent you can not reduce your [[Slowed]] Condition lower than 2.
+When you are at [[Negative Hit Points]] you gain the [[Slowed | Slowed 2]] Condition and don't fall [[Unconscious]]. While benefiting from this talent you can not reduce your [[Slowed]] Condition lower than 2.
