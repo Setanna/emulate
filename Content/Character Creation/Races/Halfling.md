@@ -32,7 +32,7 @@ Halfling tend to be on the smaller side, as such they stand between 1 and 1.2 me
 <br>
 
 **Racial Talents:**
-Halflings start with the [[Brave]], [[Fortunate]] and [[Lucky]] Characteristics.
+Halflings start with the [[Brave]]; [[Fortunate]] and [[Lucky]] Characteristics.
 
 
 # XP Distribution
