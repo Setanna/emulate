@@ -4,4 +4,4 @@ cssclass: pathfinder
 ---
 
 # Bulwark
-Armor and Shields with the Bulwark Trait, reduce [[Damage Types | Elemental Damage]]; and [[Damage Types | Physical Damage]] from [[Accurate]] Attacks by their Bulwark Value.
+Armor and Shields with the Bulwark Trait, can not have their combined Armor and Shield Value reduced below their Combined Bulwark Value.
