@@ -47,16 +47,6 @@ kanban-plugin: board
 - [ ] <details> 
 	<summary> 
 		<b>
-			Characteristics
-		</b> 
-	</summary>
-	
-	- [ ] Move Cursed and Diseased Characteristics into their own rules, allowing a player to start with a curse or disease through other means than Characteristics.
-	
-	</details>
-- [ ] <details> 
-	<summary> 
-		<b>
 			Traits
 		</b> 
 	</summary>
@@ -77,16 +67,6 @@ kanban-plugin: board
 	- [ ] Shops
 	 - Brew of the Week
 	 - Failed / Unkown Potions Shelf
-	
-	</details>
-- [ ] <details> 
-	<summary> 
-		<b>
-			Racial Talents
-		</b> 
-	</summary>
-	
-	 - [ ] Mudblood
 	
 	</details>
 - [ ] <details> 
@@ -136,43 +116,6 @@ kanban-plugin: board
 	- [ ] [[Benefiting from Cover | Cover]]
 	- [x] Time Incremental Rules
 	- Rain only penalizes tracking each hour, but make a rule to allow all time sensitive penalties and bonuses be able to split up in smaller time increments.
-	
-	</details>
-- [ ] <details> 
-	<summary> 
-		<b>
-			Talents
-		</b> 
-	</summary>
-	
-	-  [x] [[All Eyes On Me]] needs a better name
-	- Possible change effect and make new Talent with the old effect
-	- [x] Talents that require proficiency bonus
-	- [ ] How to handle converging talent trees
-	- Such as [[Grand Reveal]] and [[Between All Eyes]] both being an optional requirement to [[Undeniable Presence]]
-	
-	</details>
-- [ ] <details> 
-	<summary> 
-		<b>
-			Races
-		</b> 
-	</summary>
-	
-	 - [ ] Age
-	 - [x] [[Human]]
-	 - [ ] [[Medusa]]
-	 - [ ] [[Resonants]]
-	 - [x] [[Dragonborn]]
-	 - [x] [[Dwarf]]
-	 - [x] [[Elf]]
-	 - Elves should start with [[Beautiful]]
-	 - [ ] [[Orc]]
-	 - Orcs should have Indomitable
-	 - Orcs should have some scent ability
-	 - [ ] [[Kobold]] 
-	 - [ ] Fae
-	 - Make Fae feel like old english fairy tales. Weak to iron, steal names and so on.
 	
 	</details>
 - [ ] <details> 

@@ -219,6 +219,13 @@
         "9c4516fa28f7815a"
       ],
       "color": "#a30000"
+    },
+    "_meta/Kanban Boards": {
+      "icon": "lucide-kanban-square",
+      "unsynced": [
+        "9c4516fa28f7815a"
+      ],
+      "color": "#a30000"
     }
   },
   "bookmarkIcons": {},

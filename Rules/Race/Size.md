@@ -6,57 +6,55 @@ cssclass: pathfinder
 # Size
 Size modifies several things regarding a creature as noted in the table below:
 
-| Size       | Height (m)  | Weight (Kg)  | Size Modifier | Speed | Move | Be Moved | Strength Rolls | Dexterity Rolls | Hit Class | Damage | Damage Reduction |
-| ---------- | ----------- | ------------ |:-------------:|:-----:|:----:|:--------:|:--------------:|:---------------:|:---------:|:------:|:----------------:|
-| Diminutive | 0.1 to 0.3  | 0.25 to 0.5  |      -6       |  -3   |  -3  |    +3    |       -6       |       +6        |    +6     |   -6   |        -6        |
-| Tiny       | 0.3 to 0.6  | 0.5 to 4     |      -4       |  -2   |  -2  |    +2    |       -4       |       +4        |    +4     |   -4   |        -4        |
-| Small      | 0.6 to 1.2  | 4 to 32      |      -2       |  -1   |  -1  |    +1    |       -2       |       +2        |    +2     |   -2   |        -2        |
-| Medium     | 1.2 to 2.4  | 32 to 256    |       0       |   0   |  0   |    0     |       0        |        0        |     0     |   0    |        0         |
-| Large      | 2.4 to 4.8  | 256 to 2048  |      +2       |  +1   |  +1  |    -1    |       +2       |       -2        |    -2     |   +2   |        +2        |
-| Huge       | 4.8 to 9.6  | 2048 to 4096 |      +4       |  +2   |  +2  |    -2    |       +4       |       -4        |    -4     |   +4   |        +4        |
-| Gargantuan | 9.6 to 19.2 | 4096 to 8192 |      +6       |  +3   |  +3  |    -3    |       +6       |       -6        |    -6     |   +6   |        +6        |
+| Size       | Height (m)  | Weight (Kg)    | Size Modifier | Speed | Move | Be Moved | Strength Rolls | Dexterity Rolls | Hit Class | Damage | Damage Reduction |
+| ---------- | ----------- | -------------- |:-------------:|:-----:|:----:|:--------:|:--------------:|:---------------:|:---------:|:------:|:----------------:|
+| Diminutive | 0.1 to 0.3  | 0.5 to 2       |      -4       |  -3   |  -3  |    +3    |       -6       |       +6        |    +6     |   -6   |        -6        |
+| Tiny       | 0.3 to 0.6  | 2 to 10        |      -2       |  -2   |  -2  |    +2    |       -4       |       +4        |    +4     |   -4   |        -4        |
+| Small      | 0.6 to 1.2  | 10 to 50       |      -1       |  -1   |  -1  |    +1    |       -2       |       +2        |    +2     |   -2   |        -2        |
+| Medium     | 1.2 to 2.4  | 50 to 150      |       0       |   0   |  0   |    0     |       0        |        0        |     0     |   0    |        0         |
+| Large      | 2.4 to 4.8  | 150 to 900     |      +1       |  +1   |  +1  |    -1    |       +2       |       -2        |    -2     |   +2   |        +2        |
+| Huge       | 4.8 to 9.6  | 900 to 5,000   |      +2       |  +2   |  +2  |    -2    |       +4       |       -4        |    -4     |   +4   |        +4        |
+| Gargantuan | 9.6 to 19.2 | 5000 to 30,000 |      +4       |  +3   |  +3  |    -3    |       +6       |       -6        |    -6     |   +6   |        +6        |
 
-**Size Modifier**
-Whenever a Size Modifier is applied to a Roll, if the final Size Modifier is positive it is a Size Bonus and if it is negative it is a Size Penalty.
+### Adding and Subtracting Size Modifier
+Size Modifier is added to several elements in the Emulate System. To add a Size Modifier simply apply the given Size modifier to the given value. *(Negative Size modifiers reduce the given value)*
+
+To Subtract a Size modifier reduce the given value by the Size modifier. *(Negative Size modifier increase the given value)*
 
 <br>
 
 **Speed**
-Add half your size modifier to your speed and the meters moved with the [[Step]] Action. This can not reduce the amount of meters moved below one.
+Add half your Size modifier to your Speed and the meters moved with the [[Step]] Action. This can not reduce the amount of meters moved below one.
 
 <br>
 
 **Move**
-Whenever you would forcefully move a creature, such as with the [[Ram]] or [[Shove]] Actions, add half your Size Modifier to the meters the creature is moved. 
+Whenever you would forcefully move a Creature, such as with the [[Ram]] or [[Shove]] Actions, add half your Size modifier to the meters the Creature is moved. 
 
 <br>
 
-Whenever you would be forcefully moved by a creature, such a with the [[Ram]] or [[Shove]] Actions, substract half your Size Modifier to the the meters moved. If the Size Modifier is negative, substracting it makes it positive, instead adding it to the meters moved.
+**Be Moved**
+Whenever you would be forcefully moved by a Creature, such a with the [[Ram]] or [[Shove]] Actions, subtract half your Size modifier to the the meters moved.
 
 <br>
 
 **Strength Rolls**
-Whenever you would make a Strength-Based Rolls, add your Size Modifier to the Roll.
-
+Add your Size Modifier to all Strength-Based Rolls and DCs.
 <br>
 
 **Dexterity Rolls**
-Whenever you would make a Dexterity-Based Roll, substract your Size Modifier from the Roll. If the Size Modifier is negative, substracting it makes it positive, instead adding it to the Dexterity-Based Roll.
-
-<br>
-
-**Hit Class**
-Substract your Size Modifier from your Hit Class. If the Size Modifier is negative, substracting it makes it positive, instead adding it to your Hit Class.
+Subtract your Size Modifier to all Dexterity-Based Rolls and DCs.
+Whenever you would make a Dexterity-Based Roll, subtract your Size modifier from the Roll.
 
 <br>
 
 **Weapon Damage**
-Whenever you would Roll for Weapon Damage, add your Size Modifier to the Damage Roll.
+Whenever you would Roll for Weapon Damage, add half your Size modifier to the Damage Roll.
 
 <br>
 
 **Damage Reduction**
-You reduce all damage by your Size Modifier. If your Size Modifier is negative, it instead increases all damage.
+You reduce all damage by half your Size modifier. 
 
 <br>
 
