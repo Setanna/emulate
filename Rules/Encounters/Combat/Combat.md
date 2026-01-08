@@ -7,7 +7,7 @@ cssclass: pathfinder
 In Emulate, Combat is handled in a turn based structure as shown below:
 
 ### Rolling Initiative
-Each creature in combat rolls a d20 and adds their Dexterity, this is a Dexterity Based Roll. Each creature is then ordered from highest Roll to lowest. In cases of a tie the creature with the highest Dexterity goes first, if the Dexterity is tied, Roll a die to determine who goes first.
+Each Creature in combat rolls a [[Perception]] Skill Check. Each creature is then ordered from highest Roll to lowest. In cases of a tie the creature with the highest Wisdom goes first, if the Wisdom is tied, Roll a die to determine who goes first.
 
 <br>
 
