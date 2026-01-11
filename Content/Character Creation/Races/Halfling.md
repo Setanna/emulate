@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Halfling <span style="margin-left: auto;">33 XP</span> </h1>
+<h1> Halfling <span style="margin-left: auto;">23 XP</span> </h1>
 
 [[Size | Small]]{.size-trait}
 
@@ -26,7 +26,7 @@ Don’t let their size fool you—Halflings walk the world with luck in their po
 <br>
 
 **Description:**
-Halfling tend to be on the smaller side, as such they stand between 1 and 1.2 meters tall and weighing in at 26 to 32 kgs.
+Halfling tend to be on the smaller side, as such they stand between 1.2 and 1.4 meters tall and weighing in at 20 to 40 kgs.
 
 
 <br>
@@ -37,13 +37,13 @@ Halflings start with the [[Brave]]; [[Fortunate]] and [[Lucky]] Characteristics.
 
 # XP Distribution
 
-| Name                                  | XP  |
-| ------------------------------------- |:---:|
-| [[Race#Hit Die \| d6]]                | -4  |
-| [[Race#Size  \| Small]]               | -10 | 
-| [[Brave]]                             |  2  |
-| [[Fortunate]]                         | 15  |
-| [[Lucky]]                             | 30  |
-| Total                                 | 33  |
+| Name                    | XP  |
+| ----------------------- |:---:|
+| [[Race#Hit Die \| d6]]  | -4  | 
+| [[Race#Size  \| Small]] | -20 |
+| [[Brave]]               |  2  |
+| [[Fortunate]]           | 15  |
+| [[Lucky]]               | 30  |
+| Total                   | 23  |
 
 
