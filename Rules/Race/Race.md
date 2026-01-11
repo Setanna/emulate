@@ -5,25 +5,31 @@ cssclass: pathfinder
 
 # Race
 
-| Name                                  | XP  |     |
-| ------------------------------------- | --- | --- |
-| [[Race#Size \| Small]]                | -4  |     |
-| [[Race#Hit Die \| d10 Hit Die]]       | +4  |     |
-| [[Race#Movement \| 3 Movement Speed]] | -4  |     |
-| [[Dwarven Stoutness]]                 | +4  |     |
-| Total                                 | 0   |     |
+| Name                                  | XP  |
+| ------------------------------------- | --- |
+| [[Race#Size \| Small]]                | -4  |
+| [[Race#Hit Die \| d10 Hit Die]]       | +4  |
+| [[Race#Movement \| 3 Movement Speed]] | -4  |
+| [[Dwarven Stoutness]]                 | +4  |
+| Total                                 | 0   |
 
 ### Size
 
-| Size       | XP Cost |
-| ---------- | ------- |
-| Gargantuan | +64     |
-| Huge       | +16     |
-| Large      | +4      |
-| Medium     | 0       |
-| Small      | -4      |
-| Tiny       | -16     |
-| Diminutive | -64     | 
+| Size     | XP Cost |
+| -------- | ------- |
+| Minute   | -50     |
+| Puny     | -40     |
+| Tiny     | -30     |
+| Small    | -20     |
+| Short    | -10     |
+| Medium   | 0       |
+| Tall     | 10      |
+| Large    | 20      |
+| Towering | 30      |
+| Huge     | 40      |
+| Gigantic | 50      | 
+
+
 
 ### Hit Die
 

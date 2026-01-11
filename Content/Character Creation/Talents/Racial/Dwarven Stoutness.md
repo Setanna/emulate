@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Dwarven Stoutness <span style="margin-left: auto;"> 8 XP</span> </h1>
+<h1> Dwarven Stoutness <span style="margin-left: auto;"> 20 XP</span> </h1>
 
 [[Birthright]]{.trait}
 
@@ -18,4 +18,4 @@ ___
 <br>
 
 **System:**
-Increase your [[Size]] Modifier by 4 except for speed. Additionally you count as two sizes larger for [[Stats | Loads]]; weight; food and water consumption.
+Increase your [[Size]] Modifier by 2 except for speed. Additionally you count as two sizes larger for [[Stats | Loads]]; weight; food and water consumption.

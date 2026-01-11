@@ -6,15 +6,19 @@ cssclass: pathfinder
 # Size
 Size modifies several things regarding a creature as noted in the table below:
 
-| Size       | Height (m)  | Weight (Kg)    | Size Modifier | Speed | Move | Be Moved | Strength Rolls | Dexterity Rolls | Hit Class | Damage | Damage Reduction |
-| ---------- | ----------- | -------------- |:-------------:|:-----:|:----:|:--------:|:--------------:|:---------------:|:---------:|:------:|:----------------:|
-| Diminutive | 0.1 to 0.3  | 0.5 to 2       |      -4       |  -3   |  -3  |    +3    |       -6       |       +6        |    +6     |   -6   |        -6        |
-| Tiny       | 0.3 to 0.6  | 2 to 10        |      -2       |  -2   |  -2  |    +2    |       -4       |       +4        |    +4     |   -4   |        -4        |
-| Small      | 0.6 to 1.2  | 10 to 50       |      -1       |  -1   |  -1  |    +1    |       -2       |       +2        |    +2     |   -2   |        -2        |
-| Medium     | 1.2 to 2.4  | 50 to 150      |       0       |   0   |  0   |    0     |       0        |        0        |     0     |   0    |        0         |
-| Large      | 2.4 to 4.8  | 150 to 900     |      +1       |  +1   |  +1  |    -1    |       +2       |       -2        |    -2     |   +2   |        +2        |
-| Huge       | 4.8 to 9.6  | 900 to 5,000   |      +2       |  +2   |  +2  |    -2    |       +4       |       -4        |    -4     |   +4   |        +4        |
-| Gargantuan | 9.6 to 19.2 | 5000 to 30,000 |      +4       |  +3   |  +3  |    -3    |       +6       |       -6        |    -6     |   +6   |        +6        |
+| Size     | Height (m) | Weight (kg)  | Size Modifier | Speed | Move | Be Moved | Strength Rolls | Dexterity Rolls | Damage | Damage Reduction |
+| -------- | ---------- | ------------ |:-------------:|:-----:|:----:|:--------:|:--------------:|:---------------:|:------:|:----------------:|
+| Minute   | 0.2 to 0.5 | 2 to 8       |      -5       |  -5   |  -5  |    +5    |       -5       |       +5        |   -5   |        -5        |
+| Puny     | 0.5 to 0.8 | 8 to 20      |      -4       |  -4   |  -4  |    +4    |       -4       |       +4        |   -4   |        -4        |
+| Tiny     | 0.8 to 1.1 | 20 to 45     |      -3       |  -3   |  -3  |    +3    |       -3       |       +3        |   -3   |        -3        |
+| Small    | 1.1 to 1.4 | 35 to 65     |      -2       |  -2   |  -2  |    +2    |       -2       |       +2        |   -2   |        -2        |
+| Short    | 1.4 to 1.7 | 55 to 90     |      -1       |  -1   |  -1  |    +1    |       -1       |       +1        |   -1   |        -1        |
+| Medium   | 1.7 to 2   | 70 to 130    |       0       |   0   |  0   |    0     |       0        |        0        |   0    |        0         |
+| Tall     | 2.3 to 2.6 | 140 to 250   |      +1       |  +1   |  +1  |    -1    |       +1       |       -1        |   +1   |        +1        |
+| Large    | 2.6 to 2.9 | 220 to 400   |      +2       |  +2   |  +2  |    -2    |       +2       |       -2        |   +2   |        +2        |
+| Towering | 2.9 to 3.2 | 350 to 700   |      +3       |  +3   |  +3  |    -3    |       +3       |       -3        |   +3   |        +3        |
+| Huge     | 3.2 to 3.5 | 600 to 1,100 |      +4       |  +4   |  +4  |    -4    |       +4       |       -4        |   +4   |        +4        |
+| Gigantic | 3.5 to 3.8 | 900 to 1,700 |      +5       |  +5   |  +5  |    +5    |       +5       |       -5        |   +5   |        +5        |
 
 ### Adding and Subtracting Size Modifier
 Size Modifier is added to several elements in the Emulate System. To add a Size Modifier simply apply the given Size modifier to the given value. *(Negative Size modifiers reduce the given value)*
@@ -40,11 +44,11 @@ Whenever you would be forcefully moved by a Creature, such a with the [[Ram]] or
 
 **Strength Rolls**
 Add your Size Modifier to all Strength-Based Rolls and DCs.
+
 <br>
 
 **Dexterity Rolls**
 Subtract your Size Modifier to all Dexterity-Based Rolls and DCs.
-Whenever you would make a Dexterity-Based Roll, subtract your Size modifier from the Roll.
 
 <br>
 
@@ -59,4 +63,6 @@ You reduce all damage by half your Size modifier.
 <br>
 
 **Gear**
-For creatures larger than medium, double the cost and weight of armor, food, shields and weapons for each size larger. For smaller creatures half the cost and weight of armor, food, shields and weapons for each size smaller.
+Equipment is sized for Medium creatures by default.
+- Each size larger than Medium increases the cost and weight of armor, weapons, shields, and food by 50%
+- Each size smaller than Medium reduces the cost and weight by 50%
