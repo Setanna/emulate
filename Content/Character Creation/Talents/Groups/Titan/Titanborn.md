@@ -3,7 +3,7 @@ tags: [Martial]
 cssclass: pathfinder  
 ---
 
-<h1> Titanborn <span style="margin-left: auto;"> 4 XP </span> </h1>
+<h1> Titanborn <span style="margin-left: auto;"> 10 XP </span> </h1>
 
 [[Birthright]]{.trait}
 
