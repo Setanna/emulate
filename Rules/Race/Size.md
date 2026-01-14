@@ -14,11 +14,11 @@ Size modifies several things regarding a creature as noted in the table below:
 | Small    | 1.1 to 1.4 | 35 to 65     |      -2       |  -2   |  -2  |    +2    |       -2       |       +2        |   -2   |        -2        |
 | Short    | 1.4 to 1.7 | 55 to 90     |      -1       |  -1   |  -1  |    +1    |       -1       |       +1        |   -1   |        -1        |
 | Medium   | 1.7 to 2   | 70 to 130    |       0       |   0   |  0   |    0     |       0        |        0        |   0    |        0         |
-| Tall     | 2.3 to 2.6 | 140 to 250   |      +1       |  +1   |  +1  |    -1    |       +1       |       -1        |   +1   |        +1        |
-| Large    | 2.6 to 2.9 | 220 to 400   |      +2       |  +2   |  +2  |    -2    |       +2       |       -2        |   +2   |        +2        |
-| Towering | 2.9 to 3.2 | 350 to 700   |      +3       |  +3   |  +3  |    -3    |       +3       |       -3        |   +3   |        +3        |
-| Huge     | 3.2 to 3.5 | 600 to 1,100 |      +4       |  +4   |  +4  |    -4    |       +4       |       -4        |   +4   |        +4        |
-| Gigantic | 3.5 to 3.8 | 900 to 1,700 |      +5       |  +5   |  +5  |    +5    |       +5       |       -5        |   +5   |        +5        |
+| Tall     | 2 to 2.3   | 140 to 250   |      +1       |  +1   |  +1  |    -1    |       +1       |       -1        |   +1   |        +1        |
+| Large    | 2.3 to 2.6 | 220 to 400   |      +2       |  +2   |  +2  |    -2    |       +2       |       -2        |   +2   |        +2        |
+| Towering | 2.6 to 2.9 | 350 to 700   |      +3       |  +3   |  +3  |    -3    |       +3       |       -3        |   +3   |        +3        |
+| Huge     | 2.9 to 3.2 | 600 to 1,100 |      +4       |  +4   |  +4  |    -4    |       +4       |       -4        |   +4   |        +4        |
+| Gigantic | 3.2 to 3.5 | 900 to 1,700 |      +5       |  +5   |  +5  |    +5    |       +5       |       -5        |   +5   |        +5        |
 
 ### Adding and Subtracting Size Modifier
 Size Modifier is added to several elements in the Emulate System. To add a Size Modifier simply apply the given Size modifier to the given value. *(Negative Size modifiers reduce the given value)*
@@ -62,7 +62,14 @@ You reduce all damage by half your Size modifier.
 
 <br>
 
+**Carrying Capacity**
+Carrying Capacity is sized for Medium Creatures by default.
+- Each size larger than Medium increases your Carrying Capacity by 10%
+- Each size smaller than Medium reduces your Carrying Capacity by 10%
+
+<br>
+
 **Gear**
 Equipment is sized for Medium creatures by default.
-- Each size larger than Medium increases the cost and weight of armor, weapons, shields, and food by 50%
-- Each size smaller than Medium reduces the cost and weight by 50%
+- Each size larger than Medium increases the cost and weight of armor, weapons, shields, and food by 10%
+- Each size smaller than Medium reduces the cost and weight of armor, weapons, shields, and food by 10%
