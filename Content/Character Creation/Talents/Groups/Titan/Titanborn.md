@@ -16,7 +16,7 @@ ___
 <br>
 
 **System:**
-You increase your [[Rules/Race/Size| Size Modifier]] by 1.
+You increase your [[Rules/Race/Size| Size] by one step.
 
 <br>
 
