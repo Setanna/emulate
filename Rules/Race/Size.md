@@ -62,10 +62,10 @@ You reduce all damage by half your Size modifier.
 
 <br>
 
-**Carrying Capacity**
-Carrying Capacity is sized for Medium Creatures by default.
-- Each size larger than Medium increases your Carrying Capacity by 10%
-- Each size smaller than Medium reduces your Carrying Capacity by 10%
+**Carrying Loads**
+Carrying Load is sized for Medium Creatures by default.
+- Each size larger than Medium increases all your Carrying Loads by 10%
+- Each size smaller than Medium reduces all your Carrying Loads by 10%
 
 <br>
 
