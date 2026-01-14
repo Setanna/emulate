@@ -24,7 +24,10 @@ Creatures of Emulate are made up and primarily defined by 6 core attributes know
 |     +4     | Dragon          | 48 kg      | 96 kg       | 144 kg     | Can break objects like wood with bare hands                   |
 |     +5     | Giant           | 60 kg      | 120 kg      | 180 kg     | Pinnacle of brawn                                             |
 
-**Size** For each size above medium double the loads, and for each size below medium half the loads. For Example a Large Horse with a Strength of 4 would have a Light Load of 96 kg.
+**Size** 
+Carrying Load is sized for Medium Creatures by default.
+- Each size larger than Medium increases all your Carrying Loads by 10%
+- Each size smaller than Medium reduces all your Carrying Loads by 10%
 
 **Load Penalties:** Being lightly encumbered brings no penalties, while being of Medium Load carries with it a -1 Dexterity Penalty. Heavy Load carries with it a -2 Dexterity Penalty and increases all [[Movement]] Actions second cost by one.
 
