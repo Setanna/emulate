@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 # Armor
-Armor reduces all [[Damage Types | Physical Damage]] by their Armor Value; and and it reduces [[Damage Types | Elemental Damage]] by half their Armor Value.
+Armor reduces all [[Damage Types | Physical Damage]] and [[Damage Types | Elemental Damage]] by their Armor Value. A Creature can only benefit from one Armor Value at a time.
 
 ## Light Armor
 | Name         | Traits                                 | Cost   | Weight | Armor Value | Dex Penalty | Str Requirement |
@@ -29,14 +29,14 @@ Armor reduces all [[Damage Types | Physical Damage]] by their Armor Value; and a
 | Full Plate  | [[Loud]], [[Bash \| Bash (1d4)]], [[Bulwark \| Bulwark +3]] [[Cumbersome \| Cumbersome 1]] | 30 sc | 24 kg  | 9           | 2           | 2               |
 
 ### Dexterity Penalty and Strength Requirement
-Dexterity Penalty is applied directly to ones Dexterity Score, lowering it while the armor is used.
+Dexterity Penalty is applied directly to ones Dexterity Score, lowering it while the armor is donned.
 
 <br>
 
-If a creature doesn't meet the Strength Requirement for Armor, they reduce their speed by an amount equal to the Armor's Strength Requirement.
+If a creature doesn't meet the Strength Requirement for Armor they have donned, they reduce their speed by an amount equal to the Armor's Strength Requirement.
 
 ### Don and Doff
-To gain the benefits of armor it must be donned. It takes 1 minute to don light armor, 5 minutes to don medium armor and 10 minutes to don heavy armor. Another creature can help donning the armor, halving the time to don the armor.
+To gain the benefits of Armor it must be donned. It takes 1 minute to don light armor, 5 minutes to don medium armor and 10 minutes to don heavy armor. Another creature can help donning the armor, halving the time to don the armor.
 
 <br>
 
