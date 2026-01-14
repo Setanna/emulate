@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 # Shields
-shields reduces all [[Damage Types | Physical Damage]] by their Shield Value; and it reduces [[Damage Types | Elemental Damage]] by half their Shield Value.
+Shields increase a Creature's Armor Value by it's Shield Value.
 
 ## Light Shields
 | Name    | Traits                                   | Cost | Weight | Shield Value | Dex Penalty | Str Requirement |
@@ -24,11 +24,13 @@ shields reduces all [[Damage Types | Physical Damage]] by their Shield Value; an
 | Tower Shield | [[Bastion]], [[Bulwark \| Bulwark 2]] [[Cumbersome \| Cumbersome 1]] | 32 cc | 7 kg   | 3            | 2           | 2               |
 
 ### Dexterity Penalty and Strength Requirement
-Dexterity Penalty is applied directly to ones Dexterity Score, lowering it while the shield is used.
+Dexterity Penalty is applied directly to ones Dexterity Score, lowering it while the shield is donned.
 
 <br>
 
-If a creature doesn't meet the Strength Requirement for a Shield they can't take any Reactions using the shield.
+If a creature doesn't meet the Strength Requirement for a Shield they can't take any Reactions using the Shield.
 
 ### Don and Doff
-To gain the benefits of a shield it must be donned. It takes 1 actions to don light shields, 3 actions to don medium shields and 5 actions to don heavy shields. 
+To gain the benefits of a Shield it must be donned. It takes 2 actions to don light shields, 4 actions to don medium shields and 6 actions to don heavy shields. 
+
+Doffing a Shield, takes half the time it would take to don it.
