@@ -17,6 +17,9 @@ The attacker Rolls the Weapon's Damage Die and adds their Strength for melee att
 
 *Damage Rolled can never be less than 1.*
 
+##### 3.1 Apply Damage Modifiers
+Apply any and all modifier to the Damage Roll using the [[Order of Operations]].
+
 ### 4. Determine Success
 Each defender makes a [[Saving Throws#Reflex | Reflex Saving Throw]] against the attacker's Attack DC.
 
@@ -29,10 +32,6 @@ Each defender makes a [[Saving Throws#Reflex | Reflex Saving Throw]] against the
 If the defender critically failed the Saving Throw, any Weapon Damage Die are treated as they rolled the maximum they could possibly Roll.
 
 Additional Damage Dice such as Bleed Damage from [[Vital Strike]] are not treated as they rolled maximum.
-
-##### 4.2 Apply Damage Modifiers
-Apply any and all modifier to the Damage Roll using the [[Order of Operations]].
-
 
 ### 5. Apply Damage to the defender
 The total damage is then applied to the defender.
