@@ -12,27 +12,26 @@ The attacker chooses what weapon they are wielding to Sweep with. They can alter
 ### 2. Determine Targets
 The attacker chooses how the area is placed, originating from the attacker, and all creatures within the area are the targets of the Attack.
 
-### 3. Determine Success
-Each defender makes a [[Saving Throws#Reflex | Reflex Saving Throw]] against the attacker's Attack DC.
-
-**Critical Success:** The defender takes damage as shown in Step 3
-**Success:** The defender takes damage as shown in step 3
-**Fail:** The defender does not take any damage
-**Critical Fail:** The defender does not take any damage
-
-### 4. Roll Damage
-If a defender failed the Saving Throw, the attacker Rolls the Weapon's Damage Die and adds their Strength for melee attacks or their Dexterity for ranged attacks. 
+### 3. Roll Damage
+The attacker Rolls the Weapon's Damage Die and adds their Strength for melee attacks or their Dexterity for ranged attacks. 
 
 *Damage Rolled can never be less than 1.*
+
+##### 3.1 Apply Damage Modifiers
+Apply any and all modifier to the Damage Roll using the [[Order of Operations]].
+
+### 4. Determine Success
+Each defender makes a [[Saving Throws#Reflex | Reflex Saving Throw]] against the attacker's Attack DC.
+
+**Critical Success:** The defender takes no damage
+**Success:** The defender takes half damage
+**Fail:** The defender takes full damage
+**Critical Fail:** The defender takes the maximum damage the attack could deal (As shown in step 4.1)
 
 ##### 4.1 Determine Critical Effect
 If the defender critically failed the Saving Throw, any Weapon Damage Die are treated as they rolled the maximum they could possibly Roll.
 
 Additional Damage Dice such as Bleed Damage from [[Vital Strike]] are not treated as they rolled maximum.
-
-##### 4.2 Apply Damage Modifiers
-Apply any and all modifier to the Damage Roll using the [[Order of Operations]].
-
 
 ### 5. Apply Damage to the defender
 The total damage is then applied to the defender.

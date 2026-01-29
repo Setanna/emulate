@@ -8,4 +8,4 @@ When you take an [[Rules/Traits/Attack | Attack]] Action with the [[Daring]] Tra
 
 <br>
 
-If the Trait does not have a given value, it instead uses the Stat used for the Attack Roll as the Trait's value. *The Daring Trait grants no effect to Actions without the [[Rules/Traits/Attack | Attack]] Trait.*
+If the Trait does not have a given value, it instead uses half the Stat used for the Attack Roll as the Trait's value or it uses the full Stat if the Weapon used for the Attack has the [[Heavy]] Trait. *The Daring Trait grants no effect to Actions without the [[Rules/Traits/Attack | Attack]] Trait.*
