@@ -64,7 +64,8 @@ kanban-plugin: board
 	-  [ ] **Folklore**
 	- Should be similar to old timey folk lore
 	- Weak to iron
-	- Steal names
+	- Steal names, Play Pranks
+		- No Saving Throws
 	
 	</details>
 
