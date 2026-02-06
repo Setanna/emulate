@@ -53,8 +53,11 @@ kanban-plugin: board
 		</b> 
 	</summary>
 	
-	-  [ ] Rally the Faithful
+	- [ ] Rally the Faithful
 	- Conviction as requirement
+	- [ ] Rally the Fearless
+	- Creatures who have the Brave Characteristics gain Immunity to Fear
+	- Needs Talent to have several Rallies active.
 	
 	</details>
 
