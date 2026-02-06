@@ -46,6 +46,17 @@ kanban-plugin: board
 	-  A Talent that lets one gain access to other Race's Racial Talents
 	
 	</details>
+- [ ] <details> 
+	<summary> 
+		<b>
+			Rally Archetype
+		</b> 
+	</summary>
+	
+	-  [ ] Rally the Faithful
+	- Conviction as requirement
+	
+	</details>
 
 
 ## Doing
