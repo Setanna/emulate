@@ -46,6 +46,20 @@ kanban-plugin: board
 	-  A Talent that lets one gain access to other Race's Racial Talents
 	
 	</details>
+- [ ] <details> 
+	<summary> 
+		<b>
+			Rally Archetype
+		</b> 
+	</summary>
+	
+	- [ ] Rally the Faithful
+	- Conviction as requirement
+	- [ ] Rally the Fearless
+	- Creatures who have the Brave Characteristics gain Immunity to Fear
+	- Needs Talent to have several Rallies active.
+	
+	</details>
 
 
 ## Doing
