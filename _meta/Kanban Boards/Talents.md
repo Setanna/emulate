@@ -53,11 +53,14 @@ kanban-plugin: board
 		</b> 
 	</summary>
 	
+	- [ ] Each "Rally the X"
+	- Should be it's own archetype with sub talents
 	- [ ] Rally the Faithful
 	- Conviction as requirement
 	- [ ] Rally the Fearless
 	- Creatures who have the Brave Characteristics gain Immunity to Fear
 	- Needs Talent to have several Rallies active.
+	- [ ] Rally the Banner
 	
 	</details>
 
