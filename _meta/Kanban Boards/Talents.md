@@ -55,6 +55,8 @@ kanban-plugin: board
 	
 	- [ ] Each "Rally the X"
 	- Should be it's own archetype with sub talents
+	- [ ] Lead by Example
+	- Mythic Version up to your Charisma
 	- [ ] Rally the Faithful
 	- Conviction as requirement
 	- [ ] Rally the Fearless
