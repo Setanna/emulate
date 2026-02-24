@@ -63,7 +63,9 @@ kanban-plugin: board
 	- Creatures who have the Brave Characteristics gain Immunity to Fear
 	- Needs Talent to have several Rallies active.
     - [ ] Reactive Rally
-    - Gain the Reactive Rally Action.       
+    - Gain the Reactive Rally Action.
+	- [ ] Twin Decree
+ 	- A creature can be affected two different Rally options at once.
 	
 	</details>
 
