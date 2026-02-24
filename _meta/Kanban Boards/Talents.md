@@ -29,7 +29,7 @@ kanban-plugin: board
 		An Archetype of the Rally Archetype
 	</p>
 	
-	-  [ ] **Banner**
+	-  [ ] **Rally the Banner**
 	-  Use a Banner to increase the effects of Rally
 	-  [ ] **Last Stand**
 	- On death keep banner raised until end of encounter or until someone breaks it
@@ -62,7 +62,8 @@ kanban-plugin: board
 	- [ ] Rally the Fearless
 	- Creatures who have the Brave Characteristics gain Immunity to Fear
 	- Needs Talent to have several Rallies active.
-	- [ ] Rally the Banner
+    - [ ] Reactive Rally
+    - Gain the Reactive Rally Action.       
 	
 	</details>
 
