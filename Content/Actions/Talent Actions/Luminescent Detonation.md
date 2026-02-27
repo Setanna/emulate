@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 
-<h1> Luminescent Detonation <span style="margin-left: auto;"> Split Second </span> </h1>
+<h1> Luminescent Detonation <span style="margin-left: auto;">  </span> </h1>
 
 [[Arcane]]{.trait}
 
@@ -12,7 +12,7 @@ cssclass: pathfinder
 
 <div style="clear:both" />
 
-**Trigger:** Whenever a creature within [[Lighting | Normal Lighting]] emitted of your spell is the target of an Attack Roll.
+**Reaction Trigger:** Whenever a creature within [[Lighting | Normal Lighting]] emitted of your spell is the target of an Attack Roll.
 ___
 *A snap of will turns your gathered light into a searing flash*
 

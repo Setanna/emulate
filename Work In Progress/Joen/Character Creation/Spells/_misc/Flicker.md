@@ -9,6 +9,8 @@ cssclass: pathfinder
 
 [[Arcane]]{.trait}
 
+[[Reactive]]{.trait}
+
 [[Teleporation]]{.trait}
 
 [[Somatic]]{.trait}
@@ -34,7 +36,7 @@ ___
 	</div> 
 	<div style="clear:both" /> 
 	
-	<b>Trigger:</b> You would be the target of an attack or make a Saving Throw.
+	<b>Reaction Trigger:</b> You would be the target of an attack or make a Saving Throw.
 	
 </div>
 

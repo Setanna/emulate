@@ -12,7 +12,7 @@ cssclass: pathfinder
 
 <div style="clear:both" />
 
-**Trigger:**  You are the target of an Action with the [[Attack]] or [[Blast]] Trait.
+**Reaction Trigger:**  You are the target of an Action with the [[Attack]] or [[Blast]] Trait.
 ___
 
 **System:**

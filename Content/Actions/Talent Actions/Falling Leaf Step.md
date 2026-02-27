@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Falling Leaf Step <span style="margin-left: auto;">Split Second </span> </h1>
+<h1> Falling Leaf Step <span style="margin-left: auto;"> </span> </h1>
 
 [[Reactive]]{.trait}
 
@@ -13,7 +13,7 @@ cssclass: pathfinder
 
 **Requirements:** You wield no Armor, Shields or Weapons; You are Light Load
 
-**Trigger:** You gained the [[Prone]] Condition
+**Reaction Trigger:** You gained the [[Prone]] Condition
 
 ___
 *Flavor Text*
@@ -25,4 +25,4 @@ You remove the [[Prone]] Condition and take the [[Step]] Action.
 
 <br>
 
-While you are in the [[Content/Character Creation/Talents/Stance/Leaf Stance/Leaf Stance | Leaf Stance]] the cost of this Action is reduced to 0 Seconds instead of a Split Second.
+While you are in the [[Content/Character Creation/Talents/Stance/Leaf Stance/Leaf Stance | Leaf Stance]], all Reaction Triggers become Free Triggers.

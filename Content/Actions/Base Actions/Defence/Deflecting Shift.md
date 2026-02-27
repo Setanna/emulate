@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 
-<h1> Deflecting Shift <span style="margin-left: auto;"> Split Second </span> </h1>
+<h1> Deflecting Shift <span style="margin-left: auto;">  </span> </h1>
 
 [[Reactive]]{.trait}
 
@@ -12,7 +12,7 @@ cssclass: pathfinder
 
 <div style="clear:both" />
 
-**Trigger:** You are the target of an Action with the [[Accurate]] Trait.
+**Reaction Trigger:** You are the target of an Action with the [[Accurate]] Trait.
 
 ___
 

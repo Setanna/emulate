@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 
-<h1> Block <span style="margin-left: auto;"> Split Second </span> </h1>
+<h1> Block <span style="margin-left: auto;">  </span> </h1>
 
 [[Reactive]]{.trait}
 
@@ -12,7 +12,7 @@ cssclass: pathfinder
 
 <div style="clear:both" />
 
-**Trigger:**  You or your ally within reach is the target of an Action with the [[Attack]] or [[Blast]] Trait.
+**Reaction Trigger:**  You or your ally within reach is the target of an Action with the [[Attack]] or [[Blast]] Trait.
 ___
 
 **System:**

@@ -11,6 +11,8 @@ cssclass: pathfinder
 
 [[Emotion | Emotion (Fear)]]{.trait}
 
+[[Reactive]]{.trait}
+
 <div style="clear:both" /> 
 
 ___
@@ -32,7 +34,7 @@ ___
 	</div> 
 	<div style="clear:both" /> 
 		
-	<b>Trigger:</b> You or an ally would be the target of an attack or make a Saving Throw.
+	<b>Reaction Trigger:</b> You or an ally would be the target of an attack or make a Saving Throw.
 	
 </div>
 

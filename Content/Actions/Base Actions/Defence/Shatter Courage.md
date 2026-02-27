@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 
-<h1> Shatter Courage <span style="margin-left: auto;"> Split Second </span> </h1>
+<h1> Shatter Courage <span style="margin-left: auto;">  </span> </h1>
 
 [[Reactive]]{.trait}
 

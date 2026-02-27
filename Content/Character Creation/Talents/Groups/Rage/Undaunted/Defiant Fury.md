@@ -17,5 +17,5 @@ ___
 
 **System:**
 Your [[Accrue Rage]] Action gains the following triggers:
- - **Trigger:** When you would be affected by a source with the [[Emotion | Emotion (Fear)]] Trait
- - **Trigger:** When you would be affected by a source with the [[Compulsion]] Trait
+ - **Free Trigger:** When you would be affected by a source with the [[Emotion | Emotion (Fear)]] Trait
+ - **Free Trigger:** When you would be affected by a source with the [[Compulsion]] Trait

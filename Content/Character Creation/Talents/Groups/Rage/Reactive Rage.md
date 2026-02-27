@@ -13,5 +13,11 @@ cssclass: pathfinder
 ___
 
 **System:**
-You gain the [[Content/Actions/Talent Actions/Reactive Rage | Reactive Rage]] Action.
+You [[Rage]] Action gain the following Triggers:
+
+<br>
+
+**Reaction Triggers:**
+ - When you would or take Damage
+ - When you would Roll a Strength Based Skill Check
 

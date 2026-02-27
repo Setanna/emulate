@@ -27,4 +27,4 @@ You gain the [[Bolster]] Action. Additionally Your [[Bolster]] Action gains the 
 
 <br>
 
-**Trigger:** After you gain the [[Enraged]] Condition.
+**Free Trigger:** After you gain the [[Enraged]] Condition.

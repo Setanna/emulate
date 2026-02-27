@@ -23,6 +23,6 @@ Your [[Step]] Action gains the following triggers:
 
 <br>
 
-**Triggers:** 
+**Free Triggers:** 
 - When you take the [[Attack]] Action.
 - After you take the [[Attack]] Action.

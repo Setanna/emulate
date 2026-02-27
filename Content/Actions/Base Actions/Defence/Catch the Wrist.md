@@ -4,13 +4,13 @@ cssclass: pathfinder
 ---
 
 
-<h1> Catch the Wrist <span style="margin-left: auto;"> Split Second </span> </h1>
+<h1> Catch the Wrist <span style="margin-left: auto;">  </span> </h1>
 
 [[Reactive]]{.trait}
 
 <div style="clear:both" />
 
-**Trigger:**  You or your ally within reach is the target of an [[Rules/Traits/Attack | Attack]] Action and the Attacker is within your Reach.
+**Reaction Trigger:**  You or your ally within reach is the target of an [[Rules/Traits/Attack | Attack]] Action and the Attacker is within your Reach.
 ___
 
 **System:**

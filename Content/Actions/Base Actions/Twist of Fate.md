@@ -4,13 +4,15 @@ cssclass: pathfinder
 ---
 
 
-<h1> Twist of Fate <span style="margin-left: auto;"> 0 Seconds </span> </h1>
+<h1> Twist of Fate <span style="margin-left: auto;">  </span> </h1>
 
 [[Fate]]{.trait}
 
+[[Reactive]]{.trait}
+
 <div style="clear:both" />
 
-**Trigger:** When you are the target of an Action or you take an Action.
+**Free Trigger:** When you are the target of an Action or you take an Action.
 ___
 *When you're face to face with death itself*
 

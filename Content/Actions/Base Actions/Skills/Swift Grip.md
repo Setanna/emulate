@@ -4,14 +4,16 @@ cssclass: pathfinder
 ---
 
 
-<h1> Swift Grip <span style="margin-left: auto;"> Split Second </span> </h1>
+<h1> Swift Grip <span style="margin-left: auto;">  </span> </h1>
 
 [[Skill | Skill (Climb)]]{.trait}
+
+[[Reactive]]{.trait}
 
 <div style="clear:both" />
 
 **Requirements:** Both hands free.
-**Trigger:** You are [[Falling]].
+**Reaction Trigger:** You are [[Falling]].
 ___
 
 **System:**

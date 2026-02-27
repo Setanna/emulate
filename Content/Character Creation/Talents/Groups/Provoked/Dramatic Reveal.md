@@ -20,5 +20,5 @@ Your [[Antagonize | Antagonize (You)]] Action gain the following trigger:
 
 <br>
 
-**Trigger ([[Rules/Traits/Item | Item (Dueling Cape)]]):** Whenever you Roll for Initiative and you are not [[Surprised]].
+**Free Trigger ([[Rules/Traits/Item | Item (Dueling Cape)]]):** Whenever you Roll for Initiative and you are not [[Surprised]].
 

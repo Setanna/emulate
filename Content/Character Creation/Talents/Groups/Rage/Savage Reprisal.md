@@ -27,4 +27,4 @@ Your [[Attack of Opportunity]] gains the following trigger:
 
 <br>
 
-**Trigger:** After you take damage
+**Reaction Trigger:** After you take damage

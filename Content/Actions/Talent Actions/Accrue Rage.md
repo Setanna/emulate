@@ -10,7 +10,7 @@ cssclass: pathfinder
 
 <div style="clear:both" />
 
-**Triggers:**
+**Free Triggers:**
 - After you take or deal damage
 
 **Requirements:** [[Rage]]

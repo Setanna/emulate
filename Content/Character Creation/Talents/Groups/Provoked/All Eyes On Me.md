@@ -18,5 +18,5 @@ Your [[Antagonize | Antagonize (You)]] Action gain the following trigger:
 
 <br>
 
-**Trigger:** Whenever you Roll for Initiative and you are not [[Surprised]].
+**Free Trigger:** Whenever you Roll for Initiative and you are not [[Surprised]].
 
