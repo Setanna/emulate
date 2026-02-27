@@ -9,9 +9,11 @@ cssclass: pathfinder
 
 [[Arcane]]{.trait}
 
+[[Reactive]]{.trait}
+
 <div style="clear:both" /> 
 
-**Trigger:** A Creature within range is taking an Action with the [[Momentum]] Trait or is [[Falling]]
+**Reaction Trigger:** A Creature within range is taking an Action with the [[Momentum]] Trait or is [[Falling]]
 ___
 
 <div> 

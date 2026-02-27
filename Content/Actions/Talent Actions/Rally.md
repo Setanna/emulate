@@ -29,8 +29,6 @@ Whenever your allies use the [[Charge]] or [[Ram]] Action, they add your Charism
 ##### Steel Your Hearts!
 Your allies gain the [[Brave]] Characteristic, if they already have the [[Brave]] Characteristic they increase the Bonus it grants by your Charisma.
 
-<br>
-
 Additionally if your allies is affected by a source with the [[Emotion | Emotion (Fear)]] Trait, they can Roll a [[Saving Throws#Trait Recovery Save | Recovery Save (Fear)]].
 
 ##### Remember Who You Are!

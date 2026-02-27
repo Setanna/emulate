@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 
-<h1> Parry <span style="margin-left: auto;"> Split Second </span> </h1>
+<h1> Parry <span style="margin-left: auto;">  </span> </h1>
 
 [[Rules/Traits/Item| Item (Weapon or Light; Medium Shield)]]{.trait}
 
@@ -12,7 +12,7 @@ cssclass: pathfinder
 
 <div style="clear:both" />
 
-**Trigger:**  You or your ally within reach is the target of an Action with the [[Attack]] and [[Melee]] Traits.
+**Reaction Trigger:**  You or your ally within reach is the target of an Action with the [[Attack]] and [[Melee]] Traits.
 ___
 
 **System:**

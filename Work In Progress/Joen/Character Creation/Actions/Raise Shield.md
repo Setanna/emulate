@@ -4,13 +4,15 @@ cssclass: pathfinder
 ---
 
 
-<h1> Raise Shield <span style="margin-left: auto;"> Split Second </span> </h1>
+<h1> Raise Shield <span style="margin-left: auto;">  </span> </h1>
 
 [[Rules/Traits/Item| Item (Shield)]]{.trait}
+
+[[Reactive]]{.trait}
  
 <div style="clear:both" />
 
-**Trigger:** You or an ally within reach is the target of a Weapon Attack and you're using your shield reactively.
+**Reaction Trigger:** You or an ally within reach is the target of a Weapon Attack and you're using your shield reactively.
 ___
 
 **System:**

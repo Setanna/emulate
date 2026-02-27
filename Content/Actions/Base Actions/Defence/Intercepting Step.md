@@ -4,13 +4,13 @@ cssclass: pathfinder
 ---
 
 
-<h1> Intercepting Step <span style="margin-left: auto;"> Split Second </span> </h1>
+<h1> Intercepting Step <span style="margin-left: auto;">  </span> </h1>
 
 [[Reactive]]{.trait}
 
 <div style="clear:both" />
 
-**Trigger:** An ally is the target of a Charge Action; Ranged Attack; or Action with the [[Blast]] Trait.
+**Reaction Trigger:** An ally is the target of a Charge Action; Ranged Attack; or Action with the [[Blast]] Trait.
 ___
 
 **System:**

@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Attack of Opportunity <span style="margin-left: auto;"> Split Second </span> </h1>
+<h1> Attack of Opportunity <span style="margin-left: auto;"></span> </h1>
 
 [[Rules/Traits/Attack | Attack]]{.trait}
 
@@ -13,7 +13,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Trigger:** A creature within your Reach does any of the following:
+**Reaction Trigger:** A creature within your Reach does any of the following:
 - Takes an Action with the [[Movement]] Trait
 - Takes the [[Interact]] Action.
 - Makes a Ranged Weapon Attack

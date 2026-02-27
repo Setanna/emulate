@@ -34,7 +34,7 @@ ___
 	</div> 
 	<div style="clear:both" /> 
 	
-	<b>Trigger:</b> You are targeted by an attack
+	<b>Reaction Trigger:</b> You are targeted by an attack
 	
 </div>
 

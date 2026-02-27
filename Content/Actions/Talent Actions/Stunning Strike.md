@@ -10,7 +10,7 @@ cssclass: pathfinder
 
 <div style="clear:both" />
 
-**Trigger:** When you make an [[Unarmed Strikes]] Attack
+**Reaction Trigger:** When you make an [[Unarmed Strikes]] Attack
 
 ___
 *Flavor Text*

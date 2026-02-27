@@ -35,7 +35,7 @@ ___
 	</div> 
 	<div style="clear:both" /> 
 	
-	<b>Trigger:</b> A creature could provoke an <a href="Attack of Opportunity.md" class="internal-link">Attack of Opportunity</a>, <a href="Raise Shield.md" class="internal-link">Raise Shield</a> or <a href="Parry.md" class="internal-link">Parry</a> Action within reach of a corpse, if the corpse was alive and met all requirements of the Actions.
+	<b>Reaction Trigger:</b> A creature could provoke an <a href="Attack of Opportunity.md" class="internal-link">Attack of Opportunity</a>, <a href="Raise Shield.md" class="internal-link">Raise Shield</a> or <a href="Parry.md" class="internal-link">Parry</a> Action within reach of a corpse, if the corpse was alive and met all requirements of the Actions.
 	
 </div>
 

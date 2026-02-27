@@ -9,6 +9,8 @@ cssclass: pathfinder
 
 [[Arcane]]{.trait}
 
+[[Reactive]]{.trait}
+
 [[Death]]{.trait}
 
 [[Somatic]]{.trait}
@@ -35,7 +37,7 @@ ___
 	</div> 
 	<div style="clear:both" /> 
 	
-	<b>Trigger:</b> A creature would be reduced to negative hit points or die.
+	<b>Reaction Trigger:</b> A creature would be reduced to negative hit points or die.
 	
 </div>
 

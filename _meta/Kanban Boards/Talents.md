@@ -29,7 +29,7 @@ kanban-plugin: board
 		An Archetype of the Rally Archetype
 	</p>
 	
-	-  [ ] **Banner**
+	-  [ ] **Rally the Banner**
 	-  Use a Banner to increase the effects of Rally
 	-  [ ] **Last Stand**
 	- On death keep banner raised until end of encounter or until someone breaks it
@@ -53,11 +53,19 @@ kanban-plugin: board
 		</b> 
 	</summary>
 	
+	- [ ] Each "Rally the X"
+	- Should be it's own archetype with sub talents
+	- [ ] Lead by Example
+	- Mythic Version up to your Charisma
 	- [ ] Rally the Faithful
 	- Conviction as requirement
 	- [ ] Rally the Fearless
 	- Creatures who have the Brave Characteristics gain Immunity to Fear
 	- Needs Talent to have several Rallies active.
+    - [ ] Reactive Rally
+    - Gain the Reactive Rally Action.
+	- [ ] Twin Decree
+ 	- A creature can be affected two different Rally options at once.
 	
 	</details>
 

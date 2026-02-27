@@ -20,4 +20,4 @@ Your [[Hide Intent]] Action gains the following Trigger:
 
 <br>
 
-**Trigger:** The first Action you take against a creature, that is [[Provoked]] by your [[Dramatic Reveal]]
+**Free Trigger:** The first Action you take against a creature, that is [[Provoked]] by your [[Dramatic Reveal]]
