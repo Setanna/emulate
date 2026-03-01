@@ -5,6 +5,8 @@ cssclass: pathfinder
 
 <h1> Strength of Words <span style="margin-left: auto;"> 4 XP</span> </h1>
 
+[[Timed]]{.trait}
+
 <div style="clear:both" /> 
 
 **Requirements:** [[Content/Actions/Talent Actions/Rally | Rally]]; Charisma 2+
@@ -14,5 +16,4 @@ ___
 <br>
 
 **System:**
-Whenever you use the [[Content/Actions/Talent Actions/Rally | Rally]] Action, you can use up to 5 additional Seconds on it. 
-For each 2 Seconds spent on [[Content/Actions/Talent Actions/Rally | Rally]], increase your Charisma by one for the purposes of calculating the benefits for that [[Content/Actions/Talent Actions/Rally | Rally]] Action.
+Whenever you use the [[Content/Actions/Talent Actions/Rally | Rally]] Action, after the first round you used it in an Encounter, increase any benefit granted by the action by one to a maximum of your Charisma.
