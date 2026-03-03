@@ -13,7 +13,7 @@ cssclass: pathfinder
 ___
 
 **System:**
-You [[Rage]] Action gain the following Triggers:
+Your [[Rage]] Action gain the following Triggers:
 
 <br>
 
