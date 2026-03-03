@@ -9,7 +9,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Content/Character Creation/Talents/Groups/Rage/Rage | Rage ]]
+**Requirements:** [[Content/Character Creation/Talents/Groups/Rage/Rage | Rage ]]; Wisdom +1
 ___
 *Clarity forged in the furnace of fury*
 
