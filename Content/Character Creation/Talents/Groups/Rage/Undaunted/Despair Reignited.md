@@ -9,7 +9,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Defiant Fury]]; Charisma 2+
+**Requirements:** [[Defiant Fury]]; Wisdom 2+
 ___
 *The deepest pits echo the loudest rage*
 
