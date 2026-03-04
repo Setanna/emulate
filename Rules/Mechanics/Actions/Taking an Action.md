@@ -19,7 +19,7 @@ Roll Attack Rolls, Damage Rolls, Saving Throws and Skill Checks for the Action.
 For each target of the Action, determine the Success of the Action against that target.
 
 ### 5. Determine 'When' Triggers
-Any Creature that can [[Perception | percieve]] you take your Action, can use one Action as long as that Action's Triggers are met. 
+Any Creature that can [[Perception | perceive]] you take your Action, can use one Action as long as that Action's Triggers are met. 
 
 ### 5.1 Resolve Any Triggered Actions
 Resolve any Triggered Actions before continuing with your declared Action. To resolve an Triggered Action simple follow the steps for Taking an Action. If multiple creatures use Triggered Actions resolve in order of Dexterity (Highest to Lowest).
@@ -31,7 +31,7 @@ For each target of the Action, determine the Success of the Action against that 
 Do as described in the Action, such as moving, applying Conditions or applying Damage.
 
 ### 7. Determine 'After' Triggers
-Any Creature that can [[Perception | percieve]] you take your Action, can use one Action as long as that Action's Triggers are met. 
+Any Creature that can [[Perception | perceive]] you take your Action, can use one Action as long as that Action's Triggers are met. 
 
 ### 7.1 Resolve Any Triggered Actions
 Resolve any Triggered Actions after your declared Action. To resolve an Triggered Action simple follow the steps for Taking an Action. If multiple creatures use Triggered Actions resolve in order of Dexterity (Highest to Lowest).
