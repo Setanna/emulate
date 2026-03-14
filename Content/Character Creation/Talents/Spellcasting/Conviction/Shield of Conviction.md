@@ -5,6 +5,8 @@ cssclass: pathfinder
 
 <h1> Shield of Conviction <span style="margin-left: auto;"> 6 XP</span> </h1>
 
+[[Unarmored]]{.trait}
+
 [[Gapless]]{.trait}
 
 <div style="clear:both" /> 

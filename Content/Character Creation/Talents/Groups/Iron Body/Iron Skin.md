@@ -5,6 +5,8 @@ cssclass: pathfinder
 
 <h1> Iron Skin <span style="margin-left: auto;"> 6 XP</span> </h1>
 
+[[Unarmored]]{.trait}
+
 [[Gapless]]{.trait}
 
 <div style="clear:both" /> 

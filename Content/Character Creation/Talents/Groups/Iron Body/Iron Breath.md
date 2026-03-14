@@ -5,6 +5,8 @@ cssclass: pathfinder
 
 <h1> Iron Breath <span style="margin-left: auto;"> 4 XP</span> </h1>
 
+[[Unarmored]]{.trait}
+
 <div style="clear:both" /> 
 
 **Requirements:** [[Iron Skin]]; Constitution 1+
@@ -14,4 +16,4 @@ ___
 <br>
 
 **System:**
-While you gain the Armor Value from the [[Iron Skin]] Talent, you also gain the [[Bolster]] Action.
+You gain the [[Bolster]] Action.
