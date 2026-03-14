@@ -7,7 +7,7 @@ cssclass: pathfinder
 A Creature making a Strike is considered the attacker. While the target of the Strike is considered the defender.
 
 ### 1. Choose Weapon
-The attacker chooses what weapon they are wielding to Strike with. They can alternatively choose to use [[Unarmed Strikes]].
+The attacker chooses what weapon or Natural Attack they are wielding to Strike with.
 
 ### 2. Determine Targets
 The attacker chooses a creature within their reach (for melee attacks) or range (for ranged attacks) that they have [[Line of Sight]] to.

@@ -3,7 +3,9 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Unarmed Strikes <span style="margin-left: auto;">0 cc</span> </h1>
+<h1> Unarmed Strikes <span style="margin-left: auto;"> </span> </h1>
+
+[[Natural]]{.trait}
 
 [[Light]]{.trait}
 
@@ -24,8 +26,7 @@ cssclass: pathfinder
 ___
 *A punch, a kick, a knee to the gut—whatever gets the point across.*
 
-
 <br>
 
-**Critical Effect:**
-The creature gains the [[Concussed | Concussed 1]] Condition.
+**System:**
+Unarmed Strikes do not count as Weapons for the purpose of Actions or Talents.

@@ -7,7 +7,7 @@ cssclass: pathfinder
 A Creature making an attack is considered the attacker. While the target(s) of the attack is considered the defender.
 
 ### 1. Choose Weapon
-The attacker chooses what weapon they are wielding to Sweep with. They can alternatively choose to use [[Unarmed Strikes]].
+The attacker chooses what weapon or Natural Attack they are wielding to Sweep with. 
 
 ### 2. Determine Targets
 The attacker chooses how the area is placed, originating from the attacker, and all creatures within the area are the targets of the Attack.

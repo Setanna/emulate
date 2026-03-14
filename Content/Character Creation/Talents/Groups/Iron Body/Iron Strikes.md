@@ -11,9 +11,9 @@ cssclass: pathfinder
 ___
 
 **System:**
-Your [[Unarmed Strikes]] deal 1d6 bludgeoning damage and gain the [[Versatile | Versatile (S, P)]] Trait. 
+Your [[Content/Gear/Natural Weapons/Unarmed Strikes | Unarmed Strikes]] deal 1d6 bludgeoning damage and gain the [[Versatile | Versatile (S, P)]] Trait. 
 
 <br>
 
-Additionally whenever you make an [[Rules/Traits/Attack | Attack]] Action with your [[Unarmed Strikes]], you can remove the [[Light]] Trait from your [[Unarmed Strikes]].
+Additionally whenever you make an [[Rules/Traits/Attack | Attack]] Action with your [[Content/Gear/Natural Weapons/Unarmed Strikes | Unarmed Strikes]], you can remove the [[Light]] Trait from your [[Content/Gear/Natural Weapons/Unarmed Strikes | Unarmed Strikes]].
 
