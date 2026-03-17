@@ -14,4 +14,4 @@ ___
 <br>
 
 **System:**
-You gain a +1 [[Resistance]] Bonus to your [[Saving Throws#Fortitude | Will]] Saving Throws.
+You gain a +1 [[Resistance]] Bonus to your [[Saving Throws#Will | Will]] Saving Throws.
