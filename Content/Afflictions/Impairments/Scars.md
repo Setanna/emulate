@@ -10,7 +10,7 @@ cssclass: pathfinder
 <div style="clear:both" /> 
 
 ___
-*A single scar draws eyes. A face of them turns them away*
+*A single scar draws eyes. A face full turns them away*
 
 <br>
 
