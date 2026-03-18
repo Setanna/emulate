@@ -14,4 +14,4 @@ ___
 <br>
 
 **System:**
-When you are at [[Negative Hit Points]] you gain the [[Slowed | Slowed 3]] Condition and don't fall [[Unconscious]]. While benefiting from this talent you can not reduce your [[Slowed]] Condition lower than 3.
+When you are at [[Negative Hit Points]] you gain the [[Slowed | Slowed 3]] Condition with the [[Persistent | Persistent 3]] Trait and don't fall [[Unconscious]].
