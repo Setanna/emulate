@@ -34,4 +34,4 @@ If you already have the [[Scars]] Impairment, increase it's level by two to a ma
 
 Large Tattoos of Triumph count as [[Scars]]  with a Level of 3 for the [[Pain Tempered]] Talent and all Talents with [[Pain Tempered]] as a Requirement.
 
-If you already have the [[Scars]] Impairment, increase it's level by two to a maximum of three.
+If you already have the [[Scars]] Impairment, increase it's level by three to a maximum of three.
