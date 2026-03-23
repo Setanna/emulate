@@ -66,6 +66,11 @@ kanban-plugin: board
 	- Add Constitution *(0 -> +5)*
 	-  [ ] **Negative Hit Points**
 	-  Half Racial Hit Die d4 -> d12 *(2 -> 6)*
+	-  [ ] **Wound Thresholds**
+	- Shield gating, limit spikes and one shots
+ 	- Makes squishies much tankier.
+  	- Use only if Hit Points alone fail
+  		- Maybe replace hit points all together?	
 	
 	</details>
 
