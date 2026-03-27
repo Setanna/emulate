@@ -6,25 +6,70 @@ cssclass: pathfinder
 # Affinity
 A creature that has a negative (-) or positive (+) Affinity to an Ability Score pays more or less XP for that Ability Score. 
 
-The amount they is equal to the Ability Score times the Affinity Score. Having an Ability Score of 0 counts as an Ability Score of one, for this Cost Increase or Decrease.
+The amount they is equal to the (Ability Score + 1) times the Affinity Score. 
 
 The Affinity Score is defined by the number of symbols (- or +'s).
 
 <br>
 
-For example here is the table for a negative Charisma Affinity with an Affinity Score of 1 (-Charisma):
+The following are the Ability Score XP Cost tables for the different Affinities:
 
+##### -Affinity
 | Ability Score | XP Difference | XP total |
 |:-------------:|:-------------:|:--------:|
-|      +5       |      11       |    35    |
-|      +4       |       9       |    24    | 
-|      +3       |       7       |    15    |
-|      +2       |       5       |    8     |
-|      +1       |       2       |    3     |
+|      +5       |      41       |   126    |
+|      +4       |      33       |    85    |
+|      +3       |      25       |    52    |
+|      +2       |      17       |    27    |
+|      +1       |       9       |    10    |
 |       0       |       1       |    1     |
-|      -1       |      -2       |    -1    |
-|      -2       |      -3       |    -4    |
-|      -3       |      -5       |    -9    |
-|      -4       |      -7       |   -16    |
-|      -5       |      -9       |   -25    |
+|      -1       |      -9       |    -8    | 
+|      -2       |      -17      |   -25    |
+|      -3       |      -25      |   -50    |
+|      -4       |      -33      |   -83    |
+|      -5       |      -41      |   -124   |
 
+##### --Affinity
+| Ability Score | XP Difference | XP total |
+|:-------------:|:-------------:|:--------:|
+|      +5       |      47       |   147    |
+|      +4       |      38       |   100    |
+|      +3       |      29       |    62    |
+|      +2       |      20       |    33    |
+|      +1       |      11       |    13    |
+|       0       |       2       |    2     |
+|      -1       |      -11      |    -9    |
+|      -2       |      -20      |   -29    |
+|      -3       |      -29      |   -58    |
+|      -4       |      -38      |   -96    |
+|      -5       |      -47      |   -143   | 
+
+##### +Affinity
+| Ability Score | XP Difference | XP total |
+|:-------------:|:-------------:|:--------:|
+|      +5       |      29       |    84    |
+|      +4       |      23       |    55    |
+|      +3       |      17       |    32    |
+|      +2       |      11       |    15    |
+|      +1       |       5       |    4     |
+|       0       |      -1       |    -1    |
+|      -1       |      -5       |    -6    |
+|      -2       |      -11      |   -17    |
+|      -3       |      -17      |   -34    |
+|      -4       |      -23      |   -57    |
+|      -5       |      -29      |   -88    | 
+
+##### ++Affinity
+| Ability Score | XP Difference | XP total |
+|:-------------:|:-------------:|:--------:|
+|      +5       |      23       |    63    |
+|      +4       |      18       |    40    |
+|      +3       |      13       |    22    |
+|      +2       |       8       |    9     |
+|      +1       |       3       |    1     |
+|       0       |      -2       |    -2    |
+|      -1       |      -3       |    -5    |
+|      -2       |      -8       |   -13    |
+|      -3       |      -13      |   -26    |
+|      -4       |      -18      |   -44    | 
+|      -5       |      -23      |   -67    |
