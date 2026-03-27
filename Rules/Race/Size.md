@@ -64,12 +64,12 @@ You reduce all damage by half your Size modifier.
 
 **Carrying Loads**
 Carrying Load is sized for Medium Creatures by default.
-- Each size larger than Medium increases all your Carrying Loads by 10%
-- Each size smaller than Medium reduces all your Carrying Loads by 10%
+- Each size larger than Medium doubles all your Carrying Loads
+- Each size smaller than Medium halves all your Carrying Loads by
 
 <br>
 
 **Gear**
 Equipment is sized for Medium creatures by default.
-- Each size larger than Medium increases the cost and weight of armor, weapons, shields, and food by 10%
-- Each size smaller than Medium reduces the cost and weight of armor, weapons, shields, and food by 10%
+- Each size larger than Medium doubles the cost and weight of armor, weapons, shields, and food
+- Each size smaller than Medium halves the cost and weight of armor, weapons, shields, and food
