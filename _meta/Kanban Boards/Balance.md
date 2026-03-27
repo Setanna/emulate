@@ -68,9 +68,25 @@ kanban-plugin: board
 	-  Half Racial Hit Die d4 -> d12 *(2 -> 6)*
 	-  [ ] **Wound Thresholds**
 	- Shield gating, limit spikes and one shots
- 	- Makes squishies much tankier.
-  	- Use only if Hit Points alone fail
-  		- Maybe replace hit points all together?	
+	 	- Makes squishies much tankier.
+	  	- Use only if Hit Points alone fail
+	  		- Maybe replace hit points all together?	
+	
+	</details>
+- [ ] <details> 
+	<summary> 
+		<b>
+			Races
+		</b> 
+	</summary>
+	
+	- [ ] **Size**
+	- Too powerful
+		- Damage Reduction
+	-  [ ] **Ability Score Affinity**
+	- Increase or decrease XP cost for Ability Scores
+	- Adds Ability Score Identity to Races
+	- Might create "Optimal" Race choices for Archetypes
 	
 	</details>
 
