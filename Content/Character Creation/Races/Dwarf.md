@@ -17,6 +17,7 @@ ___
 
 **Hit Die:** d12
 **Ground Movement:** 3 meters
+**Affinities:** [[Affinity#Minor Positive Affinity (++) | +Constitution]]; [[Affinity#Minor Negative Affinity (-) | -Dexterity]]
 
 ___
 

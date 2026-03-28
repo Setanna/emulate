@@ -20,6 +20,7 @@ ___
 
 **Hit Die:** d8
 **Ground Movement:** 5 meters
+**Affinities:** [[Affinity#Minor Positive Affinity (+) | +Dexterity]]; [[Affinity#Minor Positive Affinity (+) | +Intelligence]]; [[Affinity#Minor Negative Affinity (-) | -Strength]]; [[Affinity#Minor Negative Affinity (-) | -Constitution]]
 
 
 ___

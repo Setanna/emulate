@@ -14,7 +14,9 @@ The Affinity Score is defined by the number of symbols (- or +'s).
 
 The following are the Ability Score XP Cost tables for the different Affinities:
 
-##### -Affinity
+### Negative Affinities
+
+##### Minor Negative Affinity (-)
 | Ability Score | XP Difference | XP total |
 |:-------------:|:-------------:|:--------:|
 |      +5       |      41       |   126    |
@@ -29,7 +31,7 @@ The following are the Ability Score XP Cost tables for the different Affinities:
 |      -4       |      -33      |   -83    |
 |      -5       |      -41      |   -124   |
 
-##### --Affinity
+##### Major Negative Affinity (--)
 | Ability Score | XP Difference | XP total |
 |:-------------:|:-------------:|:--------:|
 |      +5       |      47       |   147    |
@@ -44,7 +46,9 @@ The following are the Ability Score XP Cost tables for the different Affinities:
 |      -4       |      -38      |   -96    |
 |      -5       |      -47      |   -143   | 
 
-##### +Affinity
+### Positive Affinities
+
+##### Minor Positive Affinity (+)
 | Ability Score | XP Difference | XP total |
 |:-------------:|:-------------:|:--------:|
 |      +5       |      29       |    84    |
@@ -59,7 +63,7 @@ The following are the Ability Score XP Cost tables for the different Affinities:
 |      -4       |      -23      |   -57    |
 |      -5       |      -29      |   -88    | 
 
-##### ++Affinity
+##### Minor Positive Affinity (++)
 | Ability Score | XP Difference | XP total |
 |:-------------:|:-------------:|:--------:|
 |      +5       |      23       |    63    |
