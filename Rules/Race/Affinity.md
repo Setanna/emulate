@@ -34,11 +34,11 @@ The following are the Ability Score XP Cost tables for the different Affinities:
 ##### Major Negative Affinity (--)
 | Ability Score | XP Difference | XP total |
 | :-----------: | :-----------: | :------: |
-|       +5      |       45      |    135   |
-|       +4      |       36      |    90    |
-|       +3      |       27      |    54    |
-|       +2      |       18      |    27    |
-|       +1      |       9       |     9    |
+|       +5      |       60      |    180   |
+|       +4      |       48      |    120   |
+|       +3      |       36      |    72    |
+|       +2      |       24      |    36    |
+|       +1      |       12      |    12    |
 |       0       |       0       |     0    |
 |       -1      |      -12      |    -12   |
 |       -2      |      -24      |    -36   |
