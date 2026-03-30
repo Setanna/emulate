@@ -31,6 +31,10 @@ Dexterity Penalty is applied directly to ones Dexterity Score, lowering it while
 If a creature doesn't meet the Strength Requirement for a Shield they can't take any Reactions using the Shield.
 
 ### Don and Doff
-To gain the benefits of a Shield it must be donned. It takes 2 actions to don light shields, 4 actions to don medium shields and 6 actions to don heavy shields. 
+To gain the benefits of a Shield it must be donned. It takes 2 Second to don light shields, 4 Seconds to don medium shields and 6 Seconds to don heavy shields. 
 
 Doffing a Shield, takes half the time it would take to don it.
+
+<br>
+
+If a creature is not Proficient in the given Shield, double the time it would take to don or doff it.
