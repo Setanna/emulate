@@ -41,3 +41,7 @@ To gain the benefits of Armor it must be donned. It takes 1 minute to don light 
 <br>
 
 Doffing the armor takes half the time it would take to don it. A creature can also help doff the armor, halving the time again.
+
+<br>
+
+If a creature is not Proficient in the given armor, double the time it would take to don or doff it.
