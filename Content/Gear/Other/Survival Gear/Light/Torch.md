@@ -5,6 +5,8 @@ cssclass: pathfinder
 
 <h1> Torch <span style="margin-left: auto;"> 1 cc </span> </h1>
 
+[[Activation | Activation (6 Seconds)]]{.trait}
+
 <div style="clear:both" /> 
 
 ___

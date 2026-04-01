@@ -5,6 +5,8 @@ cssclass: pathfinder
 
 <h1> Hoverlight <span style="margin-left: auto;"> 10 cc </span> </h1>
 
+[[Activation | Activation (1 Second)]]{.trait}
+
 <div style="clear:both" /> 
 
 ___
@@ -13,7 +15,7 @@ ___
 <br>
 
 **System:**
-A Hoverlight can be activated using the [[Interact]] action. Once Activated the pebble will float above the users head and shed [[Lighting | Normal Lighting]] for 6 meters and [[Lighting | Dim Light]] for another 6 meters. 
+Once Activated the pebble will float above the users head and shed [[Lighting | Normal Lighting]] for 6 meters and [[Lighting | Dim Light]] for another 6 meters. 
 
 <br>
 
