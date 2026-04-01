@@ -6,6 +6,10 @@ cssclass: pathfinder
 # Armor
 Armor reduces all [[Damage Types | Physical Damage]] and [[Damage Types | Elemental Damage]] by their Armor Value. A Creature can only benefit from one Armor Value at a time.
 
+<br>
+
+All Armor has the [[Worn#Armor | Worn (Armor)]] Trait.
+
 ## Light Armor
 | Name         | Traits                                 | Cost   | Weight | Armor Value | Dex Penalty | Str Requirement |
 | ------------ | -------------------------------------- | ------ | ------ | ----------- | ----------- | --------------- |

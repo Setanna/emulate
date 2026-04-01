@@ -6,6 +6,10 @@ cssclass: pathfinder
 # Shields
 Shields increase a Creature's Armor Value by it's Shield Value.
 
+<br>
+
+All shields have the [[Worn#Shields | Worn (Shields)]] Trait.
+
 ## Light Shields
 | Name    | Traits                                   | Cost | Weight | Shield Value | Dex Penalty | Str Requirement |
 | ------- | ---------------------------------------- | ---- | ------ | ------------ | ----------- | --------------- |

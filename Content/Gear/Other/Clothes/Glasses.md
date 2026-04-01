@@ -5,6 +5,8 @@ cssclass: pathfinder
 
 <h1> Glasses <span style="margin-left: auto;">1 to 5 sc</span> </h1>
 
+[[Worn#Eyes | Worn (Eyes)]]{.trait}
+
 <div style="clear:both" /> 
 
 ___

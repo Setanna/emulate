@@ -5,6 +5,8 @@ cssclass: pathfinder
 
 <h1> Dueling Cape <span style="margin-left: auto;">20 CC</span> </h1>
 
+[[Worn#Shoulders | Worn (Shoulders)]]{.trait}
+
 <div style="clear:both" /> 
 
 ___
