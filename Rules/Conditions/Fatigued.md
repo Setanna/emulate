@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 # Fatigued
-Reduce your Hit Class and any Roll or damage Roll you make by your Fatigued Value. If your Fatigued value ever would exceed twice your Constitution, you remove the Fatigued condition and instead gain the Exhausted condition. 
+Reduce your Attack Rolls, Damage Rolls, Saving Throws, and Skill Checks by your Fatigued Value. If your Fatigued value ever would exceed twice your Constitution, you remove the Fatigued condition and instead gain the Exhausted condition. 
 
 <br>
 

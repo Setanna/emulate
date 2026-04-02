@@ -17,7 +17,6 @@ ___
 
 ___
 
-**Hit Class:** 9
 **Armor Value:** 6 ([[Content/Gear/Armor and Shields/Armor/Armor | Breastplate]] ([[Bulwark | Bulwark 2]]))
 **Hit Points:** 10 (1d8 + 2)
 **Fort:** +2, **Ref:** -1, **Will:** +1

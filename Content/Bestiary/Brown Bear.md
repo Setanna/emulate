@@ -17,7 +17,6 @@ ___
 
 ___
 
-**Hit Class:** 11
 **Armor Value:** 2 ([[Size \| Large]] creatures take 2 less damage from everything)
 **Hit Points:** 15 (1d12 + 3)
 **Fort:** +3, **Ref:** +1, **Will:** +2

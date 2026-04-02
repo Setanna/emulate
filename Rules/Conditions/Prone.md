@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 # Prone
-You take a [[Circumstance]] Penalty on your Hit Class; Attack Rolls and Reflex Saving Throws, the Penalty is equal to the value of this Condition. Additionally you can not take any Action with the [[Movement]] Trait, except for the [[Crawl]] and [[Stand]] Actions.
+You take a [[Circumstance]] Penalty on your Attack Rolls and Reflex Saving Throws, the Penalty is equal to the value of this Condition. Additionally you can not take any Action with the [[Movement]] Trait, except for the [[Crawl]] and [[Stand]] Actions.
 
 <br>
 

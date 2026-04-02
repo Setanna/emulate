@@ -17,7 +17,6 @@ ___
 
 ___
 
-**Hit Class:** 8
 **Armor Value:** 8 ([[Content/Gear/Armor and Shields/Armor/Armor | Half Plate]] ([[Bulwark | Bulwark 3]]))
 **Shield Value:** 2 ([[Content/Gear/Armor and Shields/Shields/Shields | Round Shield]] ([[Bulwark | Bulwark 1]]))
 **Hit Points:** 10 (1d8 + 2)

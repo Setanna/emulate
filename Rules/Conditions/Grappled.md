@@ -8,4 +8,4 @@ The value of this Condition, is the name of whatever creature has you Grappled. 
 
 <br>
 
-While you are grappled you take a -2 [[Circumstance]] Penalty to your Attack Rolls, Hit Class and Reflex Saving Throws. Additionally you can not take any Action with the [[Movement]] Trait, except for the [[Drag]] and [[Stand]] Actions.
+While you are grappled you take a -2 [[Circumstance]] Penalty to your Attack Rolls and Reflex Saving Throws. Additionally you can not take any Action with the [[Movement]] Trait, except for the [[Drag]] and [[Stand]] Actions.

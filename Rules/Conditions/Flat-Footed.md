@@ -4,4 +4,4 @@ cssclass: pathfinder
 ---
 
 # Flat-Footed
-While Flat-Footed you no longer add your Dexterity to your Hit Class.
+While Flat-Footed your [[Saving Throws#Reflex | Reflex]] Saving Throws do not add any Bonuses or your Dexterity.

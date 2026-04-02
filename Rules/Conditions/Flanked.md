@@ -4,8 +4,12 @@ cssclass: pathfinder
 ---
 
 # Flanked
-Whenever you make a Melee Attack and there is a creature on the opposite site of the one you are attacking, the creature you are attacking gains the Flanked Condition. While Flanked, the creature takes a -1 [[Circumstance]] Penalty to their Hit Class against Melee Attacks.
+Whenever you gain the Flanked Condition you take a -2 [[Circumstance]] Penalty to your [[Saving Throws#Reflex | Reflex]] Saving Throws.
 
 <br>
 
-If you are ever uncertain if two creatures a flanking a third creature, draw a line between the first two creatures, if the line passes through the center of the third creature, it is flanked.
+You gain the Flanked Condition when you are the target of an Action and the Attacker can draw a line from themselves to another of your enemies that passes through your space. This only applies if you are aware of both enemies.
+
+<br>
+
+*Lines are drawn from center of creatures.*
