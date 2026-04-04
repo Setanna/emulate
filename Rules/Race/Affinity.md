@@ -4,11 +4,17 @@ cssclass: pathfinder
 ---
 
 # Affinity
+
+> [!warning] Work In Progress
+> This has not been properly play tested
+
 A creature that has a negative (-) or positive (+) Affinity to an Ability Score pays more or less XP for that Ability Score. 
 
 The amount they is equal to the Ability Score times the Affinity Score. 
 
 The Affinity Score is defined by the number of symbols (- or +'s).
+
+Ability Score Affinities come in pairs, for each negative there is a positive. As such Affinities don't have an Experience Cost.
 
 <br>
 

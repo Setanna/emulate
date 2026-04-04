@@ -1,3 +1,18 @@
+/* Callouts */
+.callout:is([data-callout-metadata^="right"]) {
+    max-width: 40%;
+    float: right;
+    margin-left: 12px;
+    margin-bottom: 12px;
+}
+
+.callout:is([data-callout-metadata^="left"]) {
+    max-width: 40%;
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+
 /* Text */
 :root body {
     color: #D5D5D5 !important;

@@ -6,19 +6,19 @@ cssclass: pathfinder
 # Size
 Size modifies several things regarding a creature as noted in the table below:
 
-| Size     | Height (m) | Weight (kg)  | Size Modifier | Speed | Move | Be Moved | Strength Rolls | Dexterity Rolls | Damage | Damage Reduction |
-| -------- | ---------- | ------------ |:-------------:|:-----:|:----:|:--------:|:--------------:|:---------------:|:------:|:----------------:|
-| Minute   | 0.2 to 0.5 | 2 to 8       |      -5       |  -5   |  -5  |    +5    |       -5       |       +5        |   -5   |        -5        |
-| Puny     | 0.5 to 0.8 | 8 to 20      |      -4       |  -4   |  -4  |    +4    |       -4       |       +4        |   -4   |        -4        |
-| Tiny     | 0.8 to 1.1 | 20 to 45     |      -3       |  -3   |  -3  |    +3    |       -3       |       +3        |   -3   |        -3        |
-| Small    | 1.1 to 1.4 | 35 to 65     |      -2       |  -2   |  -2  |    +2    |       -2       |       +2        |   -2   |        -2        |
-| Short    | 1.4 to 1.7 | 55 to 90     |      -1       |  -1   |  -1  |    +1    |       -1       |       +1        |   -1   |        -1        |
-| Medium   | 1.7 to 2   | 70 to 130    |       0       |   0   |  0   |    0     |       0        |        0        |   0    |        0         |
-| Tall     | 2 to 2.3   | 140 to 250   |      +1       |  +1   |  +1  |    -1    |       +1       |       -1        |   +1   |        +1        |
-| Large    | 2.3 to 2.6 | 220 to 400   |      +2       |  +2   |  +2  |    -2    |       +2       |       -2        |   +2   |        +2        |
-| Towering | 2.6 to 2.9 | 350 to 700   |      +3       |  +3   |  +3  |    -3    |       +3       |       -3        |   +3   |        +3        |
-| Huge     | 2.9 to 3.2 | 600 to 1,100 |      +4       |  +4   |  +4  |    -4    |       +4       |       -4        |   +4   |        +4        |
-| Gigantic | 3.2 to 3.5 | 900 to 1,700 |      +5       |  +5   |  +5  |    +5    |       +5       |       -5        |   +5   |        +5        |
+| Size     | Height (m) | Weight (kg)  | Total XP Cost | Size Modifier | Reach | Speed | Move | Be Moved | Strength Rolls | Dexterity Rolls | Damage | Damage Reduction |
+| -------- | ---------- | ------------ |:-------------:|:-------------:|:-----:|:-----:|:----:|:--------:|:--------------:|:---------------:|:------:|:----------------:|
+| Minute   | 0.2 to 0.5 | 2 to 8       |     -450      |      -5       |   0   |  -5   |  -5  |    +5    |       -5       |       +5        |   -5   |        -5        |
+| Puny     | 0.5 to 0.8 | 8 to 20      |     -300      |      -4       |   0   |  -4   |  -4  |    +4    |       -4       |       +4        |   -4   |        -4        |
+| Tiny     | 0.8 to 1.1 | 20 to 45     |     -180      |      -3       |   1   |  -3   |  -3  |    +3    |       -3       |       +3        |   -3   |        -3        |
+| Small    | 1.1 to 1.4 | 35 to 65     |      -90      |      -2       |   1   |  -2   |  -2  |    +2    |       -2       |       +2        |   -2   |        -2        |
+| Short    | 1.4 to 1.7 | 55 to 90     |      -30      |      -1       |   1   |  -1   |  -1  |    +1    |       -1       |       +1        |   -1   |        -1        |
+| Medium   | 1.7 to 2   | 70 to 130    |       0       |       0       |   1   |   0   |  0   |    0     |       0        |        0        |   0    |        0         |
+| Tall     | 2 to 2.3   | 140 to 250   |      30       |      +1       |   1   |  +1   |  +1  |    -1    |       +1       |       -1        |   +1   |        +1        |
+| Large    | 2.3 to 2.6 | 220 to 400   |      90       |      +2       |   1   |  +2   |  +2  |    -2    |       +2       |       -2        |   +2   |        +2        |
+| Towering | 2.6 to 2.9 | 350 to 700   |      180      |      +3       |   2   |  +3   |  +3  |    -3    |       +3       |       -3        |   +3   |        +3        |
+| Huge     | 2.9 to 3.2 | 600 to 1,100 |      300      |      +4       |   2   |  +4   |  +4  |    -4    |       +4       |       -4        |   +4   |        +4        |
+| Gigantic | 3.2 to 3.5 | 900 to 1,700 |      450      |      +5       |   2   |  +5   |  +5  |    +5    |       +5       |       -5        |   +5   |        +5        |
 
 ### Adding and Subtracting Size Modifier
 Size Modifier is added to several elements in the Emulate System. To add a Size Modifier simply apply the given Size modifier to the given value. *(Negative Size modifiers reduce the given value)*
@@ -26,6 +26,9 @@ Size Modifier is added to several elements in the Emulate System. To add a Size 
 To Subtract a Size modifier reduce the given value by the Size modifier. *(Negative Size modifier increase the given value)*
 
 <br>
+
+**Reach**
+Reach is not modified by Size Modifier. Instead directly refer to the given row for the given Size in the table above.
 
 **Speed**
 Add half your Size modifier to your Speed and the meters moved with the [[Step]] Action. This can not reduce the amount of meters moved below one.
