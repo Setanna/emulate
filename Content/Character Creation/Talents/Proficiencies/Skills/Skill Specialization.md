@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Skill Specialization <span style="margin-left: auto;"> 3 XP </span> </h1>
+<h1> Skill Specialization <span style="margin-left: auto;"> 16 XP </span> </h1>
 
 [[Expansive]]{.trait}
 

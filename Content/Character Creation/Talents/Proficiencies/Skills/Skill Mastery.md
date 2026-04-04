@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Skill Mastery <span style="margin-left: auto;"> 4 XP </span> </h1>
+<h1> Skill Mastery <span style="margin-left: auto;"> 64 XP </span> </h1>
 
 [[Expansive]]{.trait}
 

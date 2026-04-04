@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Light Armor Proficiency <span style="margin-left: auto;"> 0 XP </span> </h1>
+<h1> Light Armor Proficiency <span style="margin-left: auto;"> 2 XP </span> </h1>
 
 <div style="clear:both" /> 
 

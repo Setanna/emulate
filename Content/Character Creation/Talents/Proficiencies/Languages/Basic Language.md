@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Basic Language <span style="margin-left: auto;"> 1 XP </span> </h1>
+<h1> Basic Language <span style="margin-left: auto;"> 2 XP </span> </h1>
 
 [[Expansive]]{.trait}
 

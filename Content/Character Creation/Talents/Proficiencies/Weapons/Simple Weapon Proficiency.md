@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Simple Weapon Proficiency <span style="margin-left: auto;"> 0 XP </span> </h1>
+<h1> Simple Weapon Proficiency <span style="margin-left: auto;"> 3 XP </span> </h1>
 
 <div style="clear:both" /> 
 
