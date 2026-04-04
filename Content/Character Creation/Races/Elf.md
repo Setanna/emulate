@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Elf <span style="margin-left: auto;"> 14 XP </span> </h1>
+<h1> Elf <span style="margin-left: auto;"> 70 XP </span> </h1>
 
 [[Size | Medium]]{.size-trait}
 
@@ -43,10 +43,10 @@ Elves start with [[Pretty]]; [[Beautiful]]; [[Calm]]; [[Skill Proficiency | Skil
 
 | Name                                                    | XP  |
 | ------------------------------------------------------- |:---:|
-| [[Pretty]]                                              | +3  |
-| [[Beautiful]]                                           | +9  |
-| [[Calm]]                                                |  0  |
+| [[Pretty]]                                              | +16 |
+| [[Beautiful]]                                           | +48 |
+| [[Calm]]                                                | +4  |
 | [[Skill Proficiency \| Skill Proficiency (Insight)]]    | +1  |
 | [[Skill Proficiency \| Skill Proficiency (Perception)]] | +1  |
-| Total                                                   | 14  |
+| Total                                                   | 70  | 
 

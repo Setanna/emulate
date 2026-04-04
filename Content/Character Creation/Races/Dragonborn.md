@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Dragonborn <span style="margin-left: auto;">15 XP</span> </h1>
+<h1> Dragonborn <span style="margin-left: auto;">86 XP</span> </h1>
 
 [[Size | Medium]]{.size-trait}
 
@@ -39,13 +39,13 @@ Dragonborn start with [[Dragon Scales]]; [[Intimidating]]; [[Vision#Low-Light Vi
 
 | Name                                                      | XP  |
 | --------------------------------------------------------- |:---:|
-| [[Race#Hit Die \| d10 Hit Die]]                           | +4  |
-| [[Race#Movement \| 6 Movement Speed]]                     | +4  |
-| [[Intimidating]]                                          | +1  |
-| [[Dragon Scales]]                                         | +2  |
+| [[Hit Die \| d10 Hit Die]]                                | +16 |
+| [[Movement \| 6 Movement Speed]]                          | +16 |
+| [[Intimidating]]                                          | +4  |
+| [[Dragon Scales]]                                         | +16 |
 | [[Skill Proficiency \| Skill Proficiency (Intimidation)]] | +1  |
 | [[Skill Proficiency \| Skill Proficiency (Perception)]]   | +1  |
-| [[Vision#Low-Light Vision \| Low-Light Vision]]           | +2  |
-| Total                                                     | 19  |
+| [[Vision#Low-Light Vision \| Low-Light Vision]]           | +32 |
+| Total                                                     | 86  |
 
 

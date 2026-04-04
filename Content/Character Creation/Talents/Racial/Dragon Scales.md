@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Dragon Scales <span style="margin-left: auto;"> 2 XP</span> </h1>
+<h1> Dragon Scales <span style="margin-left: auto;"> 16 XP</span> </h1>
 
 [[Birthright]]{.trait}
 

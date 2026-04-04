@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Intimidating <span style="margin-left: auto;">1 XP</span> </h1>
+<h1> Intimidating <span style="margin-left: auto;"> 4 XP </span> </h1>
 
 [[Skill | Skill (Intimidation)]]{.trait}
 

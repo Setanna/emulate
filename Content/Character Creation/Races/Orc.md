@@ -36,11 +36,9 @@ Orcs start with [[Indomitable]]; [[Tusks]] and [[Vision#Low-Light Vision | Low-L
 
 | Name                                            | XP  |
 | ----------------------------------------------- |:---:|
-| [[Race#Medium  \| Medium]]                      |  0  |
-| [[Race#Hit Die \| d10 Hit Die]]                 | +4  |
-| [[Race#Movement \| 5 Movement Speed]]           |  0  |
-| [[Vision#Low-Light Vision \| Low-Light Vision]] | +2  |
-| [[Tusks]]                                       | +4  |
-| [[Indomitable]]                                 | +2  |
-| Total                                           | 12  |
+| [[Hit Die \| d10 Hit Die]]                      | +16 |
+| [[Vision#Low-Light Vision \| Low-Light Vision]] | +32 |
+| [[Tusks]]                                       | +16 |
+| [[Indomitable]]                                 | +8  |
+| Total                                           | 72  | 
 

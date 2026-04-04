@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Calm <span style="margin-left: auto;">0 XP</span> </h1>
+<h1> Calm <span style="margin-left: auto;"> 4 XP </span> </h1>
 
 [[Emotion]]{.trait}
 

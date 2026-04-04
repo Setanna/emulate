@@ -3,9 +3,9 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Halfling <span style="margin-left: auto;">23 XP</span> </h1>
+<h1> Halfling <span style="margin-left: auto;"> 90 XP </span> </h1>
 
-[[Size | Small]]{.size-trait}
+[[Size | Short]]{.size-trait}
 
 [[Humanoid]]{.trait}
 
@@ -38,13 +38,13 @@ Halflings start with the [[Brave]]; [[Fortunate]] and [[Lucky]] Characteristics.
 
 # XP Distribution
 
-| Name                    | XP  |
-| ----------------------- |:---:|
-| [[Race#Hit Die \| d6]]  | -4  | 
-| [[Race#Size  \| Small]] | -20 |
-| [[Brave]]               |  2  |
-| [[Fortunate]]           | 15  |
-| [[Lucky]]               | 30  |
-| Total                   | 23  |
+| Name                      | XP  |
+| ------------------------- |:---:|
+| [[Hit Die \| d6 Hit Die]] | -16 |
+| [[Size  \| Short]]        | -30 | 
+| [[Brave]]                 |  8  |
+| [[Fortunate]]             | 32  |
+| [[Lucky]]                 | 96  |
+| Total                     | 90  |
 
 
