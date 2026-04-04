@@ -22,10 +22,10 @@ There are 2 types of weapons; Simple and Advanced.
 
 <br>
 
-When making an attack Roll with a weapon of which the attacker is not proficient, they concur a -2 [[Rules/Bonuses and Penalties/Proficiency | Proficiency]] Penalty.
+When making an attack Roll with a weapon of which the attacker is not proficient, they concur a -2 [[Rules/Bonuses and Penalties/Proficiency | Proficiency]] Penalty to Attack Rolls.
 
 ### Skills
-Rolling a Skill Roll without proper proficiency concurs a -2 Proficiency Penalty. 
+Using a Skill without proper proficiency concurs a -2 [[Rules/Bonuses and Penalties/Proficiency | Proficiency]] Penalty. 
 
 ### Languages
 Languages are build up of 3 proficiencies: Untrained, Basic and Fluent.
