@@ -6,12 +6,12 @@
   "obsidian-style-settings",
   "obsidian42-brat",
   "obsidian-git",
-  "better-word-count",
   "novel-word-count",
   "iconic",
   "obsidian-linter",
-  "color-folders-files",
   "markdown-attributes",
   "rich-foot",
-  "tag-wrangler"
+  "tag-wrangler",
+  "color-folders-files",
+  "better-word-count"
 ]

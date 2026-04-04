@@ -1,5 +1,5 @@
 {
-  "accentColor": "",
+  "accentColor": "#d965e2",
   "enabledCssSnippets": [
     "bug-banner-fix",
     "header",
@@ -8,13 +8,12 @@
     "traits",
     "magic_items",
     "pathfinder_actions",
-    "banner",
-    "novel_word_count",
     "obsidian",
     "pathfinder",
-    "pathfinder_traits"
+    "pathfinder_traits",
+    "banner"
   ],
-  "cssTheme": "Fancy-a-Story",
+  "cssTheme": "AnuPpuccin",
   "theme": "obsidian",
   "showViewHeader": true,
   "nativeMenus": false,
