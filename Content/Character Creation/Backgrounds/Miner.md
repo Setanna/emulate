@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Miner <span style="margin-left: auto;">1 XP</span> </h1>
+<h1> Miner <span style="margin-left: auto;"> 5 XP </span> </h1>
 
 [[Wealth]]{.trait}
 

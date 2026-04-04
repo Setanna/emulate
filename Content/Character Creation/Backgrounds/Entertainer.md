@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Entertainer <span style="margin-left: auto;"> 2 XP</span> </h1>
+<h1> Entertainer <span style="margin-left: auto;"> 6 XP </span> </h1>
 
 [[Wealth]]{.trait}
 

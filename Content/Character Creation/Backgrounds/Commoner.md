@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Commoner <span style="margin-left: auto;">1 XP</span> </h1>
+<h1> Commoner <span style="margin-left: auto;"> 2 XP </span> </h1>
 
 [[Wealth]]{.trait}
 

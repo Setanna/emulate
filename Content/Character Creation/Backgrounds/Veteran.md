@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Veteran <span style="margin-left: auto;"> 5 XP </span> </h1>
+<h1> Veteran <span style="margin-left: auto;"> 13 XP </span> </h1>
 
 [[Wealth]]{.trait}
 
@@ -20,4 +20,4 @@ You increase the Starting Coins of one of your backgrounds by 5 Silver Coins; An
 
 <br>
 
-Additionally you can increase the Starting Coins by an additional 5 Silver Coins by spending an Additional XP, you can do this up to 5 times.
+Additionally you can increase the Starting Coins by an additional 5 Silver Coins by spending an Additional 5 XP, you can do this up to 5 times.

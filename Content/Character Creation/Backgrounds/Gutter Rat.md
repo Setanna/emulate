@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Gutter Rat <span style="margin-left: auto;">-10 XP</span> </h1>
+<h1> Gutter Rat <span style="margin-left: auto;"> -20 XP </span> </h1>
 
 [[Wealth]]{.trait}
 
