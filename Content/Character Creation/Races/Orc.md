@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Orc <span style="margin-left: auto;"> 12 XP </span> </h1>
+<h1> Orc <span style="margin-left: auto;"> 72 XP </span> </h1>
 
 [[Size | Medium]]{.size-trait}
 
