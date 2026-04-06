@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Wink and Nod <span style="margin-left: auto;">1 XP</span> </h1>
+<h1> Wink and Nod <span style="margin-left: auto;"> 4 XP </span> </h1>
 
 [[Bonded]]{.trait}
 

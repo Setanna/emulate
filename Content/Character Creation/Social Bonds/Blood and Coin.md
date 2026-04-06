@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Blood and Coin <span style="margin-left: auto;">6 XP</span> </h1>
+<h1> Blood and Coin <span style="margin-left: auto;"> 24 XP </span> </h1>
 
 [[Bonded]]{.trait}
 
