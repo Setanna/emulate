@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Oblivious <span style="margin-left: auto;"> -6 XP</span> </h1>
+<h1> Oblivious <span style="margin-left: auto;"> -24 XP </span> </h1>
 
 [[Flaw]]{.trait}
 
@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-You take a -2 [[Trait]] Penalty to [[Perception]], [[Survival]] and [[Insight]] Rolls.
+You take a -1 [[Trait]] Penalty to [[Perception]], [[Survival]] and [[Insight]] Rolls.

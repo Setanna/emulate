@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Observant <span style="margin-left: auto;">6 XP</span> </h1>
+<h1> Observant <span style="margin-left: auto;"> 24 XP </span> </h1>
 
 [[Merit]]{.trait}
 
@@ -16,4 +16,4 @@ ___
 <br>
 
 **System:**
-You gain a +2 [[Trait]] Bonus to [[Perception]], [[Survival]] and [[Insight]] Rolls.
+You gain a +1 [[Trait]] Bonus to [[Perception]], [[Survival]] and [[Insight]] Rolls.

@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Sadistic <span style="margin-left: auto;">-2 XP</span> </h1>
+<h1> Sadistic <span style="margin-left: auto;"> -8 XP </span> </h1>
 
 [[Emotion | Emotion (Pain)]]{.trait}
 

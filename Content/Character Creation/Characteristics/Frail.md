@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Frail <span style="margin-left: auto;"> -4 XP </span> </h1>
+<h1> Frail <span style="margin-left: auto;"> -32 XP </span> </h1>
 
 [[Flaw]]{.trait}
 

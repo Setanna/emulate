@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Orc <span style="margin-left: auto;"> 72 XP </span> </h1>
+<h1> Orc <span style="margin-left: auto;"> 88 XP </span> </h1>
 
 [[Size | Medium]]{.size-trait}
 
@@ -36,9 +36,9 @@ Orcs start with [[Indomitable]]; [[Tusks]] and [[Vision#Low-Light Vision | Low-L
 
 | Name                                            | XP  |
 | ----------------------------------------------- |:---:|
-| [[Hit Die \| d10 Hit Die]]                      | +16 |
+| [[Hit Die \| d10 Hit Die]]                      | +32 |
 | [[Vision#Low-Light Vision \| Low-Light Vision]] | +32 |
 | [[Tusks]]                                       | +16 |
 | [[Indomitable]]                                 | +8  |
-| Total                                           | 72  | 
+| Total                                           | 88  | 
 

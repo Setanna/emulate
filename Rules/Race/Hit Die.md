@@ -14,10 +14,10 @@ The given hit die also determines how well a race's body can heal it's own wound
 
 The following is the Experience Cost of a given Hit Die when creating Races:
 
-| Hit Die | XP Cost |
-| ------- | ------- |
-| d12     | +64     |
-| d10     | +16     |
-| d8      | 0       |
-| d6      | -16     |
-| d4      | -64     | 
+| Hit Die | Total XP Cost |
+| ------- | ------------- |
+| d12     | +64           |
+| d10     | +32           |
+| d8      | 0             |
+| d6      | -32           |
+| d4      | -64           |

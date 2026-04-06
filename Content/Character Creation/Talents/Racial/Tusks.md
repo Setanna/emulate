@@ -3,7 +3,7 @@ tags: [Martial/Monk]
 cssclass: pathfinder  
 ---
 
-<h1> Tusks <span style="margin-left: auto;"> 4 XP </span> </h1>
+<h1> Tusks <span style="margin-left: auto;"> 16 XP </span> </h1>
 
 [[Birthright]]{.trait}
 

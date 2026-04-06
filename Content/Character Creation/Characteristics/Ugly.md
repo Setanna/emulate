@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Ugly <span style="margin-left: auto;"> -3 XP </span> </h1>
+<h1> Ugly <span style="margin-left: auto;"> -16 XP </span> </h1>
 
 [[Emotion | Emotion (Disgust)]]{.trait}
 

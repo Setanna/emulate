@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Quick <span style="margin-left: auto;"> 4 XP </span> </h1>
+<h1> Quick <span style="margin-left: auto;"> 16 XP </span> </h1>
 
 <div style="clear:both" /> 
 

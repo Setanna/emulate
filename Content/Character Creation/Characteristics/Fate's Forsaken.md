@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Fate's Forsaken <span style="margin-left: auto;">-15 XP</span> </h1>
+<h1> Fate's Forsaken <span style="margin-left: auto;"> -30 XP </span> </h1>
 
 [[Fate]]{.trait}
 

@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Fate's Favored <span style="margin-left: auto;">5 XP</span> </h1>
+<h1> Fate's Favored <span style="margin-left: auto;"> 10 XP </span> </h1>
 
 [[Fate]]{.trait}
 
@@ -13,7 +13,7 @@ cssclass: pathfinder
 
 **Requirements:** You don't have the [[Fate's Forsaken]] Characteristic
 ___
-*Fate holds its breath, waiting to see what _you_ will do.*
+*Fate holds its breath, waiting to see what you will do.*
 
 <br>
 
