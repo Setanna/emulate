@@ -3,7 +3,7 @@ tags: [Caster/Sorcerer]
 cssclass: pathfinder
 ---
 
-<h1> Eldritch Legacy <span style="margin-left: auto;"> Varied XP</span> </h1>
+<h1> Eldritch Legacy <span style="margin-left: auto;"> Varied XP </span> </h1>
 
 [[Arcane]]{.trait}
 

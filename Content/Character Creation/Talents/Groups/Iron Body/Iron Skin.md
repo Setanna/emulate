@@ -3,7 +3,7 @@ tags: [Martial/Monk/Iron_Body]
 cssclass: pathfinder
 ---
 
-<h1> Iron Skin <span style="margin-left: auto;"> 6 XP</span> </h1>
+<h1> Iron Skin <span style="margin-left: auto;"> 18 XP</span> </h1>
 
 [[Unarmored]]{.trait}
 

@@ -3,7 +3,7 @@ tags: [Martial/Marshal]
 cssclass: pathfinder  
 ---
 
-<h1> Strength of Words <span style="margin-left: auto;"> 4 XP</span> </h1>
+<h1> Strength of Words <span style="margin-left: auto;"> 12 XP </span> </h1>
 
 [[Timed]]{.trait}
 

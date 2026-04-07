@@ -3,7 +3,7 @@ tags: [Martial/Monk/Ki]
 cssclass: pathfinder
 ---
 
-<h1> Ki <span style="margin-left: auto;"> 2 XP</span> </h1>
+<h1> Ki <span style="margin-left: auto;"> 10 XP </span> </h1>
 
 <div style="clear:both" /> 
 

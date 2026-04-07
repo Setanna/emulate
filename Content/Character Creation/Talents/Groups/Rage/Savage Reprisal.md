@@ -3,7 +3,7 @@ tags: [Martial/Barbarian]
 cssclass: pathfinder  
 ---
 
-<h1> Savage Reprisal <span style="margin-left: auto;"> 4 XP </span> </h1>
+<h1> Savage Reprisal <span style="margin-left: auto;"> 8 XP </span> </h1>
 
 [[Emotion | Emotion (Anger)]]{.trait}
 

@@ -3,7 +3,7 @@ tags: [Martial/Monk/Leaf_Stance]
 cssclass: pathfinder
 ---
 
-<h1> The Wind Before the Blow <span style="margin-left: auto;"> 6 XP </span> </h1>
+<h1> The Wind Before the Blow <span style="margin-left: auto;"> 18 XP </span> </h1>
 
 <div style="clear:both" /> 
 

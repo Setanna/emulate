@@ -3,7 +3,7 @@ tags: [Martial/Marshal]
 cssclass: pathfinder  
 ---
 
-<h1> Tidebreaker <span style="margin-left: auto;"> 10 XP</span> </h1>
+<h1> Tidebreaker <span style="margin-left: auto;"> 64 XP</span> </h1>
 
 <div style="clear:both" /> 
 

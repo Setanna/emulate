@@ -3,7 +3,7 @@ tags: [Martial]
 cssclass: pathfinder
 ---
 
-<h1> Eater of Magic <span style="margin-left: auto;">9 XP</span> </h1>
+<h1> Eater of Magic <span style="margin-left: auto;"> 27 XP </span> </h1>
 
 <div style="clear:both" /> 
 

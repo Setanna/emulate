@@ -3,7 +3,7 @@ tags: [Martial/Monk/Iron_Body]
 cssclass: pathfinder
 ---
 
-<h1> Iron Breath <span style="margin-left: auto;"> 4 XP</span> </h1>
+<h1> Iron Breath <span style="margin-left: auto;"> 16 XP</span> </h1>
 
 [[Unarmored]]{.trait}
 

@@ -3,7 +3,7 @@ tags: [Martial/Monk/Ki]
 cssclass: pathfinder
 ---
 
-<h1> Perfect Stillness <span style="margin-left: auto;"> 12 XP</span> </h1>
+<h1> Perfect Stillness <span style="margin-left: auto;"> 72 XP </span> </h1>
 
 <div style="clear:both" /> 
 

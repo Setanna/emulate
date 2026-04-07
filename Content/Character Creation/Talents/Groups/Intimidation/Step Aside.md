@@ -3,7 +3,7 @@ tags: [Martial]
 cssclass: pathfinder  
 ---
 
-<h1> Step Aside <span style="margin-left: auto;"> 4 XP</span> </h1>
+<h1> Step Aside <span style="margin-left: auto;"> 8 XP</span> </h1>
 
 [[Skill | Skill (Intimidation)]]{.trait}
 
@@ -20,7 +20,7 @@ ___
 <br>
 
 **System:**
-Whenever you take the [[Move]] Action, you can spend an additional Second. If you do, declare a path up to your full [[Move]] distance. Roll Intimidation against the Will Save DC of each Creature who blocks your path.
+Whenever you take the [[Move]] Action, you can spend an additional Second. If you do, declare a path up to your full [[Move]] distance. Roll Intimidation against the Will Save DC of each Creature who blocks your path or is adjacent to your path.
 
 <br>
 

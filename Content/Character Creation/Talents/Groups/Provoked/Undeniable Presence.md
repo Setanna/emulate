@@ -3,7 +3,7 @@ tags: [Martial/Marshal]
 cssclass: pathfinder  
 ---
 
-<h1> Undeniable Presence <span style="margin-left: auto;"> 4 XP</span> </h1>
+<h1> Undeniable Presence <span style="margin-left: auto;"> 24 XP </span> </h1>
 
 [[Sight]]{.trait}
 

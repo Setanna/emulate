@@ -3,7 +3,7 @@ tags: [Martial/Fighter/Champion]
 cssclass: pathfinder
 ---
 
-<h1> Pain Tempered <span style="margin-left: auto;"> 1 XP </span> </h1>
+<h1> Pain Tempered <span style="margin-left: auto;"> 2 XP </span> </h1>
 
 <div style="clear:both" /> 
 

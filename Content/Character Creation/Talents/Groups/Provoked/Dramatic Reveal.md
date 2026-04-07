@@ -3,7 +3,7 @@ tags: [Martial/Marshal]
 cssclass: pathfinder  
 ---
 
-<h1> Dramatic Reveal <span style="margin-left: auto;"> 1 XP</span> </h1>
+<h1> Dramatic Reveal <span style="margin-left: auto;"> 4 XP </span> </h1>
 
 [[Rules/Traits/Item | Item (Dueling Cape)]]{.trait}
 

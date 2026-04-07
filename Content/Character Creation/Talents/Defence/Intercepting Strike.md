@@ -3,13 +3,13 @@ tags: [Martial]
 cssclass: pathfinder
 ---
 
-<h1> Intercepting Strike <span style="margin-left: auto;"> 2 XP</span> </h1>
+<h1> Intercepting Strike <span style="margin-left: auto;"> 4 XP </span> </h1>
 
 [[Finesse]]{.trait}
 
 <div style="clear:both" /> 
 
-**Requirements:** Strength 2+
+**Requirements:** Strength 1+
 ___
 
 <br>

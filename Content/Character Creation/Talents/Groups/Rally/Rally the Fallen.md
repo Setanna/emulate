@@ -3,7 +3,7 @@ tags: [Martial/Marshal]
 cssclass: pathfinder  
 ---
 
-<h1> Rally the Fallen <span style="margin-left: auto;"> 1 XP </span> </h1>
+<h1> Rally the Fallen <span style="margin-left: auto;"> 4 XP </span> </h1>
 
 <div style="clear:both" /> 
 

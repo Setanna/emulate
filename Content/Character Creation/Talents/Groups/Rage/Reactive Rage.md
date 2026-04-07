@@ -3,7 +3,7 @@ tags: [Martial/Barbarian]
 cssclass: pathfinder  
 ---
 
-<h1> Reactive Rage <span style="margin-left: auto;"> 6 XP</span> </h1>
+<h1> Reactive Rage <span style="margin-left: auto;"> 12 XP </span> </h1>
 
 [[Emotion | Emotion (Anger)]]{.trait}
 

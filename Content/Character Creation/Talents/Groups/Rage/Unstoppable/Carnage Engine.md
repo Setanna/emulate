@@ -3,7 +3,7 @@ tags: [Martial/Barbarian/Unstoppable]
 cssclass: pathfinder  
 ---
 
-<h1> Carnage Engine <span style="margin-left: auto;"> 10 XP </span> </h1>
+<h1> Carnage Engine <span style="margin-left: auto;"> 48 XP </span> </h1>
 
 [[Emotion | Emotion (Anger)]]{.trait}
 

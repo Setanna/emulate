@@ -3,7 +3,7 @@ tags: [Martial/Rogue]
 cssclass: pathfinder  
 ---
 
-<h1> Debilitating Vital Strike <span style="margin-left: auto;"> 4 XP</span> </h1>
+<h1> Debilitating Vital Strike <span style="margin-left: auto;"> 12 XP </span> </h1>
 
 [[Finesse]]{.trait}
 

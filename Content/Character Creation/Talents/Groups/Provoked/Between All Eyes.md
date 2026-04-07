@@ -3,7 +3,7 @@ tags: [Martial/Marshal]
 cssclass: pathfinder  
 ---
 
-<h1> Between All Eyes <span style="margin-left: auto;"> 2 XP</span> </h1>
+<h1> Between All Eyes <span style="margin-left: auto;"> 16 XP </span> </h1>
 
 <div style="clear:both" /> 
 

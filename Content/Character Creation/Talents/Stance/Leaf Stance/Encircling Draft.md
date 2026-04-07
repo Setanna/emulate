@@ -3,7 +3,7 @@ tags: [Martial/Monk/Leaf_Stance]
 cssclass: pathfinder
 ---
 
-<h1> Encircling Draft <span style="margin-left: auto;"> 6 XP </span> </h1>
+<h1> Encircling Draft <span style="margin-left: auto;"> 12 XP </span> </h1>
 
 <div style="clear:both" /> 
 

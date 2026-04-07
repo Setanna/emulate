@@ -3,7 +3,7 @@ tags: [Caster/Wizard]
 cssclass: pathfinder
 ---
 
-<h1> Spark of Magic <span style="margin-left: auto;"> 2 xp </span> </h1>
+<h1> Spark of Magic <span style="margin-left: auto;"> 6 xp </span> </h1>
 
 [[Arcane]]{.trait}
 

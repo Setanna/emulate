@@ -3,7 +3,7 @@ tags: [Martial/Barbarian/Unbreakable]
 cssclass: pathfinder
 ---
 
-<h1> Rage-Forged Bolster <span style="margin-left: auto;"> 8 XP</span> </h1>
+<h1> Rage-Forged Bolster <span style="margin-left: auto;"> 12 XP</span> </h1>
 
 [[Emotion | Emotion (Anger)]]{.trait}
 

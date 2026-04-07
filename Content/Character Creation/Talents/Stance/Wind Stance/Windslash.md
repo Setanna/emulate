@@ -3,7 +3,7 @@ tags: [Martial]
 cssclass: pathfinder
 ---
 
-<h1> Windslash <span style="margin-left: auto;"> 6 XP </span> </h1>
+<h1> Windslash <span style="margin-left: auto;"> 18 XP </span> </h1>
 
 [[Finesse]]{.trait}
 

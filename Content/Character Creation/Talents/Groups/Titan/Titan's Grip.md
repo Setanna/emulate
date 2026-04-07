@@ -3,7 +3,7 @@ tags: [Martial]
 cssclass: pathfinder  
 ---
 
-<h1> Titan's Grip <span style="margin-left: auto;"> 6 XP</span> </h1>
+<h1> Titan's Grip <span style="margin-left: auto;"> 18 XP </span> </h1>
 
 <div style="clear:both" /> 
 

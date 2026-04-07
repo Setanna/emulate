@@ -3,7 +3,7 @@ tags: [Martial/Barbarian/Unbreakable]
 cssclass: pathfinder
 ---
 
-<h1> Raging Vitality <span style="margin-left: auto;"> 4 XP </span> </h1>
+<h1> Raging Vitality <span style="margin-left: auto;"> 12 XP </span> </h1>
 
 [[Emotion | Emotion (Anger)]]{.trait}
 

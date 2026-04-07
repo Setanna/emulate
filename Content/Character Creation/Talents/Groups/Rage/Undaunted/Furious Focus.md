@@ -3,7 +3,7 @@ tags: [Martial/Barbarian/Undaunted]
 cssclass: pathfinder  
 ---
 
-<h1> Furious Focus <span style="margin-left: auto;"> 6 XP</span> </h1>
+<h1> Furious Focus <span style="margin-left: auto;"> 12 XP </span> </h1>
 
 [[Emotion | Emotion (Anger)]]{.trait}
 

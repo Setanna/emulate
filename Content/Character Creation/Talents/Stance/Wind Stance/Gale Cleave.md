@@ -3,7 +3,7 @@ tags: [Martial]
 cssclass: pathfinder
 ---
 
-<h1> Gale Cleave <span style="margin-left: auto;">8 XP</span> </h1>
+<h1> Gale Cleave <span style="margin-left: auto;"> 24 XP </span> </h1>
 
 [[Finesse]]{.trait}
 

@@ -3,7 +3,7 @@ tags: [Martial/Barbarian/Unstoppable]
 cssclass: pathfinder  
 ---
 
-<h1> Furious Stride <span style="margin-left: auto;"> 2 XP </span> </h1>
+<h1> Furious Stride <span style="margin-left: auto;"> 12 XP </span> </h1>
 
 [[Emotion | Emotion (Anger)]]{.trait}
 

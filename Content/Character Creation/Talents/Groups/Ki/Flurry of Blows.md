@@ -3,7 +3,7 @@ tags: [Martial/Monk/Ki]
 cssclass: pathfinder
 ---
 
-<h1> Flurry of Blows <span style="margin-left: auto;"> 4 XP</span> </h1>
+<h1> Flurry of Blows <span style="margin-left: auto;"> 12 XP </span> </h1>
 
 [[Unarmed]]{.trait}
 

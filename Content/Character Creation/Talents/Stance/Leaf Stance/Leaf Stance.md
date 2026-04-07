@@ -3,7 +3,7 @@ tags: [Martial/Monk/Leaf_Stance]
 cssclass: pathfinder
 ---
 
-<h1> Leaf Stance <span style="margin-left: auto;"> 4 XP </span> </h1>
+<h1> Leaf Stance <span style="margin-left: auto;"> 12 XP </span> </h1>
 
 [[Stance]]{.trait}
 

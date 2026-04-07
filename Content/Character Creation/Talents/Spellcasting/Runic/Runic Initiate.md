@@ -3,7 +3,7 @@ tags: [Caster/Wizard]
 cssclass: pathfinder
 ---
 
-<h1> Runic Initiate <span style="margin-left: auto;"> 4 XP</span> </h1>
+<h1> Runic Initiate <span style="margin-left: auto;"> 12 XP </span> </h1>
 
 [[Arcane]]{.trait}
 

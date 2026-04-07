@@ -3,7 +3,7 @@ tags: [Martial/Barbarian/Undaunted]
 cssclass: pathfinder  
 ---
 
-<h1> Burning Clarity <span style="margin-left: auto;"> 1 XP</span> </h1>
+<h1> Burning Clarity <span style="margin-left: auto;"> 4 XP </span> </h1>
 
 [[Emotion | Emotion (Anger)]]{.trait}
 

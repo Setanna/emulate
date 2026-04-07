@@ -3,7 +3,7 @@ tags: [Caster/Sorcerer]
 cssclass: pathfinder
 ---
 
-<h1> Eldritch Conduit <span style="margin-left: auto;"> 1 XP</span> </h1>
+<h1> Eldritch Conduit <span style="margin-left: auto;"> 4 XP </span> </h1>
 
 [[Arcane]]{.trait}
 

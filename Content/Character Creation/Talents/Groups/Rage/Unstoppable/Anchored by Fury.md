@@ -3,7 +3,7 @@ tags: [Martial/Barbarian/Unstoppable]
 cssclass: pathfinder  
 ---
 
-<h1> Anchored by Fury <span style="margin-left: auto;"> 4 XP </span> </h1>
+<h1> Anchored by Fury <span style="margin-left: auto;"> 12 XP </span> </h1>
 
 [[Emotion | Emotion (Anger)]]{.trait}
 
