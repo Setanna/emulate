@@ -9,9 +9,14 @@ cssclass: pathfinder
 
 [[Rules/Traits/Item | Item (Weapon)]]{.trait}
 
+[[Safe]]{.trait}
+
 <div style="clear:both" /> 
 
 ___
 
 **System:**
-You make a [[Making a Strike | Strike]] with each weapon you are wielding. When making [[Making a Strike | Strikes]] with this Action, all Attack Rolls suffer a -4 [[Circumstance]] Penalty.
+You make a [[Making a Strike | Strike]] with each weapon you are wielding. Each [[Making a Strike | Strike]] counts as it's own [[Rules/Traits/Attack | Attack]] Action and suffers a -4 [[Circumstance]] Penalty.
+
+You can grant each [[Rules/Traits/Attack | Attack]] Action the [[Accurate]] or [[Daring]] Trait. The Traits have a value equal to half the Stat used to make the Attack Roll.
+
