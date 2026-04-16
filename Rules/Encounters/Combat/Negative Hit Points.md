@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 # Negative Hit Points
-When a creature reaches 0 Hit Points or less they fall [[Unconscious]] and gain the [[Dying]] Condition.
+When a creature reaches 0 Hit Points or less they fall [[Unconscious]] and gain the [[Dying]] Condition for as long as they remain at 0 Hit Points or less.
 
 <br>
 
