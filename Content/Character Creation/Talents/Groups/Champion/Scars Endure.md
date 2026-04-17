@@ -7,7 +7,7 @@ cssclass: pathfinder
 
 <div style="clear:both" /> 
 
-**Requirements:** [[Pain Tempered]]; [[Indomitable]]; Constitution 3+
+**Requirements:** [[Survivor]]; [[Indomitable]]; Constitution 3+
 ___
 *Flavor Text*
 
