@@ -12,5 +12,9 @@ Additionally all Heavy Weapons also increase the Second Cost of all [[Rules/Trai
 
 <br>
 
+Heavy Weapons increase the [[Circumstance]] Penalty from [[Multiattack]] by one for Attack Rolls made with the Weapon. *This is in addition to the -2 [[Circumstance]] Penalty for wielding the Heavy Weapon in one hand.*
+
+<br>
+
  [[Rules/Traits/Attack | Attack]] Actions made with Heavy Weapons can not gain the [[Accurate]] Trait.
 

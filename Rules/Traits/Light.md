@@ -8,7 +8,7 @@ Weapons with the Light Trait can easily be dual wielded or thrown. When making a
 
 <br>
 
-Light Weapons reduce the [[Circumstance]] Penalty from [[Multiattack]] by two for Attack Rolls made with this Weapon. Additionally the range when Thrown is doubled, if a weapon has both the Thrown and Light Traits, its listed range already reflects the doubled distance granted by the Light Trait.
+Light Weapons reduce the [[Circumstance]] Penalty from [[Multiattack]] by one for Attack Rolls made with the Weapon. Additionally the range when Thrown is doubled, if a weapon has both the Thrown and Light Traits, its listed range already reflects the doubled distance granted by the Light Trait.
 
 <br>
 
