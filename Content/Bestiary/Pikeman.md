@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Pikeman <span style="margin-left: auto;"> 24 XP </span> </h1>
+<h1> Pikeman <span style="margin-left: auto;"> 92 XP </span> </h1>
 
 [[Size | Medium]]{.size-trait}
 
@@ -41,11 +41,15 @@ The Pikeman tends to stick right behind the front line, allowing them to attack 
 
 | Name                                                    | XP  |
 | ------------------------------------------------------- |:---:|
-| [[Race#Size  \| Medium]]                                |  0  |
-| [[Race#Hit Die \| d8]]                                  |  0  |
-| [[Race#Movement \| 5 Movement Speed]]                   |  0  |
+| [[Size  \| Medium]]                                     |  0  |
+| [[Hit Die \| d8]]                                       |  0  |
+| [[Movement \| 5 Movement Speed]]                        |  0  |
 | [[Skill Proficiency \| Skill Proficiency (Athletics)]]  | +1  |
 | [[Skill Proficiency \| Skill Proficiency (Perception)]] | +1  |
-| Gear Cost                                               | +2  |
-| Ability Scores                                          | +20 |
-| Total                                                   | 24  |
+| [[Light Armor Proficiency]]                             | +2  |
+| [[Medium Armor Proficiency]]                            | +6  |
+| [[Simple Weapon Proficiency]]                           | +3  |
+| [[Advanced Weapon Proficiency]]                         | +9  |
+| Gear Cost                                               | +10 |
+| Ability Scores                                          | +80 |
+| Total                                                   | 112 | 
