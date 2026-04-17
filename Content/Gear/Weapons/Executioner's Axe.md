@@ -5,7 +5,7 @@ cssclass: pathfinder
 
 <h1> Executioner's Axe <span style="margin-left: auto;">PRICE</span> </h1>
 
-[[Executioner]]{.trait}
+[[Executioner | Executioner (d6)]]{.trait}
 
 [[Material | Material (Steel)]]{.trait}
 

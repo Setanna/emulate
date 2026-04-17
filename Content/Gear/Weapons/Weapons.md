@@ -66,7 +66,7 @@ All weapons can be thrown as [[Thrown]] Weapons. When Thrown this way the range 
 | Greataxe              |    1d10    | [[Heavy]]                                                             | 2.1 sc | 6.7 kg |
 | Greatsword            |    1d10    | [[Heavy]], [[Versatile \| Versatile (p)]]                             | 1.8 sc | 5.4 kg |
 | Greathammer           |    1d10    | [[Heavy]]                                                             | 2.4 sc | 7.4 kg |
-| [[Executioner's Axe]] |    1d12    | [[Heavy]], [[Executioner]]                                            | 3.9 sc | 9.6 kg |
+| [[Executioner's Axe]] |    1d12    | [[Heavy]], [[Executioner \| Executioner (d6)]]                                            | 3.9 sc | 9.6 kg |
 
 ### Ranged Weapons
 | Name     | Damage Die | Range Increment | Traits                         | Cost  | Weight |
