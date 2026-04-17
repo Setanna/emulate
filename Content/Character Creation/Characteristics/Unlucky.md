@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder
 ---
 
-<h1> Unlucky <span style="margin-left: auto;"> -96 XP </span> </h1>
+<h1> Unlucky <span style="margin-left: auto;"> -128 XP </span> </h1>
 
 [[Flaw]]{.trait}
 
