@@ -3,7 +3,7 @@ tags: []
 cssclass: pathfinder  
 ---
 
-<h1> Dragonborn <span style="margin-left: auto;"> 102 XP </span> </h1>
+<h1> Dragonborn <span style="margin-left: auto;"> 132 XP </span> </h1>
 
 [[Size | Medium]]{.size-trait}
 
@@ -19,8 +19,12 @@ ___
 
 **Hit Die:** d10
 **Ground Movement:** 6 meters
+**Affinities:** [[Affinity#Minor Positive Affinity (+) | All Stats]]
 
 ___
+
+> [!warning] Warning
+> For all other races Affinities are mirrored as to not affect XP. Dragonborn's unique positive affinity for all stats is in playtest
 
 **Flavor:**
 Dragonborn a rumored to stem directly from dragons, as their given name suggests. Whether or not there is truth to the rumor matters little to the Dragonborn as they carve out their own place in the world.
@@ -46,6 +50,7 @@ Dragonborn start with [[Dragon Scales]]; [[Intimidating]]; [[Vision#Low-Light Vi
 | [[Skill Proficiency \| Skill Proficiency (Intimidation)]] | +1  |
 | [[Skill Proficiency \| Skill Proficiency (Perception)]]   | +1  |
 | [[Vision#Low-Light Vision \| Low-Light Vision]]           | +32 |
-| Total                                                     | 102 | 
+| [[Affinity#Minor Positive Affinity (+) \| All Stats]]     | +30 |
+| Total                                                     | 132 |
 
 
