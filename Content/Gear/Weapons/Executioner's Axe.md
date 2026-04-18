@@ -7,6 +7,8 @@ cssclass: pathfinder
 
 [[Executioner | Executioner (d6)]]{.trait}
 
+[[Heavy]]{.trait}
+
 [[Material | Material (Steel)]]{.trait}
 
 <div style="clear:both" /> 
