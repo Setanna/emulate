@@ -1,0 +1,17 @@
+- Dragonborn should probably have bite and claw attacks
+- Orcs weigh to little
+- Calm is a must take for groups without morale bonuses
+	- Make it a merit with higher XP cost?
+- Intercepting Strike is kind of a must have since it is so cheap?
+- Add split seconds back to reactions so it clear to see?
+- Ugly should work like Scars
+	- Better intimidation
+	- Make ugly base and scars just increase it
+- Pretty and Oblivious
+	- Oblivious and Observant cost 24 but affect 3 skills
+	- Pretty and ugly cost 16 but affect all Charisma skills
+- Rage points gained should just be equal to health lost
+- Debilitating Strike still has lasting bleed
+	- This needs to change
+- No attack Roll rules in making an attack
+	- No way to know it is a d20
