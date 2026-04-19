@@ -29,6 +29,7 @@
 	- Update stacking and condition gaining rules
 - Add reminder text to attack Trait that light and heavy reduces or increases second cost
 - Look into the leaf stance step into melee.
+	-maybe not lvl 1 
 - Bolster should only be unarmored or huge penalty such as only when negative hit points for champion
 	- Add unarmoed gapless talent to barbarian
 - Rage beyond limits you somehow keep persistant trait
@@ -36,3 +37,4 @@
 - Provoke should use persistant
 - NAtural attacks should be cheaper
 - low light vision should be cheaper
+- Maybe only 200 XP for lvl 1 equivalent
