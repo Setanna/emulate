@@ -4,33 +4,44 @@ cssclass: pathfinder
 ---
 
 # Drenched
-Creatures who are Drenched, are covered in a liquid. Depending on the liquid the creature gains benefits or penalties equal to their Drenched Die.
+*Soaked through*
 
-<br>
+**System:**
+When you move in a dry environment while you have the Drenched Condition, all Creatures gain a [[Circumstance]] Bonus on track you. The Bonus is equal to the Maximum of your Drenched Condition Value.
 
-When a Drenched Creature moves in a dry environment while Wet, other creatures gain a [[Circumstance]] Bonus on tracking the Drenched Creature. The Bonus is equal to the maximum of the Drenched Die.
+If you would gain the Drenched condition with a different Liquid, they [[Counteracting | counteract]] each other.
 
-<br>
-
-If a creature would gain a Drenched Condition with a different Liquid they counteract each other.
-
-<br>
+You gain additional benefits or penalties dependant on the Liquid in your Drenched Condition as shown below:
 
 ## Liquids
+Your Drenched Condition can have any of the following Liquids:
 
 ### Water
-Creatures who are Drenched in Water, take less damage from sources with the [[Fire]] Trait, and additional damage from sources with the [[Electricity]] or [[Cold]] Trait. This Damage Modification is equal to the die notified in the Drenched Condition Parenthesis. When reducing [[Fire]] Damage, the reduction is equal to the maximum number of the die.
+While you have the Drenched (Water) Condition you gain the following effects:
+- You take a [[Circumstance]] Bonus on Saving Throws against effects with the [[Fire]] Trait
+- You take a [[Circumstance]] Penalty on Saving Throws against effects with the [[Cold]] or [[Electricity]] Trait.
+- You reduce [[Damage Types#fire | Fire]] Damage
+- You increase [[Damage Types#Cold | Cold]] and [[Damage Types#Electricity | Electricity]] Damage
 
-<br>
+Any increase, reduction, penalty or bonus are based on your Drenched (Water) Condition's Value.
 
-Holy Water deals [[Damage Types | Positive]] Damage at the start of each of the creatures turns, while Unholy Water deals [[Damage Types | Negative]] Damage.
+Additionally Drenched (Water) [[Counteracting | counteracts]] the [[Burning]] Condition.
 
-<br>
+### Holy Water
+You gain all the effects of Drenched (Water) but also at the start of each your turns you take [[Damage Types#Radiant | Radiant]] Damage equal to your Drenched (Holy Water) Condition's Value.
 
-Additionally Drenched (Water) counteracts the [[Burning]] Condition.
+### Unholy Water
+You gain all the effects of Drenched (Water) but also at the start of each your turns you take [[Damage Types#Necrotic| Necrotic]] Damage equal to your Drenched (Unholy Water) Condition's Value.
 
 ### Oil
-Creatures who are Drenched in Oil, take additional damage from sources with the [[Fire]] or [[Cold]] Trait. If the creature is effected by a source with the [[Electricity]] Trait, the Drenched (Oil) Condition is turned into a [[Burning]] Condition with the same value.
+While you have the Drenched (Oil) Condition you gain the following effects:
+- You increase [[Damage Types#fire | Fire]] and [[Damage Types#Cold | Cold]] Damage
+- If you would take [[Damage Types#Electricity | Electricity]] Damage or be affected by an [[Electricity]] Action, you remove your Drenched (Oil) Condition and gain the [[Burning]] Condition.
+
+Any increase or Condition Value is based on your Drenched (Oil) Condition's Value.
 
 ### Acid
-Drenched (Acid) is also counteracted by any other Drenched (Acid) from another Acid. What the Acid does to a Drenched Creature is written on the specific Acid.
+You can be drenched by a wide variety of Acids each with their own unique names. At the start of your turn you gain the Drenched Effect written on the Acid you are Drenched by.
+
+
+Drenched (Acid) is also [[Counteracting | counteracted]] by any other Drenched (Acid) from another Acid. 

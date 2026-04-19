@@ -4,5 +4,9 @@ cssclass: pathfinder
 ---
 
 # Dazed
-A creature that is Dazed can not use any Action or Talent with the [[Focus]] Trait and any [[Focus]] Talent or Action they have active, immediately ends. 
+*You know what you want to do. You just can’t hold onto it*
 
+**System:**
+You can not use any Action or Talent with the [[Focus]] Trait. 
+
+*A Creature that can not use the [[Focus]] Trait loses all active [[Channeling]] Actions or Talents*

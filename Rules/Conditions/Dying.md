@@ -4,8 +4,11 @@ cssclass: pathfinder
 ---
 
 # Dying
-A Creature with the Dying Condition rolls a [[Saving Throws  | Fortitude]] Saving Throw at the start of each of their turns. If they fail the Saving Throw they take 1 damage that can not be reduced.
+*The distance between you and nothing is shortening*
 
-The DC of the Saving Throw is equal to 10 + the Creature's current Negative Hit Points.
+**System:**
+At the start of your turn you Roll a [[Saving Throws  | Fortitude]] Saving Throw. If you fail the Saving Throw you take 1 damage that can not be reduced.
 
-*If a Creature's Negative Hit Points exceeds their Maximum Negative Hit Points, it dies*
+The DC of the Saving Throw is equal to 10 + your current Negative Hit Points.
+
+*If your Negative Hit Points exceeds your [[Negative Hit Points | Maximum Negative Hit Points]], you die*

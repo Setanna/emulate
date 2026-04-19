@@ -4,11 +4,12 @@ cssclass: pathfinder
 ---
 
 # Broken
-Items with the Broken Condition gains a [[Circumstance]] Penalty equal to its Broken Value as shown below:
+*It remembers what it was meant to be, and mourns what it has become*
 
-- **Weapons:** Gain the Penalty to Attack and Damage Rolls.
-- **Armor:** Gain the Penalty to its Armor Value
-- **Shields:** Gain the Penalty to its Armor Value
-- **Other Items:** Gain the Penalty to all non [[Arcane]] Bonuses granted by the item.
+**System:**
+Items with the Broken Condition gain a [[Circumstance]] Penalty on:
+- Damage
+- Armor and Shield Values
+- All non [[Arcane]] Bonuses
 
-When an Item reaches a Broken Value equal to the Armor Value, Shield Value or Item Bonus that the item grants, it is destroyed.
+If the Item's Damage, Armor and Shields Values or other Bonuses would be reduced to zero or less. It is destroyed. *You can not reduce an Armor Value to zero, if the Item has no Armor Value*

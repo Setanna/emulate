@@ -4,6 +4,9 @@ cssclass: pathfinder
 ---
 
 # Fatigued
+*You are running on what is left, not what is enough*
+
+**System:**
 You take a [[Vigour]] Penalty to your  Attack Rolls, Saving Throws, and Skill Checks. The Penalty is equal to your Fatigued Condition's Value.
 
 If your Fatigued value ever would exceed twice your Constitution, you remove the Fatigued condition and instead gain the Exhausted condition. 

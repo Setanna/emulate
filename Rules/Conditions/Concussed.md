@@ -4,8 +4,9 @@ cssclass: pathfinder
 ---
 
 # Concussed
-A creature that is Concussed takes a [[Circumstance]] Penalty on all [[Stats | Mental  Stat]] based Rolls. The penalty is defined in the Concussed Trait. At the end of the creatures turn reduce the penalty by 1.
+*Your thoughts feel borrowed, and poorly returned*
 
-<br>
+**System:**
+You take a [[Circumstance]] Penalty on your Will Saving Throws and Mental Stat Based Skill Checks. The Penalty is equal to your Concussed Condition's Value. At the end of your turn reduce your Concussed Condition by one.
 
-Additionally while Concussed a creature is also [[Dazed]].
+Additionally while you are Concussed you also gain the [[Dazed]] Condition.

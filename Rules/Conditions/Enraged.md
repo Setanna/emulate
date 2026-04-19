@@ -6,8 +6,7 @@ cssclass: pathfinder
 # Enraged
 *You’ve gone and made it personal*
 
-<br>
-
+**System:**
 You gain the following bonuses and penalties until the End of the Encounter:
 - +4 [[Rules/Bonuses and Penalties/Morale|Morale]] Bonus to Intimidation
 - +1 [[Rules/Bonuses and Penalties/Morale|Morale]] Bonus to Strength
