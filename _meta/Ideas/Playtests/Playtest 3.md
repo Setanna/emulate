@@ -10,8 +10,29 @@
 - Pretty and Oblivious
 	- Oblivious and Observant cost 24 but affect 3 skills
 	- Pretty and ugly cost 16 but affect all Charisma skills
+	- Perception effects initiative?
 - Rage points gained should just be equal to health lost
 - Debilitating Strike still has lasting bleed
 	- This needs to change
 - No attack Roll rules in making an attack
 	- No way to know it is a d20
+- Sadistic Infliction
+- Wind Stance might be too cheap
+	- To accessible at level 1
+- [[Catch the Wrist]] should only be unarmed
+	- So no weapon's reach affects the action
+- Frightened and Fatigued should not reduce damage
+- Look into nonlethal
+- Catch your breath 1 second
+	- Play test
+- Intimidate max frightened to your Charisma minimum 1
+	- Update stacking and condition gaining rules
+- Add reminder text to attack Trait that light and heavy reduces or increases second cost
+- Look into the leaf stance step into melee.
+- Bolster should only be unarmored or huge penalty such as only when negative hit points for champion
+	- Add unarmoed gapless talent to barbarian
+- Rage beyond limits you somehow keep persistant trait
+- Heavy and Light should be moved to a list for penalties
+- Provoke should use persistant
+- NAtural attacks should be cheaper
+- low light vision should be cheaper
