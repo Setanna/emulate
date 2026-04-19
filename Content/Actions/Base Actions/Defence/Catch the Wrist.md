@@ -10,6 +10,8 @@ cssclass: pathfinder
 
 <div style="clear:both" />
 
+**Requirement:** You have a hand free
+
 **Reaction Trigger:**  You or your ally within reach is the target of an [[Rules/Traits/Attack | Attack]] Action and the Attacker is within your Reach.
 ___
 
