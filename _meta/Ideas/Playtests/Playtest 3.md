@@ -1,40 +1,47 @@
-- Dragonborn should probably have bite and claw attacks
-- Orcs weigh to little
-- Calm is a must take for groups without morale bonuses
+- [ ] Dragonborn should probably have bite and claw attacks
+- [ ] Orcs weigh to little
+- [ ] Calm is a must take for groups without morale bonuses
 	- Make it a merit with higher XP cost?
-- Intercepting Strike is kind of a must have since it is so cheap?
-- Add split seconds back to reactions so it clear to see?
-- Ugly should work like Scars
+- [ ] Intercepting Strike is kind of a must have since it is so cheap?
+- [ ] Add split seconds back to reactions so it clear to see?
+- [ ] Ugly should work like Scars
 	- Better intimidation
 	- Make ugly base and scars just increase it
-- Pretty and Oblivious
+- [ ] Pretty and Oblivious
 	- Oblivious and Observant cost 24 but affect 3 skills
 	- Pretty and ugly cost 16 but affect all Charisma skills
 	- Perception effects initiative?
-- Rage points gained should just be equal to health lost
-- Debilitating Strike still has lasting bleed
+- [ ] Rage points gained should just be equal to health lost
+- [ ] Debilitating Strike still has lasting bleed
 	- This needs to change
-- No attack Roll rules in making an attack
+- [ ] No attack Roll rules in making an attack
 	- No way to know it is a d20
-- Sadistic Infliction
-- Wind Stance might be too cheap
+- [ ] Sadistic Infliction
+- [ ] Wind Stance might be too cheap
 	- To accessible at level 1
-- [[Catch the Wrist]] should only be unarmed
+- [x] Catch the Wrist should only be unarmed
 	- So no weapon's reach affects the action
-- Frightened and Fatigued should not reduce damage
-- Look into nonlethal
-- Catch your breath 1 second
+	- This has been updated.
+- [x] Frightened and Fatigued should not reduce damage
+	- Updated to not reduce damage
+	- Updated to add Vigour Bonus / Penalty
+	- All conditions should always use second person
+- [ ] Look into nonlethal
+- [ ] Catch your breath 1 second
 	- Play test
-- Intimidate max frightened to your Charisma minimum 1
+- [ ] Intimidate max frightened to your Charisma minimum 1
 	- Update stacking and condition gaining rules
-- Add reminder text to attack Trait that light and heavy reduces or increases second cost
-- Look into the leaf stance step into melee.
+	- Update Intimidating to instead increase your Charisma by one when determining maximum frightened condition
+- [ ] Add reminder text to attack Trait that light and heavy reduces or increases second cost
+- [ ] Look into the leaf stance step into melee.
 	-maybe not lvl 1 
-- Bolster should only be unarmored or huge penalty such as only when negative hit points for champion
+- [ ] Bolster should only be unarmored or huge penalty such as only when negative hit points for champion
 	- Add unarmoed gapless talent to barbarian
-- Rage beyond limits you somehow keep persistant trait
-- Heavy and Light should be moved to a list for penalties
-- Provoke should use persistant
-- NAtural attacks should be cheaper
-- low light vision should be cheaper
-- Maybe only 200 XP for lvl 1 equivalent
+- [x] Rage beyond limits you keep Persistent Trait
+	- The Condition never gets the Trait as you never get the Condition
+- [ ] Heavy and Light should be moved to a list for penalties
+- [x] Provoke should use Persistent Trait
+	- Updated Undeniable Presence to use Persistent Trait
+- [ ] Natural attacks should be cheaper
+- [ ] low light vision should be cheaper
+- [ ] Maybe only 200 XP for lvl 1 equivalent
