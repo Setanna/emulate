@@ -16,7 +16,7 @@ ___
 <br>
 
 **System:**
-Any creature that is [[Provoked]] with you as their Target, can not reduce their [[Provoked]] Value below your Charisma, for as long as they have sight to you. However the [[Provoked]] Condition can still start at a lower value than your Charisma.
+When a Creature is [[Provoked]] with you as their Target, the [[Provoked]] Condition gains the [[Rules/Traits/Persistent | Persistent]] Trait. The value of the Trait is equal to your Charisma.
 
 <br>
 
