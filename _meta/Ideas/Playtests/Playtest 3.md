@@ -27,7 +27,7 @@
 	- Updated to add Vigour Bonus / Penalty
 	- All conditions should always use second person
 - [ ] Look into nonlethal
-- [ ] Catch your breath 1 second
+- [x] Catch your breath 1 second
 	- Play test
 - [ ] Intimidate max frightened to your Charisma minimum 1
 	- Update stacking and condition gaining rules
