@@ -21,7 +21,9 @@ cssclass: pathfinder
 ___
 
 **System:**
-You Roll an Intimidation Roll against all enemies Will Saving Throw DC. Enemies that can not see you gain a +4 to their Will Saving Throw and the same is true if they don't speak the same language.
+Choose any number of Creatures and roll an Intimidation Skill Check against their Will Saving Throw DC. Any target that can not see you gains a +2 [[Circumstance]] Bonus to their Will Saving Throw, the same is true if they don't understand the Language used.
+
+You can not increase any target's Frightened Value above your Charisma (Minimum 1).
 
 <br>
 
