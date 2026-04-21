@@ -17,6 +17,10 @@
 - [ ] No attack Roll rules in making an attack
 	- No way to know it is a d20
 - [ ] Sadistic Infliction
+	- Should not increase damage
+	- Should just be +1 to next (Attack Roll, Saving Throw or Skill Check)
+		- This becomes a defensive tool? You hit and gain +1 AC against next attack?
+    	- Look into alternatives this is inheriently an offensive talent
 - [ ] Wind Stance might be too cheap
 	- To accessible at level 1
 - [x] Catch the Wrist should only be unarmed
@@ -34,7 +38,7 @@
 	- Update Intimidating to instead increase your Charisma by one when determining maximum frightened condition
 - [ ] Add reminder text to attack Trait that light and heavy reduces or increases second cost
 - [ ] Look into the leaf stance step into melee.
-	-maybe not lvl 1 
+	- Probably not lvl 1 
 - [ ] Bolster should only be unarmored or huge penalty such as only when negative hit points for champion
 	- Add unarmoed gapless talent to barbarian
 - [x] Rage beyond limits you keep Persistent Trait
