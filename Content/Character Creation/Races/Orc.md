@@ -25,7 +25,7 @@ ___
 Most Orc factions strive in Might is Right tribal environments, where they are constantly pushed to power over their superiors. This constant need for power tend to make Orcs great barbarians and war mongers.
 
 **Description:**
-Orcs vary from 1.8 to 2 meters tall and weight 60 to 110 kg. Orcs typically sport pale to dark green skin with oversized tusks.
+Orcs vary from 1.8 to 2 meters tall and weight 80 to 130 kg. Orcs typically sport pale to dark green skin with oversized tusks.
 
 <br>
 
