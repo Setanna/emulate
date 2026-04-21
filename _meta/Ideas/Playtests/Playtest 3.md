@@ -1,5 +1,5 @@
 - [ ] Dragonborn should probably have bite and claw attacks
-- [ ] Orcs weigh to little
+- [X] Orcs weigh to little
 - [ ] Calm is a must take for groups without morale bonuses
 	- Make it a merit with higher XP cost?
 - [ ] Intercepting Strike is kind of a must have since it is so cheap?
