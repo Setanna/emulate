@@ -17,8 +17,6 @@ ___
 <br>
 
 **System:**
-Whenever you Roll an [[Intimidation]] Skill Check against a Creature, they take a -1 [[Rules/Bonuses and Penalties/Morale | Morale]] Penalty on their Will Saving Throw against the Skill Check.
+When you take the [[Intimidate]] Action, you can remove the [[Language]] Trait from it.
 
-<br>
-
-Additionally when you use the [[Intimidate]] Action it looses the [[Language]] Trait.
+Additionally, for the [[Intimidate]] Action, your Charisma counts as one higher for determining how high you can increase a target's [[Frightened]] Condition.
