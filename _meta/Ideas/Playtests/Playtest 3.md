@@ -49,3 +49,6 @@
 - [ ] Natural attacks should be cheaper
 - [ ] low light vision should be cheaper
 - [ ] Maybe only 200 XP for lvl 1 equivalent
+- [ ] Intimidate Action does not work properly
+	- Your targets gain bonuses if they can't see or understand you
+   		- Issue is that the Action has the Sight and Language Traits, so if they don't understand you or can't see you they are immune.
