@@ -4,9 +4,10 @@ cssclass: pathfinder
 ---
 
 # Invisible
-Invisible creatures gain a +10 [[Circumstance]] Bonus to [[Stealth]] Rolls against [[Perception | Perception (Sight)]]. If the creature is standing still the bonus increases to +20.
+*You exist, just not to sight*
 
-<br>
 
-To find the precise location of an Invisible creature 
+**System:**
+You gain a +10 [[Circumstance]] Bonus to [[Stealth]] Rolls against [[Perception | Perception (Sight)]]. At the end of your turn, if you have not taken a [[Move]] Action, the bonus increases to +20.
+
 

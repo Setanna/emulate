@@ -4,16 +4,13 @@ cssclass: pathfinder
 ---
 
 # Provoked
-A creature that has the Provoked Condition, takes a [[Rules/Bonuses and Penalties/Morale | Morale]] Penalty on all rolls and Difficulty Checks against other creatures than their target. The Morale Penalty is equal to the creature's Provoked value.
+*You commit to them, whether it’s wise or no*
 
-<br>
+**System:**
+You take a [[Rules/Bonuses and Penalties/Morale | Morale]] Penalty on your Attacks, Skill Checks and Saving Throws against Creatures other than your target. The [[Rules/Bonuses and Penalties/Morale | Morale]] Penalty is equal to your Provoked Condition's value.
 
-The Provoked Creature is tunnel visioned onto one creature, referred to as their target. When the Provoked Creature rolls against the target or makes the target Roll against their Difficulty Check, the Provoked Creature's Roll or Difficulty Check does not get the [[Rules/Bonuses and Penalties/Morale | Morale]] Penalty from being Provoked.
+When you take an Action and that Action targets your target for your Provoked Condition, as long as the target remains a valid target, you ignore all penalties from your Provoked Condition against that target.
 
-<br>
+At the end of each of your turns you reduce your Provoked Condition by one.
 
-At the end of the creature's next turn, and each turn after, the Provoked Condition is reduced by one.
-
-<br>
-
-Additionally, if a creature would be Provoked to target a specific creature, while already Provoked to target another creature, the Creature's Provoked value would increase as conditions do, but the Provoked Creature would gain an additional target.
+Additionally, if you would gain the Provoked Condition again with target different from a target you already have, your Provoked Condition's value is increased and an additional target is added to your condition.

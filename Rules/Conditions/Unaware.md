@@ -4,4 +4,7 @@ cssclass: pathfinder
 ---
 
 # Unaware
-A creature unaware of you doesn't know your exact location, and in some cases don't even know you are nearby. A creature that is unaware gets the [[Flat-Footed]] Condition from any of your Attacks and can not use Reactions against said attacks.
+*You are fighting what you cannot place*
+
+**System:**
+You are unaware of a creature's exact location. You gain the [[Flat-Footed]] Condition against any Actions from the creature and you can not react to any Trigger from the Creature.

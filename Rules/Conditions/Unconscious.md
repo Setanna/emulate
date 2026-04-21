@@ -4,11 +4,7 @@ cssclass: pathfinder
 ---
 
 # Unconscious
-An Unconscious creature drops anything it is holding; Goes [[Prone]] and can't take Reactions or Actions.
+*The world continues, but you do not*
 
-<br>
-
-Additionally the creature is [[Unaware]] and [[Deafened]].
-
- 
-
+**System:**
+You drop everything you are holding and you gain the [[Prone | Prone 3]] Condition. You can not take any Actions and you also gain the [[Unaware]] and [[Deafened]] Conditions.
