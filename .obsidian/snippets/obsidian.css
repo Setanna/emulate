@@ -1,3 +1,14 @@
+/*------ VARIABLES ------*/
+:root {
+    --border-radius: 3px;
+    --title-padding: 4px 9px;
+    --head-bg: #404859;
+    --head-fg: #cbc5c3;
+    --mid-bg: #404859;
+    --mid-fg: #21252b;
+    --font-variant: small-caps;
+}
+
 /* Callouts */
 .callout:is([data-callout-metadata^="right"]) {
     max-width: 40%;
@@ -48,7 +59,6 @@
     color: #D5D5D5 !important;
     margin-top: 30px !important;
     margin-bottom: 0 !important;
-    margin-left: -2px;
     display: flex;
     color: var(--head-fg);
     background-color: var(--head-bg);
@@ -67,11 +77,6 @@
 
 .markdown-rendered h5, .markdown-rendered h3 {
     border-bottom: 1px solid gray;
-}
-
-/*------ Remove large header top margin ------*/
-.markdown-rendered div:has( > :is(p,pre,table,ul,ol)) + div > :is(h1,h2,h3,h4,h5,h6) {
-    margin-top: 0;
 }
 
 /*------ LISTS ------*/

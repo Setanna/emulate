@@ -212,6 +212,13 @@
       ],
       "color": "#a30000"
     },
+    "_meta/Dataview": {
+      "icon": "lucide-code-2",
+      "unsynced": [
+        "9c4516fa28f7815a"
+      ],
+      "color": "#a30000"
+    },
     "_meta/Ideas": {
       "icon": "lucide-lightbulb",
       "unsynced": [
