@@ -16,13 +16,13 @@ cssclass: pathfinder
 ___
 
 **System:**
-You parry the weapon by rolling an Attack Roll against the attacker's Attack Roll.
+You roll an Attack against the Triggering Action's Attack.
 
 <br>
 
-**Critical Success:** The attack counts as a Miss and you can make an [[Attack of Opportunity]] against the Attacker.
-**Success:** The attack counts as a Miss.
-**Fail:** You reduce the damage taken by your Strength.
-**Critical Fail:** You take full damage from the attack.
+**Critical Success:** The Action is [[counteracting | counteracted]] and it Triggers an [[Attack of Opportunity]]
+**Success:** The Action is [[counteracting | counteracted]]
+**Fail:** You reduce the damage taken from the Action by your Strength
+**Critical Fail:** You take full damage from the Action
 
 
