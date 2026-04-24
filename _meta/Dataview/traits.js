@@ -17,3 +17,5 @@ for (let Trait of traits) {
     el.setAttribute("target", "_blank");
     el.setAttribute("rel", "noopener nofollow");
 }
+
+dv.el("div", "", { attr: { style: "clear: both; margin-top: -0.3rem;" } });
