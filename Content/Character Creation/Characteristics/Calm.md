@@ -5,18 +5,14 @@ value: 4
 traits:
  - link: [[Emotion]]
    display: "Emotion"
-   css: "trait"
  - link: [[Merit]]
    display: "Merit"
-   css: "trait"
 ---
 
 ```dataviewjs
 dv.view("_meta/Dataview/xp_title", dv.current());
 dv.view("_meta/Dataview/traits", dv.current());
 ```
-
-<div style="clear:both; margin-top:-0.3rem" /> 
 
 **Requirements:** You don't have the [[Emotional]] Characteristic
 ___
