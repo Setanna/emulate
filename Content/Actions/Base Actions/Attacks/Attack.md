@@ -1,15 +1,18 @@
 ---
 tags: []
 cssclass: pathfinder
+value: 3 Seconds
+traits:
+ - link: [[Rules/Traits/Attack]]
+   display: "Attack"
+ - link: [[Rules/Traits/Item]]
+   display: "Item (Weapon)"
 ---
 
-<h1> Attack <span style="margin-left: auto;"> 3 Seconds </span> </h1>
-
-[[Rules/Traits/Attack | Attack]]{.trait}
-
-[[Rules/Traits/Item | Item (Weapon)]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+dv.view("_meta/Dataview/default_title", dv.current());
+dv.view("_meta/Dataview/traits", dv.current());
+```
 
 ___
 
