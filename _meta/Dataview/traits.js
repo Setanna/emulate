@@ -8,7 +8,7 @@ let wrap = dv.container.createDiv("traits-wrapper");
 
 for (let Trait of traits) {
     let el = wrap.createEl("a", {
-        text: Trait.display,
+        text: Trait.display ?? Trait.link,
         cls: ["internal-link", Trait.css ?? "trait"].join(" ")
     });
 

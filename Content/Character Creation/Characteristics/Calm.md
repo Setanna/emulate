@@ -3,10 +3,8 @@ tags: []
 cssclass: pathfinder
 value: 4
 traits:
- - link: [[Emotion]]
-   display: "Emotion"
- - link: [[Merit]]
-   display: "Merit"
+ - link: Emotion
+ - link: Merit
 ---
 
 ```dataviewjs
