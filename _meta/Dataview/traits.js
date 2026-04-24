@@ -9,7 +9,7 @@ let wrap = dv.container.createDiv("traits-wrapper");
 for (let Trait of traits) {
     let el = wrap.createEl("a", {
         text: Trait.display,
-        cls: ["internal-link", Trait.css ?? ""].join(" ")
+        cls: ["internal-link", Trait.css ?? "trait"].join(" ")
     });
 
     el.setAttribute("href", Trait.link);
