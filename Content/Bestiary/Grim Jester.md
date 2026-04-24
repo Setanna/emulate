@@ -1,15 +1,19 @@
 ---
 tags: []
 cssclass: pathfinder
+value: 400
+traits:
+ - link: [[Size]]
+   display: "Medium"
+   css: "size-trait"
+ - link: [[Humanoid]]
+   display: "Humanoid"
 ---
 
-<h1> Grim Jester <span style="margin-left: auto;"> 163 XP</span> </h1>
-
-[[Size | Medium]]{.size-trait}
-
-[[Humanoid]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+dv.view("_meta/Dataview/xp_title", dv.current());
+dv.view("_meta/Dataview/traits", dv.current());
+```
 
 ___
 
