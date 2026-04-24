@@ -1,6 +1,6 @@
 let page = input;
 
-let xp = page.xp ?? 0;
+let value = page.value ?? 0;
 let name = page.file?.name ?? "Untitled";
 
 // Create <h1>
@@ -9,9 +9,9 @@ let h1 = dv.el("h1", "");
 // Left side (name)
 h1.appendText(name);
 
-// Right side (XP)
+// Right side (value)
 let span = document.createElement("span");
 span.style.marginLeft = "auto";
-span.textContent = `${xp} XP`;
+span.textContent = `${value} XP`;
 
 h1.appendChild(span);
