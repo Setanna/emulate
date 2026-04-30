@@ -7,6 +7,8 @@ cssclass: pathfinder
 
 [[Flaw]]{.trait}
 
+[[Racial]]{.trait}
+
 <div style="clear:both" /> 
 
 **Requirements:** [[Tusks]]
