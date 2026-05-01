@@ -6,14 +6,14 @@ let traits = page.traits ?? [];
 
 let wrap = dv.container.createDiv("traits-wrapper");
 
-for (let Trait of traits) {
+for (let trait of traits) {
     let el = wrap.createEl("a", {
-        text: Trait.display ?? Trait.link,
-        cls: ["internal-link", Trait.css ?? "trait"].join(" ")
+        text: trait.display ?? trait.link + (" " + (trait.value ?? "")),
+        cls: ["internal-link", trait.css ?? "trait"].join(" ")
     });
 
-    el.setAttribute("href", Trait.link);
-    el.setAttribute("data-href", Trait.link);
+    el.setAttribute("href", trait.link);
+    el.setAttribute("data-href", trait.link);
     el.setAttribute("target", "_blank");
     el.setAttribute("rel", "noopener nofollow");
 }

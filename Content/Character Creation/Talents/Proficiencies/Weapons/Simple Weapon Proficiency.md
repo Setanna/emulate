@@ -1,11 +1,12 @@
 ---
 tags: []
 cssclass: pathfinder  
+value: 3
 ---
 
-<h1> Simple Weapon Proficiency <span style="margin-left: auto;"> 3 XP </span> </h1>
-
-<div style="clear:both" /> 
+```dataviewjs
+dv.view("_meta/Dataview/xp_title", dv.current());
+```
 
 ___
 

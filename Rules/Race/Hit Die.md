@@ -1,6 +1,17 @@
 ---
 tags: []
 cssclass: pathfinder
+costs:
+  - die: 12
+    xp: 64
+  - die: 10
+    xp: 32
+  - die: 8
+    xp: 0
+  - die: 6
+    xp: -32
+  - die: 4
+    xp: -64
 ---
 
 # Hit Die
@@ -14,10 +25,6 @@ The given hit die also determines how well a race's body can heal it's own wound
 
 The following is the Experience Cost of a given Hit Die when creating Races:
 
-| Hit Die | Total XP Cost |
-| ------- | ------------- |
-| d12     | +64           |
-| d10     | +32           |
-| d8      | 0             |
-| d6      | -32           |
-| d4      | -64           |
+```dataviewjs
+dv.view("_meta/Dataview/hit_die_table", dv.current());
+```

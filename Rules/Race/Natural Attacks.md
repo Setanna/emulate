@@ -3,12 +3,12 @@ tags: []
 cssclass: pathfinder
 ---
 
-# Natural Attack
+# Natural Attacks
 
 > [!warning] Work In Progress
 > This has not been properly play tested
 
-Some creatures are born with claws and teeth made to shred their prey.
+Natural Attacks are tied to the physical attributes of a Creature.
 
 
 | Damage Die | XP  | Possible Traits                                   |

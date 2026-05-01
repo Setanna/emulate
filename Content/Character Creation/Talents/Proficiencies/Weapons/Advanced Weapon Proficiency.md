@@ -1,11 +1,12 @@
 ---
 tags: []
 cssclass: pathfinder  
+value: 9
 ---
 
-<h1> Advanced Weapon Proficiency <span style="margin-left: auto;"> 9 XP </span> </h1>
-
-<div style="clear:both" /> 
+```dataviewjs
+dv.view("_meta/Dataview/xp_title", dv.current());
+```
 
 **Requirements:** [[Simple Weapon Proficiency]]
 ___

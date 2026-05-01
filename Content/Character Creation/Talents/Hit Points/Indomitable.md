@@ -1,11 +1,12 @@
 ---
 tags: [Martial]
 cssclass: pathfinder
+value: 8
 ---
 
-<h1> Indomitable <span style="margin-left: auto;"> 8 XP </span> </h1>
-
-<div style="clear:both" /> 
+```dataviewjs
+dv.view("_meta/Dataview/xp_title", dv.current());
+```
 
 **Requirements:** Constitution 2+
 ___

@@ -1,11 +1,12 @@
 ---
 tags: [Martial/Fighter/Champion]
 cssclass: pathfinder
+value: 18
 ---
 
-<h1> Scars Endure <span style="margin-left: auto;"> 18 XP </span> </h1>
-
-<div style="clear:both" /> 
+```dataviewjs
+dv.view("_meta/Dataview/xp_title", dv.current());
+```
 
 **Requirements:** [[Survivor]]; [[Indomitable]]; Constitution 3+
 ___

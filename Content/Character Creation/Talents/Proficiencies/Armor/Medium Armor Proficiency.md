@@ -1,11 +1,12 @@
 ---
 tags: []
 cssclass: pathfinder  
+value: 6
 ---
 
-<h1> Medium Armor Proficiency <span style="margin-left: auto;"> 6 XP </span> </h1>
-
-<div style="clear:both" /> 
+```dataviewjs
+dv.view("_meta/Dataview/xp_title", dv.current());
+```
 
 **Requirements:** [[Light Armor Proficiency]]
 ___

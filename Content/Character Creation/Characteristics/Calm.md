@@ -1,7 +1,7 @@
 ---
 tags: []
 cssclass: pathfinder
-value: 4
+xp: 16
 traits:
  - link: Emotion
  - link: Merit

@@ -1,15 +1,17 @@
 ---
 tags: []
 cssclass: pathfinder
+value: 8
+traits:
+ - link: Emotion
+   display: Emotion (Hope)
+ - link: Merit
 ---
 
-<h1> Brave <span style="margin-left: auto;"> 8 XP </span> </h1>
-
-[[Emotion | Emotion (Hope)]]{.trait}
-
-[[Merit]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+dv.view("_meta/Dataview/xp_title", dv.current());
+dv.view("_meta/Dataview/traits", dv.current());
+```
 
 **Requirements:** You don't have the [[Cowardly]] Characteristic
 ___

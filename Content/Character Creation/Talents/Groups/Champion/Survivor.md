@@ -1,11 +1,12 @@
 ---
 tags: [Martial/Fighter/Champion]
 cssclass: pathfinder
+value: 16
 ---
 
-<h1> Survivor <span style="margin-left: auto;"> 16 XP </span> </h1>
-
-<div style="clear:both" /> 
+```dataviewjs
+dv.view("_meta/Dataview/xp_title", dv.current());
+```
 
 **Requirements:** [[Pain Tempered]]; Constitution 2+
 ___

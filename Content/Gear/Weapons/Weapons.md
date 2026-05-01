@@ -59,14 +59,14 @@ All weapons can be thrown as [[Thrown]] Weapons. When Thrown this way the range 
 ### Melee Weapons
 | Name                  | Damage Die | Traits                                                                | Cost   | Weight |
 | --------------------- |:----------:| --------------------------------------------------------------------- | ------ | ------ |
-| Battleaxe             |    1d8     |                                                                       | 1.5 sc | 4.4 kg |
+| [[Battleaxe]]         |    1d8     |                                                                       | 1.5 sc | 4.4 kg |
 | Longsword             |    1d8     | [[Versatile \| Versatile (p)]]                                        | 1.2 sc | 3.8 kg |
 | Warhammer             |    1d8     |                                                                       | 2.1 sc | 6.2 kg |
 | Lucerne               |    1d8     | [[Heavy]], [[Versatile \| Versatile (p)]], [[Piercing \| Piercing 3]] | 1.8 sc | 5.1    |
 | Greataxe              |    1d10    | [[Heavy]]                                                             | 2.1 sc | 6.7 kg |
 | Greatsword            |    1d10    | [[Heavy]], [[Versatile \| Versatile (p)]]                             | 1.8 sc | 5.4 kg |
 | Greathammer           |    1d10    | [[Heavy]]                                                             | 2.4 sc | 7.4 kg |
-| [[Executioner's Axe]] |    1d12    | [[Heavy]], [[Executioner \| Executioner (d6)]]                                            | 3.9 sc | 9.6 kg |
+| [[Executioner's Axe]] |    1d12    | [[Heavy]], [[Executioner \| Executioner (d6)]]                        | 3.9 sc | 9.6 kg |
 
 ### Ranged Weapons
 | Name     | Damage Die | Range Increment | Traits                         | Cost  | Weight |

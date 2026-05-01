@@ -1,7 +1,32 @@
 ---
 tags: []
-cssclass: pathfinder  
+cssclass: pathfinder
+hit_die: 10
+movement_speed: 6
+purchases:
+ - link: Intimidating
+ - link: Dragon Scales
+ - link: Skill Proficiency
+   display: Skill Proficiency (Intimidation)
+ - link: Skill Proficiency
+   display: Skill Proficiency (Perception)
 ---
+
+```dataviewjs
+const { calculateXP } = await import(
+    app.vault.adapter.getResourcePath("_meta/Dataview/calculate_xp.js")
+);
+
+let page = dv.current();
+const { total, rows } = await calculateXP(page, dv);
+
+page.xp = total;
+
+page.rows = rows;
+
+dv.view("_meta/Dataview/xp_title", page);
+dv.view("_meta/Dataview/traits", dv.current());
+```
 
 <h1> Dragonborn <span style="margin-left: auto;"> 132 XP </span> </h1>
 
@@ -54,3 +79,17 @@ Dragonborn start with [[Dragon Scales]]; [[Intimidating]]; [[Vision#Low-Light Vi
 | Total                                                     | 132 |
 
 
+```dataviewjs
+const { calculateXP } = await import(
+    app.vault.adapter.getResourcePath("_meta/Dataview/calculate_xp.js")
+);
+const { createXPTable } = await import(
+    app.vault.adapter.getResourcePath("_meta/Dataview/xp_table.js")
+);
+
+let page = dv.current();
+
+const { total, rows } = await calculateXP(page, dv);
+
+createXPTable(total, rows, dv);
+```

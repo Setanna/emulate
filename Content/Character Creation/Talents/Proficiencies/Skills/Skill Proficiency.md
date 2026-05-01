@@ -1,13 +1,15 @@
 ---
 tags: []
 cssclass: pathfinder  
+value: 1
+traits:
+ - link: Expansive
 ---
 
-<h1> Skill Proficiency <span style="margin-left: auto;"> 1 XP </span> </h1>
-
-[[Expansive]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+dv.view("_meta/Dataview/xp_title", dv.current());
+dv.view("_meta/Dataview/traits", dv.current());
+```
 
 ___
 

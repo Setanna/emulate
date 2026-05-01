@@ -1,13 +1,17 @@
 ---
 tags: []
 cssclass: pathfinder
+value:
+ min: 1
+ max: 3
+traits:
+ - link: Sight
 ---
 
-<h1> Scars <span style="margin-left: auto;">1 to 3</span> </h1>
-
-[[Sight]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+dv.view("_meta/Dataview/default_title", dv.current());
+dv.view("_meta/Dataview/traits", dv.current());
+```
 
 ___
 *A single scar draws eyes. A face full turns them away*

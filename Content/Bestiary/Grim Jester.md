@@ -1,17 +1,66 @@
 ---
 tags: []
 cssclass: pathfinder
-value: 400
 traits:
- - link: [[Size]]
-   display: "Medium"
-   css: "size-trait"
- - link: [[Humanoid]]
-   display: "Humanoid"
+ - link: Size
+   display: Medium
+   css: size-trait
+ - link: Humanoid
+purchases:
+ - link: Human
+ - link: Scars
+   level: 3
+ - link: Brave
+ - link: Calm
+ - link: Indomitable
+ - link: Pain Tempered
+ - link: Survivor
+ - link: Scars Endure
+ - link: Skill Proficiency
+   display: Skill Proficiency (Athletics)
+ - link: Skill Proficiency
+   display: Skill Proficiency (Perception)
+ - link: Skill Proficiency
+   display: Skill Proficiency (Insight)
+ - link: Skill Proficiency
+   display: Skill Proficiency (Intimidation)
+ - link: Light Armor Proficiency
+ - link: Medium Armor Proficiency
+ - link: Heavy Armor Proficiency
+ - link: Simple Weapon Proficiency
+ - link: Advanced Weapon Proficiency
+ - link: Full Plate
+ - link: Battleaxe
+ - link: Battleaxe
+ability_scores:
+ - strength: 
+      score: +4
+      affinity: "Minor Negative Affinity"
+ - dexterity: 
+      score: +2
+ - constitution: 
+      score: +3
+ - intelligence: 
+      score: +1
+ - wisdom: 
+      score: +2
+ - charisma: 
+     score: +3
 ---
 
 ```dataviewjs
-dv.view("_meta/Dataview/xp_title", dv.current());
+const { calculateXP } = await import(
+    app.vault.adapter.getResourcePath("_meta/Dataview/calculate_xp.js")
+);
+
+let page = dv.current();
+const { total, rows } = await calculateXP(page, dv);
+
+page.xp = total;
+
+page.rows = rows;
+
+dv.view("_meta/Dataview/xp_title", page);
 dv.view("_meta/Dataview/traits", dv.current());
 ```
 
@@ -51,27 +100,17 @@ The Grim Jester uses the [[Intimidate]] Action to unsettle his opponents before 
 
 # XP Distribution
 
-| Name                                                      |  XP  |
-| --------------------------------------------------------- |:----:|
-| [[Size  \| Medium]]                                       |  0   |
-| [[Hit Die \| d8 Hit Die]]                                 |  0   |
-| [[Movement \| 5 Movement Speed]]                          |  0   |
-| [[Scars \| Scars 3]]                                      | -15  |
-| [[Brave]]                                                 |  +8  |
-| [[Calm]]                                                  |  +4  |
-| [[Indomitable]]                                           |  +8  |
-| [[Pain Tempered]]                                         |  +4  |
-| [[Survivor]]                                              | +16  |
-| [[Scars Endure]]                                          | +18  |
-| [[Skill Proficiency \| Skill Proficiency (Athletics)]]    |  +1  |
-| [[Skill Proficiency \| Skill Proficiency (Perception)]]   |  +1  |
-| [[Skill Proficiency \| Skill Proficiency (Insight)]]      |  +1  |
-| [[Skill Proficiency \| Skill Proficiency (Intimidation)]] |  +1  |
-| [[Light Armor Proficiency]]                               |  +2  |
-| [[Medium Armor Proficiency]]                              |  +6  |
-| [[Heavy Armor Proficiency]]                               | +18  |
-| [[Simple Weapon Proficiency]]                             |  +3  |
-| [[Advanced Weapon Proficiency]]                           |  +9  |
-| Gear Cost                                                 | +25  |
-| Ability Scores                                            | +290 |
-| Total                                                     | 400  | 
+```dataviewjs
+const { calculateXP } = await import(
+    app.vault.adapter.getResourcePath("_meta/Dataview/calculate_xp.js")
+);
+const { createXPTable } = await import(
+    app.vault.adapter.getResourcePath("_meta/Dataview/xp_table.js")
+);
+
+let page = dv.current();
+
+const { total, rows } = await calculateXP(page, dv);
+
+createXPTable(total, rows, dv);
+```

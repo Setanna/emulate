@@ -1,6 +1,25 @@
 ---
 tags: []
 cssclass: pathfinder
+costs:
+  - speed: 9
+    xp: 64
+  - speed: 8
+    xp: 48
+  - speed: 7
+    xp: 32
+  - speed: 6
+    xp: 16
+  - speed: 5
+    xp: 0
+  - speed: 4
+    xp: -16
+  - speed: 3
+    xp: -32
+  - speed: 2
+    xp: -48
+  - speed: 1
+    xp: -64
 ---
 
 # Movement
@@ -9,17 +28,9 @@ cssclass: pathfinder
 > This has not been properly play tested
 > This needs to be polished
 
-| Movement Speed | Total XP Cost |
-| -------------- | ------------- |
-| 9              | 64            |
-| 8              | 48            |
-| 7              | 32            |
-| 6              | 16            |
-| 5              | 0             |
-| 4              | -16           |
-| 3              | -32           |
-| 2              | -48           |
-| 1              | -64           | 
+```dataviewjs
+dv.view("_meta/Dataview/speed_table", dv.current());
+```
 
 <br>
 

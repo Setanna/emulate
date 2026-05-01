@@ -44,8 +44,8 @@ ___
 | [[Movement \| 5 Movement Speed]]                          |  0  |
 | [[Vision#Low-Light Vision \| Low-Light Vision]]           | +32 |
 | [[Natural Armor \| Natural Armor (2)]]                    | +64 |
-| [[Natural Attack \| Claw (1d6, Light)]]                   | +16 |
-| [[Natural Attack \| Bite (1d8)]]                          | +24 |
+| [[Natural Attacks\| Claw (1d6, Light)]]                   | +16 |
+| [[Natural Attacks\| Bite (1d8)]]                          | +24 |
 | [[Skill Proficiency \| Skill Proficiency (Athletics)]]    | +1  |
 | [[Skill Proficiency \| Skill Proficiency (Climb)]]        | +1  |
 | [[Skill Proficiency \| Skill Proficiency (Swim)]]         | +1  |

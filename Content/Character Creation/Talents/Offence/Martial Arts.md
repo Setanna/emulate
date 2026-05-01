@@ -13,6 +13,6 @@ cssclass: pathfinder
 ___
 
 **System:**
-Your [[Natural Attack]] gained from [[Content/Character Creation/Talents/Offence/Unarmed Strikes | Unarmed Strikes]] deal 1d4 bludgeoning damage and count as weapons for Actions and Talents. 
+Your [[Natural Attacks]] gained from [[Content/Character Creation/Talents/Offence/Unarmed Strikes | Unarmed Strikes]] deal 1d4 bludgeoning damage and count as weapons for Actions and Talents. 
 *It does not count as a weapon for the purpose of the [[Unarmed]] Trait.*
 

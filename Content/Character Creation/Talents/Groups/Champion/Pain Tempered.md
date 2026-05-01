@@ -1,11 +1,12 @@
 ---
 tags: [Martial/Fighter/Champion]
 cssclass: pathfinder
+value: 4
 ---
 
-<h1> Pain Tempered <span style="margin-left: auto;"> 4 XP </span> </h1>
-
-<div style="clear:both" /> 
+```dataviewjs
+dv.view("_meta/Dataview/xp_title", dv.current());
+```
 
 **Requirements:** [[Scars]] 1+; Strength 1+; Constitution 1+
 ___

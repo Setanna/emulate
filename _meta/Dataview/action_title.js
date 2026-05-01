@@ -1,6 +1,6 @@
 let page = input;
 
-let value = page.xp ?? 0;
+let seconds = page.seconds ?? 0;
 let name = page.file?.name ?? "Untitled";
 
 // Create <h1>
@@ -12,6 +12,17 @@ h1.appendText(name);
 // Right side (value)
 let span = document.createElement("span");
 span.style.marginLeft = "auto";
-span.textContent = `${value} XP`;
+
+// Pluralization logic
+let label;
+if (seconds === -1) {
+  label = "Split Second";
+} else if (seconds === 1) {
+  label = "1 second";
+} else {
+  label = `${seconds} Seconds`;
+}
+
+span.textContent = label;
 
 h1.appendChild(span);

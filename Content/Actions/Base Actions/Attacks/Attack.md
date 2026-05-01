@@ -1,7 +1,7 @@
 ---
 tags: []
 cssclass: pathfinder
-value: 3 Seconds
+seconds: 3
 traits:
  - link: [[Rules/Traits/Attack]]
    display: "Attack"
@@ -10,7 +10,7 @@ traits:
 ---
 
 ```dataviewjs
-dv.view("_meta/Dataview/default_title", dv.current());
+dv.view("_meta/Dataview/action_title", dv.current());
 dv.view("_meta/Dataview/traits", dv.current());
 ```
 

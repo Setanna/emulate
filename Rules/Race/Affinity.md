@@ -1,6 +1,19 @@
 ---
 tags: []
 cssclass: pathfinder
+affinities:
+  "Major Positive Affinity":
+    affinity: "++"
+    adjustment: +2
+  "Minor Positive Affinity":
+    affinity: "+"
+    adjustment: +1
+  "Minor Negative Affinity":
+    affinity: "-"
+    adjustment: -1
+  "Major Negative Affinity":
+    affinity: "--"
+    adjustment: -2
 ---
 
 # Affinity
@@ -20,68 +33,34 @@ Ability Score Affinities come in pairs, for each negative there is a positive. A
 
 The following are the Ability Score XP Cost tables for the different Affinities:
 
-### Negative Affinities
-
-##### Minor Negative Affinity (-)
-| Ability Score | XP Difference | XP total |
-| :-----------: | :-----------: | :------: |
-|       +5      |       55      |    165   |
-|       +4      |       44      |    110   |
-|       +3      |       33      |    66    |
-|       +2      |       22      |    33    |
-|       +1      |       11      |    11    |
-|       0       |       0       |     0    |
-|       -1      |      -11      |    -11   |
-|       -2      |      -22      |    -33   |
-|       -3      |      -33      |    -66   |
-|       -4      |      -44      |   -110   |
-|       -5      |      -55      |   -165   |
-
-##### Major Negative Affinity (--)
-| Ability Score | XP Difference | XP total |
-| :-----------: | :-----------: | :------: |
-|       +5      |       60      |    180   |
-|       +4      |       48      |    120   |
-|       +3      |       36      |    72    |
-|       +2      |       24      |    36    |
-|       +1      |       12      |    12    |
-|       0       |       0       |     0    |
-|       -1      |      -12      |    -12   |
-|       -2      |      -24      |    -36   |
-|       -3      |      -36      |    -72   |
-|       -4      |      -48      |   -120   |
-|       -5      |      -60      |   -180   |
-
-
-### Positive Affinities
+##### Major Positive Affinity (++)
+```dataviewjs
+dv.view(
+  "_meta/Dataview/affinity_cost_table",
+  dv.current().affinities["Major Positive Affinity"]
+);
+```
 
 ##### Minor Positive Affinity (+)
-| Ability Score | XP Difference | XP total |
-| :-----------: | :-----------: | :------: |
-|       +5      |       45      |    135   |
-|       +4      |       36      |    90    |
-|       +3      |       27      |    54    |
-|       +2      |       18      |    27    |
-|       +1      |       9       |     9    |
-|       0       |       0       |     0    |
-|       -1      |       -9      |    -9    |
-|       -2      |      -18      |    -27   |
-|       -3      |      -27      |    -54   |
-|       -4      |      -36      |    -90   |
-|       -5      |      -45      |   -135   |
+```dataviewjs
+dv.view(
+  "_meta/Dataview/affinity_cost_table",
+  dv.current().affinities["Minor Positive Affinity"]
+);
+```
 
+##### Minor Negative Affinity (-)
+```dataviewjs
+dv.view(
+  "_meta/Dataview/affinity_cost_table",
+  dv.current().affinities["Minor Negative Affinity"]
+);
+```
 
-##### Major Positive Affinity (++)
-| Ability Score | XP Difference | XP total |
-| :-----------: | :-----------: | :------: |
-|       +5      |       40      |   120    |
-|       +4      |       32      |    80    |
-|       +3      |       24      |    48    |
-|       +2      |       16      |    24    |
-|       +1      |       8       |     8    |
-|       0       |       0       |     0    |
-|       -1      |       -8      |    -8    |
-|       -2      |      -16      |    -24   |
-|       -3      |      -24      |    -48   |
-|       -4      |      -32      |    -80   |
-|       -5      |      -40      |   -120   |
+##### Major Negative Affinity (--)
+```dataviewjs
+dv.view(
+  "_meta/Dataview/affinity_cost_table",
+  dv.current().affinities["Major Negative Affinity"]
+);
+```

@@ -1,11 +1,12 @@
 ---
 tags: []
 cssclass: pathfinder  
+value: 2
 ---
 
-<h1> Light Armor Proficiency <span style="margin-left: auto;"> 2 XP </span> </h1>
-
-<div style="clear:both" /> 
+```dataviewjs
+dv.view("_meta/Dataview/xp_title", dv.current());
+```
 
 ___
 

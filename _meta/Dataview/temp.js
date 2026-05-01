@@ -1,6 +1,6 @@
 let page = input;
 
-let value = page.xp ?? 0;
+let value = page.value ?? 0;
 let name = page.file?.name ?? "Untitled";
 
 // Create <h1>
