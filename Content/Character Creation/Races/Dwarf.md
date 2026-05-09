@@ -43,15 +43,8 @@ ___
 **Flavor:**
 For Dwarves honor and kinship are cornerstones of their civilation. Most dwarves will have a braid in their beard for each friend lost.
 
-<br>
-
 **Description:**
 Dwarves are short and stout like a Barrel of Ale. As such they tend to be around 1.4 to 1.6 meters and weight between 80 to 130 kgs.
-
-<br>
-
-**Racial Talents:**
-Dwarves start with [[Dwarven Stoutness]] and [[Vision#Low-Light Vision | Low-Light Vision]].
 
 # XP Distribution
 
