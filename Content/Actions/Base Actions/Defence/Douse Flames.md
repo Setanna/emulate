@@ -1,7 +1,15 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: -2
+traits:
 ---
+
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 
 <h1> Douse Flames <span style="margin-left: auto;"> Any number of Seconds </span> </h1>

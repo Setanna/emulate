@@ -1,16 +1,18 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: -1
+traits:
+ - link: Reactive
+ - link: [[Skill]]
+   display: "Skill (Bluff)"
 ---
 
-
-<h1> Bait and Switch <span style="margin-left: auto;">  </span> </h1>
-
-[[Reactive]]{.trait}
-
-[[Skill | Skill (Bluff)]]{.trait}
-
-<div style="clear:both" />
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 **Reaction Trigger:** You are the target of an Action with the [[Attack]] Trait.
 ___

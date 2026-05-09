@@ -1,14 +1,16 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: -1
+traits:
+ - link: Reactive
 ---
 
-
-<h1> Intercepting Step <span style="margin-left: auto;">  </span> </h1>
-
-[[Reactive]]{.trait}
-
-<div style="clear:both" />
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 **Reaction Trigger:** An ally is the target of a Charge Action; Ranged Attack; or Action with the [[Blast]] Trait.
 ___

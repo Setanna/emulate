@@ -1,14 +1,16 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: -1
+traits:
+ - link: Reactive
 ---
 
-
-<h1> Catch the Wrist <span style="margin-left: auto;">  </span> </h1>
-
-[[Reactive]]{.trait}
-
-<div style="clear:both" />
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 **Requirement:** You have a hand free
 

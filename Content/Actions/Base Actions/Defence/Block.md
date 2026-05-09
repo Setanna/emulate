@@ -1,16 +1,18 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: -1
+traits:
+ - link: Reactive
+ - link: [[Rules/Traits/Item|Item]]
+   display: "Item (Shield)"
 ---
 
-
-<h1> Block <span style="margin-left: auto;">  </span> </h1>
-
-[[Reactive]]{.trait}
-
-[[Rules/Traits/Item| Item (Shield)]]{.trait}
-
-<div style="clear:both" />
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 **Reaction Trigger:**  You or your ally within reach is the target of an Action with the [[Attack]] or [[Blast]] Trait.
 ___

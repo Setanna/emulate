@@ -1,16 +1,18 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: -1
+traits:
+ - link: Reactive
+ - link: [[Rules/Traits/Item|Item]]
+   display: "Item (Armor)"
 ---
 
-
-<h1> Deflecting Shift <span style="margin-left: auto;">  </span> </h1>
-
-[[Reactive]]{.trait}
-
-[[Rules/Traits/Item| Item (Armor)]]{.trait}
-
-<div style="clear:both" />
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 **Reaction Trigger:** You are the target of an Action with the [[Accurate]] Trait.
 

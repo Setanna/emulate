@@ -1,18 +1,20 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: -1
+traits:
+ - link: Reactive
+ - link: [[Emotion]]
+   display: "Emotion (Fear)"
+ - link: [[Skill]]
+   display: "Skill (Intimidate)"
 ---
 
-
-<h1> Shatter Courage <span style="margin-left: auto;">  </span> </h1>
-
-[[Reactive]]{.trait}
-
-[[Emotion | Emotion (Fear)]]{.trait}
-
-[[Skill | Skill (Intimidate)]]{.trait}
-
-<div style="clear:both" />
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 **Trigger:** You are the target of an [[Rules/Traits/Attack | Attack]] Action by a [[Frightened]] Creature.
 ___

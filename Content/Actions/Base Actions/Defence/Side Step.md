@@ -1,16 +1,18 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: -1
+traits:
+ - link: Reactive
+ - link: [[Skill]]
+   display: "Skill (Acrobatics)"
 ---
 
-
-<h1> Side Step <span style="margin-left: auto;"> Split Second </span> </h1>
-
-[[Reactive]]{.trait}
-
-[[Skill | Skill (Acrobatics)]]{.trait}
-
-<div style="clear:both" />
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 **Reaction Trigger:**  You are the target of an Action with the [[Attack]] or [[Blast]] Trait.
 ___

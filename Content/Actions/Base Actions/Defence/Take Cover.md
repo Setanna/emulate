@@ -1,12 +1,15 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 1
+traits:
 ---
 
-
-<h1> Take Cover <span style="margin-left: auto;"> 1 Second </span> </h1>
-
-<div style="clear:both" />
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 **Reaction Trigger:**  You are the target of an Action with the [[Attack]] or [[Blast]] Trait.
 ___

@@ -15,7 +15,9 @@ span.style.marginLeft = "auto";
 
 // Pluralization logic
 let label;
-if (seconds === -1) {
+if (seconds === -2) {
+  label = "Any number of seconds";
+} else if (seconds === -1) {
   label = "Split Second";
 } else if (seconds === 1) {
   label = "1 second";

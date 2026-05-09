@@ -1,16 +1,18 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: -1
+traits:
+ - link: Reactive
+ - link: [[Rules/Traits/Item|Item]]
+   display: "Item (Weapon or Light; Medium Shield)"
 ---
 
-
-<h1> Parry <span style="margin-left: auto;">  </span> </h1>
-
-[[Rules/Traits/Item| Item (Weapon or Light; Medium Shield)]]{.trait}
-
-[[Reactive]]{.trait}
-
-<div style="clear:both" />
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 **Reaction Trigger:**  You or your ally within reach is the target of an Action with the [[Attack]] and [[Melee]] Traits.
 ___

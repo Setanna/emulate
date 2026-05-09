@@ -18,4 +18,6 @@ for (let trait of traits) {
     el.setAttribute("rel", "noopener nofollow");
 }
 
-dv.el("div", "", { attr: { style: "clear: both; margin-top: -0.3rem;" } });
+if (traits.length > 0) {
+    dv.el("div", "", { attr: { style: "clear: both; margin-top: -0.3rem;" } });
+}
