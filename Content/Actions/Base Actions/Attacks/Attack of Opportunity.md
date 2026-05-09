@@ -1,17 +1,20 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: -1
+traits:
+ - link: [[Rules/Traits/Attack]]
+   display: "Attack"
+ - link: Reactive
+ - link: [[Rules/Traits/Item]]
+   display: "Item (Melee Weapon)"
 ---
 
-<h1> Attack of Opportunity <span style="margin-left: auto;"></span> </h1>
-
-[[Rules/Traits/Attack | Attack]]{.trait}
-
-[[Reactive]]{.trait}
-
-[[Rules/Traits/Item | Item (Melee Weapon)]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 **Reaction Trigger:** A creature within your Reach does any of the following:
 - Takes an Action with the [[Movement]] Trait

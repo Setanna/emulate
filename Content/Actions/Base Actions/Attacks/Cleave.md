@@ -1,18 +1,20 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 4
+traits:
+ - link: [[Rules/Traits/Attack]]
+   display: "Attack"
+ - link: Daring
+ - link: [[Rules/Traits/Item]]
+   display: "Item (Melee Weapon)"
 ---
 
-<h1> Cleave <span style="margin-left: auto;"> 4 Seconds </span> </h1>
-
-[[Rules/Traits/Attack | Attack]]{.trait}
-
-[[Daring]]{.trait}
-
-[[Rules/Traits/Item | Item (Melee Weapon)]]{.trait}
-
-<div style="clear:both" /> 
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 ___
 
 **System:**

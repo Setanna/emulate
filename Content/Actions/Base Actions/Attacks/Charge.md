@@ -1,18 +1,20 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 4
+traits:
+ - link: [[Rules/Traits/Attack]]
+   display: "Attack"
+ - link: Momentum
+ - link: [[Rules/Traits/Item]]
+   display: "Item (Melee Weapon)"
 ---
 
-<h1> Charge <span style="margin-left: auto;"> 4 Seconds </span> </h1>
-
-[[Rules/Traits/Attack | Attack]]{.trait}
-
-[[Momentum]]{.trait}
-
-[[Rules/Traits/Item | Item (Melee Weapon)]]{.trait}
-
-<div style="clear:both" /> 
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 ___
 **System:**
 You move up to twice your speed in meters in a straight line, at the end of the movement you can make a [[Making a Strike | Strike]]. You must move at least 3 meters in a straight line to use the Charge Action.
