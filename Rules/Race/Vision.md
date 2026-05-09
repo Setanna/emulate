@@ -25,7 +25,7 @@ Creatures with Light Sensitivity treat [[Lighting#Bright Light | Bright Light]] 
 ## XP
 | Vision            | XP  |
 | ----------------- | --- |
-| Light Sensitivity | -32 |
+| Light Sensitivity | -16 |
 | Regular Vision    | 0   | 
-| Low-Light Vision  | +32 |
+| Low-Light Vision  | +16 |
 | Dark Vision       | +64 |
