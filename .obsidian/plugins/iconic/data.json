@@ -25,7 +25,8 @@
     "Build-A-Spell": {
       "icon": "lucide-flame",
       "unsynced": [
-        "9c4516fa28f7815a"
+        "9c4516fa28f7815a",
+        "539eb19cb006f1d3"
       ],
       "color": "#ffffff"
     },
@@ -33,7 +34,8 @@
       "icon": "lucide-book",
       "unsynced": [
         "9c4516fa28f7815a",
-        "ef88b428abf812c5"
+        "ef88b428abf812c5",
+        "539eb19cb006f1d3"
       ],
       "color": "#ffffff"
     },
@@ -42,7 +44,8 @@
       "color": "#965a50",
       "unsynced": [
         "ef88b428abf812c5",
-        "9c4516fa28f7815a"
+        "9c4516fa28f7815a",
+        "539eb19cb006f1d3"
       ]
     },
     "Content/Afflictions": {
@@ -50,14 +53,16 @@
       "color": "#965a50",
       "unsynced": [
         "ef88b428abf812c5",
-        "9c4516fa28f7815a"
+        "9c4516fa28f7815a",
+        "539eb19cb006f1d3"
       ]
     },
     "Content/Bestiary": {
       "icon": "lucide-paw-print",
       "unsynced": [
         "9c4516fa28f7815a",
-        "ef88b428abf812c5"
+        "ef88b428abf812c5",
+        "539eb19cb006f1d3"
       ],
       "color": "#965a50"
     },
@@ -65,7 +70,8 @@
       "icon": "lucide-person-standing",
       "unsynced": [
         "9c4516fa28f7815a",
-        "ef88b428abf812c5"
+        "ef88b428abf812c5",
+        "539eb19cb006f1d3"
       ],
       "color": "#965a50"
     },
@@ -74,14 +80,16 @@
       "color": "#965a50",
       "unsynced": [
         "9c4516fa28f7815a",
-        "ef88b428abf812c5"
+        "ef88b428abf812c5",
+        "539eb19cb006f1d3"
       ]
     },
     "Rules": {
       "icon": "lucide-scroll-text",
       "unsynced": [
         "9c4516fa28f7815a",
-        "ef88b428abf812c5"
+        "ef88b428abf812c5",
+        "539eb19cb006f1d3"
       ],
       "color": "#ffffff"
     },
@@ -89,7 +97,8 @@
       "icon": "lucide-plus",
       "unsynced": [
         "ef88b428abf812c5",
-        "9c4516fa28f7815a"
+        "9c4516fa28f7815a",
+        "539eb19cb006f1d3"
       ],
       "color": "#9664a0"
     },
@@ -98,13 +107,15 @@
       "color": "#9664a0",
       "unsynced": [
         "ef88b428abf812c5",
-        "9c4516fa28f7815a"
+        "9c4516fa28f7815a",
+        "539eb19cb006f1d3"
       ]
     },
     "Rules/Encounters": {
       "icon": "lucide-swords",
       "unsynced": [
-        "9c4516fa28f7815a"
+        "9c4516fa28f7815a",
+        "539eb19cb006f1d3"
       ],
       "color": "#9664a0"
     },
@@ -112,7 +123,8 @@
       "icon": "lucide-axe",
       "unsynced": [
         "ef88b428abf812c5",
-        "9c4516fa28f7815a"
+        "9c4516fa28f7815a",
+        "539eb19cb006f1d3"
       ],
       "color": "#9664a0"
     },
@@ -120,7 +132,8 @@
       "icon": "lucide-cloud",
       "unsynced": [
         "9c4516fa28f7815a",
-        "ef88b428abf812c5"
+        "ef88b428abf812c5",
+        "539eb19cb006f1d3"
       ],
       "color": "#9664a0"
     },
@@ -129,7 +142,8 @@
       "color": "#9664a0",
       "unsynced": [
         "ef88b428abf812c5",
-        "9c4516fa28f7815a"
+        "9c4516fa28f7815a",
+        "539eb19cb006f1d3"
       ]
     },
     "Rules/Glossary": {
@@ -137,14 +151,16 @@
       "color": "#a06496",
       "unsynced": [
         "ef88b428abf812c5",
-        "9c4516fa28f7815a"
+        "9c4516fa28f7815a",
+        "539eb19cb006f1d3"
       ]
     },
     "Rules/Mechanics": {
       "icon": "lucide-cog",
       "unsynced": [
         "9c4516fa28f7815a",
-        "ef88b428abf812c5"
+        "ef88b428abf812c5",
+        "539eb19cb006f1d3"
       ],
       "color": "#9664a0"
     },
@@ -153,7 +169,8 @@
       "color": "#9664a0",
       "unsynced": [
         "ef88b428abf812c5",
-        "9c4516fa28f7815a"
+        "9c4516fa28f7815a",
+        "539eb19cb006f1d3"
       ]
     },
     "Rules/Spellcasting": {
@@ -161,7 +178,8 @@
       "color": "#9664a0",
       "unsynced": [
         "ef88b428abf812c5",
-        "9c4516fa28f7815a"
+        "9c4516fa28f7815a",
+        "539eb19cb006f1d3"
       ]
     },
     "Rules/Stats and Skills": {
@@ -169,14 +187,16 @@
       "color": "#9664a0",
       "unsynced": [
         "ef88b428abf812c5",
-        "9c4516fa28f7815a"
+        "9c4516fa28f7815a",
+        "539eb19cb006f1d3"
       ]
     },
     "Rules/Talents": {
       "icon": "lucide-star",
       "unsynced": [
         "9c4516fa28f7815a",
-        "ef88b428abf812c5"
+        "ef88b428abf812c5",
+        "539eb19cb006f1d3"
       ],
       "color": "#9664a0"
     },
@@ -185,14 +205,16 @@
       "color": "#9664a0",
       "unsynced": [
         "ef88b428abf812c5",
-        "9c4516fa28f7815a"
+        "9c4516fa28f7815a",
+        "539eb19cb006f1d3"
       ]
     },
     "Work In Progress": {
       "icon": "lucide-hammer",
       "unsynced": [
         "9c4516fa28f7815a",
-        "ef88b428abf812c5"
+        "ef88b428abf812c5",
+        "539eb19cb006f1d3"
       ],
       "color": "#000000"
     },
@@ -200,7 +222,8 @@
       "icon": "lucide-git-pull-request",
       "unsynced": [
         "9c4516fa28f7815a",
-        "ef88b428abf812c5"
+        "ef88b428abf812c5",
+        "539eb19cb006f1d3"
       ],
       "color": "#ffffff"
     },
@@ -208,14 +231,16 @@
       "icon": "lucide-paperclip",
       "unsynced": [
         "ef88b428abf812c5",
-        "9c4516fa28f7815a"
+        "9c4516fa28f7815a",
+        "539eb19cb006f1d3"
       ],
       "color": "#a30000"
     },
     "_meta/Dataview": {
       "icon": "lucide-code-2",
       "unsynced": [
-        "9c4516fa28f7815a"
+        "9c4516fa28f7815a",
+        "539eb19cb006f1d3"
       ],
       "color": "#a30000"
     },
@@ -223,14 +248,16 @@
       "icon": "lucide-lightbulb",
       "unsynced": [
         "ef88b428abf812c5",
-        "9c4516fa28f7815a"
+        "9c4516fa28f7815a",
+        "539eb19cb006f1d3"
       ],
       "color": "#a30000"
     },
     "_meta/Kanban Boards": {
       "icon": "lucide-kanban-square",
       "unsynced": [
-        "9c4516fa28f7815a"
+        "9c4516fa28f7815a",
+        "539eb19cb006f1d3"
       ],
       "color": "#a30000"
     }
