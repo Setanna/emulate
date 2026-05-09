@@ -1,15 +1,19 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 2
+traits:
+ - link: Maneuver
+ - link: Movement
+ - link: Skill
+   display: "Skill (Athletics)"
 ---
 
-<h1> Drag <span style="margin-left: auto;"> 2 Seconds </span> </h1>
-
-[[Maneuver]]{.trait}
-
-[[Movement]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 **Requirements:** You are [[Grappled]] or [[Grappling]]
 

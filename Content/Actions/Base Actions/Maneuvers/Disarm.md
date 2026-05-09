@@ -1,14 +1,18 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 3
+traits:
+ - link: Maneuver
+ - link: Skill
+   display: "Skill (Athletics or Acrobatics)"
 ---
 
-<h1> Disarm <span style="margin-left: auto;"> 3 Seconds </span> </h1>
-
-[[Maneuver]]{.trait}
-
-<div style="clear:both" /> 
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 ___
 
 **System:**

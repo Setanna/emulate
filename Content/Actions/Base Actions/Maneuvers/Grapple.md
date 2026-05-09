@@ -1,13 +1,18 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 2
+traits:
+ - link: Maneuver
+ - link: Skill
+   display: "Skill (Athletics)"
 ---
 
-<h1> Grapple <span style="margin-left: auto;"> 2 Seconds </span> </h1>
-
-[[Maneuver]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 **Requirements:** At least one hand free
 

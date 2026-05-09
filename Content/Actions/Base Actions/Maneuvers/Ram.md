@@ -1,15 +1,19 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 4
+traits:
+ - link: Maneuver
+ - link: Movement
+ - link: Skill
+   display: "Skill (Athletics)"
 ---
 
-<h1> Ram <span style="margin-left: auto;"> 4 Seconds </span> </h1>
-
-[[Maneuver]]{.trait}
-
-[[Momentum]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 **Requirements:** At least one hand free
 
