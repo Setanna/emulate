@@ -7,6 +7,7 @@ cssclass: pathfinder
 
 > [!warning] Work In Progress
 > This has not been properly play tested
+> This is written as RAI and will be polished at a later time
 
 Natural Attacks are tied to the physical attributes of a Creature. These attacks are defined by both their **form** (such as Claws or Bite) and their **power** (Damage Die).
 
@@ -16,11 +17,11 @@ Natural Attacks are tied to the physical attributes of a Creature. These attacks
 
 | Damage Die | XP  | Possible Traits                                   |
 | ---------- | --- | ------------------------------------------------- |
-| 1d4        | 8   | [[Versatile \| Versatile (b, p or s)]], [[Light]] |
-| 1d6        | 16  | [[Versatile \| Versatile (b, p or s)]], [[Light]] |
-| 1d8        | 24  | [[Versatile \| Versatile (b, p or s)]]            |
+| 1d4        | 4   | [[Versatile \| Versatile (b, p or s)]], [[Light]] |
+| 1d6        | 8   | [[Versatile \| Versatile (b, p or s)]], [[Light]] |
+| 1d8        | 16  | [[Versatile \| Versatile (b, p or s)]]            |
 | 1d10       | 32  | [[Versatile \| Versatile (b, p or s)]], [[Heavy]] |
-| 1d12       | 40  | [[Versatile \| Versatile (b, p or s)]], [[Heavy]] |
+| 1d12       | 64  | [[Versatile \| Versatile (b, p or s)]], [[Heavy]] |
 
 All Natural Attacks have the [[Natural]] Trait.
 
