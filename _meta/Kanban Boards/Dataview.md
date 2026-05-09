@@ -32,6 +32,8 @@ kanban-plugin: board
 	- [ ] **XP Distribution**
 		- [ ] Make xp_table.js also print title?
 	- [ ] **Make Talents use Natural Armor File**
+		- [ ] Add yaml properties to Natural Armor
+		- [ ] Make all Racial Talents use Natural Armor xp
 	
 	</details>
 
