@@ -4,7 +4,7 @@ cssclass: pathfinder
 seconds: 1
 traits:
  - link: Focus
- - link: [[Skill]]
+ - link: Skill
    display: "Skill (Knowledge)"
 ---
 

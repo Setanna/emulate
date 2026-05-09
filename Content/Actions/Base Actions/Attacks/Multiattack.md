@@ -3,9 +3,9 @@ tags: []
 cssclass: pathfinder
 seconds: 4
 traits:
- - link: [[Rules/Traits/Attack]]
+ - link: Rules/Traits/Attack
    display: "Attack"
- - link: [[Rules/Traits/Item]]
+ - link: Rules/Traits/Item
    display: "Item (Weapon)"
  - link: Safe
 ---

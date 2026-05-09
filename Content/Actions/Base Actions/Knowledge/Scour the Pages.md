@@ -5,7 +5,7 @@ seconds: 2
 traits:
  - link: Item
  - link: Focus
- - link: [[Skill]]
+ - link: Skill
    display: "Skill (Knowledge)"
 ---
 

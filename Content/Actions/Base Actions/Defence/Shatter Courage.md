@@ -4,9 +4,9 @@ cssclass: pathfinder
 seconds: -1
 traits:
  - link: Reactive
- - link: [[Emotion]]
+ - link: Emotion
    display: "Emotion (Fear)"
- - link: [[Skill]]
+ - link: Skill
    display: "Skill (Intimidate)"
 ---
 

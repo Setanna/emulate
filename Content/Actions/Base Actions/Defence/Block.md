@@ -4,7 +4,7 @@ cssclass: pathfinder
 seconds: -1
 traits:
  - link: Reactive
- - link: [[Rules/Traits/Item|Item]]
+ - link: Rules/Traits/Item
    display: "Item (Shield)"
 ---
 

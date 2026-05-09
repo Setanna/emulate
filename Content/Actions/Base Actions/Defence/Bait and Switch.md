@@ -4,7 +4,7 @@ cssclass: pathfinder
 seconds: -1
 traits:
  - link: Reactive
- - link: [[Skill]]
+ - link: Skill
    display: "Skill (Bluff)"
 ---
 
