@@ -36,7 +36,7 @@ The following are the Ability Score XP Cost tables for the different Affinities:
 ##### Major Positive Affinity (++)
 ```dataviewjs
 dv.view(
-  "_meta/Dataview/affinity_cost_table",
+  "_meta/Dataview/Scripts/affinity_cost_table",
   dv.current().affinities["Major Positive Affinity"]
 );
 ```
@@ -44,7 +44,7 @@ dv.view(
 ##### Minor Positive Affinity (+)
 ```dataviewjs
 dv.view(
-  "_meta/Dataview/affinity_cost_table",
+  "_meta/Dataview/Scripts/affinity_cost_table",
   dv.current().affinities["Minor Positive Affinity"]
 );
 ```
@@ -52,7 +52,7 @@ dv.view(
 ##### Minor Negative Affinity (-)
 ```dataviewjs
 dv.view(
-  "_meta/Dataview/affinity_cost_table",
+  "_meta/Dataview/Scripts/affinity_cost_table",
   dv.current().affinities["Minor Negative Affinity"]
 );
 ```
@@ -60,7 +60,7 @@ dv.view(
 ##### Major Negative Affinity (--)
 ```dataviewjs
 dv.view(
-  "_meta/Dataview/affinity_cost_table",
+  "_meta/Dataview/Scripts/affinity_cost_table",
   dv.current().affinities["Major Negative Affinity"]
 );
 ```

@@ -29,7 +29,7 @@ costs:
 > This needs to be polished
 
 ```dataviewjs
-dv.view("_meta/Dataview/speed_table", dv.current());
+dv.view("_meta/Dataview/Scripts/speed_table", dv.current());
 ```
 
 <br>

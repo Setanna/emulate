@@ -41,5 +41,5 @@ costs:
 
 
 ```dataviewjs
-dv.view("_meta/Dataview/ability_score_cost_table", dv.current());
+dv.view("_meta/Dataview/Scripts/ability_score_cost_table", dv.current());
 ```

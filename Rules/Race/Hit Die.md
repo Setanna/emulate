@@ -26,5 +26,5 @@ The given hit die also determines how well a race's body can heal it's own wound
 The following is the Experience Cost of a given Hit Die when creating Races:
 
 ```dataviewjs
-dv.view("_meta/Dataview/hit_die_table", dv.current());
+dv.view("_meta/Dataview/Scripts/hit_die_table", dv.current());
 ```
