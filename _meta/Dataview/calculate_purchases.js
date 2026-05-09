@@ -19,8 +19,10 @@ export function calculatePurchases(purchases, dv) {
         } else if (purchase.level) {
            name += " " + purchase.level;
            xp = purchase.level*-5;
-        } else {
+        } else if (linked.value) {
            xp = linked?.value ?? 0;
+        } else {
+           xp = linked?.xp ?? 0;
         }
     
         total += xp;

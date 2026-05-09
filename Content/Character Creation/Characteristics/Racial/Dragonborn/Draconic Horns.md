@@ -1,7 +1,7 @@
 ---
 tags: []
 cssclass: pathfinder
-xp: 8
+xp: 4
 traits:
  - link: Racial
  - link: Birthright
@@ -20,4 +20,4 @@ ___
 <br>
 
 **System:**
-You gain a [[Natural]] Attack that deals 1d6 [[Damage Types#Physical Damage | slashing]] damage.
+You gain a [[Natural]] Attack that deals 1d4 [[Damage Types#Physical Damage | bludgeoning]] damage.

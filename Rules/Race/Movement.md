@@ -2,23 +2,23 @@
 tags: []
 cssclass: pathfinder
 costs:
-  - speed: 9
+  - meters: 9
     xp: 64
-  - speed: 8
+  - meters: 8
     xp: 48
-  - speed: 7
+  - meters: 7
     xp: 32
-  - speed: 6
+  - meters: 6
     xp: 16
-  - speed: 5
+  - meters: 5
     xp: 0
-  - speed: 4
+  - meters: 4
     xp: -16
-  - speed: 3
+  - meters: 3
     xp: -32
-  - speed: 2
+  - meters: 2
     xp: -48
-  - speed: 1
+  - meters: 1
     xp: -64
 ---
 

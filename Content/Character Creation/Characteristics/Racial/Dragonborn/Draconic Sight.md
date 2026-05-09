@@ -1,7 +1,7 @@
 ---
 tags: []
 cssclass: pathfinder
-xp: 4
+xp: 16
 traits:
  - link: Racial
  - link: Birthright
