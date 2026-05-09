@@ -1,13 +1,16 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 2
+traits:
+ - link: Movement
 ---
 
-<h1> Crawl <span style="margin-left: auto;">2 Seconds </span> </h1>
-
-[[Movement]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 **Requirements:** You are [[Prone]] and your Speed is at least 2 meters.
 ___

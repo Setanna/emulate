@@ -1,14 +1,16 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 4
+traits:
+ - link: Movement
 ---
 
-<h1> Run <span style="margin-left: auto;">4 Seconds </span> </h1>
-
-[[Movement]]{.trait}
-
-<div style="clear:both" /> 
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 ___
 **System:**
 You move up to four times your speed in meters.

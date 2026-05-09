@@ -1,13 +1,16 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 1
+traits:
+ - link: Movement
 ---
 
-<h1> Step <span style="margin-left: auto;">1 Second </span> </h1>
-
-[[Movement]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 **Requirements:** You have higher than 0 Speed.
 ___

@@ -1,14 +1,16 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 1 to 3
+traits:
+ - link: Movement
 ---
 
-<h1> Leap <span style="margin-left: auto;">1-3 Seconds </span> </h1>
-
-[[Movement]]{.trait}
-
-<div style="clear:both" /> 
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 ___
 
 **System:**
