@@ -1,15 +1,35 @@
 ---
 tags: []
-cssclass: pathfinder  
+cssclass: pathfinder
+size: short
+hit_die: 6
+speed: 5
+purchases:
+ - link: Brave
+ - link: Fortunate
+ - link: Lucky
+traits:
+ - link: Size
+   display: Short
+   css: size-trait
+ - link: Humanoid
 ---
 
-<h1> Halfling <span style="margin-left: auto;"> 138 XP </span> </h1>
+```dataviewjs
+const { calculateXP } = await import(
+    app.vault.adapter.getResourcePath("_meta/Dataview/calculate_xp.js")
+);
 
-[[Size | Short]]{.size-trait}
+let page = dv.current();
+const { total, rows } = await calculateXP(page, dv);
 
-[[Humanoid]]{.trait}
+page.xp = total;
 
-<div style="clear:both" /> 
+page.rows = rows;
+
+dv.view("_meta/Dataview/xp_title", page);
+dv.view("_meta/Dataview/traits", dv.current());
+```
 
 ![[Halfling.png]]{.thumbnail}
 
@@ -24,27 +44,22 @@ ___
 **Flavor:**
 Don’t let their size fool you—Halflings walk the world with luck in their pockets and adventure in their hearts.
 
-<br>
-
 **Description:**
 Halfling tend to be on the smaller side, as such they stand between 1.2 and 1.4 meters tall and weighing in at 20 to 40 kgs.
 
-
-<br>
-
-**Racial Talents:**
-Halflings start with the [[Brave]]; [[Fortunate]] and [[Lucky]] Characteristics.
-
-
 # XP Distribution
 
-| Name                      | XP  |
-| ------------------------- |:---:|
-| [[Hit Die \| d6 Hit Die]] | -32 |
-| [[Size  \| Short]]        | -30 |
-| [[Brave]]                 |  8  |
-| [[Fortunate]]             | 64  |
-| [[Lucky]]                 | 128 |
-| Total                     | 138 | 
+```dataviewjs
+const { calculateXP } = await import(
+    app.vault.adapter.getResourcePath("_meta/Dataview/calculate_xp.js")
+);
+const { createXPTable } = await import(
+    app.vault.adapter.getResourcePath("_meta/Dataview/xp_table.js")
+);
 
+let page = dv.current();
 
+const { total, rows } = await calculateXP(page, dv);
+
+createXPTable(total, rows, dv);
+```
