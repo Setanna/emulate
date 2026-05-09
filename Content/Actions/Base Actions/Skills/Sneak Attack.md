@@ -1,16 +1,18 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 3
+traits:
+ - link: Attack
+ - link: Skill
+   display: "Skill (Stealth)"
 ---
 
-
-<h1> Sneak Attack <span style="margin-left: auto;"> 3 Seconds </span> </h1>
-
-[[Rules/Traits/Attack | Attack]]{.trait}
-
-[[Skill | Skill (Stealth)]]{.trait}
-
-<div style="clear:both" />
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 **Requirement:** The target is [[Unaware]] of your presence
 ___

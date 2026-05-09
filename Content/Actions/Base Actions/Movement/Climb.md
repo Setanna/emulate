@@ -1,14 +1,18 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 3
+traits:
+ - link: Movement
+ - link: Skill
+   display: "Skill (Climb)"
 ---
 
-
-<h1> Climb <span style="margin-left: auto;"> 3 Seconds </span> </h1>
-
-[[Skill | Skill (Climb)]]{.trait}
-
-<div style="clear:both" />
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 **Requirements:** Both hands free.
 ___

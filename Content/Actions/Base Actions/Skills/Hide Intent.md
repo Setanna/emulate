@@ -1,7 +1,17 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 1
+traits:
+ - link: Skill
+   display: "Skill (Bluff)"
 ---
+
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 
 <h1> Hide Intent <span style="margin-left: auto;"> 1 Second </span> </h1>

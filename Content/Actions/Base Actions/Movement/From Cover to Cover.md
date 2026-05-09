@@ -1,16 +1,18 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 3
+traits:
+ - link: Movement
+ - link: Skill
+   display: "Skill (Stealth)"
 ---
 
-
-<h1> From Cover to Cover <span style="margin-left: auto;"> 3 Seconds </span> </h1>
-
-[[Movement]]{.trait}
-
-[[Skill | Skill (Stealth)]]{.trait}
-
-<div style="clear:both" />
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 **Requirement:** You're benefiting from [[Benefiting from Cover | Cover]]
 ___

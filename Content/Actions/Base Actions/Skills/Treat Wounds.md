@@ -1,16 +1,19 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 4
+traits:
+ - link: Rules/Traits/Item
+   display: "Item (Medicine Kit)"
+ - link: Skill
+   display: "Skill (Medicine)"
 ---
 
-
-<h1> Treat Wounds <span style="margin-left: auto;"> 4 Seconds </span> </h1>
-
-[[Rules/Traits/Item| Item (Medicine Kit)]]{.trait}
-
-[[Skill |Skill (Medicine)]]{.trait}
-
-<div style="clear:both" />
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 ___
 

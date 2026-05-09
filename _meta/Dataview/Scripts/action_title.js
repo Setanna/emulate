@@ -17,11 +17,11 @@ span.style.marginLeft = "auto";
 let label;
 
 if (seconds === -2) {
-  label = "Any number of seconds";
+  label = "Any number of Seconds";
 } else if (seconds === -1) {
   label = "Split Second";
 } else if (seconds === 1) {
-  label = "1 second";
+  label = "1 Second";
 } else {
   label = `${seconds} Seconds`;
 }

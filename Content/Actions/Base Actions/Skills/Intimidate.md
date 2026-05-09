@@ -1,7 +1,22 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 1
+traits:
+ - link: Emotion
+   display: "Emotion (Fear)"
+ - link: Sight
+ - link: Language
+ - link: Skill
+   display: "Skill (Intimidate)"
+ - link: Timed
 ---
+
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 
 <h1> Intimidate <span style="margin-left: auto;"> 1 Second </span> </h1>

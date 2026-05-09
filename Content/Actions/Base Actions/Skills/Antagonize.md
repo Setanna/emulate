@@ -1,23 +1,22 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 1
+traits:
+ - link: Emotion
+   display: "Emotion (Anger)"
+ - link: Sight
+ - link: Language
+ - link: Skill
+   display: "Skill (Intimidate, Diplomacy or Bluff)"
+ - link: Timed
 ---
 
-
-<h1> Antagonize <span style="margin-left: auto;"> 1 Second </span> </h1>
-
-[[Emotion | Emotion (Anger)]]{.trait}
-
-[[Sight]]{.trait}
-
-[[Language]]{.trait}
-
-[[Skill | Skill (Intimidate, Diplomacy or Bluff)]]{.trait}
-
-[[Timed]]{.trait}
-
-<div style="clear:both" />
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 ___
 *“I didn’t insult you. I described you.”*
 *— Marrow the Unpleasant*

@@ -1,16 +1,18 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: -1
+traits:
+ - link: Reactive
+ - link: Skill
+   display: "Skill (Climb)"
 ---
 
-
-<h1> Swift Grip <span style="margin-left: auto;">  </span> </h1>
-
-[[Skill | Skill (Climb)]]{.trait}
-
-[[Reactive]]{.trait}
-
-<div style="clear:both" />
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 **Requirements:** Both hands free.
 **Reaction Trigger:** You are [[Falling]].

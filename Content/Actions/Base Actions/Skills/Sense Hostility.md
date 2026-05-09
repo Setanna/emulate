@@ -1,16 +1,18 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 1
+traits:
+ - link: Focus
+ - link: Skill
+   display: "Skill (Insight)"
 ---
 
-
-<h1> Sense Hostility <span style="margin-left: auto;"> 1 Second </span> </h1>
-
-[[Focus]]{.trait}
-
-[[Skill | Skill (Insight)]]{.trait}
-
-<div style="clear:both" />
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 **Requirements:** you are not in an encounter 
 ___

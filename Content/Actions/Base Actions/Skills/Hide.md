@@ -1,14 +1,17 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 1
+traits:
+ - link: Skill
+   display: "Skill (Stealth)"
 ---
 
-
-<h1> Hide <span style="margin-left: auto;"> 1 Action </span> </h1>
-
-[[Skill | Skill (Stealth)]]{.trait}
-
-<div style="clear:both" />
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 **Reaction Trigger:** Someone is about to spot you.
 ___

@@ -1,16 +1,18 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 4
+traits:
+ - link: Language
+ - link: Skill
+   display: "Skill (Diplomacy or Survival)"
 ---
 
-
-<h1> Make an Impression <span style="margin-left: auto;"> 4 Seconds </span> </h1>
-
-[[Skill | Skill (Diplomacy or Survival)]]{.trait}
-
-[[Language]]{.trait}
-
-<div style="clear:both" />
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 ___
 
