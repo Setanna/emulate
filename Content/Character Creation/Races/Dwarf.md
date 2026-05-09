@@ -48,15 +48,6 @@ Dwarves are short and stout like a Barrel of Ale. As such they tend to be around
 
 # XP Distribution
 
-| Name                                            | XP  |
-| ----------------------------------------------- |:---:|
-| [[Size  \| Short]]                              | -30 |
-| [[Hit Die \| d12 Hit Die]]                      | +64 |
-| [[Movement \| 4 Movement Speed]]                | -16 |
-| [[Dwarven Stoutness]]                           | +60 |
-| [[Vision#Low-Light Vision \| Low-Light Vision]] | +32 |
-| Total                                           | 110 | 
-
 ```dataviewjs
 const { calculateXP } = await import(
     app.vault.adapter.getResourcePath("_meta/Dataview/calculate_xp.js")
