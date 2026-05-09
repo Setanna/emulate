@@ -1,16 +1,17 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 0
+traits:
+ - link: Fate
+ - link: Reactive
 ---
 
-
-<h1> Twist of Fate <span style="margin-left: auto;">  </span> </h1>
-
-[[Fate]]{.trait}
-
-[[Reactive]]{.trait}
-
-<div style="clear:both" />
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 **Free Trigger:** When you are the target of an Action or you take an Action.
 ___

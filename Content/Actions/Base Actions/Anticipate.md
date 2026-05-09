@@ -1,19 +1,18 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 2
+traits:
+ - link: Safe
+ - link: Secret
+ - link: Timed
 ---
 
-
-<h1> Anticipate <span style="margin-left: auto;"> 2 Seconds </span> </h1>
-
-[[Safe]]{.trait}
-
-[[Secret]]{.trait}
-
-[[Timed]]{.trait}
-
-<div style="clear:both" />
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 ___
 *Flavor text*
 

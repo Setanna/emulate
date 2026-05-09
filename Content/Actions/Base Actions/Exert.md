@@ -1,12 +1,15 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 0
+traits:
 ---
 
-<h1> Exert <span style="margin-left: auto;"> 0 Seconds</span> </h1>
-
-<div style="clear:both" /> 
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 ___
 
 **System:**

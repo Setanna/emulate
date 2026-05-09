@@ -1,12 +1,15 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: -2
+traits:
 ---
 
-<h1> Help <span style="margin-left: auto;"> Any Number of Seconds</span> </h1>
-
-<div style="clear:both" /> 
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 ___
 
 <br>

@@ -1,16 +1,16 @@
 ---
 tags: []
 cssclass: pathfinder
+traits:
+ - link: Arcane
+ - link: Focus
 ---
 
-<h1> Cast a Spell </h1>
-
-[[Arcane]]{.trait}
-
-[[Focus]]{.trait}
-
-<div style="clear:both" /> 
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 ___
 
 <br>

@@ -1,12 +1,15 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 1 to 5
+traits:
 ---
 
-<h1> Interact <span style="margin-left: auto;"> 1 to 5 Seconds </span> </h1>
-
-<div style="clear:both" /> 
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 ___
 
 **System:**

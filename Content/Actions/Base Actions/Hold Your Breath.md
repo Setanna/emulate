@@ -1,15 +1,16 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 0
+traits:
+ - link: Focus
 ---
 
-
-<h1> Hold Your Breath <span style="margin-left: auto;"> 0 Seconds </span> </h1>
-
-[[Focus]]{.trait}
-
-<div style="clear:both" />
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 ___
 
 **System:**

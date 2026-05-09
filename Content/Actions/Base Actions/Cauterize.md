@@ -1,13 +1,16 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 1
+traits:
+ - link: Accurate
 ---
 
-<h1> Cauterize <span style="margin-left: auto;"> 1 Second </span> </h1>
-
-[[Accurate]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 **Requirements:** Wielding something that deals [[Damage Types | Fire]] Damage.
 
