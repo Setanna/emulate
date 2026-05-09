@@ -1,10 +1,10 @@
 const { calculateXP } = await import(
-    app.vault.adapter.getResourcePath("_meta/Dataview/xp_calc.js")
+    app.vault.adapter.getResourcePath("_meta/Dataview/Scripts/xp_calc.js")
 );
 
 let page = input;
 
-const value = await dv.view("_meta/Dataview/xp_calculate", page);
+const value = await dv.view("_meta/Dataview/Scripts/xp_calculate", page);
 //const value = calculateXP(page, dv);
 
 let name = page.file?.name ?? "Untitled";

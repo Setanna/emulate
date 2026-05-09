@@ -24,7 +24,7 @@ traits:
 ---
 
 ```dataviewjs
-await dv.view("_meta/Dataview/components/race_title", {
+await dv.view("_meta/Dataview/Components/race_title", {
     path: dv.current().file.path
 });
 ```
@@ -49,7 +49,7 @@ Dragonborn a rumored to stem directly from dragons, as their given name suggests
 Dragonborn tend to be massive and frightening as the dragons they stem from. As such they stand between 1.8 and 2 meters tall and weighing in at 80 to 130 kgs.
 
 ```dataviewjs
-await dv.view("_meta/Dataview/components/race_xp_table", {
+await dv.view("_meta/Dataview/Components/race_xp_table", {
     path: dv.current().file.path
 });
 ```

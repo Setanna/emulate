@@ -1,22 +1,22 @@
 export async function calculateXP(page, dv) {
    const { calculatePurchases } = await import(
-       app.vault.adapter.getResourcePath("_meta/Dataview/calculate_purchases.js")
+       app.vault.adapter.getResourcePath("_meta/Dataview/Scripts/calculate_purchases.js")
    );
 
    const { calculateAbilityScoreCosts } = await import(
-       app.vault.adapter.getResourcePath("_meta/Dataview/calculate_ability_score_costs.js")
+       app.vault.adapter.getResourcePath("_meta/Dataview/Scripts/calculate_ability_score_costs.js")
    );
 
    const { calculateHitDieCost } = await import(
-       app.vault.adapter.getResourcePath("_meta/Dataview/calculate_hit_die_cost.js")
+       app.vault.adapter.getResourcePath("_meta/Dataview/Scripts/calculate_hit_die_cost.js")
    );
 
    const { calculateSpeedCost } = await import(
-       app.vault.adapter.getResourcePath("_meta/Dataview/calculate_speed_cost.js")
+       app.vault.adapter.getResourcePath("_meta/Dataview/Scripts/calculate_speed_cost.js")
    );
 
    const { calculateSizeCost } = await import(
-       app.vault.adapter.getResourcePath("_meta/Dataview/calculate_size_cost.js")
+       app.vault.adapter.getResourcePath("_meta/Dataview/Scripts/calculate_size_cost.js")
    );
 
    let rows = [];

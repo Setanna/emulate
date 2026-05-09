@@ -15,7 +15,7 @@ traits:
 ---
 
 ```dataviewjs
-await dv.view("_meta/Dataview/components/race_title", {
+await dv.view("_meta/Dataview/Components/race_title", {
     path: dv.current().file.path
 });
 ```
@@ -39,7 +39,7 @@ Dwarves are short and stout like a Barrel of Ale. As such they tend to be around
 <br>
 
 ```dataviewjs
-await dv.view("_meta/Dataview/components/race_xp_table", {
+await dv.view("_meta/Dataview/Components/race_xp_table", {
     path: dv.current().file.path
 });
 ```

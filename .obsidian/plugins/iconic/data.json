@@ -244,19 +244,19 @@
       ],
       "color": "#a30000"
     },
-    "_meta/Dataview/components": {
+    "_meta/Dataview/Components": {
       "icon": "lucide-blocks",
       "unsynced": [
         "539eb19cb006f1d3"
       ],
       "color": "#a30000"
     },
-    "_meta/Dataview/scripts": {
+    "_meta/Dataview/Scripts": {
       "icon": "lucide-file-json-2",
+      "color": "#a30000",
       "unsynced": [
         "539eb19cb006f1d3"
-      ],
-      "color": "#a30000"
+      ]
     },
     "_meta/Ideas": {
       "icon": "lucide-lightbulb",

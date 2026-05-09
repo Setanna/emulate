@@ -13,7 +13,7 @@ traits:
 ---
 
 ```dataviewjs
-await dv.view("_meta/Dataview/components/race_title", {
+await dv.view("_meta/Dataview/Components/race_title", {
     path: dv.current().file.path
 });
 ```
@@ -34,7 +34,7 @@ Humans vary from 1.6 to 1.9 metres tall and weigh 40 to 90 kg. Their varied natu
 Humans have no real speciality beside their varied nature defined by their choices in life.
 
 ```dataviewjs
-await dv.view("_meta/Dataview/components/race_xp_table", {
+await dv.view("_meta/Dataview/Components/race_xp_table", {
     path: dv.current().file.path
 });
 ```

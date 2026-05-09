@@ -16,7 +16,7 @@ traits:
 ---
 
 ```dataviewjs
-await dv.view("_meta/Dataview/components/race_title", {
+await dv.view("_meta/Dataview/Components/race_title", {
     path: dv.current().file.path
 });
 ```
@@ -40,7 +40,7 @@ Most Orc factions strive in Might is Right tribal environments, where they are c
 Orcs vary from 1.8 to 2 meters tall and weight 80 to 130 kg. Orcs typically sport pale to dark green skin with oversized tusks.
 
 ```dataviewjs
-await dv.view("_meta/Dataview/components/race_xp_table", {
+await dv.view("_meta/Dataview/Components/race_xp_table", {
     path: dv.current().file.path
 });
 ```

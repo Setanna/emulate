@@ -16,7 +16,7 @@ traits:
 ---
 
 ```dataviewjs
-await dv.view("_meta/Dataview/components/race_title", {
+await dv.view("_meta/Dataview/Components/race_title", {
     path: dv.current().file.path
 });
 ```
@@ -42,7 +42,7 @@ Halfling tend to be on the smaller side, as such they stand between 1.2 and 1.4 
 <br>
 
 ```dataviewjs
-await dv.view("_meta/Dataview/components/race_xp_table", {
+await dv.view("_meta/Dataview/Components/race_xp_table", {
     path: dv.current().file.path
 });
 ```

@@ -1,8 +1,8 @@
 const { calculateXP } = await import(
-    app.vault.adapter.getResourcePath("_meta/Dataview/calculate_xp.js")
+    app.vault.adapter.getResourcePath("_meta/Dataview/Scripts/calculate_xp.js")
 );
 const { createXPTable } = await import(
-    app.vault.adapter.getResourcePath("_meta/Dataview/xp_table.js")
+    app.vault.adapter.getResourcePath("_meta/Dataview/Scripts/xp_table.js")
 );
 
 let page = dv.current();
