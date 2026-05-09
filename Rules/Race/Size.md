@@ -1,6 +1,29 @@
 ---
 tags: []
 cssclass: pathfinder
+costs:
+  - name: minute
+    xp: -450
+  - name: puny
+    xp: -300
+  - name: tiny
+    xp: -180
+  - name: small
+    xp: -90
+  - name: short
+    xp: -30
+  - name: medium
+    xp: 0
+  - name: tall
+    xp: 30
+  - name: large
+    xp: 90
+  - name: towering
+    xp: 180
+  - name: huge
+    xp: 300
+  - name: gigantic
+    xp: 450
 ---
 
 # Size

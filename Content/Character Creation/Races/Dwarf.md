@@ -1,15 +1,34 @@
 ---
 tags: []
 cssclass: pathfinder  
+size: short
+hit_die: 12
+speed: 4
+purchases:
+ - link: Dwarven Stoutness
+ - link: Dwarven Sight
+traits:
+ - link: Size
+   display: Short
+   css: size-trait
+ - link: Humanoid
 ---
 
-<h1> Dwarf <span style="margin-left: auto;"> 110 XP </span> </h1>
+```dataviewjs
+const { calculateXP } = await import(
+    app.vault.adapter.getResourcePath("_meta/Dataview/calculate_xp.js")
+);
 
-[[Size | Short]]{.size-trait}
+let page = dv.current();
+const { total, rows } = await calculateXP(page, dv);
 
-[[Humanoid]]{.trait}
+page.xp = total;
 
-<div style="clear:both" /> 
+page.rows = rows;
+
+dv.view("_meta/Dataview/xp_title", page);
+dv.view("_meta/Dataview/traits", dv.current());
+```
 
 ![[Dwarf.jpg]]{.thumbnail}
 
@@ -45,4 +64,17 @@ Dwarves start with [[Dwarven Stoutness]] and [[Vision#Low-Light Vision | Low-Lig
 | [[Vision#Low-Light Vision \| Low-Light Vision]] | +32 |
 | Total                                           | 110 | 
 
+```dataviewjs
+const { calculateXP } = await import(
+    app.vault.adapter.getResourcePath("_meta/Dataview/calculate_xp.js")
+);
+const { createXPTable } = await import(
+    app.vault.adapter.getResourcePath("_meta/Dataview/xp_table.js")
+);
 
+let page = dv.current();
+
+const { total, rows } = await calculateXP(page, dv);
+
+createXPTable(total, rows, dv);
+```

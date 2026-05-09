@@ -15,9 +15,22 @@ export async function calculateXP(page, dv) {
        app.vault.adapter.getResourcePath("_meta/Dataview/calculate_speed_cost.js")
    );
 
+   const { calculateSizeCost } = await import(
+       app.vault.adapter.getResourcePath("_meta/Dataview/calculate_size_cost.js")
+   );
+
    let rows = [];
 
    let total = 0;
+
+   // Calculate size cost
+   let size = page.size;
+
+   let { total: size_total, rows: size_row } = size ? calculateSizeCost(size, dv) : { total: 0, rows: [] };
+
+   rows.push(...size_row); // Use spread operator (...)
+
+   total += size_total;
 
    // Calculate hit die cost
    let hit_die = page.hit_die;

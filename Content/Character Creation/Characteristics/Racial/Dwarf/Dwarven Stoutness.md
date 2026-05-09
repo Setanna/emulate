@@ -1,15 +1,17 @@
 ---
 tags: []
 cssclass: pathfinder  
+xp: 60
+traits:
+ - link: Racial
+ - link: Birthright
+ - link: Merit
 ---
 
-<h1> Dwarven Stoutness <span style="margin-left: auto;"> 20 XP</span> </h1>
-
-[[Birthright]]{.trait}
-
-[[Racial]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+dv.view("_meta/Dataview/xp_title", dv.current());
+dv.view("_meta/Dataview/traits", dv.current());
+```
 
 **Requirements:** [[Dwarf]]; [[Size | Small]]
 ___
