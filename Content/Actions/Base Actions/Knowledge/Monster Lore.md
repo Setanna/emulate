@@ -1,16 +1,18 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 1
+traits:
+ - link: Focus
+ - link: [[Skill]]
+   display: "Skill (Knowledge)"
 ---
 
-<h1> Monster Lore <span style="margin-left: auto;">1 Second</span> </h1>
-
-[[Focus]]{.trait}
-
-[[Skill | Skill (Knowledge)]]{.trait}
-
-<div style="clear:both" /> 
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 ___
 *You know just where to strike them to make it hurt.*
 

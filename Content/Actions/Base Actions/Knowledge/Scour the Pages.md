@@ -1,18 +1,19 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 2
+traits:
+ - link: Item
+ - link: Focus
+ - link: [[Skill]]
+   display: "Skill (Knowledge)"
 ---
 
-<h1> Scour the Pages <span style="margin-left: auto;">2 Seconds</span> </h1>
-
-[[Rules/Traits/Item|Item]]{.trait}
-
-[[Focus]]{.trait}
-
-[[Skill | Skill (Knowledge)]]{.trait}
-
-<div style="clear:both" /> 
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 ___
 *You quickly flip through the pages for the information you need.*
 
