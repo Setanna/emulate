@@ -1,5 +1,5 @@
 {
-  "new-line-trigger": "shift-enter",
+  "new-line-trigger": "enter",
   "show-checkboxes": false,
   "tag-colors": [
     {

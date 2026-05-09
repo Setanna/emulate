@@ -16,19 +16,9 @@ traits:
 ---
 
 ```dataviewjs
-const { calculateXP } = await import(
-    app.vault.adapter.getResourcePath("_meta/Dataview/calculate_xp.js")
-);
-
-let page = dv.current();
-const { total, rows } = await calculateXP(page, dv);
-
-page.xp = total;
-
-page.rows = rows;
-
-dv.view("_meta/Dataview/xp_title", page);
-dv.view("_meta/Dataview/traits", dv.current());
+await dv.view("_meta/Dataview/components/race_title", {
+    path: dv.current().file.path
+});
 ```
 
 ![[Halfling.png]]{.thumbnail}
@@ -47,19 +37,12 @@ Don’t let their size fool you—Halflings walk the world with luck in their po
 **Description:**
 Halfling tend to be on the smaller side, as such they stand between 1.2 and 1.4 meters tall and weighing in at 20 to 40 kgs.
 
-# XP Distribution
+<br>
+
+<br>
 
 ```dataviewjs
-const { calculateXP } = await import(
-    app.vault.adapter.getResourcePath("_meta/Dataview/calculate_xp.js")
-);
-const { createXPTable } = await import(
-    app.vault.adapter.getResourcePath("_meta/Dataview/xp_table.js")
-);
-
-let page = dv.current();
-
-const { total, rows } = await calculateXP(page, dv);
-
-createXPTable(total, rows, dv);
+await dv.view("_meta/Dataview/components/race_xp_table", {
+    path: dv.current().file.path
+});
 ```

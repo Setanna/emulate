@@ -24,19 +24,9 @@ traits:
 ---
 
 ```dataviewjs
-const { calculateXP } = await import(
-    app.vault.adapter.getResourcePath("_meta/Dataview/calculate_xp.js")
-);
-
-let page = dv.current();
-const { total, rows } = await calculateXP(page, dv);
-
-page.xp = total;
-
-page.rows = rows;
-
-dv.view("_meta/Dataview/xp_title", page);
-dv.view("_meta/Dataview/traits", dv.current());
+await dv.view("_meta/Dataview/components/race_title", {
+    path: dv.current().file.path
+});
 ```
 
 ![[Dragonborn.jpg]]{.thumbnail}
@@ -58,20 +48,8 @@ Dragonborn a rumored to stem directly from dragons, as their given name suggests
 **Description:**
 Dragonborn tend to be massive and frightening as the dragons they stem from. As such they stand between 1.8 and 2 meters tall and weighing in at 80 to 130 kgs.
 
-
-# XP Distribution
-
 ```dataviewjs
-const { calculateXP } = await import(
-    app.vault.adapter.getResourcePath("_meta/Dataview/calculate_xp.js")
-);
-const { createXPTable } = await import(
-    app.vault.adapter.getResourcePath("_meta/Dataview/xp_table.js")
-);
-
-let page = dv.current();
-
-const { total, rows } = await calculateXP(page, dv);
-
-createXPTable(total, rows, dv);
+await dv.view("_meta/Dataview/components/race_xp_table", {
+    path: dv.current().file.path
+});
 ```

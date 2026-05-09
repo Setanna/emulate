@@ -244,6 +244,20 @@
       ],
       "color": "#a30000"
     },
+    "_meta/Dataview/components": {
+      "icon": "lucide-blocks",
+      "unsynced": [
+        "539eb19cb006f1d3"
+      ],
+      "color": "#a30000"
+    },
+    "_meta/Dataview/scripts": {
+      "icon": "lucide-file-json-2",
+      "unsynced": [
+        "539eb19cb006f1d3"
+      ],
+      "color": "#a30000"
+    },
     "_meta/Ideas": {
       "icon": "lucide-lightbulb",
       "unsynced": [
