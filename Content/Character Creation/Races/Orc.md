@@ -1,13 +1,35 @@
 ---
 tags: []
 cssclass: pathfinder  
+size: medium
+hit_die: 10
+speed: 5
+purchases:
+ - link: Indomitable
+ - link: Tusks
+ - link: Orcish Sight
+traits:
+ - link: Size
+   display: Medium
+   css: size-trait
+ - link: Humanoid
 ---
 
-<h1> Orc <span style="margin-left: auto;"> 88 XP </span> </h1>
+```dataviewjs
+const { calculateXP } = await import(
+    app.vault.adapter.getResourcePath("_meta/Dataview/calculate_xp.js")
+);
 
-[[Size | Medium]]{.size-trait}
+let page = dv.current();
+const { total, rows } = await calculateXP(page, dv);
 
-[[Humanoid]]{.trait}
+page.xp = total;
+
+page.rows = rows;
+
+dv.view("_meta/Dataview/xp_title", page);
+dv.view("_meta/Dataview/traits", dv.current());
+```
 
 <div style="clear:both" /> 
 
@@ -27,18 +49,19 @@ Most Orc factions strive in Might is Right tribal environments, where they are c
 **Description:**
 Orcs vary from 1.8 to 2 meters tall and weight 80 to 130 kg. Orcs typically sport pale to dark green skin with oversized tusks.
 
-<br>
-
-**Racial Talents:**
-Orcs start with [[Indomitable]]; [[Tusks]] and [[Vision#Low-Light Vision | Low-Light Vision]].
-
 # XP Distribution
 
-| Name                                            | XP  |
-| ----------------------------------------------- |:---:|
-| [[Hit Die \| d10 Hit Die]]                      | +32 |
-| [[Vision#Low-Light Vision \| Low-Light Vision]] | +32 |
-| [[Tusks]]                                       | +16 |
-| [[Indomitable]]                                 | +8  |
-| Total                                           | 88  | 
+```dataviewjs
+const { calculateXP } = await import(
+    app.vault.adapter.getResourcePath("_meta/Dataview/calculate_xp.js")
+);
+const { createXPTable } = await import(
+    app.vault.adapter.getResourcePath("_meta/Dataview/xp_table.js")
+);
 
+let page = dv.current();
+
+const { total, rows } = await calculateXP(page, dv);
+
+createXPTable(total, rows, dv);
+```

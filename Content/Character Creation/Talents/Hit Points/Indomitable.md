@@ -1,7 +1,7 @@
 ---
 tags: [Martial]
 cssclass: pathfinder
-value: 8
+xp: 8
 ---
 
 ```dataviewjs

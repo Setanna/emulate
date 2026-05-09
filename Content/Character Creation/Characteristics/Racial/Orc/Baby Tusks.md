@@ -1,15 +1,17 @@
 ---
 tags: []
 cssclass: pathfinder
+xp: -8
+traits:
+ - link: Racial
+ - link: Birthright
+ - link: Flaw
 ---
 
-<h1> Baby Tusks <span style="margin-left: auto;"> -8 XP </span> </h1>
-
-[[Flaw]]{.trait}
-
-[[Racial]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+dv.view("_meta/Dataview/xp_title", dv.current());
+dv.view("_meta/Dataview/traits", dv.current());
+```
 
 **Requirements:** [[Tusks]]
 ___
