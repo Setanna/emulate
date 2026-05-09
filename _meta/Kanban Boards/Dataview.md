@@ -9,6 +9,18 @@ kanban-plugin: board
 - [ ] <details> 
 	<summary> 
 		<b>
+			 Syntax
+		</b> 
+	</summary>
+	
+	-  [ ] **Figure out syntax**
+		- Should links have [[]] to allow easy finding?
+		- Should display have ""?
+	
+	</details>
+- [ ] <details> 
+	<summary> 
+		<b>
 			 Races
 		</b> 
 	</summary>
