@@ -31,6 +31,7 @@ kanban-plugin: board
 		- Affinities
 	- [ ] **XP Distribution**
 		- [ ] Make xp_table.js also print title?
+	- [ ] **Make Talents use Natural Armor File**
 	
 	</details>
 
