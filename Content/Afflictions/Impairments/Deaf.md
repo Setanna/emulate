@@ -1,12 +1,14 @@
 ---
 tags: []
 cssclass: pathfinder
+value: 1 to 5
 ---
 
-<h1> Deaf <span style="margin-left: auto;"> 1 to 5 </span> </h1>
-
-<div style="clear:both" /> 
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/affliction_title", {
+    path: dv.current().file.path
+});
+```
 ___
 *Whether by blast, blade, or curse, your hearing has faded into memory*
 

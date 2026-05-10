@@ -9,10 +9,10 @@ traits:
 ---
 
 ```dataviewjs
-dv.view("_meta/Dataview/default_title", dv.current());
-dv.view("_meta/Dataview/traits", dv.current());
+await dv.view("_meta/Dataview/Components/affliction_title", {
+    path: dv.current().file.path
+});
 ```
-
 ___
 *A single scar draws eyes. A face full turns them away*
 

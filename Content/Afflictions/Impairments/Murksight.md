@@ -1,13 +1,14 @@
 ---
 tags: []
 cssclass: pathfinder
+value: 1 to 5
 ---
 
-<h1> Murksight <span style="margin-left: auto;">1 to 5</span> </h1>
-
-
-<div style="clear:both" /> 
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/affliction_title", {
+    path: dv.current().file.path
+});
+```
 ___
 *"He’s got the Murksight. Can’t read a sign 'til he’s kissed the wall it’s nailed to"*
 *— Krell the Barkeep*

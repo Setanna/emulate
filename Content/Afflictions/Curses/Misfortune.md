@@ -1,13 +1,14 @@
 ---
 tags: []
 cssclass: pathfinder
+value: 5
 ---
 
-<h1> Misfortune <span style="margin-left: auto;">5</span> </h1>
-
-
-<div style="clear:both" /> 
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/affliction_title", {
+    path: dv.current().file.path
+});
+```
 ___
 *Lady Luck looks elsewhere when you call*
 
