@@ -20,6 +20,19 @@ kanban-plugin: board
 		- [ ] **Hooked:** Bonus to Disarm or move a creature
 	
 	</details>
+- [ ] <details> 
+	<summary> 
+		<b>
+			Crafting
+		</b> 
+	</summary>
+	
+	- [ ] **Balance**
+		- [ ] Potions should require specific plants
+		- [ ] Duration should be rather short and instead be balanced by the world moving on
+			- It should give the players agency while still giving the GM the option to force the players onwards
+	
+	</details>
 
 
 ## Doing
