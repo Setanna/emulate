@@ -1,16 +1,17 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: -1
+traits:
+ - link: Arcane
+ - link: Reactive
 ---
 
-
-<h1> Luminescent Detonation <span style="margin-left: auto;">  </span> </h1>
-
-[[Arcane]]{.trait}
-
-[[Reactive]]{.trait}
-
-<div style="clear:both" />
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 **Reaction Trigger:** Whenever a creature within [[Lighting | Normal Lighting]] emitted of your spell is the target of an Attack Roll.
 ___

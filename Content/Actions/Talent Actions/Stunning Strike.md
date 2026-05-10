@@ -1,18 +1,19 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 0
+traits:
+ - link: Unarmed
+ - link: Reactive
 ---
 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
-<h1> Stunning Strike <span style="margin-left: auto;"> 0 Seconds </span> </h1>
-
-[[Unarmed]]{.trait}
-
-[[Reactive]]{.trait}
-
-<div style="clear:both" />
-
-**Reaction Trigger:** When you make an Attack
+**Free Trigger:** When you make an Attack
 
 ___
 *Flavor Text*

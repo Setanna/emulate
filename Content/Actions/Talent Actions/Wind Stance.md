@@ -1,13 +1,16 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 1
+traits:
+ - link: Stance
 ---
 
-<h1> Wind Stance <span style="margin-left: auto;">1 Second </span> </h1>
-
-[[Stance]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 **Requirements:** You haven't taken an Action with the [[Movement]] Trait this turn; You are wielding a [[Damage Types | Slashing]] Melee Weapon
 

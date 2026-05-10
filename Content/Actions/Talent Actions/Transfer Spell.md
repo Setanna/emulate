@@ -1,14 +1,16 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 1
+traits:
+ - link: Arcane
 ---
 
-
-<h1> Transfer Spell <span style="margin-left: auto;"> 1 Second </span> </h1>
-
-[[Arcane]]{.trait}
-
-<div style="clear:both" />
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 **Requirements:** You are under the effect of one or more Spells
 ___

@@ -1,12 +1,16 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 1
+traits:
+ - link: Timed
 ---
 
-
-<h1> Bolster <span style="margin-left: auto;"> 1 Second </span> </h1>
-
-<div style="clear:both" />
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 ___
 *You steel yourself for the pain to come*

@@ -1,17 +1,18 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 1
+traits:
+ - link: Language
+ - link: Emotion
+   display: Emotion (Awe)
 ---
 
-
-<h1> Rally <span style="margin-left: auto;"> 1 Second </span> </h1>
-
-[[Language]]{.trait}
-
-[[Emotion | Emotion (Awe)]]{.trait}
-
-<div style="clear:both" />
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 ___
 *“This is the hour we will be remembered for!”*
 *— Dagg Varn, Last of the 13th*

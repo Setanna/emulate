@@ -1,14 +1,16 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 0
+traits:
+ - link: Reactive
 ---
 
-
-<h1> Fervour <span style="margin-left: auto;">  </span> </h1>
-
-[[Reactive]]{.trait}
-
-<div style="clear:both" />
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 **Free Trigger:** When you have to Roll or someone has to Roll against you.
 ___

@@ -1,15 +1,17 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 1
+traits:
+ - link: Skill
+   display: Skill (Perception)
 ---
 
-
-<h1> Heighten Senses <span style="margin-left: auto;"> 1 Second </span> </h1>
-
-[[Skill | Skill (Perception)]]{.trait}
-
-<div style="clear:both" />
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 ___
 *Your senses extend outward, picking up even the faintest cues.*
 

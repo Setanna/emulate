@@ -1,15 +1,17 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 1
+traits:
+ - link: Movement
+ - link: Stance
 ---
 
-<h1> Leaf Stance <span style="margin-left: auto;">1 Second </span> </h1>
-
-[[Movement]]{.trait}
-
-[[Stance]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 **Requirements:** You wield no Armor, Shields or Weapons; You are Light Load; You took an Action with the [[Movement]] Trait last round.
 

@@ -1,15 +1,17 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: -1
+traits:
+ - link: Reactive
+ - link: Movement
 ---
 
-<h1> Falling Leaf Step <span style="margin-left: auto;"> </span> </h1>
-
-[[Reactive]]{.trait}
-
-[[Movement]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 **Requirements:** You wield no Armor, Shields or Weapons; You are Light Load
 

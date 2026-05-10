@@ -1,14 +1,17 @@
 ---
 tags: []
 cssclass: pathfinder
+seconds: 1
+traits:
+ - link: Emotion
+   display: Emotion (Anger)
 ---
 
-
-<h1> Accrue Rage <span style="margin-left: auto;"> 1 Second </span> </h1>
-
-[[Emotion | Emotion (Anger)]]{.trait}
-
-<div style="clear:both" />
+```dataviewjs
+await dv.view("_meta/Dataview/Components/action_title", {
+    path: dv.current().file.path
+});
+```
 
 **Free Triggers:**
 - After you take or deal damage
