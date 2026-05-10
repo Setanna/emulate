@@ -49,21 +49,10 @@ ability_scores:
 ---
 
 ```dataviewjs
-const { calculateXP } = await import(
-    app.vault.adapter.getResourcePath("_meta/Dataview/calculate_xp.js")
-);
-
-let page = dv.current();
-const { total, rows } = await calculateXP(page, dv);
-
-page.xp = total;
-
-page.rows = rows;
-
-dv.view("_meta/Dataview/xp_title", page);
-dv.view("_meta/Dataview/traits", dv.current());
+await dv.view("_meta/Dataview/Components/bestiary_title", {
+    path: dv.current().file.path
+});
 ```
-
 ___
 
 **Initiative:** +2; **Senses:** Perception +2
@@ -98,19 +87,8 @@ ___
 ### Typical Actions
 The Grim Jester uses the [[Intimidate]] Action to unsettle his opponents before charging into Melee while dual wielding Battleaxes. The Grim Jester holds no value to his own life and fights until death.
 
-# XP Distribution
-
 ```dataviewjs
-const { calculateXP } = await import(
-    app.vault.adapter.getResourcePath("_meta/Dataview/calculate_xp.js")
-);
-const { createXPTable } = await import(
-    app.vault.adapter.getResourcePath("_meta/Dataview/xp_table.js")
-);
-
-let page = dv.current();
-
-const { total, rows } = await calculateXP(page, dv);
-
-createXPTable(total, rows, dv);
+await dv.view("_meta/Dataview/Components/bestiary_xp_table", {
+    path: dv.current().file.path
+});
 ```

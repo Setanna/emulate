@@ -1,7 +1,39 @@
 ---
 tags: []
 cssclass: pathfinder
+traits:
+ - link: Size
+   display: Medium
+   css: size-trait
+ - link: Humanoid
+purchases:
+ - link: Human
+ - link: Skill Proficiency
+   display: Skill Proficiency (Acrobatics)
+ - link: Skill Proficiency
+   display: Skill Proficiency (Perception)
+ - link: Light Armor Proficiency
+ - link: Simple Weapon Proficiency
+ - link: Gambeson
+ability_scores:
+ - strength: 
+      score: 0
+ - dexterity: 
+      score: +2
+ - constitution: 
+      score: +1
+ - intelligence: 
+      score: 0
+ - wisdom: 
+      score: +2
+ - charisma: 
+     score: 0
 ---
+```dataviewjs
+await dv.view("_meta/Dataview/Components/bestiary_title", {
+    path: dv.current().file.path
+});
+```
 
 <h1> Arbalest <span style="margin-left: auto;"> 78 XP </span> </h1>
 
@@ -37,6 +69,12 @@ ___
 
 ### Typical Actions
 The Arbalest tends to stick to the backlines, picking off high priority targets and using [[Take Cover]] and [[Side Step]] to save themselves from attacks. When forced into melee, they tend to use [[Shortsword | Shortswords]] and [[Parry]].
+
+```dataviewjs
+await dv.view("_meta/Dataview/Components/bestiary_xp_table", {
+    path: dv.current().file.path
+});
+```
 
 # XP Distribution
 
