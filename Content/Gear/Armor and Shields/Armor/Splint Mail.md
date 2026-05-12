@@ -1,9 +1,9 @@
 ---
 tags: []
 cssclass: pathfinder
-price: 3000
-armor_value: 9
-weight: 24
+price: 2100
+armor_value: 7
+weight: 18
 proficiency: Heavy
 dexterity_penalty: 2
 strength_requirement: 2
@@ -14,12 +14,6 @@ traits:
   - link: Material
     value: (Steel)
   - link: Loud
-  - link: Bash
-    value: 1d4
-  - link: Bulwark
-    value: 3
-  - link: Cumbersome
-    value: 1
 ---
 
 ```dataviewjs
@@ -27,5 +21,5 @@ await dv.view("_meta/Dataview/Components/armor_title", {
     path: dv.current().file.path
 });
 ```
-*Heavy, unyielding, and nearly impenetrable*
+*Layered metal splints offering durable protection*
 

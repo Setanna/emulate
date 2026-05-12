@@ -4,6 +4,10 @@ cssclass: pathfinder
 ---
 
 # Material
+
+> [!warning] Out of Date
+> This Trait is out of date and not updated for the current structure.
+
 An Item with the Material Trait gains benefits and penalties depending on the type of Material is used. An item can be made of up to 2 materials, which is written as such; Material (Steel, Wood) for an item like a spear. The first material is the material used to deal damage, the spearhead, while the second material is the body of the item, the wooden shaft. For armor they're mainly only made of one material. The price of a material is the price per kilogram, in this case the kilogram is rounded up to nearest whole kilogram.
 
 <h3> Cloth <span style="margin-left: auto;"> 3 cc</span> </h3>

@@ -1,13 +1,13 @@
 ---
 tags: []
 cssclass: pathfinder
-price: 3000
-armor_value: 9
-weight: 24
-proficiency: Heavy
-dexterity_penalty: 2
-strength_requirement: 2
-maneuverability_penalty: 2
+price: 960
+armor_value: 6
+weight: 16
+proficiency: Medium
+dexterity_penalty: 1
+strength_requirement: 1
+maneuverability_penalty: 1
 traits:
   - link: Worn
     value: Armor
@@ -17,8 +17,6 @@ traits:
   - link: Bash
     value: 1d4
   - link: Bulwark
-    value: 3
-  - link: Cumbersome
     value: 1
 ---
 
@@ -27,5 +25,5 @@ await dv.view("_meta/Dataview/Components/armor_title", {
     path: dv.current().file.path
 });
 ```
-*Heavy, unyielding, and nearly impenetrable*
+*Rigid steel guarding the vital core*
 

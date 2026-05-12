@@ -8,36 +8,15 @@ Armor reduces all [[Damage Types | Physical Damage]] and [[Damage Types | Elemen
 
 <br>
 
-All Armor has the [[Worn#Armor | Worn (Armor)]] Trait.
+```dataviewjs
+await dv.view("_meta/Dataview/Scripts/armor_tables");
+```
 
-## Light Armor
-| Name         | Traits                                 | Cost   | Weight | Armor Value | Dex Penalty | Str Requirement |
-| ------------ | -------------------------------------- | ------ | ------ | ----------- | ----------- | --------------- |
-| Padded       | [[Comfy]]                              | 9 cc   | 2 kg   | 1           | 0           | 0               |
-| Leather      | [[Comfy]]                              | 23 cc  | 3 kg   | 2           | 0           | 0               |
-| Gambeson     | [[Comfy]]                              | 27 cc  | 6 kg   | 3           | 0           | 0               |
-| Armored Coat | [[Snapfit]]                            | 1.2 sc | 4 kg   | 3           | 0           | 0               |
+**Dexterity Penalty:** While donned you reduce your Dexterity the donned Armor's Dexterity Penalty.
 
-## Medium Armor
-| Name         | Traits                                                      | Cost   | Weight | Armor Value | Dex Penalty | Str Requirement |
-| ------------ | ----------------------------------------------------------- | ------ | ------ | ----------- | ----------- | --------------- |
-| Chain Mail   | [[Loud]]                                                    | 7.2 sc | 12 kg  | 4           | 1           | 1               |
-| Scale Mail   | [[Loud]]                                                    | 8.4 sc | 14 kg  | 5           | 1           | 1               |
-| Breast Plate | [[Loud]], [[Bash \| Bash (1d4)]], [[Bulwark \| Bulwark +1]] | 9.6 sc | 16 kg  | 6           | 1           | 1               |
+**Maneuverability Penalty:** While donned you take an [[Rules/Traits/Item | Item]] Penalty to your [[Swim]], [[Rules/Stats and Skills/Skills/Strength/Climb | Climb]] and [[Fly]] Skills. The penalty is equal to the donned Armor's Maneuverability Penalty.
 
-## Heavy Armor
-| Name        | Traits                                                                                     | Cost  | Weight | Armor Value | Dex Penalty | Str Requirement |
-| ----------- | ------------------------------------------------------------------------------------------ | ----- | ------ | ----------- | ----------- | --------------- |
-| Splint Mail | [[Loud]]                                                                                   | 21 sc | 18 kg  | 7           | 2           | 2               |
-| Half Plate  | [[Loud]], [[Bash \| Bash (1d4)]], [[Bulwark \| Bulwark +2]]                                | 24 sc | 20 kg  | 8           | 2           | 2               |
-| Full Plate  | [[Loud]], [[Bash \| Bash (1d4)]], [[Bulwark \| Bulwark +3]] [[Cumbersome \| Cumbersome 1]] | 30 sc | 24 kg  | 9           | 2           | 2               |
-
-### Dexterity Penalty and Strength Requirement
-Dexterity Penalty is applied directly to ones Dexterity Score, lowering it while the armor is donned.
-
-<br>
-
-If a creature doesn't meet the Strength Requirement for Armor they have donned, they reduce their speed by an amount equal to the Armor's Strength Requirement.
+**Strength Requirement:** While donned, if you don't meet the donned Armor's Strength Requirement, you reduce your Speed by the Strength Requirement.
 
 ### Don and Doff
 To gain the benefits of Armor it must be donned. It takes 1 minute to don light armor, 5 minutes to don medium armor and 10 minutes to don heavy armor. Another creature can help donning the armor, halving the time to don the armor.
