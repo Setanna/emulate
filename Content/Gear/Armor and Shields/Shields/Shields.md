@@ -6,33 +6,15 @@ cssclass: pathfinder
 # Shields
 Shields increase a Creature's Armor Value by it's Shield Value.
 
-<br>
+```dataviewjs
+await dv.view("_meta/Dataview/Scripts/shield_tables");
+```
 
-All shields have the [[Worn#Shields | Worn (Shields)]] Trait.
+**Dexterity Penalty:** While donned you reduce your Dexterity by the donned Shields's Dexterity Penalty.
 
-## Light Shields
-| Name    | Traits                                   | Cost | Weight | Shield Value | Dex Penalty | Str Requirement |
-| ------- | ---------------------------------------- | ---- | ------ | ------------ | ----------- | --------------- |
-| Buckler | [[Freehand]], [[Parrying \| Parrying 1]] | 9 cc | 1.7 kg | 1            | 0           | 0               | 
+**Maneuverability Penalty:** While donned you take an [[Rules/Traits/Item | Item]] Penalty to your [[Swim]], [[Rules/Stats and Skills/Skills/Strength/Climb | Climb]] and [[Fly]] Skills. The penalty is equal to the donned Shield's Maneuverability Penalty.
 
-
-
-## Medium Shields
-| Name         | Traits                                              | Cost  | Weight | Shield Value | Dex Penalty | Str Requirement |
-| ------------ | --------------------------------------------------- | ----- | ------ | ------------ | ----------- | --------------- |
-| Round Shield | [[Bash \| Bash (1d4)]], [[Bulwark \| Bulwark 1]] | 14 cc | 2.5 kg | 2            | 1           | 1               |
-
-## Heavy Shields
-| Name         | Traits                                                                  | Cost  | Weight | Shield Value | Dex Penalty | Str Requirement |
-| ------------ | ----------------------------------------------------------------------- | ----- | ------ | ------------ | ----------- | --------------- |
-| Tower Shield | [[Bastion]], [[Bulwark \| Bulwark 2]] [[Cumbersome \| Cumbersome 1]] | 32 cc | 7 kg   | 3            | 2           | 2               |
-
-### Dexterity Penalty and Strength Requirement
-Dexterity Penalty is applied directly to ones Dexterity Score, lowering it while the shield is donned.
-
-<br>
-
-If a creature doesn't meet the Strength Requirement for a Shield they can't take any Reactions using the Shield.
+**Strength Requirement:** While donned, if you don't meet the donned Shield's Strength Requirement, you can't take any Reactions using the Shield.
 
 ### Don and Doff
 To gain the benefits of a Shield it must be donned. It takes 2 Second to don light shields, 4 Seconds to don medium shields and 6 Seconds to don heavy shields. 
