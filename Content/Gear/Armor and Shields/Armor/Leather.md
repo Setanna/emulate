@@ -10,7 +10,7 @@ strength_requirement: 0
 maneuverability_penalty: 0
 traits:
   - link: Worn
-    value: Armor
+    value: (Armor)
   - link: Material
     value: (Leather)
   - link: Comfy

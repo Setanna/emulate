@@ -10,7 +10,7 @@ strength_requirement: 1
 maneuverability_penalty: 1
 traits:
   - link: Worn
-    value: Armor
+    value: (Armor)
   - link: Material
     value: (Steel)
   - link: Loud
