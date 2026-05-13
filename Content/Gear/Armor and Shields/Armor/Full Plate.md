@@ -15,7 +15,7 @@ traits:
     value: (Steel)
   - link: Loud
   - link: Bash
-    value: 1d4
+    value: (d4)
   - link: Bulwark
     value: 3
   - link: Cumbersome
