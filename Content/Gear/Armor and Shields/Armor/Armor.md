@@ -12,7 +12,7 @@ Armor reduces all [[Damage Types | Physical Damage]] and [[Damage Types | Elemen
 await dv.view("_meta/Dataview/Scripts/armor_tables");
 ```
 
-**Dexterity Penalty:** While donned you reduce your Dexterity the donned Armor's Dexterity Penalty.
+**Dexterity Penalty:** While donned you reduce your Dexterity by the donned Armor's Dexterity Penalty.
 
 **Maneuverability Penalty:** While donned you take an [[Rules/Traits/Item | Item]] Penalty to your [[Swim]], [[Rules/Stats and Skills/Skills/Strength/Climb | Climb]] and [[Fly]] Skills. The penalty is equal to the donned Armor's Maneuverability Penalty.
 
