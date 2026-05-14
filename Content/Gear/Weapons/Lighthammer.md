@@ -1,31 +1,21 @@
 ---
 tags: []
 cssclass: pathfinder
+price: 60
+weight: 1.9
+damage_die: 6
+damage_type: bludgeoning
+proficiency: Simple
+type: Melee
+traits:
+  - link: Material
+    value: (Steel, Wood)
+  - link: Light
 ---
 
-<h1> Lightammer <span style="margin-left: auto;">PRICE</span> </h1>
-
-[[Light]]{.trait}
-
-[[Material | Material (Steel)]]{.trait}
-
-<div style="clear:both" /> 
-
-<div style="margin-top:0.3rem"> 
-	<div style="display:inline-block; float: left;"> 
-		<b>Damage:</b> 1d6 Bludgeoning
-	</div> 
-	<div style="display:inline-block; float: right; padding-right: 50px;"> 
-		<b>Weight:</b> WEIGHT
-	</div> 
-	<div style="clear:both" /> 
-</div>
-
-___
+```dataviewjs
+await dv.view("_meta/Dataview/Components/weapon_title", {
+    path: dv.current().file.path
+});
+```
 *Small yet mighty, capable of breaking bones with a single hit.*
-
-
-<br>
-
-**Critical Effect:**
-The creature gains the [[Concussed | Concussed 1]] Condition.

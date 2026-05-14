@@ -1,16 +1,18 @@
 ---
 tags: []
 cssclass: pathfinder
-price: 27
-weight: 6
+price: 14
+weight: 2.7
 damage_die: 8
-damage_type: bludgeoning
-proficiency: Simple
-type: Melee
+damage_type: Piercing
+proficiency: Advanced
+type: Ranged
+range_increment: 60
 traits:
   - link: Material
     value: (Wood)
-  - link: Heavy
+  - link: Propulsive
+    value: 2
 ---
 
 ```dataviewjs
@@ -18,4 +20,5 @@ await dv.view("_meta/Dataview/Components/weapon_title", {
     path: dv.current().file.path
 });
 ```
-*Crude yet devastating, a weapon of pure might*
+*Compact, reliable, and quick to loose an arrow*
+

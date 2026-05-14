@@ -1,30 +1,26 @@
 ---
 tags: []
 cssclass: pathfinder
+price: 390
+weight: 9.6
+damage_die: 12
+damage_type: Slashing
+proficiency: Exotic
+type: Melee
+traits:
+  - link: Material
+    value: (Steel, Wood)
+  - link: Heavy
+  - link: Executioner
+    value: (d6)
 ---
 
-<h1> Executioner's Axe <span style="margin-left: auto;">PRICE</span> </h1>
-
-[[Executioner | Executioner (d6)]]{.trait}
-
-[[Heavy]]{.trait}
-
-[[Material | Material (Steel)]]{.trait}
-
-<div style="clear:both" /> 
-
-<div style="margin-top:0.3rem"> 
-	<div style="display:inline-block; float: left;"> 
-		<b>Damage:</b> 1d12 slashing
-	</div> 
-	<div style="display:inline-block; float: right; padding-right: 50px;"> 
-		<b>Weight:</b> WEIGHT
-	</div> 
-	<div style="clear:both" /> 
-</div>
-
-___
-*Flavor Text*
+```dataviewjs
+await dv.view("_meta/Dataview/Components/weapon_title", {
+    path: dv.current().file.path
+});
+```
+*Massive, brutal, and built for devastating blows*
 
 
 <br>

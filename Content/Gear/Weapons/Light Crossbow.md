@@ -1,18 +1,20 @@
 ---
 tags: []
 cssclass: pathfinder
-price: 120
-weight: 3.2
+price: 100
+weight: 2.3
 damage_die: 6
-damage_type: piercing
+damage_type: Piercing
 proficiency: Simple
-type: Melee
+type: Ranged
+range_increment: 10
 traits:
   - link: Material
-    value: (Steel, Wood)
-  - link: Heavy
-  - link: Piercing
+    value: (Wood, Steel)
+  - link: Mechanical
     value: 2
+  - link: Reload
+    value: 1
 ---
 
 ```dataviewjs
@@ -20,4 +22,5 @@ await dv.view("_meta/Dataview/Components/weapon_title", {
     path: dv.current().file.path
 });
 ```
-*A wooden-handled pickaxe with a sturdy iron head.*
+*Lightweight mechanism designed for fast reloads and steady aim*
+

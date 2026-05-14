@@ -1,17 +1,16 @@
 ---
 tags: []
 cssclass: pathfinder
-price: 60
-weight: 1.3
-damage_die: 6
-damage_type: slashing
-proficiency: Simple
+price: 180
+weight: 5.4
+damage_die: 10
+damage_type: Slashing
+proficiency: Advanced
 type: Melee
 traits:
   - link: Material
     value: (Steel, Wood)
-  - link: Finesse
-  - link: Light
+  - link: Heavy
   - link: Versatile
     value: (p)
 ---
@@ -21,4 +20,4 @@ await dv.view("_meta/Dataview/Components/weapon_title", {
     path: dv.current().file.path
 });
 ```
-*A versatile blade, light in hand but heavy in consequence.*
+*Long steel built for decisive, crushing blows*

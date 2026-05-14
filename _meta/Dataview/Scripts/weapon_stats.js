@@ -1,8 +1,11 @@
 let page = input;
 
 // Get values from frontmatter
-let damage_die = page.damage.die ?? 0;
-let damage_type = page.damage.type ?? 0;
+let damage_die = page.damage_die ?? 0;
+let damage_type = page.damage_type ?? 0;
+let proficiency = page.proficiency ?? "None";
+let range = page.range_increment ?? "None";
+let type = page.type ?? "None";
 let weight = page.weight ?? 0;
 
 // Outer container
@@ -14,7 +17,8 @@ left.style.display = "inline-block";
 left.style.float = "left";
 
 left.innerHTML = `
-<b>Damage:</b> ${damage_die} ${damage_type}
+<b>Damage:</b> 1d${damage_die} ${damage_type}<br>
+<b>Proficiency:</b> ${proficiency}
 `;
 
 // RIGHT BLOCK
@@ -22,9 +26,16 @@ let right = container.createEl("div");
 right.style.display = "inline-block";
 right.style.float = "right";
 
-right.innerHTML = `
-<b>Weight:</b> ${weight} kg
-`;
+if (type === "Ranged") {
+    right.innerHTML = `
+    <b>Weight:</b> ${weight} kg<br>
+    <b>Range Increment:</b> ${range} meters
+    `;
+} else {
+    right.innerHTML = `
+    <b>Weight:</b> ${weight} kg
+    `;
+}
 
 // CLEAR FIX
 let clear = container.createEl("div");

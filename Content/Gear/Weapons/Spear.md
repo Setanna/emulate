@@ -1,33 +1,23 @@
 ---
 tags: []
 cssclass: pathfinder
+price: 60
+weight: 1.4
+damage_die: 6
+damage_type: Slashing
+proficiency: Simple
+type: Melee
+traits:
+  - link: Material
+    value: (Steel, Wood)
+  - link: Thrown
+  - link: Reach
+    value: 1
 ---
 
-<h1> Spear <span style="margin-left: auto;">PRICE</span> </h1>
-
-[[Reach | Reach 1]]{.trait}
-
-[[Thrown | Thrown (15m)]]{.trait}
-
-[[Material | Material (Steel)]]{.trait}
-
-<div style="clear:both" /> 
-
-<div style="margin-top:0.3rem"> 
-	<div style="display:inline-block; float: left;"> 
-		<b>Damage:</b> 1d6 Piercing
-	</div> 
-	<div style="display:inline-block; float: right; padding-right: 50px;"> 
-		<b>Weight:</b> WEIGHT
-	</div> 
-	<div style="clear:both" /> 
-</div>
-
-___
+```dataviewjs
+await dv.view("_meta/Dataview/Components/weapon_title", {
+    path: dv.current().file.path
+});
+```
 *A reinforced oak shaft with a broad steel head.*
-
-
-<br>
-
-**Critical Effect:**
-The attack staggers the creature, the creature gains the [[Slowed | Slowed 1]] Condition.

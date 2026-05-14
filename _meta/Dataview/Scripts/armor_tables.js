@@ -1,4 +1,4 @@
-// _meta/Dataview/armor_table.js
+// _meta/Dataview/armor_tables.js
 
 // Get all armor pages except this file
 const armors = dv.pages('"Content/Gear/Armor and Shields/Armor"')

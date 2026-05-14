@@ -1,8 +1,27 @@
 ---
 tags: []
 cssclass: pathfinder
+price: 30
+weight: 0.6
+damage_die: 4
+damage_type: piercing
+proficiency: Simple
+type: Melee
+traits:
+  - link: Material
+    value: (Steel)
+  - link: Finesse
+  - link: Light
+  - link: Thrown
+    value: (5m)
+  - link: Vital Strike
 ---
 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/weapon_title", {
+    path: dv.current().file.path
+});
+```
 <h1> Dagger <span style="margin-left: auto;">PRICE</span> </h1>
 
 [[Finesse]]{.trait}

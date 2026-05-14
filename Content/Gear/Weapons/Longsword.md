@@ -1,14 +1,17 @@
 ---
 tags: []
 cssclass: pathfinder
-price: 150
-weight: 4.4
+price: 120
+weight: 3.8
 damage_die: 8
-damage_type: slashing
+damage_type: Slashing
 proficiency: Advanced
+type: Melee
 traits:
- - link: Material
-   value: (Steel)
+  - link: Material
+    value: (Steel)
+  - link: Versatile
+    value: (p)
 ---
 
 ```dataviewjs
@@ -16,4 +19,4 @@ await dv.view("_meta/Dataview/Components/weapon_title", {
     path: dv.current().file.path
 });
 ```
-*Forged for controlled, powerful strikes in close combat*
+*A versatile blade balanced for both cutting and thrusting*
