@@ -1,11 +1,11 @@
 ---
 tags: [Martial/Rogue, Martial/Monk]
-cssclass: pathfinder  
+xp: 4
 ---
 
-<h1> Wall Kick <span style="margin-left: auto;"> 4 XP </span> </h1>
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Feathered Grip]]; Dexterity 2+
 ___
