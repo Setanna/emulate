@@ -1,11 +1,11 @@
 ---
 tags: [Martial]
-cssclass: pathfinder  
+xp: 18
 ---
 
-<h1> Titan's Grip <span style="margin-left: auto;"> 18 XP </span> </h1>
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirement:** [[Titanborn]]; Strength 4+
 ___

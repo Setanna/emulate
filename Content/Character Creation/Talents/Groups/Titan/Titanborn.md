@@ -1,13 +1,13 @@
 ---
 tags: [Martial]
-cssclass: pathfinder  
+xp: 48
+traits:
+ - link: Birthright
 ---
 
-<h1> Titanborn <span style="margin-left: auto;"> 48 XP </span> </h1>
-
-[[Birthright]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** Strength 3+
 ___

@@ -1,11 +1,11 @@
 ---
 tags: [Martial]
-cssclass: pathfinder  
+xp: 4
 ---
 
-<h1> Titan's Breath <span style="margin-left: auto;"> 4 XP </span> </h1>
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirement:** [[Titanborn]]; Constitution 2+
 ___
