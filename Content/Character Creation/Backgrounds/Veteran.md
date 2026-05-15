@@ -1,13 +1,14 @@
 ---
 tags: []
 cssclass: pathfinder
+xp: 13
+traits:
+  - link: Wealth
 ---
 
-<h1> Veteran <span style="margin-left: auto;"> 13 XP </span> </h1>
-
-[[Wealth]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/background_title");
+```
 
 **Requirements:** Any one of the following: [[Adventurer]], [[Commander]], [[Sailor]], or [[Soldier]]
 ___

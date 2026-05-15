@@ -1,14 +1,14 @@
 ---
 tags: []
 cssclass: pathfinder
+xp: 2
+traits:
+  - link: Wealth
 ---
 
-<h1> Commoner <span style="margin-left: auto;"> 2 XP </span> </h1>
-
-[[Wealth]]{.trait}
-
-<div style="clear:both" /> 
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/background_title");
+```
 ___
 *A modest life turned something more*
 

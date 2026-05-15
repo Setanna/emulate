@@ -1,13 +1,14 @@
 ---
 tags: []
 cssclass: pathfinder
+xp: 6
+traits:
+  - link: Wealth
 ---
 
-<h1> Entertainer <span style="margin-left: auto;"> 6 XP </span> </h1>
-
-[[Wealth]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/background_title");
+```
 
 **Requirement:** Charisma 1+
 ___

@@ -1,13 +1,14 @@
 ---
 tags: []
 cssclass: pathfinder
+xp: -20
+traits:
+  - link: Wealth
 ---
 
-<h1> Gutter Rat <span style="margin-left: auto;"> -20 XP </span> </h1>
-
-[[Wealth]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/background_title");
+```
 
 **Requirements:** You have no talents with the [[Wealth]] traits
 ___

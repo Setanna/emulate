@@ -1,16 +1,16 @@
 ---
 tags: []
 cssclass: pathfinder
+xp: 5
+traits:
+  - link: Wealth
 ---
 
-<h1> Miner <span style="margin-left: auto;"> 5 XP </span> </h1>
-
-[[Wealth]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/background_title");
+```
 
 **Requirements:** Strength 1+
-
 ___
 *You've spent more time in the mines than you have in a bed*
 

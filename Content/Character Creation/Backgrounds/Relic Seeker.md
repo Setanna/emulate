@@ -1,13 +1,14 @@
 ---
 tags: []
 cssclass: pathfinder
+xp: 7
+traits:
+  - link: Wealth
 ---
 
-<h1> Relic Seeker <span style="margin-left: auto;"> 7 XP </span> </h1>
-
-[[Wealth]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/background_title");
+```
 
 **Requirements:** Intelligence 1+
 ___
