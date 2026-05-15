@@ -1,13 +1,14 @@
 ---
 tags: [Martial/Barbarian]
-cssclass: pathfinder  
+xp: 8
+traits:
+ - link: Emotion
+   value: (Anger)
 ---
 
-<h1> Rage <span style="margin-left: auto;"> 8 XP </span> </h1>
-
-[[Emotion | Emotion (Anger)]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** Strength 2+; Constitution 1+
 ___

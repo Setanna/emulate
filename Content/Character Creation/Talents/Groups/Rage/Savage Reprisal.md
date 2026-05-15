@@ -1,15 +1,15 @@
 ---
 tags: [Martial/Barbarian]
-cssclass: pathfinder  
+xp: 8
+traits:
+ - link: Emotion
+   value: (Anger)
+ - link: Ragebound
 ---
 
-<h1> Savage Reprisal <span style="margin-left: auto;"> 8 XP </span> </h1>
-
-[[Emotion | Emotion (Anger)]]{.trait}
-
-[[Ragebound]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Reactive Rage]]
 ___

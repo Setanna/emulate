@@ -1,13 +1,14 @@
 ---
 tags: [Martial/Barbarian]
-cssclass: pathfinder  
+xp: 12
+traits:
+ - link: Emotion
+   value: (Anger)
 ---
 
-<h1> Reactive Rage <span style="margin-left: auto;"> 12 XP </span> </h1>
-
-[[Emotion | Emotion (Anger)]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Content/Character Creation/Talents/Groups/Rage/Rage | Rage ]]
 ___
