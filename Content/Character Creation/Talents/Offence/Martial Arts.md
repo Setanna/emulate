@@ -1,13 +1,13 @@
 ---
 tags: [Martial/Monk]
-cssclass: pathfinder  
+xp: 4
+traits:
+ - link: Finesse
 ---
 
-<h1> Martial Arts <span style="margin-left: auto;"> 4 XP </span> </h1>
-
-[[Finesse]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Content/Character Creation/Talents/Offence/Unarmed Strikes | Unarmed Strikes]]; Strength 1+
 ___

@@ -1,12 +1,11 @@
 ---
 tags: [Martial/Monk]
-cssclass: pathfinder  
+xp: 0
 ---
 
-<h1> Unarmed Strikes <span style="margin-left: auto;"> 0 XP </span> </h1>
-
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 ___
 *Flavor Text*

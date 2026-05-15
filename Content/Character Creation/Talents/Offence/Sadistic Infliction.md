@@ -1,13 +1,14 @@
 ---
 tags: [Martial]
-cssclass: pathfinder  
+xp: 12
+traits:
+ - link: Emotion
+   value: (Pain)
 ---
 
-<h1> Sadistic Infliction <span style="margin-left: auto;"> 12 XP </span> </h1>
-
-[[Emotion | Emotion (Pain)]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirement:** [[Sadistic]]
 ___

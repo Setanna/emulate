@@ -1,13 +1,13 @@
 ---
 tags: [Martial/Rogue]
-cssclass: pathfinder  
+xp: 12
+traits:
+ - link: Finesse
 ---
 
-<h1> Debilitating Vital Strike <span style="margin-left: auto;"> 12 XP </span> </h1>
-
-[[Finesse]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** Strength 1+
 ___
