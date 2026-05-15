@@ -1,18 +1,15 @@
 ---
 tags: []
 cssclass: pathfinder  
+xp: 24
+traits:
+ - link: Bonded
+ - link: Wealth
 ---
 
-<h1> Blood and Coin <span style="margin-left: auto;"> 24 XP </span> </h1>
-
-[[Bonded]]{.trait}
-
-[[Wealth]]{.trait}
-
-[[Social]]{.trait}
-
-<div style="clear:both" /> 
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 ___
 
 *A brotherhood forged in battle and sealed in trade—loyalty paid in steel and gold.*

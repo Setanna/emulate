@@ -1,14 +1,13 @@
 ---
 tags: []
 cssclass: pathfinder  
+xp: 4
+traits:
 ---
 
-<h1> Words Unfinished <span style="margin-left: auto;"> 4 XP </span> </h1>
-
-[[Social]]{.trait}
-
-<div style="clear:both" /> 
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 ___
 
 *"Their voice may falter, but I will make sure they are heard."*

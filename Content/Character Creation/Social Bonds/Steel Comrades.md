@@ -1,13 +1,14 @@
 ---
 tags: []
 cssclass: pathfinder  
+xp: 24
+traits:
+ - link: Bonded
 ---
 
-<h1> Steel Comrades <span style="margin-left: auto;"> 24 XP </span> </h1>
-
-[[Bonded]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** You already have 2 Social Bonds with the chosen creatures as Bonded Targets.
 ___

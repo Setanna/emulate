@@ -1,18 +1,15 @@
 ---
 tags: []
 cssclass: pathfinder  
+xp: 4
+traits:
+ - link: Bonded
+ - link: Sight
 ---
 
-<h1> Wink and Nod <span style="margin-left: auto;"> 4 XP </span> </h1>
-
-[[Bonded]]{.trait}
-
-[[Sight]]{.trait}
-
-[[Social]]{.trait}
-
-<div style="clear:both" /> 
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 ___
 *A glance is worth a thousand words—especially when you're in on the joke.*
 

@@ -1,20 +1,17 @@
 ---
 tags: []
 cssclass: pathfinder  
+xp: 8
+traits:
+ - link: Bonded
+ - link: Expansive
 ---
 
-<h1> Back to Back <span style="margin-left: auto;"> 8 XP </span> </h1>
-
-[[Bonded]]{.trait}
-
-[[Expansive]]{.trait}
-
-[[Social]]{.trait}
-
-<div style="clear:both" /> 
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 ___
-*Surrounded? No. Perfectly positioned.*
+*Surrounded? No. Perfectly positioned*
 
 <br>
 

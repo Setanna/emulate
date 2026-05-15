@@ -1,20 +1,16 @@
 ---
 tags: []
 cssclass: pathfinder  
+xp: 4
+traits:
+ - link: Bonded
+ - link: Expansive
+ - link: Wealth
 ---
 
-<h1> Regular <span style="margin-left: auto;"> 4 XP </span> </h1>
-
-[[Bonded]]{.trait}
-
-[[Expansive]]{.trait}
-
-[[Wealth]]{.trait}
-
-[[Social]]{.trait}
-
-<div style="clear:both" /> 
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 ___
 
 **System:**
