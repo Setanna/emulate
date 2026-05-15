@@ -1,13 +1,13 @@
 ---
 tags: [Martial]
-cssclass: pathfinder
+xp: 18
+traits:
+  - link: Finesse
 ---
 
-<h1> Windslash <span style="margin-left: auto;"> 18 XP </span> </h1>
-
-[[Finesse]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/talent_title");
+```
 
 **Requirements:** Strength 2+
 ___

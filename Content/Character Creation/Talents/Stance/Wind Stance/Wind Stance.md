@@ -1,15 +1,14 @@
 ---
 tags: [Martial]
-cssclass: pathfinder
+xp: 12
+traits:
+  - link: Finesse
+  - link: Stance
 ---
 
-<h1> Wind Stance <span style="margin-left: auto;"> 12 XP </span> </h1>
-
-[[Finesse]]{.trait}
-
-[[Stance]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/talent_title");
+```
 
 **Requirements:** [[Content/Character Creation/Talents/Stance/Wind Stance/Windslash|Windslash]]; Strength 3+
 

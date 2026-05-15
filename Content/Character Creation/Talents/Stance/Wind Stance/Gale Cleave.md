@@ -1,13 +1,13 @@
 ---
 tags: [Martial]
-cssclass: pathfinder
+xp: 24
+traits:
+  - link: Finesse
 ---
 
-<h1> Gale Cleave <span style="margin-left: auto;"> 24 XP </span> </h1>
-
-[[Finesse]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/talent_title");
+```
 
 **Requirements:** [[Content/Character Creation/Talents/Stance/Wind Stance/Wind Stance|Wind Stance]]; Strength 4+
 
