@@ -1,17 +1,17 @@
 ---
-tags: [Martial]
-cssclass: pathfinder  
+tags: [Skills/Intimidation]
+xp: 8
+traits:
+ - link: Skill
+   value: (Intimidation)
+ - link: Emotion
+   value: (Fear)
+ - link: Sight
 ---
 
-<h1> Step Aside <span style="margin-left: auto;"> 8 XP</span> </h1>
-
-[[Skill | Skill (Intimidation)]]{.trait}
-
-[[Emotion | Emotion (Fear)]]{.trait}
-
-[[Sight]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Skill Specialization | Skill Specialization (Intimidation)]]
 ___
