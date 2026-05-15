@@ -1,13 +1,13 @@
 ---
-tags: []
-cssclass: pathfinder  
+tags: [Proficiencies/Skills]
+xp: 64
+traits:
+  - link: Expansive
 ---
 
-<h1> Skill Mastery <span style="margin-left: auto;"> 64 XP </span> </h1>
-
-[[Expansive]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/talent_title");
+```
 
 **Requirements:** [[Skill Specialization | Skill Specialization (Chosen Skill)]]
 ___

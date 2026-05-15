@@ -1,13 +1,11 @@
 ---
-tags: []
-cssclass: pathfinder  
-value: 3
+tags: [Proficiencies/Weapons]
+xp: 3
 ---
 
 ```dataviewjs
-dv.view("_meta/Dataview/xp_title", dv.current());
+await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
 ___
 
 **System:**

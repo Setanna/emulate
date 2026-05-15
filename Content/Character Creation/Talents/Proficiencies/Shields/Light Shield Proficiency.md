@@ -1,12 +1,11 @@
 ---
-tags: []
-cssclass: pathfinder  
+tags: [Proficiencies/Shields]
+xp: 1
 ---
 
-<h1> Light Shield Proficiency <span style="margin-left: auto;"> 1 XP </span> </h1>
-
-<div style="clear:both" /> 
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/talent_title");
+```
 ___
 
 **System:**

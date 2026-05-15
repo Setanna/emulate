@@ -1,13 +1,13 @@
 ---
-tags: []
-cssclass: pathfinder  
+tags: [Proficiencies/Skills]
+xp: 16
+traits:
+  - link: Expansive
 ---
 
-<h1> Skill Specialization <span style="margin-left: auto;"> 16 XP </span> </h1>
-
-[[Expansive]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/talent_title");
+```
 
 **Requirements:** [[Skill Focus | Skill Focus (Chosen Skill)]]
 ___

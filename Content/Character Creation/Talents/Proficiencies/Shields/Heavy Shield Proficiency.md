@@ -1,11 +1,11 @@
 ---
-tags: []
-cssclass: pathfinder  
+tags: [Proficiencies/Shields]
+xp: 9
 ---
 
-<h1> Heavy Shield Proficiency <span style="margin-left: auto;"> 9 XP </span> </h1>
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/talent_title");
+```
 
 **Requirements:** [[Medium Shield Proficiency]]
 ___

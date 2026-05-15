@@ -1,16 +1,13 @@
 ---
-tags: []
-cssclass: pathfinder  
-value: 1
+tags: [Proficiencies/Skills]
+xp: 1
 traits:
- - link: Expansive
+  - link: Expansive
 ---
 
 ```dataviewjs
-dv.view("_meta/Dataview/xp_title", dv.current());
-dv.view("_meta/Dataview/traits", dv.current());
+await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
 ___
 
 **System:**

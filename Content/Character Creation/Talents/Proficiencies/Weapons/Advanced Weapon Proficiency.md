@@ -1,11 +1,10 @@
 ---
-tags: []
-cssclass: pathfinder  
-value: 9
+tags: [Proficiencies/Weapons]
+xp: 9
 ---
 
 ```dataviewjs
-dv.view("_meta/Dataview/xp_title", dv.current());
+await dv.view("_meta/Dataview/Components/talent_title");
 ```
 
 **Requirements:** [[Simple Weapon Proficiency]]

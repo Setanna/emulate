@@ -1,14 +1,13 @@
 ---
-tags: []
-cssclass: pathfinder  
+tags: [Proficiencies/Languages]
+xp: 2
+traits:
+  - link: Expansive
 ---
 
-<h1> Basic Language <span style="margin-left: auto;"> 2 XP </span> </h1>
-
-[[Expansive]]{.trait}
-
-<div style="clear:both" /> 
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/talent_title");
+```
 ___
 
 **System:**

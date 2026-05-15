@@ -1,11 +1,10 @@
 ---
-tags: []
-cssclass: pathfinder  
-value: 18
+tags: [Proficiencies/Armor]
+xp: 18
 ---
 
 ```dataviewjs
-dv.view("_meta/Dataview/xp_title", dv.current());
+await dv.view("_meta/Dataview/Components/talent_title");
 ```
 
 **Requirements:** [[Medium Armor Proficiency]]
