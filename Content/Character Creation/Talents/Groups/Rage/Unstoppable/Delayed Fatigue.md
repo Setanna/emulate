@@ -1,13 +1,14 @@
 ---
 tags: [Martial/Barbarian/Unstoppable]
-cssclass: pathfinder  
+xp: 8
+traits:
+ - link: Emotion
+   value: (Anger)
 ---
 
-<h1> Delayed Fatigue <span style="margin-left: auto;"> 8 XP </span> </h1>
-
-[[Emotion | Emotion (Anger)]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Surge of Fury]]; Strength 2+
 ___

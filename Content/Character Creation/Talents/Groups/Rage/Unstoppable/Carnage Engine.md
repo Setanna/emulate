@@ -1,15 +1,15 @@
 ---
 tags: [Martial/Barbarian/Unstoppable]
-cssclass: pathfinder  
+xp: 48
+traits:
+ - link: Emotion
+   value: (Anger)
+ - link: Ragebound
 ---
 
-<h1> Carnage Engine <span style="margin-left: auto;"> 48 XP </span> </h1>
-
-[[Emotion | Emotion (Anger)]]{.trait}
-
-[[Ragebound]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Juggernaut]]; Strength 4+
 ___
@@ -23,4 +23,3 @@ Whenever you would reduce an Enemy to 0 Hit Points or less using an [[Rules/Trai
 <br>
 
 These Seconds can only be spend on [[Rules/Traits/Attack | Attack]] or [[Movement]] Actions.
-

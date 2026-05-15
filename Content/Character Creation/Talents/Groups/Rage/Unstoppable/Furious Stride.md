@@ -1,13 +1,14 @@
 ---
 tags: [Martial/Barbarian/Unstoppable]
-cssclass: pathfinder  
+xp: 12
+traits:
+ - link: Emotion
+   value: (Anger)
 ---
 
-<h1> Furious Stride <span style="margin-left: auto;"> 12 XP </span> </h1>
-
-[[Emotion | Emotion (Anger)]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Surge of Fury]]; Strength 2+
 ___

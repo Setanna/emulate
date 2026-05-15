@@ -1,15 +1,15 @@
 ---
 tags: [Martial/Barbarian/Unstoppable]
-cssclass: pathfinder  
+xp: 24
+traits:
+ - link: Emotion
+   value: (Anger)
+ - link: Ragebound
 ---
 
-<h1> Juggernaut <span style="margin-left: auto;"> 24 XP </span> </h1>
-
-[[Emotion | Emotion (Anger)]]{.trait}
-
-[[Ragebound]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Furious Stride]]; Strength 3+
 ___

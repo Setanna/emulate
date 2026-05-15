@@ -1,15 +1,15 @@
 ---
 tags: [Martial/Barbarian/Unstoppable]
-cssclass: pathfinder  
+xp: 16
+traits:
+ - link: Emotion
+   value: (Anger)
+ - link: Ragebound
 ---
 
-<h1> Tireless Rage <span style="margin-left: auto;"> 16 XP </span> </h1>
-
-[[Emotion | Emotion (Anger)]]{.trait}
-
-[[Ragebound]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Delayed Fatigue]]; Strength 3+
 ___

@@ -1,15 +1,15 @@
 ---
 tags: [Martial/Barbarian/Unstoppable]
-cssclass: pathfinder  
+xp: 12
+traits:
+ - link: Emotion
+   value: (Anger)
+ - link: Ragebound
 ---
 
-<h1> Anchored by Fury <span style="margin-left: auto;"> 12 XP </span> </h1>
-
-[[Emotion | Emotion (Anger)]]{.trait}
-
-[[Ragebound]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Juggernaut]]
 ___
