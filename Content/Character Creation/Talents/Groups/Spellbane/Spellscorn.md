@@ -6,7 +6,7 @@ traits:
 ---
 
 ```dataviewjs
-await dv.view("_meta/Dataview/Components/characteristic_title");
+await dv.view("_meta/Dataview/Components/talent_title");
 ```
 
 **Requirements:** Constitution 2+; No Talents with the [[Arcane]] Trait

@@ -4,7 +4,7 @@ xp: 4
 ---
 
 ```dataviewjs
-await dv.view("_meta/Dataview/Components/characteristic_title");
+await dv.view("_meta/Dataview/Components/talent_title");
 ```
 
 **Requirements:** [[Content/Actions/Talent Actions/Rally | Rally]]; Charisma 2+

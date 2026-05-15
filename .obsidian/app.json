@@ -2,7 +2,7 @@
   "showInlineTitle": false,
   "propertiesInDocument": "hidden",
   "livePreview": false,
-  "defaultViewMode": "preview",
+  "defaultViewMode": "source",
   "foldHeading": false,
   "foldIndent": false
 }

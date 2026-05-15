@@ -4,7 +4,7 @@ xp: 4
 ---
 
 ```dataviewjs
-await dv.view("_meta/Dataview/Components/characteristic_title");
+await dv.view("_meta/Dataview/Components/talent_title");
 ```
 
 **Requirements:** [[Wall Kick]]; [[Skill Focus | Skill Focus (Acrobatics)]]; Dexterity 3+

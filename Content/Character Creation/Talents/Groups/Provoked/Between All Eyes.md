@@ -4,7 +4,7 @@ xp: 16
 ---
 
 ```dataviewjs
-await dv.view("_meta/Dataview/Components/characteristic_title");
+await dv.view("_meta/Dataview/Components/talent_title");
 ```
 
 **Requirements:** [[All Eyes On Me]]; Charisma 2+

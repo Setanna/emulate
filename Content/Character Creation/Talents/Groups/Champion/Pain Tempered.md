@@ -4,7 +4,7 @@ xp: 4
 ---
 
 ```dataviewjs
-await dv.view("_meta/Dataview/Components/characteristic_title");
+await dv.view("_meta/Dataview/Components/talent_title");
 ```
 **Requirements:** [[Scars]] 1+; Strength 1+; Constitution 1+
 ___

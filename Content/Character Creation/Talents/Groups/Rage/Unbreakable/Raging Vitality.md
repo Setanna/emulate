@@ -8,7 +8,7 @@ traits:
 ---
 
 ```dataviewjs
-await dv.view("_meta/Dataview/Components/characteristic_title");
+await dv.view("_meta/Dataview/Components/talent_title");
 ```
 
 **Requirements:** [[Content/Character Creation/Talents/Groups/Rage/Rage | Rage ]]; Constitution 1+

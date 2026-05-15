@@ -4,7 +4,7 @@ xp: 72
 ---
 
 ```dataviewjs
-await dv.view("_meta/Dataview/Components/characteristic_title");
+await dv.view("_meta/Dataview/Components/talent_title");
 ```
 
 **Requirements:** [[Pure of Body]]; [[Still of Mind]]; [[Swift of Form]]; Constitution 3+; Wisdom 3+; Dexterity 3+

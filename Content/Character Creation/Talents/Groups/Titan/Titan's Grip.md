@@ -4,7 +4,7 @@ xp: 18
 ---
 
 ```dataviewjs
-await dv.view("_meta/Dataview/Components/characteristic_title");
+await dv.view("_meta/Dataview/Components/talent_title");
 ```
 
 **Requirement:** [[Titanborn]]; Strength 4+

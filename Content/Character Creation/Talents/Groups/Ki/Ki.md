@@ -4,7 +4,7 @@ xp: 10
 ---
 
 ```dataviewjs
-await dv.view("_meta/Dataview/Components/characteristic_title");
+await dv.view("_meta/Dataview/Components/talent_title");
 ```
 
 **Requirements:** [[Martial Arts]]; Constitution 1+; Wisdom 1+
