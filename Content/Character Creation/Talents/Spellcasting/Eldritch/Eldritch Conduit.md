@@ -1,15 +1,14 @@
 ---
 tags: [Caster/Sorcerer]
-cssclass: pathfinder
+xp: 4
+traits:
+  - link: Arcane
+  - link: Expansive
 ---
 
-<h1> Eldritch Conduit <span style="margin-left: auto;"> 4 XP </span> </h1>
-
-[[Arcane]]{.trait}
-
-[[Expansive]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/talent_title");
+```
 
 **Requirements:** [[Eldritch Lineage]]
 ___

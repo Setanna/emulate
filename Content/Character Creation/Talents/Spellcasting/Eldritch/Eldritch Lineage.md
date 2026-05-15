@@ -1,13 +1,13 @@
 ---
 tags: [Caster/Sorcerer]
-cssclass: pathfinder
+xp: 12
+traits:
+  - link: Arcane
 ---
 
-<h1> Eldritch Lineage <span style="margin-left: auto;"> 12 XP </span> </h1>
-
-[[Arcane]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/talent_title");
+```
 
 **Requirements:** Charisma 2+
 ___
