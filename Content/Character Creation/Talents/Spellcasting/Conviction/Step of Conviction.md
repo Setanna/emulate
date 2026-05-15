@@ -1,15 +1,14 @@
 ---
 tags: [Caster/Paladin]
-cssclass: pathfinder  
+xp: 2
+traits:
+  - link: Arcane
+  - link: Belief
 ---
 
-<h1> Step of Conviction <span style="margin-left: auto;"> 2 XP </span> </h1>
-
-[[Arcane]]{.trait}
-
-[[Belief]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/talent_title");
+```
 
 **Requirements:** [[Conviction]]; Charisma 2+
 ___

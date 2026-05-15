@@ -1,15 +1,14 @@
 ---
 tags: [Caster/Paladin]
-cssclass: pathfinder  
+xp: 16
+traits:
+  - link: Arcane
+  - link: Belief
 ---
 
-<h1> True Conviction <span style="margin-left: auto;"> 16 XP </span> </h1>
-
-[[Arcane]]{.trait}
-
-[[Belief]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/talent_title");
+```
 
 **Requirements:** [[Conviction]]; Charisma 3+
 ___

@@ -1,15 +1,14 @@
 ---
 tags: [Caster/Paladin]
-cssclass: pathfinder
+xp: 6
+traits:
+  - link: Unarmored
+  - link: Gapless
 ---
 
-<h1> Shield of Conviction <span style="margin-left: auto;"> 6 XP</span> </h1>
-
-[[Unarmored]]{.trait}
-
-[[Gapless]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/talent_title");
+```
 
 **Requirements:** [[Conviction]]; Charisma 2+
 ___
