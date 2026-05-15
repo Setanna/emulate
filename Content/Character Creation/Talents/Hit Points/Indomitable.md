@@ -1,11 +1,10 @@
 ---
 tags: [Martial]
-cssclass: pathfinder
 xp: 8
 ---
 
 ```dataviewjs
-dv.view("_meta/Dataview/xp_title", dv.current());
+await dv.view("_meta/Dataview/Components/characteristic_title");
 ```
 
 **Requirements:** Constitution 2+
