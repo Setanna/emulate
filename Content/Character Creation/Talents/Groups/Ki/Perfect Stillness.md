@@ -1,11 +1,11 @@
 ---
 tags: [Martial/Monk/Ki]
-cssclass: pathfinder
+xp: 72
 ---
 
-<h1> Perfect Stillness <span style="margin-left: auto;"> 72 XP </span> </h1>
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Pure of Body]]; [[Still of Mind]]; [[Swift of Form]]; Constitution 3+; Wisdom 3+; Dexterity 3+
 ___

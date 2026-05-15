@@ -1,13 +1,13 @@
 ---
 tags: [Martial/Monk/Ki]
-cssclass: pathfinder
+xp: 12
+traits:
+ - link: Unarmed
 ---
 
-<h1> Flurry of Blows <span style="margin-left: auto;"> 12 XP </span> </h1>
-
-[[Unarmed]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Ki]]; Dexterity 1+
 ___

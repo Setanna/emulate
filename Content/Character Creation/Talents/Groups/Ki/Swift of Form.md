@@ -1,11 +1,11 @@
 ---
 tags: [Martial/Monk/Ki]
-cssclass: pathfinder
+xp: 24
 ---
 
-<h1> Swift of Form <span style="margin-left: auto;"> 24 XP </span> </h1>
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Ki]]; Dexterity 2+
 ___

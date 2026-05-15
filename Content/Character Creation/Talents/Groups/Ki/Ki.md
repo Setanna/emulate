@@ -1,11 +1,11 @@
 ---
 tags: [Martial/Monk/Ki]
-cssclass: pathfinder
+xp: 10
 ---
 
-<h1> Ki <span style="margin-left: auto;"> 10 XP </span> </h1>
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Martial Arts]]; Constitution 1+; Wisdom 1+
 ___
