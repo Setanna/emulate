@@ -1,13 +1,14 @@
 ---
 tags: []
 cssclass: pathfinder
+xp: 32
+traits:
+ - link: Merit
 ---
 
-<h1> Tough <span style="margin-left: auto;"> 32 XP </span> </h1>
-
-[[Merit]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** Your Racial Hit Die is lower than a d12
 ___

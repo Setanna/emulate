@@ -1,15 +1,16 @@
 ---
 tags: []
 cssclass: pathfinder
+xp: -16
+traits:
+ - link: Flaw
 ---
 
-<h1> Slow <span style="margin-left: auto;"> -16 XP </span> </h1>
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
-[[Flaw]]{.trait}
- 
-<div style="clear:both" /> 
-
-**Requirements:** You don't have the [[Quick]] Characteristic; You have a speed over 1
+**Requirements:** You don't have the [[Quick]] Characteristic; You have a speed over one
 ___
 *A beat too late, every time*
 

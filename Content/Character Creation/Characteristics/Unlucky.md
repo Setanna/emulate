@@ -1,13 +1,14 @@
 ---
 tags: []
 cssclass: pathfinder
+xp: -128
+traits:
+ - link: Flaw
 ---
 
-<h1> Unlucky <span style="margin-left: auto;"> -128 XP </span> </h1>
-
-[[Flaw]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Unfortunate]]
 ___

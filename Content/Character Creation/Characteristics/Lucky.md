@@ -1,13 +1,14 @@
 ---
 tags: []
 cssclass: pathfinder
+xp: 128
+traits:
+ - link: Merit
 ---
 
-<h1> Lucky <span style="margin-left: auto;"> 128 XP </span> </h1>
-
-[[Merit]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Fortunate]]
 ___

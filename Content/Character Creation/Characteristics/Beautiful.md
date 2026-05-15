@@ -1,17 +1,17 @@
 ---
 tags: []
 cssclass: pathfinder
+xp: 48
+traits:
+ - link: Emotion
+   value: (Awe)
+ - link: Sight
+ - link: Merit
 ---
 
-<h1> Beautiful<span style="margin-left: auto;"> 48 XP </span> </h1>
-
-[[Emotion | Emotion (Awe)]]{.trait}
-
-[[Sight]]{.trait}
-
-[[Merit]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Pretty]]
 ___

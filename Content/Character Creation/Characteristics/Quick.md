@@ -1,11 +1,14 @@
 ---
 tags: []
 cssclass: pathfinder
+xp: 16
+traits:
+ - link: Merit
 ---
 
-<h1> Quick <span style="margin-left: auto;"> 16 XP </span> </h1>
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** You don't have the [[Slow]] Characteristic
 ___

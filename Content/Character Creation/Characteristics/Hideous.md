@@ -1,17 +1,17 @@
 ---
 tags: []
 cssclass: pathfinder
+xp: -48
+traits:
+ - link: Emotion
+   value: (Disgust)
+ - link: Sight
+ - link: Flaw
 ---
 
-<h1> Hideous <span style="margin-left: auto;"> -48 XP </span> </h1>
-
-[[Emotion | Emotion (Disgust)]]{.trait}
-
-[[Sight]]{.trait}
-
-[[Flaw]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Ugly]]
 ___

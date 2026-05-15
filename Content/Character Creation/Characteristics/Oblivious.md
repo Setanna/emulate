@@ -1,13 +1,14 @@
 ---
 tags: []
 cssclass: pathfinder
+xp: -24
+traits:
+ - link: Flaw
 ---
 
-<h1> Oblivious <span style="margin-left: auto;"> -24 XP </span> </h1>
-
-[[Flaw]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 Requirements: You don't have the [[Observant]] Characteristic
 ___

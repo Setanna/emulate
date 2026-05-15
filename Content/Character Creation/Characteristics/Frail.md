@@ -1,13 +1,14 @@
 ---
 tags: []
 cssclass: pathfinder
+xp: -32
+traits:
+ - link: Flaw
 ---
 
-<h1> Frail <span style="margin-left: auto;"> -32 XP </span> </h1>
-
-[[Flaw]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** Your Racial Hit Die is higher than a d4
 ___

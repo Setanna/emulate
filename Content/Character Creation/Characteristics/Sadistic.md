@@ -1,16 +1,16 @@
 ---
 tags: []
 cssclass: pathfinder
+xp: -8
+traits:
+ - link: Emotion
+   display: Emotion (Pain)
+ - link: Flaw
 ---
 
-<h1> Sadistic <span style="margin-left: auto;"> -8 XP </span> </h1>
-
-[[Emotion | Emotion (Pain)]]{.trait}
-
-[[Flaw]]{.trait}
- 
-<div style="clear:both" /> 
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 ___
 *No feast nor song nor touch compares to the rapture of inflicted pain.*
 

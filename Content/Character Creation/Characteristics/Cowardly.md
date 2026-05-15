@@ -1,15 +1,16 @@
 ---
 tags: []
 cssclass: pathfinder
+xp: -8
+traits:
+ - link: Emotion
+   value: (Fear)
+ - link: Flaw
 ---
 
-<h1> Cowardly <span style="margin-left: auto;"> -8 XP </span> </h1>
-
-[[Emotion | Emotion (Fear)]]{.trait}
-
-[[Flaw]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** You don't have the [[Brave]] Characteristic
 ___

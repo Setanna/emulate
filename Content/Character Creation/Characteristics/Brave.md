@@ -1,7 +1,7 @@
 ---
 tags: []
 cssclass: pathfinder
-value: 8
+xp: 8
 traits:
  - link: Emotion
    display: Emotion (Hope)
@@ -9,8 +9,7 @@ traits:
 ---
 
 ```dataviewjs
-dv.view("_meta/Dataview/xp_title", dv.current());
-dv.view("_meta/Dataview/traits", dv.current());
+await dv.view("_meta/Dataview/Components/characteristic_title");
 ```
 
 **Requirements:** You don't have the [[Cowardly]] Characteristic

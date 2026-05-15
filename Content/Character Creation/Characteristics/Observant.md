@@ -1,13 +1,14 @@
 ---
 tags: []
 cssclass: pathfinder
+xp: 24
+traits:
+ - link: Merit
 ---
 
-<h1> Observant <span style="margin-left: auto;"> 24 XP </span> </h1>
-
-[[Merit]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** Wisdom 1+; You don't have the [[Oblivious]] Characteristic
 ___

@@ -1,14 +1,14 @@
 ---
 tags: []
 cssclass: pathfinder
+xp: -5
+traits:
+ - link: Flaw
 ---
 
-<h1> Lethargic <span style="margin-left: auto;">-5 XP</span> </h1>
-
-[[Flaw]]{.trait}
-
-<div style="clear:both" /> 
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 ___
 *Weariness claims you sooner, your endurance a fleeting resource.*
 

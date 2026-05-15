@@ -1,13 +1,14 @@
 ---
 tags: []
 cssclass: pathfinder
+xp: -4
+traits:
+ - link: Merit
 ---
 
-<h1> Heavy Sleeper <span style="margin-left: auto;"> -4 XP </span> </h1>
-
-[[Merit]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** You don't have the [[Light Sleeper]] Characteristic
 ___

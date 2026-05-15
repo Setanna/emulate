@@ -1,16 +1,16 @@
 ---
 tags: []
 cssclass: pathfinder
+xp: 4
+traits:
+ - link: Skill
+   value: (Intimidation)
+ - link: Merit
 ---
 
-<h1> Intimidating <span style="margin-left: auto;"> 4 XP </span> </h1>
-
-[[Skill | Skill (Intimidation)]]{.trait}
-
-[[Merit]]{.trait}
-
-<div style="clear:both" /> 
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 ___
 *Your gaze and posture are enough to give pause, subtly warning others not to push their luck.*
 

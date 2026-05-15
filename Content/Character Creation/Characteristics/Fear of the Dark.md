@@ -1,14 +1,14 @@
 ---
 tags: []
 cssclass: pathfinder
+xp: -16
+traits:
+ - link: Flaw
 ---
 
-<h1> Fear of the Dark <span style="margin-left: auto;"> -16 XP </span> </h1>
-
-[[Flaw]]{.trait}
-
-<div style="clear:both" /> 
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 ___
 *Flavor Text*
 

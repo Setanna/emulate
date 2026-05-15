@@ -1,15 +1,15 @@
 ---
 tags: []
 cssclass: pathfinder
+xp: 0
+traits:
+ - link: Fate
+ - link: Flaw
 ---
 
-<h1> Fate's Orphan <span style="margin-left: auto;">0 XP</span> </h1>
-
-[[Fate]]{.trait}
-
-[[Flaw]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Fate's Forsaken]]
 ___

@@ -1,15 +1,15 @@
 ---
 tags: []
 cssclass: pathfinder
+xp: -30
+traits:
+ - link: Fate
+ - link: Flaw
 ---
 
-<h1> Fate's Forsaken <span style="margin-left: auto;"> -30 XP </span> </h1>
-
-[[Fate]]{.trait}
-
-[[Flaw]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** You don't have the [[Fate's Favored]] Characteristic
 ___

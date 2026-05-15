@@ -1,16 +1,16 @@
 ---
 tags: []
 cssclass: pathfinder
+xp: 8
+traits:
+ - link: Emotion
+   display: Emotion (Hope)
+ - link: Merit
 ---
 
-<h1> Iron Will <span style="margin-left: auto;"> 8 XP </span> </h1>
-
-[[Emotion | Emotion (Hope)]]{.trait}
-
-[[Merit]]{.trait}
-
-<div style="clear:both" /> 
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 ___
 *"I decide what I do—and who I am"*
 *— Dagg Varn, Last of the 13th*

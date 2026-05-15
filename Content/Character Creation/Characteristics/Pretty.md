@@ -1,17 +1,17 @@
 ---
 tags: []
 cssclass: pathfinder
+xp: 16
+traits:
+ - link: Emotion
+   display: Emotion (Awe)
+ - link: Sight
+ - link: Merit
 ---
 
-<h1> Pretty <span style="margin-left: auto;"> 16 XP </span> </h1>
-
-[[Emotion | Emotion (Awe)]]{.trait}
-
-[[Sight]]{.trait}
-
-[[Merit]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** You don't have the [[Ugly]] Characteristic
 ___
