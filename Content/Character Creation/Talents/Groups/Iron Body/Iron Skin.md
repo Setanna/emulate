@@ -1,15 +1,14 @@
 ---
 tags: [Martial/Monk/Iron_Body]
-cssclass: pathfinder
+xp: 18
+traits:
+ - link: Unarmored
+ - link: Gapless
 ---
 
-<h1> Iron Skin <span style="margin-left: auto;"> 18 XP</span> </h1>
-
-[[Unarmored]]{.trait}
-
-[[Gapless]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Iron Strikes]]; Strength 3+
 ___

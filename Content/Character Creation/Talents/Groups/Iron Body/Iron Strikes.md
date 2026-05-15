@@ -1,11 +1,11 @@
 ---
 tags: [Martial/Monk/Iron_Body]
-cssclass: pathfinder  
+xp: 20
 ---
 
-<h1> Iron Strikes <span style="margin-left: auto;"> 20 XP</span> </h1>
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Martial Arts]]; Strength 2+
 ___
