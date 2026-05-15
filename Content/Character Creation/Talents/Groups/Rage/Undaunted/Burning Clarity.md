@@ -1,13 +1,14 @@
 ---
 tags: [Martial/Barbarian/Undaunted]
-cssclass: pathfinder  
+xp: 4
+traits:
+ - link: Emotion
+   value: (Anger)
 ---
 
-<h1> Burning Clarity <span style="margin-left: auto;"> 4 XP </span> </h1>
-
-[[Emotion | Emotion (Anger)]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Content/Character Creation/Talents/Groups/Rage/Rage | Rage ]]; Wisdom 1+
 ___
