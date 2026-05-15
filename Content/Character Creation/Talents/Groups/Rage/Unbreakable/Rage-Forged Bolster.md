@@ -1,13 +1,14 @@
 ---
 tags: [Martial/Barbarian/Unbreakable]
-cssclass: pathfinder
+xp: 12
+traits:
+ - link: Emotion
+   value: (Anger)
 ---
 
-<h1> Rage-Forged Bolster <span style="margin-left: auto;"> 12 XP</span> </h1>
-
-[[Emotion | Emotion (Anger)]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Unyielding Rage]]; Constitution 3+
 ___

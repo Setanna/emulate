@@ -1,15 +1,15 @@
 ---
 tags: [Martial/Barbarian/Unbreakable]
-cssclass: pathfinder
+xp: 24
+traits:
+ - link: Emotion
+   value: (Anger)
+ - link: Ragebound
 ---
 
-<h1> Rage Beyond Death <span style="margin-left: auto;"> 24 XP </span> </h1>
-
-[[Emotion | Emotion (Anger)]]{.trait}
-
-[[Ragebound]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Unyielding Rage]]; [[Indomitable]]; Constitution 3+
 ___
