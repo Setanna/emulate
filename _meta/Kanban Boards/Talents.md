@@ -62,10 +62,23 @@ kanban-plugin: board
 	- [ ] Rally the Fearless
 	- Creatures who have the Brave Characteristics gain Immunity to Fear
 	- Needs Talent to have several Rallies active.
-    - [ ] Reactive Rally
-    - Gain the Reactive Rally Action.
+	- [ ] Reactive Rally
+	- Gain the Reactive Rally Action.
 	- [ ] Twin Decree
- 	- A creature can be affected two different Rally options at once.
+	 	- A creature can be affected two different Rally options at once.
+	
+	</details>
+- [ ] <details> 
+	<summary> 
+		<b>
+			Titan Archetype
+		</b> 
+	</summary>
+	
+	- [ ] **Arcane Titan Talents**
+	- Make Titan Talents that help casters?
+	- [ ] **Titanborn**
+	- Make Titanborn Talent XP Cost scale by Size Increase 
 	
 	</details>
 
