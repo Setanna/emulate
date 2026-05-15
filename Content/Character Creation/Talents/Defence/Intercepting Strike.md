@@ -1,13 +1,13 @@
 ---
 tags: [Martial]
-cssclass: pathfinder
+xp: 4
+traits:
+ - link: Finesse
 ---
 
-<h1> Intercepting Strike <span style="margin-left: auto;"> 4 XP </span> </h1>
-
-[[Finesse]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/talent_title");
+```
 
 **Requirements:** Strength 1+
 ___
