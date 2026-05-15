@@ -1,11 +1,11 @@
 ---
 tags: [Martial/Marshal]
-cssclass: pathfinder  
+xp: 16
 ---
 
-<h1> Between All Eyes <span style="margin-left: auto;"> 16 XP </span> </h1>
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[All Eyes On Me]]; Charisma 2+
 ___

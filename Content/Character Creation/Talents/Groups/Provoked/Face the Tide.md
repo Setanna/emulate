@@ -1,11 +1,11 @@
 ---
 tags: [Martial/Marshal]
-cssclass: pathfinder  
+xp: 48
 ---
 
-<h1> Face the Tide <span style="margin-left: auto;"> 48 XP </span> </h1>
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Undeniable Presence]]; Charisma 4+
 ___

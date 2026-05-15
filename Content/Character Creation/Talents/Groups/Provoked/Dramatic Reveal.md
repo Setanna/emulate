@@ -1,13 +1,14 @@
 ---
 tags: [Martial/Marshal]
-cssclass: pathfinder  
+xp: 4
+traits:
+ - link: Item
+   value: (Dueling Cape)
 ---
 
-<h1> Dramatic Reveal <span style="margin-left: auto;"> 4 XP </span> </h1>
-
-[[Rules/Traits/Item | Item (Dueling Cape)]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** Charisma 1+
 ___

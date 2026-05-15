@@ -1,13 +1,13 @@
 ---
 tags: [Martial/Marshal]
-cssclass: pathfinder  
+xp: 24
+traits:
+ - link: Sight
 ---
 
-<h1> Undeniable Presence <span style="margin-left: auto;"> 24 XP </span> </h1>
-
-[[Sight]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Between All Eyes]] or [[Grand Reveal]]; Charisma 3+
 ___

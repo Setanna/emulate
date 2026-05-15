@@ -1,11 +1,11 @@
 ---
 tags: [Martial/Marshal]
-cssclass: pathfinder  
+xp: 64
 ---
 
-<h1> Tidebreaker <span style="margin-left: auto;"> 64 XP</span> </h1>
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Face the Tide]]; Charisma 5+
 ___

@@ -1,13 +1,14 @@
 ---
 tags: [Martial/Marshal]
-cssclass: pathfinder  
+xp: 8
+traits:
+ - link: Item
+   value: (Dueling Cape)
 ---
 
-<h1> Grand Reveal <span style="margin-left: auto;"> 8 XP </span> </h1>
-
-[[Rules/Traits/Item | Item (Dueling Cape)]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Dramatic Reveal]]; [[Skill Focus | Skill Focus (Bluff)]]; Charisma 2+
 ___
