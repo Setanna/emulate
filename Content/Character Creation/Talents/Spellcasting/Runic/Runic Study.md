@@ -1,15 +1,14 @@
 ---
 tags: [Caster/Wizard]
-cssclass: pathfinder
+xp: Varied
+traits:
+  - link: Arcane
+  - link: Expansive
 ---
 
-<h1> Runic Study <span style="margin-left: auto;"> Varied XP</span> </h1>
-
-[[Arcane]]{.trait}
-
-[[Expansive]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/talent_title");
+```
 
 **Requirements:** [[Runic Initiate]]
 

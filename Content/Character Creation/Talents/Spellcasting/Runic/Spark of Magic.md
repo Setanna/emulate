@@ -1,13 +1,13 @@
 ---
 tags: [Caster/Wizard]
-cssclass: pathfinder
+xp: 6
+traits:
+  - link: Arcane
 ---
 
-<h1> Spark of Magic <span style="margin-left: auto;"> 6 xp </span> </h1>
-
-[[Arcane]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/talent_title");
+```
 
 **Requirements:** [[Runic Initiate]]
 
