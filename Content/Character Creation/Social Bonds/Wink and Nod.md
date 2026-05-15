@@ -1,6 +1,4 @@
 ---
-tags: []
-cssclass: pathfinder  
 xp: 4
 traits:
  - link: Bonded

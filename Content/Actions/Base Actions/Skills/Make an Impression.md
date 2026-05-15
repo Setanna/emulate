@@ -1,6 +1,4 @@
 ---
-tags: []
-cssclass: pathfinder
 seconds: 4
 traits:
  - link: Language
@@ -13,7 +11,6 @@ await dv.view("_meta/Dataview/Components/action_title", {
     path: dv.current().file.path
 });
 ```
-
 ___
 
 **System:**

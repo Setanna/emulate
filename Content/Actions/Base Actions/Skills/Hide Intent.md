@@ -1,6 +1,4 @@
 ---
-tags: []
-cssclass: pathfinder
 seconds: 1
 traits:
  - link: Skill
@@ -12,14 +10,6 @@ await dv.view("_meta/Dataview/Components/action_title", {
     path: dv.current().file.path
 });
 ```
-
-
-<h1> Hide Intent <span style="margin-left: auto;"> 1 Second </span> </h1>
-
-[[Skill | Skill (Bluff)]]{.trait}
-
-<div style="clear:both" />
-
 ___
 
 **System:**

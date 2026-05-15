@@ -1,6 +1,4 @@
 ---
-tags: []
-cssclass: pathfinder
 xp: 32
 traits:
  - link: Merit

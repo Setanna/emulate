@@ -1,6 +1,4 @@
 ---
-tags: []
-cssclass: pathfinder
 xp: -30
 traits:
  - link: Fate

@@ -1,6 +1,4 @@
 ---
-tags: []
-cssclass: pathfinder
 xp: -48
 traits:
  - link: Emotion

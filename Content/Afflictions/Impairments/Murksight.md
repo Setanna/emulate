@@ -1,6 +1,4 @@
 ---
-tags: []
-cssclass: pathfinder
 value: 1 to 5
 ---
 

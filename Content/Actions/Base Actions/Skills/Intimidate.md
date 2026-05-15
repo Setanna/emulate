@@ -1,6 +1,4 @@
 ---
-tags: []
-cssclass: pathfinder
 seconds: 1
 traits:
  - link: Emotion
@@ -17,22 +15,6 @@ await dv.view("_meta/Dataview/Components/action_title", {
     path: dv.current().file.path
 });
 ```
-
-
-<h1> Intimidate <span style="margin-left: auto;"> 1 Second </span> </h1>
-
-[[Emotion | Emotion (Fear)]]{.trait}
-
-[[Sight]]{.trait}
-
-[[Language]]{.trait}
-
-[[Skill | Skill (Intimidate)]]{.trait}
-
-[[Timed]]{.trait}
-
-<div style="clear:both" />
-
 ___
 
 **System:**

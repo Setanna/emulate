@@ -1,6 +1,4 @@
 ---
-tags: []
-cssclass: pathfinder
 seconds: 0
 traits:
  - link: Movement

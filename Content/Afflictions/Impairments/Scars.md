@@ -1,6 +1,4 @@
 ---
-tags: []
-cssclass: pathfinder
 value:
  min: 1
  max: 3

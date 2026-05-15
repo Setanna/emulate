@@ -1,6 +1,4 @@
 ---
-tags: []
-cssclass: pathfinder  
 hit_die: 8
 speed: 5
 purchases:

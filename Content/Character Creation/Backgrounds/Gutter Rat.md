@@ -1,6 +1,4 @@
 ---
-tags: []
-cssclass: pathfinder
 xp: -20
 traits:
   - link: Wealth

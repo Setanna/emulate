@@ -1,6 +1,4 @@
 ---
-tags: []
-cssclass: pathfinder
 seconds: 2
 traits:
  - link: Item

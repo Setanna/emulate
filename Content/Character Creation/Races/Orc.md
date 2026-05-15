@@ -1,6 +1,4 @@
 ---
-tags: []
-cssclass: pathfinder  
 size: medium
 hit_die: 10
 speed: 5

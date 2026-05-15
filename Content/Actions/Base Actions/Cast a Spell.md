@@ -1,6 +1,4 @@
 ---
-tags: []
-cssclass: pathfinder
 traits:
  - link: Arcane
  - link: Focus

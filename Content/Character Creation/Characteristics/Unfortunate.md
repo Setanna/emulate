@@ -1,6 +1,4 @@
 ---
-tags: []
-cssclass: pathfinder
 xp: -64
 traits:
  - link: Flaw

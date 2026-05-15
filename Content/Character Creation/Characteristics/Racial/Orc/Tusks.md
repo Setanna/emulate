@@ -1,6 +1,4 @@
 ---
-tags: [Martial/Monk]
-cssclass: pathfinder
 xp: 8
 traits:
  - link: Racial

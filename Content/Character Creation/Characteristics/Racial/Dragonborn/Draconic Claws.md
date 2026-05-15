@@ -1,6 +1,4 @@
 ---
-tags: []
-cssclass: pathfinder
 xp: 8
 traits:
  - link: Racial
