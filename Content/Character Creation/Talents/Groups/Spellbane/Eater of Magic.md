@@ -1,15 +1,15 @@
 ---
-tags: [Martial]
-cssclass: pathfinder
+tags: [Martial/Spellbane]
+xp: 27
 ---
 
-<h1> Eater of Magic <span style="margin-left: auto;"> 27 XP </span> </h1>
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Spellbane]]; Constitution 4+
 ___
-*The magic that strikes you is turned inward, fortifying your body with its power.*
+*The magic that strikes you is turned inward, fortifying your body with its power*
 
 <br>
 

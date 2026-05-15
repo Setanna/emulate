@@ -1,17 +1,17 @@
 ---
-tags: [Martial]
-cssclass: pathfinder
+tags: [Martial/Spellbane]
+xp: 9
+traits:
+ - link: Resonance
 ---
 
-<h1> Spellscorn <span style="margin-left: auto;"> 9 XP </span> </h1>
-
-[[Resonance]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** Constitution 2+; No Talents with the [[Arcane]] Trait
 ___
-*A latent resistance within you blunts the edge of hostile magic.*
+*A latent resistance within you blunts the edge of hostile magic*
 
 <br>
 

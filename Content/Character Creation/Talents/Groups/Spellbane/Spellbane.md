@@ -1,15 +1,15 @@
 ---
-tags: [Martial]
-cssclass: pathfinder
+tags: [Martial/Spellbane]
+xp: 18
 ---
 
-<h1> Spellbane <span style="margin-left: auto;"> 18 XP </span> </h1>
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Spellscorn]]; Constitution 3+
 ___
-*Your very heart beats in defiance of the arcane.*
+*Your very heart beats in defiance of the arcane*
 
 <br>
 
