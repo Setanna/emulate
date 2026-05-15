@@ -1,11 +1,11 @@
 ---
 tags: [Martial/Monk/Leaf_Stance]
-cssclass: pathfinder
+xp: 12
 ---
 
-<h1> Encircling Draft <span style="margin-left: auto;"> 12 XP </span> </h1>
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/talent_title");
+```
 
 **Requirements:** [[Content/Character Creation/Talents/Stance/Leaf Stance/Leaf Stance | Leaf Stance]]
 

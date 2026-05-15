@@ -1,11 +1,11 @@
 ---
 tags: [Martial/Monk/Leaf_Stance]
-cssclass: pathfinder
+xp: 18
 ---
 
-<h1> The Wind Before the Blow <span style="margin-left: auto;"> 18 XP </span> </h1>
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/talent_title");
+```
 
 **Requirements:** [[Content/Character Creation/Talents/Stance/Leaf Stance/Leaf Stance | Leaf Stance]]; Dexterity 3+
 

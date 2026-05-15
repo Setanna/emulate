@@ -1,13 +1,13 @@
 ---
 tags: [Martial/Monk/Leaf_Stance]
-cssclass: pathfinder
+xp: 12
+traits:
+  - link: Stance
 ---
 
-<h1> Leaf Stance <span style="margin-left: auto;"> 12 XP </span> </h1>
-
-[[Stance]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/talent_title");
+```
 
 **Requirements:**  [[Skill Focus | Skill Focus (Acrobatics)]]; Dexterity 2+
 

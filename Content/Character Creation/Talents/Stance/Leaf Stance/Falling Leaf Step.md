@@ -1,11 +1,11 @@
 ---
 tags: [Martial/Monk/Leaf_Stance]
-cssclass: pathfinder
+xp: 4
 ---
 
-<h1> Falling Leaf Step <span style="margin-left: auto;"> 4 XP </span> </h1>
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/talent_title");
+```
 
 **Requirements:** [[Leaf Stance]]
 ___
