@@ -1,13 +1,13 @@
 ---
 tags: [Martial/Marshal]
-cssclass: pathfinder  
+xp: 12
+traits:
+ - link: Timed
 ---
 
-<h1> Strength of Words <span style="margin-left: auto;"> 12 XP </span> </h1>
-
-[[Timed]]{.trait}
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Content/Actions/Talent Actions/Rally | Rally]]; Charisma 2+
 ___

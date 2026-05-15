@@ -1,11 +1,11 @@
 ---
 tags: [Martial/Marshal]
-cssclass: pathfinder  
+xp: 4
 ---
 
-<h1> Rally the Fallen <span style="margin-left: auto;"> 4 XP </span> </h1>
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** [[Content/Actions/Talent Actions/Rally | Rally]]; Charisma 2+
 ___

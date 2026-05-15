@@ -1,11 +1,11 @@
 ---
 tags: [Martial/Marshal]
-cssclass: pathfinder  
+xp: 8
 ---
 
-<h1> Rally <span style="margin-left: auto;"> 8 XP</span> </h1>
-
-<div style="clear:both" /> 
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 **Requirements:** Charisma 1+
 ___
