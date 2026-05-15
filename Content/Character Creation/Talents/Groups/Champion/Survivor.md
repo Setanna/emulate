@@ -1,13 +1,11 @@
 ---
 tags: [Martial/Fighter/Champion]
-cssclass: pathfinder
-value: 16
+xp: 16
 ---
 
 ```dataviewjs
-dv.view("_meta/Dataview/xp_title", dv.current());
+await dv.view("_meta/Dataview/Components/characteristic_title");
 ```
-
 **Requirements:** [[Pain Tempered]]; Constitution 2+
 ___
 *Flavor Text*

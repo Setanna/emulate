@@ -1,11 +1,13 @@
 ---
 tags: [Martial/Fighter/Champion]
-cssclass: pathfinder
-value: 18
+xp: 18
+traits:
+ - link: Bonded
+ - link: Expansive
 ---
 
 ```dataviewjs
-dv.view("_meta/Dataview/xp_title", dv.current());
+await dv.view("_meta/Dataview/Components/characteristic_title");
 ```
 
 **Requirements:** [[Survivor]]; [[Indomitable]]; Constitution 3+

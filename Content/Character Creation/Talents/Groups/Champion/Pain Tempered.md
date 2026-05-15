@@ -1,13 +1,11 @@
 ---
 tags: [Martial/Fighter/Champion]
-cssclass: pathfinder
-value: 4
+xp: 4
 ---
 
 ```dataviewjs
-dv.view("_meta/Dataview/xp_title", dv.current());
+await dv.view("_meta/Dataview/Components/characteristic_title");
 ```
-
 **Requirements:** [[Scars]] 1+; Strength 1+; Constitution 1+
 ___
 *Flavor Text*

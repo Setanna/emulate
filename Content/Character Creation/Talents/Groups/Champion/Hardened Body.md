@@ -1,15 +1,15 @@
 ---
 tags: [Martial/Fighter/Champion]
-cssclass: pathfinder
+xp: 24
 ---
 
-<h1> Hardened Body <span style="margin-left: auto;"> 24 XP </span> </h1>
+```dataviewjs
+await dv.view("_meta/Dataview/Components/characteristic_title");
+```
 
 > [!Warning] Warning
 > The additional Scar effect will be removed in the future.
 > The XP Cost will remain the same
-
-<div style="clear:both" /> 
 
 **Requirements:** [[Pain Tempered]]; Constitution 2+
 ___
