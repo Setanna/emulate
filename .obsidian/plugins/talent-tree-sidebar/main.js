@@ -66,15 +66,26 @@ class TalentTreeView extends ItemView {
         await this.updateTree();
     }
 
+    // ✅ FIXED: properly handles [[Link | Alias]] and Obsidian objects
     normalize(v) {
         if (!v) return null;
 
-        if (typeof v !== "string") v = v.toString();
+        // Handle Obsidian link objects safely
+        if (typeof v === "object") {
+            if (v.path) {
+                v = v.path;
+            } else {
+                v = String(v);
+            }
+        }
+
+        if (typeof v !== "string") return null;
 
         return v
+            // remove wiki brackets
             .replace(/\[\[|\]\]/g, "")
-            .split("|")
-            .pop()
+            // take LEFT side of alias (real filename)
+            .split("|")[0]
             .trim();
     }
 
@@ -100,8 +111,7 @@ class TalentTreeView extends ItemView {
 
             const startFolder = this.getFolder(file);
 
-            // UPDATED:
-            // Allow same folder + ALL subfolders
+            // Allow same folder + subfolders
             const isFolderMatch = (name) => {
 
                 const f = allFiles.find(x => x.basename === name);
@@ -116,7 +126,7 @@ class TalentTreeView extends ItemView {
             };
 
             // ---------------------------------------------------
-            // GLOBAL GRAPH (NO SCOPING HERE)
+            // GLOBAL GRAPH
             // ---------------------------------------------------
 
             const talentRequires = new Map();
@@ -158,7 +168,6 @@ class TalentTreeView extends ItemView {
 
                             orGroups.push(group);
 
-                            // OR is GLOBAL
                             for (const g of group) {
                                 addReverse(g, f.basename, true);
                             }
@@ -179,7 +188,7 @@ class TalentTreeView extends ItemView {
             }
 
             // ---------------------------------------------------
-            // GRAPH WALK (LOCAL SCOPING ONLY FOR BACKLINK EXPANSION)
+            // GRAPH WALK
             // ---------------------------------------------------
 
             const visited = new Set();
@@ -194,7 +203,6 @@ class TalentTreeView extends ItemView {
 
                 if (reqs) {
 
-                    // NORMAL (GLOBAL)
                     for (const req of reqs.normal) {
 
                         if (!fileSet.has(req)) continue;
@@ -207,7 +215,6 @@ class TalentTreeView extends ItemView {
                         }
                     }
 
-                    // OR (GLOBAL, ALWAYS OR VISUAL)
                     for (const group of reqs.orGroups) {
 
                         for (const option of group) {
@@ -224,15 +231,10 @@ class TalentTreeView extends ItemView {
                     }
                 }
 
-                // ---------------------------------------------------
-                // BACKLINKS (LOCAL FILTER ONLY HERE)
-                // ---------------------------------------------------
-
                 const children = reverseMap.get(node) || [];
 
                 for (const child of children) {
 
-                    // SAME FOLDER + SUBFOLDERS
                     if (!isFolderMatch(child.node)) continue;
 
                     const edge = child.isOr
