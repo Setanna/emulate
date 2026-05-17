@@ -100,9 +100,19 @@ class TalentTreeView extends ItemView {
 
             const startFolder = this.getFolder(file);
 
+            // UPDATED:
+            // Allow same folder + ALL subfolders
             const isFolderMatch = (name) => {
+
                 const f = allFiles.find(x => x.basename === name);
-                return f && this.getFolder(f) === startFolder;
+                if (!f) return false;
+
+                const targetFolder = this.getFolder(f);
+
+                return (
+                    targetFolder === startFolder ||
+                    targetFolder.startsWith(startFolder + "/")
+                );
             };
 
             // ---------------------------------------------------
@@ -222,7 +232,7 @@ class TalentTreeView extends ItemView {
 
                 for (const child of children) {
 
-                    // 🔒 ONLY restrict BACKLINK EXPANSION
+                    // SAME FOLDER + SUBFOLDERS
                     if (!isFolderMatch(child.node)) continue;
 
                     const edge = child.isOr
