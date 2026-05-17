@@ -1,14 +1,14 @@
 ---
 tags: [Martial/Spellbane]
 xp: 18
+requires:
+  - [[Spellscorn]]
+  - Constitution 3+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Spellscorn]]; Constitution 3+
-___
 *Your very heart beats in defiance of the arcane*
 
 <br>

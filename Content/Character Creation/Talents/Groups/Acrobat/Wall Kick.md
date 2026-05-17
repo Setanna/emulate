@@ -1,14 +1,14 @@
 ---
 tags: [Martial/Rogue, Martial/Monk]
 xp: 4
+requires:
+  - [[Feathered Grip]]
+  - Dexterity 2+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Feathered Grip]]; Dexterity 2+
-___
 *Flavor Text*
 
 <br>

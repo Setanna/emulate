@@ -1,14 +1,14 @@
 ---
 tags: [Martial/Marshal]
 xp: 48
+requires:
+  - [[Undeniable Presence]]
+  - Charisma 4+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Undeniable Presence]]; Charisma 4+
-___
 *You think numbers will save you?*
 
 <br>

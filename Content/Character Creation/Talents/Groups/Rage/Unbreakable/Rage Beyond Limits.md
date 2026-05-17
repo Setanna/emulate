@@ -5,14 +5,14 @@ traits:
  - link: Emotion
    value: (Anger)
  - link: Ragebound
+requires:
+  - [[Rage Beyond Death]]
+  - Constitution 4+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Rage Beyond Death]]; Constitution 4+
-___
 *Flavor Text*
 
 <br>

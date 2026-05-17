@@ -3,14 +3,14 @@ tags: [Martial/Monk/Ki]
 xp: 12
 traits:
  - link: Unarmed
+requires:
+  - [[Ki]]
+  - Dexterity 1+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Ki]]; Dexterity 1+
-___
 *Flavor Text*
 
 <br>

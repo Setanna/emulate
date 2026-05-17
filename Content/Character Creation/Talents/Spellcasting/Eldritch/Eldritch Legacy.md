@@ -4,15 +4,13 @@ xp: Varied
 traits:
   - link: Arcane
   - link: Expansive
+requires:
+  - [[Eldritch Lineage]]
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Eldritch Lineage]]
-
-___
 *Each new spell is an echo of those who came before—growing louder with each breath you draw*
 
 <br>

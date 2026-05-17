@@ -4,14 +4,13 @@ xp: 8
 traits:
  - link: Emotion
    value: (Anger)
+requires:
+  - [[Burning Clarity]]
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Burning Clarity]]
-___
 *When fear reaches for your mind, your rage reaches back*
 
 <br>

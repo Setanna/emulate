@@ -4,14 +4,14 @@ xp: 4
 traits:
  - link: Emotion
    value: (Anger)
+requires:
+  - [[Rage]]
+  - Strength 1+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Rage]]; Strength 1+
-___
 *My anger grants another precious second*
 
 <br>

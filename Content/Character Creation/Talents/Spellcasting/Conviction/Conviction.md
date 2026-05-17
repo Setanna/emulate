@@ -4,14 +4,13 @@ xp: 4
 traits:
   - link: Arcane
   - link: Belief
+requires:
+  - Charisma 1+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** Charisma 1+
-___
 *Through unyielding resolve, you touch the edges of miracles*
 
 <br>

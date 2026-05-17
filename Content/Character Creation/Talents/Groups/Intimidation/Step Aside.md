@@ -7,14 +7,13 @@ traits:
  - link: Emotion
    value: (Fear)
  - link: Sight
+requires:
+  - [[Skill Specialization | Skill Specialization (Intimidation)]]
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Skill Specialization | Skill Specialization (Intimidation)]]
-___
 *A lotta men didn't, a lotta men died*
 
 <br>

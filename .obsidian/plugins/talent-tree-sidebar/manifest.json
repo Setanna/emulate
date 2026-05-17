@@ -1,0 +1,9 @@
+{
+  "id": "talent-tree-sidebar",
+  "name": "Talent Tree Sidebar",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "Displays a live talent tree sidebar.",
+  "author": "Setanna",
+  "isDesktopOnly": false
+}

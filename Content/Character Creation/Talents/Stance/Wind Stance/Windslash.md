@@ -3,14 +3,13 @@ tags: [Martial]
 xp: 18
 traits:
   - link: Finesse
+requires:
+  - Strength 2+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** Strength 2+
-___
 *With a slash, the wind becomes your weapon, tearing through anything in its path.*
 
 <br>

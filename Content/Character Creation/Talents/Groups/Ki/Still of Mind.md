@@ -1,14 +1,14 @@
 ---
 tags: [Martial/Monk/Ki]
 xp: 24
+requires:
+  - [[Ki]]
+  - Wisdom 2+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Ki]]; Wisdom 2+
-___
 *Flavor Text*
 
 <br>

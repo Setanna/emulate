@@ -4,15 +4,13 @@ xp: Varied
 traits:
   - link: Arcane
   - link: Expansive
+requires:
+  - [[Runic Initiate]]
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Runic Initiate]]
-
-___
 *Creation speaks in symbols; you are learning its tongue*
 
 <br>

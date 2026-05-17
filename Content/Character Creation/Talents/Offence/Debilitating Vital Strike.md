@@ -3,14 +3,13 @@ tags: [Martial/Rogue]
 xp: 12
 traits:
  - link: Finesse
+requires:
+  - Strength 1+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** Strength 1+
-___
 
 **System:**
 When you deal damage with a Weapon that has the [[Vital Strike]] Trait, you can reduce the Bleed Damage Die by one step to give the creature one of the following effects for as long as they have the [[Bleeding]] Condition:

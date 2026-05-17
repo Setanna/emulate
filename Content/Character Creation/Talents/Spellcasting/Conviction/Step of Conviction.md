@@ -4,14 +4,14 @@ xp: 2
 traits:
   - link: Arcane
   - link: Belief
+requires:
+  - [[Conviction]]
+  - Charisma 2+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Conviction]]; Charisma 2+
-___
 *You stride barefoot across jagged stone, each shard shifting aside as though unwilling to harm you*
 
 <br>

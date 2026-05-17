@@ -3,14 +3,15 @@ tags: [Martial/Spellbane]
 xp: 9
 traits:
  - link: Resonance
+requires:
+  - Constitution 2+
+  - No Talents with the Arcane Trait
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
 
-**Requirements:** Constitution 2+; No Talents with the [[Arcane]] Trait
-___
 *A latent resistance within you blunts the edge of hostile magic*
 
 <br>

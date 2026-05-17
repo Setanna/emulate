@@ -4,14 +4,15 @@ xp: 18
 traits:
  - link: Bonded
  - link: Expansive
+requires:
+  - [[Survivor]]
+  - [[Indomitable]]
+  - Constitution 3+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Survivor]]; [[Indomitable]]; Constitution 3+
-___
 *Flavor Text*
 
 <br>

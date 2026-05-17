@@ -4,14 +4,14 @@ xp: 4
 traits:
  - link: Emotion
    value: (Anger)
+requires:
+  - [[Rage]]
+  - Wisdom 1+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Content/Character Creation/Talents/Groups/Rage/Rage | Rage ]]; Wisdom 1+
-___
 *Clarity forged in the furnace of fury*
 
 <br>

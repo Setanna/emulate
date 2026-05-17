@@ -1,14 +1,14 @@
 ---
 tags: [Martial/Marshal]
 xp: 64
+requires:
+  - [[Face the Tide]]
+  - Charisma 5+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Face the Tide]]; Charisma 5+
-___
 *Even the mightiest waves break against the cliffs*
 
 <br>

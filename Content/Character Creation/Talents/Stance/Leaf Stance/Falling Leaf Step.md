@@ -1,14 +1,13 @@
 ---
 tags: [Martial/Monk/Leaf_Stance]
 xp: 4
+requires:
+  - [[Content/Character Creation/Talents/Stance/Leaf Stance/Leaf Stance|Leaf Stance]]
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Leaf Stance]]
-___
 *Flavor Text*
 
 <br>

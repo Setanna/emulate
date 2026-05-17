@@ -5,14 +5,13 @@ traits:
  - link: Emotion
    value: (Anger)
  - link: Ragebound
+requires:
+  - [[Juggernaut]]
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Juggernaut]]
-___
 *Flavor Text*
 
 <br>

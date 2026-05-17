@@ -3,14 +3,13 @@ tags: [Caster/Sorcerer]
 xp: 12
 traits:
   - link: Arcane
+requires:
+  - Charisma 2+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** Charisma 2+
-___
 *A dormant magic, reignited.*
 
 <br>

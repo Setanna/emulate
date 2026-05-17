@@ -4,14 +4,15 @@ xp: 8
 traits:
  - link: Item
    value: (Dueling Cape)
+requires:
+  - [[Dramatic Reveal]]
+  - [[Skill Focus | Skill Focus (Bluff)]]
+  - Charisma 2+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Dramatic Reveal]]; [[Skill Focus | Skill Focus (Bluff)]]; Charisma 2+
-___
 *Grand entrances demand grand misdirection.*
 
 <br>

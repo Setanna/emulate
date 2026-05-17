@@ -1,14 +1,14 @@
 ---
 tags: [Martial]
 xp: 4
+requires:
+  - [[Titanborn]]
+  - Constitution 2+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirement:** [[Titanborn]]; Constitution 2+
-___
 *You inhale once, and it’s enough*
 
 <br>

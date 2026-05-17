@@ -4,14 +4,14 @@ xp: 6
 traits:
   - link: Arcane
   - link: Belief
+requires:
+  - [[Step of Conviction]]
+  - Charisma 2+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Step of Conviction]];  Charisma 3+
-___
 *Thorns wither, mud firms, and rubble shifts as you advance — the world itself dares not halt your step*
 
 <br>

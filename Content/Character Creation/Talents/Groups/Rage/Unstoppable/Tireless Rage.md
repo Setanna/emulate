@@ -5,14 +5,14 @@ traits:
  - link: Emotion
    value: (Anger)
  - link: Ragebound
+requires:
+  - [[Delayed Fatigue]]
+  - Strength 3+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Delayed Fatigue]]; Strength 3+
-___
 *Rage burns away all exhaustion*
 
 <br>

@@ -3,14 +3,13 @@ tags: [Proficiencies/Weapons]
 xp: 27
 traits:
   - link: Expansive
+requires:
+  - [[Advanced Weapon Proficiency]]
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Advanced Weapon Proficiency]]
-___
 
 **System:**
 You become [[Rules/Stats and Skills/Proficiency | Proficient]] in one Exotic Weapon.

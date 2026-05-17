@@ -1,13 +1,15 @@
 ---
 tags: [Martial/Fighter/Champion]
 xp: 4
+requires:
+ - [[Scars | Scars 1+]]
+ - Strength 1+
+ - Constitution 1+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-**Requirements:** [[Scars]] 1+; Strength 1+; Constitution 1+
-___
 *Flavor Text*
 
 <br>

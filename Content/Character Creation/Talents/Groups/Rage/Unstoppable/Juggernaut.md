@@ -5,14 +5,14 @@ traits:
  - link: Emotion
    value: (Anger)
  - link: Ragebound
+requires:
+  - [[Furious Stride]]
+  - Strength 3+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Furious Stride]]; Strength 3+
-___
 *Nothing slows you once you start moving*
 
 <br>

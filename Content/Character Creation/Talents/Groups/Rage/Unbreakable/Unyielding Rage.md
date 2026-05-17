@@ -4,14 +4,14 @@ xp: 12
 traits:
  - link: Emotion
    value: (Anger)
+requires:
+  - [[Raging Vitality]]
+  - Constitution 2+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Raging Vitality]]; Constitution 2+
-___
 *My fury outlasts the pain*
 
 <br>

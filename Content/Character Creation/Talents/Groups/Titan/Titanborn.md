@@ -3,14 +3,13 @@ tags: [Martial]
 xp: 48
 traits:
  - link: Birthright
+requires:
+  - Strength 3+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** Strength 3+
-___
 *Others strain to lift what you shoulder without thought*
 
 <br>

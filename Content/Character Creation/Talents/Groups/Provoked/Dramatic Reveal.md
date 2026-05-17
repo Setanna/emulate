@@ -4,14 +4,13 @@ xp: 4
 traits:
  - link: Item
    value: (Dueling Cape)
+requires:
+  - Charisma 1+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** Charisma 1+
-___
 *You never get a second chance to make a deadly first impression.*
 
 <br>

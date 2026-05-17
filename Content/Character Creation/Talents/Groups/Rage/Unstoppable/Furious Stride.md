@@ -4,14 +4,14 @@ xp: 12
 traits:
  - link: Emotion
    value: (Anger)
+requires:
+  - [[Surge of Fury]]
+  - Strength 2+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Surge of Fury]]; Strength 2+
-___
 *Rage turns exertion into momentum*
 
 <br>

@@ -1,14 +1,14 @@
 ---
 tags: [Martial/Spellbane]
 xp: 27
+requires:
+  - [[Spellbane]]
+  - Constitution 4+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Spellbane]]; Constitution 4+
-___
 *The magic that strikes you is turned inward, fortifying your body with its power*
 
 <br>

@@ -5,14 +5,14 @@ traits:
  - link: Emotion
    value: (Anger)
  - link: Ragebound
+requires:
+  - [[Rage]]
+  - Constitution 1+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Content/Character Creation/Talents/Groups/Rage/Rage | Rage ]]; Constitution 1+
-___
 *With every roar of rage, your body steels itself against harm*
 
 <br>

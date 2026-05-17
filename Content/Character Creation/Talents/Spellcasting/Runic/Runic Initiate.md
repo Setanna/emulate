@@ -3,14 +3,14 @@ tags: [Caster/Wizard]
 xp: 12
 traits:
   - link: Arcane
+requires:
+  - [[Basic Language | Basic Language (Runic)]]
+  - Intelligence 2+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Basic Language | Basic Language (Runic)]]; Intelligence 2+
-___
 *Runes of creation and destruction, humming with ancient secrets*
 
 <br>

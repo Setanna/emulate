@@ -3,14 +3,14 @@ tags: [Martial/Marshal]
 xp: 12
 traits:
  - link: Timed
+requires:
+  - [[Content/Actions/Talent Actions/Rally | Rally]]
+  - Charisma 2+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Content/Actions/Talent Actions/Rally | Rally]]; Charisma 2+
-___
 *Even a whisper, if it lasts long enough, becomes a roar*
 
 <br>

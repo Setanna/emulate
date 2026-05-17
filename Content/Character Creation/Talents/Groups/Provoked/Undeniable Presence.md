@@ -3,14 +3,16 @@ tags: [Martial/Marshal]
 xp: 24
 traits:
  - link: Sight
+requires:
+  - any:  
+    - "[[Between All Eyes]]"  
+    - "[[Grand Reveal]]"
+  - Charisma 3
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Between All Eyes]] or [[Grand Reveal]]; Charisma 3+
-___
 *In the chaos of war, you're the one they can't ignore.*
 
 <br>

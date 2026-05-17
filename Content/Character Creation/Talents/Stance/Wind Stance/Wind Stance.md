@@ -4,15 +4,14 @@ xp: 12
 traits:
   - link: Finesse
   - link: Stance
+requires:
+  - [[Content/Character Creation/Talents/Stance/Wind Stance/Windslash|Windslash]]
+  - Strength 3+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Content/Character Creation/Talents/Stance/Wind Stance/Windslash|Windslash]]; Strength 3+
-
-___
 *In stillness, the wind amplifies your reach, striking where your weapons cannot.*
 
 <br>

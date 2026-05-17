@@ -4,14 +4,14 @@ xp: 12
 traits:
  - link: Emotion
    value: (Anger)
+requires:
+  - [[Unyielding Rage]]
+  - Constitution 3+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Unyielding Rage]]; Constitution 3+
-___
 *Every failure is just fuel for the fire*
 
 <br>

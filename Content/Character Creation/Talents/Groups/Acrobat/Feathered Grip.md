@@ -1,14 +1,13 @@
 ---
 tags: [Martial/Rogue, Martial/Monk]
 xp: 4
+requires:
+  - Dexterity 1+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** Dexterity 1+
-___
 *Flavor Text*
 
 <br>

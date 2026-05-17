@@ -4,14 +4,14 @@ xp: 6
 traits:
   - link: Unarmored
   - link: Gapless
+requires:
+  - [[Conviction]]
+  - Charisma 2+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Conviction]]; Charisma 2+
-___
 *Conviction alone guards you, interposing faith where steel cannot*
 
 <br>

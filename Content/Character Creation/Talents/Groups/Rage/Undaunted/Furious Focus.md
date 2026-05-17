@@ -4,14 +4,14 @@ xp: 12
 traits:
  - link: Emotion
    value: (Anger)
+requires:
+  - [[Burning Clarity]]
+  - Wisdom 2+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Burning Clarity]]; Wisdom 2+
-___
 *Anger burns away doubt*
 
 <br>

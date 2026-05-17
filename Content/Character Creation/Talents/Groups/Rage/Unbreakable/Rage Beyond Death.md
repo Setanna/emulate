@@ -5,14 +5,15 @@ traits:
  - link: Emotion
    value: (Anger)
  - link: Ragebound
+requires:
+  - [[Unyielding Rage]]
+  - [[Indomitable]]
+  - Constitution 3+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Unyielding Rage]]; [[Indomitable]]; Constitution 3+
-___
 *Flavor Text*
 
 <br>

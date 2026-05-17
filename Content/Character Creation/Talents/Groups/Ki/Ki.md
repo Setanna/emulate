@@ -1,14 +1,15 @@
 ---
 tags: [Martial/Monk/Ki]
 xp: 10
+requires:
+  - [[Martial Arts]]
+  - Constitution 1+
+  - Wisdom 1+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Martial Arts]]; Constitution 1+; Wisdom 1+
-___
 *Flavor Text*
 
 <br>

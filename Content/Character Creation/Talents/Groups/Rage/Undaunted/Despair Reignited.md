@@ -4,14 +4,14 @@ xp: 12
 traits:
  - link: Emotion
    value: (Anger)
+requires:
+  - [[Defiant Fury]]
+  - Wisdom 2+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Defiant Fury]]; Wisdom 2+
-___
 *The deepest pits echo the loudest rage*
 
 <br>

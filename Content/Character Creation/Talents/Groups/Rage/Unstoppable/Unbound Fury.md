@@ -4,14 +4,14 @@ xp: 12
 traits:
  - link: Emotion
    value: (Anger)
+requires:
+  - [[Surge of Fury]]
+  - Strength 2+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Burning Clarity]]; Strength 2+
-___
 *Momentum born of rage tears through restraint*
 
 <br>

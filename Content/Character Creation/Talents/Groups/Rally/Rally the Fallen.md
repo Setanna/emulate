@@ -1,14 +1,14 @@
 ---
 tags: [Martial/Marshal]
 xp: 4
+requires:
+  - [[Content/Actions/Talent Actions/Rally | Rally]]
+  - Charisma 2+
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Content/Actions/Talent Actions/Rally | Rally]]; Charisma 2+
-___
 *Your words rally the fallen to their feet and lets them face death with a sword in their hand.*
 
 <br>

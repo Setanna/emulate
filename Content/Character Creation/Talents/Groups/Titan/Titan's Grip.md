@@ -1,6 +1,9 @@
 ---
 tags: [Martial]
 xp: 18
+requires:
+  - [[Titanborn]]
+  - Strength 4+
 ---
 
 ```dataviewjs

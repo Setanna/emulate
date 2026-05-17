@@ -1,14 +1,13 @@
 ---
 tags: [Proficiencies/Weapons]
 xp: 9
+requires:
+  - [[Simple Weapon Proficiency]]
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-
-**Requirements:** [[Simple Weapon Proficiency]]
-___
 
 **System:**
 You become [[Rules/Stats and Skills/Proficiency | Proficient]] in Advanced Weapons.
