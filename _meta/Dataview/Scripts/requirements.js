@@ -5,10 +5,15 @@ if (!requires) return;
 // -------------------------
 // HELPERS
 // -------------------------
+
 function normalizeName(req) {
     if (!req) return null;
-    return req.toString()
-        .replace(/\[\[|\]\]/g, "")
+
+    const str = req.toString();
+
+    // If it's a wiki link, keep it intact so Dataview can render it
+    // (DO NOT strip [[ ]])
+    return str
         .split("|")
         .pop()
         .trim();
@@ -56,7 +61,7 @@ for (const req of flat) {
 
     // -------------------------
     // ANY GROUP (OR LOGIC)
-    // -------------------------
+// -------------------------
     if (req.type === "any") {
 
         const group = req.items.map(item => {

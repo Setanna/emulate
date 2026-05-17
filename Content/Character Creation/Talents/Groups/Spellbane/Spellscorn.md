@@ -5,7 +5,7 @@ traits:
  - link: Resonance
 requires:
   - Constitution 2+
-  - No Talents with the Arcane Trait
+  - No Talents with the [[Arcane]] Trait
 ---
 
 ```dataviewjs
