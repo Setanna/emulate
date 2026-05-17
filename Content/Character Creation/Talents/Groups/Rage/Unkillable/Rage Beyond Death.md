@@ -6,9 +6,8 @@ traits:
    value: (Anger)
  - link: Ragebound
 requires:
-  - [[Unyielding Rage]]
-  - [[Indomitable]]
-  - Constitution 3+
+  - [[Rage Beyond the Brink]]
+  - Constitution 4+
 ---
 
 ```dataviewjs

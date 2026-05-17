@@ -1,13 +1,14 @@
 ---
 tags: [Martial/Barbarian/Unbreakable]
-xp: 12
+xp: 18
 traits:
  - link: Emotion
    value: (Anger)
  - link: Ragebound
 requires:
-  - [[Rage Beyond Death]]
-  - Constitution 4+
+  - [[Rage]]
+  - [[Indomitable]]
+  - Constitution 2+
 ---
 
 ```dataviewjs
