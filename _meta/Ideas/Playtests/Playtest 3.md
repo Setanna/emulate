@@ -11,7 +11,7 @@
 	- Oblivious and Observant cost 24 but affect 3 skills
 	- Pretty and ugly cost 16 but affect all Charisma skills
 	- Perception effects initiative?
-- [ ] Rage points gained should just be equal to health lost
+- [x] Rage points gained should just be equal to health lost
 - [ ] Debilitating Strike still has lasting bleed
 	- This needs to change
 - [ ] No attack Roll rules in making an attack

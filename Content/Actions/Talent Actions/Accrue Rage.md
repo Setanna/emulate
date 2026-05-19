@@ -21,4 +21,4 @@ ___
 <br>
 
 **System:**
-You gain a [[Rules/Mechanics/Resources/Rage | Rage]] Point.
+You gain [[Rules/Mechanics/Resources/Rage | Rage]] Points. The number of [[Rules/Mechanics/Resources/Rage | Rage]] Points you gain is equal to the damage you dealt or took *after damage reduction*, to a minimum of one.
