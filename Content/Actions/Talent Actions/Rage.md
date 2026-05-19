@@ -11,14 +11,14 @@ await dv.view("_meta/Dataview/Components/action_title", {
 });
 ```
 
-**Requirements:** You have 2 or more [[Resources#Rage Points | Rage Points]]
+**Requirements:** You have 2 or more [[Rules/Mechanics/Resources/Rage | Rage]] Points
 ___
 *A quiet breath, before the the battlecry*
 
 <br>
 
 **Cost:**
-This action cost an additional 2 [[Resources#Rage Points | Rage Points]] to use.
+This action cost an additional 2 [[Rules/Mechanics/Resources/Rage | Rage]] Points to use.
 
 **System:**
 You gain the [[Enraged]] Condition.

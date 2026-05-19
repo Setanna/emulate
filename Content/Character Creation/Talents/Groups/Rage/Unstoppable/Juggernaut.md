@@ -22,4 +22,4 @@ You can ignore any Speed Penalties as long as the source has a DC less than 10 +
 
 <br>
 
-At the start of your Turn you can expend a number of [[Resources#Rage Points | Rage Points]] up to your Strength, to increase your Strength by that amount for the purposes of this Talent until start of your next turn.
+At the start of your Turn you can expend a number of [[Rules/Mechanics/Resources/Rage | Rage]] Points up to your Strength, to increase your Strength by that amount for the purposes of this Talent until start of your next turn.

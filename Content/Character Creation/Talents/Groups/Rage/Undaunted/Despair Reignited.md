@@ -17,4 +17,4 @@ await dv.view("_meta/Dataview/Components/talent_title");
 <br>
 
 **System:**
-Whenever you would take [[Damage Types | Psychic Damage]], you gain that many [[Resources#Rage Points | Rage Points]]. *You take damage after Armor and Damage Reduction*
+Whenever you would take [[Damage Types | Psychic Damage]], you gain that many [[Rules/Mechanics/Resources/Rage | Rage]] Points. *You take damage after Armor and Damage Reduction*

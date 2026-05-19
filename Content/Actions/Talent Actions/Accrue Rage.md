@@ -21,4 +21,4 @@ ___
 <br>
 
 **System:**
-You gain a [[Resources#Rage Points | Rage Point]].
+You gain a [[Rules/Mechanics/Resources/Rage | Rage]] Point.

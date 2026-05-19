@@ -19,7 +19,7 @@ ___
 <br>
 
 **Cost:**
-This action cost an additional 2 [[Resources#Ki Points | Ki Points]] to use.
+This action cost an additional 2 [[Rules/Mechanics/Resources/Ki | Ki]] Points to use.
 
 **System:**
 If you would deal damage, the defender makes a [[Saving Throws#Fortitude | Fortitude]] Saving Throw.

@@ -17,7 +17,7 @@ await dv.view("_meta/Dataview/Components/talent_title");
 <br>
 
 **Cost:**
-When you use the given Trigger, it gains a Cost of 1 [[Resources#Rage Points | Rage Point]].
+When you use the given Trigger, it gains a Cost of 1 [[Rules/Mechanics/Resources/Rage | Rage]] Point.
 
 <br>
 

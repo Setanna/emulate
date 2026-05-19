@@ -23,6 +23,19 @@ kanban-plugin: board
 	- Additional Reaction?
 	
 	</details>
+- [ ] <details> 
+	<summary> 
+		<b>
+			 Resources
+		</b> 
+	</summary>
+	
+	-  [ ] **Make Fate into a Resource?**
+	- Maybe in the future
+	- Fate Dice sound cooler than Fate Points
+	- Fate Dice should feel Meta? If they work like resources it might not feel "epic" or any different that just another Rage Point?
+	
+	</details>
 
 
 ## Doing
