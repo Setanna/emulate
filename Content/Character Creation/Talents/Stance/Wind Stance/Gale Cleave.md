@@ -2,6 +2,7 @@
 tags: [Martial]
 xp: 24
 traits:
+  - link: Air
   - link: Finesse
 requires:
   - [[Content/Character Creation/Talents/Stance/Wind Stance/Wind Stance|Wind Stance]]
