@@ -66,31 +66,35 @@ class TalentTreeView extends ItemView {
         await this.updateTree();
     }
 
-    // ✅ FIXED: properly handles [[Link | Alias]] and Obsidian objects
-    normalize(v) {
+    // Resolve ANY Obsidian link (including full paths + aliases) -> TFile
+    resolveFile(v, sourcePath) {
         if (!v) return null;
 
-        // Handle Obsidian link objects safely
         if (typeof v === "object") {
-            if (v.path) {
-                v = v.path;
-            } else {
-                v = String(v);
-            }
+            if (v.path) v = v.path;
+            else v = String(v);
         }
 
         if (typeof v !== "string") return null;
 
-        return v
-            // remove wiki brackets
+        const cleaned = v
             .replace(/\[\[|\]\]/g, "")
-            // take LEFT side of alias (real filename)
             .split("|")[0]
             .trim();
+
+        return this.app.metadataCache.getFirstLinkpathDest(cleaned, sourcePath);
     }
 
     getFolder(file) {
         return file.path.split('/').slice(0, -1).join('/');
+    }
+
+    getNodeId(file) {
+        return file.path; // stable ID
+    }
+
+    getLabel(file) {
+        return file.basename; // display only
     }
 
     async updateTree() {
@@ -103,45 +107,41 @@ class TalentTreeView extends ItemView {
             const container = this.containerEl.children[1];
             container.empty();
 
-            const file = this.app.workspace.getActiveFile();
-            if (!file) return;
+            const activeFile = this.app.workspace.getActiveFile();
+            if (!activeFile) return;
 
             const allFiles = this.app.vault.getMarkdownFiles();
-            const fileSet = new Set(allFiles.map(f => f.basename));
+            const fileByPath = new Map(allFiles.map(f => [f.path, f]));
 
-            const startFolder = this.getFolder(file);
+            const startFolder = this.getFolder(activeFile);
 
-            // Allow same folder + subfolders
-            const isFolderMatch = (name) => {
-
-                const f = allFiles.find(x => x.basename === name);
-                if (!f) return false;
-
-                const targetFolder = this.getFolder(f);
-
+            const inScopeFolder = (file) => {
+                const folder = this.getFolder(file);
                 return (
-                    targetFolder === startFolder ||
-                    targetFolder.startsWith(startFolder + "/")
+                    folder === startFolder ||
+                    folder.startsWith(startFolder + "/")
                 );
             };
 
-            // ---------------------------------------------------
-            // GLOBAL GRAPH
-            // ---------------------------------------------------
+            // -----------------------------
+            // GRAPH STRUCTURES (PATH BASED)
+            // -----------------------------
+            const requiresMap = new Map(); // path -> {normal: [], orGroups: []}
+            const reverseMap = new Map();  // path -> [{nodePath, isOr}]
 
-            const talentRequires = new Map();
-            const reverseMap = new Map();
+            const addReverse = (reqFile, dependentPath, isOr) => {
+                if (!reqFile) return;
 
-            const addReverse = (req, dependent, isOr = false) => {
+                const key = reqFile.path;
 
-                const n = this.normalize(req);
-                if (!n || !fileSet.has(n)) return;
-
-                if (!reverseMap.has(n)) {
-                    reverseMap.set(n, []);
+                if (!reverseMap.has(key)) {
+                    reverseMap.set(key, []);
                 }
 
-                reverseMap.get(n).push({ node: dependent, isOr });
+                reverseMap.get(key).push({
+                    node: dependentPath,
+                    isOr
+                });
             };
 
             for (const f of allFiles) {
@@ -158,88 +158,83 @@ class TalentTreeView extends ItemView {
 
                 for (const item of raw) {
 
+                    // OR group: { any: [...] }
                     if (item && typeof item === "object" && item.any) {
 
                         const group = item.any
-                            .map(x => this.normalize(x))
-                            .filter(x => fileSet.has(x));
+                            .map(x => this.resolveFile(x, f.path))
+                            .filter(Boolean)
+                            .map(x => x.path);
 
                         if (group.length) {
-
                             orGroups.push(group);
 
-                            for (const g of group) {
-                                addReverse(g, f.basename, true);
+                            for (const gPath of group) {
+                                addReverse(fileByPath.get(gPath), f.path, true);
                             }
                         }
 
                     } else {
 
-                        const n = this.normalize(item);
+                        const resolved = this.resolveFile(item, f.path);
+                        if (!resolved) continue;
 
-                        if (fileSet.has(n)) {
-                            normal.push(n);
-                            addReverse(n, f.basename, false);
-                        }
+                        normal.push(resolved.path);
+                        addReverse(resolved, f.path, false);
                     }
                 }
 
-                talentRequires.set(f.basename, { normal, orGroups });
+                requiresMap.set(f.path, { normal, orGroups });
             }
 
-            // ---------------------------------------------------
-            // GRAPH WALK
-            // ---------------------------------------------------
-
+            // -----------------------------
+            // WALK GRAPH
+            // -----------------------------
             const visited = new Set();
             const edges = new Set();
 
-            const walk = (node) => {
+            const walk = (nodePath) => {
 
-                if (visited.has(node)) return;
-                visited.add(node);
+                if (visited.has(nodePath)) return;
+                visited.add(nodePath);
 
-                const reqs = talentRequires.get(node);
+                const reqs = requiresMap.get(nodePath);
 
                 if (reqs) {
 
-                    for (const req of reqs.normal) {
+                    for (const reqPath of reqs.normal) {
 
-                        if (!fileSet.has(req)) continue;
-
-                        const edge = `${req}-->${node}`;
+                        const edge = `${reqPath}-->${nodePath}`;
 
                         if (!edges.has(edge)) {
                             edges.add(edge);
-                            walk(req);
+                            walk(reqPath);
                         }
                     }
 
                     for (const group of reqs.orGroups) {
 
-                        for (const option of group) {
+                        for (const optionPath of group) {
 
-                            if (!fileSet.has(option)) continue;
-
-                            const edge = `OR:${option}-->${node}`;
+                            const edge = `OR:${optionPath}-->${nodePath}`;
 
                             if (!edges.has(edge)) {
                                 edges.add(edge);
-                                walk(option);
+                                walk(optionPath);
                             }
                         }
                     }
                 }
 
-                const children = reverseMap.get(node) || [];
+                const children = reverseMap.get(nodePath) || [];
 
                 for (const child of children) {
 
-                    if (!isFolderMatch(child.node)) continue;
+                    if (!inScopeFolder(fileByPath.get(child.node))) continue;
 
                     const edge = child.isOr
-                        ? `OR:${node}-->${child.node}`
-                        : `${node}-->${child.node}`;
+                        ? `OR:${nodePath}-->${child.node}`
+                        : `${nodePath}-->${child.node}`;
 
                     if (!edges.has(edge)) {
                         edges.add(edge);
@@ -248,27 +243,34 @@ class TalentTreeView extends ItemView {
                 }
             };
 
-            walk(file.basename);
+            walk(activeFile.path);
 
-            // ---------------------------------------------------
+            // -----------------------------
             // MERMAID OUTPUT
-            // ---------------------------------------------------
-
+            // -----------------------------
             let mermaid = "```mermaid\n";
             mermaid += "graph TD\n";
 
             for (const e of edges) {
 
                 const isOr = e.startsWith("OR:");
-                const [from, to] = e.replace("OR:", "").split("-->");
+                const [fromPath, toPath] = e.replace("OR:", "").split("-->");
 
-                const safeFrom = from.replace(/\s+/g, '_');
-                const safeTo = to.replace(/\s+/g, '_');
+                const fromFile = fileByPath.get(fromPath);
+                const toFile = fileByPath.get(toPath);
+
+                if (!fromFile || !toFile) continue;
+
+                const fromId = fromFile.path.replace(/\W/g, "_");
+                const toId = toFile.path.replace(/\W/g, "_");
+
+                const fromLabel = fromFile.basename;
+                const toLabel = toFile.basename;
 
                 if (isOr) {
-                    mermaid += `${safeFrom}["${from}"] -.->|OR| ${safeTo}["${to}"]\n`;
+                    mermaid += `${fromId}["${fromLabel}"] -.->|OR| ${toId}["${toLabel}"]\n`;
                 } else {
-                    mermaid += `${safeFrom}["${from}"] --> ${safeTo}["${to}"]\n`;
+                    mermaid += `${fromId}["${fromLabel}"] --> ${toId}["${toLabel}"]\n`;
                 }
             }
 
@@ -277,7 +279,7 @@ class TalentTreeView extends ItemView {
             await MarkdownRenderer.renderMarkdown(
                 mermaid,
                 container,
-                file.path,
+                activeFile.path,
                 this
             );
 
