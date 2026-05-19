@@ -1,8 +1,3 @@
----
-tags: []
-cssclass: pathfinder
----
-
 # Stance
 A Stance is a Combat Method that can be entered when taking an Action with the Stance Trait.
 

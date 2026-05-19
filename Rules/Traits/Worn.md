@@ -1,8 +1,3 @@
----
-tags: []
-cssclass: pathfinder
----
-
 # Worn
 Gear with the Worn Trait are worn by creatures. The Value of the Trait determines how it is worn as well as how many of them can we worn as shown below:
 

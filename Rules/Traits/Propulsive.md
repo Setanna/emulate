@@ -1,8 +1,3 @@
----
-tags: []
-cssclass: pathfinder
----
-
 # Propulsive
 A Weapon with the Propulsive Trait adds Strength to Damage Rolls instead of Dexterity.
 

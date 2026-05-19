@@ -1,7 +1,2 @@
----
-tags: []
-cssclass: pathfinder
----
-
 # Executioner
 Any Spell or Weapon with the Executioner Trait that would reduce a Creature to 0 Hit Points or less, increase the damage the Weapon or Spell would deal by the Value of this Trait. *This happens as you [[Taking an Action#6. Resolve the action | resolve]] the Action.*

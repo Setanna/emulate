@@ -1,8 +1,3 @@
----
-tags: []
-cssclass: pathfinder
----
-
 # Heavy
 Weapons with the Heavy Trait are unwieldy and powerful. When making a [[Making a Strike | Strike]] with a Heavy Weapon you gain the following bonuses and penalties:
  - You suffer a -2 [[Circumstance]] Penalty on Attack Rolls unless wielded in two hands.

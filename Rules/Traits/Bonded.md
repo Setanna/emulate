@@ -1,8 +1,3 @@
----
-tags: []
-cssclass: pathfinder
----
-
 # Bonded
 A Social Bond with the Bonded Trait requires you to choose one or more eligible targets. These are usually creatures, though some bonds may allow an establishment, location, or similar entity instead.
 

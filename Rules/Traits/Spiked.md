@@ -1,8 +1,3 @@
----
-tags: []
-cssclass: pathfinder
----
-
 # Spiked
 The Spiked Trait can only be applied to Armor and Shields with the [[Bash]] Trait. The Damage Die for the [[Bash]] is increased by one step; and the damage dealt is [[Damage Types | piercing]].
 

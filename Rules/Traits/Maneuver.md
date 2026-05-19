@@ -1,8 +1,3 @@
----
-tags: []
-cssclass: pathfinder
----
-
 # Maneuver
 Actions with the Maneuver Trait, aim to disorient, displace or disarm their opponents in one way or another. 
 

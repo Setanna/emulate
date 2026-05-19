@@ -1,8 +1,3 @@
----
-tags: []
-cssclass: pathfinder
----
-
 # Light
 Weapons with the Light Trait can easily be dual wielded or thrown. When making a [[Making a Strike | Strike]] with a Light Weapon you add only half your Strength to the Damage Roll instead of your Strength.
 

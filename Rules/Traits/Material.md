@@ -1,8 +1,3 @@
----
-tags: []
-cssclass: pathfinder
----
-
 # Material
 
 > [!warning] Out of Date
