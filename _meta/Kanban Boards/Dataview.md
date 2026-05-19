@@ -16,6 +16,8 @@ kanban-plugin: board
 	-  [ ] **Figure out syntax**
 		- Should links have [[]] to allow easy finding?
 		- Should display have ""?
+	- [ ] **Backlinks**
+	- Properties do not properly show backlinks unless it is something like "[[Ki]]"
 	
 	</details>
 - [ ] <details> 
