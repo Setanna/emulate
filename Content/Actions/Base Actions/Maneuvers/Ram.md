@@ -2,7 +2,7 @@
 seconds: 4
 traits:
  - link: Maneuver
- - link: Movement
+ - link: Momentum
  - link: Skill
    display: "Skill (Athletics)"
 ---
