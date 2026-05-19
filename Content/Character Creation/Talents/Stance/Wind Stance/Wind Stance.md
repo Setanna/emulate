@@ -2,6 +2,7 @@
 tags: [Martial]
 xp: 12
 traits:
+  - link: Air
   - link: Finesse
   - link: Stance
 requires:
