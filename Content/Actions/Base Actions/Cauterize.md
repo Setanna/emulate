@@ -1,7 +1,7 @@
 ---
 seconds: 1
 traits:
- - link: Accurate
+ - link: "[[Accurate]]"
 ---
 
 ```dataviewjs

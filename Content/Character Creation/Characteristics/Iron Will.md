@@ -1,9 +1,8 @@
 ---
 xp: 8
 traits:
- - link: Emotion
-   display: Emotion (Hope)
- - link: Merit
+ - link: "[[Emotion | Emotion (Hope)]]"
+ - link: "[[Merit]]"
 ---
 
 ```dataviewjs

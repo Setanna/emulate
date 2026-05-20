@@ -2,7 +2,7 @@
 tags: [Martial/Monk/Leaf_Stance]
 xp: 12
 traits:
-  - link: Stance
+  - link: "[[Stance]]"
 requires:
   - [[Skill Focus | Skill Focus (Acrobatics)]]
   - Dexterity 2+

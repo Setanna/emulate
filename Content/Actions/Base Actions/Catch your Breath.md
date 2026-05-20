@@ -1,7 +1,7 @@
 ---
 seconds: -2
 traits:
-- link: Focus
+- link: "[[Focus]]"
 ---
 
 ```dataviewjs

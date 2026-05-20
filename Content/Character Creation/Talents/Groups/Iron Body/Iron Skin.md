@@ -2,8 +2,8 @@
 tags: [Martial/Monk/Iron_Body]
 xp: 18
 traits:
- - link: Unarmored
- - link: Gapless
+ - link: "[[Unarmored]]"
+ - link: "[[Gapless]]"
 requires:
   - [[Iron Strikes]]
   - Strength 3+

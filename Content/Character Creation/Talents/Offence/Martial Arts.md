@@ -2,7 +2,7 @@
 tags: [Martial/Monk]
 xp: 4
 traits:
- - link: Finesse
+ - link: "[[Finesse]]"
 requires:
   - [[Content/Gear/Natural Weapons/Unarmed Strikes | Unarmed Strikes]]
   - Strength 1+

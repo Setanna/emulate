@@ -2,7 +2,7 @@
 tags: [Martial/Monk/Iron_Body]
 xp: 20
 traits:
- - link: Finesse
+ - link: "[[Finesse]]"
 requires:
   - [[Iron Strikes]]
   - Strength 3+

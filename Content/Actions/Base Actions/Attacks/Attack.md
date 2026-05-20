@@ -1,10 +1,8 @@
 ---
 seconds: 3
 traits:
- - link: Rules/Traits/Attack
-   display: "Attack"
- - link: Rules/Traits/Item
-   display: "Item (Weapon)"
+ - link: "[[Rules/Traits/Attack]]"
+ - link: "[[Rules/Traits/Item | Item (Weapon)]]"
 ---
 
 ```dataviewjs

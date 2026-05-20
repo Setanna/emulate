@@ -1,10 +1,9 @@
 ---
 xp: -16
 traits:
- - link: Emotion
-   display: Emotion (Disgust)
- - link: Sight
- - link: Merit
+ - link: "[[Emotion | Emotion (Disgust)]]"
+ - link: "[[Sight]]"
+ - link: "[[Merit]]"
 ---
 
 ```dataviewjs

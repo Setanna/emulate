@@ -1,8 +1,7 @@
 ---
 seconds: 1
 traits:
- - link: Skill
-   display: "Skill (Stealth)"
+ - link: "[[Skill | Skill (Stealth)]]"
 ---
 
 ```dataviewjs

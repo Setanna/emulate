@@ -2,7 +2,7 @@
 tags: [Martial/Rogue]
 xp: 12
 traits:
- - link: Finesse
+ - link: "[[Finesse]]"
 requires:
   - Strength 1+
 ---

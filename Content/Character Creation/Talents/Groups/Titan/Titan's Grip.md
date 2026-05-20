@@ -10,8 +10,6 @@ requires:
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
 
-**Requirement:** [[Titanborn]]; Strength 4+
-___
 *You wield the impossible with ease.*
 
 <br>

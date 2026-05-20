@@ -2,10 +2,9 @@
 tags: []
 cssclass: pathfinder
 traits:
- - link: Size
-   display: Medium
+ - link: "[[Size | Medium]]"
    css: size-trait
- - link: Humanoid
+ - link: "[[Humanoid]]"
 purchases:
  - link: Human
  - link: Scars

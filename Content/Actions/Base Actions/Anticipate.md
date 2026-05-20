@@ -1,9 +1,9 @@
 ---
 seconds: 2
 traits:
- - link: Safe
- - link: Secret
- - link: Timed
+ - link: "[[Safe]]"
+ - link: "[[Secret]]"
+ - link: "[[Timed]]"
 ---
 
 ```dataviewjs

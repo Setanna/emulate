@@ -1,9 +1,9 @@
 ---
 xp: 30
 traits:
- - link: Racial
- - link: Birthright
- - link: Merit
+ - link: "[[Racial]]"
+ - link: "[[Birthright]]"
+ - link: "[[Merit]]"
 ---
 
 ```dataviewjs

@@ -1,13 +1,11 @@
 ---
 seconds: 1
 traits:
- - link: Emotion
-   display: "Emotion (Anger)"
- - link: Sight
- - link: Language
- - link: Skill
-   display: "Skill (Intimidate, Diplomacy or Bluff)"
- - link: Timed
+ - link: "[[Emotion | Emotion (Anger)]]"
+ - link: "[[Sight]]"
+ - link: "[[Language]]"
+ - link: "[[Skill | Skill (Intimidate, Diplomacy or Bluff)]]"
+ - link: "[[Timed]]"
 ---
 
 ```dataviewjs

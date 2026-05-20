@@ -2,7 +2,7 @@
 tags: [Martial/Monk/Ki]
 xp: 12
 traits:
- - link: Unarmed
+ - link: "[[Unarmed]]"
 requires:
   - [[Ki]]
   - Dexterity 1+

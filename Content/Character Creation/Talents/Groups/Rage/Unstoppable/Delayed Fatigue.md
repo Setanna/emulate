@@ -2,8 +2,7 @@
 tags: [Martial/Barbarian/Unstoppable]
 xp: 8
 traits:
- - link: Emotion
-   value: (Anger)
+ - link: "[[Emotion | Emotion (Anger)]]"
 requires:
   - [[Surge of Fury]]
   - Strength 2+

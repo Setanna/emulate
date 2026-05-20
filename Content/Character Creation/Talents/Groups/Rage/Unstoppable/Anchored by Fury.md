@@ -2,9 +2,8 @@
 tags: [Martial/Barbarian/Unstoppable]
 xp: 12
 traits:
- - link: Emotion
-   value: (Anger)
- - link: Ragebound
+ - link: "[[Emotion | Emotion (Anger)]]"
+ - link: "[[Ragebound]]"
 requires:
   - [[Juggernaut]]
 ---

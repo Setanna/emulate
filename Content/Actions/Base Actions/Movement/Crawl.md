@@ -1,7 +1,7 @@
 ---
 seconds: 2
 traits:
- - link: Movement
+ - link: "[[Movement]]"
 ---
 
 ```dataviewjs

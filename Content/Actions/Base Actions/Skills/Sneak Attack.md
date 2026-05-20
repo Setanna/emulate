@@ -1,9 +1,8 @@
 ---
 seconds: 3
 traits:
- - link: Attack
- - link: Skill
-   display: "Skill (Stealth)"
+ - link: "[[Attack]]"
+ - link: "[[Skill | Skill (Stealth)]]"
 ---
 
 ```dataviewjs

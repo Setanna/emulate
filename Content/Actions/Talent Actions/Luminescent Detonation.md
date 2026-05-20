@@ -1,8 +1,8 @@
 ---
 seconds: -1
 traits:
- - link: Arcane
- - link: Reactive
+ - link: "[[Arcane]]"
+ - link: "[[Reactive]]"
 ---
 
 ```dataviewjs

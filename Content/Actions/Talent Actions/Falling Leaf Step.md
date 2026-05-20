@@ -1,8 +1,8 @@
 ---
 seconds: -1
 traits:
- - link: Reactive
- - link: Movement
+ - link: "[[Reactive]]"
+ - link: "[[Movement]]"
 ---
 
 ```dataviewjs

@@ -1,10 +1,8 @@
 ---
 seconds: 4
 traits:
- - link: Rules/Traits/Item
-   display: "Item (Medicine Kit)"
- - link: Skill
-   display: "Skill (Medicine)"
+ - link: "[[Rules/Traits/Item | Item (Medicine Kit)]]"
+ - link: "[[Skill | Skill (Medicine)]]"
 ---
 
 ```dataviewjs

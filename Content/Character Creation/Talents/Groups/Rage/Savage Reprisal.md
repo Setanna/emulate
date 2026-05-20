@@ -2,9 +2,8 @@
 tags: [Martial/Barbarian]
 xp: 8
 traits:
- - link: Emotion
-   value: (Anger)
- - link: Ragebound
+ - link: "[[Emotion | Emotion (Anger)]]"
+ - link: "[[Ragebound]]"
 requires:
   - [[Reactive Rage]]
 ---

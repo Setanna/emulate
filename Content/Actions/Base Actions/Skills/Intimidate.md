@@ -1,13 +1,11 @@
 ---
 seconds: 1
 traits:
- - link: Emotion
-   display: "Emotion (Fear)"
- - link: Sight
- - link: Language
- - link: Skill
-   display: "Skill (Intimidate)"
- - link: Timed
+ - link: "[[Emotion | Emotion (Fear)]]"
+ - link: "[[Sight]]"
+ - link: "[[Language]]"
+ - link: "[[Skill | Skill (Intimidate)]]"
+ - link: "[[Timed]]"
 ---
 
 ```dataviewjs

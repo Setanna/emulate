@@ -1,9 +1,8 @@
 ---
 xp: -8
 traits:
- - link: Emotion
-   value: (Fear)
- - link: Flaw
+ - link: "[[Emotion | Emotion (Fear)]]"
+ - link: "[[Flaw]]"
 ---
 
 ```dataviewjs

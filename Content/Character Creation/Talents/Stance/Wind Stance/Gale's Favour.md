@@ -2,8 +2,8 @@
 tags: [Martial]
 xp: 12
 traits:
-  - link: Air
-  - link: Finesse
+  - link: "[[Air]]"
+  - link: "[[Finesse]]"
 requires:
   - Strength 1+
 ---

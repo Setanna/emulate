@@ -1,7 +1,7 @@
 ---
 seconds: 1
 traits:
- - link: Arcane
+ - link: "[[Arcane]]"
 ---
 
 ```dataviewjs

@@ -1,8 +1,7 @@
 ---
 seconds: 1
 traits:
- - link: Emotion
-   display: Emotion (Anger)
+ - link: "[[Emotion | Emotion (Anger)]]"
 ---
 
 ```dataviewjs

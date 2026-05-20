@@ -2,8 +2,7 @@
 tags: [Martial/Barbarian/Unbreakable]
 xp: 12
 traits:
- - link: Emotion
-   value: (Anger)
+ - link: "[[Emotion | Emotion (Anger)]]"
 requires:
   - [[Unyielding Rage]]
   - Constitution 3+

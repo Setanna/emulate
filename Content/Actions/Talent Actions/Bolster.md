@@ -1,7 +1,7 @@
 ---
 seconds: 1
 traits:
- - link: Timed
+ - link: "[[Timed]]"
 ---
 
 ```dataviewjs

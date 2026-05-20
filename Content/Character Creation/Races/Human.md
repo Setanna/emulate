@@ -4,10 +4,9 @@ hit_die: 8
 speed: 5
 purchases:
 traits:
- - link: Size
-   display: Short
-   css: size-trait
- - link: Humanoid
+ - link: "[[Size | Medium]]"
+   css: "size-trait"
+ - link: "[[Humanoid]]"
 ---
 
 ```dataviewjs

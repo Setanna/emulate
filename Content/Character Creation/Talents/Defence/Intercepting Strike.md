@@ -2,7 +2,7 @@
 tags: [Martial]
 xp: 4
 traits:
- - link: Finesse
+ - link: "[[Finesse]]"
 requires:
   - Strength 1+
 ---

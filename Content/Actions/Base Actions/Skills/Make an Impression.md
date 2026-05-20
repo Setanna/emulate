@@ -1,9 +1,8 @@
 ---
 seconds: 4
 traits:
- - link: Language
- - link: Skill
-   display: "Skill (Diplomacy or Survival)"
+ - link: "[[Language]]"
+ - link: "[[Skill | Skill (Diplomacy or Survival)]]"
 ---
 
 ```dataviewjs

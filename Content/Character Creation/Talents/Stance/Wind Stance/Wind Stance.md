@@ -2,9 +2,9 @@
 tags: [Martial]
 xp: 12
 traits:
-  - link: Air
-  - link: Finesse
-  - link: Stance
+  - link: "[[Air]]"
+  - link: "[[Finesse]]"
+  - link: "[[Stance]]"
 requires:
   - [[Content/Character Creation/Talents/Stance/Wind Stance/Windslash|Windslash]]
   - Strength 3+

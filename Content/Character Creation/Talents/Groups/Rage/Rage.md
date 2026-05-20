@@ -2,8 +2,7 @@
 tags: [Martial/Barbarian]
 xp: 8
 traits:
- - link: Emotion
-   value: (Anger)
+ - link: "[[Emotion | Emotion (Anger)]]"
 requires:
   - Strength 2+
   - Constitution 1+

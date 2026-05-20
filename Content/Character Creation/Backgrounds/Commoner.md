@@ -1,7 +1,7 @@
 ---
 xp: 2
 traits:
-  - link: Wealth
+  - link: "[[Wealth]]"
 ---
 
 ```dataviewjs

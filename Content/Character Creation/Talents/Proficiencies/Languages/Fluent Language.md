@@ -2,7 +2,7 @@
 tags: [Proficiencies/Languages]
 xp: 4
 traits:
-  - link: Expansive
+  - link: "[[Expansive]]"
 requires:
   - [[Basic Language | Basic Language (Chosen Language)]]
 ---

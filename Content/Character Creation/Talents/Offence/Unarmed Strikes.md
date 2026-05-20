@@ -7,7 +7,6 @@ xp: 0
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
 
-___
 *Flavor Text*
 
 <br>

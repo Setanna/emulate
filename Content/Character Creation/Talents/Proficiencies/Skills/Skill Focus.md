@@ -2,7 +2,7 @@
 tags: [Proficiencies/Skills]
 xp: 4
 traits:
-  - link: Expansive
+  - link: "[[Expansive]]"
 requires:
   - [[Skill Proficiency | Skill Proficiency (Chosen Skill)]]
 ---

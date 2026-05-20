@@ -1,9 +1,9 @@
 ---
 xp: 4
 traits:
- - link: Bonded
- - link: Expansive
- - link: Wealth
+ - link: "[[Bonded]]"
+ - link: "[[Expansive]]"
+ - link: "[[Wealth]]"
 ---
 
 ```dataviewjs

@@ -2,8 +2,8 @@
 tags: [Martial/Fighter/Champion]
 xp: 18
 traits:
- - link: Bonded
- - link: Expansive
+ - link: "[[Bonded]]"
+ - link: "[[Expansive]]"
 requires:
   - [[Survivor]]
   - [[Indomitable]]

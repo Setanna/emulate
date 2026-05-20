@@ -2,11 +2,9 @@
 tags: [Skills/Intimidation]
 xp: 8
 traits:
- - link: Skill
-   value: (Intimidation)
- - link: Emotion
-   value: (Fear)
- - link: Sight
+ - link: "[[Skill | Skill (Intimidation)]]"
+ - link: "[[Emotion | Emotion (Fear)]]"
+ - link: "[[Sight]]"
 requires:
   - [[Skill Specialization | Skill Specialization (Intimidation)]]
 ---

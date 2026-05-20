@@ -2,8 +2,7 @@
 tags: [Martial]
 xp: 12
 traits:
- - link: Emotion
-   value: (Pain)
+ - link: "[[Emotion | Emotion (Pain)]]"
 requires:
   - [[Sadistic]]
 ---

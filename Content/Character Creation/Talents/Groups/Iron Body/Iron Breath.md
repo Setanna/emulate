@@ -2,7 +2,7 @@
 tags: [Martial/Monk/Iron_Body]
 xp: 16
 traits:
- - link: Unarmored
+ - link: "[[Unarmored]]"
 requires:
   - [[Iron Skin]]
   - Constitution 1+

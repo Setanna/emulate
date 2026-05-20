@@ -2,7 +2,7 @@
 tags: [Proficiencies/Skills]
 xp: 64
 traits:
-  - link: Expansive
+  - link: "[[Expansive]]"
 requires:
   - [[Skill Specialization | Skill Specialization (Chosen Skill)]]
 ---

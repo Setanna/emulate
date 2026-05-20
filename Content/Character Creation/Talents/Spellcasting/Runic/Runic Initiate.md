@@ -2,7 +2,7 @@
 tags: [Caster/Wizard]
 xp: 12
 traits:
-  - link: Arcane
+  - link: "[[Arcane]]"
 requires:
   - [[Basic Language | Basic Language (Runic)]]
   - Intelligence 2+

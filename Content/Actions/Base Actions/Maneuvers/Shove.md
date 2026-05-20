@@ -1,9 +1,8 @@
 ---
 seconds: 3
 traits:
- - link: Maneuver
- - link: Skill
-   display: "Skill (Athletics or Acrobatics)"
+ - link: "[[Maneuver]]"
+ - link: "[[Skill | Skill (Athletics or Acrobatics)]]"
 ---
 
 ```dataviewjs

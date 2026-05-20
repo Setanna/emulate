@@ -2,8 +2,7 @@
 tags: [Martial/Marshal]
 xp: 8
 traits:
- - link: Item
-   value: (Dueling Cape)
+ - link: "[[Item | Item (Dueling Cape)]]"
 requires:
   - [[Dramatic Reveal]]
   - [[Skill Focus | Skill Focus (Bluff)]]

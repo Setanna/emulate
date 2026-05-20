@@ -1,7 +1,7 @@
 ---
 xp: 128
 traits:
- - link: Merit
+ - link: "[[Merit]]"
 ---
 
 ```dataviewjs

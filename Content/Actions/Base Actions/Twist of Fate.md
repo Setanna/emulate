@@ -1,8 +1,8 @@
 ---
 seconds: 0
 traits:
- - link: Fate
- - link: Reactive
+ - link: "[[Fate]]"
+ - link: "[[Reactive]]"
 ---
 
 ```dataviewjs

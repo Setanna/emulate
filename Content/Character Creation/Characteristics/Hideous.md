@@ -1,10 +1,9 @@
 ---
 xp: -48
 traits:
- - link: Emotion
-   value: (Disgust)
- - link: Sight
- - link: Flaw
+ - link: "[[Emotion | Emotion (Disgust)]]"
+ - link: "[[Sight]]"
+ - link: "[[Flaw]]"
 ---
 
 ```dataviewjs

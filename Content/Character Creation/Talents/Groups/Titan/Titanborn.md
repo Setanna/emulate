@@ -2,7 +2,7 @@
 tags: [Martial]
 xp: 48
 traits:
- - link: Birthright
+ - link: "[[Birthright]]"
 requires:
   - Strength 3+
 ---

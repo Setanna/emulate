@@ -2,8 +2,7 @@
 tags: [Martial/Marshal]
 xp: 4
 traits:
- - link: Item
-   value: (Dueling Cape)
+ - link: "[[Item | Item (Dueling Cape)]]"
 requires:
   - Charisma 1+
 ---

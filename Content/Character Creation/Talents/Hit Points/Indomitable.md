@@ -14,10 +14,3 @@ await dv.view("_meta/Dataview/Components/talent_title");
 
 **System:**
 When you are at [[Negative Hit Points]] you gain the [[Slowed | Slowed 3]] Condition with the [[Persistent | Persistent 3]] Trait and don't fall [[Unconscious]].
-
-```mermaid
-graph TD
-A["Indomitable"] --> B["Scars Endure"]
-A --> C
-click B "obsidian://open?vault=YourVault&file=Scars Endure"
-```

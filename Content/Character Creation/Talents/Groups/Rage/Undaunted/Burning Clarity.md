@@ -2,8 +2,7 @@
 tags: [Martial/Barbarian/Undaunted]
 xp: 4
 traits:
- - link: Emotion
-   value: (Anger)
+ - link: "[[Emotion | Emotion (Anger)]]"
 requires:
   - [[Rage]]
   - Wisdom 1+

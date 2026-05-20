@@ -1,9 +1,8 @@
 ---
 seconds: -1
 traits:
- - link: Reactive
- - link: Rules/Traits/Item
-   display: "Item (Shield)"
+ - link: "[[Reactive]]"
+ - link: "[[Rules/Traits/Item | Item (Shield)]]"
 ---
 
 ```dataviewjs

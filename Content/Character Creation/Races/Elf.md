@@ -10,10 +10,9 @@ purchases:
  - link: Skill Proficiency
    display: Skill Proficiency (Insight)
 traits:
- - link: Size
-   display: Medium
-   css: size-trait
- - link: Humanoid
+ - link: "[[Size | Medium]]"
+   css: "size-trait"
+ - link: "[[Humanoid]]"
 ---
 
 ```dataviewjs

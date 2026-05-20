@@ -1,8 +1,8 @@
 ---
 seconds: 0
 traits:
- - link: Unarmed
- - link: Reactive
+ - link: "[[Unarmed]]"
+ - link: "[[Reactive]]"
 ---
 
 ```dataviewjs

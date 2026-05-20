@@ -1,10 +1,9 @@
 ---
 seconds: 2
 traits:
- - link: Item
- - link: Focus
- - link: Skill
-   display: "Skill (Knowledge)"
+ - link: "[[Item]]"
+ - link: "[[Focus]]"
+ - link: "[[Skill | Skill (Knowledge)]]"
 ---
 
 ```dataviewjs

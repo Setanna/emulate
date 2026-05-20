@@ -2,7 +2,7 @@
 tags: [Martial/Marshal]
 xp: 12
 traits:
- - link: Timed
+ - link: "[[Timed]]"
 requires:
   - [[Content/Actions/Talent Actions/Rally | Rally]]
   - Charisma 2+

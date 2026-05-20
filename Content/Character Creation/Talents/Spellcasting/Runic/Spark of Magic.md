@@ -2,7 +2,7 @@
 tags: [Caster/Wizard]
 xp: 6
 traits:
-  - link: Arcane
+  - link: "[[Arcane]]"
 requires:
   - [[Runic Initiate]]
 ---

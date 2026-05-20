@@ -1,10 +1,9 @@
 ---
 xp: 48
 traits:
- - link: Emotion
-   value: (Awe)
- - link: Sight
- - link: Merit
+ - link: "[[Emotion | Emotion (Awe)]]"
+ - link: "[[Sight]]"
+ - link: "[[Merit]]"
 ---
 
 ```dataviewjs

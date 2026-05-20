@@ -2,8 +2,7 @@
 tags: [Martial/Barbarian/Undaunted]
 xp: 8
 traits:
- - link: Emotion
-   value: (Anger)
+ - link: "[[Emotion | Emotion (Anger)]]"
 requires:
   - [[Burning Clarity]]
 ---

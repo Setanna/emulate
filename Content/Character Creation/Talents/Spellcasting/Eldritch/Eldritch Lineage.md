@@ -2,7 +2,7 @@
 tags: [Caster/Sorcerer]
 xp: 12
 traits:
-  - link: Arcane
+  - link: "[[Arcane]]"
 requires:
   - Charisma 2+
 ---

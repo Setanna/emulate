@@ -2,8 +2,8 @@
 tags: [Caster/Paladin]
 xp: 6
 traits:
-  - link: Unarmored
-  - link: Gapless
+  - link: "[[Unarmored]]"
+  - link: "[[Gapless]]"
 requires:
   - [[Conviction]]
   - Charisma 2+

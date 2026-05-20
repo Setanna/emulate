@@ -2,9 +2,8 @@
 tags: [Martial/Barbarian/Unstoppable]
 xp: 24
 traits:
- - link: Emotion
-   value: (Anger)
- - link: Ragebound
+ - link: "[[Emotion | Emotion (Anger)]]"
+ - link: "[[Ragebound]]"
 requires:
   - [[Furious Stride]]
   - Strength 3+

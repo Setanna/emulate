@@ -1,9 +1,8 @@
 ---
 seconds: 1
 traits:
- - link: Language
- - link: Emotion
-   display: Emotion (Awe)
+ - link: "[[Language]]"
+ - link: "[[Emotion | Emotion (Awe)]]"
 ---
 
 ```dataviewjs

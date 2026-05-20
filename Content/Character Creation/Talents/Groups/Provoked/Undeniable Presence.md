@@ -2,7 +2,7 @@
 tags: [Martial/Marshal]
 xp: 24
 traits:
- - link: Sight
+ - link: "[[Sight]]"
 requires:
   - any:  
     - "[[Between All Eyes]]"  

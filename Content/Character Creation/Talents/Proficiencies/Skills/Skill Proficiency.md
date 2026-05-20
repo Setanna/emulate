@@ -2,7 +2,7 @@
 tags: [Proficiencies/Skills]
 xp: 1
 traits:
-  - link: Expansive
+  - link: "[[Expansive]]"
 ---
 
 ```dataviewjs

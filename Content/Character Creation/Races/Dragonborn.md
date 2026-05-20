@@ -14,11 +14,10 @@ purchases:
  - link: Skill Proficiency
    display: Skill Proficiency (Perception)
 traits:
- - link: Size
-   display: Medium
-   css: size-trait
- - link: Draconic
- - link: Humanoid
+ - link: "[[Size | Medium]]"
+   css: "size-trait"
+ - link: "[[Draconic]]"
+ - link: "[[Humanoid]]"
 ---
 
 ```dataviewjs

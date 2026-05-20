@@ -2,8 +2,8 @@
 tags: [Caster/Paladin]
 xp: 6
 traits:
-  - link: Arcane
-  - link: Belief
+  - link: "[[Arcane]]"
+  - link: "[[Belief]]"
 requires:
   - [[Step of Conviction]]
   - Charisma 2+

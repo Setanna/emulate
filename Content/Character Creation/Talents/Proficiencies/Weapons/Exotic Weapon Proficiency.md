@@ -2,7 +2,7 @@
 tags: [Proficiencies/Weapons]
 xp: 27
 traits:
-  - link: Expansive
+  - link: "[[Expansive]]"
 requires:
   - [[Advanced Weapon Proficiency]]
 ---

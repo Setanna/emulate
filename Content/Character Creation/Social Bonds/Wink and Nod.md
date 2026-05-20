@@ -1,8 +1,8 @@
 ---
 xp: 4
 traits:
- - link: Bonded
- - link: Sight
+ - link: "[[Bonded]]"
+ - link: "[[Sight]]"
 ---
 
 ```dataviewjs

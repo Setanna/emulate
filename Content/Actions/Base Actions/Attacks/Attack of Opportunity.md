@@ -1,11 +1,9 @@
 ---
 seconds: -1
 traits:
- - link: Rules/Traits/Attack
-   display: "Attack"
- - link: Reactive
- - link: Rules/Traits/Item
-   display: "Item (Melee Weapon)"
+ - link: "[[Rules/Traits/Attack]]"
+ - link: "[[Reactive]]"
+ - link: "[[Rules/Traits/Item | Item (Melee Weapon)]]"
 ---
 
 ```dataviewjs

@@ -1,9 +1,8 @@
 ---
 seconds: -1
 traits:
- - link: Reactive
- - link: Skill
-   display: "Skill (Climb)"
+ - link: "[[Reactive]]"
+ - link: "[[Skill | Skill (Climb)]]"
 ---
 
 ```dataviewjs

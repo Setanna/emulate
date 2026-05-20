@@ -2,8 +2,8 @@
 tags: [Caster/Sorcerer]
 xp: Varied
 traits:
-  - link: Arcane
-  - link: Expansive
+  - link: "[[Arcane]]"
+  - link: "[[Expansive]]"
 requires:
   - [[Eldritch Lineage]]
 ---

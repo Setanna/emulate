@@ -2,7 +2,7 @@
 tags: [Martial/Spellbane]
 xp: 9
 traits:
- - link: Resonance
+ - link: "[[Resonance]]"
 requires:
   - Constitution 2+
   - No Talents with the [[Arcane]] Trait

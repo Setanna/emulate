@@ -1,9 +1,8 @@
 ---
 xp: 4
 traits:
- - link: Skill
-   value: (Intimidation)
- - link: Merit
+ - link: "[[Skill | Skill (Intimidation)]]"
+ - link: "[[Merit]]"
 ---
 
 ```dataviewjs

@@ -7,10 +7,9 @@ purchases:
  - link: Fortunate
  - link: Lucky
 traits:
- - link: Size
-   display: Short
-   css: size-trait
- - link: Humanoid
+ - link: "[[Size | Medium]]"
+   css: "size-trait"
+ - link: "[[Humanoid]]"
 ---
 
 ```dataviewjs

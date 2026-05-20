@@ -1,9 +1,8 @@
 ---
 seconds: -1
 traits:
- - link: Reactive
- - link: Rules/Traits/Item
-   display: "Item (Weapon or Light; Medium Shield)"
+ - link: "[[Reactive]]"
+ - link: "[[Rules/Traits/Item | Item (Weapon or Light; Medium Shield)]]"
 ---
 
 ```dataviewjs
