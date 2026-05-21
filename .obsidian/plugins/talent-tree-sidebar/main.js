@@ -52,6 +52,7 @@ class TalentTreeView extends ItemView {
         super(leaf);
         this.app = app;
         this._rendering = false;
+        this.totalXPCache = new Map();
     }
 
     getViewType() {
@@ -68,6 +69,7 @@ class TalentTreeView extends ItemView {
 
     // Resolve ANY Obsidian link (including full paths + aliases) -> TFile
     resolveFile(v, sourcePath) {
+
         if (!v) return null;
 
         if (typeof v === "object") {
@@ -82,7 +84,10 @@ class TalentTreeView extends ItemView {
             .split("|")[0]
             .trim();
 
-        return this.app.metadataCache.getFirstLinkpathDest(cleaned, sourcePath);
+        return this.app.metadataCache.getFirstLinkpathDest(
+            cleaned,
+            sourcePath
+        );
     }
 
     getFolder(file) {
@@ -90,19 +95,20 @@ class TalentTreeView extends ItemView {
     }
 
     getNodeId(file) {
-        return file.path; // stable ID
+        return file.path;
     }
 
     getXP(file) {
 
-        const fm = this.app.metadataCache.getFileCache(file)?.frontmatter;
+        const fm = this.app.metadataCache
+            .getFileCache(file)?.frontmatter;
 
         if (!fm) return 0;
 
         // Supports:
         // xp: 12
         // XP: 12
-        // "12 XP"
+        // xp: "12 XP"
         const rawXP = fm.xp ?? fm.XP ?? 0;
 
         if (typeof rawXP === 'number') {
@@ -111,12 +117,22 @@ class TalentTreeView extends ItemView {
 
         const match = String(rawXP).match(/\d+/);
 
-        return match ? parseInt(match[0], 10) : 0;
+        return match
+            ? parseInt(match[0], 10)
+            : 0;
     }
 
     getTotalXP(file, requiresMap, fileByPath, visited = new Set()) {
 
-        if (!file || visited.has(file.path)) {
+        if (!file) return 0;
+
+        // Cached
+        if (this.totalXPCache.has(file.path)) {
+            return this.totalXPCache.get(file.path);
+        }
+
+        // Circular protection
+        if (visited.has(file.path)) {
             return 0;
         }
 
@@ -126,51 +142,55 @@ class TalentTreeView extends ItemView {
 
         const reqs = requiresMap.get(file.path);
 
-        if (!reqs) {
-            return total;
-        }
+        if (reqs) {
 
-        // Normal requirements
-        for (const reqPath of reqs.normal) {
+            // Normal requirements
+            for (const reqPath of reqs.normal) {
 
-            const reqFile = fileByPath.get(reqPath);
+                const reqFile = fileByPath.get(reqPath);
 
-            if (reqFile) {
-                total += this.getTotalXP(
-                    reqFile,
-                    requiresMap,
-                    fileByPath,
-                    visited
-                );
+                if (reqFile) {
+                    total += this.getTotalXP(
+                        reqFile,
+                        requiresMap,
+                        fileByPath,
+                        visited
+                    );
+                }
+            }
+
+            // OR groups
+            // Uses cheapest branch
+            for (const group of reqs.orGroups) {
+
+                let cheapest = Infinity;
+
+                for (const optionPath of group) {
+
+                    const optionFile = fileByPath.get(optionPath);
+
+                    if (!optionFile) continue;
+
+                    const optionCost = this.getTotalXP(
+                        optionFile,
+                        requiresMap,
+                        fileByPath,
+                        new Set(visited)
+                    );
+
+                    cheapest = Math.min(
+                        cheapest,
+                        optionCost
+                    );
+                }
+
+                if (cheapest !== Infinity) {
+                    total += cheapest;
+                }
             }
         }
 
-        // OR groups
-        // Use the cheapest branch for total calculation
-        for (const group of reqs.orGroups) {
-
-            let cheapest = Infinity;
-
-            for (const optionPath of group) {
-
-                const optionFile = fileByPath.get(optionPath);
-
-                if (!optionFile) continue;
-
-                const optionCost = this.getTotalXP(
-                    optionFile,
-                    requiresMap,
-                    fileByPath,
-                    new Set(visited)
-                );
-
-                cheapest = Math.min(cheapest, optionCost);
-            }
-
-            if (cheapest !== Infinity) {
-                total += cheapest;
-            }
-        }
+        this.totalXPCache.set(file.path, total);
 
         return total;
     }
@@ -178,30 +198,44 @@ class TalentTreeView extends ItemView {
     getLabel(file, requiresMap, fileByPath) {
 
         const xp = this.getXP(file);
-        const totalXP = this.getTotalXP(file, requiresMap, fileByPath);
+        const totalXP = this.getTotalXP(
+            file,
+            requiresMap,
+            fileByPath
+        );
 
-        return `${file.basename} ${xp} XP (${totalXP} XP)`;
+        return `${file.basename}<br/>${xp} / ${totalXP} XP`;
     }
 
     async updateTree() {
 
         if (this._rendering) return;
+
         this._rendering = true;
 
         try {
 
+            // Reset cache every render
+            this.totalXPCache.clear();
+
             const container = this.containerEl.children[1];
+
             container.empty();
 
             const activeFile = this.app.workspace.getActiveFile();
+
             if (!activeFile) return;
 
             const allFiles = this.app.vault.getMarkdownFiles();
-            const fileByPath = new Map(allFiles.map(f => [f.path, f]));
+
+            const fileByPath = new Map(
+                allFiles.map(f => [f.path, f])
+            );
 
             const startFolder = this.getFolder(activeFile);
 
             const inScopeFolder = (file) => {
+
                 const folder = this.getFolder(file);
 
                 return (
@@ -211,12 +245,16 @@ class TalentTreeView extends ItemView {
             };
 
             // -----------------------------
-            // GRAPH STRUCTURES (PATH BASED)
+            // GRAPH STRUCTURES
             // -----------------------------
-            const requiresMap = new Map(); // path -> {normal: [], orGroups: []}
-            const reverseMap = new Map();  // path -> [{nodePath, isOr}]
+            const requiresMap = new Map();
+            const reverseMap = new Map();
 
-            const addReverse = (reqFile, dependentPath, isOr) => {
+            const addReverse = (
+                reqFile,
+                dependentPath,
+                isOr
+            ) => {
 
                 if (!reqFile) return;
 
@@ -234,7 +272,8 @@ class TalentTreeView extends ItemView {
 
             for (const f of allFiles) {
 
-                const fm = this.app.metadataCache.getFileCache(f)?.frontmatter;
+                const fm = this.app.metadataCache
+                    .getFileCache(f)?.frontmatter;
 
                 if (!fm?.requires) continue;
 
@@ -247,8 +286,12 @@ class TalentTreeView extends ItemView {
 
                 for (const item of raw) {
 
-                    // OR group: { any: [...] }
-                    if (item && typeof item === "object" && item.any) {
+                    // OR group
+                    if (
+                        item &&
+                        typeof item === "object" &&
+                        item.any
+                    ) {
 
                         const group = item.any
                             .map(x => this.resolveFile(x, f.path))
@@ -260,23 +303,38 @@ class TalentTreeView extends ItemView {
                             orGroups.push(group);
 
                             for (const gPath of group) {
-                                addReverse(fileByPath.get(gPath), f.path, true);
+
+                                addReverse(
+                                    fileByPath.get(gPath),
+                                    f.path,
+                                    true
+                                );
                             }
                         }
 
                     } else {
 
-                        const resolved = this.resolveFile(item, f.path);
+                        const resolved = this.resolveFile(
+                            item,
+                            f.path
+                        );
 
                         if (!resolved) continue;
 
                         normal.push(resolved.path);
 
-                        addReverse(resolved, f.path, false);
+                        addReverse(
+                            resolved,
+                            f.path,
+                            false
+                        );
                     }
                 }
 
-                requiresMap.set(f.path, { normal, orGroups });
+                requiresMap.set(f.path, {
+                    normal,
+                    orGroups
+                });
             }
 
             // -----------------------------
@@ -297,10 +355,13 @@ class TalentTreeView extends ItemView {
 
                     for (const reqPath of reqs.normal) {
 
-                        const edge = `${reqPath}-->${nodePath}`;
+                        const edge =
+                            `${reqPath}-->${nodePath}`;
 
                         if (!edges.has(edge)) {
+
                             edges.add(edge);
+
                             walk(reqPath);
                         }
                     }
@@ -309,28 +370,38 @@ class TalentTreeView extends ItemView {
 
                         for (const optionPath of group) {
 
-                            const edge = `OR:${optionPath}-->${nodePath}`;
+                            const edge =
+                                `OR:${optionPath}-->${nodePath}`;
 
                             if (!edges.has(edge)) {
+
                                 edges.add(edge);
+
                                 walk(optionPath);
                             }
                         }
                     }
                 }
 
-                const children = reverseMap.get(nodePath) || [];
+                const children =
+                    reverseMap.get(nodePath) || [];
 
                 for (const child of children) {
 
-                    if (!inScopeFolder(fileByPath.get(child.node))) continue;
+                    if (
+                        !inScopeFolder(
+                            fileByPath.get(child.node)
+                        )
+                    ) continue;
 
                     const edge = child.isOr
                         ? `OR:${nodePath}-->${child.node}`
                         : `${nodePath}-->${child.node}`;
 
                     if (!edges.has(edge)) {
+
                         edges.add(edge);
+
                         walk(child.node);
                     }
                 }
@@ -342,20 +413,30 @@ class TalentTreeView extends ItemView {
             // MERMAID OUTPUT
             // -----------------------------
             let mermaid = "```mermaid\n";
+
             mermaid += "graph TD\n";
 
             for (const e of edges) {
 
                 const isOr = e.startsWith("OR:");
-                const [fromPath, toPath] = e.replace("OR:", "").split("-->");
 
-                const fromFile = fileByPath.get(fromPath);
-                const toFile = fileByPath.get(toPath);
+                const [fromPath, toPath] = e
+                    .replace("OR:", "")
+                    .split("-->");
+
+                const fromFile =
+                    fileByPath.get(fromPath);
+
+                const toFile =
+                    fileByPath.get(toPath);
 
                 if (!fromFile || !toFile) continue;
 
-                const fromId = fromFile.path.replace(/\W/g, "_");
-                const toId = toFile.path.replace(/\W/g, "_");
+                const fromId = fromFile.path
+                    .replace(/\W/g, "_");
+
+                const toId = toFile.path
+                    .replace(/\W/g, "_");
 
                 const fromLabel = this.getLabel(
                     fromFile,
@@ -370,9 +451,14 @@ class TalentTreeView extends ItemView {
                 );
 
                 if (isOr) {
-                    mermaid += `${fromId}["${fromLabel}"] -.->|OR| ${toId}["${toLabel}"]\n`;
+
+                    mermaid +=
+`${fromId}["${fromLabel}"] -.->|OR| ${toId}["${toLabel}"]\n`;
+
                 } else {
-                    mermaid += `${fromId}["${fromLabel}"] --> ${toId}["${toLabel}"]\n`;
+
+                    mermaid +=
+`${fromId}["${fromLabel}"] --> ${toId}["${toLabel}"]\n`;
                 }
             }
 
@@ -386,7 +472,8 @@ class TalentTreeView extends ItemView {
             );
 
         } finally {
+
             this._rendering = false;
         }
     }
-};
+}
