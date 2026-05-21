@@ -6,7 +6,9 @@ traits:
   - link: "[[Finesse]]"
   - link: "[[Stance]]"
 requires:
-  - "[[Content/Character Creation/Talents/Stance/Wind Stance/Windslash|Windslash]]"
+  - any:  
+    - "[[Content/Character Creation/Talents/Stance/Wind Stance/Windslash | Windslash]]"
+    - "[[Gale Shot]]"
   - "Strength 3+"
 ---
 
