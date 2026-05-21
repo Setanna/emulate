@@ -93,8 +93,94 @@ class TalentTreeView extends ItemView {
         return file.path; // stable ID
     }
 
-    getLabel(file) {
-        return file.basename; // display only
+    getXP(file) {
+
+        const fm = this.app.metadataCache.getFileCache(file)?.frontmatter;
+
+        if (!fm) return 0;
+
+        // Supports:
+        // xp: 12
+        // XP: 12
+        // "12 XP"
+        const rawXP = fm.xp ?? fm.XP ?? 0;
+
+        if (typeof rawXP === 'number') {
+            return rawXP;
+        }
+
+        const match = String(rawXP).match(/\d+/);
+
+        return match ? parseInt(match[0], 10) : 0;
+    }
+
+    getTotalXP(file, requiresMap, fileByPath, visited = new Set()) {
+
+        if (!file || visited.has(file.path)) {
+            return 0;
+        }
+
+        visited.add(file.path);
+
+        let total = this.getXP(file);
+
+        const reqs = requiresMap.get(file.path);
+
+        if (!reqs) {
+            return total;
+        }
+
+        // Normal requirements
+        for (const reqPath of reqs.normal) {
+
+            const reqFile = fileByPath.get(reqPath);
+
+            if (reqFile) {
+                total += this.getTotalXP(
+                    reqFile,
+                    requiresMap,
+                    fileByPath,
+                    visited
+                );
+            }
+        }
+
+        // OR groups
+        // Use the cheapest branch for total calculation
+        for (const group of reqs.orGroups) {
+
+            let cheapest = Infinity;
+
+            for (const optionPath of group) {
+
+                const optionFile = fileByPath.get(optionPath);
+
+                if (!optionFile) continue;
+
+                const optionCost = this.getTotalXP(
+                    optionFile,
+                    requiresMap,
+                    fileByPath,
+                    new Set(visited)
+                );
+
+                cheapest = Math.min(cheapest, optionCost);
+            }
+
+            if (cheapest !== Infinity) {
+                total += cheapest;
+            }
+        }
+
+        return total;
+    }
+
+    getLabel(file, requiresMap, fileByPath) {
+
+        const xp = this.getXP(file);
+        const totalXP = this.getTotalXP(file, requiresMap, fileByPath);
+
+        return `${file.basename} ${xp} XP (${totalXP} XP)`;
     }
 
     async updateTree() {
@@ -117,6 +203,7 @@ class TalentTreeView extends ItemView {
 
             const inScopeFolder = (file) => {
                 const folder = this.getFolder(file);
+
                 return (
                     folder === startFolder ||
                     folder.startsWith(startFolder + "/")
@@ -130,6 +217,7 @@ class TalentTreeView extends ItemView {
             const reverseMap = new Map();  // path -> [{nodePath, isOr}]
 
             const addReverse = (reqFile, dependentPath, isOr) => {
+
                 if (!reqFile) return;
 
                 const key = reqFile.path;
@@ -147,6 +235,7 @@ class TalentTreeView extends ItemView {
             for (const f of allFiles) {
 
                 const fm = this.app.metadataCache.getFileCache(f)?.frontmatter;
+
                 if (!fm?.requires) continue;
 
                 const raw = Array.isArray(fm.requires)
@@ -167,6 +256,7 @@ class TalentTreeView extends ItemView {
                             .map(x => x.path);
 
                         if (group.length) {
+
                             orGroups.push(group);
 
                             for (const gPath of group) {
@@ -177,9 +267,11 @@ class TalentTreeView extends ItemView {
                     } else {
 
                         const resolved = this.resolveFile(item, f.path);
+
                         if (!resolved) continue;
 
                         normal.push(resolved.path);
+
                         addReverse(resolved, f.path, false);
                     }
                 }
@@ -196,6 +288,7 @@ class TalentTreeView extends ItemView {
             const walk = (nodePath) => {
 
                 if (visited.has(nodePath)) return;
+
                 visited.add(nodePath);
 
                 const reqs = requiresMap.get(nodePath);
@@ -264,8 +357,17 @@ class TalentTreeView extends ItemView {
                 const fromId = fromFile.path.replace(/\W/g, "_");
                 const toId = toFile.path.replace(/\W/g, "_");
 
-                const fromLabel = fromFile.basename;
-                const toLabel = toFile.basename;
+                const fromLabel = this.getLabel(
+                    fromFile,
+                    requiresMap,
+                    fileByPath
+                );
+
+                const toLabel = this.getLabel(
+                    toFile,
+                    requiresMap,
+                    fileByPath
+                );
 
                 if (isOr) {
                     mermaid += `${fromId}["${fromLabel}"] -.->|OR| ${toId}["${toLabel}"]\n`;
