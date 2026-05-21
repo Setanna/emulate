@@ -10,7 +10,7 @@ await dv.view("_meta/Dataview/Components/action_title", {
 });
 ```
 
-**Requirements:** You haven't taken an Action with the [[Movement]] Trait this turn; You are wielding a [[Damage Types | Slashing]] Melee Weapon
+**Requirements:** You are wielding a [[Damage Types | Slashing]] Melee Weapon or Ranged Weapon
 
 ___
 *In stillness, the wind amplifies your reach, striking where your weapons cannot.*
@@ -18,4 +18,4 @@ ___
 <br>
 
 **System:**
-You suffer no [[Circumstance]] Penalty from [[Content/Character Creation/Talents/Stance/Wind Stance/Windslash | Windslash]].
+When you take an [[Rules/Traits/Attack | Attack]] Action using a [[Damage Types | Slashing]] Melee Weapon or Ranged Weapon you can grant that Action the [[Momentum]] Trait.

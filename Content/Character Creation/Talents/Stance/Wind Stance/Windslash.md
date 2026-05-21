@@ -5,6 +5,7 @@ traits:
   - link: "[[Air]]"
   - link: "[[Finesse]]"
 requires:
+  - "[[Gale's Favour]]"
   - "Strength 2+"
 ---
 
@@ -16,7 +17,7 @@ await dv.view("_meta/Dataview/Components/talent_title");
 <br>
 
 **System:**
-Whenever you would wield a Melee Slashing Weapon, it gains the [[Rules/Traits/Reach | Reach]] Trait with a value equal to your Strength.
+Whenever you would wield a Melee [[Damage Types | Slashing]] Weapon, it gains the [[Rules/Traits/Reach | Reach]] Trait with a value equal to your Strength.
 
 <br>
 
