@@ -1,6 +1,6 @@
 ---
 tags: [Martial]
-xp: 24
+xp: 48
 traits:
   - link: "[[Air]]"
   - link: "[[Finesse]]"
