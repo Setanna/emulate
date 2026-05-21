@@ -4,7 +4,7 @@ xp: 16
 traits:
   - link: "[[Expansive]]"
 requires:
-  - [[Skill Focus | Skill Focus (Chosen Skill)]]
+  - "[[Skill Focus | Skill Focus (Chosen Skill)]]"
 ---
 
 ```dataviewjs

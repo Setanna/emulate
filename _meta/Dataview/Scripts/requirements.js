@@ -3,113 +3,147 @@ const requires = dv.current().requires;
 if (!requires) return;
 
 // -------------------------
-// HELPERS
+// NORMALIZE
 // -------------------------
 
-function normalizeName(req) {
-    if (!req) return null;
+function normalize(req) {
+    if (req == null) return null;
 
-    const str = req.toString();
+    if (typeof req === "object" && req.link) {
+        const link = req.link;
 
-    // If it's a wiki link, keep it intact so Dataview can render it
-    // (DO NOT strip [[ ]])
-    return str
-        .split("|")
-        .pop()
-        .trim();
+        return {
+            path: link.path?.trim?.() ?? null,
+            display: link.display ?? null,
+            raw: null
+        };
+    }
+
+    return {
+        path: null,
+        display: null,
+        raw: req.toString()
+    };
 }
 
-function normalizeLink(req) {
-    if (!req) return null;
-    return req.toString()
-        .replace(/\[\[|\]\]/g, "")
-        .split("|")[0]
-        .trim();
-}
-
 // -------------------------
-// FLATTEN REQUIREMENTS (supports "any")
+// INLINE RENDER (STRING SAFE)
 // -------------------------
-function flatten(reqs) {
 
-    const result = [];
+function renderInline(str, container) {
+    if (!str) return;
 
-    for (const r of reqs) {
+    let last = 0;
+    const regex = /\[\[(.*?)(?:\|(.*?))?\]\]/g;
+    let m;
 
-        // handle: { any: [...] }
-        if (r && typeof r === "object" && r.any) {
-            result.push({
-                type: "any",
-                items: r.any
+    while ((m = regex.exec(str)) !== null) {
+
+        const before = str.slice(last, m.index);
+        if (before) container.appendText(before);
+
+        const path = m[1]?.trim();
+        const display =
+            m[2]?.trim() ??
+            path.split("/").pop().replace(".md", "");
+
+        const page = dv.page(path);
+
+        if (page) {
+            const a = container.createEl("a", {
+                text: display,
+                cls: "internal-link"
             });
+
+            a.setAttribute("href", page.file.path);
         } else {
-            result.push(r);
+            container.appendText(display);
+        }
+
+        last = regex.lastIndex;
+    }
+
+    const after = str.slice(last);
+    if (after) container.appendText(after);
+}
+
+// -------------------------
+// RENDER ITEM
+// -------------------------
+
+function renderItem(item, container) {
+    const n = normalize(item);
+
+    if (n.path) {
+        const page = dv.page(n.path);
+
+        const name =
+            n.display ??
+            n.path.split("/").pop().replace(".md", "");
+
+        if (page) {
+            const a = container.createEl("a", {
+                text: name,
+                cls: "internal-link"
+            });
+
+            a.setAttribute("href", page.file.path);
+        } else {
+            container.appendText(name);
+        }
+
+        return;
+    }
+
+    renderInline(n.raw, container);
+}
+
+// -------------------------
+// FLATTEN ANY
+// -------------------------
+
+function flatten(reqs) {
+    const out = [];
+
+    for (const r of reqs ?? []) {
+        if (r?.any) {
+            out.push({ type: "any", items: r.any });
+        } else {
+            out.push(r);
         }
     }
 
-    return result;
+    return out;
 }
 
 // -------------------------
-// BUILD ELEMENTS
+// BUILD UI (IMPORTANT CHANGE)
 // -------------------------
-const elements = [];
+
+const container = dv.container.createDiv();
+container.createEl("strong", { text: "Requirements: " });
 
 const flat = flatten(requires);
 
+let first = true;
+
 for (const req of flat) {
 
-    // -------------------------
-    // ANY GROUP (OR LOGIC)
-// -------------------------
+    if (!first) container.appendText("; ");
+    first = false;
+
     if (req.type === "any") {
+        container.appendText("(");
 
-        const group = req.items.map(item => {
+        let i = 0;
+        for (const item of req.items) {
+            if (i++ > 0) container.appendText(" or ");
+            renderItem(item, container);
+        }
 
-            const name = normalizeName(item);
-            const link = normalizeLink(item);
-
-            if (!link) return name;
-
-            const page = dv.page(link);
-
-            if (page) {
-                return dv.fileLink(page.file.path, false, name);
-            }
-
-            return name;
-        });
-
-        elements.push("(" + group.map(e =>
-            typeof e === "string" ? e : e
-        ).join(" or ") + ")");
-
+        container.appendText(")");
         continue;
     }
 
-    // -------------------------
-    // NORMAL REQUIREMENT
-    // -------------------------
-    const name = normalizeName(req);
-    const link = normalizeLink(req);
-
-    if (!name) continue;
-
-    const page = dv.page(link);
-
-    if (page) {
-        elements.push(dv.fileLink(page.file.path, false, name));
-    } else {
-        elements.push(name);
-    }
+    renderItem(req, container);
 }
-
-// -------------------------
-// OUTPUT
-// -------------------------
-const output = elements
-    .filter(Boolean)
-    .map(e => typeof e === "string" ? e : e)
-    .join("; ");
-
-dv.paragraph("**Requirements:** " + output);

@@ -4,8 +4,8 @@ xp: 12
 traits:
  - link: "[[Emotion | Emotion (Anger)]]"
 requires:
-  - [[Unyielding Rage]]
-  - Constitution 3+
+  - "[[Unyielding Rage]]"
+  - "Constitution 3+"
 ---
 
 ```dataviewjs

@@ -5,7 +5,7 @@ traits:
   - link: "[[Air]]"
   - link: "[[Finesse]]"
 requires:
-  - Strength 2+
+  - "Strength 2+"
 ---
 
 ```dataviewjs

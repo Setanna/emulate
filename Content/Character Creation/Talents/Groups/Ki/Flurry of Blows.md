@@ -4,8 +4,8 @@ xp: 12
 traits:
  - link: "[[Unarmed]]"
 requires:
-  - [[Ki]]
-  - Dexterity 1+
+  - "[[Ki]]"
+  - "Dexterity 1+"
 ---
 
 ```dataviewjs

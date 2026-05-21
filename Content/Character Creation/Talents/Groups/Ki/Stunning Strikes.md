@@ -2,7 +2,7 @@
 tags: [Martial/Monk/Ki]
 xp: 8
 requires:
-  - [[Ki]]
+  - "[[Ki]]"
 ---
 
 ```dataviewjs

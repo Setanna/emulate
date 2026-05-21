@@ -4,7 +4,7 @@ xp: 64
 traits:
   - link: "[[Expansive]]"
 requires:
-  - [[Skill Specialization | Skill Specialization (Chosen Skill)]]
+  - "[[Skill Specialization | Skill Specialization (Chosen Skill)]]"
 ---
 
 ```dataviewjs

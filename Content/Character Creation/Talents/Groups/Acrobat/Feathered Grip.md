@@ -2,7 +2,7 @@
 tags: [Martial/Rogue, Martial/Monk]
 xp: 4
 requires:
-  - Dexterity 1+
+  - "Dexterity 1+"
 ---
 
 ```dataviewjs

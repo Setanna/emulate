@@ -5,7 +5,7 @@ traits:
   - link: "[[Arcane]]"
   - link: "[[Belief]]"
 requires:
-  - [[Conviction]]
+  - "[[Conviction]]"
 ---
 
 ```dataviewjs

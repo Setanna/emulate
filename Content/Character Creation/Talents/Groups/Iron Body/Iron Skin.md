@@ -5,8 +5,8 @@ traits:
  - link: "[[Unarmored]]"
  - link: "[[Gapless]]"
 requires:
-  - [[Iron Strikes]]
-  - Strength 3+
+  - "[[Iron Strikes]]"
+  - "Strength 3+"
 ---
 
 ```dataviewjs

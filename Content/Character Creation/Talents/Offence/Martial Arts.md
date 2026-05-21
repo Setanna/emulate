@@ -4,8 +4,8 @@ xp: 4
 traits:
  - link: "[[Finesse]]"
 requires:
-  - [[Content/Gear/Natural Weapons/Unarmed Strikes | Unarmed Strikes]]
-  - Strength 1+
+  - "[[Content/Gear/Natural Weapons/Unarmed Strikes | Unarmed Strikes]]"
+  - "Strength 1+"
 ---
 
 ```dataviewjs

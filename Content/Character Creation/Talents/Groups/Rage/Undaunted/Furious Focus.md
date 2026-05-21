@@ -4,8 +4,8 @@ xp: 12
 traits:
  - link: "[[Emotion | Emotion (Anger)]]"
 requires:
-  - [[Burning Clarity]]
-  - Wisdom 2+
+  - "[[Burning Clarity]]"
+  - "Wisdom 2+"
 ---
 
 ```dataviewjs

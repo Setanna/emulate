@@ -4,8 +4,8 @@ xp: 12
 traits:
  - link: "[[Emotion | Emotion (Anger)]]"
 requires:
-  - [[Raging Vitality]]
-  - Constitution 2+
+  - "[[Raging Vitality]]"
+  - "Constitution 2+"
 ---
 
 ```dataviewjs

@@ -7,7 +7,7 @@ requires:
   - any:  
     - "[[Between All Eyes]]"  
     - "[[Grand Reveal]]"
-  - Charisma 3
+  - "Charisma 3"
 ---
 
 ```dataviewjs

@@ -2,8 +2,8 @@
 tags: [Martial/Spellbane]
 xp: 18
 requires:
-  - [[Spellscorn]]
-  - Constitution 3+
+  - "[[Spellscorn]]"
+  - "Constitution 3+"
 ---
 
 ```dataviewjs

@@ -5,8 +5,8 @@ traits:
  - link: "[[Emotion | Emotion (Anger)]]"
  - link: "[[Ragebound]]"
 requires:
-  - [[Juggernaut]]
-  - Strength 4+
+  - "[[Juggernaut]]"
+  - "Strength 4+"
 ---
 
 ```dataviewjs

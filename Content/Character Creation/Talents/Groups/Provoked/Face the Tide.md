@@ -2,8 +2,8 @@
 tags: [Martial/Marshal]
 xp: 48
 requires:
-  - [[Undeniable Presence]]
-  - Charisma 4+
+  - "[[Undeniable Presence]]"
+  - "Charisma 4+"
 ---
 
 ```dataviewjs

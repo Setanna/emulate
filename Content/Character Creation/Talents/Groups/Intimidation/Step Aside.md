@@ -6,7 +6,7 @@ traits:
  - link: "[[Emotion | Emotion (Fear)]]"
  - link: "[[Sight]]"
 requires:
-  - [[Skill Specialization | Skill Specialization (Intimidation)]]
+  - "[[Skill Specialization | Skill Specialization (Intimidation)]]"
 ---
 
 ```dataviewjs

@@ -4,7 +4,7 @@ xp: 4
 traits:
   - link: "[[Expansive]]"
 requires:
-  - [[Skill Proficiency | Skill Proficiency (Chosen Skill)]]
+  - "[[Skill Proficiency | Skill Proficiency (Chosen Skill)]]"
 ---
 
 ```dataviewjs

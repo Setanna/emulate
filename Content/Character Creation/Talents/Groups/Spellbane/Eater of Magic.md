@@ -2,8 +2,8 @@
 tags: [Martial/Spellbane]
 xp: 27
 requires:
-  - [[Spellbane]]
-  - Constitution 4+
+  - "[[Spellbane]]"
+  - "Constitution 4+"
 ---
 
 ```dataviewjs

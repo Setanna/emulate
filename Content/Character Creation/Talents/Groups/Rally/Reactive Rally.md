@@ -2,8 +2,8 @@
 tags: [Martial/Marshal]
 xp: 4
 requires:
-  - [[Content/Actions/Talent Actions/Rally | Rally]]
-  - Charisma 2+
+  - "[[Content/Actions/Talent Actions/Rally | Rally]]"
+  - "Charisma 2+"
 ---
 
 ```dataviewjs

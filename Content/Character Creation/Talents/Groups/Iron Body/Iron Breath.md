@@ -4,8 +4,8 @@ xp: 16
 traits:
  - link: "[[Unarmored]]"
 requires:
-  - [[Iron Skin]]
-  - Constitution 1+
+  - "[[Iron Skin]]"
+  - "Constitution 1+"
 ---
 
 ```dataviewjs

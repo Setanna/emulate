@@ -4,7 +4,7 @@ xp: 48
 traits:
  - link: "[[Birthright]]"
 requires:
-  - Strength 3+
+  - "Strength 3+"
 ---
 
 ```dataviewjs

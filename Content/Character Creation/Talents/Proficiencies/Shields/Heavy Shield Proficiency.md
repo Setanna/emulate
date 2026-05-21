@@ -2,7 +2,7 @@
 tags: [Proficiencies/Shields]
 xp: 9
 requires:
-  - [[Medium Shield Proficiency]]
+  - "[[Medium Shield Proficiency]]"
 ---
 
 ```dataviewjs

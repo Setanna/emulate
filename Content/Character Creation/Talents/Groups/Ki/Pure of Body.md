@@ -2,8 +2,8 @@
 tags: [Martial/Monk/Ki]
 xp: 24
 requires:
-  - [[Ki]]
-  - Constitution 2+
+  - "[[Ki]]"
+  - "Constitution 2+"
 ---
 
 ```dataviewjs

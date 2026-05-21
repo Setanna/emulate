@@ -2,8 +2,8 @@
 tags: [Martial/Monk/Ki]
 xp: 24
 requires:
-  - [[Ki]]
-  - Dexterity 2+
+  - "[[Ki]]"
+  - "Dexterity 2+"
 ---
 
 ```dataviewjs

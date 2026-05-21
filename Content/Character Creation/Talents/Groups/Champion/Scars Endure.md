@@ -5,9 +5,9 @@ traits:
  - link: "[[Bonded]]"
  - link: "[[Expansive]]"
 requires:
-  - [[Survivor]]
-  - [[Indomitable]]
-  - Constitution 3+
+  - "[[Survivor]]"
+  - "[[Indomitable]]"
+  - "Constitution 3+"
 ---
 
 ```dataviewjs

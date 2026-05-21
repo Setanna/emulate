@@ -2,9 +2,9 @@
 tags: [Martial/Fighter/Champion]
 xp: 4
 requires:
- - [[Scars | Scars 1+]]
- - Strength 1+
- - Constitution 1+
+ - "[[Scars | Scars 1+]]"
+ - "Strength 1+"
+ - "Constitution 1+"
 ---
 
 ```dataviewjs

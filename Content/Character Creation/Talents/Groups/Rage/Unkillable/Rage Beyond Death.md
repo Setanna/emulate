@@ -5,8 +5,8 @@ traits:
  - link: "[[Emotion | Emotion (Anger)]]"
  - link: "[[Ragebound]]"
 requires:
-  - [[Rage Beyond the Brink]]
-  - Constitution 4+
+  - "[[Rage Beyond the Brink]]"
+  - "Constitution 4+"
 ---
 
 ```dataviewjs

@@ -4,7 +4,7 @@ xp: 12
 traits:
   - link: "[[Arcane]]"
 requires:
-  - Charisma 2+
+  - "Charisma 2+"
 ---
 
 ```dataviewjs

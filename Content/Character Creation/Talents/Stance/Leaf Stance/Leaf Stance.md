@@ -4,8 +4,8 @@ xp: 12
 traits:
   - link: "[[Stance]]"
 requires:
-  - [[Skill Focus | Skill Focus (Acrobatics)]]
-  - Dexterity 2+
+  - "[[Skill Focus | Skill Focus (Acrobatics)]]"
+  - "Dexterity 2+"
 ---
 
 ```dataviewjs

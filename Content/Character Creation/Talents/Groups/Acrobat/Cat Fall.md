@@ -2,9 +2,9 @@
 tags: [Martial/Rogue, Martial/Monk]
 xp: 4
 requires:
-  - [[Wall Kick]]
-  - [[Skill Focus | Skill Focus (Acrobatics)]]
-  - Dexterity 3+
+  - "[[Wall Kick]]"
+  - "[[Skill Focus | Skill Focus (Acrobatics)]]"
+  - "Dexterity 3+"
 ---
 
 ```dataviewjs

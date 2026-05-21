@@ -5,8 +5,8 @@ traits:
  - link: "[[Emotion | Emotion (Anger)]]"
  - link: "[[Ragebound]]"
 requires:
-  - [[Delayed Fatigue]]
-  - Strength 3+
+  - "[[Delayed Fatigue]]"
+  - "Strength 3+"
 ---
 
 ```dataviewjs

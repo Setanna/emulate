@@ -2,8 +2,8 @@
 tags: [Martial/Monk/Iron_Body]
 xp: 20
 requires:
-  - [[Martial Arts]]
-  - Strength 2+
+  - "[[Martial Arts]]"
+  - "Strength 2+"
 ---
 
 ```dataviewjs

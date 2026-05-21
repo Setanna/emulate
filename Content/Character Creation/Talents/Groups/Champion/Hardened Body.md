@@ -2,8 +2,8 @@
 tags: [Martial/Fighter/Champion]
 xp: 24
 requires:
-  - [[Pain Tempered]]
-  - Constitution 2+
+  - "[[Pain Tempered]]"
+  - "Constitution 2+"
 ---
 
 ```dataviewjs

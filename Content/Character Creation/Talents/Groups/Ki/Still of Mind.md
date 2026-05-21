@@ -2,8 +2,8 @@
 tags: [Martial/Monk/Ki]
 xp: 24
 requires:
-  - [[Ki]]
-  - Wisdom 2+
+  - "[[Ki]]"
+  - "Wisdom 2+"
 ---
 
 ```dataviewjs

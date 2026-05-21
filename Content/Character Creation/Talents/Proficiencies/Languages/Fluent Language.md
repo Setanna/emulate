@@ -4,7 +4,7 @@ xp: 4
 traits:
   - link: "[[Expansive]]"
 requires:
-  - [[Basic Language | Basic Language (Chosen Language)]]
+  - "[[Basic Language | Basic Language (Chosen Language)]]"
 ---
 
 ```dataviewjs

@@ -2,7 +2,7 @@
 tags: [Proficiencies/Weapons]
 xp: 9
 requires:
-  - [[Simple Weapon Proficiency]]
+  - "[[Simple Weapon Proficiency]]"
 ---
 
 ```dataviewjs

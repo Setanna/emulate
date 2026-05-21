@@ -4,7 +4,7 @@ xp: 12
 traits:
  - link: "[[Finesse]]"
 requires:
-  - Strength 1+
+  - "Strength 1+"
 ---
 
 ```dataviewjs

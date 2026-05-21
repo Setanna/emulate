@@ -2,8 +2,8 @@
 tags: [Martial/Marshal]
 xp: 64
 requires:
-  - [[Face the Tide]]
-  - Charisma 5+
+  - "[[Face the Tide]]"
+  - "Charisma 5+"
 ---
 
 ```dataviewjs

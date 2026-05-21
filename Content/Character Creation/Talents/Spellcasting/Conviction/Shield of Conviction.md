@@ -5,8 +5,8 @@ traits:
   - link: "[[Unarmored]]"
   - link: "[[Gapless]]"
 requires:
-  - [[Conviction]]
-  - Charisma 2+
+  - "[[Conviction]]"
+  - "Charisma 2+"
 ---
 
 ```dataviewjs

@@ -4,7 +4,7 @@ xp: 12
 traits:
  - link: "[[Emotion | Emotion (Pain)]]"
 requires:
-  - [[Sadistic]]
+  - "[[Sadistic]]"
 ---
 
 ```dataviewjs

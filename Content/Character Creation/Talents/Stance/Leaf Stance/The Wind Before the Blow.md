@@ -2,8 +2,8 @@
 tags: [Martial/Monk/Leaf_Stance]
 xp: 18
 requires:
-  - [[Content/Character Creation/Talents/Stance/Leaf Stance/Leaf Stance|Leaf Stance]]
-  - Dexterity 3+
+  - "[[Content/Character Creation/Talents/Stance/Leaf Stance/Leaf Stance|Leaf Stance]]"
+  - "Dexterity 3+"
 ---
 
 ```dataviewjs

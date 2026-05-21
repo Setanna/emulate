@@ -4,8 +4,8 @@ xp: 12
 traits:
  - link: "[[Timed]]"
 requires:
-  - [[Content/Actions/Talent Actions/Rally | Rally]]
-  - Charisma 2+
+  - "[[Content/Actions/Talent Actions/Rally | Rally]]"
+  - "Charisma 2+"
 ---
 
 ```dataviewjs

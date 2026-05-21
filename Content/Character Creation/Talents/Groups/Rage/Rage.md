@@ -4,8 +4,8 @@ xp: 8
 traits:
  - link: "[[Emotion | Emotion (Anger)]]"
 requires:
-  - Strength 2+
-  - Constitution 1+
+  - "Strength 2+"
+  - "Constitution 1+"
 ---
 
 ```dataviewjs

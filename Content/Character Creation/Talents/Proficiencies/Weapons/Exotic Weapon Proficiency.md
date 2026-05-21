@@ -4,7 +4,7 @@ xp: 27
 traits:
   - link: "[[Expansive]]"
 requires:
-  - [[Advanced Weapon Proficiency]]
+  - "[[Advanced Weapon Proficiency]]"
 ---
 
 ```dataviewjs

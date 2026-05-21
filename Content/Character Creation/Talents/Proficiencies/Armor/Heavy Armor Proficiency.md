@@ -2,7 +2,7 @@
 tags: [Proficiencies/Armor]
 xp: 18
 requires:
-  - [[Medium Armor Proficiency]]
+  - "[[Medium Armor Proficiency]]"
 ---
 
 ```dataviewjs

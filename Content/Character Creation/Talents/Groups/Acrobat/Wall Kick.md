@@ -2,8 +2,8 @@
 tags: [Martial/Rogue, Martial/Monk]
 xp: 4
 requires:
-  - [[Feathered Grip]]
-  - Dexterity 2+
+  - "[[Feathered Grip]]"
+  - "Dexterity 2+"
 ---
 
 ```dataviewjs

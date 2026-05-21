@@ -2,7 +2,7 @@
 tags: [Martial/Marshal]
 xp: 8
 requires:
-  - Charisma 1+
+  - "Charisma 1+"
 ---
 
 ```dataviewjs

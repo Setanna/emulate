@@ -5,8 +5,8 @@ traits:
   - link: "[[Arcane]]"
   - link: "[[Belief]]"
 requires:
-  - [[Step of Conviction]]
-  - Charisma 2+
+  - "[[Step of Conviction]]"
+  - "Charisma 2+"
 ---
 
 ```dataviewjs

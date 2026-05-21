@@ -2,7 +2,7 @@
 tags: [Martial/Monk/Leaf_Stance]
 xp: 12
 requires:
-  - [[Content/Character Creation/Talents/Stance/Leaf Stance/Leaf Stance|Leaf Stance]]
+  - "[[Content/Character Creation/Talents/Stance/Leaf Stance/Leaf Stance|Leaf Stance]]"
 ---
 
 ```dataviewjs

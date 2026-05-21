@@ -5,7 +5,7 @@ traits:
   - link: "[[Arcane]]"
   - link: "[[Expansive]]"
 requires:
-  - [[Eldritch Lineage]]
+  - "[[Eldritch Lineage]]"
 ---
 
 ```dataviewjs

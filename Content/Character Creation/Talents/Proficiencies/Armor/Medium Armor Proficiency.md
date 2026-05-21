@@ -2,7 +2,7 @@
 tags: [Proficiencies/Armor]
 xp: 6
 requires:
-  - [[Light Armor Proficiency]]
+  - "[[Light Armor Proficiency]]"
 ---
 
 ```dataviewjs

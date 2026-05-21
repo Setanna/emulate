@@ -4,8 +4,8 @@ xp: 12
 traits:
   - link: "[[Arcane]]"
 requires:
-  - [[Basic Language | Basic Language (Runic)]]
-  - Intelligence 2+
+  - "[[Basic Language | Basic Language (Runic)]]"
+  - "Intelligence 2+"
 ---
 
 ```dataviewjs

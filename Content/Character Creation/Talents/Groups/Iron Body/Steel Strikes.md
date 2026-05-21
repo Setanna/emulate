@@ -4,8 +4,8 @@ xp: 20
 traits:
  - link: "[[Finesse]]"
 requires:
-  - [[Iron Strikes]]
-  - Strength 3+
+  - "[[Iron Strikes]]"
+  - "Strength 3+"
 ---
 
 ```dataviewjs

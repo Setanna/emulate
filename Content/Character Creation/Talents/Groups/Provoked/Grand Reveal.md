@@ -4,9 +4,9 @@ xp: 8
 traits:
  - link: "[[Item | Item (Dueling Cape)]]"
 requires:
-  - [[Dramatic Reveal]]
-  - [[Skill Focus | Skill Focus (Bluff)]]
-  - Charisma 2+
+  - "[[Dramatic Reveal]]"
+  - "[[Skill Focus | Skill Focus (Bluff)]]"
+  - "Charisma 2+"
 ---
 
 ```dataviewjs

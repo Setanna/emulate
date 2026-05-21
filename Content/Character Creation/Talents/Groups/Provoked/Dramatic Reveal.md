@@ -4,7 +4,7 @@ xp: 4
 traits:
  - link: "[[Item | Item (Dueling Cape)]]"
 requires:
-  - Charisma 1+
+  - "Charisma 1+"
 ---
 
 ```dataviewjs

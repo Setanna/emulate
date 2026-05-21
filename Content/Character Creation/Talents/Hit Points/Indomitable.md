@@ -2,7 +2,7 @@
 tags: [Martial]
 xp: 8
 requires:
-  - Constitution 2+
+  - "Constitution 2+"
 ---
 
 ```dataviewjs

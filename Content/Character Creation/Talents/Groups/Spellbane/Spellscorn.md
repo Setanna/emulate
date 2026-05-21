@@ -4,8 +4,8 @@ xp: 9
 traits:
  - link: "[[Resonance]]"
 requires:
-  - Constitution 2+
-  - No Talents with the [[Arcane]] Trait
+  - "Constitution 2+"
+  - "No Talents with the [[Arcane]] Trait"
 ---
 
 ```dataviewjs

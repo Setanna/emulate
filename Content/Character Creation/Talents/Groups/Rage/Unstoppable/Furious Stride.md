@@ -4,8 +4,8 @@ xp: 12
 traits:
  - link: "[[Emotion | Emotion (Anger)]]"
 requires:
-  - [[Surge of Fury]]
-  - Strength 2+
+  - "[[Surge of Fury]]"
+  - "Strength 2+"
 ---
 
 ```dataviewjs

@@ -2,9 +2,9 @@
 tags: [Martial/Monk/Ki]
 xp: 10
 requires:
-  - [[Martial Arts]]
-  - Constitution 1+
-  - Wisdom 1+
+  - "[[Martial Arts]]"
+  - "Constitution 1+"
+  - "Wisdom 1+"
 ---
 
 ```dataviewjs

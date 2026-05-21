@@ -2,7 +2,7 @@
 tags: [Proficiencies/Shields]
 xp: 3
 requires:
-  - [[Light Shield Proficiency]]
+  - "[[Light Shield Proficiency]]"
 ---
 
 ```dataviewjs

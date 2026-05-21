@@ -4,7 +4,7 @@ xp: 6
 traits:
   - link: "[[Arcane]]"
 requires:
-  - [[Runic Initiate]]
+  - "[[Runic Initiate]]"
 ---
 
 ```dataviewjs

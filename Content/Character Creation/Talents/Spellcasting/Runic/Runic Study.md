@@ -5,7 +5,7 @@ traits:
   - link: "[[Arcane]]"
   - link: "[[Expansive]]"
 requires:
-  - [[Runic Initiate]]
+  - "[[Runic Initiate]]"
 ---
 
 ```dataviewjs

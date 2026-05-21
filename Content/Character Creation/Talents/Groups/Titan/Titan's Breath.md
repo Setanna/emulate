@@ -2,8 +2,8 @@
 tags: [Martial]
 xp: 4
 requires:
-  - [[Titanborn]]
-  - Constitution 2+
+  - "[[Titanborn]]"
+  - "Constitution 2+"
 ---
 
 ```dataviewjs
