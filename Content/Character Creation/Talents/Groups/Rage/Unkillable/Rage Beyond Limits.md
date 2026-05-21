@@ -5,7 +5,7 @@ traits:
  - link: "[[Emotion | Emotion (Anger)]]"
  - link: "[[Ragebound]]"
 requires:
-  - "[[Rage]]"
+  - "[[Content/Character Creation/Talents/Groups/Rage/Rage | Rage]]"
   - "[[Indomitable]]"
   - "Constitution 2+"
 ---

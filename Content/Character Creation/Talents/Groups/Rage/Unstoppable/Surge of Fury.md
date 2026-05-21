@@ -4,7 +4,7 @@ xp: 4
 traits:
  - link: "[[Emotion | Emotion (Anger)]]"
 requires:
-  - "[[Rage]]"
+  - "[[Content/Character Creation/Talents/Groups/Rage/Rage | Rage]]"
   - "Strength 1+"
 ---
 
