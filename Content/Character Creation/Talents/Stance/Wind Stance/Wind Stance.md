@@ -15,7 +15,7 @@ requires:
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-*In stillness, the wind amplifies your reach, striking where your weapons cannot.*
+*In stillness, the wind amplifies your reach, striking where your weapons cannot*
 
 <br>
 

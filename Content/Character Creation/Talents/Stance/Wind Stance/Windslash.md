@@ -12,7 +12,7 @@ requires:
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-*With a slash, the wind becomes your weapon, tearing through anything in its path.*
+*With a slash, the wind becomes your weapon, tearing through anything in its path*
 
 <br>
 

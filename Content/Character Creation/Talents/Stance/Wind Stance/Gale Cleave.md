@@ -12,7 +12,7 @@ requires:
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-*A surge of wind explodes from your attack, cleaving through foes like a hurricane.*
+*A surge of wind explodes from your attack, cleaving through foes like a hurricane*
 
 <br>
 
