@@ -6,10 +6,8 @@ traits:
   - link: "[[Finesse]]"
   - link: "[[Stance]]"
 requires:
-  - any:  
-    - "[[Content/Character Creation/Talents/Stance/Wind Stance/Windslash | Windslash]]"
-    - "[[Gale Shot]]"
-  - "Strength 3+"
+  - "[[Gale's Favour]]"
+  - "Strength 2+"
 ---
 
 ```dataviewjs
@@ -20,4 +18,4 @@ await dv.view("_meta/Dataview/Components/talent_title");
 <br>
 
 **System:**
-You gain the [[Content/Actions/Talent Actions/Wind Stance|Wind Stance]] Action.
+You gain the [[Content/Actions/Talent Actions/Wind Stance | Wind Stance]] Action.

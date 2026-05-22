@@ -4,8 +4,8 @@ xp: 24
 traits:
   - link: "[[Air]]"
 requires:
-  - "[[Content/Character Creation/Talents/Stance/Wind Stance/Wind Stance|Wind Stance]]"
-  - "Dexterity 4+"
+  - "[[Gale Shot]]"
+  - "Dexterity 3+"
 ---
 
 ```dataviewjs

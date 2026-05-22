@@ -5,8 +5,8 @@ traits:
   - link: "[[Air]]"
   - link: "[[Finesse]]"
 requires:
-  - "[[Content/Character Creation/Talents/Stance/Wind Stance/Wind Stance|Wind Stance]]"
-  - "Strength 4+"
+  - "[[Content/Character Creation/Talents/Stance/Wind Stance/Windslash | Windslash]]"
+  - "Strength 3+"
 ---
 
 ```dataviewjs
