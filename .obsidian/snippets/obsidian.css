@@ -25,6 +25,10 @@
 }
 
 /* Text */
+:root p {
+    margin-top: 32px;
+}
+
 :root body {
     color: #D5D5D5 !important;
   --bold-modifier: 300 !important;
@@ -44,6 +48,12 @@
 
 .cm-hmd-internal-link .cm-underline, .internal-link {
     text-decoration: initial !important;
+}
+
+/* Remove top margin and padding from italic */
+p:has(> em:first-child) {
+    margin-top: 0;
+    padding-top: 0;
 }
 
 /*------ Fold ------*/
