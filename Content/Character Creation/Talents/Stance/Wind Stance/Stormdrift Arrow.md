@@ -13,8 +13,6 @@ await dv.view("_meta/Dataview/Components/talent_title");
 ```
 *No barrier can deny a wind-guided shot*
 
-<br>
-
 **System:**
 When you take an [[Rules/Traits/Attack | Attack]] Action using a Ranged Weapon, you may trace any path the projectile travels through. The first creature or object the projectile intersects becomes the target of the [[Rules/Traits/Attack | Attack]] Action.
 

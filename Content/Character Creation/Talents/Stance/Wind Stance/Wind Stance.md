@@ -15,7 +15,5 @@ await dv.view("_meta/Dataview/Components/talent_title");
 ```
 *In stillness, the wind amplifies your reach, striking where your weapons cannot*
 
-<br>
-
 **System:**
 You gain the [[Content/Actions/Talent Actions/Wind Stance | Wind Stance]] Action.

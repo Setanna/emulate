@@ -14,7 +14,5 @@ await dv.view("_meta/Dataview/Components/talent_title");
 ```
 *A surge of wind explodes from your attack, cleaving through foes like a hurricane*
 
-<br>
-
 **System:**
 When you take the [[Cleave]] Action, if you are in the [[Content/Actions/Talent Actions/Wind Stance | Wind Stance]] double your reach.
