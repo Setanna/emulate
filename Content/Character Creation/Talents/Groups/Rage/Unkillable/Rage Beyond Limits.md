@@ -13,9 +13,7 @@ requires:
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-*Flavor Text*
-
-<br>
+*Your fury carries you farther than mortal endurance should allow*
 
 **System:**
 You do not suffer the [[Slowed | Slowed 3]] Condition from [[Indomitable]].
