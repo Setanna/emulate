@@ -1,6 +1,6 @@
 ---
 traits:
-     - link: Resource
+     - link: "[[Resource]]"
 ---
 
 ```dataviewjs

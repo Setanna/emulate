@@ -1,8 +1,7 @@
 ---
 traits:
-     - link: Emotion
-       value: (Fear)
-     - link: Resource
+     - link: "[[Emotion | Emotion (Fear)]]"
+     - link: "[[Resource]]"
 ---
 
 ```dataviewjs

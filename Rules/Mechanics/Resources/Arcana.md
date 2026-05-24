@@ -1,7 +1,7 @@
 ---
 traits:
-     - link: Arcane
-     - link: Resource
+     - link: "[[Arcane]]"
+     - link: "[[Resource]]"
 ---
 
 ```dataviewjs
