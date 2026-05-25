@@ -1,9 +1,9 @@
-- [ ] Dragonborn should probably have bite and claw attacks
+- [x] Dragonborn should probably have bite and claw attacks
 - [X] Orcs weigh to little
-- [ ] Calm is a must take for groups without morale bonuses
+- [x] Calm is a must take for groups without morale bonuses
 	- Make it a merit with higher XP cost?
-- [ ] Intercepting Strike is kind of a must have since it is so cheap?
-- [ ] Add split seconds back to reactions so it clear to see?
+- [x] Intercepting Strike is kind of a must have since it is so cheap?
+- [x] Add split seconds back to reactions so it clear to see?
 - [ ] Ugly should work like Scars
 	- Better intimidation
 	- Make ugly base and scars just increase it
@@ -16,12 +16,12 @@
 	- This needs to change
 - [ ] No attack Roll rules in making an attack
 	- No way to know it is a d20
-- [ ] Sadistic Infliction
+- [x] Sadistic Infliction
 	- Should not increase damage
 	- Should just be +1 to next (Attack Roll, Saving Throw or Skill Check)
 		- This becomes a defensive tool? You hit and gain +1 AC against next attack?
     	- Look into alternatives this is inheriently an offensive talent
-- [ ] Wind Stance might be too cheap
+- [x] Wind Stance might be too cheap
 	- To accessible at level 1
 - [x] Catch the Wrist should only be unarmed
 	- So no weapon's reach affects the action
@@ -33,7 +33,7 @@
 - [ ] Look into nonlethal
 - [x] Catch your breath 1 second
 	- Play test
-- [ ] Intimidate max frightened to your Charisma minimum 1
+- [x] Intimidate max frightened to your Charisma minimum 1
 	- Update stacking and condition gaining rules
 	- Update Intimidating to instead increase your Charisma by one when determining maximum frightened condition
 - [ ] Add reminder text to attack Trait that light and heavy reduces or increases second cost
@@ -46,8 +46,8 @@
 - [ ] Heavy and Light should be moved to a list for penalties
 - [x] Provoke should use Persistent Trait
 	- Updated Undeniable Presence to use Persistent Trait
-- [ ] Natural attacks should be cheaper
-- [ ] low light vision should be cheaper
+- [x] Natural attacks should be cheaper
+- [x] low light vision should be cheaper
 - [ ] Maybe only 200 XP for lvl 1 equivalent
 - [ ] Intimidate Action does not work properly
 	- Your targets gain bonuses if they can't see or understand you

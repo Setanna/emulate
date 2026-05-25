@@ -1,6 +1,6 @@
 ---
 tags: [Martial]
-xp: 4
+xp: 8
 traits:
  - link: "[[Finesse]]"
 requires:
