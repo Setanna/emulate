@@ -4,7 +4,7 @@
 	- Make it a merit with higher XP cost?
 - [x] Intercepting Strike is kind of a must have since it is so cheap?
 - [x] Add split seconds back to reactions so it clear to see?
-- [ ] Ugly should work like Scars
+- [x] Ugly should work like Scars
 	- Better intimidation
 	- Make ugly base and scars just increase it
 - [ ] Pretty and Oblivious
