@@ -19,3 +19,5 @@ ___
 **System:**
 Whenever you Roll a Charisma Based Skill Check against a Creature, they gain a +1 [[Rules/Bonuses and Penalties/Morale|Morale]] Bonus on their Difficulty Check or Opposed Roll.
 
+If you are rolling for the [[Intimidation]] Skill, the Bonus is instead a Penalty.
+
