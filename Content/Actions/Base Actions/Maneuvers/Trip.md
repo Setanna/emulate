@@ -10,13 +10,10 @@ await dv.view("_meta/Dataview/Components/action_title", {
     path: dv.current().file.path
 });
 ```
-
-___
+*Flavor text*
 
 **System:**
 You Roll Athletics against target Creature's [[Athletics]] or [[Acrobatics]] DC, whichever is higher.
-
-<br>
 
 **Critical Success:** The creature gains the [[Prone | Prone 3]] Condition
 **Success:** The creature gains the [[Prone | Prone 1]] Condition

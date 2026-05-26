@@ -2,6 +2,8 @@
 seconds: 1
 traits:
  - link: "[[Skill | Skill (Stealth)]]"
+reaction_triggers:
+ - text: "Someone is about to spot you"
 ---
 
 ```dataviewjs
@@ -9,20 +11,14 @@ await dv.view("_meta/Dataview/Components/action_title", {
     path: dv.current().file.path
 });
 ```
-
-**Reaction Trigger:** Someone is about to spot you.
-___
+*Flavor text*
 
 **System:**
 You Roll a [[Stealth]] Roll against all surrounding creatures [[Perception]] DC. Any Perception Modifiers such as range or closed doors reduce the [[Perception]] DC by their respective amount.
 
-<br>
-
 **Success:** The creature is [[Unaware]] of you.
 **Fail:** The creature knows someone is hiding and the rough direction of the creature.
 **Critical Fail:** The creature knows your specific location.
-
-<br>
 
 > ### Example
 > 1. A Kobold would like to stealth by a Human and rolls a 14.

@@ -13,7 +13,6 @@ await dv.view("_meta/Dataview/Components/action_title", {
     path: dv.current().file.path
 });
 ```
-___
 *“I didn’t insult you. I described you.”*
 *— Marrow the Unpleasant*
 

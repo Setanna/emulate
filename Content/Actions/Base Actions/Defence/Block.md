@@ -3,6 +3,8 @@ seconds: -1
 traits:
  - link: "[[Reactive]]"
  - link: "[[Rules/Traits/Item | Item (Shield)]]"
+reaction_triggers:
+ - text: "You or your ally within Reach is the Target of an Action with the [[Rules/Traits/Attack | Attack]] or [[Blast]] Trait"
 ---
 
 ```dataviewjs
@@ -10,9 +12,7 @@ await dv.view("_meta/Dataview/Components/action_title", {
     path: dv.current().file.path
 });
 ```
-
-**Reaction Trigger:**  You or your ally within reach is the target of an Action with the [[Attack]] or [[Blast]] Trait.
-___
+*Flavor text*
 
 **System:**
 You raise your shield and double its Shield and [[Bulwark]] Value against the Triggering Action. 

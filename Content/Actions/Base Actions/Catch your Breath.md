@@ -9,8 +9,6 @@ await dv.view("_meta/Dataview/Components/action_title", {
     path: dv.current().file.path
 });
 ```
-
-___
 *Inhale. Exhale. Continue*
 
 **System:**

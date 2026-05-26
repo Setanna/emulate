@@ -3,6 +3,8 @@ seconds: 3
 traits:
  - link: "[[Attack]]"
  - link: "[[Skill | Skill (Stealth)]]"
+requires:
+ - "The Target is [[Unaware]] of you"
 ---
 
 ```dataviewjs
@@ -10,14 +12,10 @@ await dv.view("_meta/Dataview/Components/action_title", {
     path: dv.current().file.path
 });
 ```
-
-**Requirement:** The target is [[Unaware]] of your presence
-___
+*Flavor text*
 
 **System:**
 You Roll a [[Stealth]] Roll against all surrounding creatures [[Perception]] DC. On a success make an [[Making a Strike | Strike]]. You can spend an additional action to move up your Speed before making the attack.
-
-<br>
 
 > ### Example
 > 1. A Kobold is hiding behind a tree and would like attack a Human keeping watch.

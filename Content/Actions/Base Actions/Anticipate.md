@@ -11,17 +11,12 @@ await dv.view("_meta/Dataview/Components/action_title", {
     path: dv.current().file.path
 });
 ```
-___
 *Flavor text*
-
-<br>
 
 **System:**
 Choose any Reaction you have access to, you gain one Split Second that you can only spent on that Reaction.
 
 Alternatively you can choose any Action with a Second Cost of one or less. You can give that Action a Free Trigger with any condition. That Action has the given Free Trigger until the start of your next turn.
-
-<br>
 
 Additionally when taking this Action you can try to hide it. You roll a [[Bluff]] Skill Check against all Creature's [[Insight]] DC, as long as they can [[Perception | See]] you.
 

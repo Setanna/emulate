@@ -11,7 +11,7 @@ await dv.view("_meta/Dataview/Components/action_title", {
     path: dv.current().file.path
 });
 ```
-___
+*Flavor text*
 
 **System:**
 You make a [[Making a Strike | Strike]] with each weapon you are wielding. Each [[Making a Strike | Strike]] counts as it's own [[Rules/Traits/Attack | Attack]] Action and suffers a -2 [[Circumstance]] Penalty. You choose the order of these Actions.

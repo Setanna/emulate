@@ -10,15 +10,10 @@ await dv.view("_meta/Dataview/Components/action_title", {
     path: dv.current().file.path
 });
 ```
-___
 *You know just where to strike them to make it hurt.*
-
-<br>
 
 **System:**
 You Roll the relevant [[Knowledge]] Roll as shown in the table below.
-
-
 
 | Creature Type                         | Knowledge Category |
 | ------------------------------------- | ------------------ |
@@ -27,8 +22,6 @@ You Roll the relevant [[Knowledge]] Roll as shown in the table below.
 | Animals; fey; monster; plants; vermin | Nature             |
 | Outsiders                             | Planes             |
 | Undead                                | Religion           |
-
-<br>
 
 **Critical Success:** You learn everything there is to know about the creature.
 **Success:** Your learn the creatures special powers; resistances; and vulnerabilities.

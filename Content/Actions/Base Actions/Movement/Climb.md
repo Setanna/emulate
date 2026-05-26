@@ -3,6 +3,8 @@ seconds: 3
 traits:
  - link: "[[Movement]]"
  - link: "[[Skill | Skill (Climb)]]"
+requires:
+ - "Both hands free"
 ---
 
 ```dataviewjs
@@ -10,18 +12,12 @@ await dv.view("_meta/Dataview/Components/action_title", {
     path: dv.current().file.path
 });
 ```
-
-**Requirements:** Both hands free.
-___
+*Flavor text*
 
 **System:**
 You Roll an [[Rules/Stats and Skills/Skills/Strength/Climb | Climb]] Skill Check against the DC of the surface you are climbing. While climbing you are [[Flat-Footed]].
 
-<br>
-
 Alternatively you can use only one hand to climb, leaving the other hand free for a torch or weapon, doing so incurs a -4 [[Circumstance]] Penalty to the [[Rules/Stats and Skills/Skills/Strength/Climb | Climb]] Skill Check.
-
-<br>
 
 **Critical Success:** You move up to half your speed, rounded up.
 **Success:** You move 1 meter.

@@ -10,16 +10,11 @@ await dv.view("_meta/Dataview/Components/action_title", {
     path: dv.current().file.path
 });
 ```
-___
 *“This is the hour we will be remembered for!”*
 *— Dagg Varn, Last of the 13th*
 
-<br>
-
 **System:**
 You choose any number of allies that can [[Perception | hear]] you. You choose one benefit below to grant to all the targets until the end of the encounter. If the creature is targeted by another Rally, they must choose which benefit to keep. 
-
-<br>
 
 ##### Break Their Ranks!
 Whenever your allies use the [[Charge]] or [[Ram]] Action, they add your Charisma as a [[Rules/Bonuses and Penalties/Morale | Morale]] Bonus to the number of meters they can move.

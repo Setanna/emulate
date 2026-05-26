@@ -9,6 +9,7 @@ await dv.view("_meta/Dataview/Components/action_title", {
     path: dv.current().file.path
 });
 ```
-___
+*Flavor text*
+
 **System:**
 You move up to four times your speed in meters.
