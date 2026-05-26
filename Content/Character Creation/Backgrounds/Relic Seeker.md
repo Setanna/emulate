@@ -2,14 +2,13 @@
 xp: 7
 traits:
   - link: "[[Wealth]]"
+requires:
+  - "Intelligence 1+"
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/background_title");
 ```
-
-**Requirements:** Intelligence 1+
-___
 *Where others see rubble, you see opportunity*
 
 <br>

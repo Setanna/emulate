@@ -2,14 +2,17 @@
 xp: 13
 traits:
   - link: "[[Wealth]]"
+requires:
+  - any:  
+    - "[[Adventurer]]"  
+    - "[[Commander]]"
+    - "[[Sailor]]"
+    - "[[Soldier]]"
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/background_title");
 ```
-
-**Requirements:** Any one of the following: [[Adventurer]], [[Commander]], [[Sailor]], or [[Soldier]]
-___
 *You've got hard earned experience*
 
 <br>

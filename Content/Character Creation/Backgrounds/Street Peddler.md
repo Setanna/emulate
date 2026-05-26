@@ -2,14 +2,13 @@
 xp: 7
 traits:
   - link: "[[Wealth]]"
+requires:
+  - "Charisma 1+"
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/background_title");
 ```
-
-**Requirements:** Charisma 1+
-___
 *You’ve sold everything from apples to alibis*
 
 <br>

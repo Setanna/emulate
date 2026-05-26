@@ -2,14 +2,14 @@
 xp: 7
 traits:
   - link: "[[Wealth]]"
+requires:
+  - "Strength 1+"
+  - "Constitution 1+"
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/background_title");
 ```
-
-**Requirements:** Strength 1+; Constitution 1+
-___
 *You've earnt a living fighting in wars*
 
 <br>

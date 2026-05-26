@@ -2,14 +2,13 @@
 xp: 5
 traits:
   - link: "[[Wealth]]"
+requires:
+  - "Strength 1+"
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/background_title");
 ```
-
-**Requirements:** Strength 1+
-___
 *You've spent more time in the mines than you have in a bed*
 
 <br>

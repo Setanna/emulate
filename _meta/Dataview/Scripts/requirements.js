@@ -117,7 +117,7 @@ function flatten(reqs) {
 }
 
 // -------------------------
-// BUILD UI (IMPORTANT CHANGE)
+// BUILD UI
 // -------------------------
 
 const container = dv.container.createDiv();
@@ -135,11 +135,18 @@ for (const req of flat) {
     if (req.type === "any") {
         container.appendText("(");
 
-        let i = 0;
-        for (const item of req.items) {
-            if (i++ > 0) container.appendText(" or ");
+        req.items.forEach((item, index) => {
+
+            if (index > 0) {
+                if (index === req.items.length - 1) {
+                    container.appendText(" or ");
+                } else {
+                    container.appendText(", ");
+                }
+            }
+
             renderItem(item, container);
-        }
+        });
 
         container.appendText(")");
         continue;

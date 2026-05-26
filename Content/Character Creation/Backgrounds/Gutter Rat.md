@@ -2,14 +2,13 @@
 xp: -20
 traits:
   - link: "[[Wealth]]"
+requires:
+  - "You have no Talents with the [[Wealth]] Traits"
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/background_title");
 ```
-
-**Requirements:** You have no talents with the [[Wealth]] traits
-___
 *You've lived moldy bread to rotten apples, doing whatever it takes to survive*
 
 <br>

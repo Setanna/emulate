@@ -7,7 +7,6 @@ traits:
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/background_title");
 ```
-___
 *A modest life turned something more*
 
 <br>

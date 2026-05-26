@@ -2,14 +2,14 @@
 xp: 7
 traits:
   - link: "[[Wealth]]"
+requires:
+  - "Constitution 1+"
+  - "Wisdom 1+"
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/background_title");
 ```
-
-**Requirements:** Constitution 1+; Wisdom 1+
-___
 *The deck beneath your feet, the wind at your back, and coin for the next port*
 
 <br>

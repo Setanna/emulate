@@ -2,14 +2,14 @@
 xp: 7
 traits:
   - link: "[[Wealth]]"
+requires:
+  - "Strength 1+"
+  - "Wisdom 1+"
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/background_title");
 ```
-
-**Requirements:** Strength 1+; Wisdom 1+
-___
 *A quiet path, a steady hand, and a coin for your trouble*
 
 <br>

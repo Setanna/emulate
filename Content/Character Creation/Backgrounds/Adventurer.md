@@ -7,7 +7,6 @@ traits:
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/background_title");
 ```
-___
 *You've earnt a living through quests and missions*
 
 <br>
