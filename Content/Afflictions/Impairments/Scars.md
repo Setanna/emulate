@@ -17,13 +17,7 @@ ___
 <br>
 
 **System:**
-You gain the [[Intimidating]] and [[Ugly]] Characteristics. For each level of this Impairment higher than one, increase the Penalty from [[Intimidating]] by one and the Bonus from [[Ugly]] by one.
-
-<br>
-
-The Bonus gained from this [[Ugly]] Characteristic, is not applied to [[Intimidation]] Skill Checks.
-
-<br>
+You gain the [[Ugly]] Characteristics. For each level of this Impairment higher than one, increase the Bonus from [[Ugly]] by one.
 
 For each level of this Impairment, choose what part of your body the scars are visible one:
 - **Head:** Hidden by helmets and scarves
