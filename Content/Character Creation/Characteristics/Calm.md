@@ -3,14 +3,13 @@ xp: 16
 traits:
  - link: "[[Emotion]]"
  - link: "[[Merit]]"
+requires:
+ - "You don't have the [[Emotional]] Characteristic"
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/characteristic_title");
 ```
-
-**Requirements:** You don't have the [[Emotional]] Characteristic
-___
 *A serene demeanor surrounds you, making it difficult for others to disturb your calm*
 
 **System:**

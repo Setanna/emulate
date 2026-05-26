@@ -4,17 +4,14 @@ traits:
  - link: "[[Racial]]"
  - link: "[[Birthright]]"
  - link: "[[Merit]]"
+requires:
+ - "[[Dwarf]]"
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/characteristic_title");
 ```
-
-**Requirements:** [[Dwarf]]
-___
 *Flavor text*
-
-<br>
 
 **System:**
 You gain [[Vision#Low-Light Vision | Low-Light Vision]].

@@ -2,17 +2,14 @@
 xp: -128
 traits:
  - link: "[[Flaw]]"
+requires:
+ - "[[Unfortunate]]"
 ---
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/characteristic_title");
 ```
-
-**Requirements:** [[Unfortunate]]
-___
-*Misfortune clings to you like a shadow.*
-
-<br>
+*Misfortune clings to you like a shadow*
 
 **System:**
 You increase the Penalty from [[Unfortunate]] to -3.
