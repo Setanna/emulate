@@ -36,6 +36,15 @@ kanban-plugin: board
 	- Fate Dice should feel Meta? If they work like resources it might not feel "epic" or any different that just another Rage Point?
 	
 	</details>
+- [ ] <details> 
+	<summary> 
+		<b>
+			 Flora and Fauna
+		</b> 
+	</summary>
+	
+	
+	</details>
 
 
 ## Doing
