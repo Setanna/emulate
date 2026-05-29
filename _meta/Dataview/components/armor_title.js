@@ -6,3 +6,7 @@ dv.container.appendChild(document.createElement("hr"));
 await dv.view("_meta/Dataview/scripts/armor_stats", dv.current());
 
 dv.container.appendChild(document.createElement("hr"));
+
+await dv.view("_meta/Dataview/Scripts/flavor_text", dv.current());
+
+dv.container.appendChild(document.createElement("br"));

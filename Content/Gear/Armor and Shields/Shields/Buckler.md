@@ -9,13 +9,13 @@ dexterity_penalty: 0
 strength_requirement: 0
 maneuverability_penalty: 0
 traits:
-  - link: Worn
-    value: (Shield)
-  - link: Material
-    value: (Wood, Steel)
-  - link: Freehand
-  - link: Parrying
-    value: 1
+- link: "[[Worn | Worn (Shield)]]"
+- link: "[[Material | Material (Wood, Steel)]]"
+- link: "[[Freehand]]"
+- link: "[[Parrying]]"
+  value: 1
+flavor_text:
+- text: "Light and agile, built for quick deflection"
 ---
 
 ```dataviewjs

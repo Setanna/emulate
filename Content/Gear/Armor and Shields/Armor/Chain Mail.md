@@ -9,11 +9,11 @@ dexterity_penalty: 1
 strength_requirement: 1
 maneuverability_penalty: 1
 traits:
-  - link: Worn
-    value: (Armor)
-  - link: Material
-    value: (Steel)
-  - link: Loud
+  - link: "[[Worn | Worn (Armor)]]"
+  - link: "[[Material | Material (Steel)]]"
+  - link: "[[Loud]]"
+flavor_text:
+ - text: "Linked steel rings built to endure heavy blows"
 ---
 
 ```dataviewjs
@@ -21,5 +21,3 @@ await dv.view("_meta/Dataview/Components/armor_title", {
     path: dv.current().file.path
 });
 ```
-*Linked steel rings built to endure heavy blows*
-

@@ -9,11 +9,11 @@ dexterity_penalty: 0
 strength_requirement: 0
 maneuverability_penalty: 0
 traits:
-  - link: Worn
-    value: (Armor)
-  - link: Material
-    value: (Cloth)
-  - link: Comfy
+- link: "[[Worn | Worn (Armor)]]"
+- link: "[[Material | Material (Cloth)]]"
+- link: "[[Comfy]]"
+flavor_text:
+- text: "Leather outerwear concealing protective iron plating"
 ---
 
 ```dataviewjs
@@ -21,5 +21,3 @@ await dv.view("_meta/Dataview/Components/armor_title", {
     path: dv.current().file.path
 });
 ```
-*Leather outerwear concealing protective iron plating*
-
