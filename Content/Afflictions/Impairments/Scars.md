@@ -4,6 +4,8 @@ value:
  max: 3
 traits:
  - link: "[[Sight]]"
+flavor_text:
+ - text: "A single scar draws eyes. A face full turns them away"
 ---
 
 ```dataviewjs
@@ -11,13 +13,11 @@ await dv.view("_meta/Dataview/Components/affliction_title", {
     path: dv.current().file.path
 });
 ```
-___
-*A single scar draws eyes. A face full turns them away*
-
-<br>
 
 **System:**
 You gain the [[Ugly]] Characteristics. For each level of this Impairment higher than one, increase the Bonus from [[Ugly]] by one.
+
+<br>
 
 For each level of this Impairment, choose what part of your body the scars are visible one:
 - **Head:** Hidden by helmets and scarves

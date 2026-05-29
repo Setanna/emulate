@@ -1,5 +1,7 @@
 ---
 value: 5
+flavor_text:
+ - text: "Lady luck looks elsewhere when you call"
 ---
 
 ```dataviewjs
@@ -7,10 +9,6 @@ await dv.view("_meta/Dataview/Components/affliction_title", {
     path: dv.current().file.path
 });
 ```
-___
-*Lady Luck looks elsewhere when you call*
-
-<br>
 
 **System:**
 You gain the [[Unfortunate]] Characteristic. 
