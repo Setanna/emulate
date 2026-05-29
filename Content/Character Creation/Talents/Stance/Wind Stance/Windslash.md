@@ -1,4 +1,4 @@
----
+﻿---
 tags: [Martial]
 xp: 18
 traits:
@@ -7,13 +7,14 @@ traits:
 requires:
   - "[[Gale's Favour]]"
   - "Strength 2+"
+flavor_text:
+ - text: "With a slash, the wind becomes your weapon, tearing through anything in its path"
 ---
+
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-*With a slash, the wind becomes your weapon, tearing through anything in its path*
-
 **System:**
 Whenever you would wield a Melee [[Damage Types | Slashing]] Weapon, it gains the [[Rules/Traits/Reach | Reach]] Trait with a value equal to your Strength.
 

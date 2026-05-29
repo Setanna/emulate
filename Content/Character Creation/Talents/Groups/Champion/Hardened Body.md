@@ -1,4 +1,4 @@
----
+﻿---
 tags: [Martial/Fighter/Champion]
 xp: 24
 requires:
@@ -6,11 +6,10 @@ requires:
   - "Constitution 2+"
 ---
 
+
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-*Flavor Text*
-
 > [!Warning] Warning
 > The additional Scar effect will be removed in the future.
 > The XP Cost will remain the same
@@ -23,3 +22,4 @@ You gain a +1 [[Resistance]] Bonus to your [[Saving Throws#Fortitude | Fortitude
 <br>
 
 Additionally if your [[Scars]] Value is 3 or higher double all your [[Resistance]] Bonuses on  [[Saving Throws#Recovery Saving Throws | Recovery Saving Throws]].
+

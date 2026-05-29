@@ -1,4 +1,4 @@
----
+﻿---
 tags: [Martial/Barbarian]
 xp: 8
 traits:
@@ -8,13 +8,10 @@ requires:
   - "[[Reactive Rage]]"
 ---
 
+
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-*Flavor Text*
-
-<br>
-
 **Cost:**
 When you use the [[Attack of Opportunity]] Action with the given Trigger. It gains an additional Cost of 1 [[Rules/Mechanics/Resources/Rage | Rage]] Point.
 
@@ -26,3 +23,4 @@ Your [[Attack of Opportunity]] gains the following trigger:
 <br>
 
 **Reaction Trigger:** After you take damage
+

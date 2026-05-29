@@ -1,4 +1,4 @@
----
+﻿---
 tags: [Martial/Barbarian/Unstoppable]
 xp: 4
 traits:
@@ -6,14 +6,14 @@ traits:
 requires:
   - "[[Content/Character Creation/Talents/Groups/Rage/Rage | Rage]]"
   - "Strength 1+"
+flavor_text:
+ - text: "My anger grants another precious second"
 ---
+
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-*My anger grants another precious second*
-
-<br>
-
 **System:**
 Whenever you use the Second or Split Second gained from [[Exert]] on the [[Content/Actions/Talent Actions/Rage | Rage]] Action, it does not count against the number of times you can use [[Exert]] in a round.
+

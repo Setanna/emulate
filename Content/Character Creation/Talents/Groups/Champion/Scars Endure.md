@@ -1,4 +1,4 @@
----
+﻿---
 tags: [Martial/Fighter/Champion]
 xp: 18
 traits:
@@ -10,13 +10,11 @@ requires:
   - "Constitution 3+"
 ---
 
+
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-*Flavor Text*
-
-<br>
-
 **System:**
 Whenever you would gain the [[Slowed]] Condition with the [[Persistent]] Trait from [[Indomitable]].
 Reduce the Condition and Trait's values by your [[Scars]] value.
+

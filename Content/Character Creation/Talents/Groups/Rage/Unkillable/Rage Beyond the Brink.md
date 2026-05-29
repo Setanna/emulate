@@ -1,4 +1,4 @@
----
+﻿---
 tags: [Martial/Barbarian/Unbreakable]
 xp: 24
 traits:
@@ -7,13 +7,14 @@ traits:
 requires:
   - "[[Rage Beyond Limits]]"
   - "Constitution 3+"
+flavor_text:
+ - text: "You fight hardest when the grave stands nearest"
 ---
+
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-*You fight hardest when the grave stands nearest*
-
 **System:**
 While you are [[Dying]], you can use the [[Content/Actions/Talent Actions/Rage | Rage]] Action without spending [[Rules/Mechanics/Resources/Rage | Rage]] Points and without meeting the requirements for a minimum amount of [[Rules/Mechanics/Resources/Rage | Rage]] Points.
 

@@ -11,7 +11,6 @@ requires:
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/characteristic_title");
 ```
-*Flavor text*
 
 **System:**
 You gain [[Vision#Low-Light Vision | Low-Light Vision]].

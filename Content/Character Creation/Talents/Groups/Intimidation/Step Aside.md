@@ -1,4 +1,4 @@
----
+﻿---
 tags: [Skills/Intimidation]
 xp: 8
 traits:
@@ -7,15 +7,14 @@ traits:
  - link: "[[Sight]]"
 requires:
   - "[[Skill Specialization | Skill Specialization (Intimidation)]]"
+flavor_text:
+ - text: "A lotta men didn't, a lotta men died"
 ---
+
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-*A lotta men didn't, a lotta men died*
-
-<br>
-
 **System:**
 Whenever you take the [[Move]] Action, you can spend an additional Second. If you do, declare a path up to your full [[Move]] distance. Roll Intimidation against the Will Save DC of each Creature who blocks your path or is adjacent to your path.
 
@@ -28,3 +27,4 @@ Whenever you take the [[Move]] Action, you can spend an additional Second. If yo
 <br>
 
 Additionally your [[Move]] Action does not provoke triggers from [[Frightened]] Creatures.
+

@@ -1,4 +1,4 @@
----
+﻿---
 tags: [Martial]
 xp: 12
 traits:
@@ -8,12 +8,14 @@ traits:
 requires:
   - "[[Gale's Favour]]"
   - "Strength 2+"
+flavor_text:
+ - text: "In stillness, the wind amplifies your reach, striking where your weapons cannot"
 ---
+
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-*In stillness, the wind amplifies your reach, striking where your weapons cannot*
-
 **System:**
 You gain the [[Content/Actions/Talent Actions/Wind Stance | Wind Stance]] Action.
+

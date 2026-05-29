@@ -1,4 +1,4 @@
----
+﻿---
 tags: [Martial/Barbarian/Unbreakable]
 xp: 12
 traits:
@@ -7,15 +7,14 @@ traits:
 requires:
   - "[[Content/Character Creation/Talents/Groups/Rage/Rage | Rage]]"
   - "Constitution 1+"
+flavor_text:
+ - text: "With every roar of rage, your body steels itself against harm"
 ---
+
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-*With every roar of rage, your body steels itself against harm*
-
-<br>
-
 **Cost:**
 When you use the [[Bolster]] Action or use the given Trigger, it gains a Cost of 1 [[Rules/Mechanics/Resources/Rage | Rage]] Point.
 
@@ -27,3 +26,4 @@ You gain the [[Bolster]] Action. Additionally Your [[Bolster]] Action gains the 
 <br>
 
 **Free Trigger:** After you gain the [[Enraged]] Condition.
+

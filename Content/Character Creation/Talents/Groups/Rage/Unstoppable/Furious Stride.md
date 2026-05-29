@@ -1,4 +1,4 @@
----
+﻿---
 tags: [Martial/Barbarian/Unstoppable]
 xp: 12
 traits:
@@ -6,14 +6,14 @@ traits:
 requires:
   - "[[Surge of Fury]]"
   - "Strength 2+"
+flavor_text:
+ - text: "Rage turns exertion into momentum"
 ---
+
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-*Rage turns exertion into momentum*
-
-<br>
-
 **System:**
 For each Second or Split Second gained from [[Exert]] used on a [[Movement]] Action, you increase your Speed by one for that Action to a maximum of twice your Speed.
+

@@ -1,4 +1,4 @@
----
+﻿---
 tags: [Martial/Barbarian/Unbreakable]
 xp: 12
 traits:
@@ -6,15 +6,14 @@ traits:
 requires:
   - "[[Unyielding Rage]]"
   - "Constitution 3+"
+flavor_text:
+ - text: "Every failure is just fuel for the fire"
 ---
+
 
 ```dataviewjs
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
-*Every failure is just fuel for the fire*
-
-<br>
-
 **Cost:**
 When you use the given Trigger, it gains a Cost of 1 [[Rules/Mechanics/Resources/Rage | Rage]] Point.
 
