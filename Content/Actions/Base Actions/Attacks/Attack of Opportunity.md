@@ -18,9 +18,10 @@ await dv.view("_meta/Dataview/Components/action_title", {
     path: dv.current().file.path
 });
 ```
-*Flavor text*
 
 **System:**
 You make a [[Making a Strike | Strike]] against the creature that triggered the Attack of Opportunity.
+
+<br>
 
 Alternatively instead of making a [[Making a Strike | Strike]], you can take a [[Maneuver]] Action, targeting the creature.

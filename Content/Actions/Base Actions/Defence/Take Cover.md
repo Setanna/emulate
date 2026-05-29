@@ -10,7 +10,6 @@ await dv.view("_meta/Dataview/Components/action_title", {
     path: dv.current().file.path
 });
 ```
-*Flavor text*
 
 **System:**
 While benefiting from cover you can crouch or move in a way to place you better behind cover; increase your cover by one step against the attack or source with the [[Blast]] Trait.

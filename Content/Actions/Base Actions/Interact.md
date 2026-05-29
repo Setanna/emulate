@@ -8,10 +8,11 @@ await dv.view("_meta/Dataview/Components/action_title", {
     path: dv.current().file.path
 });
 ```
-*Flavor text*
 
 **System:**
 You do an action that interacts with an object or another. Some actions might require one to move to properly do the action, such actions gain the [[Movement]] Trait.
+
+<br>
 
 
 | Task                               | Cost      | Roll | [[Attack of Opportunity]] |

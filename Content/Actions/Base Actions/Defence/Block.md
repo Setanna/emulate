@@ -12,8 +12,10 @@ await dv.view("_meta/Dataview/Components/action_title", {
     path: dv.current().file.path
 });
 ```
-*Flavor text*
 
 **System:**
 You raise your shield and double its Shield and [[Bulwark]] Value against the Triggering Action. 
+
+<br>
+
 If you Blocked for you ally, you lose your Shield Value and they instead gain the Doubled Shield and [[Bulwark]] Value against the Triggering Action instead.

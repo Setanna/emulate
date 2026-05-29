@@ -3,6 +3,8 @@ seconds: 1
 traits:
  - link: "[[Focus]]"
  - link: "[[Skill | Skill (Knowledge)]]"
+flavor_text:
+ - text: "You know just where to strike them to make it hurt"
 ---
 
 ```dataviewjs
@@ -10,7 +12,6 @@ await dv.view("_meta/Dataview/Components/action_title", {
     path: dv.current().file.path
 });
 ```
-*You know just where to strike them to make it hurt.*
 
 **System:**
 You Roll the relevant [[Knowledge]] Roll as shown in the table below.

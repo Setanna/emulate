@@ -12,13 +12,16 @@ await dv.view("_meta/Dataview/Components/action_title", {
     path: dv.current().file.path
 });
 ```
-*Flavor Text*
 
 **Cost:**
 This action cost an additional 2 [[Rules/Mechanics/Resources/Ki | Ki]] Points to use.
 
+<br>
+
 **System:**
 If you would deal damage, the defender makes a [[Saving Throws#Fortitude | Fortitude]] Saving Throw.
+
+<br>
 
 **Success:** The defender suffers no effect.
 **Fail:** The defender gains the [[Slowed | Slowed 1]] Condition.

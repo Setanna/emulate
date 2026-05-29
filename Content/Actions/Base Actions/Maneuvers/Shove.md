@@ -10,10 +10,11 @@ await dv.view("_meta/Dataview/Components/action_title", {
     path: dv.current().file.path
 });
 ```
-*Flavor text*
 
 **System:**
 You Roll Athletics against target Creature's [[Athletics]] or [[Acrobatics]] DC, whichever is higher. You may move with the creature you shove, up to your speed.
+
+<br>
 
 **Critical Success:** You move the creature up to your Strength + 1 in meters and it gains the [[Prone]] Condition.
 **Success:** You move the creature 1 meter

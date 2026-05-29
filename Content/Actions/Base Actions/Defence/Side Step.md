@@ -12,10 +12,11 @@ await dv.view("_meta/Dataview/Components/action_title", {
     path: dv.current().file.path
 });
 ```
-*Flavor text*
 
 **System:**
 You step out the way and Roll Acrobatics against the Attack Roll or Saving Throw Difficulty Check. For sources with the [[Blast]] Trait you take no damage if the [[Step]] or [[Move]] action would move you out of the blast radius.
+
+<br>
 
 **Critical Success:** The attack counts as a Miss and you take the [[Move]] Action. This Movement does not provoke [[Attack of Opportunity]].
 **Success:** The attack counts as a Miss and you take the [[Step]] Action.

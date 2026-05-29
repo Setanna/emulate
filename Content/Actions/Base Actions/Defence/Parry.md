@@ -12,10 +12,11 @@ await dv.view("_meta/Dataview/Components/action_title", {
     path: dv.current().file.path
 });
 ```
-*Flavor text*
 
 **System:**
 You roll an Attack against the Triggering Action's Attack.
+
+<br>
 
 **Critical Success:** The Action is [[counteracting | counteracted]] and it Triggers an [[Attack of Opportunity]]
 **Success:** The Action is [[counteracting | counteracted]]

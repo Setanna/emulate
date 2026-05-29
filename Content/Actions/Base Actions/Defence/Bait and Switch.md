@@ -12,10 +12,11 @@ await dv.view("_meta/Dataview/Components/action_title", {
     path: dv.current().file.path
 });
 ```
-*Flavor text*
 
 **System:**
 You lure your enemy into a false sense of advantage, only to leave their blade slicing empty air. You Roll Bluff against the incoming Attack Roll
+
+<br>
 
 **Success:** The attack counts as a Miss.
 **Fail:** You reduce the damage taken by your Charisma.

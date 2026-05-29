@@ -11,10 +11,11 @@ await dv.view("_meta/Dataview/Components/action_title", {
     path: dv.current().file.path
 });
 ```
-*Flavor text*
 
 **System:**
 You make a [[Making a Strike | Strike]] with each weapon you are wielding. Each [[Making a Strike | Strike]] counts as it's own [[Rules/Traits/Attack | Attack]] Action and suffers a -2 [[Circumstance]] Penalty. You choose the order of these Actions.
+
+<br>
 
 You can grant each [[Rules/Traits/Attack | Attack]] Action the [[Accurate]] or [[Daring]] Trait. The Traits have a value equal to half the Stat used to make the Attack Roll.
 

@@ -15,9 +15,10 @@ await dv.view("_meta/Dataview/Components/action_title", {
     path: dv.current().file.path
 });
 ```
-*Flavor Text*
 
 **System:**
 You remove the [[Prone]] Condition and take the [[Step]] Action.
+
+<br>
 
 While you are in the [[Content/Character Creation/Talents/Stance/Leaf Stance/Leaf Stance | Leaf Stance]], all Reaction Triggers become Free Triggers.
