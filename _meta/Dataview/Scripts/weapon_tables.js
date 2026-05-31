@@ -1,5 +1,25 @@
 // _meta/Dataview/weapon_tables.js
 
+// Parse markdown link format like "[[Bash | Bash (d4)]]"
+function parseTraitLink(linkInput) {
+    // Convert to string if it's an object
+    let linkString = typeof linkInput === 'string' ? linkInput : String(linkInput);
+    
+    // Check if there's a pipe separator
+    if (linkString.includes('|')) {
+        let parts = linkString.split('|');
+        return {
+            target: parts[0].trim().replace(/^\[\[/, '').replace(/\]\]$/, ''),
+            display: parts[1].trim().replace(/^\[\[/, '').replace(/\]\]$/, '')
+        };
+    }
+    
+    return {
+        target: linkString.replace(/^\[\[/, '').replace(/\]\]$/, ''),
+        display: linkString.replace(/^\[\[/, '').replace(/\]\]$/, '')
+    };
+}
+
 const weapons = dv.pages('"Content/Gear/Weapons"')
     .where(p => p.file.name !== dv.current().file.name);
 
@@ -55,11 +75,12 @@ for (let [proficiency, items] of Object.entries(proficiencyGroups)) {
                     : []),
 
                 (weapon.traits ?? [])
-                    .filter(t => t.link !== "Material")
-                    .filter(t => t.link !== "Worn")
+                    .map(t => ({ ...t, parsed: parseTraitLink(t.link) }))
+                    .filter(t => t.parsed.target !== "Material")
+                    .filter(t => t.parsed.target !== "Worn")
                     .map(t => {
-                        let name = t.value ? `${t.link} ${t.value}` : `${t.link}`;
-                        return dv.fileLink(t.link, false, name);
+                        let name = t.value ? `${t.parsed.display} ${t.value}` : `${t.parsed.display}`;
+                        return dv.fileLink(t.parsed.target, false, name);
                     })
                     .join(", "),
 

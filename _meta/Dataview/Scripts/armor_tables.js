@@ -1,5 +1,28 @@
 // _meta/Dataview/armor_tables.js
 
+// Parse markdown link format like "[[Worn | Worn (Armor)]]"
+function parseTraitLink(linkInput) {
+    // Convert to string if it's an object
+    let linkString = typeof linkInput === 'string' ? linkInput : String(linkInput);
+    
+    // Remove outer brackets
+    let link = linkString.replace(/^\[\[/, '').replace(/\]\]$/, '');
+    
+    // Check if there's a pipe separator
+    if (link.includes('|')) {
+        let parts = link.split('|');
+        return {
+            target: parts[0].trim(),
+            display: parts[1].trim()
+        };
+    }
+    
+    return {
+        target: link,
+        display: link
+    };
+}
+
 // Get all armor pages except this file
 const armors = dv.pages('"Content/Gear/Armor and Shields/Armor"')
     .where(p => p.file.name !== dv.current().file.name);
@@ -46,14 +69,15 @@ for (let [proficiency, items] of Object.entries(groups)) {
             armor.file.link,
 
             (armor.traits ?? [])
-                .filter(t => t.link !== "Material")
-                .filter(t => t.link !== "Worn")
+                .map(t => ({ ...t, parsed: parseTraitLink(t.link) }))
+                .filter(t => t.parsed.target !== "Material")
+                .filter(t => t.parsed.target !== "Worn")
                 .map(t => {
 		    // Make name
-                    let name = t.value ? `${t.link} ${t.value}` : `${t.link}`;
+                    let name = t.value ? `${t.parsed.display} ${t.value}` : `${t.parsed.display}`;
 
                     // Make clickable link
-                    let link_element = dv.fileLink(t.link, false, name);
+                    let link_element = dv.fileLink(t.parsed.target, false, name);
 
                     return link_element;
                 })
