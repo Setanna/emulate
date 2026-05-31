@@ -31,21 +31,3 @@ Perception covers all five base senses: sight, hearing, taste, touch and smell. 
 | Distance to the source                   | +1 per 10 meters | Sight   |
 | Creature or object is [[Invisible]]      |       +10        | Sight   |
 | [[Lighting]]                             |      Varied      | Sight   |
-
-### Perception Proficiency
-You gain the following benefits when having a Proficiency Bonus equal to or higher than the given value.
-
-#### +1 Proficiency Bonus
-You gain the [[Heighten Senses]] Action. If you already have the Heighten Senses Action increase the bonus gained from the Action by 1. 
-
-#### +2 Proficiency Bonus
-Your acute senses allow you to pick up things from larger distances. Double the range needed to incur range specific Perception DC Increases. Example is the `+1 per meter` from `Distance to the Source (Hearing)` Perception Modifier would instead be `+1 per 2 meters`.
-
-#### +3 Proficiency Bonus
-You remain alert to sound even in your sleep. Ignore the DC increase from being asleep.
-
-#### +4 Proficiency Bonus
-You can [[Skills#Take 10 and 20 | Take 10]] on Perception Rolls during an Encounter.
-
-#### +5 Proficiency Bonus
-Your precise senses always warn you of danger. When [[Combat#Rolling Initiative| rolling for initiative]] you can Roll a Perception Roll instead of an Initiative Roll.
