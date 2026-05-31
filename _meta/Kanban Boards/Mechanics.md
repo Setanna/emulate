@@ -45,6 +45,17 @@ kanban-plugin: board
 	
 	
 	</details>
+- [ ] <details> 
+	<summary> 
+		<b>
+			 Other
+		</b> 
+	</summary>
+	
+	-  [ ] **Determine Benefit From Means**
+	- Make some rules for what "Benefit from" means
+	
+	</details>
 
 
 ## Doing
