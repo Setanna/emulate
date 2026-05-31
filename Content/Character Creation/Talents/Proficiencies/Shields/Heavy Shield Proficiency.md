@@ -10,5 +10,5 @@ await dv.view("_meta/Dataview/Components/talent_title");
 ```
 
 **System:**
-You become [[Rules/Stats and Skills/Proficiency | Proficient]] in Heavy Shields.
+You become [[Rules/Mechanics/Proficiency| Proficient]] in Heavy Shields.
 

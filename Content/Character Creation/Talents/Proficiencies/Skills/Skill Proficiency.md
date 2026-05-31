@@ -10,5 +10,5 @@ await dv.view("_meta/Dataview/Components/talent_title");
 ```
 
 **System:**
-You become [[Rules/Stats and Skills/Proficiency | Proficient]] in the chosen Skill.
+You become [[Rules/Mechanics/Proficiency| Proficient]] in the chosen Skill.
 

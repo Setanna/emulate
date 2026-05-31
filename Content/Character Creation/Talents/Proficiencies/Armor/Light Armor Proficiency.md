@@ -8,5 +8,5 @@ await dv.view("_meta/Dataview/Components/talent_title");
 ```
 
 **System:**
-You become [[Rules/Stats and Skills/Proficiency | Proficient]] in Light Armor.
+You become [[Rules/Mechanics/Proficiency| Proficient]] in Light Armor.
 

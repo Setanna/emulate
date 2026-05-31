@@ -17,7 +17,7 @@ await dv.view("_meta/Dataview/Components/background_title");
 ```
 
 **System:**
-You increase the Starting Coins of one of your backgrounds by 5 Silver Coins; And you gain a [[Skill Focus]] on up to 2 [[Rules/Stats and Skills/Proficiency| Proficiencies]] gained from the background. 
+You increase the Starting Coins of one of your backgrounds by 5 Silver Coins; And you gain a [[Skill Focus]] on up to 2 [[Rules/Mechanics/Proficiency | Proficiencies]] gained from the background. 
 
 <br>
 
