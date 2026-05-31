@@ -12,11 +12,19 @@ Armor reduces all [[Damage Types | Physical Damage]] and [[Damage Types | Elemen
 await dv.view("_meta/Dataview/Scripts/armor_tables");
 ```
 
+<br>
+
 **Dexterity Penalty:** While donned you reduce your Dexterity by the donned Armor's Dexterity Penalty.
+
+<br>
 
 **Maneuverability Penalty:** While donned you take an [[Rules/Traits/Item | Item]] Penalty to your [[Swim]], [[Rules/Stats and Skills/Skills/Strength/Climb | Climb]] and [[Fly]] Skills. The penalty is equal to the donned Armor's Maneuverability Penalty.
 
+<br>
+
 **Strength Requirement:** While donned, if you don't meet the donned Armor's Strength Requirement, you reduce your Speed by the Strength Requirement.
+
+<br>
 
 ### Don and Doff
 To gain the benefits of Armor it must be donned. It takes 1 minute to don light armor, 5 minutes to don medium armor and 10 minutes to don heavy armor. Another creature can help donning the armor, halving the time to don the armor.
