@@ -9,10 +9,9 @@ proficiency: Advanced
 type: Ranged
 range_increment: 60
 traits:
-  - link: Material
-    value: (Wood)
-  - link: Propulsive
-    value: 2
+- link: "[[Material | Material (Wood)]]"
+- link: "[[Propulsive]]"
+  value: 2
 ---
 
 ```dataviewjs

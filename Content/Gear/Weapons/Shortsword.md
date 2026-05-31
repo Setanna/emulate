@@ -8,12 +8,10 @@ damage_type: slashing
 proficiency: Simple
 type: Melee
 traits:
-  - link: Material
-    value: (Steel, Wood)
-  - link: Finesse
-  - link: Light
-  - link: Versatile
-    value: (p)
+- link: "[[Material | Material (Steel, Wood)]]"
+- link: "[[Finesse]]"
+- link: "[[Light]]"
+- link: "[[Versatile | Versatile (p)]]"
 ---
 
 ```dataviewjs

@@ -7,8 +7,7 @@ damage_die: 8
 damage_type: slashing
 proficiency: Advanced
 traits:
- - link: Material
-   value: (Steel)
+- link: "[[Material | Material (Steel)]]"
 ---
 
 ```dataviewjs

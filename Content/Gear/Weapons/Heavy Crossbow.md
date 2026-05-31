@@ -9,12 +9,11 @@ proficiency: Simple
 type: Ranged
 range_increment: 30
 traits:
-  - link: Material
-    value: (Wood, Steel)
-  - link: Mechanical
-    value: 4
-  - link: Reload
-    value: 2
+- link: "[[Material | Material (Wood, Steel)]]"
+- link: "[[Mechanical]]"
+  value: 4
+- link: "[[Reload]]"
+  value: 2
 ---
 
 ```dataviewjs

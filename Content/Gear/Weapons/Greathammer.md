@@ -8,9 +8,8 @@ damage_type: Bludgeoning
 proficiency: Advanced
 type: Melee
 traits:
-  - link: Material
-    value: (Steel, Wood)
-  - link: Heavy
+- link: "[[Material | Material (Steel, Wood)]]"
+- link: "[[Heavy]]"
 ---
 
 ```dataviewjs

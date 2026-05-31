@@ -8,10 +8,9 @@ damage_type: bludgeoning
 proficiency: Simple
 type: Melee
 traits:
-  - link: Material
-    value: (Wood)
-  - link: Parrying
-    value: 1
+- link: "[[Material | Material (Wood)]]"
+- link: "[[Parrying]]"
+  value: 1
 ---
 
 ```dataviewjs

@@ -8,11 +8,10 @@ damage_type: piercing
 proficiency: Simple
 type: Melee
 traits:
-  - link: Material
-    value: (Steel, Wood)
-  - link: Heavy
-  - link: Piercing
-    value: 2
+- link: "[[Material | Material (Steel, Wood)]]"
+- link: "[[Heavy]]"
+- link: "[[Piercing]]"
+  value: 2
 ---
 
 ```dataviewjs

@@ -8,13 +8,11 @@ damage_type: Bludgeoning
 proficiency: Advanced
 type: Melee
 traits:
-  - link: Material
-    value: (Steel, Wood)
-  - link: Heavy
-  - link: Versatile
-    value: (p)
-  - link: Piercing
-    value: 3
+- link: "[[Material | Material (Steel, Wood)]]"
+- link: "[[Heavy]]"
+- link: "[[Versatile | Versatile (p)]]"
+- link: "[[Piercing]]"
+  value: 3
 ---
 
 ```dataviewjs

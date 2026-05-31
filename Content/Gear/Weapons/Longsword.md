@@ -8,10 +8,8 @@ damage_type: Slashing
 proficiency: Advanced
 type: Melee
 traits:
-  - link: Material
-    value: (Steel)
-  - link: Versatile
-    value: (p)
+- link: "[[Material | Material (Steel)]]"
+- link: "[[Versatile | Versatile (p)]]"
 ---
 
 ```dataviewjs

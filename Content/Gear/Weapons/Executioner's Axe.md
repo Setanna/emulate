@@ -8,11 +8,9 @@ damage_type: Slashing
 proficiency: Exotic
 type: Melee
 traits:
-  - link: Material
-    value: (Steel, Wood)
-  - link: Heavy
-  - link: Executioner
-    value: (d6)
+- link: "[[Material | Material (Steel, Wood)]]"
+- link: "[[Heavy]]"
+- link: "[[Executioner | Executioner (d6)]]"
 ---
 
 ```dataviewjs

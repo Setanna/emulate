@@ -8,15 +8,13 @@ damage_type: piercing
 proficiency: Simple
 type: Melee
 traits:
-  - link: Material
-    value: (Steel)
-  - link: Finesse
-  - link: Light
-  - link: Thrown
-    value: (3m)
-  - link: Vital Strike
-  - link: Parrying
-    value: 1
+- link: "[[Material | Material (Steel)]]"
+- link: "[[Finesse]]"
+- link: "[[Light]]"
+- link: "[[Thrown | Thrown (3m)]]"
+- link: "[[Vital Strike]]"
+- link: "[[Parrying]]"
+  value: 1
 ---
 
 ```dataviewjs

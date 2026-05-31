@@ -8,11 +8,10 @@ damage_type: Slashing
 proficiency: Simple
 type: Melee
 traits:
-  - link: Material
-    value: (Steel, Wood)
-  - link: Thrown
-  - link: Reach
-    value: 1
+- link: "[[Material | Material (Steel, Wood)]]"
+- link: "[[Thrown | Thrown (10m)]]"
+- link: "[[Reach]]"
+  value: 1
 ---
 
 ```dataviewjs
