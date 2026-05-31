@@ -23,5 +23,3 @@ await dv.view("_meta/Dataview/Components/shield_title", {
     path: dv.current().file.path
 });
 ```
-*Light and agile, built for quick deflection*
-
