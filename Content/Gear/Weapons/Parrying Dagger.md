@@ -15,6 +15,8 @@ traits:
 - link: "[[Vital Strike]]"
 - link: "[[Parrying]]"
   value: 1
+flavor_text:
+- text: "A broad, sturdy blade with a crossguard designed to catch and deflect attacks"
 ---
 
 ```dataviewjs
@@ -22,4 +24,3 @@ await dv.view("_meta/Dataview/Components/weapon_title", {
     path: dv.current().file.path
 });
 ```
-*A broad, sturdy blade with a crossguard designed to catch and deflect attacks.*

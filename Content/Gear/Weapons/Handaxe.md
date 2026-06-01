@@ -10,6 +10,8 @@ type: Melee
 traits:
 - link: "[[Material | Material (Steel, Wood)]]"
 - link: "[[Light]]"
+flavor_text:
+- text: "Light, fast, and deadly—perfect for a quick throw or a brutal chop"
 ---
 
 ```dataviewjs
@@ -17,4 +19,3 @@ await dv.view("_meta/Dataview/Components/weapon_title", {
     path: dv.current().file.path
 });
 ```
-*Light, fast, and deadly—perfect for a quick throw or a brutal chop.*

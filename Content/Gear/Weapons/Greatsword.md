@@ -11,6 +11,8 @@ traits:
 - link: "[[Material | Material (Steel, Wood)]]"
 - link: "[[Heavy]]"
 - link: "[[Versatile | Versatile (p)]]"
+flavor_text:
+- text: "Long steel built for decisive, crushing blows"
 ---
 
 ```dataviewjs
@@ -18,4 +20,3 @@ await dv.view("_meta/Dataview/Components/weapon_title", {
     path: dv.current().file.path
 });
 ```
-*Long steel built for decisive, crushing blows*

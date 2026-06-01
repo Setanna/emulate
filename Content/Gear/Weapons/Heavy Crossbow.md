@@ -14,6 +14,8 @@ traits:
   value: 4
 - link: "[[Reload]]"
   value: 2
+flavor_text:
+- text: "Slow to reload, but delivers devastating, precise bolts"
 ---
 
 ```dataviewjs
@@ -21,5 +23,3 @@ await dv.view("_meta/Dataview/Components/weapon_title", {
     path: dv.current().file.path
 });
 ```
-*Slow to reload, but delivers devastating, precise bolts*
-

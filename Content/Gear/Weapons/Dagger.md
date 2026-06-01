@@ -13,6 +13,8 @@ traits:
 - link: "[[Light]]"
 - link: "[[Thrown | Thrown (5m)]]"
 - link: "[[Vital Strike]]"
+flavor_text:
+- text: "A thin, needle-like blade made for swift and precise thrusts"
 ---
 
 ```dataviewjs
@@ -20,4 +22,3 @@ await dv.view("_meta/Dataview/Components/weapon_title", {
     path: dv.current().file.path
 });
 ```
-*A thin, needle-like blade made for swift and precise thrusts.*

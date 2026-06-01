@@ -11,6 +11,8 @@ traits:
 - link: "[[Material | Material (Wood)]]"
 - link: "[[Parrying]]"
   value: 1
+flavor_text:
+- text: "Balanced for both defense and precise strikes"
 ---
 
 ```dataviewjs
@@ -18,4 +20,3 @@ await dv.view("_meta/Dataview/Components/weapon_title", {
     path: dv.current().file.path
 });
 ```
-*Balanced for both defense and precise strikes.*

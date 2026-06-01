@@ -12,6 +12,8 @@ traits:
 - link: "[[Heavy]]"
 - link: "[[Piercing]]"
   value: 2
+flavor_text:
+- text: "A wooden-handled pickaxe with a sturdy iron head"
 ---
 
 ```dataviewjs
@@ -19,4 +21,3 @@ await dv.view("_meta/Dataview/Components/weapon_title", {
     path: dv.current().file.path
 });
 ```
-*A wooden-handled pickaxe with a sturdy iron head.*

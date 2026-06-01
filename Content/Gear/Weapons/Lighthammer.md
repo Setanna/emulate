@@ -10,6 +10,8 @@ type: Melee
 traits:
 - link: "[[Material | Material (Steel, Wood)]]"
 - link: "[[Light]]"
+flavor_text:
+- text: "Small yet mighty, capable of breaking bones with a single hit"
 ---
 
 ```dataviewjs
@@ -17,4 +19,3 @@ await dv.view("_meta/Dataview/Components/weapon_title", {
     path: dv.current().file.path
 });
 ```
-*Small yet mighty, capable of breaking bones with a single hit.*

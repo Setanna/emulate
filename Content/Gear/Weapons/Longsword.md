@@ -10,6 +10,8 @@ type: Melee
 traits:
 - link: "[[Material | Material (Steel)]]"
 - link: "[[Versatile | Versatile (p)]]"
+flavor_text:
+- text: "A versatile blade balanced for both cutting and thrusting"
 ---
 
 ```dataviewjs
@@ -17,4 +19,3 @@ await dv.view("_meta/Dataview/Components/weapon_title", {
     path: dv.current().file.path
 });
 ```
-*A versatile blade balanced for both cutting and thrusting*

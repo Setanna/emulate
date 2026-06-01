@@ -11,6 +11,8 @@ traits:
 - link: "[[Material | Material (Steel, Wood)]]"
 - link: "[[Heavy]]"
 - link: "[[Executioner | Executioner (d6)]]"
+flavor_text:
+- text: "Massive, brutal, and built for devastating blows"
 ---
 
 ```dataviewjs
@@ -18,8 +20,6 @@ await dv.view("_meta/Dataview/Components/weapon_title", {
     path: dv.current().file.path
 });
 ```
-*Massive, brutal, and built for devastating blows*
-
 
 <br>
 

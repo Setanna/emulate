@@ -9,6 +9,8 @@ proficiency: Advanced
 type: Melee
 traits:
 - link: "[[Material | Material (Steel, Wood)]]"
+flavor_text:
+- text: "Short, heavy head designed for devastating blunt impact"
 ---
 
 ```dataviewjs
@@ -16,4 +18,3 @@ await dv.view("_meta/Dataview/Components/weapon_title", {
     path: dv.current().file.path
 });
 ```
-*Short, heavy head designed for devastating blunt impact*

@@ -13,6 +13,8 @@ traits:
 - link: "[[Versatile | Versatile (p)]]"
 - link: "[[Piercing]]"
   value: 3
+flavor_text:
+- text: "Hammer, spike, and hook united for brutal battlefield strikes"
 ---
 
 ```dataviewjs
@@ -20,4 +22,3 @@ await dv.view("_meta/Dataview/Components/weapon_title", {
     path: dv.current().file.path
 });
 ```
-*Hammer, spike, and hook united for brutal battlefield strikes*

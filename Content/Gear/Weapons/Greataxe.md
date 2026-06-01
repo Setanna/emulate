@@ -10,6 +10,8 @@ type: Melee
 traits:
 - link: "[[Material | Material (Steel, Wood)]]"
 - link: "[[Heavy]]"
+flavor_text:
+- text: "Heavy axe-head designed to split armor and resolve alike"
 ---
 
 ```dataviewjs
@@ -17,4 +19,3 @@ await dv.view("_meta/Dataview/Components/weapon_title", {
     path: dv.current().file.path
 });
 ```
-*Heavy axe-head designed to split armor and resolve alike*

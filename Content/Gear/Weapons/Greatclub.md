@@ -10,6 +10,8 @@ type: Melee
 traits:
 - link: "[[Material | Material (Wood)]]"
 - link: "[[Heavy]]"
+flavor_text:
+- text: "Crude yet devastating, a weapon of pure might"
 ---
 
 ```dataviewjs
@@ -17,4 +19,3 @@ await dv.view("_meta/Dataview/Components/weapon_title", {
     path: dv.current().file.path
 });
 ```
-*Crude yet devastating, a weapon of pure might*

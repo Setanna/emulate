@@ -12,6 +12,8 @@ traits:
 - link: "[[Finesse]]"
 - link: "[[Light]]"
 - link: "[[Versatile | Versatile (p)]]"
+flavor_text:
+- text: "A versatile blade, light in hand but heavy in consequence"
 ---
 
 ```dataviewjs
@@ -19,4 +21,3 @@ await dv.view("_meta/Dataview/Components/weapon_title", {
     path: dv.current().file.path
 });
 ```
-*A versatile blade, light in hand but heavy in consequence.*

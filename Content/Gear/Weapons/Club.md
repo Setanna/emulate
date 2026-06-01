@@ -9,6 +9,8 @@ proficiency: Simple
 type: Melee
 traits:
 - link: "[[Material | Material (Wood)]]"
+flavor_text:
+- text: "A simple branch or a crafted cudgel—either way, it gets the job done"
 ---
 
 ```dataviewjs
@@ -16,4 +18,3 @@ await dv.view("_meta/Dataview/Components/weapon_title", {
     path: dv.current().file.path
 });
 ```
-*A simple branch or a crafted cudgel—either way, it gets the job done.*

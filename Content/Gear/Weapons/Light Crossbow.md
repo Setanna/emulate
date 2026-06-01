@@ -14,6 +14,8 @@ traits:
   value: 2
 - link: "[[Reload]]"
   value: 1
+flavor_text:
+- text: "Lightweight mechanism designed for fast reloads and steady aim"
 ---
 
 ```dataviewjs
@@ -21,5 +23,3 @@ await dv.view("_meta/Dataview/Components/weapon_title", {
     path: dv.current().file.path
 });
 ```
-*Lightweight mechanism designed for fast reloads and steady aim*
-

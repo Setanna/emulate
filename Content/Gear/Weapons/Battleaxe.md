@@ -8,6 +8,8 @@ damage_type: slashing
 proficiency: Advanced
 traits:
 - link: "[[Material | Material (Steel)]]"
+flavor_text:
+- text: "Forged for controlled, powerful strikes in close combat"
 ---
 
 ```dataviewjs
@@ -15,4 +17,3 @@ await dv.view("_meta/Dataview/Components/weapon_title", {
     path: dv.current().file.path
 });
 ```
-*Forged for controlled, powerful strikes in close combat*
