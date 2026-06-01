@@ -1,22 +1,17 @@
 ---
-tags: []
-cssclass: pathfinder
+price: 15
+uses: 100
+traits:
+- link: "[[Kit]]"
+flavor_text:
+- text: "A small pouch containing quills, ink and paper"
 ---
 
-<h1> Writing Kit <span style="margin-left: auto;">15 CC</span> </h1>
-
-[[Kit]]{.trait}
-
-<div style="clear:both" /> 
-
-**Uses:** 100 pages
-___
-*A small pouch containing quills, ink and paper.*
-
-<br>
+```dataviewjs
+await dv.view("_meta/Dataview/Components/gear_title", {
+    path: dv.current().file.path
+});
+```
 
 **System:**
 A Writing Kit contains almost everything needed to write down important information.
-
-
-

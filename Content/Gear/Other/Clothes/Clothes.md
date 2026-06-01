@@ -1,20 +1,15 @@
 ---
-tags: []
-cssclass: pathfinder
+price: Varied
+traits:
+- link: "[[Worn#Chest| Worn (Chest)]]"
+- link: "[[Worn#Legs| Worn (Legs)]]"
 ---
 
-<h1> Clothes <span style="margin-left: auto;"> Varied </span> </h1>
-
-[[Worn#Chest| Worn (Chest)]]{.trait}
-
-[[Worn#Legs | Worn (Legs)]]{.trait}
-
-<div style="clear:both" /> 
-
-___
-*Flavor Text*
-
-<br>
+```dataviewjs
+await dv.view("_meta/Dataview/Components/gear_title", {
+    path: dv.current().file.path
+});
+```
 
 **System:**
 Clothes are what character wear beneath their armor. Typically granting no bonuses or penalties.

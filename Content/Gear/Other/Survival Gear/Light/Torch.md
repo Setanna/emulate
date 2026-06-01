@@ -1,16 +1,16 @@
 ---
-tags: []
-cssclass: pathfinder  
+price: 1
+traits:
+- link: "[[Activation | Activation (6 Second)]]"
+flavor_text:
+- text: "A smooth pale stone, once activated shines like a small sun"
 ---
 
-<h1> Torch <span style="margin-left: auto;"> 1 cc </span> </h1>
-
-[[Activation | Activation (6 Seconds)]]{.trait}
-
-<div style="clear:both" /> 
-
-___
-
+```dataviewjs
+await dv.view("_meta/Dataview/Components/gear_title", {
+    path: dv.current().file.path
+});
+```
 
 **System:**
 A torch burns for 1 hour, shedding [[Lighting | Normal Lighting]] for 5 meters and [[Lighting | Dim Light]] for another 5 meters.

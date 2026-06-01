@@ -1,18 +1,18 @@
 ---
-tags: []
-cssclass: pathfinder
+price:
+  min: 100
+  max: 500
+traits:
+- link: "[[Worn#Eyes| Worn (Eyes)]]"
+flavor_text:
+- text: "For those whose eyes can’t be trusted beyond the tip of their nose"
 ---
 
-<h1> Glasses <span style="margin-left: auto;">1 to 5 sc</span> </h1>
-
-[[Worn#Eyes | Worn (Eyes)]]{.trait}
-
-<div style="clear:both" /> 
-
-___
-*For those whose eyes can’t be trusted beyond the tip of their nose*
-
-<br>
+```dataviewjs
+await dv.view("_meta/Dataview/Components/gear_title", {
+    path: dv.current().file.path
+});
+```
 
 **System:**
 While wearing Glasses, you treat [[Murksight]] as being a lower level. For each Silver Coin spend on the Glasses up to 5 Silver Coins, you reduce the [[Murksight]] level by one.

@@ -1,18 +1,16 @@
 ---
-tags: []
-cssclass: pathfinder
+price: Varied
+traits:
+- link: "[[Bag]]"
+flavor_text:
+- text: "_A leather strap arcs from shoulder to waist, pouches snug along its length_"
 ---
 
-<h1> Bandolier <span style="margin-left: auto;"> Varied </span> </h1>
-
-[[Bag]]{.trait}
-
-<div style="clear:both" /> 
-
-___
-*A leather strap arcs from shoulder to waist, pouches snug along its length*
-
-<br>
+```dataviewjs
+await dv.view("_meta/Dataview/Components/gear_title", {
+    path: dv.current().file.path
+});
+```
 
 **System:**
 A Bandolier can be made to specifically hold differenct objects as shown in the table below:

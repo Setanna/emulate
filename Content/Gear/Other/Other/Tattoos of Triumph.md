@@ -1,37 +1,22 @@
 ---
-tags: []
-cssclass: pathfinder
+price:
+  min: 500
+  max: 1500
+traits:
+- link: "[[Sight]]"
 ---
 
-<h1> Tattoos of Triumph <span style="margin-left: auto;"> </span> </h1>
+```dataviewjs
+await dv.view("_meta/Dataview/Components/gear_title", {
+    path: dv.current().file.path
+});
+```
 
-[[Sight]]{.trait}
+**System:**
+This Item has a level for each 5 sc spend on this item.
 
-<div style="clear:both" /> 
-
-___
-*Flavor Text*
-
-<br>
-
-<h2> Small <span style="margin-left: auto;"> 5 SC </span> </h2>
-
-Small Tattoos of Triumph count as [[Scars]]  with a level of 1 for the [[Pain Tempered]] Talent and all Talents with [[Pain Tempered]] as a Requirement.
-
-If you already have the [[Scars]] Impairment, increase it's level by one to a maximum of three.
+Small Tattoos of Triumph count as [[Scars]] with the same level as this item for the [[Pain Tempered]] Talent and all Talents with [[Pain Tempered]] as a Requirement.
 
 <br>
 
-<h2> Medium <span style="margin-left: auto;"> 10 SC </span> </h2>
-
-Medium Tattoos of Triumph count as [[Scars]]  with a Level of 2 for the [[Pain Tempered]] Talent and all Talents with [[Pain Tempered]] as a Requirement.
-
-If you already have the [[Scars]] Impairment, increase it's level by two to a maximum of three.
-
-<br>
-
-<h2> Large <span style="margin-left: auto;"> 15 SC </span> </h2>
-
-Large Tattoos of Triumph count as [[Scars]]  with a Level of 3 for the [[Pain Tempered]] Talent and all Talents with [[Pain Tempered]] as a Requirement.
-
-If you already have the [[Scars]] Impairment, increase it's level by three to a maximum of three.
+If you already have the [[Scars]] Impairment, increase it's level by this item's level to a maximum of three.

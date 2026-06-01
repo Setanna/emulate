@@ -1,18 +1,16 @@
 ---
-tags: []
-cssclass: pathfinder  
+price: 10
+traits:
+- link: "[[Activation | Activation (1 Second)]]"
+flavor_text:
+- text: "A smooth pale stone, once activated shines like a small sun"
 ---
 
-<h1> Hoverlight <span style="margin-left: auto;"> 10 cc </span> </h1>
-
-[[Activation | Activation (1 Second)]]{.trait}
-
-<div style="clear:both" /> 
-
-___
-*A smooth pale stone, once activated shines like a small sun.*
-
-<br>
+```dataviewjs
+await dv.view("_meta/Dataview/Components/gear_title", {
+    path: dv.current().file.path
+});
+```
 
 **System:**
 Once Activated the pebble will float above the users head and shed [[Lighting | Normal Lighting]] for 6 meters and [[Lighting | Dim Light]] for another 6 meters. 

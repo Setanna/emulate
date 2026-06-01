@@ -1,18 +1,16 @@
 ---
-tags: []
-cssclass: pathfinder
+price: 12
+traits:
+- link: "[[Bag]]"
+flavor_text:
+- text: "A modest leather pouch, reliable and always at your side"
 ---
 
-<h1> Pouch <span style="margin-left: auto;"> 12 CC </span> </h1>
-
-[[Bag]]{.trait}
-
-<div style="clear:both" /> 
-
-___
-*A modest leather pouch, reliable and always at your side*
-
-<br>
+```dataviewjs
+await dv.view("_meta/Dataview/Components/gear_title", {
+    path: dv.current().file.path
+});
+```
 
 **System:**
 A Pouch can hold any small item.

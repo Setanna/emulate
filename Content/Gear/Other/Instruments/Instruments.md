@@ -1,9 +1,13 @@
 ---
-tags: []
-cssclass: pathfinder
+price: Varied
 ---
 
-# Instruments
+```dataviewjs
+await dv.view("_meta/Dataview/Components/gear_title", {
+    path: dv.current().file.path
+});
+```
+
 Instruments generate sound typically used to make songs or other pleasant sound.
 
 

@@ -1,18 +1,16 @@
 ---
-tags: []
-cssclass: pathfinder
+price: 100
+traits:
+- link: "[[Book]]"
+flavor_text:
+- text: "A book containing monsters of all shape and sizes"
 ---
 
-<h1> Bestiary <span style="margin-left: auto;">1 SC</span> </h1>
-
-[[Book]]{.trait}
-
-<div style="clear:both" /> 
-
-___
-*A book containing monsters of all shape and sizes.*
-
-<br>
+```dataviewjs
+await dv.view("_meta/Dataview/Components/gear_title", {
+    path: dv.current().file.path
+});
+```
 
 **System:**
 When you use the [[Scour the Pages]] action with this tome, you gain a +2 [[Rules/Bonuses and Penalties/Item|Item]] Bonus to the [[Monster Lore]] Action until the end of your turn.
