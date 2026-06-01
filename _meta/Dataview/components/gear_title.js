@@ -1,6 +1,8 @@
 await dv.view("_meta/Dataview/scripts/gear_title", dv.current());
 await dv.view("_meta/Dataview/scripts/traits", dv.current());
+
 await dv.view("_meta/Dataview/scripts/uses", dv.current());
+await dv.view("_meta/Dataview/scripts/weight", dv.current());
 
 dv.container.appendChild(document.createElement("hr"));
 

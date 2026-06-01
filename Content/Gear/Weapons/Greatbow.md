@@ -9,7 +9,7 @@ proficiency: Exotic
 type: Ranged
 range_increment: 120
 traits:
-- link: "[[Ammunition]]"
+- link: "[[Ammunition | Ammunition (Great Arrow)]]"
 - link: "[[Material | Material (Wood)]]"
 - link: "[[Heavy]]"
 - link: "[[Propulsive]]"

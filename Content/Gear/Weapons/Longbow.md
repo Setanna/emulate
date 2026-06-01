@@ -9,7 +9,7 @@ proficiency: Advanced
 type: Ranged
 range_increment: 60
 traits:
-- link: "[[Ammunition]]"
+- link: "[[Ammunition | Ammunition (Arrow)]]"
 - link: "[[Material | Material (Wood)]]"
 - link: "[[Propulsive]]"
   value: 2
