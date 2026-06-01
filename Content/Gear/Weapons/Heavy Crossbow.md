@@ -9,6 +9,7 @@ proficiency: Simple
 type: Ranged
 range_increment: 30
 traits:
+- link: "[[Ammunition]]"
 - link: "[[Material | Material (Wood, Steel)]]"
 - link: "[[Mechanical]]"
   value: 4
