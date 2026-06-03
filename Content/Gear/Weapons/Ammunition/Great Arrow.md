@@ -1,6 +1,6 @@
 ---
 price: 5
-weight: 0.5
+weight: 1
 traits:
 - link: "[[Material | Material (Wood, Steel)]]"
 ---
