@@ -1,6 +1,5 @@
 ---
 price: 150
-weight: 1
 traits:
 - link: "[[Material | Material (Fur)]]"
 augments:
