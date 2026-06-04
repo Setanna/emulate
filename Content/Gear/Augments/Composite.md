@@ -1,12 +1,12 @@
 ---
 price: 150
 weight: 1
-traits:
-- link: "[[Material | Material (Fur)]]"
 augments:
-- "Armor"
-- "Shields"
-- "Weapons"
+- "[[Shortbow]]"
+- "[[Longbow]]"
+- "[[Greatbow]]"
+flavor_text:
+- text: "A layered construction smooths the bow's draw, making it easier to handle"
 ---
 
 ```dataviewjs
@@ -15,8 +15,5 @@ await dv.view("_meta/Dataview/Components/augment_title", {
 });
 ```
 
-> [!warning] Warning
-> This will be updated when [[Weather#Temperature | Temperature]] is created
-
 **System:**
-The armor gains the [[Material | Material (Fur)]] Trait and reduces [[Damage Types#Cold | Cold]] Damage by one more.
+Reduce the Value of the [[Propulsive]] Trait by one to a maximum of minus five.

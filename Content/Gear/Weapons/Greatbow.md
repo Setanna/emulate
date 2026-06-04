@@ -13,7 +13,7 @@ traits:
 - link: "[[Material | Material (Wood)]]"
 - link: "[[Heavy]]"
 - link: "[[Propulsive]]"
-  value: 4
+  value: 5
 flavor_text:
 - text: "A colossal bow designed to deliver brutal force across great distances"
 ---

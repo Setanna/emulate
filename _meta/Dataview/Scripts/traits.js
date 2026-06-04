@@ -17,7 +17,7 @@ for (let trait of traits) {
 
     let name = trait.link.display ? trait.link.display : path.split("/").pop().replace(".md", "");
 
-    if (trait.value) name = name + " " + trait.value;
+    if (trait.value !== undefined) name = name + " " + trait.value;
 
     let css = trait.css ?? "trait";
 
