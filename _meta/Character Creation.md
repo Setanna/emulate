@@ -11,11 +11,11 @@ To start character creation the Game Master must first determine what Starting X
 | Example     | XP  |
 | ----------- |:---:|
 | Gutter Rats |  0  |
-| Vagrant     |  5  |
-| Commoner    | 10  |
-| Guard       | 20  |
-| Veteran     | 40  |
-| Adventurer  | 80  |
+| Vagrant     | 10  |
+| Commoner    | 50  |
+| Guard       | 100 |
+| Veteran     | 200 |
+| Adventurer  | 400 | 
 
 <br>
 
@@ -42,7 +42,7 @@ Once a background has been chosen Characteristics are next. Characteristic are t
 Social Bonds determine what bonds a character might have, such as being a regular at a tavern and getting a discount.
 
 ### Proficiencies
-Each character starts Untrained in all skills and all gear. However the [[Light Armor Proficiency]] and [[Simple Weapon Proficiency]] Talents cost 0 XP. 
+Each character starts Untrained in all skills and all gear. 
 
 <br>
 
