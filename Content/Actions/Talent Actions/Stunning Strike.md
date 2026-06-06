@@ -4,7 +4,7 @@ traits:
  - link: "[[Unarmed]]"
  - link: "[[Reactive]]"
 free_action_triggers:
- - text: "You take an [[Rules/Traits/Attack | Attack]] Action"
+ - text: "You would make a [[Making a Strike | Strike]]"
 ---
 
 ```dataviewjs
