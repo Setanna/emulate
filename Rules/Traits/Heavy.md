@@ -11,5 +11,5 @@ Heavy Weapons increase the [[Circumstance]] Penalty from [[Multiattack]] by one 
 
 <br>
 
- [[Rules/Traits/Attack | Attack]] Actions made with Heavy Weapons can not gain the [[Accurate]] Trait.
+ [[Rules/Traits/Attack | Attack]] Actions made with Heavy Weapons can not benefit from the [[Accurate]] Trait.
 

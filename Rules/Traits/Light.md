@@ -11,4 +11,4 @@ Additionally all Light Weapons also reduce the Second Cost of all [[Rules/Traits
 
 <br>
 
- [[Rules/Traits/Attack | Attack]] Actions made with Light Weapons can not gain the [[Daring]] Trait.
+ [[Rules/Traits/Attack | Attack]] Actions made with Light Weapons can not benefit from the [[Daring]] Trait.
