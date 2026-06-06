@@ -1,3 +1,6 @@
 - [ ] Deafened Condition needs to have a value
 	- Because of the Deaf Affliction
 - [ ] Look into Iron Body and see if it should be a "base" archetype to get bolster and iron skin
+- [ ] Rage Points should be able to be spend on active things such as abilities or something instead of just defensive or reactions
+- [ ] Updated Antagonize to also be maxed based on maximum charisma?
+	- It might be on flavor that a bunch of people can piss off one guy
