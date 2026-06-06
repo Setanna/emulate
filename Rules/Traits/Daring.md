@@ -1,5 +1,5 @@
 # Daring
-When you take an [[Rules/Traits/Attack | Attack]] Action with the Daring Trait, all Triggered Actions take a [[Circumstance]] Penalty to their Attack Rolls; Saving Throws and Skill Checks against the Action. The Penalty is equal to this Trait's value.
+When you take an [[Rules/Traits/Attack | Attack]] Action with the Daring Trait, all Triggered Reactions take a [[Circumstance]] Penalty to their Attack Rolls; Saving Throws and Skill Checks against the Action. The Penalty is equal to this Trait's value.
 
 <br>
 
