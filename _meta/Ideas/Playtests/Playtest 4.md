@@ -1,2 +1,3 @@
 - [ ] Deafened Condition needs to have a value
 	- Because of the Deaf Affliction
+- [ ] Look into Iron Body and see if it should be a "base" archetype to get bolster and iron skin
