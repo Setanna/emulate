@@ -9,3 +9,4 @@
 	- Should resources be reduced if an ability score is?
 - [ ] Resources have no maximum
 - [ ] Spiked Trait and Spiked Augment exists
+- [ ] Make more talents that use skill proficiency
