@@ -1,0 +1,2 @@
+- [ ] Deafened Condition needs to have a value
+	- Because of the Deaf Affliction
