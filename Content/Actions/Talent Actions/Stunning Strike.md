@@ -19,7 +19,7 @@ This action cost an additional 2 [[Rules/Mechanics/Resources/Ki | Ki]] Points to
 <br>
 
 **System:**
-If you would deal damage, the defender makes a [[Saving Throws#Fortitude | Fortitude]] Saving Throw.
+If you would deal damage, the defender makes a [[Saving Throws#Fortitude | Fortitude]] Saving Throw. The DC is equal to 10 + your Wisdom.
 
 <br>
 
