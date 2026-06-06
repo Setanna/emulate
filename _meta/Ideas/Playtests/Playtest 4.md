@@ -10,3 +10,4 @@
 - [ ] Resources have no maximum
 - [ ] Spiked Trait and Spiked Augment exists
 - [ ] Make more talents that use skill proficiency
+- [ ] Add points to the link for rage points and on
