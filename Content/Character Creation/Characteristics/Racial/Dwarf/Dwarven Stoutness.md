@@ -1,4 +1,4 @@
-﻿---
+---
 xp: 60
 traits:
  - link: "[[Racial]]"
@@ -6,7 +6,7 @@ traits:
  - link: "[[Merit]]"
 requires:
  - "[[Dwarf]]"
- - "[[Size | Small]]"
+ - "[[Size | Short]]"
 flavor_text:
 - text: "As heavy and tough as a chunk of metal, and as agile"
 ---
