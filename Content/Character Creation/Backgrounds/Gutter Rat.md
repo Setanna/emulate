@@ -3,7 +3,7 @@ xp: -20
 traits:
   - link: "[[Wealth]]"
 requires:
-  - "You have no Talents with the [[Wealth]] Traits"
+  - "You have no Background with the [[Wealth]] Traits"
 flavor_text:
  - text: "You've lived moldy bread to rotten apples, doing whatever it takes to survive"
 ---
