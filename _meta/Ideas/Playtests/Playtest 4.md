@@ -8,3 +8,4 @@
 - [ ] Add rules for temporary changes regarding ability scores
 	- Should resources be reduced if an ability score is?
 - [ ] Resources have no maximum
+- [ ] Spiked Trait and Spiked Augment exists
