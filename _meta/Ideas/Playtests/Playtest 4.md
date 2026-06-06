@@ -7,3 +7,4 @@
 - [ ] Look into Size Modifier based on gear size and price 
 - [ ] Add rules for temporary changes regarding ability scores
 	- Should resources be reduced if an ability score is?
+- [ ] Resources have no maximum
