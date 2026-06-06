@@ -6,7 +6,7 @@ purchases:
  - link: Dwarven Stoutness
  - link: Dwarven Sight
 traits:
- - link: "[[Size | Medium]]"
+ - link: "[[Size | Short]]"
    css: "size-trait"
  - link: "[[Humanoid]]"
 ---
