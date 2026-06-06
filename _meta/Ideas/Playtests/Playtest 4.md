@@ -4,3 +4,4 @@
 - [ ] Rage Points should be able to be spend on active things such as abilities or something instead of just defensive or reactions
 - [ ] Updated Antagonize to also be maxed based on maximum charisma?
 	- It might be on flavor that a bunch of people can piss off one guy
+- [ ] Look into Size Modifier based on gear size and price 
