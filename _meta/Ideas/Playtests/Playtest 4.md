@@ -11,3 +11,4 @@
 - [ ] Spiked Trait and Spiked Augment exists
 - [ ] Make more talents that use skill proficiency
 - [ ] Add points to the link for rage points and on
+- [ ] Treat Medicine should be able to be done without Medicine Kit
