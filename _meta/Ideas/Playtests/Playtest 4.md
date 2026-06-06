@@ -5,3 +5,5 @@
 - [ ] Updated Antagonize to also be maxed based on maximum charisma?
 	- It might be on flavor that a bunch of people can piss off one guy
 - [ ] Look into Size Modifier based on gear size and price 
+- [ ] Add rules for temporary changes regarding ability scores
+	- Should resources be reduced if an ability score is?
