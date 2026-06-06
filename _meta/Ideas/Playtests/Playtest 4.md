@@ -13,3 +13,4 @@
 - [ ] Add points to the link for rage points and on
 - [ ] Treat Medicine should be able to be done without Medicine Kit
 - [ ] Make AI try and figure out what is most statically best to use Accurate and Daring
+- [ ] Look into KI multiattack being maybe too good
