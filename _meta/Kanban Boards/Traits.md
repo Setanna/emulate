@@ -14,7 +14,7 @@ kanban-plugin: board
 	</summary>
 	
 	-  [ ] **Limit Strength to damage equal to Value?**
-	- Does not work well with Thrown Weapons.
+	- Does not work well with Thrown Weapons or other Weapons without a Thrown Trait value
 	
 	</details>
 
