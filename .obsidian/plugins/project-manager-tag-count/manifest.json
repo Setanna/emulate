@@ -1,0 +1,10 @@
+{
+  "id": "project-manager-tag-count",
+  "name": "Projects Manager Patch",
+  "version": "0.1.0",
+  "minAppVersion": "1.7.2",
+  "description": "Patch Project Manager dashboard counts to show named tag groups and separate count totals.",
+  "author": "GitHub Copilot",
+  "authorUrl": "https://github.com/",
+  "isDesktopOnly": false
+}

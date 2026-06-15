@@ -1,0 +1,18 @@
+{
+  "enabled": true,
+  "filterGroups": [
+    {
+      "label": "Archetypes",
+      "tags": [
+        "archetype"
+      ]
+    },
+    {
+      "label": "Ideas",
+      "tags": [
+        "idea"
+      ]
+    }
+  ],
+  "tagMode": "any"
+}
