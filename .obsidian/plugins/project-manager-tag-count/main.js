@@ -250,12 +250,25 @@ class ProjectManagerTagCountPatch extends Plugin {
     const countEl = card.querySelector('.pm-project-card-tasks');
 
     if (countEl) {
+      let filteredCounts = Array.isArray(counts)
+        ? counts.filter((count) => count.total !== 0 || count.done !== 0)
+        : [counts];
+
       if (Array.isArray(counts) && counts.length > 1) {
-        countEl.innerHTML = counts
+        if (!filteredCounts.length) {
+          countEl.textContent = '';
+          return;
+        }
+
+        countEl.innerHTML = filteredCounts
           .map((count) => `${count.label}: ${count.done}/${count.total}`)
           .join('<br>');
       } else {
         const count = Array.isArray(counts) ? counts[0] : counts;
+        if (count.total === 0 && count.done === 0) {
+          countEl.textContent = '';
+          return;
+        }
         countEl.textContent = `${count.done}/${count.total} tasks`;
       }
     }
