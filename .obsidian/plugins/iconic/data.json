@@ -274,6 +274,13 @@
         "539eb19cb006f1d3"
       ],
       "color": "#a30000"
+    },
+    "_meta/Projects": {
+      "icon": "lucide-wrench",
+      "unsynced": [
+        "539eb19cb006f1d3"
+      ],
+      "color": "#a30000"
     }
   },
   "bookmarkIcons": {},
