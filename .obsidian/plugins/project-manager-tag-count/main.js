@@ -5,7 +5,8 @@ const DEFAULT_SETTINGS = {
   filterGroups: [
     { label: 'Default', tags: [] }
   ],
-  tagMode: 'any'
+  tagMode: 'any',
+  hideGanttButton: false,
 };
 
 class ProjectManagerTagCountPatch extends Plugin {
@@ -16,8 +17,8 @@ class ProjectManagerTagCountPatch extends Plugin {
     this.patchProjectManagerPlugin();
 
     if (this.app.workspace.on) {
-      this.registerEvent(this.app.workspace.on('layout-change', () => this.patchDashboardLeaves()));
-      this.registerEvent(this.app.workspace.on('active-leaf-change', () => this.patchDashboardLeaves()));
+      this.registerEvent(this.app.workspace.on('layout-change', () => { this.patchDashboardLeaves(); this.patchProjectLeaves(); }));
+      this.registerEvent(this.app.workspace.on('active-leaf-change', () => { this.patchDashboardLeaves(); this.patchProjectLeaves(); }));
     }
 
     this.registerInterval(window.setInterval(() => this.patchProjectManagerPlugin(), 1000));
@@ -55,11 +56,72 @@ class ProjectManagerTagCountPatch extends Plugin {
   async saveSettings() {
     await this.saveData(this.settings);
     this.refreshAllDashboardCounts();
+    this.applyGanttButtonSetting();
+  }
+
+  applyGanttButtonSetting() {
+    const leaves = this.app.workspace.getLeavesOfType?.('pm-project') || [];
+    for (const leaf of leaves) {
+      const view = leaf.view;
+      if (!view) continue;
+      if (this.settings.hideGanttButton) {
+        this.patchProjectLeaf(leaf);
+      } else if (typeof view.renderProjectToolbar === 'function') {
+        view.renderProjectToolbar();
+      }
+    }
+  }
+
+  patchProjectLeaves() {
+    const leaves = this.app.workspace.getLeavesOfType?.('pm-project') || [];
+    for (const leaf of leaves) {
+      this.patchProjectLeaf(leaf);
+    }
+  }
+
+  patchProjectLeaf(leaf) {
+    const view = leaf.view;
+    if (!view || typeof view.getViewType !== 'function') return;
+    if (view.getViewType() !== 'pm-project') return;
+
+    const viewCtor = view.constructor;
+    if (!viewCtor.prototype.__pmGanttBtnPatched) {
+      const originalRenderToolbar = viewCtor.prototype.renderProjectToolbar;
+      if (typeof originalRenderToolbar === 'function') {
+        const self = this;
+        viewCtor.prototype.renderProjectToolbar = function (...args) {
+          const result = originalRenderToolbar.apply(this, args);
+          self.scheduleGanttButtonRemoval(this);
+          return result;
+        };
+        viewCtor.prototype.__pmGanttBtnPatched = true;
+      }
+    }
+
+    this.scheduleGanttButtonRemoval(view);
+  }
+
+  scheduleGanttButtonRemoval(view) {
+    if (!view || view.__pmGanttRemoveScheduled) return;
+    view.__pmGanttRemoveScheduled = true;
+    window.setTimeout(() => {
+      view.__pmGanttRemoveScheduled = false;
+      if (this.settings.hideGanttButton) {
+        this.removeGanttButtonFromView(view);
+      }
+    }, 30);
+  }
+
+  removeGanttButtonFromView(view) {
+    if (!view || !view.containerEl) return;
+    const btn = view.containerEl.querySelector('.pm-view-btn[aria-label="Gantt"]');
+    if (btn) btn.remove();
   }
 
   patchProjectManagerPlugin() {
     if (this.projectManagerPlugin) {
       this.patchDashboardLeaves();
+      this.patchProjectLeaves();
       return;
     }
 
@@ -67,6 +129,7 @@ class ProjectManagerTagCountPatch extends Plugin {
     if (pm) {
       this.projectManagerPlugin = pm;
       this.patchDashboardLeaves();
+      this.patchProjectLeaves();
       return;
     }
 
@@ -295,6 +358,18 @@ class TagCountPatchSettingTab extends PluginSettingTab {
           .setValue(this.plugin.settings.enabled)
           .onChange(async (value) => {
             this.plugin.settings.enabled = value;
+            await this.plugin.saveSettings();
+          })
+      );
+
+    new Setting(containerEl)
+      .setName('Hide Gantt button')
+      .setDesc('If enabled, removes the Gantt view button from project toolbars.')
+      .addToggle((toggle) =>
+        toggle
+          .setValue(this.plugin.settings.hideGanttButton)
+          .onChange(async (value) => {
+            this.plugin.settings.hideGanttButton = value;
             await this.plugin.saveSettings();
           })
       );

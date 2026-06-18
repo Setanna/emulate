@@ -14,5 +14,6 @@
       ]
     }
   ],
-  "tagMode": "any"
+  "tagMode": "any",
+  "hideGanttButton": true
 }
