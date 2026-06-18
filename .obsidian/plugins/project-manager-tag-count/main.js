@@ -1,4 +1,13 @@
-const { Plugin, PluginSettingTab, Setting } = require('obsidian');
+const { Plugin, PluginSettingTab, Setting, Menu, setIcon } = require('obsidian');
+
+const HIDEABLE_COLUMNS = [
+  { id: 'status',    label: 'Status',    index: 4 },
+  { id: 'priority',  label: 'Priority',  index: 5 },
+  { id: 'assignees', label: 'Assignees', index: 6 },
+  { id: 'due',       label: 'Due',       index: 7 },
+  { id: 'progress',  label: 'Progress',  index: 8 },
+  { id: 'time',      label: 'Time',      index: 9 },
+];
 
 const DEFAULT_SETTINGS = {
   enabled: true,
@@ -7,6 +16,7 @@ const DEFAULT_SETTINGS = {
   ],
   tagMode: 'any',
   hideGanttButton: false,
+  hiddenColumns: [],
 };
 
 class ProjectManagerTagCountPatch extends Plugin {
@@ -23,12 +33,14 @@ class ProjectManagerTagCountPatch extends Plugin {
 
     this.registerInterval(window.setInterval(() => this.patchProjectManagerPlugin(), 1000));
     this.addSettingTab(new TagCountPatchSettingTab(this.app, this));
+    this.applyColumnCSS();
   }
 
   onunload() {
     if (this.projectManagerPlugin) {
       this.projectManagerPlugin = null;
     }
+    document.getElementById('pm-patch-column-css')?.remove();
   }
 
   async loadSettings() {
@@ -36,18 +48,15 @@ class ProjectManagerTagCountPatch extends Plugin {
     const settings = Object.assign({}, DEFAULT_SETTINGS, raw);
 
     if (!settings.filterGroups && Array.isArray(raw?.filterTags)) {
-      settings.filterGroups = [
-        {
-          label: 'Default',
-          tags: raw.filterTags,
-        },
-      ];
+      settings.filterGroups = [{ label: 'Default', tags: raw.filterTags }];
     }
 
     if (!Array.isArray(settings.filterGroups)) {
-      settings.filterGroups = [
-        { label: 'Default', tags: [] },
-      ];
+      settings.filterGroups = [{ label: 'Default', tags: [] }];
+    }
+
+    if (!Array.isArray(settings.hiddenColumns)) {
+      settings.hiddenColumns = [];
     }
 
     this.settings = settings;
@@ -56,8 +65,68 @@ class ProjectManagerTagCountPatch extends Plugin {
   async saveSettings() {
     await this.saveData(this.settings);
     this.refreshAllDashboardCounts();
+    this.applyColumnCSS();
     this.applyGanttButtonSetting();
   }
+
+  // --- Column visibility ---
+
+  applyColumnCSS() {
+    const id = 'pm-patch-column-css';
+    let styleEl = document.getElementById(id);
+    if (!styleEl) {
+      styleEl = document.createElement('style');
+      styleEl.id = id;
+      document.head.appendChild(styleEl);
+    }
+    const hidden = this.settings.hiddenColumns || [];
+    styleEl.textContent = hidden
+      .map(colId => {
+        const col = HIDEABLE_COLUMNS.find(c => c.id === colId);
+        if (!col) return '';
+        return `.pm-table th:nth-child(${col.index}), .pm-table td:nth-child(${col.index}) { display: none !important; }`;
+      })
+      .filter(Boolean)
+      .join('\n');
+  }
+
+  addColumnToggleButton(view) {
+    if (!view || !view.containerEl) return;
+    const toolbarRight = view.containerEl.querySelector('.pm-toolbar-right');
+    if (!toolbarRight) return;
+    if (toolbarRight.querySelector('.pm-patch-col-toggle')) return;
+
+    const btn = toolbarRight.createEl('button', {
+      cls: 'pm-patch-col-toggle clickable-icon',
+      attr: { 'aria-label': 'Toggle columns' },
+    });
+    setIcon(btn, 'eye');
+
+    btn.addEventListener('click', (evt) => {
+      evt.stopPropagation();
+      const menu = new Menu();
+      for (const col of HIDEABLE_COLUMNS) {
+        const isHidden = (this.settings.hiddenColumns || []).includes(col.id);
+        menu.addItem(item =>
+          item
+            .setTitle(col.label)
+            .setChecked(!isHidden)
+            .onClick(async () => {
+              if (!Array.isArray(this.settings.hiddenColumns)) this.settings.hiddenColumns = [];
+              if (isHidden) {
+                this.settings.hiddenColumns = this.settings.hiddenColumns.filter(c => c !== col.id);
+              } else {
+                this.settings.hiddenColumns.push(col.id);
+              }
+              await this.saveSettings();
+            })
+        );
+      }
+      menu.showAtMouseEvent(evt);
+    });
+  }
+
+  // --- Project view patching ---
 
   applyGanttButtonSetting() {
     const leaves = this.app.workspace.getLeavesOfType?.('pm-project') || [];
@@ -67,6 +136,7 @@ class ProjectManagerTagCountPatch extends Plugin {
       if (this.settings.hideGanttButton) {
         this.patchProjectLeaf(leaf);
       } else if (typeof view.renderProjectToolbar === 'function') {
+        // Re-render restores the Gantt button; our patch also re-adds the column toggle btn
         view.renderProjectToolbar();
       }
     }
@@ -91,25 +161,26 @@ class ProjectManagerTagCountPatch extends Plugin {
         const self = this;
         viewCtor.prototype.renderProjectToolbar = function (...args) {
           const result = originalRenderToolbar.apply(this, args);
-          self.scheduleGanttButtonRemoval(this);
+          self.scheduleProjectPatch(this);
           return result;
         };
         viewCtor.prototype.__pmGanttBtnPatched = true;
       }
     }
 
-    this.scheduleGanttButtonRemoval(view);
+    this.scheduleProjectPatch(view);
   }
 
-  scheduleGanttButtonRemoval(view) {
-    if (!view || view.__pmGanttRemoveScheduled) return;
-    view.__pmGanttRemoveScheduled = true;
+  scheduleProjectPatch(view) {
+    if (!view || view.__pmProjectPatchScheduled) return;
+    view.__pmProjectPatchScheduled = true;
     window.setTimeout(() => {
-      view.__pmGanttRemoveScheduled = false;
+      view.__pmProjectPatchScheduled = false;
       if (this.settings.hideGanttButton) {
         this.removeGanttButtonFromView(view);
       }
-    }, 30);
+      this.addColumnToggleButton(view);
+    }, 50);
   }
 
   removeGanttButtonFromView(view) {
@@ -117,6 +188,8 @@ class ProjectManagerTagCountPatch extends Plugin {
     const btn = view.containerEl.querySelector('.pm-view-btn[aria-label="Gantt"]');
     if (btn) btn.remove();
   }
+
+  // --- Dashboard patching ---
 
   patchProjectManagerPlugin() {
     if (this.projectManagerPlugin) {
@@ -348,7 +421,7 @@ class TagCountPatchSettingTab extends PluginSettingTab {
     const { containerEl } = this;
     containerEl.empty();
 
-    containerEl.createEl('h2', { text: 'Project Manager Count Groups' });
+    containerEl.createEl('h2', { text: 'Project Manager Patch' });
 
     new Setting(containerEl)
       .setName('Enable patched counts')
@@ -373,6 +446,30 @@ class TagCountPatchSettingTab extends PluginSettingTab {
             await this.plugin.saveSettings();
           })
       );
+
+    containerEl.createEl('h3', { text: 'Column visibility' });
+    containerEl.createEl('p', { text: 'Toggle columns in the project table. You can also click the eye button in any open project\'s toolbar.' });
+
+    for (const col of HIDEABLE_COLUMNS) {
+      const isHidden = (this.plugin.settings.hiddenColumns || []).includes(col.id);
+      new Setting(containerEl)
+        .setName(col.label)
+        .addToggle(toggle =>
+          toggle
+            .setValue(!isHidden)
+            .onChange(async (value) => {
+              if (!Array.isArray(this.plugin.settings.hiddenColumns)) this.plugin.settings.hiddenColumns = [];
+              if (!value) {
+                if (!this.plugin.settings.hiddenColumns.includes(col.id)) {
+                  this.plugin.settings.hiddenColumns.push(col.id);
+                }
+              } else {
+                this.plugin.settings.hiddenColumns = this.plugin.settings.hiddenColumns.filter(c => c !== col.id);
+              }
+              await this.plugin.saveSettings();
+            })
+        );
+    }
 
     new Setting(containerEl)
       .setName('Tag match mode')

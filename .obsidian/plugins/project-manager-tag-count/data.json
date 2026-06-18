@@ -15,5 +15,11 @@
     }
   ],
   "tagMode": "any",
-  "hideGanttButton": true
+  "hideGanttButton": true,
+  "hiddenColumns": [
+    "due",
+    "progress",
+    "time",
+    "assignees"
+  ]
 }
