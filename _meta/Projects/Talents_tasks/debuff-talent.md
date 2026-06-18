@@ -10,12 +10,12 @@ priority: "low"
 start: "2026-06-15"
 due: ""
 progress: 0
-assignees: ["Joen"]
+assignees: []
 tags: ["idea"]
 subtaskIds: []
 dependencies: []
 createdAt: "2026-06-15T16:52:53.105Z"
-updatedAt: "2026-06-15T18:01:21.294Z"
+updatedAt: "2026-06-18T20:32:16.898Z"
 customFields:
   l84l2qxhmqe521vg: "Christian"
 ---

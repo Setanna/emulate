@@ -10,14 +10,14 @@ priority: "low"
 start: ""
 due: ""
 progress: 0
-assignees: ["Joen"]
+assignees: []
 tags: ["idea"]
 subtaskIds: []
 dependencies: []
 createdAt: "2026-06-15T16:27:05.145Z"
-updatedAt: "2026-06-15T16:28:25.011Z"
+updatedAt: "2026-06-18T20:32:21.707Z"
 customFields:
   l84l2qxhmqe521vg: "Aron"
 ---
 
-Project: [[_meta/Projects/Talents|Talents]]
+Project: [[Talents|Talents]]

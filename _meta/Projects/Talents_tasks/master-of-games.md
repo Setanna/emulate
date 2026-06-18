@@ -10,12 +10,12 @@ priority: "low"
 start: "2026-06-16"
 due: ""
 progress: 0
-assignees: ["Joen"]
+assignees: []
 tags: ["idea"]
 subtaskIds: []
 dependencies: []
 createdAt: "2026-06-14T18:49:19.184Z"
-updatedAt: "2026-06-15T16:28:27.734Z"
+updatedAt: "2026-06-18T20:32:23.232Z"
 customFields:
   akvdtwpamqe51i4e: "Talents"
   l84l2qxhmqe521vg: "Aron"
@@ -23,4 +23,4 @@ customFields:
 
 Maybe make two versions. One that grants proficiency in all games and one that lets a person bluff in all games.
 
-Project: [[_meta/Projects/Talents|Talents]]
+Project: [[Talents|Talents]]

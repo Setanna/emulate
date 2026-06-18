@@ -10,12 +10,12 @@ priority: "low"
 start: ""
 due: ""
 progress: 0
-assignees: ["Joen"]
+assignees: []
 tags: ["archetype"]
 subtaskIds: ["tbef6vyjmqfgfdop", "l5w2m22zmqfgbwtt"]
 dependencies: []
 createdAt: "2026-06-15T17:41:11.409Z"
-updatedAt: "2026-06-15T18:00:51.449Z"
+updatedAt: "2026-06-18T20:32:20.245Z"
 customFields:
   l84l2qxhmqe521vg: "Christian"
 ---

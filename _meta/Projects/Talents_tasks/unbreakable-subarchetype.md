@@ -1,24 +1,23 @@
 ---
 pm-task: true
-projectId: 6af570ykmqe51538
-parentId: 9tsxr3ypmqfibee3
-id: vb98hypfmqficjmc
-title: Unbreakable Subarchetype
-type: task
-status: todo
-priority: low
-start: 2026-06-15
+projectId: "6af570ykmqe51538"
+parentId: "9tsxr3ypmqfibee3"
+id: "vb98hypfmqficjmc"
+title: "Unbreakable Subarchetype"
+type: "task"
+status: "todo"
+priority: "low"
+start: "2026-06-15"
 due: ""
 progress: 0
 assignees: []
-tags: []
-subtaskIds:
-  - wjvmfktymqfidon2
+tags: ["subarchetype"]
+subtaskIds: ["wjvmfktymqfidon2"]
 dependencies: []
-createdAt: 2026-06-15T17:49:21.876Z
-updatedAt: 2026-06-15T17:50:25.547Z
+createdAt: "2026-06-15T17:49:21.876Z"
+updatedAt: "2026-06-18T20:32:08.334Z"
 customFields:
-  l84l2qxhmqe521vg: Joen
+  l84l2qxhmqe521vg: "Joen"
 ---
 
 Parent: [[rage-archetype|Rage Archetype]]

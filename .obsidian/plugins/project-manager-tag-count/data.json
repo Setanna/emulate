@@ -12,6 +12,12 @@
       "tags": [
         "idea"
       ]
+    },
+    {
+      "label": "Subarchetypes",
+      "tags": [
+        "subarchetype"
+      ]
     }
   ],
   "tagMode": "any",
