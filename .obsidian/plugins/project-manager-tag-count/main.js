@@ -54,6 +54,12 @@ class ProjectManagerTagCountPatch extends Plugin {
       this.projectManagerPlugin = null;
     }
     this.taskSnapshots = null;
+    if (this._patchedTaskModalProto?.__pmRenderPatched) {
+      this._patchedTaskModalProto.render = this._patchedTaskModalProto._pmOriginalRender;
+      delete this._patchedTaskModalProto.__pmRenderPatched;
+      delete this._patchedTaskModalProto._pmOriginalRender;
+      this._patchedTaskModalProto = null;
+    }
     const { Modal } = require('obsidian');
     if (Modal.prototype.__pmTaskSnapshotPatched && this._originalModalOpen) {
       Modal.prototype.open = this._originalModalOpen;
@@ -284,13 +290,30 @@ class ProjectManagerTagCountPatch extends Plugin {
 
     Modal.prototype.open = function () {
       const result = originalOpen.call(this);
-      // After onOpen() runs the PM task modal sets 'pm-task-modal' on contentEl
-      // and this.task is already set by the constructor — snapshot it now before
-      // the user touches anything. updatedAt is intentionally excluded from the
-      // later comparison so its value here doesn't matter.
+
       if (this.contentEl?.classList.contains('pm-task-modal') && this.task?.id) {
+        // Snapshot the task for the dirty check (updatedAt intentionally excluded).
         self.taskSnapshots.set(this.task.id, JSON.parse(JSON.stringify(this.task)));
+
+        // Patch render() on this modal's prototype so column hiding is applied
+        // synchronously at the end of every re-render, before the browser paints.
+        // This prevents the visible jump caused by the MutationObserver's 10ms delay.
+        const proto = Object.getPrototypeOf(this);
+        if (!proto.__pmRenderPatched) {
+          const originalRender = proto.render;
+          proto.render = function (...args) {
+            const r = originalRender.apply(this, args);
+            if (this.contentEl) {
+              self.applyModalColumnHiding(this.contentEl, self.settings.hiddenColumns || []);
+            }
+            return r;
+          };
+          proto.__pmRenderPatched = true;
+          proto._pmOriginalRender = originalRender;
+          self._patchedTaskModalProto = proto;
+        }
       }
+
       return result;
     };
 
