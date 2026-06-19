@@ -19,6 +19,7 @@ const DEFAULT_SETTINGS = {
   tagMode: 'any',
   hideGanttButton: false,
   hiddenColumns: [],
+  skipSaveIfUnchanged: false,
 };
 
 class ProjectManagerTagCountPatch extends Plugin {
@@ -26,7 +27,9 @@ class ProjectManagerTagCountPatch extends Plugin {
     await this.loadSettings();
     this.projectManagerPlugin = null;
     this.patchRetryCount = 0;
+    this.taskSnapshots = new Map();
     this.patchProjectManagerPlugin();
+    this.setupTaskModalSnapshotPatch();
 
     if (this.app.workspace.on) {
       this.registerEvent(this.app.workspace.on('layout-change', () => { this.patchDashboardLeaves(); this.patchProjectLeaves(); }));
@@ -40,8 +43,22 @@ class ProjectManagerTagCountPatch extends Plugin {
   }
 
   onunload() {
+    if (this.projectManagerPlugin?.store) {
+      const store = this.projectManagerPlugin.store;
+      if (store.__pmDirtyCheckPatched) {
+        delete store.updateTask;
+        delete store.__pmDirtyCheckPatched;
+      }
+    }
     if (this.projectManagerPlugin) {
       this.projectManagerPlugin = null;
+    }
+    this.taskSnapshots = null;
+    const { Modal } = require('obsidian');
+    if (Modal.prototype.__pmTaskSnapshotPatched && this._originalModalOpen) {
+      Modal.prototype.open = this._originalModalOpen;
+      delete Modal.prototype.__pmTaskSnapshotPatched;
+      this._originalModalOpen = null;
     }
     document.getElementById('pm-patch-column-css')?.remove();
     this.modalObserver?.disconnect();
@@ -255,26 +272,85 @@ class ProjectManagerTagCountPatch extends Plugin {
     if (btn) btn.remove();
   }
 
+  // --- Skip save if unchanged ---
+
+  setupTaskModalSnapshotPatch() {
+    const { Modal } = require('obsidian');
+    if (Modal.prototype.__pmTaskSnapshotPatched) return;
+
+    const self = this;
+    const originalOpen = Modal.prototype.open;
+    this._originalModalOpen = originalOpen;
+
+    Modal.prototype.open = function () {
+      const result = originalOpen.call(this);
+      // After onOpen() runs the PM task modal sets 'pm-task-modal' on contentEl
+      // and this.task is already set by the constructor — snapshot it now before
+      // the user touches anything. updatedAt is intentionally excluded from the
+      // later comparison so its value here doesn't matter.
+      if (this.contentEl?.classList.contains('pm-task-modal') && this.task?.id) {
+        self.taskSnapshots.set(this.task.id, JSON.parse(JSON.stringify(this.task)));
+      }
+      return result;
+    };
+
+    Modal.prototype.__pmTaskSnapshotPatched = true;
+  }
+
+  patchStore(store) {
+    if (!store || store.__pmDirtyCheckPatched) return;
+
+    const self = this;
+    const originalUpdateTask = store.updateTask.bind(store);
+
+    store.updateTask = async function (project, taskId, updates) {
+      if (self.settings.skipSaveIfUnchanged) {
+        const snapshot = self.taskSnapshots.get(taskId);
+        self.taskSnapshots.delete(taskId);
+        if (snapshot && !self.taskHasChanges(snapshot, updates)) {
+          return;
+        }
+      }
+      return originalUpdateTask(project, taskId, updates);
+    };
+
+    store.__pmDirtyCheckPatched = true;
+  }
+
+  taskHasChanges(snapshot, updates) {
+    // Explicitly skip updatedAt/createdAt — PM stamps these on every save
+    // and they must not influence the dirty check.
+    const fields = [
+      'title', 'description', 'status', 'priority', 'type',
+      'assignees', 'tags', 'due', 'start', 'progress', 'completed',
+      'recurrence', 'timeEstimate', 'timeLogs', 'dependencies',
+      'customFields', 'archived',
+    ];
+    for (const field of fields) {
+      if (!(field in updates)) continue;
+      if (JSON.stringify(snapshot[field]) !== JSON.stringify(updates[field])) {
+        return true;
+      }
+    }
+    return false;
+  }
+
   // --- Dashboard patching ---
 
   patchProjectManagerPlugin() {
-    if (this.projectManagerPlugin) {
-      this.patchDashboardLeaves();
-      this.patchProjectLeaves();
-      return;
-    }
-
     const pm = this.app.plugins.plugins['project-manager'];
-    if (pm) {
-      this.projectManagerPlugin = pm;
-      this.patchDashboardLeaves();
-      this.patchProjectLeaves();
+    if (!pm) {
+      if (this.patchRetryCount < 20) this.patchRetryCount += 1;
       return;
     }
 
-    if (this.patchRetryCount < 20) {
-      this.patchRetryCount += 1;
-    }
+    this.projectManagerPlugin = pm;
+    this.patchDashboardLeaves();
+    this.patchProjectLeaves();
+
+    // Retry store patch each tick until it sticks (pm.store may not exist yet
+    // on the very first detection if PM is still mid-load).
+    if (pm.store) this.patchStore(pm.store);
   }
 
   patchDashboardLeaves() {
@@ -509,6 +585,18 @@ class TagCountPatchSettingTab extends PluginSettingTab {
           .setValue(this.plugin.settings.hideGanttButton)
           .onChange(async (value) => {
             this.plugin.settings.hideGanttButton = value;
+            await this.plugin.saveSettings();
+          })
+      );
+
+    new Setting(containerEl)
+      .setName('Only save tasks on actual changes')
+      .setDesc('When enabled, closing the task editor without making any changes will not write to disk or update timestamps. Keeps git history clean.')
+      .addToggle((toggle) =>
+        toggle
+          .setValue(this.plugin.settings.skipSaveIfUnchanged)
+          .onChange(async (value) => {
+            this.plugin.settings.skipSaveIfUnchanged = value;
             await this.plugin.saveSettings();
           })
       );

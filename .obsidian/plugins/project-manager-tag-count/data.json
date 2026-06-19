@@ -47,5 +47,6 @@
     "assignees",
     "start",
     "repeat"
-  ]
+  ],
+  "skipSaveIfUnchanged": true
 }
