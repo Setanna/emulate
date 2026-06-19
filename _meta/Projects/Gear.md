@@ -6,11 +6,15 @@ description: ""
 color: "#c47070"
 icon: "🛠"
 taskIds: ["hyzu1b6ymql0pwj6"]
-customFields: []
+customFields:
+  - id: "mazzaohkmql1prk7"
+    name: "Original Contributer"
+    type: "person"
+    options: []
 teamMembers: []
 savedViews: []
 createdAt: "2026-06-19T14:20:30.856Z"
-updatedAt: "2026-06-19T14:22:57.535Z"
+updatedAt: "2026-06-19T14:50:30.037Z"
 ---
 
 # 🛠 Gear

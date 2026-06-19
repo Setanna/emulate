@@ -85,8 +85,19 @@ class ProjectManagerTagCountPatch extends Plugin {
       styleEl.id = id;
       document.head.appendChild(styleEl);
     }
+
+    // Always hide the "Custom fields" heading and make its rows flush with regular fields.
+    // The custom field rows sit inside an extra nested pm-modal-props (inside pm-modal-section
+    // inside the outer pm-modal-props), giving them an extra 24px of horizontal padding.
+    // Zeroing out the wrapper section and the inner pm-modal-props horizontal padding fixes that.
+    const permanentCSS = [
+      `.pm-task-modal .pm-modal-section > h4.pm-modal-section-title { display: none; }`,
+      `.pm-task-modal .pm-modal-section:has(> h4.pm-modal-section-title) { border-top: none; padding: 0; }`,
+      `.pm-task-modal .pm-modal-section:has(> h4.pm-modal-section-title) > .pm-modal-props { padding-left: 0; padding-right: 0; }`,
+    ].join('\n');
+
     const hidden = this.settings.hiddenColumns || [];
-    styleEl.textContent = hidden
+    const columnCSS = hidden
       .map(colId => {
         const col = HIDEABLE_COLUMNS.find(c => c.id === colId);
         if (!col || col.index == null) return '';
@@ -94,6 +105,8 @@ class ProjectManagerTagCountPatch extends Plugin {
       })
       .filter(Boolean)
       .join('\n');
+
+    styleEl.textContent = permanentCSS + '\n' + columnCSS;
   }
 
   addColumnToggleButton(view) {

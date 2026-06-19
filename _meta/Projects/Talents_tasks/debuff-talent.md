@@ -15,7 +15,7 @@ tags: ["idea"]
 subtaskIds: []
 dependencies: []
 createdAt: "2026-06-15T16:52:53.105Z"
-updatedAt: "2026-06-18T20:32:16.898Z"
+updatedAt: "2026-06-19T14:50:14.405Z"
 customFields:
   l84l2qxhmqe521vg: "Christian"
 ---

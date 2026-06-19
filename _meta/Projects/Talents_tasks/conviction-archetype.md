@@ -15,7 +15,7 @@ tags: ["archetype"]
 subtaskIds: ["j31fegg8mqfi9qdc", "2mt5p9bcmqfiahoa"]
 dependencies: []
 createdAt: "2026-06-15T17:46:57.312Z"
-updatedAt: "2026-06-18T20:32:15.476Z"
+updatedAt: "2026-06-19T14:49:43.346Z"
 customFields:
   l84l2qxhmqe521vg: "Joen"
 ---

@@ -11,10 +11,10 @@ customFields:
     name: "Original Contributer"
     type: "person"
     options: []
-teamMembers: ["Joen", "Aron", "Byg", "Erin", "Christian", "Duus"]
+teamMembers: []
 savedViews: []
 createdAt: "2026-06-14T18:48:48.643Z"
-updatedAt: "2026-06-19T14:40:11.657Z"
+updatedAt: "2026-06-19T14:51:01.968Z"
 ---
 
 # 📋 Talents
