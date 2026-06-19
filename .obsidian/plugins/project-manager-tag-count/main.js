@@ -1,12 +1,14 @@
 const { Plugin, PluginSettingTab, Setting, Menu, setIcon } = require('obsidian');
 
 const HIDEABLE_COLUMNS = [
-  { id: 'status',    label: 'Status',    index: 4 },
-  { id: 'priority',  label: 'Priority',  index: 5 },
-  { id: 'assignees', label: 'Assignees', index: 6 },
-  { id: 'due',       label: 'Due',       index: 7 },
-  { id: 'progress',  label: 'Progress',  index: 8 },
-  { id: 'time',      label: 'Time',      index: 9 },
+  { id: 'status',    label: 'Status',    index: 4,    modalLabels: ['Status'] },
+  { id: 'priority',  label: 'Priority',  index: 5,    modalLabels: ['Priority'] },
+  { id: 'assignees', label: 'Assignees', index: 6,    modalLabels: ['Assignees'] },
+  { id: 'due',       label: 'Due',       index: 7,    modalLabels: ['Due', 'Date'] },
+  { id: 'progress',  label: 'Progress',  index: 8,    modalLabels: ['Progress'] },
+  { id: 'time',      label: 'Time',      index: 9,    modalLabels: null },
+  { id: 'start',     label: 'Start',     index: null, modalLabels: ['Start'] },
+  { id: 'repeat',    label: 'Repeat',    index: null, modalLabels: ['Repeat'] },
 ];
 
 const DEFAULT_SETTINGS = {
@@ -34,6 +36,7 @@ class ProjectManagerTagCountPatch extends Plugin {
     this.registerInterval(window.setInterval(() => this.patchProjectManagerPlugin(), 1000));
     this.addSettingTab(new TagCountPatchSettingTab(this.app, this));
     this.applyColumnCSS();
+    this.setupModalObserver();
   }
 
   onunload() {
@@ -41,6 +44,8 @@ class ProjectManagerTagCountPatch extends Plugin {
       this.projectManagerPlugin = null;
     }
     document.getElementById('pm-patch-column-css')?.remove();
+    this.modalObserver?.disconnect();
+    this.modalObserver = null;
   }
 
   async loadSettings() {
@@ -67,9 +72,10 @@ class ProjectManagerTagCountPatch extends Plugin {
     this.refreshAllDashboardCounts();
     this.applyColumnCSS();
     this.applyGanttButtonSetting();
+    this.applyModalColumnHidingAll();
   }
 
-  // --- Column visibility ---
+  // --- Column visibility (table CSS) ---
 
   applyColumnCSS() {
     const id = 'pm-patch-column-css';
@@ -83,7 +89,7 @@ class ProjectManagerTagCountPatch extends Plugin {
     styleEl.textContent = hidden
       .map(colId => {
         const col = HIDEABLE_COLUMNS.find(c => c.id === colId);
-        if (!col) return '';
+        if (!col || col.index == null) return '';
         return `.pm-table th:nth-child(${col.index}), .pm-table td:nth-child(${col.index}) { display: none !important; }`;
       })
       .filter(Boolean)
@@ -126,6 +132,54 @@ class ProjectManagerTagCountPatch extends Plugin {
     });
   }
 
+  // --- Column visibility (task edit modal) ---
+
+  setupModalObserver() {
+    let pending = false;
+    this.modalObserver = new MutationObserver(() => {
+      if (pending) return;
+      pending = true;
+      window.setTimeout(() => {
+        pending = false;
+        this.applyModalColumnHidingAll();
+      }, 10);
+    });
+    this.modalObserver.observe(document.body, { childList: true, subtree: true });
+  }
+
+  applyModalColumnHidingAll() {
+    const hidden = this.settings.hiddenColumns || [];
+    const modals = document.querySelectorAll('.pm-task-modal');
+    for (const modal of modals) {
+      this.applyModalColumnHiding(modal, hidden);
+    }
+  }
+
+  applyModalColumnHiding(modalEl, hidden) {
+    if (!hidden) hidden = this.settings.hiddenColumns || [];
+
+    for (const row of modalEl.querySelectorAll('.pm-prop-row')) {
+      const labelEl = row.querySelector('.pm-prop-label');
+      if (!labelEl) continue;
+      const labelText = labelEl.textContent.trim();
+
+      const shouldHide = hidden.some(colId => {
+        const col = HIDEABLE_COLUMNS.find(c => c.id === colId);
+        return col?.modalLabels?.includes(labelText);
+      });
+
+      row.style.display = shouldHide ? 'none' : '';
+    }
+
+    // Time tracking is a separate section, not a pm-prop-row
+    for (const section of modalEl.querySelectorAll('.pm-modal-section')) {
+      const title = section.querySelector('.pm-modal-section-title');
+      if (title?.textContent.includes('Time tracking')) {
+        section.style.display = hidden.includes('time') ? 'none' : '';
+      }
+    }
+  }
+
   // --- Project view patching ---
 
   applyGanttButtonSetting() {
@@ -136,7 +190,6 @@ class ProjectManagerTagCountPatch extends Plugin {
       if (this.settings.hideGanttButton) {
         this.patchProjectLeaf(leaf);
       } else if (typeof view.renderProjectToolbar === 'function') {
-        // Re-render restores the Gantt button; our patch also re-adds the column toggle btn
         view.renderProjectToolbar();
       }
     }
@@ -448,7 +501,7 @@ class TagCountPatchSettingTab extends PluginSettingTab {
       );
 
     containerEl.createEl('h3', { text: 'Column visibility' });
-    containerEl.createEl('p', { text: 'Toggle columns in the project table. You can also click the eye button in any open project\'s toolbar.' });
+    containerEl.createEl('p', { text: 'Toggle columns in the project table and matching fields in the task editor. You can also click the eye button in any open project\'s toolbar.' });
 
     for (const col of HIDEABLE_COLUMNS) {
       const isHidden = (this.plugin.settings.hiddenColumns || []).includes(col.id);

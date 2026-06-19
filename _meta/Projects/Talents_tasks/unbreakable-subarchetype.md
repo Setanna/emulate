@@ -15,7 +15,7 @@ tags: ["subarchetype"]
 subtaskIds: ["wjvmfktymqfidon2"]
 dependencies: []
 createdAt: "2026-06-15T17:49:21.876Z"
-updatedAt: "2026-06-18T20:32:08.334Z"
+updatedAt: "2026-06-19T14:33:03.915Z"
 customFields:
   l84l2qxhmqe521vg: "Joen"
 ---

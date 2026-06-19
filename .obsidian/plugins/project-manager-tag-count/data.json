@@ -44,6 +44,8 @@
     "due",
     "progress",
     "time",
-    "assignees"
+    "assignees",
+    "start",
+    "repeat"
   ]
 }

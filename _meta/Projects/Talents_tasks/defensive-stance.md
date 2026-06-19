@@ -15,7 +15,7 @@ tags: ["idea"]
 subtaskIds: []
 dependencies: []
 createdAt: "2026-06-19T14:23:15.131Z"
-updatedAt: "2026-06-19T14:23:15.131Z"
+updatedAt: "2026-06-19T14:39:40.217Z"
 ---
 
 Maybe more reactions? Higher AC? Higher Reflex?
