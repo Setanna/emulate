@@ -18,6 +18,24 @@
       "tags": [
         "subarchetype"
       ]
+    },
+    {
+      "label": "Actions",
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "label": "Mechanics",
+      "tags": [
+        "mechanic"
+      ]
+    },
+    {
+      "label": "Gear",
+      "tags": [
+        "gear"
+      ]
     }
   ],
   "tagMode": "any",
