@@ -36,6 +36,12 @@
       "tags": [
         "gear"
       ]
+    },
+    {
+      "label": "Conditions",
+      "tags": [
+        "condition"
+      ]
     }
   ],
   "tagMode": "any",

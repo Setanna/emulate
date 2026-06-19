@@ -99,12 +99,27 @@
         "showArchived": false
       },
       "activeSavedViewId": null
+    },
+    "_meta/Projects/Actions.md": {
+      "filter": {
+        "text": "",
+        "statuses": [],
+        "priorities": [],
+        "assignees": [],
+        "tags": [],
+        "dueDateFilter": "any",
+        "showArchived": false
+      },
+      "activeSavedViewId": null
     }
   },
   "collapsedTasks": {
     "_meta/Projects/Talents.md": [],
     "_meta/Projects/Mechanics.md": [
-      "gnke1e4dmql0rqpd"
-    ]
+      "gnke1e4dmql0rqpd",
+      "w48mbr0vmql0t025",
+      "eq78if3ymql67k3b"
+    ],
+    "_meta/Projects/Actions.md": []
   }
 }
