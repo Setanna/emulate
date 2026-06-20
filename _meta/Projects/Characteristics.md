@@ -14,11 +14,11 @@ customFields:
 teamMembers: []
 savedViews: []
 createdAt: "2026-06-20T12:04:37.567Z"
-updatedAt: "2026-06-20T13:20:12.728Z"
+updatedAt: "2026-06-20T23:25:53.549Z"
 ---
 
 # 📊 Characteristics
 
 ## Tasks
 - [ ] [[pretty|Pretty]]
-- [ ] [[annoying|Annoying]]
+- [x] [[annoying|Annoying]]
