@@ -11,11 +11,11 @@ start: "2026-06-15"
 due: ""
 progress: 0
 assignees: []
-tags: ["idea"]
+tags: ["idea", "talent"]
 subtaskIds: []
 dependencies: []
 createdAt: "2026-06-15T16:52:53.105Z"
-updatedAt: "2026-06-19T14:50:14.405Z"
+updatedAt: "2026-06-20T12:13:06.152Z"
 customFields:
   l84l2qxhmqe521vg: "Christian"
 ---

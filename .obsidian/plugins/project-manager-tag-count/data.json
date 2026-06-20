@@ -42,6 +42,30 @@
       "tags": [
         "condition"
       ]
+    },
+    {
+      "label": "Characteristics",
+      "tags": [
+        "characteristic"
+      ]
+    },
+    {
+      "label": "Talents",
+      "tags": [
+        "talent"
+      ]
+    },
+    {
+      "label": "Syntaxes",
+      "tags": [
+        "syntax"
+      ]
+    },
+    {
+      "label": "Traits",
+      "tags": [
+        "trait"
+      ]
     }
   ],
   "tagMode": "any",

@@ -11,6 +11,29 @@ start: "2026-06-16"
 due: ""
 progress: 0
 assignees: []
+tags: ["idea", "talent"]
+subtaskIds: []
+dependencies: []
+createdAt: "2026-06-14T18:49:19.184Z"
+updatedAt: "2026-06-20T12:13:16.941Z"
+customFields:
+  akvdtwpamqe51i4e: "Talents"
+  l84l2qxhmqe521vg: "Aron"
+---
+
+---
+pm-task: true
+projectId: "6af570ykmqe51538"
+parentId:
+id: "ngfc84mcmqe51snk"
+title: "Master of Games"
+type: "task"
+status: "todo"
+priority: "low"
+start: "2026-06-16"
+due: ""
+progress: 0
+assignees: []
 tags: ["idea"]
 subtaskIds: []
 dependencies: []
