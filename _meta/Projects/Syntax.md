@@ -5,7 +5,7 @@ title: "Syntax"
 description: ""
 color: "#b94f22"
 icon: "🎨"
-taskIds: ["kfo0a2xkmqmd2wkd", "lufugujfmqmdpnj4"]
+taskIds: ["kfo0a2xkmqmd2wkd", "lufugujfmqmdpnj4", "ryic2prcmqn0dh9o"]
 customFields:
   - id: "3fgtir3smqmc0o38"
     name: "Original Contributer"
@@ -14,7 +14,7 @@ customFields:
 teamMembers: []
 savedViews: []
 createdAt: "2026-06-20T12:23:47.781Z"
-updatedAt: "2026-06-20T13:22:12.628Z"
+updatedAt: "2026-06-20T23:49:27.055Z"
 ---
 
 # 🎨 Syntax
@@ -22,3 +22,4 @@ updatedAt: "2026-06-20T13:22:12.628Z"
 ## Tasks
 - [ ] [[reminder-text|Reminder Text]]
 - [ ] [[internal-links|Internal Links]]
+- [ ] [[text|Text]]

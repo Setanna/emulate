@@ -75,7 +75,8 @@
     "progress",
     "time",
     "start",
-    "repeat"
+    "repeat",
+    "assignees"
   ],
   "skipSaveIfUnchanged": true
 }
