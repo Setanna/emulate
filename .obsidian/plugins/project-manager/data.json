@@ -81,7 +81,7 @@
     "Christian",
     "Duus"
   ],
-  "kanbanShowSubtasks": false,
+  "kanbanShowSubtasks": true,
   "kanbanShowDescriptionPreview": false,
   "notificationsEnabled": true,
   "notificationLeadDays": 2,
