@@ -10,12 +10,12 @@ priority: "low"
 start: ""
 due: ""
 progress: 0
-assignees: ["Joen"]
+assignees: []
 tags: ["idea"]
 subtaskIds: []
 dependencies: []
 createdAt: "2026-06-15T16:48:06.425Z"
-updatedAt: "2026-06-15T16:50:27.187Z"
+updatedAt: "2026-06-20T17:59:25.341Z"
 customFields:
   vd3fzb2jmqfg5710: "Byg"
 ---

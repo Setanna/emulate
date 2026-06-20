@@ -10,12 +10,12 @@ priority: "low"
 start: "2026-06-15"
 due: ""
 progress: 0
-assignees: ["Joen"]
+assignees: []
 tags: ["idea"]
 subtaskIds: []
 dependencies: []
 createdAt: "2026-06-15T17:56:29.461Z"
-updatedAt: "2026-06-15T17:56:50.883Z"
+updatedAt: "2026-06-20T17:59:13.392Z"
 customFields:
   6gyt3t2wmqfililn: "Erin"
 ---

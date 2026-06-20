@@ -14,7 +14,7 @@ customFields:
 teamMembers: []
 savedViews: []
 createdAt: "2026-06-15T16:47:20.152Z"
-updatedAt: "2026-06-15T16:50:50.742Z"
+updatedAt: "2026-06-20T17:59:29.694Z"
 ---
 
 # ⚡ Spells
