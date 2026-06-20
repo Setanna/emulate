@@ -6,7 +6,7 @@ id: "6z1rx3ctmqn0hgff"
 title: "Git Syntax"
 type: "task"
 status: "todo"
-priority: "medium"
+priority: "low"
 start: "2026-06-21"
 due: ""
 progress: 0
@@ -15,7 +15,9 @@ tags: ["syntax"]
 subtaskIds: []
 dependencies: []
 createdAt: "2026-06-20T23:51:27.339Z"
-updatedAt: "2026-06-20T23:53:49.592Z"
+updatedAt: "2026-06-20T23:54:18.022Z"
+customFields:
+  3fgtir3smqmc0o38: "Joen"
 ---
 
 Commits should be as follows:
