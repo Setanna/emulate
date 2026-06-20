@@ -1,10 +1,11 @@
 ---
-tags: []
-cssclass: pathfinder
+flavor_text:
+ - text: "It remembers what it was meant to be, and mourns what it has become"
 ---
 
-# Broken
-*It remembers what it was meant to be, and mourns what it has become*
+```dataviewjs
+await dv.view("_meta/Dataview/Components/condition_title");
+```
 
 **System:**
 Items with the Broken Condition gain a [[Circumstance]] Penalty on:

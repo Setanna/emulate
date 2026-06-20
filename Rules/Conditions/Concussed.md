@@ -1,16 +1,13 @@
 ---
-tags: []
-cssclass: pathfinder
+traits:
+ - link: "[[Fleeting]]"
+flavor_text:
+ - text: "Your thoughts feel borrowed, and poorly returned"
 ---
 
-# Concussed
-
-[[Fleeting]]{.trait}
-
-<div style="clear:both" /> 
-
-___
-*Your thoughts feel borrowed, and poorly returned*
+```dataviewjs
+await dv.view("_meta/Dataview/Components/condition_title");
+```
 
 **System:**
 You take a [[Circumstance]] Penalty on your Will Saving Throws and Mental Stat Based Skill Checks. The Penalty is equal to your Concussed Condition's Value.

@@ -1,10 +1,11 @@
 ---
-tags: []
-cssclass: pathfinder
+flavor_text:
+ - text: "The distance between you and nothing is shortening"
 ---
 
-# Dying
-*The distance between you and nothing is shortening*
+```dataviewjs
+await dv.view("_meta/Dataview/Components/condition_title");
+```
 
 **System:**
 At the start of your turn you Roll a [[Saving Throws  | Fortitude]] Saving Throw. If you fail the Saving Throw you take 1 damage that can not be reduced.

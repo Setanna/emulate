@@ -1,10 +1,11 @@
 ---
-tags: []
-cssclass: pathfinder
+flavor_text:
+ - text: "Soaked through"
 ---
 
-# Drenched
-*Soaked through*
+```dataviewjs
+await dv.view("_meta/Dataview/Components/condition_title");
+```
 
 **System:**
 When you move in a dry environment while you have the Drenched Condition, all Creatures gain a [[Circumstance]] Bonus on track you. The Bonus is equal to the Maximum of your Drenched Condition Value.
@@ -43,5 +44,4 @@ Any increase or Condition Value is based on your Drenched (Oil) Condition's Valu
 ### Acid
 You can be drenched by a wide variety of Acids each with their own unique names. At the start of your turn you gain the Drenched Effect written on the Acid you are Drenched by.
 
-
-Drenched (Acid) is also [[Counteracting | counteracted]] by any other Drenched (Acid) from another Acid. 
+Drenched (Acid) is also [[Counteracting | counteracted]] by any other Drenched (Acid) from another Acid.

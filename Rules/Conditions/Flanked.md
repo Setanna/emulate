@@ -1,10 +1,11 @@
 ---
-tags: []
-cssclass: pathfinder
+flavor_text:
+ - text: "Every instinct tells you to turn—but there is no safe direction left"
 ---
 
-# Flanked
-*Every instinct tells you to turn—but there is no safe direction left*
+```dataviewjs
+await dv.view("_meta/Dataview/Components/condition_title");
+```
 
 **System:**
 While you have the Flanked Condition you take a -1 [[Circumstance]] Penalty to your [[Saving Throws#Reflex | Reflex]] Saving Throws.

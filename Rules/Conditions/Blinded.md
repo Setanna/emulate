@@ -1,10 +1,11 @@
 ---
-tags: []
-cssclass: pathfinder
+flavor_text:
+ - text: "Darkness is all you get"
 ---
 
-# Blinded
-*Darkness is all you get*
+```dataviewjs
+await dv.view("_meta/Dataview/Components/condition_title");
+```
 
 **System:**
 For as long as you have the Blinded Condition you have the following effects:

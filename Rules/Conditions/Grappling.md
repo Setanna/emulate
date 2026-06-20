@@ -1,10 +1,11 @@
 ---
-tags: []
-cssclass: pathfinder
+flavor_text:
+ - text: "Control is secured, but freedom is traded"
 ---
 
-# Grappling
-*Control is secured, but freedom is traded*
+```dataviewjs
+await dv.view("_meta/Dataview/Components/condition_title");
+```
 
 **System:**
 The value of this Condition, is the name of whatever creature you Grappled. If for any reason the creature would lose it's [[Grappled | Grappled (you)]] Condition, you also lose this condition.

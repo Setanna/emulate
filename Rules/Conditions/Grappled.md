@@ -1,10 +1,11 @@
 ---
-tags: []
-cssclass: pathfinder
+flavor_text:
+ - text: "Freedom becomes something you have to fight for"
 ---
 
-# Grappled
-*Freedom becomes something you have to fight for*
+```dataviewjs
+await dv.view("_meta/Dataview/Components/condition_title");
+```
 
 **System:**
 When you gain this Condition, it has a value equal to the name of whatever creature has you Grappled. If for any reason the creature would lose it's [[Grappling | Grappling (you)]] Condition, you also lose this condition.

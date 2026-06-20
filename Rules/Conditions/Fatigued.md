@@ -1,10 +1,11 @@
 ---
-tags: []
-cssclass: pathfinder
+flavor_text:
+ - text: "You are running on what is left, not what is enough"
 ---
 
-# Fatigued
-*You are running on what is left, not what is enough*
+```dataviewjs
+await dv.view("_meta/Dataview/Components/condition_title");
+```
 
 **System:**
 You take a [[Vigour]] Penalty to your  Attack Rolls, Saving Throws, and Skill Checks. The Penalty is equal to your Fatigued Condition's Value.

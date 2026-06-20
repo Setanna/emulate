@@ -1,16 +1,13 @@
 ---
-tags: []
-cssclass: pathfinder
+traits:
+ - link: "[[Fleeting]]"
+flavor_text:
+ - text: "Open wounds, steady loss"
 ---
 
-# Bleeding
-
-[[Fleeting]]{.trait}
-
-<div style="clear:both" /> 
-
-___
-*Open wounds, steady loss*
+```dataviewjs
+await dv.view("_meta/Dataview/Components/condition_title");
+```
 
 **System:**
 At the start of your turn, you take damage equal to your Bleeding Condition's Value. 

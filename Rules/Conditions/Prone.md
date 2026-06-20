@@ -1,10 +1,11 @@
 ---
-tags: []
-cssclass: pathfinder
+flavor_text:
+ - text: "Getting up becomes the first priority"
 ---
 
-# Prone
-*Getting up becomes the first priority*
+```dataviewjs
+await dv.view("_meta/Dataview/Components/condition_title");
+```
 
 **System:**
 You take a [[Circumstance]] Penalty on your Attacks and Reflex Saving Throws, the Penalty is equal to the value of your Prone Condition. Additionally you can not take any Action with the [[Movement]] Trait, except for the [[Crawl]] and [[Stand]] Actions.
@@ -20,4 +21,3 @@ If you are sitting, kneeling or laying down or other similar actions, you automa
 | Prone 3      | Laying down or sitting on the ground   |
 
 You can never gain a higher Prone value than three.
-

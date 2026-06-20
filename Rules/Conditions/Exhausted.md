@@ -1,10 +1,11 @@
 ---
-tags: []
-cssclass: pathfinder
+flavor_text:
+ - text: "Even your will to stay conscious runs out of breath"
 ---
 
-# Exhausted
-*Even your will to stay conscious runs out of breath*
+```dataviewjs
+await dv.view("_meta/Dataview/Components/condition_title");
+```
 
 **System:**
 While you have the Exhausted Condition you also gain the [[Unconscious]] Condition. 

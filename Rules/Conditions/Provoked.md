@@ -1,16 +1,13 @@
 ---
-tags: []
-cssclass: pathfinder
+traits:
+ - link: "[[Fleeting]]"
+flavor_text:
+ - text: "You commit to them, whether it's wise or no"
 ---
 
-# Provoked
-
-[[Fleeting]]{.trait}
-
-<div style="clear:both" /> 
-
-___
-*You commit to them, whether it’s wise or no*
+```dataviewjs
+await dv.view("_meta/Dataview/Components/condition_title");
+```
 
 **System:**
 You take a [[Rules/Bonuses and Penalties/Morale | Morale]] Penalty on your Attacks, Skill Checks and Saving Throws against Creatures other than your target. The [[Rules/Bonuses and Penalties/Morale | Morale]] Penalty is equal to your Provoked Condition's value.
