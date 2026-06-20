@@ -18,6 +18,4 @@ createdAt: "2026-06-19T16:56:15.893Z"
 updatedAt: "2026-06-19T16:56:15.893Z"
 ---
 
-The system needs Natural Reach for things like Catch the Wrist
-
 Parent: [[reach|Reach]]

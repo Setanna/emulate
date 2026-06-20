@@ -18,6 +18,4 @@ createdAt: "2026-06-19T16:57:22.205Z"
 updatedAt: "2026-06-19T16:57:22.205Z"
 ---
 
-There needs to be an Action to handle passing through an enemy's space
-
 Parent: [[maneuvers|Maneuvers]]

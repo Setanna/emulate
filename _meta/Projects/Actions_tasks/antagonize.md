@@ -6,7 +6,7 @@ id: "yzl6249kmqmdjkac"
 title: "Antagonize"
 type: "task"
 status: "todo"
-priority: "medium"
+priority: "low"
 start: "2026-06-20"
 due: ""
 progress: 0
@@ -15,7 +15,9 @@ tags: ["action"]
 subtaskIds: ["mti1bewymqmdjs7w"]
 dependencies: []
 createdAt: "2026-06-20T13:09:14.484Z"
-updatedAt: "2026-06-20T13:09:14.484Z"
+updatedAt: "2026-06-20T13:19:20.506Z"
+customFields:
+  6gyt3t2wmqfililn: "Joen"
 ---
 
 Project: [[Actions|Actions]]

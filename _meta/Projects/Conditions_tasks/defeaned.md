@@ -6,7 +6,7 @@ id: "kbso0k1hmqmdemto"
 title: "Defeaned"
 type: "task"
 status: "todo"
-priority: "medium"
+priority: "low"
 start: "2026-06-20"
 due: ""
 progress: 0
@@ -15,7 +15,9 @@ tags: ["condition"]
 subtaskIds: ["b63kc16pmqmdfdei"]
 dependencies: []
 createdAt: "2026-06-20T13:05:24.492Z"
-updatedAt: "2026-06-20T13:05:24.492Z"
+updatedAt: "2026-06-20T13:20:51.509Z"
+customFields:
+  iyrh5ir9mql6bipx: "Joen"
 ---
 
 Project: [[Conditions|Conditions]]

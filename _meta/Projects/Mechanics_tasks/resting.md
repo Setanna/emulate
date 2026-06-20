@@ -6,7 +6,7 @@ id: "gnke1e4dmql0rqpd"
 title: "Resting"
 type: "task"
 status: "todo"
-priority: "medium"
+priority: "low"
 start: "2026-06-19"
 due: ""
 progress: 0
@@ -15,7 +15,9 @@ tags: ["mechanic"]
 subtaskIds: ["aoumg20hmql0rvmt"]
 dependencies: []
 createdAt: "2026-06-19T14:23:54.865Z"
-updatedAt: "2026-06-19T14:23:54.865Z"
+updatedAt: "2026-06-20T13:21:13.906Z"
+customFields:
+  ec675n8wmql0llfl: "Joen"
 ---
 
 Project: [[Mechanics|Mechanics]]

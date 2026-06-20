@@ -18,8 +18,4 @@ createdAt: "2026-06-19T14:24:01.253Z"
 updatedAt: "2026-06-19T14:24:01.253Z"
 ---
 
-Natural healing should be slow. Grace or Health Kits should be used to regain health.
-
-Grace from Elden Ring?
-
 Parent: [[resting|Resting]]

@@ -14,7 +14,7 @@ customFields:
 teamMembers: []
 savedViews: []
 createdAt: "2026-06-14T18:48:48.643Z"
-updatedAt: "2026-06-20T13:13:45.723Z"
+updatedAt: "2026-06-20T13:22:33.132Z"
 ---
 
 # 📋 Talents

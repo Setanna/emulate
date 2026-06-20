@@ -5,7 +5,7 @@ title: "Characteristics"
 description: ""
 color: "#ffffff"
 icon: "📊"
-taskIds: ["373um98umqmbcmgl"]
+taskIds: ["373um98umqmbcmgl", "6cpkwtsemqmdwym6"]
 customFields:
   - id: "lvbx8wwnmqmc11xk"
     name: "Original Contributer"
@@ -14,10 +14,11 @@ customFields:
 teamMembers: []
 savedViews: []
 createdAt: "2026-06-20T12:04:37.567Z"
-updatedAt: "2026-06-20T12:26:56.970Z"
+updatedAt: "2026-06-20T13:20:12.728Z"
 ---
 
 # 📊 Characteristics
 
 ## Tasks
 - [ ] [[pretty|Pretty]]
+- [ ] [[annoying|Annoying]]

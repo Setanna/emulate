@@ -6,7 +6,7 @@ id: "ngdc3maemqmdkiq1"
 title: "Temporary Ability Score Modifiers"
 type: "task"
 status: "todo"
-priority: "medium"
+priority: "critical"
 start: "2026-06-20"
 due: ""
 progress: 0
@@ -15,7 +15,9 @@ tags: ["mechanic"]
 subtaskIds: []
 dependencies: []
 createdAt: "2026-06-20T13:09:59.113Z"
-updatedAt: "2026-06-20T13:10:56.027Z"
+updatedAt: "2026-06-20T13:21:48.584Z"
+customFields:
+  ec675n8wmql0llfl: "Joen"
 ---
 
 If your Ability Score is increased or reduced, what happens for:

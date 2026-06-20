@@ -6,7 +6,7 @@ id: "373um98umqmbcmgl"
 title: "Pretty"
 type: "task"
 status: "todo"
-priority: "medium"
+priority: "low"
 start: "2026-06-20"
 due: ""
 progress: 0
@@ -15,7 +15,9 @@ tags: ["characteristic"]
 subtaskIds: ["7brkdrozmqmbcte3"]
 dependencies: []
 createdAt: "2026-06-20T12:07:51.477Z"
-updatedAt: "2026-06-20T12:07:51.477Z"
+updatedAt: "2026-06-20T13:20:07.161Z"
+customFields:
+  lvbx8wwnmqmc11xk: "Joen"
 ---
 
 Project: [[Characteristics|Characteristics]]

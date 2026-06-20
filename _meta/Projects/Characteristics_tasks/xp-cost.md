@@ -15,7 +15,9 @@ tags: ["idea"]
 subtaskIds: []
 dependencies: []
 createdAt: "2026-06-20T12:08:00.459Z"
-updatedAt: "2026-06-20T12:08:00.459Z"
+updatedAt: "2026-06-20T13:20:00.527Z"
+customFields:
+  lvbx8wwnmqmc11xk: "Joen"
 ---
 
 Effects all charisma skills but is cheaper than  observant?
