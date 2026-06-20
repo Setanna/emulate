@@ -1,4 +1,4 @@
-﻿---
+---
 xp: 4
 traits:
  - link: "[[Skill | Skill (Intimidation)]]"
@@ -13,6 +13,8 @@ await dv.view("_meta/Dataview/Components/characteristic_title");
 ```
 **System:**
 When you take the [[Intimidate]] Action, you can remove the [[Language]] Trait from it.
+
+<br>
 
 Additionally, for the [[Intimidate]] Action, your Charisma counts as one higher for determining how high you can increase a target's [[Frightened]] Condition.
 
