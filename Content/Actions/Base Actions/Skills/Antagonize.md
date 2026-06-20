@@ -29,6 +29,10 @@ Choose any number of Creatures. Choose [[Diplomacy]], [[Bluff]] or [[Intimidatio
 
 <br>
 
+You can not increase any target's [[Provoked | Provoked (Scapegoat)]] Value above your Charisma (Minimum 1).
+
+<br>
+
 **Critical Success:** The creature gains the [[Provoked | Provoked 2 (Scapegoat)]] Condition.
 **Success:** The creature gains the [[Provoked | Provoked 1 (Scapegoat)]] Condition.
 **Fail:** You fail to provoke the Enemy.
