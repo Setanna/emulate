@@ -12,7 +12,7 @@ due: ""
 progress: 0
 assignees: []
 tags: ["archetype"]
-subtaskIds: ["vsjfa9eomqfic247", "vb98hypfmqficjmc"]
+subtaskIds: ["vsjfa9eomqfic247", "vb98hypfmqficjmc", "zjtttf3amqmdgg2z"]
 dependencies: []
 createdAt: "2026-06-15T17:48:28.443Z"
 updatedAt: "2026-06-19T14:47:20.470Z"
@@ -25,3 +25,4 @@ Project: [[Talents|Talents]]
 ## Subtasks
 - [ ] [[undaunted-subarchetype|Undaunted Subarchetype]]
 - [ ] [[unbreakable-subarchetype|Unbreakable Subarchetype]]
+- [ ] [[should-be-able-to-use-rage-points-on-act|Should be able to use Rage Points on Active Actions or Talents]]

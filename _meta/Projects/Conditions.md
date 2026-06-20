@@ -5,7 +5,7 @@ title: "Conditions"
 description: ""
 color: "#15d545"
 icon: "🔬"
-taskIds: ["p2m2b4tdmql6bpqu"]
+taskIds: ["p2m2b4tdmql6bpqu", "kbso0k1hmqmdemto"]
 customFields:
   - id: "iyrh5ir9mql6bipx"
     name: "Original Contributer"
@@ -14,10 +14,11 @@ customFields:
 teamMembers: []
 savedViews: []
 createdAt: "2026-06-19T16:58:54.644Z"
-updatedAt: "2026-06-19T16:59:57.156Z"
+updatedAt: "2026-06-20T13:06:14.482Z"
 ---
 
 # 🔬 Conditions
 
 ## Tasks
 - [ ] [[provoked|Provoked]]
+- [ ] [[defeaned|Defeaned]]
