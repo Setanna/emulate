@@ -15,7 +15,7 @@ flavor_text:
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
 **Cost:**
-When you use the given Trigger, it gains a Cost of 1 [[Rules/Mechanics/Resources/Rage | Rage]] Point.
+When you use the given Trigger, it gains a Cost of 1 [[Rules/Mechanics/Resources/Rage | Rage Point]].
 
 <br>
 

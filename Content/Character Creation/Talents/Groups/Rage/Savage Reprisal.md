@@ -13,7 +13,7 @@ requires:
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
 **Cost:**
-When you use the [[Attack of Opportunity]] Action with the given Trigger. It gains an additional Cost of 1 [[Rules/Mechanics/Resources/Rage | Rage]] Point.
+When you use the [[Attack of Opportunity]] Action with the given Trigger. It gains an additional Cost of 1 [[Rules/Mechanics/Resources/Rage | Rage Point]].
 
 <br>
 

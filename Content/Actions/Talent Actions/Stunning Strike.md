@@ -14,7 +14,7 @@ await dv.view("_meta/Dataview/Components/action_title", {
 ```
 
 **Cost:**
-This action cost an additional 2 [[Rules/Mechanics/Resources/Ki | Ki]] Points to use.
+This action cost an additional 2 [[Rules/Mechanics/Resources/Ki | Ki Points]] to use.
 
 <br>
 

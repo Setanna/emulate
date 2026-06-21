@@ -12,5 +12,5 @@ requires:
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
 **System:**
-You gain a number of [[Rules/Mechanics/Resources/Ki | Ki]] Points equal to your Constitution + Wisdom.
+You gain a number of [[Rules/Mechanics/Resources/Ki | Ki Points]] equal to your Constitution + Wisdom.
 
