@@ -5,7 +5,7 @@ parentId: "lufugujfmqmdpnj4"
 id: "8a6h8zszmqmdq2ga"
 title: "Resource Point links should include Points in link"
 type: "task"
-status: "todo"
+status: "done"
 priority: "critical"
 start: "2026-06-20"
 due: ""
@@ -15,7 +15,8 @@ tags: ["idea"]
 subtaskIds: []
 dependencies: []
 createdAt: "2026-06-20T13:14:17.962Z"
-updatedAt: "2026-06-20T13:14:17.962Z"
+updatedAt: "2026-06-21T14:10:23.107Z"
+completed: "2026-06-21"
 customFields:
   3fgtir3smqmc0o38: "Christian"
 ---
