@@ -5,7 +5,7 @@ parentId: "1riur55mmqmdmy7b"
 id: "tgrqrfnwmqmdn6sw"
 title: "Spiked Augment should use the Spiked Trait"
 type: "task"
-status: "todo"
+status: "done"
 priority: "high"
 start: "2026-06-20"
 due: ""
@@ -15,7 +15,8 @@ tags: ["issue"]
 subtaskIds: []
 dependencies: []
 createdAt: "2026-06-20T13:12:03.632Z"
-updatedAt: "2026-06-20T13:12:51.221Z"
+updatedAt: "2026-06-21T18:00:25.293Z"
+completed: "2026-06-21"
 customFields:
   mazzaohkmql1prk7: "Joen"
 ---
