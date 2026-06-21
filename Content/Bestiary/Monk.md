@@ -52,7 +52,7 @@ The Monk tends to use [[Stunning Strike]] on key targets.
 | [[Iron Strikes]]                                        | +20  |
 | [[Steel Strikes]]                                       | +20  |
 | [[Iron Skin]]                                           | +18  |
-| [[Ki]]                                                  | +10  |
+| [[Rules/Mechanics/Resources/Ki]]                                                  | +10  |
 | [[Stunning Strikes]]                                    |  +8  |
 | [[Swift of Form]]                                       | +24  |
 | [[Pure of Body]]                                        | +24  |

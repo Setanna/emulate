@@ -13,4 +13,4 @@ await dv.view("_meta/Dataview/Components/background_title");
 ```
 
 **System:**
-You start with [[Clothes | Common Clothes]]; [[Skill Proficiency | Skill Proficiency (Intimidation)]]; [[Skill Proficiency | Skill Proficiency (Diplomacy)]]; [[Content/Character Creation/Talents/Groups/Rally/Rally | Rally]] and 10 Silver Coins.
+You start with [[Clothes | Common Clothes]]; [[Skill Proficiency | Skill Proficiency (Intimidation)]]; [[Skill Proficiency | Skill Proficiency (Diplomacy)]]; [[Content/Character Creation/Talents/Archetypes/Rally/Rally| Rally]] and 10 Silver Coins.

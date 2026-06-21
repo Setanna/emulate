@@ -1,10 +1,11 @@
 ---
-tags: [Martial/Barbarian]
+tags:
+  - Martial/Barbarian
 xp: 12
 traits:
- - link: "[[Emotion | Emotion (Anger)]]"
+  - link: "[[Emotion | Emotion (Anger)]]"
 requires:
-  - "[[Rage]]"
+  - "[[Content/Character Creation/Talents/Archetypes/Rage/Rage]]"
 ---
 
 ```dataviewjs
@@ -12,7 +13,7 @@ await dv.view("_meta/Dataview/Components/talent_title");
 ```
 
 **System:**
-Your [[Rage]] Action gain the following Triggers:
+Your [[Content/Character Creation/Talents/Archetypes/Rage/Rage]] Action gain the following Triggers:
 
 <br>
 

@@ -11,7 +11,7 @@ await dv.view("_meta/Dataview/Components/talent_title");
 ```
 
 **System:**
-You [[Content/Character Creation/Talents/Groups/Rally/Rally | Rally]] Action gains the following trigger:
+You [[Content/Character Creation/Talents/Archetypes/Rally/Rally| Rally]] Action gains the following trigger:
 
 <br>
 

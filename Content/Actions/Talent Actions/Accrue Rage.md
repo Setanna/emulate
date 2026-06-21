@@ -1,14 +1,14 @@
 ---
 seconds: 1
 traits:
- - link: "[[Emotion | Emotion (Anger)]]"
- - link: "[[Timed]]"
+  - link: "[[Emotion | Emotion (Anger)]]"
+  - link: "[[Timed]]"
 requires:
- - "[[Content/Character Creation/Talents/Groups/Rage/Rage | Rage]]"
+  - "[[Content/Character Creation/Talents/Archetypes/Rage/Rage| Rage]]"
 free_action_triggers:
- - text: "After you take or deal damage"
+  - text: After you take or deal damage
 flavor_text:
- - text: "Your rage grows, quiet but relentless"
+  - text: Your rage grows, quiet but relentless
 ---
 
 ```dataviewjs

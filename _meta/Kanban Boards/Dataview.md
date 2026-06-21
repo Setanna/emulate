@@ -17,7 +17,7 @@ kanban-plugin: board
 		- Should links have [[]] to allow easy finding?
 		- Should display have ""?
 	- [ ] **Backlinks**
-	- Properties do not properly show backlinks unless it is something like "[[Ki]]"
+	- Properties do not properly show backlinks unless it is something like "[[Rules/Mechanics/Resources/Ki]]"
 	
 	</details>
 - [ ] <details> 
