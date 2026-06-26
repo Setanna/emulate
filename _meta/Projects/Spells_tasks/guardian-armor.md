@@ -11,11 +11,11 @@ start: "2026-06-15"
 due: ""
 progress: 0
 assignees: []
-tags: ["idea"]
+tags: ["idea", "spell"]
 subtaskIds: []
 dependencies: []
 createdAt: "2026-06-15T16:50:02.181Z"
-updatedAt: "2026-06-20T17:59:27.494Z"
+updatedAt: "2026-06-26T15:14:39.057Z"
 customFields:
   vd3fzb2jmqfg5710: "Byg"
 ---
