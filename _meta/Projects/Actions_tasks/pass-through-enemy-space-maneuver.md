@@ -16,6 +16,8 @@ subtaskIds: []
 dependencies: []
 createdAt: "2026-06-19T16:57:22.205Z"
 updatedAt: "2026-06-19T16:57:22.205Z"
+customFields:
+  6gyt3t2wmqfililn: "Joen"
 ---
 
 Parent: [[maneuvers|Maneuvers]]

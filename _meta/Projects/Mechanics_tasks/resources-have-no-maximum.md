@@ -16,6 +16,8 @@ subtaskIds: []
 dependencies: []
 createdAt: "2026-06-20T13:11:09.090Z"
 updatedAt: "2026-06-20T13:11:09.090Z"
+customFields:
+  ec675n8wmql0llfl: "Joen"
 ---
 
 For some this is fine, for things like Ki this is so much not fine

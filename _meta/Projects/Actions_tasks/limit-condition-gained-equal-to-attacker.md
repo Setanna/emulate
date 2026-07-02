@@ -16,6 +16,8 @@ subtaskIds: []
 dependencies: []
 createdAt: "2026-06-20T13:09:24.764Z"
 updatedAt: "2026-06-21T14:09:41.062Z"
+customFields:
+  6gyt3t2wmqfililn: "Joen"
 completed: "2026-06-21"
 ---
 

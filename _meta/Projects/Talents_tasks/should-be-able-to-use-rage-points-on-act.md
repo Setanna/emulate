@@ -16,6 +16,8 @@ subtaskIds: []
 dependencies: []
 createdAt: "2026-06-20T13:06:49.067Z"
 updatedAt: "2026-06-20T13:06:49.067Z"
+customFields:
+  l84l2qxhmqe521vg: "Joen"
 ---
 
 Parent: [[rage-archetype|Rage Archetype]]

@@ -5,7 +5,7 @@ parentId:
 id: "p2m2b4tdmql6bpqu"
 title: "Provoked"
 type: "task"
-status: "todo"
+status: "done"
 priority: "low"
 start: "2026-06-19"
 due: ""
@@ -16,6 +16,7 @@ subtaskIds: ["ghtz9uohmql6bzfd"]
 dependencies: []
 createdAt: "2026-06-19T16:59:24.822Z"
 updatedAt: "2026-06-20T13:20:45.255Z"
+completed: "2026-07-02"
 customFields:
   iyrh5ir9mql6bipx: "Joen"
 ---

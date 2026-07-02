@@ -5,7 +5,7 @@ parentId:
 id: "kbso0k1hmqmdemto"
 title: "Defeaned"
 type: "task"
-status: "todo"
+status: "done"
 priority: "low"
 start: "2026-06-20"
 due: ""
@@ -16,6 +16,7 @@ subtaskIds: ["b63kc16pmqmdfdei"]
 dependencies: []
 createdAt: "2026-06-20T13:05:24.492Z"
 updatedAt: "2026-06-20T13:20:51.509Z"
+completed: "2026-07-02"
 customFields:
   iyrh5ir9mql6bipx: "Joen"
 ---

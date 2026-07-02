@@ -16,6 +16,8 @@ subtaskIds: []
 dependencies: []
 createdAt: "2026-06-20T12:09:45.773Z"
 updatedAt: "2026-06-20T12:13:25.907Z"
+customFields:
+  l84l2qxhmqe521vg: "Joen"
 ---
 
 Insanely overpowered. Stab once, run away and they bleed out. Realistic sure, but not very fun. Forces the GM to tailor enemies around this Talent

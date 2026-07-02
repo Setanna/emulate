@@ -5,7 +5,7 @@ parentId:
 id: "373um98umqmbcmgl"
 title: "Pretty"
 type: "task"
-status: "todo"
+status: "done"
 priority: "low"
 start: "2026-06-20"
 due: ""
@@ -16,6 +16,7 @@ subtaskIds: ["7brkdrozmqmbcte3"]
 dependencies: []
 createdAt: "2026-06-20T12:07:51.477Z"
 updatedAt: "2026-06-20T13:20:07.161Z"
+completed: "2026-07-02"
 customFields:
   lvbx8wwnmqmc11xk: "Joen"
 ---

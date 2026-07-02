@@ -5,7 +5,7 @@ parentId:
 id: "928hrjjomqmdb1u4"
 title: "Sight"
 type: "task"
-status: "todo"
+status: "done"
 priority: "low"
 start: "2026-06-20"
 due: ""
@@ -16,6 +16,7 @@ subtaskIds: []
 dependencies: []
 createdAt: "2026-06-20T13:02:37.324Z"
 updatedAt: "2026-06-20T13:22:43.994Z"
+completed: "2026-07-02"
 customFields:
   7lpbh5csmqmdakqz: "Joen"
 ---

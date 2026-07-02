@@ -12,10 +12,10 @@ due: ""
 progress: 0
 assignees: []
 tags: ["subarchetype"]
-subtaskIds: ["wjvmfktymqfidon2"]
+subtaskIds: ["wjvmfktymqfidon2", "iu75ok2yhmegq01p", "j1wh769xt770709n", "j8zhomo4eb6f08vr"]
 dependencies: []
 createdAt: "2026-06-15T17:49:21.876Z"
-updatedAt: "2026-06-19T14:33:03.915Z"
+updatedAt: "2026-07-02T00:00:00.000Z"
 customFields:
   l84l2qxhmqe521vg: "Joen"
 ---
@@ -24,3 +24,6 @@ Parent: [[rage-archetype|Rage Archetype]]
 
 ## Subtasks
 - [ ] [[make-some-proactive-talents-or-actions|Make some proactive Talents or Actions]]
+- [ ] [[enduring-rage|Enduring Rage]]
+- [ ] [[rage-forged-bolster|Rage-Forged Bolster]]
+- [ ] [[raging-vitality|Raging Vitality]]

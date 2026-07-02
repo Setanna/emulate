@@ -1,11 +1,11 @@
 ---
 pm-task: true
 projectId: "l109qkj5mqfil9mw"
-parentId:
+parentId: "564y3fh4yr9fzw10"
 id: "im0dhwzamqmdthi9"
 title: "Treat Wounds"
 type: "task"
-status: "todo"
+status: "done"
 priority: "low"
 start: "2026-06-20"
 due: ""
@@ -16,11 +16,12 @@ subtaskIds: ["7kupsn4mmqmdtqhj"]
 dependencies: []
 createdAt: "2026-06-20T13:16:57.441Z"
 updatedAt: "2026-06-20T13:16:57.441Z"
+completed: "2026-07-02"
 customFields:
   6gyt3t2wmqfililn: "Joen"
 ---
 
-Project: [[Actions|Actions]]
+Parent: [[skills|Skills]]
 
 ## Subtasks
 - [ ] [[should-be-able-to-use-action-without-med|Should be able to use Action without Medicine Kit]]
