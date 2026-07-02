@@ -66,6 +66,12 @@
       "tags": [
         "trait"
       ]
+    },
+    {
+      "label": "Spells",
+      "tags": [
+        "spell"
+      ]
     }
   ],
   "tagMode": "any",
