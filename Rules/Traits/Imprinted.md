@@ -3,7 +3,11 @@ A creature affected by an effect with the Imprinted Trait only resolves the init
 
 <br>
 
-While the creature remains subject to the effect, it does not attempt additional Saving Throws against that same instance of the effect. If the creature leaves and later re-enters the area during the same Preparation, it does not reroll; instead, it reuses its stored result.
+While the creature remains subject to the effect, it does not attempt additional Saving Throws against that same effect. If the creature leaves and later re-enters the area during the same Preparation, it does not reroll; instead, it reuses its stored result.
+
+<br>
+
+This applies regardless of which source is producing the effect. If a creature has a stored result for a named effect, that result is reused for all sources of that same effect during the current Preparation.
 
 <br>
 
