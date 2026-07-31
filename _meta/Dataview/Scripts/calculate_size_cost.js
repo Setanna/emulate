@@ -2,7 +2,7 @@
 export function calculateSizeCost(size, dv) {
     let total = 0;
     let rows = [];
-    let size_link = "Size";
+    let size_link = "Rules/Race/Size";
 
     // Get the costs table from the "Size" page
     let size_costs = dv.page(size_link)?.costs ?? [];

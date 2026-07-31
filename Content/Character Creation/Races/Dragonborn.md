@@ -14,8 +14,7 @@ purchases:
  - link: Skill Proficiency
    display: Skill Proficiency (Perception)
 traits:
- - link: "[[Size | Medium]]"
-   css: "size-trait"
+ - link: "[[Rules/Race/Size | Medium]]"
  - link: "[[Draconic]]"
  - link: "[[Humanoid]]"
 ---

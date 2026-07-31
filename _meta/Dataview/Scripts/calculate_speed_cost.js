@@ -2,7 +2,7 @@
 export function calculateSpeedCost(speed, dv) {
     let total = 0;
     let rows = [];
-    let speed_link = "Movement";
+    let speed_link = "Rules/Race/Movement";
 
     // Get the costs table from the "Movement" page
     let speed_costs = dv.page(speed_link)?.costs ?? [];

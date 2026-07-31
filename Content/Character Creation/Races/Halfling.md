@@ -7,8 +7,7 @@ purchases:
  - link: Fortunate
  - link: Lucky
 traits:
- - link: "[[Size | Medium]]"
-   css: "size-trait"
+ - link: "[[Rules/Race/Size | Medium]]"
  - link: "[[Humanoid]]"
 ---
 

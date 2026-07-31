@@ -7,8 +7,7 @@ purchases:
  - link: Tusks
  - link: Orcish Sight
 traits:
- - link: "[[Size | Medium]]"
-   css: "size-trait"
+ - link: "[[Rules/Race/Size | Medium]]"
  - link: "[[Humanoid]]"
 ---
 

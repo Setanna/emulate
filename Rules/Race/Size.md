@@ -1,6 +1,7 @@
 ---
 tags: []
 cssclass: pathfinder
+css: "size-trait"
 costs:
   - name: minute
     xp: -450

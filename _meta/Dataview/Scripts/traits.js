@@ -4,6 +4,11 @@ if (!page) return;
 
 let traits = page.traits ?? [];
 
+// Trait links are resolved relative to the page that declares them, since
+// link paths (eg. "Size") can be ambiguous between multiple files of the
+// same name elsewhere in the vault.
+let sourcePath = page.file?.path ?? "";
+
 let wrap = dv.container.createDiv("traits-wrapper");
 
 for (let trait of traits) {
@@ -11,7 +16,7 @@ for (let trait of traits) {
 
     // If the path can't be found, print missing trait instead.
     if (!path) {
-       printTrait("Missing Trait", "missing-trait", undefined); 
+       printTrait("Missing Trait", "missing-trait", undefined);
        continue;
     }
 
@@ -19,7 +24,9 @@ for (let trait of traits) {
 
     if (trait.value !== undefined) name = name + " " + trait.value;
 
-    let css = trait.css ?? "trait";
+    let dest = app.metadataCache.getFirstLinkpathDest(path, sourcePath);
+
+    let css = trait.css ?? (dest ? dv.page(dest.path)?.css : undefined) ?? "trait";
 
     printTrait(name, css, path);
 }
