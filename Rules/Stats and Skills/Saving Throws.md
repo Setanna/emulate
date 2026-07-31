@@ -4,7 +4,7 @@ cssclass: pathfinder
 ---
 
 # Saving Throws
-A creature has 3 saving throws: Reflex, Fortitude and Willpower.
+A creature has 3 saving throws: Reflex, Fortitude and Will.
 
 ### Reflex
 Reflex is a Dexterity based Roll used to avoid danger through ones reflexes.

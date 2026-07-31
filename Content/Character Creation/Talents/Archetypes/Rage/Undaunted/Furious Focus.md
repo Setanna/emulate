@@ -15,5 +15,5 @@ flavor_text:
 await dv.view("_meta/Dataview/Components/talent_title");
 ```
 **System:**
-Whenever you use the[[Content/Character Creation/Talents/Archetypes/Rage/Rage| Rage]]] Action, you also Roll a [[Saving Throws#Saving Throw Recovery Save| Will Recovery Saving Throw]].
+Whenever you use the [[Content/Character Creation/Talents/Archetypes/Rage/Rage| Rage]] Action, you also Roll a [[Saving Throws#Saving Throw Recovery Save | Will Recovery Saving Throw]].
 
